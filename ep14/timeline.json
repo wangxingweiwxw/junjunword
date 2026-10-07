@@ -1,0 +1,967 @@
+{
+ "duration": 208.256,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！嘀嗒嘀嗒，你听，是什么在响？今天，我们来学时间。",
+   "t0": 0.4,
+   "t1": 7.255,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "time",
+   "t0": 7.505,
+   "t1": 7.971,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "时间。",
+   "t0": 8.471,
+   "t1": 9.017,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "太阳升起又落下，就是一天：",
+   "t0": 9.867,
+   "t1": 12.24,
+   "cue": [
+    "map",
+    "show:day",
+    "focus:day"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "day",
+   "t0": 12.49,
+   "t1": 12.914,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "Have a nice day!",
+   "t0": 13.414,
+   "t1": 14.342,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "太阳刚刚升起，是早上：",
+   "t0": 15.442,
+   "t1": 17.629,
+   "cue": [
+    "show:morning",
+    "edge:day>morning",
+    "focus:morning"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "morning",
+   "t0": 17.879,
+   "t1": 18.433,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Good morning!",
+   "t0": 18.933,
+   "t1": 19.633,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "太阳升到头顶，影子变得最短，是中午：",
+   "t0": 20.733,
+   "t1": 24.331,
+   "cue": [
+    "show:noon",
+    "edge:morning>noon",
+    "focus:noon"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "noon",
+   "t0": 24.581,
+   "t1": 25.045,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "中间是两个字母 o。",
+   "t0": 25.545,
+   "t1": 27.039,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "中午过后，就是下午。在……之后，加上中午：",
+   "t0": 27.889,
+   "t1": 32.491,
+   "cue": [
+    "show:afternoon",
+    "edge:noon>afternoon",
+    "focus:afternoon",
+    "alt:afternoon"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "after",
+   "t0": 32.741,
+   "t1": 33.259,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "noon",
+   "t0": 33.759,
+   "t1": 34.223,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "afternoon",
+   "t0": 34.723,
+   "t1": 35.473,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "Good afternoon!",
+   "t0": 35.973,
+   "t1": 36.815,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "太阳慢慢落山，天边红红的，是傍晚：",
+   "t0": 37.915,
+   "t1": 41.443,
+   "cue": [
+    "show:evening",
+    "edge:afternoon>evening",
+    "focus:evening"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "evening",
+   "t0": 41.693,
+   "t1": 42.216,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Good evening!",
+   "t0": 42.716,
+   "t1": 43.352,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "月亮和星星出来了，是夜晚：",
+   "t0": 44.452,
+   "t1": 46.848,
+   "cue": [
+    "show:night",
+    "edge:evening>night",
+    "focus:night"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "night",
+   "t0": 47.098,
+   "t1": 47.594,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "还记得吗？g h 又不发音了。睡觉前，我们说：",
+   "t0": 48.094,
+   "t1": 53.357,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "Good night!",
+   "t0": 53.607,
+   "t1": 54.233,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "夜里最深最深的时候，大家都睡着了，是半夜。中间，加上夜晚：",
+   "t0": 55.333,
+   "t1": 61.73,
+   "cue": [
+    "show:midnight",
+    "edge:night>midnight",
+    "focus:midnight",
+    "alt:midnight"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "mid",
+   "t0": 61.98,
+   "t1": 62.371,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "night",
+   "t0": 62.871,
+   "t1": 63.366,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "midnight",
+   "t0": 63.866,
+   "t1": 64.481,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "见面打招呼，要看是什么时候：",
+   "t0": 65.581,
+   "t1": 68.079,
+   "cue": [
+    "focus:morning,afternoon,evening,night"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Good morning!",
+   "t0": 68.329,
+   "t1": 69.028,
+   "cue": [
+    "focus:morning"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Good afternoon!",
+   "t0": 69.528,
+   "t1": 70.371,
+   "cue": [
+    "focus:afternoon"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Good evening!",
+   "t0": 70.871,
+   "t1": 71.507,
+   "cue": [
+    "focus:evening"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "晚上道别、睡觉前，才说",
+   "t0": 72.007,
+   "t1": 74.599,
+   "cue": [
+    "focus:night"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Good night!",
+   "t0": 74.849,
+   "t1": 75.475,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "一分一秒地过去，看不见也摸不着的，是时间：",
+   "t0": 76.575,
+   "t1": 80.584,
+   "cue": [
+    "show:time",
+    "focus:time"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "time",
+   "t0": 80.834,
+   "t1": 81.3,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "What time is it?",
+   "t0": 81.8,
+   "t1": 82.786,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "想知道时间，就看看钟：",
+   "t0": 83.886,
+   "t1": 85.97,
+   "cue": [
+    "show:clock",
+    "edge:time>clock",
+    "focus:clock"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "clock",
+   "t0": 86.22,
+   "t1": 86.716,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Look at the clock.",
+   "t0": 87.216,
+   "t1": 88.196,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "长针指着十二，短针指着三，就是三点整。整点，要说",
+   "t0": 89.296,
+   "t1": 95.098,
+   "cue": [
+    "show:oclock",
+    "edge:clock>oclock",
+    "focus:oclock"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "o'clock",
+   "t0": 95.348,
+   "t1": 95.974,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "three o'clock",
+   "t0": 96.474,
+   "t1": 97.291,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "它只能用在整点哦。",
+   "t0": 97.791,
+   "t1": 99.272,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "在几点钟做一件事，前面要加上小词",
+   "t0": 100.122,
+   "t1": 103.5,
+   "cue": [
+    "show:at",
+    "edge:at>oclock",
+    "edge:at>midnight",
+    "focus:at"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "at",
+   "t0": 103.75,
+   "t1": 104.16,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "at three o'clock",
+   "t0": 104.66,
+   "t1": 105.669,
+   "cue": [
+    "focus:at,oclock"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "at midnight",
+   "t0": 106.169,
+   "t1": 106.964,
+   "cue": [
+    "focus:at,midnight"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "I have a party at four o'clock.",
+   "t0": 107.464,
+   "t1": 109.308,
+   "cue": [
+    "focus:at,oclock"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "钟上的短针走一大格，就是一个小时：",
+   "t0": 110.408,
+   "t1": 113.505,
+   "cue": [
+    "show:hour",
+    "edge:clock>hour",
+    "focus:hour"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "hour",
+   "t0": 113.755,
+   "t1": 114.17,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "小提示：开头的 h 不发音，所以前面要用",
+   "t0": 114.67,
+   "t1": 118.559,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "an hour",
+   "t0": 118.809,
+   "t1": 119.401,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "长针走一小格，是一分钟：",
+   "t0": 120.501,
+   "t1": 122.724,
+   "cue": [
+    "show:minute",
+    "edge:clock>minute",
+    "focus:minute"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "minute",
+   "t0": 122.974,
+   "t1": 123.468,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Wait a minute!",
+   "t0": 123.968,
+   "t1": 124.757,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "细细的秒针嗒地跳一下，是一秒：",
+   "t0": 125.857,
+   "t1": 128.597,
+   "cue": [
+    "show:second",
+    "edge:clock>second",
+    "focus:second"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "second",
+   "t0": 128.847,
+   "t1": 129.446,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "这个词还有一个意思：第二。",
+   "t0": 129.946,
+   "t1": 132.267,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "我们从大到小排一排：",
+   "t0": 133.117,
+   "t1": 134.706,
+   "cue": [
+    "focus:hour,minute,second"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "hour",
+   "t0": 134.956,
+   "t1": 135.371,
+   "cue": [
+    "focus:hour"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "minute",
+   "t0": 135.871,
+   "t1": 136.366,
+   "cue": [
+    "focus:minute"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "second",
+   "t0": 136.866,
+   "t1": 137.465,
+   "cue": [
+    "focus:second"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "一小时有六十分钟，一分钟有六十秒：",
+   "t0": 137.965,
+   "t1": 141.124,
+   "cue": [
+    "focus:hour,minute"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "sixty minutes in an hour",
+   "t0": 141.374,
+   "t1": 142.897,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "sixty seconds in a minute",
+   "t0": 143.397,
+   "t1": 145.014,
+   "cue": [
+    "focus:minute,second"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "很多个，在后面加上字母 s：",
+   "t0": 146.114,
+   "t1": 148.816,
+   "cue": [
+    "focus:hour"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "hours",
+   "t0": 149.066,
+   "t1": 149.613,
+   "cue": [
+    "plural:hour"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "minutes",
+   "t0": 150.113,
+   "t1": 150.729,
+   "cue": [
+    "plural:minute",
+    "focus:minute"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "seconds",
+   "t0": 151.229,
+   "t1": 151.943,
+   "cue": [
+    "plural:second",
+    "focus:second"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "days",
+   "t0": 152.443,
+   "t1": 152.988,
+   "cue": [
+    "plural:day",
+    "focus:day"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "zh",
+   "text": "我们来说一说，小明的一天吧！",
+   "t0": 154.088,
+   "t1": 156.395,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "I get up at seven o'clock in the morning.",
+   "t0": 157.245,
+   "t1": 159.387,
+   "cue": [
+    "focus:morning,oclock"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "I eat lunch at noon.",
+   "t0": 159.887,
+   "t1": 161.158,
+   "cue": [
+    "focus:noon"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "I play in the afternoon.",
+   "t0": 161.658,
+   "t1": 163.082,
+   "cue": [
+    "focus:afternoon"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "I go to bed at nine o'clock at night.",
+   "t0": 163.582,
+   "t1": 165.681,
+   "cue": [
+    "focus:night,oclock"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 166.781,
+   "t1": 170.031,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "day, days",
+   "t0": 170.881,
+   "t1": 172.079,
+   "cue": [
+    "focus:day"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "morning",
+   "t0": 173.179,
+   "t1": 173.734,
+   "cue": [
+    "focus:morning"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "noon",
+   "t0": 174.834,
+   "t1": 175.297,
+   "cue": [
+    "focus:noon"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "afternoon",
+   "t0": 176.397,
+   "t1": 177.147,
+   "cue": [
+    "focus:afternoon"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "evening",
+   "t0": 178.247,
+   "t1": 178.769,
+   "cue": [
+    "focus:evening"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "night",
+   "t0": 179.869,
+   "t1": 180.365,
+   "cue": [
+    "focus:night"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "midnight",
+   "t0": 181.465,
+   "t1": 182.08,
+   "cue": [
+    "focus:midnight"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "time",
+   "t0": 183.18,
+   "t1": 183.646,
+   "cue": [
+    "focus:time"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "clock",
+   "t0": 184.746,
+   "t1": 185.243,
+   "cue": [
+    "focus:clock"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "o'clock",
+   "t0": 186.343,
+   "t1": 186.969,
+   "cue": [
+    "focus:oclock"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "at",
+   "t0": 188.069,
+   "t1": 188.479,
+   "cue": [
+    "focus:at"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "hour, hours",
+   "t0": 189.579,
+   "t1": 190.743,
+   "cue": [
+    "focus:hour"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "en",
+   "text": "minute, minutes",
+   "t0": 191.843,
+   "t1": 193.101,
+   "cue": [
+    "focus:minute"
+   ]
+  },
+  {
+   "seg": 34,
+   "lang": "en",
+   "text": "second, seconds",
+   "t0": 194.201,
+   "t1": 195.691,
+   "cue": [
+    "focus:second"
+   ]
+  },
+  {
+   "seg": 35,
+   "lang": "zh",
+   "text": "太棒了！今天晚上，看着钟，用英语说一说现在几点了吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 196.791,
+   "t1": 206.406,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "day": [
+   0.25,
+   0.674
+  ],
+  "day:pl": [
+   0.924,
+   1.47
+  ],
+  "morning": [
+   1.72,
+   2.274
+  ],
+  "noon": [
+   2.524,
+   2.987
+  ],
+  "afternoon": [
+   3.237,
+   3.987
+  ],
+  "afternoon:alt": [
+   4.237,
+   5.402
+  ],
+  "evening": [
+   5.652,
+   6.174
+  ],
+  "night": [
+   6.424,
+   6.92
+  ],
+  "midnight": [
+   7.17,
+   7.785
+  ],
+  "midnight:alt": [
+   8.035,
+   9.115
+  ],
+  "time": [
+   9.365,
+   9.831
+  ],
+  "clock": [
+   10.081,
+   10.577
+  ],
+  "oclock": [
+   10.827,
+   11.454
+  ],
+  "at": [
+   11.704,
+   12.114
+  ],
+  "hour": [
+   12.364,
+   12.78
+  ],
+  "hour:pl": [
+   13.03,
+   13.577
+  ],
+  "minute": [
+   13.827,
+   14.322
+  ],
+  "minute:pl": [
+   14.572,
+   15.187
+  ],
+  "second": [
+   15.437,
+   16.036
+  ],
+  "second:pl": [
+   16.286,
+   17.0
+  ]
+ }
+}

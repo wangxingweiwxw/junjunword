@@ -75,7 +75,7 @@ ep04+ 的 `lesson.json` 由同目录的 `lesson.py` 生成（`python3 ep04/lesso
 | ep11 numbers 11–19 | numbers eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen | 3:12 |
 | ep12 party | invite invitation guest please celebrate among without age forget remember remind excuse | 2:49 |
 | ep13 schoolbag | schoolbag(bookbag) book dictionary notebook paper pen pencil eraser ruler crayon | 2:23 |
-| ep14 | （源视频缺失，未做） | – |
+| ep14 time | day morning noon afternoon evening night midnight time clock o'clock at hour minute second | 3:28 |
 | ep15 sports (2) | sports choose(choice) baseball throw hit swimming swim training strong weak quick coach encourage spirit | 2:50 |
 | ep16 face | face eye ear nose mouth tooth(teeth) tongue chin throat chest brain mind | 2:38 |
 | ep17 senses | sense see sight hear listen hearing smell taste sweet salty sour bitter touch feel | 2:48 |

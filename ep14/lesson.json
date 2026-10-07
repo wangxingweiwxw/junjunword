@@ -1,0 +1,937 @@
+{
+ "id": "ep14",
+ "title": "time",
+ "titleZh": "时间",
+ "episode": "第 14 集",
+ "titleIcon": "clock",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1660
+  ]
+ },
+ "nodes": [
+  {
+   "id": "day",
+   "word": "day",
+   "ipa": "/deɪ/",
+   "zh": "一天；白天",
+   "icon": "day",
+   "plural": "days",
+   "pluralIpa": "/deɪz/",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "morning",
+   "word": "morning",
+   "ipa": "/ˈmɔːrnɪŋ/",
+   "zh": "早上；上午",
+   "icon": "morning",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "noon",
+   "word": "noon",
+   "ipa": "/nuːn/",
+   "zh": "中午",
+   "icon": "noon",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "afternoon",
+   "word": "afternoon",
+   "ipa": "/ˌæftərˈnuːn/",
+   "zh": "下午",
+   "icon": "afternoon",
+   "alt": "after + noon",
+   "altLabel": "=",
+   "atP": [
+    750,
+    490
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "evening",
+   "word": "evening",
+   "ipa": "/ˈiːvnɪŋ/",
+   "zh": "傍晚；晚上",
+   "icon": "evening",
+   "atP": [
+    150,
+    490
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "night",
+   "word": "night",
+   "ipa": "/naɪt/",
+   "zh": "夜晚",
+   "icon": "night",
+   "atP": [
+    150,
+    830
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "midnight",
+   "word": "midnight",
+   "ipa": "/ˈmɪdnaɪt/",
+   "zh": "半夜",
+   "icon": "midnight",
+   "alt": "mid + night",
+   "altLabel": "=",
+   "atP": [
+    450,
+    830
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "time",
+   "word": "time",
+   "ipa": "/taɪm/",
+   "zh": "时间",
+   "icon": "time",
+   "atP": [
+    150,
+    1170
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "clock",
+   "word": "clock",
+   "ipa": "/klɑːk/",
+   "zh": "钟",
+   "icon": "clock",
+   "atP": [
+    450,
+    1170
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "oclock",
+   "word": "o'clock",
+   "ipa": "/əˈklɑːk/",
+   "zh": "……点钟",
+   "icon": "oclock",
+   "kind": "adv",
+   "atP": [
+    750,
+    1170
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "at",
+   "word": "at",
+   "ipa": "/æt/",
+   "zh": "在（某时刻）",
+   "icon": "at",
+   "kind": "prep",
+   "atP": [
+    750,
+    830
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "hour",
+   "word": "hour",
+   "ipa": "/ˈaʊər/",
+   "zh": "小时",
+   "icon": "hour",
+   "plural": "hours",
+   "pluralIpa": "/ˈaʊərz/",
+   "atP": [
+    150,
+    1510
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "minute",
+   "word": "minute",
+   "ipa": "/ˈmɪnɪt/",
+   "zh": "分钟",
+   "icon": "minute",
+   "plural": "minutes",
+   "pluralIpa": "/ˈmɪnɪts/",
+   "atP": [
+    450,
+    1510
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "second",
+   "word": "second",
+   "ipa": "/ˈsekənd/",
+   "zh": "秒",
+   "icon": "second",
+   "plural": "seconds",
+   "pluralIpa": "/ˈsekəndz/",
+   "atP": [
+    750,
+    1510
+   ],
+   "at": [
+    900,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "day",
+   "to": "morning"
+  },
+  {
+   "from": "morning",
+   "to": "noon"
+  },
+  {
+   "from": "noon",
+   "to": "afternoon",
+   "label": "after"
+  },
+  {
+   "from": "afternoon",
+   "to": "evening"
+  },
+  {
+   "from": "evening",
+   "to": "night"
+  },
+  {
+   "from": "night",
+   "to": "midnight",
+   "label": "mid"
+  },
+  {
+   "from": "time",
+   "to": "clock"
+  },
+  {
+   "from": "clock",
+   "to": "oclock"
+  },
+  {
+   "from": "clock",
+   "to": "hour"
+  },
+  {
+   "from": "clock",
+   "to": "minute"
+  },
+  {
+   "from": "clock",
+   "to": "second"
+  },
+  {
+   "from": "at",
+   "to": "oclock",
+   "dashed": true
+  },
+  {
+   "from": "at",
+   "to": "midnight",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！嘀嗒嘀嗒，你听，是什么在响？今天，我们来学时间。"
+    },
+    {
+     "en": "time"
+    },
+    {
+     "zh": "时间。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:day",
+    "focus:day"
+   ],
+   "parts": [
+    {
+     "zh": "太阳升起又落下，就是一天："
+    },
+    {
+     "en": "day"
+    },
+    {
+     "en": "Have a nice day!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:morning",
+    "edge:day>morning",
+    "focus:morning"
+   ],
+   "parts": [
+    {
+     "zh": "太阳刚刚升起，是早上："
+    },
+    {
+     "en": "morning"
+    },
+    {
+     "en": "Good morning!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:noon",
+    "edge:morning>noon",
+    "focus:noon"
+   ],
+   "parts": [
+    {
+     "zh": "太阳升到头顶，影子变得最短，是中午："
+    },
+    {
+     "en": "noon"
+    },
+    {
+     "zh": "中间是两个字母 o。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:afternoon",
+    "edge:noon>afternoon",
+    "focus:afternoon"
+   ],
+   "parts": [
+    {
+     "zh": "中午过后，就是下午。在……之后，加上中午：",
+     "cue": [
+      "alt:afternoon"
+     ]
+    },
+    {
+     "en": "after"
+    },
+    {
+     "en": "noon"
+    },
+    {
+     "en": "afternoon"
+    },
+    {
+     "en": "Good afternoon!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:evening",
+    "edge:afternoon>evening",
+    "focus:evening"
+   ],
+   "parts": [
+    {
+     "zh": "太阳慢慢落山，天边红红的，是傍晚："
+    },
+    {
+     "en": "evening"
+    },
+    {
+     "en": "Good evening!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:night",
+    "edge:evening>night",
+    "focus:night"
+   ],
+   "parts": [
+    {
+     "zh": "月亮和星星出来了，是夜晚："
+    },
+    {
+     "en": "night"
+    },
+    {
+     "zh": "还记得吗？g h 又不发音了。睡觉前，我们说："
+    },
+    {
+     "en": "Good night!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:midnight",
+    "edge:night>midnight",
+    "focus:midnight"
+   ],
+   "parts": [
+    {
+     "zh": "夜里最深最深的时候，大家都睡着了，是半夜。中间，加上夜晚：",
+     "cue": [
+      "alt:midnight"
+     ]
+    },
+    {
+     "en": "mid"
+    },
+    {
+     "en": "night"
+    },
+    {
+     "en": "midnight"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:morning,afternoon,evening,night"
+   ],
+   "parts": [
+    {
+     "zh": "见面打招呼，要看是什么时候："
+    },
+    {
+     "en": "Good morning!",
+     "cue": [
+      "focus:morning"
+     ]
+    },
+    {
+     "en": "Good afternoon!",
+     "cue": [
+      "focus:afternoon"
+     ]
+    },
+    {
+     "en": "Good evening!",
+     "cue": [
+      "focus:evening"
+     ]
+    },
+    {
+     "zh": "晚上道别、睡觉前，才说",
+     "cue": [
+      "focus:night"
+     ]
+    },
+    {
+     "en": "Good night!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:time",
+    "focus:time"
+   ],
+   "parts": [
+    {
+     "zh": "一分一秒地过去，看不见也摸不着的，是时间："
+    },
+    {
+     "en": "time"
+    },
+    {
+     "en": "What time is it?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:clock",
+    "edge:time>clock",
+    "focus:clock"
+   ],
+   "parts": [
+    {
+     "zh": "想知道时间，就看看钟："
+    },
+    {
+     "en": "clock"
+    },
+    {
+     "en": "Look at the clock."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:oclock",
+    "edge:clock>oclock",
+    "focus:oclock"
+   ],
+   "parts": [
+    {
+     "zh": "长针指着十二，短针指着三，就是三点整。整点，要说"
+    },
+    {
+     "en": "o'clock"
+    },
+    {
+     "en": "three o'clock"
+    },
+    {
+     "zh": "它只能用在整点哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:at",
+    "edge:at>oclock",
+    "edge:at>midnight",
+    "focus:at"
+   ],
+   "parts": [
+    {
+     "zh": "在几点钟做一件事，前面要加上小词"
+    },
+    {
+     "en": "at"
+    },
+    {
+     "en": "at three o'clock",
+     "cue": [
+      "focus:at,oclock"
+     ]
+    },
+    {
+     "en": "at midnight",
+     "cue": [
+      "focus:at,midnight"
+     ]
+    },
+    {
+     "en": "I have a party at four o'clock.",
+     "cue": [
+      "focus:at,oclock"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hour",
+    "edge:clock>hour",
+    "focus:hour"
+   ],
+   "parts": [
+    {
+     "zh": "钟上的短针走一大格，就是一个小时："
+    },
+    {
+     "en": "hour"
+    },
+    {
+     "zh": "小提示：开头的 h 不发音，所以前面要用"
+    },
+    {
+     "en": "an hour"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:minute",
+    "edge:clock>minute",
+    "focus:minute"
+   ],
+   "parts": [
+    {
+     "zh": "长针走一小格，是一分钟："
+    },
+    {
+     "en": "minute"
+    },
+    {
+     "en": "Wait a minute!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:second",
+    "edge:clock>second",
+    "focus:second"
+   ],
+   "parts": [
+    {
+     "zh": "细细的秒针嗒地跳一下，是一秒："
+    },
+    {
+     "en": "second"
+    },
+    {
+     "zh": "这个词还有一个意思：第二。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hour,minute,second"
+   ],
+   "parts": [
+    {
+     "zh": "我们从大到小排一排："
+    },
+    {
+     "en": "hour",
+     "cue": [
+      "focus:hour"
+     ]
+    },
+    {
+     "en": "minute",
+     "cue": [
+      "focus:minute"
+     ]
+    },
+    {
+     "en": "second",
+     "cue": [
+      "focus:second"
+     ]
+    },
+    {
+     "zh": "一小时有六十分钟，一分钟有六十秒：",
+     "cue": [
+      "focus:hour,minute"
+     ]
+    },
+    {
+     "en": "sixty minutes in an hour"
+    },
+    {
+     "en": "sixty seconds in a minute",
+     "cue": [
+      "focus:minute,second"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hour"
+   ],
+   "parts": [
+    {
+     "zh": "很多个，在后面加上字母 s："
+    },
+    {
+     "en": "hours",
+     "cue": [
+      "plural:hour"
+     ]
+    },
+    {
+     "en": "minutes",
+     "cue": [
+      "plural:minute",
+      "focus:minute"
+     ]
+    },
+    {
+     "en": "seconds",
+     "cue": [
+      "plural:second",
+      "focus:second"
+     ]
+    },
+    {
+     "en": "days",
+     "cue": [
+      "plural:day",
+      "focus:day"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们来说一说，小明的一天吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "I get up at seven o'clock in the morning.",
+     "cue": [
+      "focus:morning,oclock"
+     ]
+    },
+    {
+     "en": "I eat lunch at noon.",
+     "cue": [
+      "focus:noon"
+     ]
+    },
+    {
+     "en": "I play in the afternoon.",
+     "cue": [
+      "focus:afternoon"
+     ]
+    },
+    {
+     "en": "I go to bed at nine o'clock at night.",
+     "cue": [
+      "focus:night,oclock"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:day"
+   ],
+   "parts": [
+    {
+     "en": "day, days"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:morning"
+   ],
+   "parts": [
+    {
+     "en": "morning"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:noon"
+   ],
+   "parts": [
+    {
+     "en": "noon"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:afternoon"
+   ],
+   "parts": [
+    {
+     "en": "afternoon"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:evening"
+   ],
+   "parts": [
+    {
+     "en": "evening"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:night"
+   ],
+   "parts": [
+    {
+     "en": "night"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:midnight"
+   ],
+   "parts": [
+    {
+     "en": "midnight"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:time"
+   ],
+   "parts": [
+    {
+     "en": "time"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:clock"
+   ],
+   "parts": [
+    {
+     "en": "clock"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:oclock"
+   ],
+   "parts": [
+    {
+     "en": "o'clock"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:at"
+   ],
+   "parts": [
+    {
+     "en": "at"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hour"
+   ],
+   "parts": [
+    {
+     "en": "hour, hours"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:minute"
+   ],
+   "parts": [
+    {
+     "en": "minute, minutes"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:second"
+   ],
+   "parts": [
+    {
+     "en": "second, seconds"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！今天晚上，看着钟，用英语说一说现在几点了吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

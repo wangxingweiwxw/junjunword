@@ -1001,6 +1001,54 @@
        <path d="M60 36 v48 M36 60 h48" stroke="#E0A100" stroke-width="12" stroke-linecap="round"/>`,
   });
 
+  // ---------- ep14 time / day ----------
+  const clockF = (cx, cy, r, h, m, o = {}) => {
+    const ang = (v, n) => (v / n) * 360;
+    const hand = (a, len, w, c) => `<path d="M${cx} ${cy} L${cx + len * Math.sin(a * Math.PI / 180)} ${cy - len * Math.cos(a * Math.PI / 180)}" stroke="${c}" stroke-width="${w}" stroke-linecap="round"/>`;
+    return `<circle cx="${cx}" cy="${cy}" r="${r}" fill="#fff" stroke="${o.rim || '#3D8BFD'}" stroke-width="${r / 7}"/>
+      ${Array.from({length: 12}, (_, i) => `<path d="M${cx} ${cy - r * .78} v${i % 3 ? r * .08 : r * .16}" stroke="#8A8FA3" stroke-width="${i % 3 ? 2 : 3.5}" transform="rotate(${i * 30} ${cx} ${cy})"/>`).join('')}
+      ${o.glow ? `<path d="M${cx} ${cy} L${cx + r * .7 * Math.sin(ang(o.glow[0], o.glow[1]) * Math.PI / 180)} ${cy - r * .7 * Math.cos(ang(o.glow[0], o.glow[1]) * Math.PI / 180)}" stroke="#FFD23F" stroke-width="${r / 3.2}" stroke-linecap="round" opacity=".85"/>` : ''}
+      ${hand(ang(h + m / 60, 12), r * .45, r / 9, o.hc || INK)}${hand(ang(m, 60), r * .68, r / 13, o.mc || INK)}
+      ${o.sec != null ? hand(ang(o.sec, 60), r * .74, r / 26, '#E63946') : ''}<circle cx="${cx}" cy="${cy}" r="${r / 12}" fill="${INK}"/>`;
+  };
+  const sky = (top, ground = '#8EDB6E') => `<rect x="4" y="4" width="112" height="112" rx="18" fill="${top}"/>
+      <path d="M4 86 H116 V98 a18 18 0 0 1 -18 18 H22 a18 18 0 0 1 -18 -18Z" fill="${ground}"/>`;
+  const moon = (x, y, r, c = '#FFE08A', bg = '#2B2D6E') => `<circle cx="${x}" cy="${y}" r="${r}" fill="${c}"/><circle cx="${x + r * .45}" cy="${y - r * .3}" r="${r * .85}" fill="${bg}"/>`;
+  const twinkles = (pts) => pts.map(([x, y, k]) => star(x, y, k, k * .42, '#FFF3C4')).join('');
+  Object.assign(ART, {
+    day: () => `<rect x="4" y="4" width="112" height="112" rx="18" fill="#BDE7FF"/>` + sun(60, 54, 24, true)
+       + cloud(26, 96, .6) + cloud(96, 100, .55),
+    morning: () => sky('#FFE3C2') + sun(30, 82, 16, true).replace('<g transform', '<g opacity="1" transform')
+       + `<path d="M4 86 H116 V98 a18 18 0 0 1 -18 18 H22 a18 18 0 0 1 -18 -18Z" fill="#8EDB6E"/>` + cloud(86, 36, .5),
+    noon: () => sky('#7FC8F8') + sun(60, 42, 14, true) + `<path d="M60 70 v14" stroke="#3B2A20" stroke-width="5"/><ellipse cx="60" cy="88" rx="10" ry="3" fill="#3FA34D"/>`,
+    afternoon: () => sky('#A8DAFF') + sun(82, 56, 13, true) + cloud(36, 40, .55),
+    evening: () => sky('#FF9F6B', '#6B4A6E') + `<rect x="4" y="44" width="112" height="44" fill="#FFC09F"/>`
+       + `<path d="M24 86 a36 30 0 0 1 72 0z" fill="#FF7A59"/>`
+       + `<path d="M4 86 H116 V98 a18 18 0 0 1 -18 18 H22 a18 18 0 0 1 -18 -18Z" fill="#6B4A6E"/>`
+       + `<path d="M30 30 l6 3 l6 -3 M70 22 l5 2.5 l5 -2.5" stroke="#5A3825" stroke-width="2.5" fill="none" stroke-linecap="round"/>`,
+    night: () => `<rect x="4" y="4" width="112" height="112" rx="18" fill="#2B2D6E"/>` + moon(70, 50, 24)
+       + twinkles([[24, 28, 7], [36, 74, 5], [96, 92, 6], [100, 22, 5], [20, 98, 4]]),
+    midnight: () => `<rect x="4" y="4" width="112" height="112" rx="18" fill="#1B1D4A"/>` + moon(34, 34, 16, '#FFE08A', '#1B1D4A')
+       + clockF(70, 72, 32, 12, 0, {rim: '#9B5DE5'}) + twinkles([[96, 22, 5], [18, 92, 5]]),
+    time: () => `<rect x="30" y="8" width="60" height="10" rx="4" fill="#8D5A3B"/><rect x="30" y="102" width="60" height="10" rx="4" fill="#8D5A3B"/>
+       <path d="M36 18 H84 C84 44 64 52 64 60 C64 68 84 76 84 102 H36 C36 76 56 68 56 60 C56 52 36 44 36 18Z" fill="#E3F4FF" stroke="#8A8FA3" stroke-width="3"/>
+       <path d="M44 30 H76 C74 42 62 48 60 56 C58 48 46 42 44 30Z" fill="#FFB703"/><path d="M40 100 C44 86 54 82 60 80 C66 82 76 86 80 100Z" fill="#FFB703"/>
+       <path d="M60 58 v22" stroke="#FFB703" stroke-width="2" stroke-dasharray="2 3"/>`,
+    clock: () => `<path d="M30 20 l-14 -10 M90 20 l14 -10" stroke="#E63946" stroke-width="6" stroke-linecap="round"/>
+       <circle cx="22" cy="18" r="12" fill="#E63946"/><circle cx="98" cy="18" r="12" fill="#E63946"/>
+       <path d="M36 102 l-8 12 M84 102 l8 12" stroke="${INK}" stroke-width="6" stroke-linecap="round"/>` + clockF(60, 64, 44, 10, 10, {rim: '#E63946'}),
+    oclock: () => clockF(60, 52, 40, 3, 0, {rim: '#2FA36B'})
+       + `<rect x="26" y="96" width="68" height="22" rx="8" fill="#2B2D42"/><text x="60" y="113" text-anchor="middle" font-size="17" ${FONT} fill="#6CFF8F" letter-spacing="1">3:00</text>`,
+    at: () => `<path d="M8 84 H112" stroke="#C5CBE0" stroke-width="6" stroke-linecap="round"/>
+       ${[16, 38, 60, 82, 104].map((x, i) => `<path d="M${x} 78 v12" stroke="#8A8FA3" stroke-width="3"/><text x="${x}" y="108" text-anchor="middle" font-size="12" ${FONT} fill="#8A8FA3">${i + 1}</text>`).join('')}
+       <path d="M60 76 C60 64 42 56 42 40 a18 18 0 0 1 36 0 C78 56 60 64 60 76Z" fill="#E0A100"/><circle cx="60" cy="40" r="8" fill="#fff"/>
+       <circle cx="60" cy="84" r="6" fill="#E0A100"/>`,
+    hour: () => clockF(60, 60, 48, 4, 0, {rim: '#FF7A59', glow: [4, 12], hc: '#E63946'}),
+    minute: () => clockF(60, 60, 48, 2, 40, {rim: '#3D8BFD', glow: [40, 60], mc: '#2A6FD6'}),
+    second: () => `<rect x="52" y="4" width="16" height="12" rx="3" fill="#8A8FA3"/><path d="M92 26 l8 -8" stroke="#8A8FA3" stroke-width="6" stroke-linecap="round"/>`
+       + clockF(60, 66, 44, 0, 0, {rim: '#2BB3A3', sec: 20}) + `<path d="M60 66 L60 26 A40 40 0 0 1 94.6 86Z" fill="#E63946" opacity=".15"/>`,
+  });
+
   function svg(name, plural) {
     const art = ART[name];
     if (!art) return `<div class="vp-emoji">${name}</div>`;
