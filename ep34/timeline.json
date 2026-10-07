@@ -1,0 +1,605 @@
+{
+ "duration": 140.075,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！我们的家，就像一棵大树。今天，我们来画一画家族树。",
+   "t0": 0.4,
+   "t1": 7.276,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "family tree",
+   "t0": 7.526,
+   "t1": 8.399,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "一个男人结婚了，他就是丈夫：",
+   "t0": 9.498,
+   "t1": 11.996,
+   "cue": [
+    "map",
+    "show:husband",
+    "focus:husband"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "husband",
+   "t0": 12.246,
+   "t1": 12.799,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "和他结婚的女人，是妻子：",
+   "t0": 13.899,
+   "t1": 16.134,
+   "cue": [
+    "show:wife",
+    "focus:wife"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "wife",
+   "t0": 16.384,
+   "t1": 16.867,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "丈夫和妻子在一起，是一对夫妻：",
+   "t0": 17.967,
+   "t1": 20.719,
+   "cue": [
+    "show:couple",
+    "edge:husband>couple",
+    "edge:wife>couple",
+    "focus:couple"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "couple",
+   "t0": 20.969,
+   "t1": 21.427,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "这个词也可以表示一对：",
+   "t0": 21.927,
+   "t1": 23.844,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "a couple of apples",
+   "t0": 24.094,
+   "t1": 25.304,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "他们有了孩子，就成了孩子的父母。还记得第二集吗？",
+   "t0": 26.404,
+   "t1": 31.16,
+   "cue": [
+    "show:parents",
+    "edge:couple>parents",
+    "focus:parents"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "parents",
+   "t0": 31.41,
+   "t1": 31.994,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "爸爸的爸爸的爸爸……很久很久以前的老祖宗，是祖先：",
+   "t0": 33.094,
+   "t1": 37.559,
+   "cue": [
+    "show:ancestor",
+    "edge:ancestor>parents",
+    "focus:ancestor"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "ancestor",
+   "t0": 37.809,
+   "t1": 38.601,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "同一对父母的男孩子，是兄弟：",
+   "t0": 39.701,
+   "t1": 42.302,
+   "cue": [
+    "show:brother",
+    "edge:parents>brother",
+    "focus:brother"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "brother",
+   "t0": 42.552,
+   "t1": 43.014,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "my big brother",
+   "t0": 43.514,
+   "t1": 44.453,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "女孩子，是姐妹：",
+   "t0": 45.553,
+   "t1": 47.165,
+   "cue": [
+    "show:sister",
+    "edge:parents>sister",
+    "focus:sister"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "sister",
+   "t0": 47.415,
+   "t1": 48.058,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "my little sister",
+   "t0": 48.558,
+   "t1": 49.687,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "同一天出生、长得几乎一样的两个孩子，是双胞胎：",
+   "t0": 50.787,
+   "t1": 55.014,
+   "cue": [
+    "show:twins",
+    "edge:brother>twins",
+    "edge:sister>twins",
+    "focus:twins"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "twins",
+   "t0": 55.264,
+   "t1": 55.848,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "还记得第三十一集吗？",
+   "t0": 56.348,
+   "t1": 57.984,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "They look the same!",
+   "t0": 58.234,
+   "t1": 59.271,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "家人之间，流着一样的血，这叫血缘：",
+   "t0": 60.371,
+   "t1": 63.763,
+   "cue": [
+    "show:blood",
+    "focus:blood"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "blood",
+   "t0": 64.013,
+   "t1": 64.452,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "中间的两个 o，读短短的 a。",
+   "t0": 64.952,
+   "t1": 67.335,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "家人之间的联系，叫",
+   "t0": 68.185,
+   "t1": 70.046,
+   "cue": [
+    "show:relation",
+    "edge:blood>relation",
+    "focus:relation"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "relation",
+   "t0": 70.296,
+   "t1": 71.065,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "在后面加上 s h i p，就是关系：",
+   "t0": 72.165,
+   "t1": 75.334,
+   "cue": [
+    "show:relationship",
+    "edge:relation>relationship",
+    "focus:relationship"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "relationship",
+   "t0": 75.584,
+   "t1": 76.528,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "a good relationship",
+   "t0": 77.028,
+   "t1": 78.311,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "最后学一个小词：虽然。",
+   "t0": 79.411,
+   "t1": 81.57,
+   "cue": [
+    "show:although",
+    "focus:although"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "although",
+   "t0": 81.82,
+   "t1": 82.366,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "Although we are not twins, we look the same.",
+   "t0": 82.866,
+   "t1": 85.582,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "一个妻子是",
+   "t0": 86.682,
+   "t1": 87.685,
+   "cue": [
+    "focus:wife"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "wife",
+   "t0": 87.935,
+   "t1": 88.417,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "很多个，要把 f 变成 v e s：",
+   "t0": 88.917,
+   "t1": 91.68,
+   "cue": [
+    "plural:wife"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "wives",
+   "t0": 91.93,
+   "t1": 92.493,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "我们来介绍一下家族树吧！",
+   "t0": 93.593,
+   "t1": 95.569,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "My father and mother are a couple.",
+   "t0": 96.419,
+   "t1": 98.328,
+   "cue": [
+    "focus:couple"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "I have a brother and a sister.",
+   "t0": 98.828,
+   "t1": 100.503,
+   "cue": [
+    "focus:brother,sister"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "We are a happy family!",
+   "t0": 101.003,
+   "t1": 102.354,
+   "cue": [
+    "focus:relationship"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 103.454,
+   "t1": 106.704,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "husband",
+   "t0": 107.554,
+   "t1": 108.107,
+   "cue": [
+    "focus:husband"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "wife, wives",
+   "t0": 109.207,
+   "t1": 110.422,
+   "cue": [
+    "focus:wife"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "couple",
+   "t0": 111.522,
+   "t1": 111.98,
+   "cue": [
+    "focus:couple"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "parents",
+   "t0": 113.08,
+   "t1": 113.664,
+   "cue": [
+    "focus:parents"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "ancestor",
+   "t0": 114.764,
+   "t1": 115.555,
+   "cue": [
+    "focus:ancestor"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "brother",
+   "t0": 116.655,
+   "t1": 117.117,
+   "cue": [
+    "focus:brother"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "sister",
+   "t0": 118.217,
+   "t1": 118.86,
+   "cue": [
+    "focus:sister"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "twins",
+   "t0": 119.96,
+   "t1": 120.544,
+   "cue": [
+    "focus:twins"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "blood",
+   "t0": 121.644,
+   "t1": 122.083,
+   "cue": [
+    "focus:blood"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "relation",
+   "t0": 123.183,
+   "t1": 123.952,
+   "cue": [
+    "focus:relation"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "relationship",
+   "t0": 125.052,
+   "t1": 125.995,
+   "cue": [
+    "focus:relationship"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "although",
+   "t0": 127.095,
+   "t1": 127.641,
+   "cue": [
+    "focus:although"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "zh",
+   "text": "太棒了！试着画一棵你自己的家族树，用英语标上每个人吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 128.741,
+   "t1": 138.225,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "ancestor": [
+   0.25,
+   1.042
+  ],
+  "parents": [
+   1.292,
+   1.876
+  ],
+  "brother": [
+   2.126,
+   2.588
+  ],
+  "sister": [
+   2.838,
+   3.481
+  ],
+  "twins": [
+   3.731,
+   4.314
+  ],
+  "husband": [
+   4.564,
+   5.118
+  ],
+  "wife": [
+   5.368,
+   5.85
+  ],
+  "wife:pl": [
+   6.1,
+   6.663
+  ],
+  "couple": [
+   6.913,
+   7.37
+  ],
+  "blood": [
+   7.62,
+   8.059
+  ],
+  "relation": [
+   8.309,
+   9.078
+  ],
+  "relationship": [
+   9.328,
+   10.272
+  ],
+  "although": [
+   10.522,
+   11.067
+  ]
+ }
+}

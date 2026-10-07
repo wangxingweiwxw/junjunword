@@ -1,0 +1,825 @@
+{
+ "id": "ep39",
+ "title": "feelings",
+ "titleZh": "情绪",
+ "episode": "第 39 集",
+ "titleIcon": "feeling",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "feeling",
+   "word": "feeling",
+   "ipa": "/ˈfiːlɪŋ/",
+   "zh": "感觉；情绪",
+   "icon": "feeling",
+   "alt": "feel",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "happy",
+   "word": "happy",
+   "ipa": "/ˈhæpi/",
+   "zh": "开心的",
+   "icon": "happy",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "smile",
+   "word": "smile",
+   "ipa": "/smaɪl/",
+   "zh": "微笑",
+   "icon": "smile",
+   "kind": "verb",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "like",
+   "word": "like",
+   "ipa": "/laɪk/",
+   "zh": "喜欢",
+   "icon": "like",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "excited",
+   "word": "excited",
+   "ipa": "/ɪkˈsaɪtɪd/",
+   "zh": "兴奋的",
+   "icon": "excited",
+   "kind": "adj",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "surprised",
+   "word": "surprised",
+   "ipa": "/sərˈpraɪzd/",
+   "zh": "惊讶的",
+   "icon": "surprised",
+   "kind": "adj",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "sudden",
+   "word": "sudden",
+   "ipa": "/ˈsʌdn/",
+   "zh": "突然的",
+   "icon": "sudden",
+   "kind": "adj",
+   "alt": "suddenly",
+   "altLabel": "+ly",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "mad",
+   "word": "mad",
+   "ipa": "/mæd/",
+   "zh": "生气的",
+   "icon": "mad",
+   "kind": "adj",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "sad",
+   "word": "sad",
+   "ipa": "/sæd/",
+   "zh": "伤心的",
+   "icon": "sad",
+   "kind": "adj",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "cry",
+   "word": "cry",
+   "ipa": "/kraɪ/",
+   "zh": "哭",
+   "icon": "cry",
+   "kind": "verb",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "tears",
+   "word": "tears",
+   "ipa": "/tɪrz/",
+   "zh": "眼泪",
+   "icon": "tears",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "afraid",
+   "word": "afraid",
+   "ipa": "/əˈfreɪd/",
+   "zh": "害怕的",
+   "icon": "afraid",
+   "kind": "adj",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  },
+  {
+   "id": "scared",
+   "word": "scared",
+   "ipa": "/skerd/",
+   "zh": "吓坏的",
+   "icon": "scared",
+   "kind": "adj",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "fear",
+   "word": "fear",
+   "ipa": "/fɪr/",
+   "zh": "恐惧",
+   "icon": "fear",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "feeling",
+   "to": "happy"
+  },
+  {
+   "from": "happy",
+   "to": "smile"
+  },
+  {
+   "from": "smile",
+   "to": "like",
+   "dashed": true
+  },
+  {
+   "from": "feeling",
+   "to": "excited"
+  },
+  {
+   "from": "feeling",
+   "to": "surprised"
+  },
+  {
+   "from": "surprised",
+   "to": "sudden",
+   "label": "因为"
+  },
+  {
+   "from": "feeling",
+   "to": "mad"
+  },
+  {
+   "from": "feeling",
+   "to": "sad"
+  },
+  {
+   "from": "sad",
+   "to": "cry"
+  },
+  {
+   "from": "cry",
+   "to": "tears"
+  },
+  {
+   "from": "sad",
+   "to": "afraid",
+   "dashed": true
+  },
+  {
+   "from": "afraid",
+   "to": "scared",
+   "label": "更怕"
+  },
+  {
+   "from": "scared",
+   "to": "fear"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！你今天心情怎么样？今天，我们来学表达情绪的单词。"
+    },
+    {
+     "en": "feelings"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:feeling",
+    "focus:feeling"
+   ],
+   "parts": [
+    {
+     "zh": "心里的感受，是感觉、情绪："
+    },
+    {
+     "en": "feeling"
+    },
+    {
+     "zh": "它来自第十七集学过的",
+     "cue": [
+      "alt:feeling"
+     ]
+    },
+    {
+     "en": "feel"
+    },
+    {
+     "en": "How are you feeling?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:happy",
+    "edge:feeling>happy",
+    "focus:happy"
+   ],
+   "parts": [
+    {
+     "zh": "心里乐开了花，是开心的："
+    },
+    {
+     "en": "happy"
+    },
+    {
+     "en": "I'm happy!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:smile",
+    "edge:happy>smile",
+    "focus:smile"
+   ],
+   "parts": [
+    {
+     "zh": "开心的时候，我们会微笑："
+    },
+    {
+     "en": "smile"
+    },
+    {
+     "en": "Smile!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:like",
+    "edge:smile>like",
+    "focus:like"
+   ],
+   "parts": [
+    {
+     "zh": "看到喜欢的东西，眼睛都亮了。喜欢，英语是"
+    },
+    {
+     "en": "like"
+    },
+    {
+     "en": "I like you!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:excited",
+    "edge:feeling>excited",
+    "focus:excited"
+   ],
+   "parts": [
+    {
+     "zh": "要去游乐园啦，激动得跳起来，是兴奋的："
+    },
+    {
+     "en": "excited"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:surprised",
+    "edge:feeling>surprised",
+    "focus:surprised"
+   ],
+   "parts": [
+    {
+     "zh": "没想到的事情发生了，眼睛瞪得圆圆的，是惊讶的："
+    },
+    {
+     "en": "surprised"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sudden",
+    "edge:surprised>sudden",
+    "focus:sudden"
+   ],
+   "parts": [
+    {
+     "zh": "让人吃惊的事，常常是突然发生的："
+    },
+    {
+     "en": "sudden"
+    },
+    {
+     "zh": "加上 l y，就是突然地：",
+     "cue": [
+      "alt:sudden"
+     ]
+    },
+    {
+     "en": "suddenly"
+    },
+    {
+     "en": "Suddenly, it rained!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:mad",
+    "edge:feeling>mad",
+    "focus:mad"
+   ],
+   "parts": [
+    {
+     "zh": "气鼓鼓的，是生气的："
+    },
+    {
+     "en": "mad"
+    },
+    {
+     "en": "Don't be mad."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sad",
+    "edge:feeling>sad",
+    "focus:sad"
+   ],
+   "parts": [
+    {
+     "zh": "心里难过，是伤心的："
+    },
+    {
+     "en": "sad"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cry",
+    "edge:sad>cry",
+    "focus:cry"
+   ],
+   "parts": [
+    {
+     "zh": "太伤心了，就会哭："
+    },
+    {
+     "en": "cry"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tears",
+    "edge:cry>tears",
+    "focus:tears"
+   ],
+   "parts": [
+    {
+     "zh": "哭的时候，流下的是眼泪："
+    },
+    {
+     "en": "tears"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:afraid",
+    "focus:afraid"
+   ],
+   "parts": [
+    {
+     "zh": "怕黑、怕打雷，是害怕的："
+    },
+    {
+     "en": "afraid"
+    },
+    {
+     "en": "I'm afraid of the dark."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:scared",
+    "edge:afraid>scared",
+    "focus:scared"
+   ],
+   "parts": [
+    {
+     "zh": "被吓了一大跳，是吓坏的："
+    },
+    {
+     "en": "scared"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fear",
+    "edge:scared>fear",
+    "focus:fear"
+   ],
+   "parts": [
+    {
+     "zh": "心里的害怕，叫恐惧："
+    },
+    {
+     "en": "fear"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:excited,surprised,scared"
+   ],
+   "parts": [
+    {
+     "zh": "你发现了吗？好多表示感觉的词，都是 e d 结尾的："
+    },
+    {
+     "en": "excited",
+     "cue": [
+      "focus:excited"
+     ]
+    },
+    {
+     "en": "surprised",
+     "cue": [
+      "focus:surprised"
+     ]
+    },
+    {
+     "en": "scared",
+     "cue": [
+      "focus:scared"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:happy,sad"
+   ],
+   "parts": [
+    {
+     "zh": "一开心，一伤心："
+    },
+    {
+     "en": "happy",
+     "cue": [
+      "focus:happy"
+     ]
+    },
+    {
+     "en": "sad",
+     "cue": [
+      "focus:sad"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们来做一做表情吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Show me happy!",
+     "cue": [
+      "focus:happy"
+     ]
+    },
+    {
+     "en": "Show me sad!",
+     "cue": [
+      "focus:sad"
+     ]
+    },
+    {
+     "en": "Show me surprised!",
+     "cue": [
+      "focus:surprised"
+     ]
+    },
+    {
+     "en": "Show me mad!",
+     "cue": [
+      "focus:mad"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:feeling"
+   ],
+   "parts": [
+    {
+     "en": "feeling"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:happy"
+   ],
+   "parts": [
+    {
+     "en": "happy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:smile"
+   ],
+   "parts": [
+    {
+     "en": "smile"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:like"
+   ],
+   "parts": [
+    {
+     "en": "like"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:excited"
+   ],
+   "parts": [
+    {
+     "en": "excited"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:surprised"
+   ],
+   "parts": [
+    {
+     "en": "surprised"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sudden"
+   ],
+   "parts": [
+    {
+     "en": "sudden, suddenly"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:mad"
+   ],
+   "parts": [
+    {
+     "en": "mad"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sad"
+   ],
+   "parts": [
+    {
+     "en": "sad"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cry"
+   ],
+   "parts": [
+    {
+     "en": "cry"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tears"
+   ],
+   "parts": [
+    {
+     "en": "tears"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:afraid"
+   ],
+   "parts": [
+    {
+     "en": "afraid"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:scared"
+   ],
+   "parts": [
+    {
+     "en": "scared"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fear"
+   ],
+   "parts": [
+    {
+     "en": "fear"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！每天放学，用英语说一说你今天的心情吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

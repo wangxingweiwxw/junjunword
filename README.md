@@ -92,3 +92,13 @@ ep04+ 的 `lesson.json` 由同目录的 `lesson.py` 生成（`python3 ep04/lesso
 | ep28 measures | tall short long straight inch thick thin a lot much weigh half quarter | 2:41 |
 | ep29 clubs | club join chess painting imagine photo camera background camping tent magazine article poem inspiration | 2:36 |
 | ep30 music | sound noise music concert piano violin guitar drum song sing voice terrible | 2:29 |
+| ep31 compare | compare same different as good well bad badly quite great cool | 2:17 |
+| ep32 time words | today yesterday tomorrow past future tonight daily(everyday) all day since until(till) | 2:24 |
+| ep33 learning | learn read story write spell spelling understand repeat teach explain example clear speak speech | 2:41 |
+| ep34 family tree | husband wife couple parents ancestor brother sister twins blood relation relationship although | 2:20 |
+| ep35 jobs | job become(became) artist scientist dentist engineer driver pilot cook doctor nurse | 2:10 |
+| ep36 week | week Monday … Sunday weekday weekend on before after | 2:28 |
+| ep37 farm | farm field grass plant tree leaf(leaves) pig sheep horse cow hen lay egg fox | 2:20 |
+| ep38 rooms | room bedroom living room kitchen bathroom ceiling toilet restroom washroom toothbrush soap towel | 2:19 |
+| ep39 feelings | feeling happy smile like excited surprised sudden(suddenly) mad sad cry tears afraid scared fear | 2:30 |
+| ep40 drinks | thirsty(thirst) drink water milk juice coffee beer soup cup enough satisfy | 2:00 |

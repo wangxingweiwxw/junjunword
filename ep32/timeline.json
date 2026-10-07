@@ -1,0 +1,630 @@
+{
+ "duration": 143.601,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！时间像一条长长的线，一直往前走。今天，我们来学时间词。",
+   "t0": 0.4,
+   "t1": 8.053,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "我们就站在这条线的中间，今天：",
+   "t0": 8.903,
+   "t1": 11.678,
+   "cue": [
+    "map",
+    "show:today",
+    "focus:today"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "today",
+   "t0": 11.928,
+   "t1": 12.417,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "还记得第十四集的天吗？to 加上 day。",
+   "t0": 12.917,
+   "t1": 16.299,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "What day is it today?",
+   "t0": 16.549,
+   "t1": 17.695,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "今天往前一天，是昨天：",
+   "t0": 18.795,
+   "t1": 20.942,
+   "cue": [
+    "show:yesterday",
+    "edge:yesterday>today",
+    "focus:yesterday"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "yesterday",
+   "t0": 21.192,
+   "t1": 21.922,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "今天往后一天，是明天：",
+   "t0": 23.022,
+   "t1": 25.123,
+   "cue": [
+    "show:tomorrow",
+    "edge:today>tomorrow",
+    "focus:tomorrow"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "tomorrow",
+   "t0": 25.373,
+   "t1": 26.075,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "小提示：一个 m，两个 r。",
+   "t0": 26.575,
+   "t1": 29.065,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "See you tomorrow!",
+   "t0": 29.315,
+   "t1": 30.34,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "昨天、前天、去年，已经过去的时间，都叫过去：",
+   "t0": 31.44,
+   "t1": 36.095,
+   "cue": [
+    "show:past",
+    "edge:past>yesterday",
+    "focus:past"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "past",
+   "t0": 36.345,
+   "t1": 36.874,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "明天、后天、明年，还没有来的时间，叫未来：",
+   "t0": 37.974,
+   "t1": 42.471,
+   "cue": [
+    "show:future",
+    "edge:tomorrow>future",
+    "focus:future"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "future",
+   "t0": 42.721,
+   "t1": 43.319,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "in the future",
+   "t0": 43.819,
+   "t1": 44.715,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "我们沿着时间线，从过去走到未来：",
+   "t0": 45.815,
+   "t1": 48.81,
+   "cue": [
+    "focus:past,yesterday,today,tomorrow,future"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "past",
+   "t0": 49.06,
+   "t1": 49.588,
+   "cue": [
+    "focus:past"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "yesterday",
+   "t0": 50.088,
+   "t1": 50.819,
+   "cue": [
+    "focus:yesterday"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "today",
+   "t0": 51.319,
+   "t1": 51.808,
+   "cue": [
+    "focus:today"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "tomorrow",
+   "t0": 52.308,
+   "t1": 53.01,
+   "cue": [
+    "focus:tomorrow"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "future",
+   "t0": 53.51,
+   "t1": 54.109,
+   "cue": [
+    "focus:future"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "今天的晚上，就是今晚。to 加上夜晚：",
+   "t0": 55.209,
+   "t1": 59.065,
+   "cue": [
+    "show:tonight",
+    "edge:today>tonight",
+    "focus:tonight"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "tonight",
+   "t0": 59.315,
+   "t1": 59.867,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "See you tonight.",
+   "t0": 60.367,
+   "t1": 61.325,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "每一天都要做的事，是每天的：",
+   "t0": 62.425,
+   "t1": 64.93,
+   "cue": [
+    "show:daily",
+    "focus:daily"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "daily",
+   "t0": 65.18,
+   "t1": 65.701,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "也可以说",
+   "t0": 66.201,
+   "t1": 66.992,
+   "cue": [
+    "alt:daily"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "everyday",
+   "t0": 67.242,
+   "t1": 67.901,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "my daily life",
+   "t0": 68.401,
+   "t1": 69.53,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "从早到晚，整整一天，是",
+   "t0": 70.63,
+   "t1": 73.231,
+   "cue": [
+    "show:allday",
+    "focus:allday"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "all day",
+   "t0": 73.481,
+   "t1": 74.125,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "I play all day.",
+   "t0": 74.625,
+   "t1": 75.715,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "从过去的某个时候开始，一直到现在，用",
+   "t0": 76.815,
+   "t1": 80.413,
+   "cue": [
+    "show:since",
+    "edge:since>today",
+    "focus:since"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "since",
+   "t0": 80.663,
+   "t1": 81.232,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "since yesterday",
+   "t0": 81.732,
+   "t1": 82.753,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "一直到将来的某个时候才结束，用",
+   "t0": 83.853,
+   "t1": 86.763,
+   "cue": [
+    "show:until",
+    "edge:today>until",
+    "focus:until"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "until",
+   "t0": 87.013,
+   "t1": 87.65,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "短一点的说法是",
+   "t0": 88.15,
+   "t1": 89.473,
+   "cue": [
+    "alt:until"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "till",
+   "t0": 89.723,
+   "t1": 90.17,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Wait until tomorrow.",
+   "t0": 90.67,
+   "t1": 91.939,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "一个从……开始，一个到……为止：",
+   "t0": 93.039,
+   "t1": 95.915,
+   "cue": [
+    "focus:since,until"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "since",
+   "t0": 96.165,
+   "t1": 96.734,
+   "cue": [
+    "focus:since"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "until",
+   "t0": 97.234,
+   "t1": 97.871,
+   "cue": [
+    "focus:until"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "说一说你的一天吧！",
+   "t0": 98.971,
+   "t1": 100.287,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Yesterday, I went to the park.",
+   "t0": 101.137,
+   "t1": 103.08,
+   "cue": [
+    "focus:yesterday"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Today, I am at school.",
+   "t0": 103.58,
+   "t1": 105.221,
+   "cue": [
+    "focus:today"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Tomorrow, I will visit Grandma.",
+   "t0": 105.721,
+   "t1": 107.814,
+   "cue": [
+    "focus:tomorrow"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 108.914,
+   "t1": 112.164,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "today",
+   "t0": 113.014,
+   "t1": 113.504,
+   "cue": [
+    "focus:today"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "yesterday",
+   "t0": 114.604,
+   "t1": 115.334,
+   "cue": [
+    "focus:yesterday"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "tomorrow",
+   "t0": 116.434,
+   "t1": 117.136,
+   "cue": [
+    "focus:tomorrow"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "past",
+   "t0": 118.236,
+   "t1": 118.765,
+   "cue": [
+    "focus:past"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "future",
+   "t0": 119.865,
+   "t1": 120.463,
+   "cue": [
+    "focus:future"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "tonight",
+   "t0": 121.563,
+   "t1": 122.116,
+   "cue": [
+    "focus:tonight"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "daily, everyday",
+   "t0": 123.216,
+   "t1": 124.641,
+   "cue": [
+    "focus:daily"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "all day",
+   "t0": 125.741,
+   "t1": 126.385,
+   "cue": [
+    "focus:allday"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "since",
+   "t0": 127.485,
+   "t1": 128.054,
+   "cue": [
+    "focus:since"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "until, till",
+   "t0": 129.154,
+   "t1": 130.417,
+   "cue": [
+    "focus:until"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "zh",
+   "text": "太棒了！睡觉前，用英语说一说今天做了什么，明天想做什么吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 131.517,
+   "t1": 141.751,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "past": [
+   0.25,
+   0.779
+  ],
+  "yesterday": [
+   1.029,
+   1.759
+  ],
+  "today": [
+   2.009,
+   2.498
+  ],
+  "tomorrow": [
+   2.748,
+   3.45
+  ],
+  "future": [
+   3.7,
+   4.299
+  ],
+  "tonight": [
+   4.549,
+   5.102
+  ],
+  "daily": [
+   5.352,
+   5.872
+  ],
+  "daily:alt": [
+   6.122,
+   6.781
+  ],
+  "allday": [
+   7.031,
+   7.675
+  ],
+  "since": [
+   7.925,
+   8.494
+  ],
+  "until": [
+   8.744,
+   9.381
+  ],
+  "until:alt": [
+   9.631,
+   10.078
+  ]
+ }
+}

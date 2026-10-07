@@ -1,0 +1,581 @@
+{
+ "duration": 120.254,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！刚跑完步，嗓子干干的。今天，我们来学喝的东西！",
+   "t0": 0.4,
+   "t1": 6.954,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "drinks",
+   "t0": 7.204,
+   "t1": 7.795,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "嗓子干干的，想喝水，是口渴的：",
+   "t0": 8.895,
+   "t1": 11.946,
+   "cue": [
+    "map",
+    "show:thirsty",
+    "focus:thirsty"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "thirsty",
+   "t0": 12.196,
+   "t1": 12.778,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "去掉最后的 y，就是口渴这件事：",
+   "t0": 13.278,
+   "t1": 16.032,
+   "cue": [
+    "alt:thirsty"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "thirst",
+   "t0": 16.282,
+   "t1": 16.73,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "I'm thirsty!",
+   "t0": 17.23,
+   "t1": 18.062,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "口渴了，就要喝东西：",
+   "t0": 19.163,
+   "t1": 21.031,
+   "cue": [
+    "show:drink",
+    "edge:thirsty>drink",
+    "focus:drink"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "drink",
+   "t0": 21.281,
+   "t1": 21.767,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "这个词也可以表示饮料。",
+   "t0": 22.267,
+   "t1": 24.232,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Let's have a drink.",
+   "t0": 24.482,
+   "t1": 25.532,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "最健康的，是白开水：",
+   "t0": 26.632,
+   "t1": 28.62,
+   "cue": [
+    "show:water",
+    "edge:drink>water",
+    "focus:water"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "water",
+   "t0": 28.87,
+   "t1": 29.335,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "白白的牛奶：",
+   "t0": 30.435,
+   "t1": 31.445,
+   "cue": [
+    "show:milk",
+    "edge:drink>milk",
+    "focus:milk"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "milk",
+   "t0": 31.695,
+   "t1": 32.103,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "I drink milk every morning.",
+   "t0": 32.603,
+   "t1": 34.228,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "用水果榨的果汁：",
+   "t0": 35.328,
+   "t1": 36.738,
+   "cue": [
+    "show:juice",
+    "edge:drink>juice",
+    "focus:juice"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "juice",
+   "t0": 36.988,
+   "t1": 37.464,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "orange juice",
+   "t0": 37.964,
+   "t1": 38.921,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "爸爸妈妈早上爱喝咖啡：",
+   "t0": 40.021,
+   "t1": 42.113,
+   "cue": [
+    "show:coffee",
+    "edge:drink>coffee",
+    "focus:coffee"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "coffee",
+   "t0": 42.363,
+   "t1": 42.899,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "两个 f，两个 e。",
+   "t0": 43.399,
+   "t1": 44.984,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "这个是啤酒：",
+   "t0": 45.834,
+   "t1": 46.814,
+   "cue": [
+    "show:beer",
+    "edge:drink>beer",
+    "focus:beer"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "beer",
+   "t0": 47.064,
+   "t1": 47.448,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "它是大人喝的，小朋友可不能喝哦。",
+   "t0": 47.948,
+   "t1": 50.678,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "热乎乎的汤，也可以喝：",
+   "t0": 51.528,
+   "t1": 53.531,
+   "cue": [
+    "show:soup",
+    "edge:drink>soup",
+    "focus:soup"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "soup",
+   "t0": 53.781,
+   "t1": 54.238,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "hot soup",
+   "t0": 54.738,
+   "t1": 55.454,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "喝东西，要用杯子：",
+   "t0": 56.554,
+   "t1": 58.3,
+   "cue": [
+    "show:cup",
+    "edge:cup>drink",
+    "focus:cup"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "cup",
+   "t0": 58.55,
+   "t1": 58.908,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "a cup of milk",
+   "t0": 59.408,
+   "t1": 60.369,
+   "cue": [
+    "focus:cup,milk"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "喝够了，就是足够的：",
+   "t0": 61.469,
+   "t1": 63.277,
+   "cue": [
+    "show:enough",
+    "focus:enough"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "enough",
+   "t0": 63.527,
+   "t1": 64.064,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "最后的 g h，读成 f。",
+   "t0": 64.564,
+   "t1": 66.734,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "That's enough.",
+   "t0": 66.984,
+   "t1": 67.783,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "喝饱了，心里很满足。使满足，英语是",
+   "t0": 68.883,
+   "t1": 73.207,
+   "cue": [
+    "show:satisfy",
+    "edge:enough>satisfy",
+    "focus:satisfy"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "satisfy",
+   "t0": 73.457,
+   "t1": 74.325,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "我们来演一演，去饮品店点饮料吧！",
+   "t0": 75.425,
+   "t1": 78.178,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "I'm thirsty.",
+   "t0": 79.028,
+   "t1": 79.887,
+   "cue": [
+    "focus:thirsty"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "What would you like to drink?",
+   "t0": 80.387,
+   "t1": 81.695,
+   "cue": [
+    "focus:drink"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "A cup of orange juice, please.",
+   "t0": 82.195,
+   "t1": 84.326,
+   "cue": [
+    "focus:cup,juice"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "Thank you! That's enough.",
+   "t0": 84.826,
+   "t1": 87.395,
+   "cue": [
+    "focus:enough"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 88.495,
+   "t1": 91.746,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "thirsty, thirst",
+   "t0": 92.596,
+   "t1": 93.86,
+   "cue": [
+    "focus:thirsty"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "drink",
+   "t0": 94.96,
+   "t1": 95.446,
+   "cue": [
+    "focus:drink"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "water",
+   "t0": 96.546,
+   "t1": 97.011,
+   "cue": [
+    "focus:water"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "milk",
+   "t0": 98.111,
+   "t1": 98.519,
+   "cue": [
+    "focus:milk"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "juice",
+   "t0": 99.619,
+   "t1": 100.095,
+   "cue": [
+    "focus:juice"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "coffee",
+   "t0": 101.195,
+   "t1": 101.731,
+   "cue": [
+    "focus:coffee"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "beer",
+   "t0": 102.831,
+   "t1": 103.215,
+   "cue": [
+    "focus:beer"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "soup",
+   "t0": 104.315,
+   "t1": 104.773,
+   "cue": [
+    "focus:soup"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "cup",
+   "t0": 105.873,
+   "t1": 106.23,
+   "cue": [
+    "focus:cup"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "enough",
+   "t0": 107.33,
+   "t1": 107.867,
+   "cue": [
+    "focus:enough"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "satisfy",
+   "t0": 108.967,
+   "t1": 109.835,
+   "cue": [
+    "focus:satisfy"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "zh",
+   "text": "太棒了！口渴的时候，记得多喝水哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 110.935,
+   "t1": 118.404,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "thirsty": [
+   0.25,
+   0.832
+  ],
+  "thirsty:alt": [
+   1.082,
+   1.53
+  ],
+  "drink": [
+   1.78,
+   2.266
+  ],
+  "water": [
+   2.516,
+   2.981
+  ],
+  "milk": [
+   3.231,
+   3.638
+  ],
+  "juice": [
+   3.888,
+   4.365
+  ],
+  "coffee": [
+   4.615,
+   5.151
+  ],
+  "beer": [
+   5.401,
+   5.785
+  ],
+  "soup": [
+   6.035,
+   6.493
+  ],
+  "cup": [
+   6.743,
+   7.1
+  ],
+  "enough": [
+   7.35,
+   7.887
+  ],
+  "satisfy": [
+   8.137,
+   9.005
+  ]
+ }
+}

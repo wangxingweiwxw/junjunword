@@ -1,0 +1,655 @@
+{
+ "duration": 136.789,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！两只小狗站在一起，它们一样吗？今天，我们来学比较。",
+   "t0": 0.4,
+   "t1": 7.217,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "compare",
+   "t0": 7.467,
+   "t1": 8.075,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "把两样东西放在一起，看一看哪里一样、哪里不一样，就是比较：",
+   "t0": 9.175,
+   "t1": 14.456,
+   "cue": [
+    "map",
+    "show:compare",
+    "focus:compare"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "compare",
+   "t0": 14.706,
+   "t1": 15.314,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "长得一模一样，是相同的：",
+   "t0": 16.414,
+   "t1": 18.581,
+   "cue": [
+    "show:same",
+    "edge:compare>same",
+    "focus:same"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "same",
+   "t0": 18.831,
+   "t1": 19.326,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "They look the same.",
+   "t0": 19.826,
+   "t1": 20.897,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "颜色不一样，是不同的：",
+   "t0": 21.997,
+   "t1": 23.983,
+   "cue": [
+    "show:different",
+    "edge:compare>different",
+    "focus:different"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "different",
+   "t0": 24.233,
+   "t1": 24.824,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "They are different.",
+   "t0": 25.324,
+   "t1": 26.213,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "一样，和不一样：",
+   "t0": 27.313,
+   "t1": 28.687,
+   "cue": [
+    "focus:same,different"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "same",
+   "t0": 28.937,
+   "t1": 29.432,
+   "cue": [
+    "focus:same"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "different",
+   "t0": 29.932,
+   "t1": 30.524,
+   "cue": [
+    "focus:different"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "说两样东西一样高、一样好，要用小词",
+   "t0": 31.624,
+   "t1": 35.098,
+   "cue": [
+    "show:as",
+    "edge:compare>as",
+    "focus:as"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "as",
+   "t0": 35.348,
+   "t1": 35.744,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "两个 as 中间夹一个词：",
+   "t0": 36.244,
+   "t1": 38.198,
+   "cue": [
+    "alt:as"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "as tall as",
+   "t0": 38.448,
+   "t1": 39.525,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "I am as tall as you.",
+   "t0": 40.025,
+   "t1": 41.326,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "夸一样东西，最常说好的：",
+   "t0": 42.426,
+   "t1": 44.569,
+   "cue": [
+    "show:good",
+    "focus:good"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "good",
+   "t0": 44.819,
+   "t1": 45.193,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "a good book",
+   "t0": 45.693,
+   "t1": 46.447,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "说一个人把事情做得好，要换成",
+   "t0": 47.547,
+   "t1": 50.344,
+   "cue": [
+    "show:well",
+    "edge:good>well",
+    "focus:well"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "well",
+   "t0": 50.594,
+   "t1": 50.978,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "这个词很特别，它不加 l y。",
+   "t0": 51.478,
+   "t1": 53.988,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "I sing well.",
+   "t0": 54.238,
+   "t1": 55.071,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "I play guitar as well as you do.",
+   "t0": 55.571,
+   "t1": 57.482,
+   "cue": [
+    "focus:well,as"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "好的反面，是坏的、差的：",
+   "t0": 58.582,
+   "t1": 61.028,
+   "cue": [
+    "show:bad",
+    "focus:bad"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "bad",
+   "t0": 61.278,
+   "t1": 61.711,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "a bad day",
+   "t0": 62.211,
+   "t1": 63.03,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "事情做得差，在后面加上 l y：",
+   "t0": 64.13,
+   "t1": 67.018,
+   "cue": [
+    "show:badly",
+    "edge:bad>badly",
+    "focus:badly"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "badly",
+   "t0": 67.268,
+   "t1": 67.835,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "I sing badly.",
+   "t0": 68.335,
+   "t1": 69.378,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "比一比：",
+   "t0": 70.478,
+   "t1": 71.112,
+   "cue": [
+    "focus:good,well,bad,badly"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "good, well",
+   "t0": 71.362,
+   "t1": 72.365,
+   "cue": [
+    "focus:good,well"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "bad, badly",
+   "t0": 72.865,
+   "t1": 74.042,
+   "cue": [
+    "focus:bad,badly"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "说一样东西挺好、相当好，可以在前面加上",
+   "t0": 75.142,
+   "t1": 79.026,
+   "cue": [
+    "show:quite",
+    "edge:quite>good",
+    "edge:quite>bad",
+    "focus:quite"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "quite",
+   "t0": 79.276,
+   "t1": 79.78,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "quite good",
+   "t0": 80.28,
+   "t1": 80.95,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "小心，别和安静 quiet 搞混了，字母的顺序不一样。",
+   "t0": 81.45,
+   "t1": 85.711,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "比好还要好，是棒极了：",
+   "t0": 86.561,
+   "t1": 88.566,
+   "cue": [
+    "show:great",
+    "edge:good>great",
+    "focus:great"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "great",
+   "t0": 88.816,
+   "t1": 89.32,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "Great job!",
+   "t0": 89.82,
+   "t1": 90.518,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "酷的，英语是",
+   "t0": 91.618,
+   "t1": 93.058,
+   "cue": [
+    "show:cool",
+    "edge:good>cool",
+    "focus:cool"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "cool",
+   "t0": 93.308,
+   "t1": 93.734,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "它也是凉爽的意思。",
+   "t0": 94.234,
+   "t1": 95.689,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "That's so cool!",
+   "t0": 95.939,
+   "t1": 96.987,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "夸奖别人的话，一起来喊：",
+   "t0": 98.087,
+   "t1": 100.241,
+   "cue": [
+    "focus:good,great,cool"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Good!",
+   "t0": 100.491,
+   "t1": 100.853,
+   "cue": [
+    "focus:good"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Great!",
+   "t0": 101.353,
+   "t1": 101.877,
+   "cue": [
+    "focus:great"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Cool!",
+   "t0": 102.377,
+   "t1": 102.805,
+   "cue": [
+    "focus:cool"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 103.905,
+   "t1": 107.155,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "compare",
+   "t0": 108.005,
+   "t1": 108.613,
+   "cue": [
+    "focus:compare"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "same",
+   "t0": 109.713,
+   "t1": 110.208,
+   "cue": [
+    "focus:same"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "different",
+   "t0": 111.308,
+   "t1": 111.899,
+   "cue": [
+    "focus:different"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "as",
+   "t0": 112.999,
+   "t1": 113.395,
+   "cue": [
+    "focus:as"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "good",
+   "t0": 114.495,
+   "t1": 114.869,
+   "cue": [
+    "focus:good"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "well",
+   "t0": 115.969,
+   "t1": 116.354,
+   "cue": [
+    "focus:well"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "bad",
+   "t0": 117.454,
+   "t1": 117.887,
+   "cue": [
+    "focus:bad"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "badly",
+   "t0": 118.987,
+   "t1": 119.553,
+   "cue": [
+    "focus:badly"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "quite",
+   "t0": 120.653,
+   "t1": 121.158,
+   "cue": [
+    "focus:quite"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "great",
+   "t0": 122.258,
+   "t1": 122.762,
+   "cue": [
+    "focus:great"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "cool",
+   "t0": 123.862,
+   "t1": 124.288,
+   "cue": [
+    "focus:cool"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "zh",
+   "text": "太棒了！找两样东西，用英语比一比它们一样还是不一样吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 125.388,
+   "t1": 134.939,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "compare": [
+   0.25,
+   0.858
+  ],
+  "same": [
+   1.108,
+   1.603
+  ],
+  "different": [
+   1.853,
+   2.444
+  ],
+  "as": [
+   2.694,
+   3.09
+  ],
+  "as:alt": [
+   3.34,
+   4.358
+  ],
+  "good": [
+   4.608,
+   4.983
+  ],
+  "well": [
+   5.233,
+   5.617
+  ],
+  "bad": [
+   5.867,
+   6.3
+  ],
+  "badly": [
+   6.55,
+   7.116
+  ],
+  "quite": [
+   7.366,
+   7.871
+  ],
+  "cool": [
+   8.121,
+   8.547
+  ],
+  "great": [
+   8.797,
+   9.302
+  ]
+ }
+}

@@ -1,0 +1,634 @@
+{
+ "id": "ep40",
+ "title": "drinks",
+ "titleZh": "饮品",
+ "episode": "第 40 集",
+ "titleIcon": "juice",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "thirsty",
+   "word": "thirsty",
+   "ipa": "/ˈθɜːrsti/",
+   "zh": "口渴的",
+   "icon": "thirsty",
+   "kind": "adj",
+   "alt": "thirst",
+   "altLabel": "名词",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "drink",
+   "word": "drink",
+   "ipa": "/drɪŋk/",
+   "zh": "喝；饮料",
+   "icon": "drink",
+   "kind": "verb",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "water",
+   "word": "water",
+   "ipa": "/ˈwɔːtər/",
+   "zh": "水",
+   "icon": "water",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "milk",
+   "word": "milk",
+   "ipa": "/mɪlk/",
+   "zh": "牛奶",
+   "icon": "milk",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "juice",
+   "word": "juice",
+   "ipa": "/dʒuːs/",
+   "zh": "果汁",
+   "icon": "juice",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "coffee",
+   "word": "coffee",
+   "ipa": "/ˈkɔːfi/",
+   "zh": "咖啡",
+   "icon": "coffee",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "beer",
+   "word": "beer",
+   "ipa": "/bɪr/",
+   "zh": "啤酒",
+   "icon": "beer",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "soup",
+   "word": "soup",
+   "ipa": "/suːp/",
+   "zh": "汤",
+   "icon": "soup",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "cup",
+   "word": "cup",
+   "ipa": "/kʌp/",
+   "zh": "杯子",
+   "icon": "cup",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "enough",
+   "word": "enough",
+   "ipa": "/ɪˈnʌf/",
+   "zh": "足够的",
+   "icon": "enough",
+   "kind": "adj",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "satisfy",
+   "word": "satisfy",
+   "ipa": "/ˈsætɪsfaɪ/",
+   "zh": "使满足",
+   "icon": "satisfy",
+   "kind": "verb",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "thirsty",
+   "to": "drink"
+  },
+  {
+   "from": "drink",
+   "to": "water"
+  },
+  {
+   "from": "drink",
+   "to": "milk"
+  },
+  {
+   "from": "drink",
+   "to": "juice"
+  },
+  {
+   "from": "drink",
+   "to": "coffee"
+  },
+  {
+   "from": "drink",
+   "to": "soup"
+  },
+  {
+   "from": "drink",
+   "to": "beer"
+  },
+  {
+   "from": "cup",
+   "to": "drink",
+   "label": "用…喝",
+   "dashed": true
+  },
+  {
+   "from": "enough",
+   "to": "satisfy"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！刚跑完步，嗓子干干的。今天，我们来学喝的东西！"
+    },
+    {
+     "en": "drinks"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:thirsty",
+    "focus:thirsty"
+   ],
+   "parts": [
+    {
+     "zh": "嗓子干干的，想喝水，是口渴的："
+    },
+    {
+     "en": "thirsty"
+    },
+    {
+     "zh": "去掉最后的 y，就是口渴这件事：",
+     "cue": [
+      "alt:thirsty"
+     ]
+    },
+    {
+     "en": "thirst"
+    },
+    {
+     "en": "I'm thirsty!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:drink",
+    "edge:thirsty>drink",
+    "focus:drink"
+   ],
+   "parts": [
+    {
+     "zh": "口渴了，就要喝东西："
+    },
+    {
+     "en": "drink"
+    },
+    {
+     "zh": "这个词也可以表示饮料。"
+    },
+    {
+     "en": "Let's have a drink."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:water",
+    "edge:drink>water",
+    "focus:water"
+   ],
+   "parts": [
+    {
+     "zh": "最健康的，是白开水："
+    },
+    {
+     "en": "water"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:milk",
+    "edge:drink>milk",
+    "focus:milk"
+   ],
+   "parts": [
+    {
+     "zh": "白白的牛奶："
+    },
+    {
+     "en": "milk"
+    },
+    {
+     "en": "I drink milk every morning."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:juice",
+    "edge:drink>juice",
+    "focus:juice"
+   ],
+   "parts": [
+    {
+     "zh": "用水果榨的果汁："
+    },
+    {
+     "en": "juice"
+    },
+    {
+     "en": "orange juice"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:coffee",
+    "edge:drink>coffee",
+    "focus:coffee"
+   ],
+   "parts": [
+    {
+     "zh": "爸爸妈妈早上爱喝咖啡："
+    },
+    {
+     "en": "coffee"
+    },
+    {
+     "zh": "两个 f，两个 e。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:beer",
+    "edge:drink>beer",
+    "focus:beer"
+   ],
+   "parts": [
+    {
+     "zh": "这个是啤酒："
+    },
+    {
+     "en": "beer"
+    },
+    {
+     "zh": "它是大人喝的，小朋友可不能喝哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:soup",
+    "edge:drink>soup",
+    "focus:soup"
+   ],
+   "parts": [
+    {
+     "zh": "热乎乎的汤，也可以喝："
+    },
+    {
+     "en": "soup"
+    },
+    {
+     "en": "hot soup"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cup",
+    "edge:cup>drink",
+    "focus:cup"
+   ],
+   "parts": [
+    {
+     "zh": "喝东西，要用杯子："
+    },
+    {
+     "en": "cup"
+    },
+    {
+     "en": "a cup of milk",
+     "cue": [
+      "focus:cup,milk"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:enough",
+    "focus:enough"
+   ],
+   "parts": [
+    {
+     "zh": "喝够了，就是足够的："
+    },
+    {
+     "en": "enough"
+    },
+    {
+     "zh": "最后的 g h，读成 f。"
+    },
+    {
+     "en": "That's enough."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:satisfy",
+    "edge:enough>satisfy",
+    "focus:satisfy"
+   ],
+   "parts": [
+    {
+     "zh": "喝饱了，心里很满足。使满足，英语是"
+    },
+    {
+     "en": "satisfy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们来演一演，去饮品店点饮料吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "I'm thirsty.",
+     "cue": [
+      "focus:thirsty"
+     ]
+    },
+    {
+     "en": "What would you like to drink?",
+     "cue": [
+      "focus:drink"
+     ]
+    },
+    {
+     "en": "A cup of orange juice, please.",
+     "cue": [
+      "focus:cup,juice"
+     ]
+    },
+    {
+     "en": "Thank you! That's enough.",
+     "cue": [
+      "focus:enough"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:thirsty"
+   ],
+   "parts": [
+    {
+     "en": "thirsty, thirst"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:drink"
+   ],
+   "parts": [
+    {
+     "en": "drink"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:water"
+   ],
+   "parts": [
+    {
+     "en": "water"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:milk"
+   ],
+   "parts": [
+    {
+     "en": "milk"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:juice"
+   ],
+   "parts": [
+    {
+     "en": "juice"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:coffee"
+   ],
+   "parts": [
+    {
+     "en": "coffee"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:beer"
+   ],
+   "parts": [
+    {
+     "en": "beer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:soup"
+   ],
+   "parts": [
+    {
+     "en": "soup"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cup"
+   ],
+   "parts": [
+    {
+     "en": "cup"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:enough"
+   ],
+   "parts": [
+    {
+     "en": "enough"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:satisfy"
+   ],
+   "parts": [
+    {
+     "en": "satisfy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！口渴的时候，记得多喝水哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

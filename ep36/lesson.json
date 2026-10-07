@@ -1,0 +1,738 @@
+{
+ "id": "ep36",
+ "title": "week",
+ "titleZh": "星期",
+ "episode": "第 36 集",
+ "titleIcon": "week",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "week",
+   "word": "week",
+   "ipa": "/wiːk/",
+   "zh": "星期；周",
+   "icon": "week",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    470,
+    440
+   ]
+  },
+  {
+   "id": "monday",
+   "word": "Monday",
+   "ipa": "/ˈmʌndeɪ/",
+   "zh": "星期一",
+   "icon": "monday",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    200,
+    120
+   ]
+  },
+  {
+   "id": "tuesday",
+   "word": "Tuesday",
+   "ipa": "/ˈtuːzdeɪ/",
+   "zh": "星期二",
+   "icon": "tuesday",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    470,
+    120
+   ]
+  },
+  {
+   "id": "wednesday",
+   "word": "Wednesday",
+   "ipa": "/ˈwenzdeɪ/",
+   "zh": "星期三",
+   "icon": "wednesday",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    740,
+    120
+   ]
+  },
+  {
+   "id": "thursday",
+   "word": "Thursday",
+   "ipa": "/ˈθɜːrzdeɪ/",
+   "zh": "星期四",
+   "icon": "thursday",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    1010,
+    120
+   ]
+  },
+  {
+   "id": "friday",
+   "word": "Friday",
+   "ipa": "/ˈfraɪdeɪ/",
+   "zh": "星期五",
+   "icon": "friday",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    1280,
+    120
+   ]
+  },
+  {
+   "id": "saturday",
+   "word": "Saturday",
+   "ipa": "/ˈsætərdeɪ/",
+   "zh": "星期六",
+   "icon": "saturday",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    1010,
+    440
+   ]
+  },
+  {
+   "id": "sunday",
+   "word": "Sunday",
+   "ipa": "/ˈsʌndeɪ/",
+   "zh": "星期日",
+   "icon": "sunday",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    1280,
+    440
+   ]
+  },
+  {
+   "id": "weekday",
+   "word": "weekday",
+   "ipa": "/ˈwiːkdeɪ/",
+   "zh": "工作日",
+   "icon": "weekday",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    1600,
+    120
+   ]
+  },
+  {
+   "id": "weekend",
+   "word": "weekend",
+   "ipa": "/ˈwiːkend/",
+   "zh": "周末",
+   "icon": "weekend",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    1600,
+    440
+   ]
+  },
+  {
+   "id": "before",
+   "word": "before",
+   "ipa": "/bɪˈfɔːr/",
+   "zh": "在……之前",
+   "icon": "before",
+   "kind": "prep",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    470,
+    780
+   ]
+  },
+  {
+   "id": "after",
+   "word": "after",
+   "ipa": "/ˈæftər/",
+   "zh": "在……之后",
+   "icon": "after",
+   "kind": "prep",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1010,
+    780
+   ]
+  },
+  {
+   "id": "on",
+   "word": "on",
+   "ipa": "/ɑːn/",
+   "zh": "在（某天）",
+   "icon": "on",
+   "kind": "prep",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    200,
+    440
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "monday",
+   "to": "tuesday"
+  },
+  {
+   "from": "tuesday",
+   "to": "wednesday"
+  },
+  {
+   "from": "wednesday",
+   "to": "thursday"
+  },
+  {
+   "from": "thursday",
+   "to": "friday"
+  },
+  {
+   "from": "saturday",
+   "to": "sunday"
+  },
+  {
+   "from": "friday",
+   "to": "weekday"
+  },
+  {
+   "from": "sunday",
+   "to": "weekend"
+  },
+  {
+   "from": "week",
+   "to": "on",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！一个星期有七天。今天，我们来学星期！"
+    },
+    {
+     "en": "week"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:week",
+    "focus:week"
+   ],
+   "parts": [
+    {
+     "zh": "七天，就是一个星期："
+    },
+    {
+     "en": "week"
+    },
+    {
+     "en": "seven days in a week"
+    },
+    {
+     "zh": "小提示：英语里每一天的名字，开头都要大写，后面都有一个"
+    },
+    {
+     "en": "day"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:monday",
+    "focus:monday"
+   ],
+   "parts": [
+    {
+     "zh": "新的一周，从星期一开始："
+    },
+    {
+     "en": "Monday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tuesday",
+    "edge:monday>tuesday",
+    "focus:tuesday"
+   ],
+   "parts": [
+    {
+     "zh": "星期二："
+    },
+    {
+     "en": "Tuesday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wednesday",
+    "edge:tuesday>wednesday",
+    "focus:wednesday"
+   ],
+   "parts": [
+    {
+     "zh": "星期三，它最难拼。中间的 d 不发音哦："
+    },
+    {
+     "en": "Wednesday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:thursday",
+    "edge:wednesday>thursday",
+    "focus:thursday"
+   ],
+   "parts": [
+    {
+     "zh": "星期四，开头的 t h，舌尖放在牙齿中间："
+    },
+    {
+     "en": "Thursday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:friday",
+    "edge:thursday>friday",
+    "focus:friday"
+   ],
+   "parts": [
+    {
+     "zh": "星期五："
+    },
+    {
+     "en": "Friday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:weekday",
+    "edge:friday>weekday",
+    "focus:weekday"
+   ],
+   "parts": [
+    {
+     "zh": "星期一到星期五，大人上班、小朋友上学，叫工作日。星期，加上天："
+    },
+    {
+     "en": "week"
+    },
+    {
+     "en": "day"
+    },
+    {
+     "en": "weekday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:saturday",
+    "focus:saturday"
+   ],
+   "parts": [
+    {
+     "zh": "星期六："
+    },
+    {
+     "en": "Saturday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sunday",
+    "edge:saturday>sunday",
+    "focus:sunday"
+   ],
+   "parts": [
+    {
+     "zh": "星期日。还记得太阳 sun 吗？太阳的一天："
+    },
+    {
+     "en": "Sunday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:weekend",
+    "edge:sunday>weekend",
+    "focus:weekend"
+   ],
+   "parts": [
+    {
+     "zh": "星期六和星期日，是周末。星期，加上结尾："
+    },
+    {
+     "en": "week"
+    },
+    {
+     "en": "end"
+    },
+    {
+     "en": "weekend"
+    },
+    {
+     "en": "Happy weekend!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:on",
+    "edge:week>on",
+    "focus:on"
+   ],
+   "parts": [
+    {
+     "zh": "说在星期几做什么，前面要用小词"
+    },
+    {
+     "en": "on"
+    },
+    {
+     "en": "on Monday"
+    },
+    {
+     "en": "on Sunday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:before",
+    "focus:before"
+   ],
+   "parts": [
+    {
+     "zh": "在……之前，英语是"
+    },
+    {
+     "en": "before"
+    },
+    {
+     "en": "Tuesday is before Wednesday."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:after",
+    "focus:after"
+   ],
+   "parts": [
+    {
+     "zh": "在……之后，英语是"
+    },
+    {
+     "en": "after"
+    },
+    {
+     "en": "Saturday is after Friday."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们从星期一读到星期日吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Monday",
+     "cue": [
+      "focus:monday"
+     ]
+    },
+    {
+     "en": "Tuesday",
+     "cue": [
+      "focus:tuesday"
+     ]
+    },
+    {
+     "en": "Wednesday",
+     "cue": [
+      "focus:wednesday"
+     ]
+    },
+    {
+     "en": "Thursday",
+     "cue": [
+      "focus:thursday"
+     ]
+    },
+    {
+     "en": "Friday",
+     "cue": [
+      "focus:friday"
+     ]
+    },
+    {
+     "en": "Saturday",
+     "cue": [
+      "focus:saturday"
+     ]
+    },
+    {
+     "en": "Sunday",
+     "cue": [
+      "focus:sunday"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "考考你：星期三的后面是星期几？"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:thursday"
+   ],
+   "parts": [
+    {
+     "zh": "是"
+    },
+    {
+     "en": "Thursday!"
+    },
+    {
+     "en": "Thursday is after Wednesday."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:week"
+   ],
+   "parts": [
+    {
+     "en": "week"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:monday"
+   ],
+   "parts": [
+    {
+     "en": "Monday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tuesday"
+   ],
+   "parts": [
+    {
+     "en": "Tuesday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wednesday"
+   ],
+   "parts": [
+    {
+     "en": "Wednesday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:thursday"
+   ],
+   "parts": [
+    {
+     "en": "Thursday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:friday"
+   ],
+   "parts": [
+    {
+     "en": "Friday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:saturday"
+   ],
+   "parts": [
+    {
+     "en": "Saturday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sunday"
+   ],
+   "parts": [
+    {
+     "en": "Sunday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:weekday"
+   ],
+   "parts": [
+    {
+     "en": "weekday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:weekend"
+   ],
+   "parts": [
+    {
+     "en": "weekend"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:on"
+   ],
+   "parts": [
+    {
+     "en": "on"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:before"
+   ],
+   "parts": [
+    {
+     "en": "before"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:after"
+   ],
+   "parts": [
+    {
+     "en": "after"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！每天早上，用英语说一说今天是星期几吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

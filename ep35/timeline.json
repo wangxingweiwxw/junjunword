@@ -1,0 +1,580 @@
+{
+ "duration": 129.621,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！长大以后，你想做什么呢？今天，我们来学职业。",
+   "t0": 0.4,
+   "t1": 6.545,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "jobs",
+   "t0": 6.795,
+   "t1": 7.318,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "大人每天去上班做的事，是工作、职业：",
+   "t0": 8.418,
+   "t1": 11.973,
+   "cue": [
+    "map",
+    "show:job",
+    "focus:job"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "job",
+   "t0": 12.223,
+   "t1": 12.602,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "What's your job?",
+   "t0": 13.102,
+   "t1": 13.959,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "长大以后成为……，英语说",
+   "t0": 15.059,
+   "t1": 17.129,
+   "cue": [
+    "show:become",
+    "edge:become>job",
+    "focus:become"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "become",
+   "t0": 17.379,
+   "t1": 17.951,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "已经成为了，要变成",
+   "t0": 18.451,
+   "t1": 20.419,
+   "cue": [
+    "alt:become"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "became",
+   "t0": 20.669,
+   "t1": 21.234,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "I want to become a doctor.",
+   "t0": 21.734,
+   "t1": 23.206,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "很多职业的名字，都有小小的规律。",
+   "t0": 24.306,
+   "t1": 27.15,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "画画的艺术家。艺术，加上 i s t：",
+   "t0": 28.0,
+   "t1": 31.776,
+   "cue": [
+    "show:artist",
+    "edge:job>artist",
+    "focus:artist"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "art",
+   "t0": 32.026,
+   "t1": 32.415,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "artist",
+   "t0": 32.915,
+   "t1": 33.535,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "做实验的科学家。科学，加上 i s t：",
+   "t0": 34.635,
+   "t1": 38.822,
+   "cue": [
+    "show:scientist",
+    "edge:job>scientist",
+    "focus:scientist"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "science",
+   "t0": 39.072,
+   "t1": 39.755,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "scientist",
+   "t0": 40.255,
+   "t1": 41.157,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "给牙齿看病的牙医，也带着 i s t：",
+   "t0": 42.257,
+   "t1": 45.436,
+   "cue": [
+    "show:dentist",
+    "edge:job>dentist",
+    "focus:dentist"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "dentist",
+   "t0": 45.686,
+   "t1": 46.34,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "你发现了吗？i s t 常常表示做某件事的人。",
+   "t0": 47.44,
+   "t1": 52.003,
+   "cue": [
+    "focus:artist,scientist,dentist"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "artist",
+   "t0": 52.253,
+   "t1": 52.873,
+   "cue": [
+    "focus:artist"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "scientist",
+   "t0": 53.373,
+   "t1": 54.275,
+   "cue": [
+    "focus:scientist"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "dentist",
+   "t0": 54.775,
+   "t1": 55.429,
+   "cue": [
+    "focus:dentist"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "造桥、造机器的工程师：",
+   "t0": 56.529,
+   "t1": 58.73,
+   "cue": [
+    "show:engineer",
+    "edge:job>engineer",
+    "focus:engineer"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "engineer",
+   "t0": 58.98,
+   "t1": 59.674,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "开车的司机。开车，加上 e r：",
+   "t0": 60.774,
+   "t1": 64.126,
+   "cue": [
+    "show:driver",
+    "edge:job>driver",
+    "focus:driver"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "drive",
+   "t0": 64.376,
+   "t1": 64.899,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "driver",
+   "t0": 65.399,
+   "t1": 65.909,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "开飞机的飞行员：",
+   "t0": 67.009,
+   "t1": 68.442,
+   "cue": [
+    "show:pilot",
+    "edge:job>pilot",
+    "focus:pilot"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "pilot",
+   "t0": 68.692,
+   "t1": 69.268,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "做饭的厨师：",
+   "t0": 70.368,
+   "t1": 71.452,
+   "cue": [
+    "show:cook",
+    "edge:job>cook",
+    "focus:cook"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "cook",
+   "t0": 71.702,
+   "t1": 72.156,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "小心哦，做饭的人是 cook，不是 cooker。cooker 是做饭的锅。",
+   "t0": 72.656,
+   "t1": 78.248,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "给我们看病的医生：",
+   "t0": 79.098,
+   "t1": 80.49,
+   "cue": [
+    "show:doctor",
+    "edge:job>doctor",
+    "focus:doctor"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "doctor",
+   "t0": 80.74,
+   "t1": 81.311,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "在医院照顾病人的护士：",
+   "t0": 82.411,
+   "t1": 84.311,
+   "cue": [
+    "show:nurse",
+    "edge:job>nurse",
+    "focus:nurse"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "nurse",
+   "t0": 84.561,
+   "t1": 85.02,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "说一说你的梦想吧！",
+   "t0": 86.12,
+   "t1": 87.59,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "I want to become a pilot.",
+   "t0": 88.44,
+   "t1": 89.912,
+   "cue": [
+    "focus:become,pilot"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "My mom is a nurse.",
+   "t0": 90.412,
+   "t1": 91.626,
+   "cue": [
+    "focus:nurse"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "My father became a scientist.",
+   "t0": 92.126,
+   "t1": 94.154,
+   "cue": [
+    "focus:become,scientist"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 95.254,
+   "t1": 98.505,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "job",
+   "t0": 99.355,
+   "t1": 99.733,
+   "cue": [
+    "focus:job"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "become, became",
+   "t0": 100.833,
+   "t1": 102.164,
+   "cue": [
+    "focus:become"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "artist",
+   "t0": 103.264,
+   "t1": 103.883,
+   "cue": [
+    "focus:artist"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "scientist",
+   "t0": 104.983,
+   "t1": 105.886,
+   "cue": [
+    "focus:scientist"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "dentist",
+   "t0": 106.986,
+   "t1": 107.64,
+   "cue": [
+    "focus:dentist"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "engineer",
+   "t0": 108.74,
+   "t1": 109.434,
+   "cue": [
+    "focus:engineer"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "driver",
+   "t0": 110.534,
+   "t1": 111.043,
+   "cue": [
+    "focus:driver"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "pilot",
+   "t0": 112.143,
+   "t1": 112.72,
+   "cue": [
+    "focus:pilot"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "cook",
+   "t0": 113.82,
+   "t1": 114.273,
+   "cue": [
+    "focus:cook"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "doctor",
+   "t0": 115.373,
+   "t1": 115.944,
+   "cue": [
+    "focus:doctor"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "nurse",
+   "t0": 117.044,
+   "t1": 117.503,
+   "cue": [
+    "focus:nurse"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "zh",
+   "text": "太棒了！你长大想做什么？用英语告诉爸爸妈妈吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 118.603,
+   "t1": 127.771,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "job": [
+   0.25,
+   0.629
+  ],
+  "become": [
+   0.879,
+   1.451
+  ],
+  "become:alt": [
+   1.701,
+   2.266
+  ],
+  "artist": [
+   2.516,
+   3.135
+  ],
+  "scientist": [
+   3.385,
+   4.287
+  ],
+  "cook": [
+   4.537,
+   4.991
+  ],
+  "engineer": [
+   5.241,
+   5.935
+  ],
+  "dentist": [
+   6.185,
+   6.839
+  ],
+  "nurse": [
+   7.089,
+   7.548
+  ],
+  "doctor": [
+   7.798,
+   8.369
+  ],
+  "pilot": [
+   8.619,
+   9.195
+  ],
+  "driver": [
+   9.445,
+   9.955
+  ]
+ }
+}

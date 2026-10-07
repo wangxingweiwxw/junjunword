@@ -1,0 +1,759 @@
+{
+ "id": "ep37",
+ "title": "farm",
+ "titleZh": "农场",
+ "episode": "第 37 集",
+ "titleIcon": "farm",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "farm",
+   "word": "farm",
+   "ipa": "/fɑːrm/",
+   "zh": "农场",
+   "icon": "farm",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "field",
+   "word": "field",
+   "ipa": "/fiːld/",
+   "zh": "田野；田地",
+   "icon": "field",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "grass",
+   "word": "grass",
+   "ipa": "/ɡræs/",
+   "zh": "草",
+   "icon": "grass",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "plant",
+   "word": "plant",
+   "ipa": "/plænt/",
+   "zh": "植物",
+   "icon": "plant",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "tree",
+   "word": "tree",
+   "ipa": "/triː/",
+   "zh": "树",
+   "icon": "tree",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "leaf",
+   "word": "leaf",
+   "ipa": "/liːf/",
+   "zh": "叶子",
+   "icon": "leaf",
+   "plural": "leaves",
+   "pluralIpa": "/liːvz/",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "pig",
+   "word": "pig",
+   "ipa": "/pɪɡ/",
+   "zh": "猪",
+   "icon": "pig",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "sheep",
+   "word": "sheep",
+   "ipa": "/ʃiːp/",
+   "zh": "绵羊",
+   "icon": "sheep",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "horse",
+   "word": "horse",
+   "ipa": "/hɔːrs/",
+   "zh": "马",
+   "icon": "horse",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "cow",
+   "word": "cow",
+   "ipa": "/kaʊ/",
+   "zh": "奶牛",
+   "icon": "cow",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "hen",
+   "word": "hen",
+   "ipa": "/hen/",
+   "zh": "母鸡",
+   "icon": "hen",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "lay",
+   "word": "lay",
+   "ipa": "/leɪ/",
+   "zh": "下（蛋）",
+   "icon": "lay",
+   "kind": "verb",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "egg",
+   "word": "egg",
+   "ipa": "/eɡ/",
+   "zh": "蛋",
+   "icon": "egg",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "fox",
+   "word": "fox",
+   "ipa": "/fɑːks/",
+   "zh": "狐狸",
+   "icon": "fox",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "farm",
+   "to": "field"
+  },
+  {
+   "from": "field",
+   "to": "grass"
+  },
+  {
+   "from": "field",
+   "to": "plant"
+  },
+  {
+   "from": "plant",
+   "to": "tree"
+  },
+  {
+   "from": "tree",
+   "to": "leaf"
+  },
+  {
+   "from": "farm",
+   "to": "pig"
+  },
+  {
+   "from": "farm",
+   "to": "sheep"
+  },
+  {
+   "from": "sheep",
+   "to": "horse"
+  },
+  {
+   "from": "horse",
+   "to": "cow"
+  },
+  {
+   "from": "pig",
+   "to": "hen"
+  },
+  {
+   "from": "hen",
+   "to": "lay"
+  },
+  {
+   "from": "lay",
+   "to": "egg"
+  },
+  {
+   "from": "fox",
+   "to": "hen",
+   "label": "想吃",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！跟着我，去乡下的农场玩一天吧！"
+    },
+    {
+     "en": "farm"
+    },
+    {
+     "zh": "农场。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:farm",
+    "focus:farm"
+   ],
+   "parts": [
+    {
+     "zh": "养着很多动物、种着庄稼的地方，是农场："
+    },
+    {
+     "en": "farm"
+    },
+    {
+     "en": "Welcome to the farm!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:field",
+    "edge:farm>field",
+    "focus:field"
+   ],
+   "parts": [
+    {
+     "zh": "农场旁边，是一大片田野："
+    },
+    {
+     "en": "field"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:grass",
+    "edge:field>grass",
+    "focus:grass"
+   ],
+   "parts": [
+    {
+     "zh": "田野上长满了绿绿的草："
+    },
+    {
+     "en": "grass"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:plant",
+    "edge:field>plant",
+    "focus:plant"
+   ],
+   "parts": [
+    {
+     "zh": "地里种着各种植物："
+    },
+    {
+     "en": "plant"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tree",
+    "edge:plant>tree",
+    "focus:tree"
+   ],
+   "parts": [
+    {
+     "zh": "最高大的植物，是树："
+    },
+    {
+     "en": "tree"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:leaf",
+    "edge:tree>leaf",
+    "focus:leaf"
+   ],
+   "parts": [
+    {
+     "zh": "树上长着一片一片的叶子："
+    },
+    {
+     "en": "leaf"
+    },
+    {
+     "zh": "很多叶子，要把 f 变成 v e s。还记得第三十四集的妻子 wives 吗？一样的规律！",
+     "cue": [
+      "plural:leaf"
+     ]
+    },
+    {
+     "en": "leaves"
+    },
+    {
+     "en": "In autumn, the leaves are orange."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pig",
+    "edge:farm>pig",
+    "focus:pig"
+   ],
+   "parts": [
+    {
+     "zh": "农场里，胖胖的猪在哼哼叫："
+    },
+    {
+     "en": "pig"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sheep",
+    "edge:farm>sheep",
+    "focus:sheep"
+   ],
+   "parts": [
+    {
+     "zh": "毛茸茸的绵羊："
+    },
+    {
+     "en": "sheep"
+    },
+    {
+     "zh": "很多只羊，还是叫 sheep，不加 s 哦。"
+    },
+    {
+     "en": "one sheep, two sheep"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:horse",
+    "edge:sheep>horse",
+    "focus:horse"
+   ],
+   "parts": [
+    {
+     "zh": "跑得飞快的马："
+    },
+    {
+     "en": "horse"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cow",
+    "edge:horse>cow",
+    "focus:cow"
+   ],
+   "parts": [
+    {
+     "zh": "能产牛奶的奶牛："
+    },
+    {
+     "en": "cow"
+    },
+    {
+     "en": "Cows, horses and sheep eat grass.",
+     "cue": [
+      "focus:cow,horse,sheep,grass"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hen",
+    "edge:pig>hen",
+    "focus:hen"
+   ],
+   "parts": [
+    {
+     "zh": "咯咯哒，母鸡在叫："
+    },
+    {
+     "en": "hen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:lay",
+    "edge:hen>lay",
+    "focus:lay"
+   ],
+   "parts": [
+    {
+     "zh": "母鸡要下蛋啦！下蛋的下，英语是"
+    },
+    {
+     "en": "lay"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:egg",
+    "edge:lay>egg",
+    "focus:egg"
+   ],
+   "parts": [
+    {
+     "zh": "下出来一个圆圆的蛋："
+    },
+    {
+     "en": "egg"
+    },
+    {
+     "en": "The hen lays an egg."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fox",
+    "edge:fox>hen",
+    "focus:fox"
+   ],
+   "parts": [
+    {
+     "zh": "哎呀，草丛里有一只狐狸，它想偷吃小鸡！"
+    },
+    {
+     "en": "fox"
+    },
+    {
+     "en": "Watch out, hen!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "农场里的动物，都会叫！我们来学一学："
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "The pig says oink oink.",
+     "cue": [
+      "focus:pig"
+     ]
+    },
+    {
+     "en": "The sheep says baa.",
+     "cue": [
+      "focus:sheep"
+     ]
+    },
+    {
+     "en": "The cow says moo.",
+     "cue": [
+      "focus:cow"
+     ]
+    },
+    {
+     "en": "The hen says cluck cluck.",
+     "cue": [
+      "focus:hen"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:farm"
+   ],
+   "parts": [
+    {
+     "en": "farm"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:field"
+   ],
+   "parts": [
+    {
+     "en": "field"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:grass"
+   ],
+   "parts": [
+    {
+     "en": "grass"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:plant"
+   ],
+   "parts": [
+    {
+     "en": "plant"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tree"
+   ],
+   "parts": [
+    {
+     "en": "tree"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:leaf"
+   ],
+   "parts": [
+    {
+     "en": "leaf, leaves"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pig"
+   ],
+   "parts": [
+    {
+     "en": "pig"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sheep"
+   ],
+   "parts": [
+    {
+     "en": "sheep"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:horse"
+   ],
+   "parts": [
+    {
+     "en": "horse"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cow"
+   ],
+   "parts": [
+    {
+     "en": "cow"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hen"
+   ],
+   "parts": [
+    {
+     "en": "hen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:lay"
+   ],
+   "parts": [
+    {
+     "en": "lay"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:egg"
+   ],
+   "parts": [
+    {
+     "en": "egg"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fox"
+   ],
+   "parts": [
+    {
+     "en": "fox"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！你最喜欢农场里的哪种动物？用英语告诉爸爸妈妈吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

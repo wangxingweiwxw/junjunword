@@ -1,0 +1,649 @@
+{
+ "id": "ep35",
+ "title": "jobs",
+ "titleZh": "职业",
+ "episode": "第 35 集",
+ "titleIcon": "job",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "job",
+   "word": "job",
+   "ipa": "/dʒɑːb/",
+   "zh": "工作；职业",
+   "icon": "job",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "become",
+   "word": "become",
+   "ipa": "/bɪˈkʌm/",
+   "zh": "成为",
+   "icon": "become",
+   "kind": "verb",
+   "alt": "became",
+   "altLabel": "过去式",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "artist",
+   "word": "artist",
+   "ipa": "/ˈɑːrtɪst/",
+   "zh": "艺术家；画家",
+   "icon": "artist",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "scientist",
+   "word": "scientist",
+   "ipa": "/ˈsaɪəntɪst/",
+   "zh": "科学家",
+   "icon": "scientist",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "cook",
+   "word": "cook",
+   "ipa": "/kʊk/",
+   "zh": "厨师",
+   "icon": "cook",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "engineer",
+   "word": "engineer",
+   "ipa": "/ˌendʒɪˈnɪr/",
+   "zh": "工程师",
+   "icon": "engineer",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "dentist",
+   "word": "dentist",
+   "ipa": "/ˈdentɪst/",
+   "zh": "牙医",
+   "icon": "dentist",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "nurse",
+   "word": "nurse",
+   "ipa": "/nɜːrs/",
+   "zh": "护士",
+   "icon": "nurse",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "doctor",
+   "word": "doctor",
+   "ipa": "/ˈdɑːktər/",
+   "zh": "医生",
+   "icon": "doctor",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "pilot",
+   "word": "pilot",
+   "ipa": "/ˈpaɪlət/",
+   "zh": "飞行员",
+   "icon": "pilot",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  },
+  {
+   "id": "driver",
+   "word": "driver",
+   "ipa": "/ˈdraɪvər/",
+   "zh": "司机",
+   "icon": "driver",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "job",
+   "to": "artist"
+  },
+  {
+   "from": "job",
+   "to": "scientist"
+  },
+  {
+   "from": "job",
+   "to": "dentist"
+  },
+  {
+   "from": "job",
+   "to": "engineer"
+  },
+  {
+   "from": "job",
+   "to": "cook"
+  },
+  {
+   "from": "job",
+   "to": "doctor"
+  },
+  {
+   "from": "job",
+   "to": "nurse"
+  },
+  {
+   "from": "job",
+   "to": "driver"
+  },
+  {
+   "from": "job",
+   "to": "pilot"
+  },
+  {
+   "from": "become",
+   "to": "job",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！长大以后，你想做什么呢？今天，我们来学职业。"
+    },
+    {
+     "en": "jobs"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:job",
+    "focus:job"
+   ],
+   "parts": [
+    {
+     "zh": "大人每天去上班做的事，是工作、职业："
+    },
+    {
+     "en": "job"
+    },
+    {
+     "en": "What's your job?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:become",
+    "edge:become>job",
+    "focus:become"
+   ],
+   "parts": [
+    {
+     "zh": "长大以后成为……，英语说"
+    },
+    {
+     "en": "become"
+    },
+    {
+     "zh": "已经成为了，要变成",
+     "cue": [
+      "alt:become"
+     ]
+    },
+    {
+     "en": "became"
+    },
+    {
+     "en": "I want to become a doctor."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "很多职业的名字，都有小小的规律。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:artist",
+    "edge:job>artist",
+    "focus:artist"
+   ],
+   "parts": [
+    {
+     "zh": "画画的艺术家。艺术，加上 i s t："
+    },
+    {
+     "en": "art"
+    },
+    {
+     "en": "artist"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:scientist",
+    "edge:job>scientist",
+    "focus:scientist"
+   ],
+   "parts": [
+    {
+     "zh": "做实验的科学家。科学，加上 i s t："
+    },
+    {
+     "en": "science"
+    },
+    {
+     "en": "scientist"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:dentist",
+    "edge:job>dentist",
+    "focus:dentist"
+   ],
+   "parts": [
+    {
+     "zh": "给牙齿看病的牙医，也带着 i s t："
+    },
+    {
+     "en": "dentist"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:artist,scientist,dentist"
+   ],
+   "parts": [
+    {
+     "zh": "你发现了吗？i s t 常常表示做某件事的人。"
+    },
+    {
+     "en": "artist",
+     "cue": [
+      "focus:artist"
+     ]
+    },
+    {
+     "en": "scientist",
+     "cue": [
+      "focus:scientist"
+     ]
+    },
+    {
+     "en": "dentist",
+     "cue": [
+      "focus:dentist"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:engineer",
+    "edge:job>engineer",
+    "focus:engineer"
+   ],
+   "parts": [
+    {
+     "zh": "造桥、造机器的工程师："
+    },
+    {
+     "en": "engineer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:driver",
+    "edge:job>driver",
+    "focus:driver"
+   ],
+   "parts": [
+    {
+     "zh": "开车的司机。开车，加上 e r："
+    },
+    {
+     "en": "drive"
+    },
+    {
+     "en": "driver"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pilot",
+    "edge:job>pilot",
+    "focus:pilot"
+   ],
+   "parts": [
+    {
+     "zh": "开飞机的飞行员："
+    },
+    {
+     "en": "pilot"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cook",
+    "edge:job>cook",
+    "focus:cook"
+   ],
+   "parts": [
+    {
+     "zh": "做饭的厨师："
+    },
+    {
+     "en": "cook"
+    },
+    {
+     "zh": "小心哦，做饭的人是 cook，不是 cooker。cooker 是做饭的锅。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:doctor",
+    "edge:job>doctor",
+    "focus:doctor"
+   ],
+   "parts": [
+    {
+     "zh": "给我们看病的医生："
+    },
+    {
+     "en": "doctor"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:nurse",
+    "edge:job>nurse",
+    "focus:nurse"
+   ],
+   "parts": [
+    {
+     "zh": "在医院照顾病人的护士："
+    },
+    {
+     "en": "nurse"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "说一说你的梦想吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "I want to become a pilot.",
+     "cue": [
+      "focus:become,pilot"
+     ]
+    },
+    {
+     "en": "My mom is a nurse.",
+     "cue": [
+      "focus:nurse"
+     ]
+    },
+    {
+     "en": "My father became a scientist.",
+     "cue": [
+      "focus:become,scientist"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:job"
+   ],
+   "parts": [
+    {
+     "en": "job"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:become"
+   ],
+   "parts": [
+    {
+     "en": "become, became"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:artist"
+   ],
+   "parts": [
+    {
+     "en": "artist"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:scientist"
+   ],
+   "parts": [
+    {
+     "en": "scientist"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:dentist"
+   ],
+   "parts": [
+    {
+     "en": "dentist"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:engineer"
+   ],
+   "parts": [
+    {
+     "en": "engineer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:driver"
+   ],
+   "parts": [
+    {
+     "en": "driver"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pilot"
+   ],
+   "parts": [
+    {
+     "en": "pilot"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cook"
+   ],
+   "parts": [
+    {
+     "en": "cook"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:doctor"
+   ],
+   "parts": [
+    {
+     "en": "doctor"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:nurse"
+   ],
+   "parts": [
+    {
+     "en": "nurse"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！你长大想做什么？用英语告诉爸爸妈妈吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

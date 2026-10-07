@@ -1,0 +1,660 @@
+{
+ "duration": 139.711,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！跟着我，去乡下的农场玩一天吧！",
+   "t0": 0.4,
+   "t1": 4.638,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "farm",
+   "t0": 4.888,
+   "t1": 5.322,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "农场。",
+   "t0": 5.822,
+   "t1": 6.382,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "养着很多动物、种着庄稼的地方，是农场：",
+   "t0": 7.232,
+   "t1": 10.896,
+   "cue": [
+    "map",
+    "show:farm",
+    "focus:farm"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "farm",
+   "t0": 11.146,
+   "t1": 11.58,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "Welcome to the farm!",
+   "t0": 12.08,
+   "t1": 13.216,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "农场旁边，是一大片田野：",
+   "t0": 14.316,
+   "t1": 16.728,
+   "cue": [
+    "show:field",
+    "edge:farm>field",
+    "focus:field"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "field",
+   "t0": 16.978,
+   "t1": 17.376,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "田野上长满了绿绿的草：",
+   "t0": 18.476,
+   "t1": 20.368,
+   "cue": [
+    "show:grass",
+    "edge:field>grass",
+    "focus:grass"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "grass",
+   "t0": 20.618,
+   "t1": 21.169,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "地里种着各种植物：",
+   "t0": 22.269,
+   "t1": 23.816,
+   "cue": [
+    "show:plant",
+    "edge:field>plant",
+    "focus:plant"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "plant",
+   "t0": 24.066,
+   "t1": 24.558,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "最高大的植物，是树：",
+   "t0": 25.658,
+   "t1": 27.592,
+   "cue": [
+    "show:tree",
+    "edge:plant>tree",
+    "focus:tree"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "tree",
+   "t0": 27.842,
+   "t1": 28.302,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "树上长着一片一片的叶子：",
+   "t0": 29.402,
+   "t1": 31.713,
+   "cue": [
+    "show:leaf",
+    "edge:tree>leaf",
+    "focus:leaf"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "leaf",
+   "t0": 31.963,
+   "t1": 32.392,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "很多叶子，要把 f 变成 v e s。还记得第三十四集的妻子 wives 吗？一样的规律！",
+   "t0": 32.892,
+   "t1": 41.099,
+   "cue": [
+    "plural:leaf"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "leaves",
+   "t0": 41.349,
+   "t1": 41.841,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "In autumn, the leaves are orange.",
+   "t0": 42.341,
+   "t1": 44.366,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "农场里，胖胖的猪在哼哼叫：",
+   "t0": 45.466,
+   "t1": 48.06,
+   "cue": [
+    "show:pig",
+    "edge:farm>pig",
+    "focus:pig"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "pig",
+   "t0": 48.31,
+   "t1": 48.673,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "毛茸茸的绵羊：",
+   "t0": 49.773,
+   "t1": 50.941,
+   "cue": [
+    "show:sheep",
+    "edge:farm>sheep",
+    "focus:sheep"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "sheep",
+   "t0": 51.191,
+   "t1": 51.576,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "很多只羊，还是叫 sheep，不加 s 哦。",
+   "t0": 52.076,
+   "t1": 55.275,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "one sheep, two sheep",
+   "t0": 55.525,
+   "t1": 57.156,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "跑得飞快的马：",
+   "t0": 58.256,
+   "t1": 59.385,
+   "cue": [
+    "show:horse",
+    "edge:sheep>horse",
+    "focus:horse"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "horse",
+   "t0": 59.635,
+   "t1": 60.113,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "能产牛奶的奶牛：",
+   "t0": 61.213,
+   "t1": 62.674,
+   "cue": [
+    "show:cow",
+    "edge:horse>cow",
+    "focus:cow"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "cow",
+   "t0": 62.924,
+   "t1": 63.318,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Cows, horses and sheep eat grass.",
+   "t0": 63.818,
+   "t1": 66.586,
+   "cue": [
+    "focus:cow,horse,sheep,grass"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "咯咯哒，母鸡在叫：",
+   "t0": 67.686,
+   "t1": 69.407,
+   "cue": [
+    "show:hen",
+    "edge:pig>hen",
+    "focus:hen"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "hen",
+   "t0": 69.657,
+   "t1": 70.046,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "母鸡要下蛋啦！下蛋的下，英语是",
+   "t0": 71.146,
+   "t1": 74.772,
+   "cue": [
+    "show:lay",
+    "edge:hen>lay",
+    "focus:lay"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "lay",
+   "t0": 75.022,
+   "t1": 75.476,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "下出来一个圆圆的蛋：",
+   "t0": 76.576,
+   "t1": 78.152,
+   "cue": [
+    "show:egg",
+    "edge:lay>egg",
+    "focus:egg"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "egg",
+   "t0": 78.402,
+   "t1": 78.784,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "The hen lays an egg.",
+   "t0": 79.284,
+   "t1": 80.496,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "哎呀，草丛里有一只狐狸，它想偷吃小鸡！",
+   "t0": 81.596,
+   "t1": 85.162,
+   "cue": [
+    "show:fox",
+    "edge:fox>hen",
+    "focus:fox"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "fox",
+   "t0": 85.412,
+   "t1": 85.968,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Watch out, hen!",
+   "t0": 86.468,
+   "t1": 87.731,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "农场里的动物，都会叫！我们来学一学：",
+   "t0": 88.831,
+   "t1": 92.583,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "The pig says oink oink.",
+   "t0": 93.433,
+   "t1": 94.911,
+   "cue": [
+    "focus:pig"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "The sheep says baa.",
+   "t0": 95.411,
+   "t1": 96.527,
+   "cue": [
+    "focus:sheep"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "The cow says moo.",
+   "t0": 97.027,
+   "t1": 98.143,
+   "cue": [
+    "focus:cow"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "The hen says cluck cluck.",
+   "t0": 98.643,
+   "t1": 100.215,
+   "cue": [
+    "focus:hen"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 101.315,
+   "t1": 104.566,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "farm",
+   "t0": 105.416,
+   "t1": 105.85,
+   "cue": [
+    "focus:farm"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "field",
+   "t0": 106.95,
+   "t1": 107.348,
+   "cue": [
+    "focus:field"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "grass",
+   "t0": 108.448,
+   "t1": 108.999,
+   "cue": [
+    "focus:grass"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "plant",
+   "t0": 110.099,
+   "t1": 110.591,
+   "cue": [
+    "focus:plant"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "tree",
+   "t0": 111.691,
+   "t1": 112.152,
+   "cue": [
+    "focus:tree"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "leaf, leaves",
+   "t0": 113.252,
+   "t1": 114.418,
+   "cue": [
+    "focus:leaf"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "pig",
+   "t0": 115.518,
+   "t1": 115.881,
+   "cue": [
+    "focus:pig"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "sheep",
+   "t0": 116.981,
+   "t1": 117.367,
+   "cue": [
+    "focus:sheep"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "horse",
+   "t0": 118.467,
+   "t1": 118.944,
+   "cue": [
+    "focus:horse"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "cow",
+   "t0": 120.044,
+   "t1": 120.438,
+   "cue": [
+    "focus:cow"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "hen",
+   "t0": 121.538,
+   "t1": 121.927,
+   "cue": [
+    "focus:hen"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "lay",
+   "t0": 123.027,
+   "t1": 123.481,
+   "cue": [
+    "focus:lay"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "egg",
+   "t0": 124.581,
+   "t1": 124.963,
+   "cue": [
+    "focus:egg"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "fox",
+   "t0": 126.063,
+   "t1": 126.619,
+   "cue": [
+    "focus:fox"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "zh",
+   "text": "太棒了！你最喜欢农场里的哪种动物？用英语告诉爸爸妈妈吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 127.719,
+   "t1": 137.861,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "farm": [
+   0.25,
+   0.684
+  ],
+  "field": [
+   0.934,
+   1.333
+  ],
+  "grass": [
+   1.583,
+   2.134
+  ],
+  "plant": [
+   2.384,
+   2.876
+  ],
+  "tree": [
+   3.126,
+   3.586
+  ],
+  "leaf": [
+   3.836,
+   4.265
+  ],
+  "leaf:pl": [
+   4.515,
+   5.006
+  ],
+  "pig": [
+   5.256,
+   5.619
+  ],
+  "sheep": [
+   5.869,
+   6.254
+  ],
+  "horse": [
+   6.504,
+   6.982
+  ],
+  "cow": [
+   7.232,
+   7.626
+  ],
+  "hen": [
+   7.876,
+   8.265
+  ],
+  "lay": [
+   8.515,
+   8.969
+  ],
+  "egg": [
+   9.219,
+   9.601
+  ],
+  "fox": [
+   9.851,
+   10.407
+  ]
+ }
+}

@@ -1,0 +1,791 @@
+{
+ "id": "ep33",
+ "title": "learning",
+ "titleZh": "学习",
+ "episode": "第 33 集",
+ "titleIcon": "learn",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "learn",
+   "word": "learn",
+   "ipa": "/lɜːrn/",
+   "zh": "学习",
+   "icon": "learn",
+   "kind": "verb",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "read",
+   "word": "read",
+   "ipa": "/riːd/",
+   "zh": "读",
+   "icon": "read",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "story",
+   "word": "story",
+   "ipa": "/ˈstɔːri/",
+   "zh": "故事",
+   "icon": "story",
+   "plural": "stories",
+   "pluralIpa": "/ˈstɔːriz/",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "write",
+   "word": "write",
+   "ipa": "/raɪt/",
+   "zh": "写",
+   "icon": "write",
+   "kind": "verb",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "spell",
+   "word": "spell",
+   "ipa": "/spel/",
+   "zh": "拼写",
+   "icon": "spell",
+   "kind": "verb",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "spelling",
+   "word": "spelling",
+   "ipa": "/ˈspelɪŋ/",
+   "zh": "拼写；拼法",
+   "icon": "spelling",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "teach",
+   "word": "teach",
+   "ipa": "/tiːtʃ/",
+   "zh": "教",
+   "icon": "teach",
+   "kind": "verb",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "explain",
+   "word": "explain",
+   "ipa": "/ɪkˈspleɪn/",
+   "zh": "解释",
+   "icon": "explain",
+   "kind": "verb",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "example",
+   "word": "example",
+   "ipa": "/ɪɡˈzæmpl/",
+   "zh": "例子",
+   "icon": "example",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "clear",
+   "word": "clear",
+   "ipa": "/klɪr/",
+   "zh": "清楚的",
+   "icon": "clear",
+   "kind": "adj",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "understand",
+   "word": "understand",
+   "ipa": "/ˌʌndərˈstænd/",
+   "zh": "明白；理解",
+   "icon": "understand",
+   "kind": "verb",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "repeat",
+   "word": "repeat",
+   "ipa": "/rɪˈpiːt/",
+   "zh": "重复",
+   "icon": "repeat",
+   "kind": "verb",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "speak",
+   "word": "speak",
+   "ipa": "/spiːk/",
+   "zh": "说（语言）",
+   "icon": "speak",
+   "kind": "verb",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "speech",
+   "word": "speech",
+   "ipa": "/spiːtʃ/",
+   "zh": "演讲",
+   "icon": "speech",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "learn",
+   "to": "read"
+  },
+  {
+   "from": "read",
+   "to": "story"
+  },
+  {
+   "from": "learn",
+   "to": "write"
+  },
+  {
+   "from": "write",
+   "to": "spell"
+  },
+  {
+   "from": "spell",
+   "to": "spelling",
+   "label": "+ing"
+  },
+  {
+   "from": "learn",
+   "to": "understand"
+  },
+  {
+   "from": "understand",
+   "to": "repeat",
+   "label": "不懂就"
+  },
+  {
+   "from": "teach",
+   "to": "explain"
+  },
+  {
+   "from": "explain",
+   "to": "example",
+   "label": "举"
+  },
+  {
+   "from": "explain",
+   "to": "clear",
+   "label": "讲得"
+  },
+  {
+   "from": "speak",
+   "to": "speech",
+   "label": "ea→ee"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！在学校里，我们每天都在学习。今天，就来学和学习有关的单词。"
+    },
+    {
+     "en": "learn"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:learn",
+    "focus:learn"
+   ],
+   "parts": [
+    {
+     "zh": "学新的东西，英语是"
+    },
+    {
+     "en": "learn"
+    },
+    {
+     "en": "I learn English."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:read",
+    "edge:learn>read",
+    "focus:read"
+   ],
+   "parts": [
+    {
+     "zh": "学习的第一步，是读："
+    },
+    {
+     "en": "read"
+    },
+    {
+     "en": "Let's read together."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:story",
+    "edge:read>story",
+    "focus:story"
+   ],
+   "parts": [
+    {
+     "zh": "读什么呢？读有趣的故事："
+    },
+    {
+     "en": "story"
+    },
+    {
+     "zh": "很多故事，要把 y 变成 i e s：",
+     "cue": [
+      "plural:story"
+     ]
+    },
+    {
+     "en": "stories"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:write",
+    "edge:learn>write",
+    "focus:write"
+   ],
+   "parts": [
+    {
+     "zh": "学了还要会写："
+    },
+    {
+     "en": "write"
+    },
+    {
+     "zh": "开头的 w 不发音哦。"
+    },
+    {
+     "en": "I write well."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:spell",
+    "edge:write>spell",
+    "focus:spell"
+   ],
+   "parts": [
+    {
+     "zh": "把一个单词的字母，一个一个说出来，是拼写："
+    },
+    {
+     "en": "spell"
+    },
+    {
+     "en": "C, A, T, cat."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:spelling",
+    "edge:spell>spelling",
+    "focus:spelling"
+   ],
+   "parts": [
+    {
+     "zh": "加上 i n g，就是拼写这件事，比如拼写测验："
+    },
+    {
+     "en": "spelling"
+    },
+    {
+     "en": "a spelling test"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:understand",
+    "edge:learn>understand",
+    "focus:understand"
+   ],
+   "parts": [
+    {
+     "zh": "学会了，心里亮堂堂的，是明白、理解："
+    },
+    {
+     "en": "understand"
+    },
+    {
+     "zh": "在下面，加上站："
+    },
+    {
+     "en": "under"
+    },
+    {
+     "en": "stand"
+    },
+    {
+     "en": "understand"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:repeat",
+    "edge:understand>repeat",
+    "focus:repeat"
+   ],
+   "parts": [
+    {
+     "zh": "要是还没懂，就请老师再说一遍。重复，英语是"
+    },
+    {
+     "en": "repeat"
+    },
+    {
+     "en": "Please repeat."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:teach",
+    "focus:teach"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第六集的教吗？"
+    },
+    {
+     "en": "teach"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:explain",
+    "edge:teach>explain",
+    "focus:explain"
+   ],
+   "parts": [
+    {
+     "zh": "老师把难懂的地方讲明白，是解释："
+    },
+    {
+     "en": "explain"
+    },
+    {
+     "en": "Can you explain it?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:example",
+    "edge:explain>example",
+    "focus:example"
+   ],
+   "parts": [
+    {
+     "zh": "解释的时候，举一个例子，就更容易懂啦："
+    },
+    {
+     "en": "example"
+    },
+    {
+     "en": "for example"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:clear",
+    "edge:explain>clear",
+    "focus:clear"
+   ],
+   "parts": [
+    {
+     "zh": "讲得清清楚楚，是"
+    },
+    {
+     "en": "clear"
+    },
+    {
+     "en": "It's very clear."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:speak",
+    "focus:speak"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第七集的说吗？说一种语言："
+    },
+    {
+     "en": "speak"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:speech",
+    "edge:speak>speech",
+    "focus:speech"
+   ],
+   "parts": [
+    {
+     "zh": "站在台上，对着大家说一段话，是演讲："
+    },
+    {
+     "en": "speech"
+    },
+    {
+     "zh": "说是 e a，演讲变成了两个 e。"
+    },
+    {
+     "en": "speak",
+     "cue": [
+      "focus:speak"
+     ]
+    },
+    {
+     "en": "speech",
+     "cue": [
+      "focus:speech"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们在课堂上，常常会这样说："
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "I don't understand.",
+     "cue": [
+      "focus:understand"
+     ]
+    },
+    {
+     "en": "Can you explain it again?",
+     "cue": [
+      "focus:explain"
+     ]
+    },
+    {
+     "en": "Please repeat.",
+     "cue": [
+      "focus:repeat"
+     ]
+    },
+    {
+     "en": "Now I understand!",
+     "cue": [
+      "focus:understand"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:learn"
+   ],
+   "parts": [
+    {
+     "en": "learn"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:read"
+   ],
+   "parts": [
+    {
+     "en": "read"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:story"
+   ],
+   "parts": [
+    {
+     "en": "story, stories"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:write"
+   ],
+   "parts": [
+    {
+     "en": "write"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:spell"
+   ],
+   "parts": [
+    {
+     "en": "spell"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:spelling"
+   ],
+   "parts": [
+    {
+     "en": "spelling"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:understand"
+   ],
+   "parts": [
+    {
+     "en": "understand"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:repeat"
+   ],
+   "parts": [
+    {
+     "en": "repeat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:teach"
+   ],
+   "parts": [
+    {
+     "en": "teach"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:explain"
+   ],
+   "parts": [
+    {
+     "en": "explain"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:example"
+   ],
+   "parts": [
+    {
+     "en": "example"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:clear"
+   ],
+   "parts": [
+    {
+     "en": "clear"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:speak"
+   ],
+   "parts": [
+    {
+     "en": "speak"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:speech"
+   ],
+   "parts": [
+    {
+     "en": "speech"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！上课没听懂的时候，勇敢地用英语说一句 Please repeat 吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

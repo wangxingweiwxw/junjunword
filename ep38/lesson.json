@@ -1,0 +1,709 @@
+{
+ "id": "ep38",
+ "title": "rooms",
+ "titleZh": "房间",
+ "episode": "第 38 集",
+ "titleIcon": "room",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "room",
+   "word": "room",
+   "ipa": "/ruːm/",
+   "zh": "房间",
+   "icon": "room",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "bedroom",
+   "word": "bedroom",
+   "ipa": "/ˈbedruːm/",
+   "zh": "卧室",
+   "icon": "bedroom",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "livingroom",
+   "word": "living room",
+   "ipa": "/ˈlɪvɪŋ ruːm/",
+   "zh": "客厅",
+   "icon": "livingroom",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "kitchen",
+   "word": "kitchen",
+   "ipa": "/ˈkɪtʃɪn/",
+   "zh": "厨房",
+   "icon": "kitchen",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "bathroom",
+   "word": "bathroom",
+   "ipa": "/ˈbæθruːm/",
+   "zh": "浴室",
+   "icon": "bathroom",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "washroom",
+   "word": "washroom",
+   "ipa": "/ˈwɑːʃruːm/",
+   "zh": "洗手间",
+   "icon": "washroom",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "restroom",
+   "word": "restroom",
+   "ipa": "/ˈrestruːm/",
+   "zh": "公共厕所",
+   "icon": "restroom",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "toilet",
+   "word": "toilet",
+   "ipa": "/ˈtɔɪlət/",
+   "zh": "马桶；厕所",
+   "icon": "toilet",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "ceiling",
+   "word": "ceiling",
+   "ipa": "/ˈsiːlɪŋ/",
+   "zh": "天花板",
+   "icon": "ceiling",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "toothbrush",
+   "word": "toothbrush",
+   "ipa": "/ˈtuːθbrʌʃ/",
+   "zh": "牙刷",
+   "icon": "toothbrush",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "soap",
+   "word": "soap",
+   "ipa": "/soʊp/",
+   "zh": "肥皂",
+   "icon": "soap",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "towel",
+   "word": "towel",
+   "ipa": "/ˈtaʊəl/",
+   "zh": "毛巾",
+   "icon": "towel",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "room",
+   "to": "bedroom"
+  },
+  {
+   "from": "room",
+   "to": "kitchen"
+  },
+  {
+   "from": "room",
+   "to": "livingroom"
+  },
+  {
+   "from": "room",
+   "to": "bathroom"
+  },
+  {
+   "from": "room",
+   "to": "ceiling",
+   "label": "抬头看"
+  },
+  {
+   "from": "room",
+   "to": "restroom"
+  },
+  {
+   "from": "washroom",
+   "to": "restroom",
+   "label": "都可以"
+  },
+  {
+   "from": "restroom",
+   "to": "toilet"
+  },
+  {
+   "from": "bathroom",
+   "to": "toilet"
+  },
+  {
+   "from": "toilet",
+   "to": "towel",
+   "dashed": true
+  },
+  {
+   "from": "soap",
+   "to": "towel",
+   "dashed": true
+  },
+  {
+   "from": "toothbrush",
+   "to": "soap",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！欢迎来我家做客！今天，我们来认识家里的房间。"
+    },
+    {
+     "en": "rooms"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:room",
+    "focus:room"
+   ],
+   "parts": [
+    {
+     "zh": "房子里分成一间一间的，叫房间："
+    },
+    {
+     "en": "room"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bedroom",
+    "edge:room>bedroom",
+    "focus:bedroom"
+   ],
+   "parts": [
+    {
+     "zh": "睡觉的房间是卧室。床，加上房间："
+    },
+    {
+     "en": "bed"
+    },
+    {
+     "en": "room"
+    },
+    {
+     "en": "bedroom"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:livingroom",
+    "edge:room>livingroom",
+    "focus:livingroom"
+   ],
+   "parts": [
+    {
+     "zh": "一家人坐在一起看电视、聊天的地方，是客厅："
+    },
+    {
+     "en": "living room"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:kitchen",
+    "edge:room>kitchen",
+    "focus:kitchen"
+   ],
+   "parts": [
+    {
+     "zh": "妈妈做饭的地方，是厨房："
+    },
+    {
+     "en": "kitchen"
+    },
+    {
+     "zh": "还记得第三十五集的厨师吗？"
+    },
+    {
+     "en": "cook"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bathroom",
+    "edge:room>bathroom",
+    "focus:bathroom"
+   ],
+   "parts": [
+    {
+     "zh": "洗澡的地方，是浴室。洗澡，加上房间："
+    },
+    {
+     "en": "bath"
+    },
+    {
+     "en": "room"
+    },
+    {
+     "en": "bathroom"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ceiling",
+    "edge:room>ceiling",
+    "focus:ceiling"
+   ],
+   "parts": [
+    {
+     "zh": "抬头看，房间最上面，是天花板："
+    },
+    {
+     "en": "ceiling"
+    },
+    {
+     "zh": "c e i，读成长长的 see。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:toilet",
+    "edge:bathroom>toilet",
+    "focus:toilet"
+   ],
+   "parts": [
+    {
+     "zh": "上厕所用的马桶："
+    },
+    {
+     "en": "toilet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:restroom",
+    "edge:room>restroom",
+    "edge:restroom>toilet",
+    "focus:restroom"
+   ],
+   "parts": [
+    {
+     "zh": "在商场、学校里，找厕所要说"
+    },
+    {
+     "en": "restroom"
+    },
+    {
+     "en": "Where is the restroom?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:washroom",
+    "edge:washroom>restroom",
+    "focus:washroom"
+   ],
+   "parts": [
+    {
+     "zh": "有的地方也叫它洗手间。洗，加上房间："
+    },
+    {
+     "en": "wash"
+    },
+    {
+     "en": "room"
+    },
+    {
+     "en": "washroom"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bedroom,bathroom,washroom,restroom"
+   ],
+   "parts": [
+    {
+     "zh": "你发现了吗？好多房间的名字，都是加上 room 拼出来的："
+    },
+    {
+     "en": "bedroom",
+     "cue": [
+      "focus:bedroom"
+     ]
+    },
+    {
+     "en": "bathroom",
+     "cue": [
+      "focus:bathroom"
+     ]
+    },
+    {
+     "en": "washroom",
+     "cue": [
+      "focus:washroom"
+     ]
+    },
+    {
+     "en": "restroom",
+     "cue": [
+      "focus:restroom"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:toothbrush",
+    "focus:toothbrush"
+   ],
+   "parts": [
+    {
+     "zh": "早上起床，先刷牙。牙齿，加上刷子："
+    },
+    {
+     "en": "tooth"
+    },
+    {
+     "en": "brush"
+    },
+    {
+     "en": "toothbrush"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:soap",
+    "edge:toothbrush>soap",
+    "focus:soap"
+   ],
+   "parts": [
+    {
+     "zh": "再用肥皂洗洗手："
+    },
+    {
+     "en": "soap"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:towel",
+    "edge:soap>towel",
+    "focus:towel"
+   ],
+   "parts": [
+    {
+     "zh": "最后，用毛巾擦干："
+    },
+    {
+     "en": "towel"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "带客人参观一下我家吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "This is the living room.",
+     "cue": [
+      "focus:livingroom"
+     ]
+    },
+    {
+     "en": "This is my bedroom.",
+     "cue": [
+      "focus:bedroom"
+     ]
+    },
+    {
+     "en": "The kitchen is over there.",
+     "cue": [
+      "focus:kitchen"
+     ]
+    },
+    {
+     "en": "And here is the bathroom.",
+     "cue": [
+      "focus:bathroom"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:room"
+   ],
+   "parts": [
+    {
+     "en": "room"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bedroom"
+   ],
+   "parts": [
+    {
+     "en": "bedroom"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:livingroom"
+   ],
+   "parts": [
+    {
+     "en": "living room"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:kitchen"
+   ],
+   "parts": [
+    {
+     "en": "kitchen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bathroom"
+   ],
+   "parts": [
+    {
+     "en": "bathroom"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ceiling"
+   ],
+   "parts": [
+    {
+     "en": "ceiling"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:toilet"
+   ],
+   "parts": [
+    {
+     "en": "toilet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:restroom"
+   ],
+   "parts": [
+    {
+     "en": "restroom"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:washroom"
+   ],
+   "parts": [
+    {
+     "en": "washroom"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:toothbrush"
+   ],
+   "parts": [
+    {
+     "en": "toothbrush"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:soap"
+   ],
+   "parts": [
+    {
+     "en": "soap"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:towel"
+   ],
+   "parts": [
+    {
+     "en": "towel"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！在家里走一圈，用英语说一说每个房间的名字吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,741 @@
+{
+ "duration": 150.104,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！你今天心情怎么样？今天，我们来学表达情绪的单词。",
+   "t0": 0.4,
+   "t1": 7.05,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "feelings",
+   "t0": 7.3,
+   "t1": 7.986,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "心里的感受，是感觉、情绪：",
+   "t0": 9.086,
+   "t1": 11.849,
+   "cue": [
+    "map",
+    "show:feeling",
+    "focus:feeling"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "feeling",
+   "t0": 12.099,
+   "t1": 12.609,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "它来自第十七集学过的",
+   "t0": 13.109,
+   "t1": 14.94,
+   "cue": [
+    "alt:feeling"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "feel",
+   "t0": 15.19,
+   "t1": 15.594,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "How are you feeling?",
+   "t0": 16.094,
+   "t1": 17.106,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "心里乐开了花，是开心的：",
+   "t0": 18.206,
+   "t1": 20.387,
+   "cue": [
+    "show:happy",
+    "edge:feeling>happy",
+    "focus:happy"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "happy",
+   "t0": 20.637,
+   "t1": 21.112,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "I'm happy!",
+   "t0": 21.612,
+   "t1": 22.278,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "开心的时候，我们会微笑：",
+   "t0": 23.378,
+   "t1": 25.534,
+   "cue": [
+    "show:smile",
+    "edge:happy>smile",
+    "focus:smile"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "smile",
+   "t0": 25.784,
+   "t1": 26.337,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Smile!",
+   "t0": 26.837,
+   "t1": 27.38,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "看到喜欢的东西，眼睛都亮了。喜欢，英语是",
+   "t0": 28.48,
+   "t1": 33.147,
+   "cue": [
+    "show:like",
+    "edge:smile>like",
+    "focus:like"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "like",
+   "t0": 33.397,
+   "t1": 33.853,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "I like you!",
+   "t0": 34.353,
+   "t1": 35.161,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "要去游乐园啦，激动得跳起来，是兴奋的：",
+   "t0": 36.261,
+   "t1": 39.799,
+   "cue": [
+    "show:excited",
+    "edge:feeling>excited",
+    "focus:excited"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "excited",
+   "t0": 40.049,
+   "t1": 40.724,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "没想到的事情发生了，眼睛瞪得圆圆的，是惊讶的：",
+   "t0": 41.824,
+   "t1": 46.191,
+   "cue": [
+    "show:surprised",
+    "edge:feeling>surprised",
+    "focus:surprised"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "surprised",
+   "t0": 46.441,
+   "t1": 47.268,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "让人吃惊的事，常常是突然发生的：",
+   "t0": 48.368,
+   "t1": 51.286,
+   "cue": [
+    "show:sudden",
+    "edge:surprised>sudden",
+    "focus:sudden"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "sudden",
+   "t0": 51.536,
+   "t1": 52.049,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "加上 l y，就是突然地：",
+   "t0": 52.549,
+   "t1": 54.653,
+   "cue": [
+    "alt:sudden"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "suddenly",
+   "t0": 54.903,
+   "t1": 55.601,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "Suddenly, it rained!",
+   "t0": 56.101,
+   "t1": 57.56,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "气鼓鼓的，是生气的：",
+   "t0": 58.66,
+   "t1": 60.593,
+   "cue": [
+    "show:mad",
+    "edge:feeling>mad",
+    "focus:mad"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "mad",
+   "t0": 60.843,
+   "t1": 61.281,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Don't be mad.",
+   "t0": 61.781,
+   "t1": 62.59,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "心里难过，是伤心的：",
+   "t0": 63.69,
+   "t1": 65.619,
+   "cue": [
+    "show:sad",
+    "edge:feeling>sad",
+    "focus:sad"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "sad",
+   "t0": 65.869,
+   "t1": 66.402,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "太伤心了，就会哭：",
+   "t0": 67.502,
+   "t1": 69.24,
+   "cue": [
+    "show:cry",
+    "edge:sad>cry",
+    "focus:cry"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "cry",
+   "t0": 69.49,
+   "t1": 69.921,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "哭的时候，流下的是眼泪：",
+   "t0": 71.021,
+   "t1": 73.19,
+   "cue": [
+    "show:tears",
+    "edge:cry>tears",
+    "focus:tears"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "tears",
+   "t0": 73.44,
+   "t1": 74.026,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "怕黑、怕打雷，是害怕的：",
+   "t0": 75.126,
+   "t1": 77.641,
+   "cue": [
+    "show:afraid",
+    "focus:afraid"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "afraid",
+   "t0": 77.891,
+   "t1": 78.474,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "I'm afraid of the dark.",
+   "t0": 78.974,
+   "t1": 80.187,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "被吓了一大跳，是吓坏的：",
+   "t0": 81.287,
+   "t1": 83.478,
+   "cue": [
+    "show:scared",
+    "edge:afraid>scared",
+    "focus:scared"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "scared",
+   "t0": 83.728,
+   "t1": 84.276,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "心里的害怕，叫恐惧：",
+   "t0": 85.376,
+   "t1": 87.339,
+   "cue": [
+    "show:fear",
+    "edge:scared>fear",
+    "focus:fear"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "fear",
+   "t0": 87.589,
+   "t1": 87.954,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "你发现了吗？好多表示感觉的词，都是 e d 结尾的：",
+   "t0": 89.054,
+   "t1": 93.723,
+   "cue": [
+    "focus:excited,surprised,scared"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "excited",
+   "t0": 93.973,
+   "t1": 94.647,
+   "cue": [
+    "focus:excited"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "surprised",
+   "t0": 95.147,
+   "t1": 95.974,
+   "cue": [
+    "focus:surprised"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "scared",
+   "t0": 96.474,
+   "t1": 97.023,
+   "cue": [
+    "focus:scared"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "一开心，一伤心：",
+   "t0": 98.123,
+   "t1": 99.748,
+   "cue": [
+    "focus:happy,sad"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "happy",
+   "t0": 99.998,
+   "t1": 100.472,
+   "cue": [
+    "focus:happy"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "sad",
+   "t0": 100.972,
+   "t1": 101.506,
+   "cue": [
+    "focus:sad"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "我们来做一做表情吧！",
+   "t0": 102.606,
+   "t1": 104.163,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Show me happy!",
+   "t0": 105.013,
+   "t1": 105.901,
+   "cue": [
+    "focus:happy"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Show me sad!",
+   "t0": 106.401,
+   "t1": 107.316,
+   "cue": [
+    "focus:sad"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Show me surprised!",
+   "t0": 107.816,
+   "t1": 109.022,
+   "cue": [
+    "focus:surprised"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Show me mad!",
+   "t0": 109.522,
+   "t1": 110.362,
+   "cue": [
+    "focus:mad"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 111.462,
+   "t1": 114.712,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "feeling",
+   "t0": 115.562,
+   "t1": 116.073,
+   "cue": [
+    "focus:feeling"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "happy",
+   "t0": 117.173,
+   "t1": 117.647,
+   "cue": [
+    "focus:happy"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "smile",
+   "t0": 118.747,
+   "t1": 119.3,
+   "cue": [
+    "focus:smile"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "like",
+   "t0": 120.4,
+   "t1": 120.856,
+   "cue": [
+    "focus:like"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "excited",
+   "t0": 121.956,
+   "t1": 122.63,
+   "cue": [
+    "focus:excited"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "surprised",
+   "t0": 123.73,
+   "t1": 124.557,
+   "cue": [
+    "focus:surprised"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "sudden, suddenly",
+   "t0": 125.657,
+   "t1": 126.959,
+   "cue": [
+    "focus:sudden"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "mad",
+   "t0": 128.059,
+   "t1": 128.497,
+   "cue": [
+    "focus:mad"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "sad",
+   "t0": 129.597,
+   "t1": 130.131,
+   "cue": [
+    "focus:sad"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "cry",
+   "t0": 131.231,
+   "t1": 131.662,
+   "cue": [
+    "focus:cry"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "tears",
+   "t0": 132.762,
+   "t1": 133.347,
+   "cue": [
+    "focus:tears"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "afraid",
+   "t0": 134.447,
+   "t1": 135.03,
+   "cue": [
+    "focus:afraid"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "scared",
+   "t0": 136.13,
+   "t1": 136.679,
+   "cue": [
+    "focus:scared"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "en",
+   "text": "fear",
+   "t0": 137.779,
+   "t1": 138.144,
+   "cue": [
+    "focus:fear"
+   ]
+  },
+  {
+   "seg": 34,
+   "lang": "zh",
+   "text": "太棒了！每天放学，用英语说一说你今天的心情吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 139.244,
+   "t1": 148.254,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "feeling": [
+   0.25,
+   0.76
+  ],
+  "feeling:alt": [
+   1.01,
+   1.414
+  ],
+  "happy": [
+   1.664,
+   2.138
+  ],
+  "smile": [
+   2.388,
+   2.941
+  ],
+  "like": [
+   3.191,
+   3.648
+  ],
+  "excited": [
+   3.898,
+   4.572
+  ],
+  "surprised": [
+   4.822,
+   5.649
+  ],
+  "sudden": [
+   5.899,
+   6.412
+  ],
+  "sudden:alt": [
+   6.662,
+   7.36
+  ],
+  "mad": [
+   7.61,
+   8.048
+  ],
+  "sad": [
+   8.298,
+   8.832
+  ],
+  "cry": [
+   9.082,
+   9.513
+  ],
+  "tears": [
+   9.763,
+   10.348
+  ],
+  "afraid": [
+   10.598,
+   11.181
+  ],
+  "scared": [
+   11.431,
+   11.98
+  ],
+  "fear": [
+   12.23,
+   12.595
+  ]
+ }
+}

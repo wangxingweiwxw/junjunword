@@ -1,0 +1,732 @@
+{
+ "duration": 161.001,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！在学校里，我们每天都在学习。今天，就来学和学习有关的单词。",
+   "t0": 0.4,
+   "t1": 8.368,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "learn",
+   "t0": 8.618,
+   "t1": 9.052,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "学新的东西，英语是",
+   "t0": 10.152,
+   "t1": 12.103,
+   "cue": [
+    "map",
+    "show:learn",
+    "focus:learn"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "learn",
+   "t0": 12.353,
+   "t1": 12.787,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "I learn English.",
+   "t0": 13.287,
+   "t1": 14.327,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "学习的第一步，是读：",
+   "t0": 15.427,
+   "t1": 17.338,
+   "cue": [
+    "show:read",
+    "edge:learn>read",
+    "focus:read"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "read",
+   "t0": 17.588,
+   "t1": 17.988,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Let's read together.",
+   "t0": 18.488,
+   "t1": 19.647,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "读什么呢？读有趣的故事：",
+   "t0": 20.747,
+   "t1": 23.33,
+   "cue": [
+    "show:story",
+    "edge:read>story",
+    "focus:story"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "story",
+   "t0": 23.58,
+   "t1": 24.189,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "很多故事，要把 y 变成 i e s：",
+   "t0": 24.689,
+   "t1": 27.645,
+   "cue": [
+    "plural:story"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "stories",
+   "t0": 27.895,
+   "t1": 28.639,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "学了还要会写：",
+   "t0": 29.739,
+   "t1": 30.934,
+   "cue": [
+    "show:write",
+    "edge:learn>write",
+    "focus:write"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "write",
+   "t0": 31.184,
+   "t1": 31.677,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "开头的 w 不发音哦。",
+   "t0": 32.177,
+   "t1": 33.992,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "I write well.",
+   "t0": 34.242,
+   "t1": 35.096,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "把一个单词的字母，一个一个说出来，是拼写：",
+   "t0": 36.196,
+   "t1": 39.979,
+   "cue": [
+    "show:spell",
+    "edge:write>spell",
+    "focus:spell"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "spell",
+   "t0": 40.229,
+   "t1": 40.739,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "C, A, T, cat.",
+   "t0": 41.239,
+   "t1": 43.741,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "加上 i n g，就是拼写这件事，比如拼写测验：",
+   "t0": 44.841,
+   "t1": 49.26,
+   "cue": [
+    "show:spelling",
+    "edge:spell>spelling",
+    "focus:spelling"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "spelling",
+   "t0": 49.51,
+   "t1": 50.158,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "a spelling test",
+   "t0": 50.658,
+   "t1": 51.883,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "学会了，心里亮堂堂的，是明白、理解：",
+   "t0": 52.983,
+   "t1": 56.829,
+   "cue": [
+    "show:understand",
+    "edge:learn>understand",
+    "focus:understand"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "understand",
+   "t0": 57.079,
+   "t1": 57.88,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "在下面，加上站：",
+   "t0": 58.38,
+   "t1": 59.944,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "under",
+   "t0": 60.194,
+   "t1": 60.624,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "stand",
+   "t0": 61.124,
+   "t1": 61.713,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "understand",
+   "t0": 62.213,
+   "t1": 63.014,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "要是还没懂，就请老师再说一遍。重复，英语是",
+   "t0": 64.114,
+   "t1": 68.925,
+   "cue": [
+    "show:repeat",
+    "edge:understand>repeat",
+    "focus:repeat"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "repeat",
+   "t0": 69.175,
+   "t1": 69.802,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Please repeat.",
+   "t0": 70.302,
+   "t1": 71.16,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "还记得第六集的教吗？",
+   "t0": 72.26,
+   "t1": 73.87,
+   "cue": [
+    "show:teach",
+    "focus:teach"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "teach",
+   "t0": 74.12,
+   "t1": 74.571,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "老师把难懂的地方讲明白，是解释：",
+   "t0": 75.671,
+   "t1": 78.752,
+   "cue": [
+    "show:explain",
+    "edge:teach>explain",
+    "focus:explain"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "explain",
+   "t0": 79.002,
+   "t1": 79.748,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Can you explain it?",
+   "t0": 80.248,
+   "t1": 81.32,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "解释的时候，举一个例子，就更容易懂啦：",
+   "t0": 82.42,
+   "t1": 85.774,
+   "cue": [
+    "show:example",
+    "edge:explain>example",
+    "focus:example"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "example",
+   "t0": 86.024,
+   "t1": 86.744,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "for example",
+   "t0": 87.244,
+   "t1": 88.092,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "讲得清清楚楚，是",
+   "t0": 89.192,
+   "t1": 90.995,
+   "cue": [
+    "show:clear",
+    "edge:explain>clear",
+    "focus:clear"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "clear",
+   "t0": 91.245,
+   "t1": 91.723,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "It's very clear.",
+   "t0": 92.223,
+   "t1": 93.267,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "还记得第七集的说吗？说一种语言：",
+   "t0": 94.367,
+   "t1": 97.8,
+   "cue": [
+    "show:speak",
+    "focus:speak"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "speak",
+   "t0": 98.05,
+   "t1": 98.566,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "站在台上，对着大家说一段话，是演讲：",
+   "t0": 99.666,
+   "t1": 103.171,
+   "cue": [
+    "show:speech",
+    "edge:speak>speech",
+    "focus:speech"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "speech",
+   "t0": 103.421,
+   "t1": 104.006,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "说是 e a，演讲变成了两个 e。",
+   "t0": 104.506,
+   "t1": 107.219,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "speak",
+   "t0": 107.469,
+   "t1": 107.985,
+   "cue": [
+    "focus:speak"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "speech",
+   "t0": 108.485,
+   "t1": 109.07,
+   "cue": [
+    "focus:speech"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "我们在课堂上，常常会这样说：",
+   "t0": 110.17,
+   "t1": 112.747,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "I don't understand.",
+   "t0": 113.597,
+   "t1": 114.704,
+   "cue": [
+    "focus:understand"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Can you explain it again?",
+   "t0": 115.204,
+   "t1": 116.57,
+   "cue": [
+    "focus:explain"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Please repeat.",
+   "t0": 117.07,
+   "t1": 117.928,
+   "cue": [
+    "focus:repeat"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Now I understand!",
+   "t0": 118.428,
+   "t1": 119.599,
+   "cue": [
+    "focus:understand"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 120.699,
+   "t1": 123.949,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "learn",
+   "t0": 124.799,
+   "t1": 125.233,
+   "cue": [
+    "focus:learn"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "read",
+   "t0": 126.333,
+   "t1": 126.732,
+   "cue": [
+    "focus:read"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "story, stories",
+   "t0": 127.832,
+   "t1": 129.301,
+   "cue": [
+    "focus:story"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "write",
+   "t0": 130.401,
+   "t1": 130.894,
+   "cue": [
+    "focus:write"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "spell",
+   "t0": 131.994,
+   "t1": 132.504,
+   "cue": [
+    "focus:spell"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "spelling",
+   "t0": 133.604,
+   "t1": 134.252,
+   "cue": [
+    "focus:spelling"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "understand",
+   "t0": 135.352,
+   "t1": 136.153,
+   "cue": [
+    "focus:understand"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "repeat",
+   "t0": 137.253,
+   "t1": 137.88,
+   "cue": [
+    "focus:repeat"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "teach",
+   "t0": 138.98,
+   "t1": 139.432,
+   "cue": [
+    "focus:teach"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "explain",
+   "t0": 140.532,
+   "t1": 141.277,
+   "cue": [
+    "focus:explain"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "example",
+   "t0": 142.377,
+   "t1": 143.097,
+   "cue": [
+    "focus:example"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "clear",
+   "t0": 144.197,
+   "t1": 144.675,
+   "cue": [
+    "focus:clear"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "speak",
+   "t0": 145.775,
+   "t1": 146.29,
+   "cue": [
+    "focus:speak"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "speech",
+   "t0": 147.39,
+   "t1": 147.976,
+   "cue": [
+    "focus:speech"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "zh",
+   "text": "太棒了！上课没听懂的时候，勇敢地用英语说一句 Please repeat 吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 149.076,
+   "t1": 159.151,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "learn": [
+   0.25,
+   0.684
+  ],
+  "read": [
+   0.934,
+   1.333
+  ],
+  "story": [
+   1.583,
+   2.192
+  ],
+  "story:pl": [
+   2.442,
+   3.186
+  ],
+  "write": [
+   3.436,
+   3.929
+  ],
+  "spell": [
+   4.179,
+   4.689
+  ],
+  "spelling": [
+   4.939,
+   5.587
+  ],
+  "teach": [
+   5.837,
+   6.289
+  ],
+  "explain": [
+   6.539,
+   7.284
+  ],
+  "example": [
+   7.534,
+   8.253
+  ],
+  "clear": [
+   8.503,
+   8.981
+  ],
+  "understand": [
+   9.231,
+   10.032
+  ],
+  "repeat": [
+   10.282,
+   10.91
+  ],
+  "speak": [
+   11.16,
+   11.676
+  ],
+  "speech": [
+   11.926,
+   12.511
+  ]
+ }
+}

@@ -1,0 +1,687 @@
+{
+ "id": "ep31",
+ "title": "compare",
+ "titleZh": "比较",
+ "episode": "第 31 集",
+ "titleIcon": "compare",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "compare",
+   "word": "compare",
+   "ipa": "/kəmˈper/",
+   "zh": "比较",
+   "icon": "compare",
+   "kind": "verb",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "same",
+   "word": "same",
+   "ipa": "/seɪm/",
+   "zh": "相同的",
+   "icon": "same",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "different",
+   "word": "different",
+   "ipa": "/ˈdɪfrənt/",
+   "zh": "不同的",
+   "icon": "different",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "as",
+   "word": "as",
+   "ipa": "/æz/",
+   "zh": "和……一样",
+   "icon": "as",
+   "kind": "prep",
+   "alt": "as…as",
+   "altLabel": "句型",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "good",
+   "word": "good",
+   "ipa": "/ɡʊd/",
+   "zh": "好的",
+   "icon": "good",
+   "kind": "adj",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "well",
+   "word": "well",
+   "ipa": "/wel/",
+   "zh": "好地",
+   "icon": "well",
+   "kind": "adv",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "bad",
+   "word": "bad",
+   "ipa": "/bæd/",
+   "zh": "坏的；差的",
+   "icon": "bad",
+   "kind": "adj",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "badly",
+   "word": "badly",
+   "ipa": "/ˈbædli/",
+   "zh": "差地",
+   "icon": "badly",
+   "kind": "adv",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  },
+  {
+   "id": "quite",
+   "word": "quite",
+   "ipa": "/kwaɪt/",
+   "zh": "相当",
+   "icon": "quite",
+   "kind": "adv",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "cool",
+   "word": "cool",
+   "ipa": "/kuːl/",
+   "zh": "酷的；凉爽的",
+   "icon": "cool",
+   "kind": "adj",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "great",
+   "word": "great",
+   "ipa": "/ɡreɪt/",
+   "zh": "棒极了",
+   "icon": "great",
+   "kind": "adj",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "compare",
+   "to": "same"
+  },
+  {
+   "from": "compare",
+   "to": "different"
+  },
+  {
+   "from": "compare",
+   "to": "as"
+  },
+  {
+   "from": "good",
+   "to": "well",
+   "label": "+做事"
+  },
+  {
+   "from": "bad",
+   "to": "badly",
+   "label": "+ly"
+  },
+  {
+   "from": "quite",
+   "to": "good",
+   "dashed": true
+  },
+  {
+   "from": "quite",
+   "to": "bad",
+   "dashed": true
+  },
+  {
+   "from": "good",
+   "to": "great",
+   "label": "更好"
+  },
+  {
+   "from": "good",
+   "to": "cool",
+   "label": "也可以说"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！两只小狗站在一起，它们一样吗？今天，我们来学比较。"
+    },
+    {
+     "en": "compare"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:compare",
+    "focus:compare"
+   ],
+   "parts": [
+    {
+     "zh": "把两样东西放在一起，看一看哪里一样、哪里不一样，就是比较："
+    },
+    {
+     "en": "compare"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:same",
+    "edge:compare>same",
+    "focus:same"
+   ],
+   "parts": [
+    {
+     "zh": "长得一模一样，是相同的："
+    },
+    {
+     "en": "same"
+    },
+    {
+     "en": "They look the same."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:different",
+    "edge:compare>different",
+    "focus:different"
+   ],
+   "parts": [
+    {
+     "zh": "颜色不一样，是不同的："
+    },
+    {
+     "en": "different"
+    },
+    {
+     "en": "They are different."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:same,different"
+   ],
+   "parts": [
+    {
+     "zh": "一样，和不一样："
+    },
+    {
+     "en": "same",
+     "cue": [
+      "focus:same"
+     ]
+    },
+    {
+     "en": "different",
+     "cue": [
+      "focus:different"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:as",
+    "edge:compare>as",
+    "focus:as"
+   ],
+   "parts": [
+    {
+     "zh": "说两样东西一样高、一样好，要用小词"
+    },
+    {
+     "en": "as"
+    },
+    {
+     "zh": "两个 as 中间夹一个词：",
+     "cue": [
+      "alt:as"
+     ]
+    },
+    {
+     "en": "as tall as"
+    },
+    {
+     "en": "I am as tall as you."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:good",
+    "focus:good"
+   ],
+   "parts": [
+    {
+     "zh": "夸一样东西，最常说好的："
+    },
+    {
+     "en": "good"
+    },
+    {
+     "en": "a good book"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:well",
+    "edge:good>well",
+    "focus:well"
+   ],
+   "parts": [
+    {
+     "zh": "说一个人把事情做得好，要换成"
+    },
+    {
+     "en": "well"
+    },
+    {
+     "zh": "这个词很特别，它不加 l y。"
+    },
+    {
+     "en": "I sing well."
+    },
+    {
+     "en": "I play guitar as well as you do.",
+     "cue": [
+      "focus:well,as"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bad",
+    "focus:bad"
+   ],
+   "parts": [
+    {
+     "zh": "好的反面，是坏的、差的："
+    },
+    {
+     "en": "bad"
+    },
+    {
+     "en": "a bad day"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:badly",
+    "edge:bad>badly",
+    "focus:badly"
+   ],
+   "parts": [
+    {
+     "zh": "事情做得差，在后面加上 l y："
+    },
+    {
+     "en": "badly"
+    },
+    {
+     "en": "I sing badly."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:good,well,bad,badly"
+   ],
+   "parts": [
+    {
+     "zh": "比一比："
+    },
+    {
+     "en": "good, well",
+     "cue": [
+      "focus:good,well"
+     ]
+    },
+    {
+     "en": "bad, badly",
+     "cue": [
+      "focus:bad,badly"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:quite",
+    "edge:quite>good",
+    "edge:quite>bad",
+    "focus:quite"
+   ],
+   "parts": [
+    {
+     "zh": "说一样东西挺好、相当好，可以在前面加上"
+    },
+    {
+     "en": "quite"
+    },
+    {
+     "en": "quite good"
+    },
+    {
+     "zh": "小心，别和安静 quiet 搞混了，字母的顺序不一样。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:great",
+    "edge:good>great",
+    "focus:great"
+   ],
+   "parts": [
+    {
+     "zh": "比好还要好，是棒极了："
+    },
+    {
+     "en": "great"
+    },
+    {
+     "en": "Great job!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cool",
+    "edge:good>cool",
+    "focus:cool"
+   ],
+   "parts": [
+    {
+     "zh": "酷的，英语是"
+    },
+    {
+     "en": "cool"
+    },
+    {
+     "zh": "它也是凉爽的意思。"
+    },
+    {
+     "en": "That's so cool!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:good,great,cool"
+   ],
+   "parts": [
+    {
+     "zh": "夸奖别人的话，一起来喊："
+    },
+    {
+     "en": "Good!",
+     "cue": [
+      "focus:good"
+     ]
+    },
+    {
+     "en": "Great!",
+     "cue": [
+      "focus:great"
+     ]
+    },
+    {
+     "en": "Cool!",
+     "cue": [
+      "focus:cool"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:compare"
+   ],
+   "parts": [
+    {
+     "en": "compare"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:same"
+   ],
+   "parts": [
+    {
+     "en": "same"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:different"
+   ],
+   "parts": [
+    {
+     "en": "different"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:as"
+   ],
+   "parts": [
+    {
+     "en": "as"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:good"
+   ],
+   "parts": [
+    {
+     "en": "good"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:well"
+   ],
+   "parts": [
+    {
+     "en": "well"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bad"
+   ],
+   "parts": [
+    {
+     "en": "bad"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:badly"
+   ],
+   "parts": [
+    {
+     "en": "badly"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:quite"
+   ],
+   "parts": [
+    {
+     "en": "quite"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:great"
+   ],
+   "parts": [
+    {
+     "en": "great"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cool"
+   ],
+   "parts": [
+    {
+     "en": "cool"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！找两样东西，用英语比一比它们一样还是不一样吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

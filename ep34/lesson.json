@@ -1,0 +1,676 @@
+{
+ "id": "ep34",
+ "title": "family tree",
+ "titleZh": "家族",
+ "episode": "第 34 集",
+ "titleIcon": "relationship",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "ancestor",
+   "word": "ancestor",
+   "ipa": "/ˈænsestər/",
+   "zh": "祖先",
+   "icon": "ancestor",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "parents",
+   "word": "parents",
+   "ipa": "/ˈperənts/",
+   "zh": "父母",
+   "icon": "parents",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "brother",
+   "word": "brother",
+   "ipa": "/ˈbrʌðər/",
+   "zh": "兄弟",
+   "icon": "brother",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "sister",
+   "word": "sister",
+   "ipa": "/ˈsɪstər/",
+   "zh": "姐妹",
+   "icon": "sister",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "twins",
+   "word": "twins",
+   "ipa": "/twɪnz/",
+   "zh": "双胞胎",
+   "icon": "twins",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "husband",
+   "word": "husband",
+   "ipa": "/ˈhʌzbənd/",
+   "zh": "丈夫",
+   "icon": "husband",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "wife",
+   "word": "wife",
+   "ipa": "/waɪf/",
+   "zh": "妻子",
+   "icon": "wife",
+   "plural": "wives",
+   "pluralIpa": "/waɪvz/",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "couple",
+   "word": "couple",
+   "ipa": "/ˈkʌpl/",
+   "zh": "夫妻；一对",
+   "icon": "couple",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "blood",
+   "word": "blood",
+   "ipa": "/blʌd/",
+   "zh": "血；血缘",
+   "icon": "blood",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "relation",
+   "word": "relation",
+   "ipa": "/rɪˈleɪʃn/",
+   "zh": "关系；亲属",
+   "icon": "relation",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "relationship",
+   "word": "relationship",
+   "ipa": "/rɪˈleɪʃnʃɪp/",
+   "zh": "关系",
+   "icon": "relationship",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "although",
+   "word": "although",
+   "ipa": "/ɔːlˈðoʊ/",
+   "zh": "虽然",
+   "icon": "although",
+   "kind": "adv",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "husband",
+   "to": "couple"
+  },
+  {
+   "from": "wife",
+   "to": "couple"
+  },
+  {
+   "from": "couple",
+   "to": "parents",
+   "label": "有了孩子"
+  },
+  {
+   "from": "ancestor",
+   "to": "parents",
+   "label": "很久以前"
+  },
+  {
+   "from": "parents",
+   "to": "brother"
+  },
+  {
+   "from": "parents",
+   "to": "sister"
+  },
+  {
+   "from": "brother",
+   "to": "twins",
+   "dashed": true
+  },
+  {
+   "from": "sister",
+   "to": "twins",
+   "dashed": true
+  },
+  {
+   "from": "blood",
+   "to": "relation"
+  },
+  {
+   "from": "relation",
+   "to": "relationship",
+   "label": "+ship"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！我们的家，就像一棵大树。今天，我们来画一画家族树。"
+    },
+    {
+     "en": "family tree"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:husband",
+    "focus:husband"
+   ],
+   "parts": [
+    {
+     "zh": "一个男人结婚了，他就是丈夫："
+    },
+    {
+     "en": "husband"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wife",
+    "focus:wife"
+   ],
+   "parts": [
+    {
+     "zh": "和他结婚的女人，是妻子："
+    },
+    {
+     "en": "wife"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:couple",
+    "edge:husband>couple",
+    "edge:wife>couple",
+    "focus:couple"
+   ],
+   "parts": [
+    {
+     "zh": "丈夫和妻子在一起，是一对夫妻："
+    },
+    {
+     "en": "couple"
+    },
+    {
+     "zh": "这个词也可以表示一对："
+    },
+    {
+     "en": "a couple of apples"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:parents",
+    "edge:couple>parents",
+    "focus:parents"
+   ],
+   "parts": [
+    {
+     "zh": "他们有了孩子，就成了孩子的父母。还记得第二集吗？"
+    },
+    {
+     "en": "parents"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ancestor",
+    "edge:ancestor>parents",
+    "focus:ancestor"
+   ],
+   "parts": [
+    {
+     "zh": "爸爸的爸爸的爸爸……很久很久以前的老祖宗，是祖先："
+    },
+    {
+     "en": "ancestor"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:brother",
+    "edge:parents>brother",
+    "focus:brother"
+   ],
+   "parts": [
+    {
+     "zh": "同一对父母的男孩子，是兄弟："
+    },
+    {
+     "en": "brother"
+    },
+    {
+     "en": "my big brother"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sister",
+    "edge:parents>sister",
+    "focus:sister"
+   ],
+   "parts": [
+    {
+     "zh": "女孩子，是姐妹："
+    },
+    {
+     "en": "sister"
+    },
+    {
+     "en": "my little sister"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:twins",
+    "edge:brother>twins",
+    "edge:sister>twins",
+    "focus:twins"
+   ],
+   "parts": [
+    {
+     "zh": "同一天出生、长得几乎一样的两个孩子，是双胞胎："
+    },
+    {
+     "en": "twins"
+    },
+    {
+     "zh": "还记得第三十一集吗？"
+    },
+    {
+     "en": "They look the same!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:blood",
+    "focus:blood"
+   ],
+   "parts": [
+    {
+     "zh": "家人之间，流着一样的血，这叫血缘："
+    },
+    {
+     "en": "blood"
+    },
+    {
+     "zh": "中间的两个 o，读短短的 a。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:relation",
+    "edge:blood>relation",
+    "focus:relation"
+   ],
+   "parts": [
+    {
+     "zh": "家人之间的联系，叫"
+    },
+    {
+     "en": "relation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:relationship",
+    "edge:relation>relationship",
+    "focus:relationship"
+   ],
+   "parts": [
+    {
+     "zh": "在后面加上 s h i p，就是关系："
+    },
+    {
+     "en": "relationship"
+    },
+    {
+     "en": "a good relationship"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:although",
+    "focus:although"
+   ],
+   "parts": [
+    {
+     "zh": "最后学一个小词：虽然。"
+    },
+    {
+     "en": "although"
+    },
+    {
+     "en": "Although we are not twins, we look the same."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wife"
+   ],
+   "parts": [
+    {
+     "zh": "一个妻子是"
+    },
+    {
+     "en": "wife"
+    },
+    {
+     "zh": "很多个，要把 f 变成 v e s：",
+     "cue": [
+      "plural:wife"
+     ]
+    },
+    {
+     "en": "wives"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们来介绍一下家族树吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "My father and mother are a couple.",
+     "cue": [
+      "focus:couple"
+     ]
+    },
+    {
+     "en": "I have a brother and a sister.",
+     "cue": [
+      "focus:brother,sister"
+     ]
+    },
+    {
+     "en": "We are a happy family!",
+     "cue": [
+      "focus:relationship"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:husband"
+   ],
+   "parts": [
+    {
+     "en": "husband"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wife"
+   ],
+   "parts": [
+    {
+     "en": "wife, wives"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:couple"
+   ],
+   "parts": [
+    {
+     "en": "couple"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:parents"
+   ],
+   "parts": [
+    {
+     "en": "parents"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ancestor"
+   ],
+   "parts": [
+    {
+     "en": "ancestor"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:brother"
+   ],
+   "parts": [
+    {
+     "en": "brother"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sister"
+   ],
+   "parts": [
+    {
+     "en": "sister"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:twins"
+   ],
+   "parts": [
+    {
+     "en": "twins"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:blood"
+   ],
+   "parts": [
+    {
+     "en": "blood"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:relation"
+   ],
+   "parts": [
+    {
+     "en": "relation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:relationship"
+   ],
+   "parts": [
+    {
+     "en": "relationship"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:although"
+   ],
+   "parts": [
+    {
+     "en": "although"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！试着画一棵你自己的家族树，用英语标上每个人吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

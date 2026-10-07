@@ -1,0 +1,643 @@
+{
+ "id": "ep32",
+ "title": "time words",
+ "titleZh": "时间词",
+ "episode": "第 32 集",
+ "titleIcon": "today",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "past",
+   "word": "past",
+   "ipa": "/pæst/",
+   "zh": "过去",
+   "icon": "past",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "yesterday",
+   "word": "yesterday",
+   "ipa": "/ˈjestərdeɪ/",
+   "zh": "昨天",
+   "icon": "yesterday",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "today",
+   "word": "today",
+   "ipa": "/təˈdeɪ/",
+   "zh": "今天",
+   "icon": "today",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "tomorrow",
+   "word": "tomorrow",
+   "ipa": "/təˈmɑːroʊ/",
+   "zh": "明天",
+   "icon": "tomorrow",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "future",
+   "word": "future",
+   "ipa": "/ˈfjuːtʃər/",
+   "zh": "未来",
+   "icon": "future",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "tonight",
+   "word": "tonight",
+   "ipa": "/təˈnaɪt/",
+   "zh": "今晚",
+   "icon": "tonight",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "daily",
+   "word": "daily",
+   "ipa": "/ˈdeɪli/",
+   "zh": "每天的",
+   "icon": "daily",
+   "kind": "adj",
+   "alt": "everyday",
+   "altLabel": "也说",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "allday",
+   "word": "all day",
+   "ipa": "/ɔːl deɪ/",
+   "zh": "一整天",
+   "icon": "allday",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "since",
+   "word": "since",
+   "ipa": "/sɪns/",
+   "zh": "自从",
+   "icon": "since",
+   "kind": "prep",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "until",
+   "word": "until",
+   "ipa": "/ənˈtɪl/",
+   "zh": "直到",
+   "icon": "until",
+   "kind": "prep",
+   "alt": "till",
+   "altLabel": "也说",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "past",
+   "to": "yesterday"
+  },
+  {
+   "from": "yesterday",
+   "to": "today"
+  },
+  {
+   "from": "today",
+   "to": "tomorrow"
+  },
+  {
+   "from": "tomorrow",
+   "to": "future"
+  },
+  {
+   "from": "today",
+   "to": "tonight",
+   "label": "晚上"
+  },
+  {
+   "from": "since",
+   "to": "today",
+   "dashed": true
+  },
+  {
+   "from": "today",
+   "to": "until",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！时间像一条长长的线，一直往前走。今天，我们来学时间词。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:today",
+    "focus:today"
+   ],
+   "parts": [
+    {
+     "zh": "我们就站在这条线的中间，今天："
+    },
+    {
+     "en": "today"
+    },
+    {
+     "zh": "还记得第十四集的天吗？to 加上 day。"
+    },
+    {
+     "en": "What day is it today?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:yesterday",
+    "edge:yesterday>today",
+    "focus:yesterday"
+   ],
+   "parts": [
+    {
+     "zh": "今天往前一天，是昨天："
+    },
+    {
+     "en": "yesterday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tomorrow",
+    "edge:today>tomorrow",
+    "focus:tomorrow"
+   ],
+   "parts": [
+    {
+     "zh": "今天往后一天，是明天："
+    },
+    {
+     "en": "tomorrow"
+    },
+    {
+     "zh": "小提示：一个 m，两个 r。"
+    },
+    {
+     "en": "See you tomorrow!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:past",
+    "edge:past>yesterday",
+    "focus:past"
+   ],
+   "parts": [
+    {
+     "zh": "昨天、前天、去年，已经过去的时间，都叫过去："
+    },
+    {
+     "en": "past"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:future",
+    "edge:tomorrow>future",
+    "focus:future"
+   ],
+   "parts": [
+    {
+     "zh": "明天、后天、明年，还没有来的时间，叫未来："
+    },
+    {
+     "en": "future"
+    },
+    {
+     "en": "in the future"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:past,yesterday,today,tomorrow,future"
+   ],
+   "parts": [
+    {
+     "zh": "我们沿着时间线，从过去走到未来："
+    },
+    {
+     "en": "past",
+     "cue": [
+      "focus:past"
+     ]
+    },
+    {
+     "en": "yesterday",
+     "cue": [
+      "focus:yesterday"
+     ]
+    },
+    {
+     "en": "today",
+     "cue": [
+      "focus:today"
+     ]
+    },
+    {
+     "en": "tomorrow",
+     "cue": [
+      "focus:tomorrow"
+     ]
+    },
+    {
+     "en": "future",
+     "cue": [
+      "focus:future"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tonight",
+    "edge:today>tonight",
+    "focus:tonight"
+   ],
+   "parts": [
+    {
+     "zh": "今天的晚上，就是今晚。to 加上夜晚："
+    },
+    {
+     "en": "tonight"
+    },
+    {
+     "en": "See you tonight."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:daily",
+    "focus:daily"
+   ],
+   "parts": [
+    {
+     "zh": "每一天都要做的事，是每天的："
+    },
+    {
+     "en": "daily"
+    },
+    {
+     "zh": "也可以说",
+     "cue": [
+      "alt:daily"
+     ]
+    },
+    {
+     "en": "everyday"
+    },
+    {
+     "en": "my daily life"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:allday",
+    "focus:allday"
+   ],
+   "parts": [
+    {
+     "zh": "从早到晚，整整一天，是"
+    },
+    {
+     "en": "all day"
+    },
+    {
+     "en": "I play all day."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:since",
+    "edge:since>today",
+    "focus:since"
+   ],
+   "parts": [
+    {
+     "zh": "从过去的某个时候开始，一直到现在，用"
+    },
+    {
+     "en": "since"
+    },
+    {
+     "en": "since yesterday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:until",
+    "edge:today>until",
+    "focus:until"
+   ],
+   "parts": [
+    {
+     "zh": "一直到将来的某个时候才结束，用"
+    },
+    {
+     "en": "until"
+    },
+    {
+     "zh": "短一点的说法是",
+     "cue": [
+      "alt:until"
+     ]
+    },
+    {
+     "en": "till"
+    },
+    {
+     "en": "Wait until tomorrow."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:since,until"
+   ],
+   "parts": [
+    {
+     "zh": "一个从……开始，一个到……为止："
+    },
+    {
+     "en": "since",
+     "cue": [
+      "focus:since"
+     ]
+    },
+    {
+     "en": "until",
+     "cue": [
+      "focus:until"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "说一说你的一天吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Yesterday, I went to the park.",
+     "cue": [
+      "focus:yesterday"
+     ]
+    },
+    {
+     "en": "Today, I am at school.",
+     "cue": [
+      "focus:today"
+     ]
+    },
+    {
+     "en": "Tomorrow, I will visit Grandma.",
+     "cue": [
+      "focus:tomorrow"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:today"
+   ],
+   "parts": [
+    {
+     "en": "today"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:yesterday"
+   ],
+   "parts": [
+    {
+     "en": "yesterday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tomorrow"
+   ],
+   "parts": [
+    {
+     "en": "tomorrow"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:past"
+   ],
+   "parts": [
+    {
+     "en": "past"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:future"
+   ],
+   "parts": [
+    {
+     "en": "future"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tonight"
+   ],
+   "parts": [
+    {
+     "en": "tonight"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:daily"
+   ],
+   "parts": [
+    {
+     "en": "daily, everyday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:allday"
+   ],
+   "parts": [
+    {
+     "en": "all day"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:since"
+   ],
+   "parts": [
+    {
+     "en": "since"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:until"
+   ],
+   "parts": [
+    {
+     "en": "until, till"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！睡觉前，用英语说一说今天做了什么，明天想做什么吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}
