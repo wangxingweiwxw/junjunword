@@ -1,0 +1,842 @@
+{
+ "id": "ep19",
+ "title": "weather",
+ "titleZh": "天气",
+ "episode": "第 19 集",
+ "titleIcon": "weather",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1700
+  ]
+ },
+ "nodes": [
+  {
+   "id": "weather",
+   "word": "weather",
+   "ipa": "/ˈweðər/",
+   "zh": "天气",
+   "icon": "weather",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "air",
+   "word": "air",
+   "ipa": "/er/",
+   "zh": "空气",
+   "icon": "air",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "sunny",
+   "word": "sunny",
+   "ipa": "/ˈsʌni/",
+   "zh": "晴朗的",
+   "icon": "sunny",
+   "alt": "sun",
+   "altLabel": "来自",
+   "kind": "adj",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "sunshine",
+   "word": "sunshine",
+   "ipa": "/ˈsʌnʃaɪn/",
+   "zh": "阳光",
+   "icon": "sunshine",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "cloudy",
+   "word": "cloudy",
+   "ipa": "/ˈklaʊdi/",
+   "zh": "多云的",
+   "icon": "cloudy",
+   "alt": "cloud",
+   "altLabel": "来自",
+   "kind": "adj",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "windy",
+   "word": "windy",
+   "ipa": "/ˈwɪndi/",
+   "zh": "刮风的",
+   "icon": "windy",
+   "alt": "wind",
+   "altLabel": "来自",
+   "kind": "adj",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "rainy",
+   "word": "rainy",
+   "ipa": "/ˈreɪni/",
+   "zh": "下雨的",
+   "icon": "rainy",
+   "alt": "rain",
+   "altLabel": "来自",
+   "kind": "adj",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "shower",
+   "word": "shower",
+   "ipa": "/ˈʃaʊər/",
+   "zh": "阵雨",
+   "icon": "shower",
+   "atP": [
+    450,
+    1550
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "storm",
+   "word": "storm",
+   "ipa": "/stɔːrm/",
+   "zh": "暴风雨",
+   "icon": "storm",
+   "alt": "stormy",
+   "altLabel": "加 y →",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "snowy",
+   "word": "snowy",
+   "ipa": "/ˈsnoʊi/",
+   "zh": "下雪的",
+   "icon": "snowy",
+   "alt": "snow",
+   "altLabel": "来自",
+   "kind": "adj",
+   "atP": [
+    150,
+    1550
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "foggy",
+   "word": "foggy",
+   "ipa": "/ˈfɑːɡi/",
+   "zh": "有雾的",
+   "icon": "foggy",
+   "alt": "fog",
+   "altLabel": "来自",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "hot",
+   "word": "hot",
+   "ipa": "/hɑːt/",
+   "zh": "热的",
+   "icon": "hot",
+   "kind": "adj",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "cold",
+   "word": "cold",
+   "ipa": "/koʊld/",
+   "zh": "冷的",
+   "icon": "cold",
+   "kind": "adj",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "weather",
+   "to": "air"
+  },
+  {
+   "from": "weather",
+   "to": "sunny"
+  },
+  {
+   "from": "sunny",
+   "to": "sunshine"
+  },
+  {
+   "from": "weather",
+   "to": "cloudy"
+  },
+  {
+   "from": "air",
+   "to": "foggy",
+   "dashed": true
+  },
+  {
+   "from": "cloudy",
+   "to": "windy"
+  },
+  {
+   "from": "weather",
+   "to": "rainy"
+  },
+  {
+   "from": "rainy",
+   "to": "shower",
+   "label": "一阵"
+  },
+  {
+   "from": "rainy",
+   "to": "storm"
+  },
+  {
+   "from": "sunny",
+   "to": "hot"
+  },
+  {
+   "from": "hot",
+   "to": "cold",
+   "label": "反义"
+  },
+  {
+   "from": "cold",
+   "to": "snowy"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！出门前，先看看窗外。今天的天气怎么样呢？"
+    },
+    {
+     "en": "weather"
+    },
+    {
+     "zh": "天气。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:weather",
+    "focus:weather"
+   ],
+   "parts": [
+    {
+     "zh": "晴天、雨天、下雪天，都是天气："
+    },
+    {
+     "en": "weather"
+    },
+    {
+     "zh": "中间的 e a，在这里读得很短。"
+    },
+    {
+     "en": "How's the weather today?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:air",
+    "edge:weather>air",
+    "focus:air"
+   ],
+   "parts": [
+    {
+     "zh": "我们每时每刻都在呼吸的，是空气："
+    },
+    {
+     "en": "air"
+    },
+    {
+     "en": "fresh air"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "今天要学一个小魔法：很多天气的词，就是在名词后面加上一个字母 y。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sunny",
+    "edge:weather>sunny",
+    "focus:sunny",
+    "alt:sunny"
+   ],
+   "parts": [
+    {
+     "zh": "太阳是"
+    },
+    {
+     "en": "sun"
+    },
+    {
+     "zh": "加上 y 的时候，要再多写一个 n。晴朗的："
+    },
+    {
+     "en": "sunny"
+    },
+    {
+     "en": "It's sunny today."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sunshine",
+    "edge:sunny>sunshine",
+    "focus:sunshine"
+   ],
+   "parts": [
+    {
+     "zh": "太阳照下来的光，暖暖的，是阳光。太阳，加上照耀："
+    },
+    {
+     "en": "sun"
+    },
+    {
+     "en": "shine"
+    },
+    {
+     "en": "sunshine"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cloudy",
+    "edge:weather>cloudy",
+    "focus:cloudy",
+    "alt:cloudy"
+   ],
+   "parts": [
+    {
+     "zh": "云是"
+    },
+    {
+     "en": "cloud"
+    },
+    {
+     "zh": "满天都是云，就是多云的："
+    },
+    {
+     "en": "cloudy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:windy",
+    "edge:cloudy>windy",
+    "focus:windy",
+    "alt:windy"
+   ],
+   "parts": [
+    {
+     "zh": "风是"
+    },
+    {
+     "en": "wind"
+    },
+    {
+     "zh": "树叶被吹得哗哗响，就是刮风的："
+    },
+    {
+     "en": "windy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:rainy",
+    "edge:weather>rainy",
+    "focus:rainy",
+    "alt:rainy"
+   ],
+   "parts": [
+    {
+     "zh": "雨是"
+    },
+    {
+     "en": "rain"
+    },
+    {
+     "zh": "下雨的："
+    },
+    {
+     "en": "rainy"
+    },
+    {
+     "en": "It's rainy. Take an umbrella."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:shower",
+    "edge:rainy>shower",
+    "focus:shower"
+   ],
+   "parts": [
+    {
+     "zh": "雨下一会儿就停了，这种一阵一阵的雨，叫阵雨："
+    },
+    {
+     "en": "shower"
+    },
+    {
+     "zh": "洗澡用的淋浴，也是这个词哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:storm",
+    "edge:rainy>storm",
+    "focus:storm"
+   ],
+   "parts": [
+    {
+     "zh": "雨越下越大，还打雷闪电，那是暴风雨："
+    },
+    {
+     "en": "storm"
+    },
+    {
+     "zh": "同样，加上 y，就是有暴风雨的：",
+     "cue": [
+      "alt:storm"
+     ]
+    },
+    {
+     "en": "stormy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:foggy",
+    "edge:air>foggy",
+    "focus:foggy",
+    "alt:foggy"
+   ],
+   "parts": [
+    {
+     "zh": "雾是"
+    },
+    {
+     "en": "fog"
+    },
+    {
+     "zh": "加上 y 的时候，要再多写一个 g。有雾的："
+    },
+    {
+     "en": "foggy"
+    },
+    {
+     "zh": "雾天里，什么都看不清。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hot",
+    "edge:sunny>hot",
+    "focus:hot"
+   ],
+   "parts": [
+    {
+     "zh": "夏天，太阳火辣辣的，好热："
+    },
+    {
+     "en": "hot"
+    },
+    {
+     "en": "It's so hot!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cold",
+    "edge:hot>cold",
+    "focus:cold"
+   ],
+   "parts": [
+    {
+     "zh": "热的反面，是冷："
+    },
+    {
+     "en": "cold"
+    },
+    {
+     "en": "It's cold. Put on your coat."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:snowy",
+    "edge:cold>snowy",
+    "focus:snowy",
+    "alt:snowy"
+   ],
+   "parts": [
+    {
+     "zh": "冷到一定程度，就会下雪。雪是"
+    },
+    {
+     "en": "snow"
+    },
+    {
+     "zh": "下雪的："
+    },
+    {
+     "en": "snowy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sunny,cloudy,windy,rainy,snowy,foggy"
+   ],
+   "parts": [
+    {
+     "zh": "我们把名词和它的 y 形式，一对一对地读一遍："
+    },
+    {
+     "en": "sun, sunny",
+     "cue": [
+      "focus:sunny"
+     ]
+    },
+    {
+     "en": "cloud, cloudy",
+     "cue": [
+      "focus:cloudy"
+     ]
+    },
+    {
+     "en": "wind, windy",
+     "cue": [
+      "focus:windy"
+     ]
+    },
+    {
+     "en": "rain, rainy",
+     "cue": [
+      "focus:rainy"
+     ]
+    },
+    {
+     "en": "snow, snowy",
+     "cue": [
+      "focus:snowy"
+     ]
+    },
+    {
+     "en": "fog, foggy",
+     "cue": [
+      "focus:foggy"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们来当小小天气预报员吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Good morning! Here's the weather.",
+     "cue": [
+      "focus:weather"
+     ]
+    },
+    {
+     "en": "Monday is sunny.",
+     "cue": [
+      "focus:sunny"
+     ]
+    },
+    {
+     "en": "Tuesday is rainy.",
+     "cue": [
+      "focus:rainy"
+     ]
+    },
+    {
+     "en": "Wednesday is windy and cold.",
+     "cue": [
+      "focus:windy,cold"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:weather"
+   ],
+   "parts": [
+    {
+     "en": "weather"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:air"
+   ],
+   "parts": [
+    {
+     "en": "air"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sunny"
+   ],
+   "parts": [
+    {
+     "en": "sunny"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sunshine"
+   ],
+   "parts": [
+    {
+     "en": "sunshine"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cloudy"
+   ],
+   "parts": [
+    {
+     "en": "cloudy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:windy"
+   ],
+   "parts": [
+    {
+     "en": "windy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:rainy"
+   ],
+   "parts": [
+    {
+     "en": "rainy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:shower"
+   ],
+   "parts": [
+    {
+     "en": "shower"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:storm"
+   ],
+   "parts": [
+    {
+     "en": "storm, stormy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:foggy"
+   ],
+   "parts": [
+    {
+     "en": "foggy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hot"
+   ],
+   "parts": [
+    {
+     "en": "hot"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cold"
+   ],
+   "parts": [
+    {
+     "en": "cold"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:snowy"
+   ],
+   "parts": [
+    {
+     "en": "snowy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！明天早上，看看窗外，用英语说一说天气吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

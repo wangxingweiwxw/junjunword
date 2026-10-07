@@ -1,0 +1,775 @@
+{
+ "duration": 170.148,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！第九集，我们认识了很多运动。今天，我们接着学！",
+   "t0": 0.4,
+   "t1": 6.873,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "sports",
+   "t0": 7.123,
+   "t1": 7.844,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "运动的种类可多啦。今天，我们来学更多和运动有关的词。",
+   "t0": 8.944,
+   "t1": 14.565,
+   "cue": [
+    "map",
+    "show:sports",
+    "focus:sports"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "sports",
+   "t0": 14.815,
+   "t1": 15.536,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "这么多运动，先选一个你最喜欢的吧！选择，英语是",
+   "t0": 16.636,
+   "t1": 21.626,
+   "cue": [
+    "show:choose",
+    "edge:choose>sports",
+    "focus:choose"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "choose",
+   "t0": 21.876,
+   "t1": 22.413,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "它变成名词，就是",
+   "t0": 22.913,
+   "t1": 24.752,
+   "cue": [
+    "alt:choose"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "choice",
+   "t0": 25.002,
+   "t1": 25.541,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Choose a sport!",
+   "t0": 26.041,
+   "t1": 26.994,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "我选棒球！棒球场上有四个垒，垒加上球：",
+   "t0": 28.094,
+   "t1": 32.434,
+   "cue": [
+    "show:baseball",
+    "edge:sports>baseball",
+    "focus:baseball"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "base",
+   "t0": 32.684,
+   "t1": 33.146,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "ball",
+   "t0": 33.646,
+   "t1": 34.035,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "baseball",
+   "t0": 34.535,
+   "t1": 35.162,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "打棒球，先要把球用力扔出去：",
+   "t0": 36.262,
+   "t1": 38.879,
+   "cue": [
+    "show:throw",
+    "edge:baseball>throw",
+    "focus:throw"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "throw",
+   "t0": 39.129,
+   "t1": 39.55,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "Throw the ball!",
+   "t0": 40.05,
+   "t1": 40.828,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "举起球棒，砰的一声，把球打得远远的：",
+   "t0": 41.928,
+   "t1": 45.311,
+   "cue": [
+    "show:hit",
+    "edge:baseball>hit",
+    "focus:hit"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "hit",
+   "t0": 45.561,
+   "t1": 45.913,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Hit the ball!",
+   "t0": 46.413,
+   "t1": 47.158,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "夏天，最凉快的运动是游泳：",
+   "t0": 48.258,
+   "t1": 50.761,
+   "cue": [
+    "show:swimming",
+    "edge:sports>swimming",
+    "focus:swimming"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "swimming",
+   "t0": 51.011,
+   "t1": 51.597,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "I like swimming.",
+   "t0": 52.097,
+   "t1": 53.103,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "游这个动作，是",
+   "t0": 54.203,
+   "t1": 55.762,
+   "cue": [
+    "show:swim",
+    "edge:swim>swimming",
+    "focus:swim"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "swim",
+   "t0": 56.012,
+   "t1": 56.548,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "变成游泳这项运动，要多写一个字母 m，再加上 i n g：",
+   "t0": 57.048,
+   "t1": 61.933,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "swim",
+   "t0": 62.183,
+   "t1": 62.72,
+   "cue": [
+    "focus:swim"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "swimming",
+   "t0": 63.22,
+   "t1": 63.805,
+   "cue": [
+    "focus:swimming"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "想在比赛里赢，平时就要刻苦训练：",
+   "t0": 64.905,
+   "t1": 68.143,
+   "cue": [
+    "show:training",
+    "edge:sports>training",
+    "focus:training"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "training",
+   "t0": 68.393,
+   "t1": 68.963,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "We have training every day.",
+   "t0": 69.463,
+   "t1": 71.004,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "训练多了，身体就变得很强壮：",
+   "t0": 72.104,
+   "t1": 74.836,
+   "cue": [
+    "show:strong",
+    "edge:training>strong",
+    "focus:strong"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "strong",
+   "t0": 75.086,
+   "t1": 75.722,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "I am strong!",
+   "t0": 76.222,
+   "t1": 77.144,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "强壮的反面，是虚弱、没力气：",
+   "t0": 78.244,
+   "t1": 81.163,
+   "cue": [
+    "show:weak",
+    "edge:strong>weak",
+    "focus:weak"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "weak",
+   "t0": 81.413,
+   "t1": 81.834,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "I feel weak.",
+   "t0": 82.334,
+   "t1": 83.157,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "多练习，动作就会变得又快又灵活：",
+   "t0": 84.257,
+   "t1": 87.508,
+   "cue": [
+    "show:quick",
+    "edge:training>quick",
+    "focus:quick"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "quick",
+   "t0": 87.758,
+   "t1": 88.208,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Be quick!",
+   "t0": 88.708,
+   "t1": 89.33,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "带着我们训练的人，是教练：",
+   "t0": 90.43,
+   "t1": 92.716,
+   "cue": [
+    "show:coach",
+    "focus:coach"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "coach",
+   "t0": 92.966,
+   "t1": 93.468,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "Our coach is great.",
+   "t0": 93.968,
+   "t1": 95.132,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "我们累了的时候，教练会给我们加油，鼓励我们：",
+   "t0": 96.232,
+   "t1": 100.201,
+   "cue": [
+    "show:encourage",
+    "edge:coach>encourage",
+    "focus:encourage"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "encourage",
+   "t0": 100.451,
+   "t1": 101.266,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "The coach encourages us.",
+   "t0": 101.766,
+   "t1": 103.261,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "被鼓励以后，我们心里就充满了勇气和精神：",
+   "t0": 104.361,
+   "t1": 108.155,
+   "cue": [
+    "show:spirit",
+    "edge:encourage>spirit",
+    "focus:spirit"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "spirit",
+   "t0": 108.405,
+   "t1": 109.035,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "team spirit",
+   "t0": 109.535,
+   "t1": 110.448,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "比一比这两个相反的词：",
+   "t0": 111.548,
+   "t1": 113.509,
+   "cue": [
+    "focus:strong,weak"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "strong",
+   "t0": 113.759,
+   "t1": 114.395,
+   "cue": [
+    "focus:strong"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "weak",
+   "t0": 114.895,
+   "t1": 115.316,
+   "cue": [
+    "focus:weak"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "今天也有拼出来、变出来的词：",
+   "t0": 116.416,
+   "t1": 119.023,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "base, ball, baseball",
+   "t0": 119.273,
+   "t1": 121.157,
+   "cue": [
+    "focus:baseball"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "swim, swimming",
+   "t0": 121.657,
+   "t1": 122.874,
+   "cue": [
+    "focus:swim,swimming"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "我们一起来喊加油口号吧！",
+   "t0": 123.974,
+   "t1": 125.875,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Be strong!",
+   "t0": 126.725,
+   "t1": 127.485,
+   "cue": [
+    "focus:strong"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Be quick!",
+   "t0": 127.985,
+   "t1": 128.607,
+   "cue": [
+    "focus:quick"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Go, go, go!",
+   "t0": 129.107,
+   "t1": 130.696,
+   "cue": [
+    "focus:spirit"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 131.796,
+   "t1": 135.047,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "sports",
+   "t0": 135.897,
+   "t1": 136.618,
+   "cue": [
+    "focus:sports"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "choose, choice",
+   "t0": 137.718,
+   "t1": 139.024,
+   "cue": [
+    "focus:choose"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "baseball",
+   "t0": 140.124,
+   "t1": 140.751,
+   "cue": [
+    "focus:baseball"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "throw",
+   "t0": 141.851,
+   "t1": 142.271,
+   "cue": [
+    "focus:throw"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "hit",
+   "t0": 143.371,
+   "t1": 143.723,
+   "cue": [
+    "focus:hit"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "swimming",
+   "t0": 144.823,
+   "t1": 145.409,
+   "cue": [
+    "focus:swimming"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "swim",
+   "t0": 146.509,
+   "t1": 147.045,
+   "cue": [
+    "focus:swim"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "training",
+   "t0": 148.145,
+   "t1": 148.715,
+   "cue": [
+    "focus:training"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "strong",
+   "t0": 149.815,
+   "t1": 150.451,
+   "cue": [
+    "focus:strong"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "weak",
+   "t0": 151.551,
+   "t1": 151.972,
+   "cue": [
+    "focus:weak"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "quick",
+   "t0": 153.072,
+   "t1": 153.521,
+   "cue": [
+    "focus:quick"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "coach",
+   "t0": 154.621,
+   "t1": 155.124,
+   "cue": [
+    "focus:coach"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "encourage",
+   "t0": 156.224,
+   "t1": 157.038,
+   "cue": [
+    "focus:encourage"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "en",
+   "text": "spirit",
+   "t0": 158.138,
+   "t1": 158.769,
+   "cue": [
+    "focus:spirit"
+   ]
+  },
+  {
+   "seg": 34,
+   "lang": "zh",
+   "text": "太棒了！运动的时候，记得给你的队友加油鼓励哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 159.869,
+   "t1": 168.298,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "sports": [
+   0.25,
+   0.971
+  ],
+  "choose": [
+   1.221,
+   1.758
+  ],
+  "choose:alt": [
+   2.008,
+   2.547
+  ],
+  "baseball": [
+   2.797,
+   3.423
+  ],
+  "throw": [
+   3.673,
+   4.094
+  ],
+  "hit": [
+   4.344,
+   4.695
+  ],
+  "swimming": [
+   4.945,
+   5.531
+  ],
+  "swim": [
+   5.781,
+   6.317
+  ],
+  "training": [
+   6.567,
+   7.137
+  ],
+  "strong": [
+   7.387,
+   8.023
+  ],
+  "weak": [
+   8.273,
+   8.694
+  ],
+  "quick": [
+   8.944,
+   9.394
+  ],
+  "coach": [
+   9.644,
+   10.146
+  ],
+  "encourage": [
+   10.396,
+   11.211
+  ],
+  "spirit": [
+   11.461,
+   12.091
+  ]
+ }
+}

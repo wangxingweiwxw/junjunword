@@ -1,0 +1,738 @@
+{
+ "duration": 158.989,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！第八集，我们认识了身体。今天，我们凑近一点，仔细看看自己的脸。",
+   "t0": 0.4,
+   "t1": 8.581,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "face",
+   "t0": 8.831,
+   "t1": 9.258,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "脸。",
+   "t0": 9.758,
+   "t1": 10.077,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "每天照镜子，看到的就是自己的脸：",
+   "t0": 10.927,
+   "t1": 13.895,
+   "cue": [
+    "map",
+    "show:face",
+    "focus:face"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "face",
+   "t0": 14.145,
+   "t1": 14.571,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "Wash your face.",
+   "t0": 15.071,
+   "t1": 16.124,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "脸上亮晶晶的，是眼睛：",
+   "t0": 17.224,
+   "t1": 19.427,
+   "cue": [
+    "show:eye",
+    "edge:face>eye",
+    "focus:eye"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "eye",
+   "t0": 19.677,
+   "t1": 20.129,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "两只眼睛：",
+   "t0": 20.629,
+   "t1": 21.526,
+   "cue": [
+    "plural:eye"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "eyes",
+   "t0": 21.776,
+   "t1": 22.328,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "脸的两边，是耳朵：",
+   "t0": 23.428,
+   "t1": 25.154,
+   "cue": [
+    "show:ear",
+    "edge:face>ear",
+    "focus:ear"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "ear",
+   "t0": 25.404,
+   "t1": 25.796,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "两只耳朵：",
+   "t0": 26.296,
+   "t1": 27.143,
+   "cue": [
+    "plural:ear"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "ears",
+   "t0": 27.393,
+   "t1": 27.885,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "脸的正中间，是鼻子：",
+   "t0": 28.985,
+   "t1": 30.974,
+   "cue": [
+    "show:nose",
+    "edge:face>nose",
+    "focus:nose"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "nose",
+   "t0": 31.224,
+   "t1": 31.731,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "Touch your nose.",
+   "t0": 32.231,
+   "t1": 33.234,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "鼻子下面，是嘴巴：",
+   "t0": 34.334,
+   "t1": 36.089,
+   "cue": [
+    "show:mouth",
+    "edge:face>mouth",
+    "focus:mouth"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "mouth",
+   "t0": 36.339,
+   "t1": 36.683,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Open your mouth.",
+   "t0": 37.183,
+   "t1": 38.119,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "嘴巴里，有一颗一颗白白的牙齿：",
+   "t0": 39.219,
+   "t1": 42.006,
+   "cue": [
+    "show:tooth",
+    "edge:mouth>tooth",
+    "focus:tooth"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "tooth",
+   "t0": 42.256,
+   "t1": 42.557,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "很多颗牙齿可不加 s，而是像第八集的脚一样，把两个 o 变成两个 e：",
+   "t0": 43.057,
+   "t1": 49.174,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "teeth",
+   "t0": 49.424,
+   "t1": 49.717,
+   "cue": [
+    "plural:tooth"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "foot, feet.",
+   "t0": 50.217,
+   "t1": 51.293,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "tooth, teeth.",
+   "t0": 51.793,
+   "t1": 52.82,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "嘴巴里会动、能尝出味道的，是舌头：",
+   "t0": 53.92,
+   "t1": 57.31,
+   "cue": [
+    "show:tongue",
+    "edge:mouth>tongue",
+    "focus:tongue"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "tongue",
+   "t0": 57.56,
+   "t1": 58.012,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "小提示：它最后的 u 和 e，都不发音。",
+   "t0": 58.512,
+   "t1": 61.933,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "脸的最下面，是下巴：",
+   "t0": 62.783,
+   "t1": 64.682,
+   "cue": [
+    "show:chin",
+    "edge:face>chin",
+    "focus:chin"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "chin",
+   "t0": 64.932,
+   "t1": 65.366,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "吃下去的东西，要经过喉咙：",
+   "t0": 66.466,
+   "t1": 68.86,
+   "cue": [
+    "show:throat",
+    "edge:mouth>throat",
+    "focus:throat"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "throat",
+   "t0": 69.11,
+   "t1": 69.574,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "开头的 t h，舌尖要轻轻放在牙齿中间。",
+   "t0": 70.074,
+   "t1": 74.054,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "I have a sore throat.",
+   "t0": 74.304,
+   "t1": 75.475,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "喉咙再往下，是胸口。心脏就在这里，扑通扑通地跳：",
+   "t0": 76.575,
+   "t1": 81.88,
+   "cue": [
+    "show:chest",
+    "edge:throat>chest",
+    "focus:chest"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "chest",
+   "t0": 82.13,
+   "t1": 82.645,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "我们的头里面，藏着一个会思考的大脑：",
+   "t0": 83.745,
+   "t1": 86.845,
+   "cue": [
+    "show:brain",
+    "edge:face>brain",
+    "focus:brain"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "brain",
+   "t0": 87.095,
+   "t1": 87.559,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Use your brain!",
+   "t0": 88.059,
+   "t1": 88.995,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "大脑想出来的念头和心思，叫",
+   "t0": 90.095,
+   "t1": 92.655,
+   "cue": [
+    "show:mind",
+    "edge:brain>mind",
+    "focus:mind"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "mind",
+   "t0": 92.905,
+   "t1": 93.348,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "大脑是身体里看得见的部分，心思是看不见的想法。",
+   "t0": 93.848,
+   "t1": 98.079,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "brain",
+   "t0": 98.329,
+   "t1": 98.793,
+   "cue": [
+    "focus:brain"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "mind",
+   "t0": 99.293,
+   "t1": 99.736,
+   "cue": [
+    "focus:mind"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "我们有两只眼睛、两只耳朵，还有很多颗牙齿：",
+   "t0": 100.836,
+   "t1": 104.852,
+   "cue": [
+    "focus:eye,ear,tooth"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "eyes",
+   "t0": 105.102,
+   "t1": 105.655,
+   "cue": [
+    "focus:eye"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "ears",
+   "t0": 106.155,
+   "t1": 106.647,
+   "cue": [
+    "focus:ear"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "teeth",
+   "t0": 107.147,
+   "t1": 107.44,
+   "cue": [
+    "focus:tooth"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "来玩个小游戏！听到哪里，就指一指哪里！",
+   "t0": 108.54,
+   "t1": 112.469,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Point to your nose!",
+   "t0": 113.319,
+   "t1": 114.489,
+   "cue": [
+    "focus:nose"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Point to your eyes!",
+   "t0": 114.989,
+   "t1": 116.173,
+   "cue": [
+    "focus:eye"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Point to your ears!",
+   "t0": 116.673,
+   "t1": 117.841,
+   "cue": [
+    "focus:ear"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Open your mouth!",
+   "t0": 118.341,
+   "t1": 119.282,
+   "cue": [
+    "focus:mouth"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Show me your teeth!",
+   "t0": 119.782,
+   "t1": 120.741,
+   "cue": [
+    "focus:tooth"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Touch your chin!",
+   "t0": 121.241,
+   "t1": 122.182,
+   "cue": [
+    "focus:chin"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 123.282,
+   "t1": 126.533,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "face",
+   "t0": 127.383,
+   "t1": 127.809,
+   "cue": [
+    "focus:face"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "eye, eyes",
+   "t0": 128.909,
+   "t1": 130.072,
+   "cue": [
+    "focus:eye"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "ear, ears",
+   "t0": 131.172,
+   "t1": 132.255,
+   "cue": [
+    "focus:ear"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "nose",
+   "t0": 133.355,
+   "t1": 133.863,
+   "cue": [
+    "focus:nose"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "mouth",
+   "t0": 134.963,
+   "t1": 135.307,
+   "cue": [
+    "focus:mouth"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "tooth, teeth",
+   "t0": 136.407,
+   "t1": 137.434,
+   "cue": [
+    "focus:tooth"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "tongue",
+   "t0": 138.534,
+   "t1": 138.986,
+   "cue": [
+    "focus:tongue"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "chin",
+   "t0": 140.086,
+   "t1": 140.52,
+   "cue": [
+    "focus:chin"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "throat",
+   "t0": 141.62,
+   "t1": 142.084,
+   "cue": [
+    "focus:throat"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "chest",
+   "t0": 143.184,
+   "t1": 143.699,
+   "cue": [
+    "focus:chest"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "brain",
+   "t0": 144.799,
+   "t1": 145.263,
+   "cue": [
+    "focus:brain"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "mind",
+   "t0": 146.363,
+   "t1": 146.806,
+   "cue": [
+    "focus:mind"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "zh",
+   "text": "太棒了！刷牙洗脸的时候，对着镜子用英语说一说吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 147.906,
+   "t1": 157.139,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "face": [
+   0.25,
+   0.676
+  ],
+  "eye": [
+   0.926,
+   1.378
+  ],
+  "eye:pl": [
+   1.628,
+   2.18
+  ],
+  "ear": [
+   2.43,
+   2.822
+  ],
+  "ear:pl": [
+   3.072,
+   3.564
+  ],
+  "nose": [
+   3.814,
+   4.322
+  ],
+  "mouth": [
+   4.572,
+   4.916
+  ],
+  "tooth": [
+   5.166,
+   5.467
+  ],
+  "tooth:pl": [
+   5.717,
+   6.01
+  ],
+  "tongue": [
+   6.26,
+   6.712
+  ],
+  "chin": [
+   6.962,
+   7.397
+  ],
+  "throat": [
+   7.647,
+   8.11
+  ],
+  "chest": [
+   8.36,
+   8.875
+  ],
+  "brain": [
+   9.125,
+   9.589
+  ],
+  "mind": [
+   9.839,
+   10.283
+  ]
+ }
+}

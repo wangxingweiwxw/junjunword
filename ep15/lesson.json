@@ -1,0 +1,828 @@
+{
+ "id": "ep15",
+ "title": "sports",
+ "titleZh": "运动（二）",
+ "episode": "第 15 集",
+ "titleIcon": "spirit",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1660
+  ]
+ },
+ "nodes": [
+  {
+   "id": "sports",
+   "word": "sports",
+   "ipa": "/spɔːrts/",
+   "zh": "运动",
+   "icon": "sports",
+   "atP": [
+    450,
+    830
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "choose",
+   "word": "choose",
+   "ipa": "/tʃuːz/",
+   "zh": "选择",
+   "icon": "choose",
+   "alt": "choice",
+   "altLabel": "名词",
+   "kind": "verb",
+   "atP": [
+    150,
+    830
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "baseball",
+   "word": "baseball",
+   "ipa": "/ˈbeɪsbɔːl/",
+   "zh": "棒球",
+   "icon": "baseball",
+   "atP": [
+    450,
+    490
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "throw",
+   "word": "throw",
+   "ipa": "/θroʊ/",
+   "zh": "扔；投",
+   "icon": "throw",
+   "kind": "verb",
+   "atP": [
+    150,
+    490
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "hit",
+   "word": "hit",
+   "ipa": "/hɪt/",
+   "zh": "打；击",
+   "icon": "hit",
+   "kind": "verb",
+   "atP": [
+    750,
+    490
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "swimming",
+   "word": "swimming",
+   "ipa": "/ˈswɪmɪŋ/",
+   "zh": "游泳（运动）",
+   "icon": "swimming",
+   "atP": [
+    150,
+    1170
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "swim",
+   "word": "swim",
+   "ipa": "/swɪm/",
+   "zh": "游泳",
+   "icon": "swim",
+   "kind": "verb",
+   "atP": [
+    150,
+    1510
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "training",
+   "word": "training",
+   "ipa": "/ˈtreɪnɪŋ/",
+   "zh": "训练",
+   "icon": "training",
+   "atP": [
+    750,
+    830
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "strong",
+   "word": "strong",
+   "ipa": "/strɔːŋ/",
+   "zh": "强壮的",
+   "icon": "strong",
+   "kind": "adj",
+   "atP": [
+    750,
+    1170
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "weak",
+   "word": "weak",
+   "ipa": "/wiːk/",
+   "zh": "虚弱的",
+   "icon": "weak",
+   "kind": "adj",
+   "atP": [
+    750,
+    1510
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  },
+  {
+   "id": "quick",
+   "word": "quick",
+   "ipa": "/kwɪk/",
+   "zh": "快的",
+   "icon": "quick",
+   "kind": "adj",
+   "atP": [
+    450,
+    1170
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "coach",
+   "word": "coach",
+   "ipa": "/koʊtʃ/",
+   "zh": "教练",
+   "icon": "coach",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "encourage",
+   "word": "encourage",
+   "ipa": "/ɪnˈkɜːrɪdʒ/",
+   "zh": "鼓励",
+   "icon": "encourage",
+   "kind": "verb",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "spirit",
+   "word": "spirit",
+   "ipa": "/ˈspɪrɪt/",
+   "zh": "精神；勇气",
+   "icon": "spirit",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "coach",
+   "to": "encourage"
+  },
+  {
+   "from": "encourage",
+   "to": "spirit"
+  },
+  {
+   "from": "sports",
+   "to": "baseball"
+  },
+  {
+   "from": "baseball",
+   "to": "throw",
+   "label": "投"
+  },
+  {
+   "from": "baseball",
+   "to": "hit",
+   "label": "击"
+  },
+  {
+   "from": "choose",
+   "to": "sports"
+  },
+  {
+   "from": "sports",
+   "to": "training"
+  },
+  {
+   "from": "sports",
+   "to": "swimming"
+  },
+  {
+   "from": "swim",
+   "to": "swimming",
+   "label": "+ming"
+  },
+  {
+   "from": "training",
+   "to": "strong"
+  },
+  {
+   "from": "strong",
+   "to": "weak",
+   "label": "反义"
+  },
+  {
+   "from": "training",
+   "to": "quick"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！第九集，我们认识了很多运动。今天，我们接着学！"
+    },
+    {
+     "en": "sports"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:sports",
+    "focus:sports"
+   ],
+   "parts": [
+    {
+     "zh": "运动的种类可多啦。今天，我们来学更多和运动有关的词。"
+    },
+    {
+     "en": "sports"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:choose",
+    "edge:choose>sports",
+    "focus:choose"
+   ],
+   "parts": [
+    {
+     "zh": "这么多运动，先选一个你最喜欢的吧！选择，英语是"
+    },
+    {
+     "en": "choose"
+    },
+    {
+     "zh": "它变成名词，就是",
+     "cue": [
+      "alt:choose"
+     ]
+    },
+    {
+     "en": "choice"
+    },
+    {
+     "en": "Choose a sport!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:baseball",
+    "edge:sports>baseball",
+    "focus:baseball"
+   ],
+   "parts": [
+    {
+     "zh": "我选棒球！棒球场上有四个垒，垒加上球："
+    },
+    {
+     "en": "base"
+    },
+    {
+     "en": "ball"
+    },
+    {
+     "en": "baseball"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:throw",
+    "edge:baseball>throw",
+    "focus:throw"
+   ],
+   "parts": [
+    {
+     "zh": "打棒球，先要把球用力扔出去："
+    },
+    {
+     "en": "throw"
+    },
+    {
+     "en": "Throw the ball!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hit",
+    "edge:baseball>hit",
+    "focus:hit"
+   ],
+   "parts": [
+    {
+     "zh": "举起球棒，砰的一声，把球打得远远的："
+    },
+    {
+     "en": "hit"
+    },
+    {
+     "en": "Hit the ball!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:swimming",
+    "edge:sports>swimming",
+    "focus:swimming"
+   ],
+   "parts": [
+    {
+     "zh": "夏天，最凉快的运动是游泳："
+    },
+    {
+     "en": "swimming"
+    },
+    {
+     "en": "I like swimming."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:swim",
+    "edge:swim>swimming",
+    "focus:swim"
+   ],
+   "parts": [
+    {
+     "zh": "游这个动作，是"
+    },
+    {
+     "en": "swim"
+    },
+    {
+     "zh": "变成游泳这项运动，要多写一个字母 m，再加上 i n g："
+    },
+    {
+     "en": "swim",
+     "cue": [
+      "focus:swim"
+     ]
+    },
+    {
+     "en": "swimming",
+     "cue": [
+      "focus:swimming"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:training",
+    "edge:sports>training",
+    "focus:training"
+   ],
+   "parts": [
+    {
+     "zh": "想在比赛里赢，平时就要刻苦训练："
+    },
+    {
+     "en": "training"
+    },
+    {
+     "en": "We have training every day."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:strong",
+    "edge:training>strong",
+    "focus:strong"
+   ],
+   "parts": [
+    {
+     "zh": "训练多了，身体就变得很强壮："
+    },
+    {
+     "en": "strong"
+    },
+    {
+     "en": "I am strong!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:weak",
+    "edge:strong>weak",
+    "focus:weak"
+   ],
+   "parts": [
+    {
+     "zh": "强壮的反面，是虚弱、没力气："
+    },
+    {
+     "en": "weak"
+    },
+    {
+     "en": "I feel weak."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:quick",
+    "edge:training>quick",
+    "focus:quick"
+   ],
+   "parts": [
+    {
+     "zh": "多练习，动作就会变得又快又灵活："
+    },
+    {
+     "en": "quick"
+    },
+    {
+     "en": "Be quick!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:coach",
+    "focus:coach"
+   ],
+   "parts": [
+    {
+     "zh": "带着我们训练的人，是教练："
+    },
+    {
+     "en": "coach"
+    },
+    {
+     "en": "Our coach is great."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:encourage",
+    "edge:coach>encourage",
+    "focus:encourage"
+   ],
+   "parts": [
+    {
+     "zh": "我们累了的时候，教练会给我们加油，鼓励我们："
+    },
+    {
+     "en": "encourage"
+    },
+    {
+     "en": "The coach encourages us."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:spirit",
+    "edge:encourage>spirit",
+    "focus:spirit"
+   ],
+   "parts": [
+    {
+     "zh": "被鼓励以后，我们心里就充满了勇气和精神："
+    },
+    {
+     "en": "spirit"
+    },
+    {
+     "en": "team spirit"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:strong,weak"
+   ],
+   "parts": [
+    {
+     "zh": "比一比这两个相反的词："
+    },
+    {
+     "en": "strong",
+     "cue": [
+      "focus:strong"
+     ]
+    },
+    {
+     "en": "weak",
+     "cue": [
+      "focus:weak"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "今天也有拼出来、变出来的词："
+    },
+    {
+     "en": "base, ball, baseball",
+     "cue": [
+      "focus:baseball"
+     ]
+    },
+    {
+     "en": "swim, swimming",
+     "cue": [
+      "focus:swim,swimming"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们一起来喊加油口号吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Be strong!",
+     "cue": [
+      "focus:strong"
+     ]
+    },
+    {
+     "en": "Be quick!",
+     "cue": [
+      "focus:quick"
+     ]
+    },
+    {
+     "en": "Go, go, go!",
+     "cue": [
+      "focus:spirit"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sports"
+   ],
+   "parts": [
+    {
+     "en": "sports"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:choose"
+   ],
+   "parts": [
+    {
+     "en": "choose, choice"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:baseball"
+   ],
+   "parts": [
+    {
+     "en": "baseball"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:throw"
+   ],
+   "parts": [
+    {
+     "en": "throw"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hit"
+   ],
+   "parts": [
+    {
+     "en": "hit"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:swimming"
+   ],
+   "parts": [
+    {
+     "en": "swimming"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:swim"
+   ],
+   "parts": [
+    {
+     "en": "swim"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:training"
+   ],
+   "parts": [
+    {
+     "en": "training"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:strong"
+   ],
+   "parts": [
+    {
+     "en": "strong"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:weak"
+   ],
+   "parts": [
+    {
+     "en": "weak"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:quick"
+   ],
+   "parts": [
+    {
+     "en": "quick"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:coach"
+   ],
+   "parts": [
+    {
+     "en": "coach"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:encourage"
+   ],
+   "parts": [
+    {
+     "en": "encourage"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:spirit"
+   ],
+   "parts": [
+    {
+     "en": "spirit"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！运动的时候，记得给你的队友加油鼓励哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

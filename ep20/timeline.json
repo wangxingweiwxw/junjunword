@@ -1,0 +1,804 @@
+{
+ "duration": 175.553,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！一年有四个季节，每个季节，我们都穿不一样的衣服。",
+   "t0": 0.4,
+   "t1": 6.44,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "seasons",
+   "t0": 6.69,
+   "t1": 7.431,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "季节。",
+   "t0": 7.931,
+   "t1": 8.486,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "春、夏、秋、冬，都叫季节：",
+   "t0": 9.336,
+   "t1": 12.339,
+   "cue": [
+    "map",
+    "show:season",
+    "focus:season"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "season",
+   "t0": 12.589,
+   "t1": 13.216,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "一年有四个季节：",
+   "t0": 13.716,
+   "t1": 15.064,
+   "cue": [
+    "plural:season"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "four seasons",
+   "t0": 15.314,
+   "t1": 16.306,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "小草发芽，花儿开放，春天来了：",
+   "t0": 17.406,
+   "t1": 20.309,
+   "cue": [
+    "show:spring",
+    "edge:season>spring",
+    "focus:spring"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "spring",
+   "t0": 20.559,
+   "t1": 21.145,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "in spring",
+   "t0": 21.645,
+   "t1": 22.376,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "春天暖洋洋的，女孩子可以穿上漂亮的连衣裙：",
+   "t0": 23.476,
+   "t1": 27.602,
+   "cue": [
+    "show:dress",
+    "edge:spring>dress",
+    "focus:dress"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "dress",
+   "t0": 27.852,
+   "t1": 28.407,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "或者穿一条短短的裙子：",
+   "t0": 29.507,
+   "t1": 31.622,
+   "cue": [
+    "show:skirt",
+    "edge:spring>skirt",
+    "focus:skirt"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "skirt",
+   "t0": 31.872,
+   "t1": 32.421,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "连衣裙上下连在一起；短裙只穿在下半身。",
+   "t0": 32.921,
+   "t1": 36.943,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "dress",
+   "t0": 37.193,
+   "t1": 37.747,
+   "cue": [
+    "focus:dress"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "skirt",
+   "t0": 38.247,
+   "t1": 38.796,
+   "cue": [
+    "focus:skirt"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "太阳火辣辣，知了叫不停，夏天到了：",
+   "t0": 39.896,
+   "t1": 43.255,
+   "cue": [
+    "show:summer",
+    "edge:season>summer",
+    "focus:summer"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "summer",
+   "t0": 43.505,
+   "t1": 44.031,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "in summer",
+   "t0": 44.531,
+   "t1": 45.232,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "夏天好热，穿上凉快的短裤：",
+   "t0": 46.332,
+   "t1": 48.857,
+   "cue": [
+    "show:shorts",
+    "edge:summer>shorts",
+    "focus:shorts"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "shorts",
+   "t0": 49.107,
+   "t1": 49.767,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "短裤有两条裤腿，所以和第十集的长裤一样，总是带着 s。",
+   "t0": 50.267,
+   "t1": 55.535,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "短裤上还有口袋，可以装小东西：",
+   "t0": 56.385,
+   "t1": 59.087,
+   "cue": [
+    "show:pocket",
+    "edge:shorts>pocket",
+    "focus:pocket"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "pocket",
+   "t0": 59.337,
+   "t1": 59.918,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "What's in your pocket?",
+   "t0": 60.418,
+   "t1": 61.566,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "树叶变黄，一片片落下来，秋天到了：",
+   "t0": 62.666,
+   "t1": 66.056,
+   "cue": [
+    "show:autumn",
+    "edge:season>autumn",
+    "focus:autumn"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "autumn",
+   "t0": 66.306,
+   "t1": 66.734,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "美国人还管秋天叫",
+   "t0": 67.234,
+   "t1": 68.927,
+   "cue": [
+    "alt:autumn"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "fall",
+   "t0": 69.177,
+   "t1": 69.582,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "还记得第九集吗？这个词也是落下的意思，树叶落下来，就是秋天。",
+   "t0": 70.082,
+   "t1": 76.508,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "秋天凉凉的，穿上一件夹克：",
+   "t0": 77.358,
+   "t1": 79.86,
+   "cue": [
+    "show:jacket",
+    "edge:autumn>jacket",
+    "focus:jacket"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "jacket",
+   "t0": 80.11,
+   "t1": 80.703,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "再配一条蓝色的牛仔裤：",
+   "t0": 81.803,
+   "t1": 83.744,
+   "cue": [
+    "show:jeans",
+    "edge:autumn>jeans",
+    "focus:jeans"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "jeans",
+   "t0": 83.994,
+   "t1": 84.581,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "它也总是带着 s。",
+   "t0": 85.081,
+   "t1": 86.544,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "下雪啦，可以堆雪人了，冬天到了：",
+   "t0": 87.394,
+   "t1": 90.481,
+   "cue": [
+    "show:winter",
+    "edge:season>winter",
+    "focus:winter"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "winter",
+   "t0": 90.731,
+   "t1": 91.245,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "in winter",
+   "t0": 91.745,
+   "t1": 92.433,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "冬天好冷，要穿上暖和的毛衣：",
+   "t0": 93.533,
+   "t1": 96.197,
+   "cue": [
+    "show:sweater",
+    "edge:winter>sweater",
+    "focus:sweater"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "sweater",
+   "t0": 96.447,
+   "t1": 96.996,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "中间的 e a，在这里读短短的 e。",
+   "t0": 97.496,
+   "t1": 100.248,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "In winter, I wear a sweater.",
+   "t0": 100.498,
+   "t1": 102.313,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "出门的时候，外面还要再穿一件厚厚的大衣：",
+   "t0": 103.413,
+   "t1": 107.071,
+   "cue": [
+    "show:coat",
+    "edge:winter>coat",
+    "focus:coat"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "coat",
+   "t0": 107.321,
+   "t1": 107.753,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "我穿了毛衣，也穿了大衣。也，英语是",
+   "t0": 108.853,
+   "t1": 112.89,
+   "cue": [
+    "show:also",
+    "edge:also>season",
+    "focus:also"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "also",
+   "t0": 113.14,
+   "t1": 113.746,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "I also wear a coat.",
+   "t0": 114.246,
+   "t1": 115.567,
+   "cue": [
+    "focus:also,coat"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "我们按顺序，把四个季节读一遍：",
+   "t0": 116.667,
+   "t1": 119.353,
+   "cue": [
+    "focus:spring,summer,autumn,winter"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "spring",
+   "t0": 119.603,
+   "t1": 120.188,
+   "cue": [
+    "focus:spring"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "summer",
+   "t0": 120.688,
+   "t1": 121.214,
+   "cue": [
+    "focus:summer"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "autumn",
+   "t0": 121.714,
+   "t1": 122.142,
+   "cue": [
+    "focus:autumn"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "winter",
+   "t0": 122.642,
+   "t1": 123.156,
+   "cue": [
+    "focus:winter"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "考考你：这些衣服，在哪个季节穿？",
+   "t0": 124.256,
+   "t1": 127.482,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Shorts?",
+   "t0": 128.332,
+   "t1": 128.961,
+   "cue": [
+    "focus:shorts"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Summer!",
+   "t0": 129.461,
+   "t1": 129.993,
+   "cue": [
+    "focus:summer"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "A sweater?",
+   "t0": 130.493,
+   "t1": 131.089,
+   "cue": [
+    "focus:sweater"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Winter!",
+   "t0": 131.589,
+   "t1": 132.105,
+   "cue": [
+    "focus:winter"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "A jacket?",
+   "t0": 132.605,
+   "t1": 133.347,
+   "cue": [
+    "focus:jacket"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Autumn!",
+   "t0": 133.847,
+   "t1": 134.282,
+   "cue": [
+    "focus:autumn"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 135.382,
+   "t1": 138.633,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "season, seasons",
+   "t0": 139.483,
+   "t1": 140.981,
+   "cue": [
+    "focus:season"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "spring",
+   "t0": 142.081,
+   "t1": 142.666,
+   "cue": [
+    "focus:spring"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "dress",
+   "t0": 143.766,
+   "t1": 144.321,
+   "cue": [
+    "focus:dress"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "skirt",
+   "t0": 145.421,
+   "t1": 145.97,
+   "cue": [
+    "focus:skirt"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "summer",
+   "t0": 147.07,
+   "t1": 147.596,
+   "cue": [
+    "focus:summer"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "shorts",
+   "t0": 148.696,
+   "t1": 149.355,
+   "cue": [
+    "focus:shorts"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "pocket",
+   "t0": 150.455,
+   "t1": 151.036,
+   "cue": [
+    "focus:pocket"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "autumn, fall",
+   "t0": 152.136,
+   "t1": 153.2,
+   "cue": [
+    "focus:autumn"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "jacket",
+   "t0": 154.3,
+   "t1": 154.893,
+   "cue": [
+    "focus:jacket"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "jeans",
+   "t0": 155.993,
+   "t1": 156.58,
+   "cue": [
+    "focus:jeans"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "winter",
+   "t0": 157.68,
+   "t1": 158.194,
+   "cue": [
+    "focus:winter"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "sweater",
+   "t0": 159.294,
+   "t1": 159.843,
+   "cue": [
+    "focus:sweater"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "coat",
+   "t0": 160.943,
+   "t1": 161.375,
+   "cue": [
+    "focus:coat"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "also",
+   "t0": 162.475,
+   "t1": 163.081,
+   "cue": [
+    "focus:also"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "zh",
+   "text": "太棒了！你最喜欢哪个季节？用英语告诉爸爸妈妈吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 164.181,
+   "t1": 173.703,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "season": [
+   0.25,
+   0.877
+  ],
+  "season:pl": [
+   1.127,
+   1.868
+  ],
+  "spring": [
+   2.119,
+   2.704
+  ],
+  "summer": [
+   2.954,
+   3.48
+  ],
+  "autumn": [
+   3.73,
+   4.157
+  ],
+  "autumn:alt": [
+   4.407,
+   4.812
+  ],
+  "winter": [
+   5.062,
+   5.576
+  ],
+  "dress": [
+   5.826,
+   6.381
+  ],
+  "skirt": [
+   6.631,
+   7.18
+  ],
+  "shorts": [
+   7.43,
+   8.09
+  ],
+  "pocket": [
+   8.34,
+   8.921
+  ],
+  "jacket": [
+   9.171,
+   9.764
+  ],
+  "jeans": [
+   10.014,
+   10.601
+  ],
+  "sweater": [
+   10.851,
+   11.4
+  ],
+  "coat": [
+   11.65,
+   12.082
+  ],
+  "also": [
+   12.332,
+   12.937
+  ]
+ }
+}

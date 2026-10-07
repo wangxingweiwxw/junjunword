@@ -1,0 +1,693 @@
+{
+ "duration": 169.512,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！还记得第四集的生日聚会吗？今天，我们来办一场更热闹的生日派对！",
+   "t0": 0.4,
+   "t1": 8.095,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "a birthday party",
+   "t0": 8.345,
+   "t1": 9.414,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "想让好朋友来参加派对，就要邀请他们：",
+   "t0": 10.514,
+   "t1": 13.819,
+   "cue": [
+    "map",
+    "show:invite",
+    "focus:invite"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "invite",
+   "t0": 14.069,
+   "t1": 14.658,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "I invite my friends.",
+   "t0": 15.158,
+   "t1": 16.496,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "写在卡片上的邀请，叫请帖。邀请这个词的后面，加上 a t i o n：",
+   "t0": 17.596,
+   "t1": 24.162,
+   "cue": [
+    "show:invitation",
+    "edge:invite>invitation",
+    "focus:invitation"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "invitation",
+   "t0": 24.412,
+   "t1": 25.307,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "a birthday invitation",
+   "t0": 25.807,
+   "t1": 27.215,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "被请来的朋友，就是客人：",
+   "t0": 28.315,
+   "t1": 30.516,
+   "cue": [
+    "show:guest",
+    "edge:invite>guest",
+    "focus:guest"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "guest",
+   "t0": 30.766,
+   "t1": 31.247,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "来了很多客人：",
+   "t0": 31.747,
+   "t1": 32.902,
+   "cue": [
+    "plural:guest"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "guests",
+   "t0": 33.152,
+   "t1": 33.769,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "邀请别人的时候要有礼貌，记得说请：",
+   "t0": 34.869,
+   "t1": 38.171,
+   "cue": [
+    "show:please",
+    "edge:please>invite",
+    "focus:please"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "please",
+   "t0": 38.421,
+   "t1": 38.94,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "Please come to my party!",
+   "t0": 39.44,
+   "t1": 40.778,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "大家聚在一起，开开心心地庆祝：",
+   "t0": 41.878,
+   "t1": 44.639,
+   "cue": [
+    "show:celebrate",
+    "focus:celebrate"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "celebrate",
+   "t0": 44.889,
+   "t1": 45.658,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Let's celebrate!",
+   "t0": 46.158,
+   "t1": 47.188,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "我站在客人们的中间，和大家一起庆祝。在……之中，英语是",
+   "t0": 48.288,
+   "t1": 54.212,
+   "cue": [
+    "show:among",
+    "edge:guest>among",
+    "edge:celebrate>among",
+    "focus:among"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "among",
+   "t0": 54.462,
+   "t1": 55.002,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "I sing among my friends.",
+   "t0": 55.502,
+   "t1": 57.013,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "要是一个客人都没有，派对就冷清了。没有，英语是",
+   "t0": 58.113,
+   "t1": 63.522,
+   "cue": [
+    "show:without",
+    "edge:without>guest",
+    "focus:without"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "without",
+   "t0": 63.772,
+   "t1": 64.361,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "它是由两个小词拼起来的：",
+   "t0": 64.861,
+   "t1": 66.791,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "with",
+   "t0": 67.041,
+   "t1": 67.274,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "out",
+   "t0": 67.774,
+   "t1": 68.122,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "without",
+   "t0": 68.622,
+   "t1": 69.211,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "a party without guests",
+   "t0": 69.711,
+   "t1": 71.321,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "过一次生日，我们就又长大了一岁。年龄，英语是",
+   "t0": 72.421,
+   "t1": 77.161,
+   "cue": [
+    "show:age",
+    "edge:celebrate>age",
+    "focus:age"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "age",
+   "t0": 77.411,
+   "t1": 77.91,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "问别人几岁了，常常这样说：",
+   "t0": 78.41,
+   "t1": 80.882,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "How old are you?",
+   "t0": 81.132,
+   "t1": 82.032,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "哎呀，出门的时候，忘了带礼物！忘记，英语是",
+   "t0": 83.132,
+   "t1": 87.994,
+   "cue": [
+    "show:forget",
+    "focus:forget"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "forget",
+   "t0": 88.244,
+   "t1": 88.852,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "Don't forget!",
+   "t0": 89.352,
+   "t1": 90.199,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "忘记的反面，是记得、记住：",
+   "t0": 91.299,
+   "t1": 93.94,
+   "cue": [
+    "show:remember",
+    "edge:forget>remember",
+    "focus:remember"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "remember",
+   "t0": 94.19,
+   "t1": 94.822,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "I remember your birthday.",
+   "t0": 95.322,
+   "t1": 96.664,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "帮别人记住一件事，就是提醒：",
+   "t0": 97.764,
+   "t1": 100.351,
+   "cue": [
+    "show:remind",
+    "edge:remember>remind",
+    "focus:remind"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "remind",
+   "t0": 100.601,
+   "t1": 101.185,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "它和记得一样，也是 r e 开头的哦。",
+   "t0": 101.685,
+   "t1": 104.43,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Please remind me.",
+   "t0": 104.68,
+   "t1": 105.709,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "想请别人让一让，或者要打扰别人的时候，我们会礼貌地说：",
+   "t0": 106.809,
+   "t1": 111.62,
+   "cue": [
+    "show:excuse",
+    "focus:excuse",
+    "alt:excuse"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "Excuse me.",
+   "t0": 111.87,
+   "t1": 112.727,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "打扰、原谅，英语是",
+   "t0": 113.227,
+   "t1": 115.412,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "excuse",
+   "t0": 115.662,
+   "t1": 116.432,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "请和打扰了，都是有礼貌的好孩子常常说的话：",
+   "t0": 117.532,
+   "t1": 121.61,
+   "cue": [
+    "focus:please,excuse"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "Please.",
+   "t0": 121.86,
+   "t1": 122.38,
+   "cue": [
+    "focus:please"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "Excuse me.",
+   "t0": 122.88,
+   "t1": 123.736,
+   "cue": [
+    "focus:excuse"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "再来比一比这三个和记忆有关的词：",
+   "t0": 124.836,
+   "t1": 127.636,
+   "cue": [
+    "focus:forget,remember,remind"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "forget",
+   "t0": 127.886,
+   "t1": 128.494,
+   "cue": [
+    "focus:forget"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "remember",
+   "t0": 128.994,
+   "t1": 129.626,
+   "cue": [
+    "focus:remember"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "remind",
+   "t0": 130.126,
+   "t1": 130.71,
+   "cue": [
+    "focus:remind"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 131.81,
+   "t1": 135.06,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "invite",
+   "t0": 135.91,
+   "t1": 136.5,
+   "cue": [
+    "focus:invite"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "invitation",
+   "t0": 137.6,
+   "t1": 138.495,
+   "cue": [
+    "focus:invitation"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "guest, guests",
+   "t0": 139.595,
+   "t1": 140.837,
+   "cue": [
+    "focus:guest"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "please",
+   "t0": 141.937,
+   "t1": 142.457,
+   "cue": [
+    "focus:please"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "celebrate",
+   "t0": 143.557,
+   "t1": 144.326,
+   "cue": [
+    "focus:celebrate"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "among",
+   "t0": 145.426,
+   "t1": 145.966,
+   "cue": [
+    "focus:among"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "without",
+   "t0": 147.066,
+   "t1": 147.655,
+   "cue": [
+    "focus:without"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "age",
+   "t0": 148.755,
+   "t1": 149.253,
+   "cue": [
+    "focus:age"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "forget",
+   "t0": 150.353,
+   "t1": 150.961,
+   "cue": [
+    "focus:forget"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "remember",
+   "t0": 152.061,
+   "t1": 152.693,
+   "cue": [
+    "focus:remember"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "remind",
+   "t0": 153.793,
+   "t1": 154.377,
+   "cue": [
+    "focus:remind"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "excuse, Excuse me.",
+   "t0": 155.477,
+   "t1": 157.21,
+   "cue": [
+    "focus:excuse"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "zh",
+   "text": "太棒了！下次过生日，用英语给好朋友写一张请帖吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 158.31,
+   "t1": 167.662,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "invite": [
+   0.25,
+   0.84
+  ],
+  "invitation": [
+   1.09,
+   1.985
+  ],
+  "guest": [
+   2.235,
+   2.716
+  ],
+  "guest:pl": [
+   2.966,
+   3.582
+  ],
+  "please": [
+   3.832,
+   4.352
+  ],
+  "celebrate": [
+   4.602,
+   5.371
+  ],
+  "among": [
+   5.621,
+   6.161
+  ],
+  "without": [
+   6.411,
+   7.0
+  ],
+  "age": [
+   7.25,
+   7.748
+  ],
+  "forget": [
+   7.998,
+   8.606
+  ],
+  "remember": [
+   8.856,
+   9.488
+  ],
+  "remind": [
+   9.738,
+   10.322
+  ],
+  "excuse": [
+   10.572,
+   11.342
+  ],
+  "excuse:alt": [
+   11.592,
+   12.449
+  ]
+ }
+}

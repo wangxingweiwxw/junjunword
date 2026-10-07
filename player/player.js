@@ -46,7 +46,8 @@
                 adj: {tag: 'adj.', hex: '#2FA36B', rgb: '47,163,107'},
                 verb: {tag: 'v.', hex: '#3D8BFD', rgb: '61,139,253'},
                 num: {tag: 'num.', hex: '#9B5DE5', rgb: '155,93,229'},
-                prep: {tag: 'prep.', hex: '#E0A100', rgb: '224,161,0'}};
+                prep: {tag: 'prep.', hex: '#E0A100', rgb: '224,161,0'},
+                adv: {tag: 'adv.', hex: '#2BB3A3', rgb: '43,179,163'}};
   const kindOf = n => KIND[n.kind] ? n.kind : 'noun';
   const colorOf = n => `var(--${kindOf(n)})`;
   const hex = Object.fromEntries(Object.entries(KIND).map(([k, v]) => [k, v.hex]));

@@ -1,0 +1,684 @@
+{
+ "duration": 143.213,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！明天要上学啦，我们先来收拾一下书包。",
+   "t0": 0.4,
+   "t1": 5.221,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "schoolbag",
+   "t0": 5.471,
+   "t1": 6.231,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "书包。",
+   "t0": 6.731,
+   "t1": 7.239,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "背着去上学的包，叫书包。学校，加上包：",
+   "t0": 8.089,
+   "t1": 12.319,
+   "cue": [
+    "map",
+    "show:schoolbag",
+    "focus:schoolbag"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "school",
+   "t0": 12.569,
+   "t1": 13.142,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "bag",
+   "t0": 13.642,
+   "t1": 14.048,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "schoolbag",
+   "t0": 14.548,
+   "t1": 15.308,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "它还有一个名字，书加上包：",
+   "t0": 15.808,
+   "t1": 18.093,
+   "cue": [
+    "alt:schoolbag"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "bookbag",
+   "t0": 18.343,
+   "t1": 18.947,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "书包里，最重要的就是书：",
+   "t0": 20.047,
+   "t1": 22.301,
+   "cue": [
+    "show:book",
+    "edge:schoolbag>book",
+    "focus:book"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "book",
+   "t0": 22.551,
+   "t1": 22.937,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "很多本书：",
+   "t0": 23.437,
+   "t1": 24.319,
+   "cue": [
+    "plural:book"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "books",
+   "t0": 24.569,
+   "t1": 25.055,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "遇到不认识的字，就查一查又厚又大的词典：",
+   "t0": 26.155,
+   "t1": 29.883,
+   "cue": [
+    "show:dictionary",
+    "edge:book>dictionary",
+    "focus:dictionary"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "dictionary",
+   "t0": 30.133,
+   "t1": 30.949,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Look it up in the dictionary.",
+   "t0": 31.449,
+   "t1": 33.0,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "用来记笔记的本子，是笔记，加上书：",
+   "t0": 34.1,
+   "t1": 37.514,
+   "cue": [
+    "show:notebook",
+    "edge:book>notebook",
+    "focus:notebook"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "note",
+   "t0": 37.764,
+   "t1": 38.21,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "book",
+   "t0": 38.71,
+   "t1": 39.095,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "notebook",
+   "t0": 39.595,
+   "t1": 40.21,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "书和本子，都是用纸做的：",
+   "t0": 41.31,
+   "t1": 43.596,
+   "cue": [
+    "show:paper",
+    "edge:book>paper",
+    "focus:paper"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "paper",
+   "t0": 43.846,
+   "t1": 44.369,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "纸通常不加 s。一张纸，要这样说：",
+   "t0": 44.869,
+   "t1": 48.706,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "a piece of paper",
+   "t0": 48.956,
+   "t1": 50.077,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "在本子上写字，要用笔：",
+   "t0": 51.177,
+   "t1": 53.276,
+   "cue": [
+    "show:pen",
+    "edge:pen>notebook",
+    "focus:pen"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "pen",
+   "t0": 53.526,
+   "t1": 53.962,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "很多支笔：",
+   "t0": 54.462,
+   "t1": 55.33,
+   "cue": [
+    "plural:pen"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "pens",
+   "t0": 55.58,
+   "t1": 56.167,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "画画、写作业，常常用铅笔：",
+   "t0": 57.267,
+   "t1": 60.075,
+   "cue": [
+    "show:pencil",
+    "edge:pencil>notebook",
+    "focus:pencil"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "pencil",
+   "t0": 60.325,
+   "t1": 60.915,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "比一比，铅笔就是在钢笔后面，多了几个字母。",
+   "t0": 61.415,
+   "t1": 65.5,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "pen",
+   "t0": 65.75,
+   "t1": 66.186,
+   "cue": [
+    "focus:pen"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "pencil",
+   "t0": 66.686,
+   "t1": 67.276,
+   "cue": [
+    "focus:pencil"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "铅笔字写错了，用橡皮擦一擦：",
+   "t0": 68.376,
+   "t1": 71.138,
+   "cue": [
+    "show:eraser",
+    "edge:eraser>pencil",
+    "focus:eraser"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "eraser",
+   "t0": 71.388,
+   "t1": 72.066,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "擦掉这个动作，加上字母 r，就变成了擦东西的工具：",
+   "t0": 72.566,
+   "t1": 77.11,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "erase",
+   "t0": 77.36,
+   "t1": 77.925,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "eraser",
+   "t0": 78.425,
+   "t1": 79.103,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "要画一条直直的线，就用尺子：",
+   "t0": 80.203,
+   "t1": 82.839,
+   "cue": [
+    "show:ruler",
+    "edge:schoolbag>ruler",
+    "focus:ruler"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "ruler",
+   "t0": 83.089,
+   "t1": 83.601,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "a long ruler",
+   "t0": 84.101,
+   "t1": 85.061,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "画画用的五颜六色的笔，是蜡笔：",
+   "t0": 86.161,
+   "t1": 88.834,
+   "cue": [
+    "show:crayon",
+    "edge:schoolbag>crayon",
+    "focus:crayon"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "crayon",
+   "t0": 89.084,
+   "t1": 89.703,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "I draw with crayons.",
+   "t0": 90.203,
+   "t1": 91.547,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "我们一起把书包装好吧！",
+   "t0": 92.647,
+   "t1": 94.59,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "a book",
+   "t0": 95.44,
+   "t1": 96.008,
+   "cue": [
+    "focus:book"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "a notebook",
+   "t0": 96.508,
+   "t1": 97.224,
+   "cue": [
+    "focus:notebook"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "a dictionary",
+   "t0": 97.724,
+   "t1": 98.663,
+   "cue": [
+    "focus:dictionary"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "a pen",
+   "t0": 99.163,
+   "t1": 99.79,
+   "cue": [
+    "focus:pen"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "a pencil",
+   "t0": 100.29,
+   "t1": 101.023,
+   "cue": [
+    "focus:pencil"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "an eraser",
+   "t0": 101.523,
+   "t1": 102.299,
+   "cue": [
+    "focus:eraser"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "a ruler",
+   "t0": 102.799,
+   "t1": 103.439,
+   "cue": [
+    "focus:ruler"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "and crayons!",
+   "t0": 103.939,
+   "t1": 104.889,
+   "cue": [
+    "focus:crayon"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "My schoolbag is ready!",
+   "t0": 105.389,
+   "t1": 106.77,
+   "cue": [
+    "focus:schoolbag"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 107.87,
+   "t1": 111.121,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "schoolbag, bookbag",
+   "t0": 111.971,
+   "t1": 113.55,
+   "cue": [
+    "focus:schoolbag"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "book, books",
+   "t0": 114.65,
+   "t1": 115.766,
+   "cue": [
+    "focus:book"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "dictionary",
+   "t0": 116.866,
+   "t1": 117.682,
+   "cue": [
+    "focus:dictionary"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "notebook",
+   "t0": 118.782,
+   "t1": 119.396,
+   "cue": [
+    "focus:notebook"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "paper",
+   "t0": 120.496,
+   "t1": 121.02,
+   "cue": [
+    "focus:paper"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "pen, pens",
+   "t0": 122.12,
+   "t1": 123.387,
+   "cue": [
+    "focus:pen"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "pencil",
+   "t0": 124.487,
+   "t1": 125.077,
+   "cue": [
+    "focus:pencil"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "eraser",
+   "t0": 126.177,
+   "t1": 126.855,
+   "cue": [
+    "focus:eraser"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "ruler",
+   "t0": 127.955,
+   "t1": 128.466,
+   "cue": [
+    "focus:ruler"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "crayon",
+   "t0": 129.566,
+   "t1": 130.185,
+   "cue": [
+    "focus:crayon"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "zh",
+   "text": "太棒了！今天晚上收拾书包的时候，一边装一边用英语说出来吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 131.285,
+   "t1": 141.363,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "schoolbag": [
+   0.25,
+   1.01
+  ],
+  "schoolbag:alt": [
+   1.26,
+   1.864
+  ],
+  "book": [
+   2.114,
+   2.499
+  ],
+  "book:pl": [
+   2.749,
+   3.235
+  ],
+  "dictionary": [
+   3.485,
+   4.3
+  ],
+  "notebook": [
+   4.55,
+   5.165
+  ],
+  "paper": [
+   5.415,
+   5.939
+  ],
+  "pen": [
+   6.189,
+   6.625
+  ],
+  "pen:pl": [
+   6.875,
+   7.462
+  ],
+  "pencil": [
+   7.712,
+   8.302
+  ],
+  "eraser": [
+   8.552,
+   9.23
+  ],
+  "ruler": [
+   9.48,
+   9.992
+  ],
+  "crayon": [
+   10.242,
+   10.86
+  ]
+ }
+}

@@ -1,0 +1,810 @@
+{
+ "id": "ep18",
+ "title": "food",
+ "titleZh": "食物",
+ "episode": "第 18 集",
+ "titleIcon": "food",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1660
+  ]
+ },
+ "nodes": [
+  {
+   "id": "hungry",
+   "word": "hungry",
+   "ipa": "/ˈhʌŋɡri/",
+   "zh": "饿的",
+   "icon": "hungry",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "eat",
+   "word": "eat",
+   "ipa": "/iːt/",
+   "zh": "吃",
+   "icon": "eat",
+   "kind": "verb",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "full",
+   "word": "full",
+   "ipa": "/fʊl/",
+   "zh": "饱的",
+   "icon": "full",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "food",
+   "word": "food",
+   "ipa": "/fuːd/",
+   "zh": "食物",
+   "icon": "food",
+   "atP": [
+    450,
+    490
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "meal",
+   "word": "meal",
+   "ipa": "/miːl/",
+   "zh": "一顿饭",
+   "icon": "meal",
+   "plural": "meals",
+   "pluralIpa": "/miːlz/",
+   "atP": [
+    750,
+    490
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "rice",
+   "word": "rice",
+   "ipa": "/raɪs/",
+   "zh": "米饭",
+   "icon": "rice",
+   "atP": [
+    150,
+    490
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "meat",
+   "word": "meat",
+   "ipa": "/miːt/",
+   "zh": "肉",
+   "icon": "meat",
+   "atP": [
+    450,
+    830
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "chicken",
+   "word": "chicken",
+   "ipa": "/ˈtʃɪkɪn/",
+   "zh": "鸡肉；鸡",
+   "icon": "chicken",
+   "atP": [
+    150,
+    830
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "pork",
+   "word": "pork",
+   "ipa": "/pɔːrk/",
+   "zh": "猪肉",
+   "icon": "pork",
+   "alt": "pig",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    1170
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "beef",
+   "word": "beef",
+   "ipa": "/biːf/",
+   "zh": "牛肉",
+   "icon": "beef",
+   "alt": "cow",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    1170
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "mutton",
+   "word": "mutton",
+   "ipa": "/ˈmʌtn/",
+   "zh": "羊肉",
+   "icon": "mutton",
+   "alt": "sheep",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    1170
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "oil",
+   "word": "oil",
+   "ipa": "/ɔɪl/",
+   "zh": "油",
+   "icon": "oil",
+   "atP": [
+    750,
+    830
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "spicy",
+   "word": "spicy",
+   "ipa": "/ˈspaɪsi/",
+   "zh": "辣的",
+   "icon": "spicy",
+   "kind": "adj",
+   "atP": [
+    450,
+    1510
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "hungry",
+   "to": "eat",
+   "label": "饿了就"
+  },
+  {
+   "from": "eat",
+   "to": "full",
+   "label": "吃饱"
+  },
+  {
+   "from": "eat",
+   "to": "food"
+  },
+  {
+   "from": "eat",
+   "to": "meal"
+  },
+  {
+   "from": "food",
+   "to": "rice"
+  },
+  {
+   "from": "food",
+   "to": "meat"
+  },
+  {
+   "from": "meat",
+   "to": "chicken"
+  },
+  {
+   "from": "oil",
+   "to": "meat",
+   "label": "炒",
+   "dashed": true
+  },
+  {
+   "from": "meat",
+   "to": "pork"
+  },
+  {
+   "from": "meat",
+   "to": "beef"
+  },
+  {
+   "from": "meat",
+   "to": "mutton"
+  },
+  {
+   "from": "spicy",
+   "to": "beef",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！肚子咕咕叫了吗？今天，我们来学好吃的。"
+    },
+    {
+     "en": "food"
+    },
+    {
+     "zh": "食物。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:hungry",
+    "focus:hungry"
+   ],
+   "parts": [
+    {
+     "zh": "到了中午，肚子咕咕叫，那是饿了："
+    },
+    {
+     "en": "hungry"
+    },
+    {
+     "en": "I'm hungry!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:eat",
+    "edge:hungry>eat",
+    "focus:eat"
+   ],
+   "parts": [
+    {
+     "zh": "饿了，就要吃东西："
+    },
+    {
+     "en": "eat"
+    },
+    {
+     "en": "Let's eat!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:food",
+    "edge:eat>food",
+    "focus:food"
+   ],
+   "parts": [
+    {
+     "zh": "能吃的东西，统统叫食物："
+    },
+    {
+     "en": "food"
+    },
+    {
+     "zh": "小提示：中间是两个字母 o。"
+    },
+    {
+     "en": "I like Chinese food."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:meal",
+    "edge:eat>meal",
+    "focus:meal"
+   ],
+   "parts": [
+    {
+     "zh": "早饭、午饭、晚饭，每一顿饭，叫"
+    },
+    {
+     "en": "meal"
+    },
+    {
+     "zh": "一天要吃三顿饭：",
+     "cue": [
+      "plural:meal"
+     ]
+    },
+    {
+     "en": "three meals a day"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:rice",
+    "edge:food>rice",
+    "focus:rice"
+   ],
+   "parts": [
+    {
+     "zh": "中国小朋友天天都吃的主食，是米饭："
+    },
+    {
+     "en": "rice"
+    },
+    {
+     "en": "a bowl of rice"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:meat",
+    "edge:food>meat",
+    "focus:meat"
+   ],
+   "parts": [
+    {
+     "zh": "很多小朋友最爱吃肉："
+    },
+    {
+     "en": "meat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:chicken",
+    "edge:meat>chicken",
+    "focus:chicken"
+   ],
+   "parts": [
+    {
+     "zh": "鸡肉，英语是"
+    },
+    {
+     "en": "chicken"
+    },
+    {
+     "zh": "鸡和鸡肉，是同一个词。"
+    },
+    {
+     "en": "I love chicken."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pork",
+    "edge:meat>pork",
+    "focus:pork"
+   ],
+   "parts": [
+    {
+     "zh": "猪肉可就不一样了。猪是",
+     "cue": [
+      "alt:pork"
+     ]
+    },
+    {
+     "en": "pig"
+    },
+    {
+     "zh": "猪肉，却叫"
+    },
+    {
+     "en": "pork"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:beef",
+    "edge:meat>beef",
+    "focus:beef"
+   ],
+   "parts": [
+    {
+     "zh": "牛是",
+     "cue": [
+      "alt:beef"
+     ]
+    },
+    {
+     "en": "cow"
+    },
+    {
+     "zh": "牛肉，叫"
+    },
+    {
+     "en": "beef"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:mutton",
+    "edge:meat>mutton",
+    "focus:mutton"
+   ],
+   "parts": [
+    {
+     "zh": "羊是",
+     "cue": [
+      "alt:mutton"
+     ]
+    },
+    {
+     "en": "sheep"
+    },
+    {
+     "zh": "羊肉，叫"
+    },
+    {
+     "en": "mutton"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pork,beef,mutton"
+   ],
+   "parts": [
+    {
+     "zh": "动物和它的肉，名字不一样，要分开记哦："
+    },
+    {
+     "en": "pig, pork",
+     "cue": [
+      "focus:pork"
+     ]
+    },
+    {
+     "en": "cow, beef",
+     "cue": [
+      "focus:beef"
+     ]
+    },
+    {
+     "en": "sheep, mutton",
+     "cue": [
+      "focus:mutton"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:oil",
+    "edge:oil>meat",
+    "focus:oil"
+   ],
+   "parts": [
+    {
+     "zh": "做菜的时候，锅里要先倒上一点油："
+    },
+    {
+     "en": "oil"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:spicy",
+    "edge:spicy>beef",
+    "focus:spicy"
+   ],
+   "parts": [
+    {
+     "zh": "放上红红的辣椒，菜就变得辣辣的："
+    },
+    {
+     "en": "spicy"
+    },
+    {
+     "en": "This beef is spicy!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:full",
+    "edge:eat>full",
+    "focus:full"
+   ],
+   "parts": [
+    {
+     "zh": "吃了这么多，肚子圆滚滚的，吃饱啦："
+    },
+    {
+     "en": "full"
+    },
+    {
+     "en": "I'm full."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hungry,full"
+   ],
+   "parts": [
+    {
+     "zh": "饿了，是"
+    },
+    {
+     "en": "hungry",
+     "cue": [
+      "focus:hungry"
+     ]
+    },
+    {
+     "zh": "饱了，是",
+     "cue": [
+      "focus:full"
+     ]
+    },
+    {
+     "en": "full"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们来演一演，去饭店点菜吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "I'm hungry.",
+     "cue": [
+      "focus:hungry"
+     ]
+    },
+    {
+     "en": "I want rice and chicken.",
+     "cue": [
+      "focus:rice,chicken"
+     ]
+    },
+    {
+     "en": "Not too spicy, please.",
+     "cue": [
+      "focus:spicy"
+     ]
+    },
+    {
+     "en": "Yummy! I'm full.",
+     "cue": [
+      "focus:full"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hungry"
+   ],
+   "parts": [
+    {
+     "en": "hungry"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:eat"
+   ],
+   "parts": [
+    {
+     "en": "eat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:full"
+   ],
+   "parts": [
+    {
+     "en": "full"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:food"
+   ],
+   "parts": [
+    {
+     "en": "food"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:meal"
+   ],
+   "parts": [
+    {
+     "en": "meal, meals"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:rice"
+   ],
+   "parts": [
+    {
+     "en": "rice"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:meat"
+   ],
+   "parts": [
+    {
+     "en": "meat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:chicken"
+   ],
+   "parts": [
+    {
+     "en": "chicken"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pork"
+   ],
+   "parts": [
+    {
+     "en": "pork"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:beef"
+   ],
+   "parts": [
+    {
+     "en": "beef"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:mutton"
+   ],
+   "parts": [
+    {
+     "en": "mutton"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:oil"
+   ],
+   "parts": [
+    {
+     "en": "oil"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:spicy"
+   ],
+   "parts": [
+    {
+     "en": "spicy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！吃饭的时候，用英语说一说碗里有什么吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

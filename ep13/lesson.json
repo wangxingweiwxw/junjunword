@@ -1,0 +1,663 @@
+{
+ "id": "ep13",
+ "title": "schoolbag",
+ "titleZh": "书包",
+ "episode": "第 13 集",
+ "titleIcon": "schoolbag",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "schoolbag",
+   "word": "schoolbag",
+   "ipa": "/ˈskuːlbæɡ/",
+   "zh": "书包",
+   "icon": "schoolbag",
+   "alt": "bookbag",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "book",
+   "word": "book",
+   "ipa": "/bʊk/",
+   "zh": "书",
+   "icon": "book",
+   "plural": "books",
+   "pluralIpa": "/bʊks/",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "dictionary",
+   "word": "dictionary",
+   "ipa": "/ˈdɪkʃəneri/",
+   "zh": "词典",
+   "icon": "dictionary",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "notebook",
+   "word": "notebook",
+   "ipa": "/ˈnoʊtbʊk/",
+   "zh": "笔记本",
+   "icon": "notebook",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "paper",
+   "word": "paper",
+   "ipa": "/ˈpeɪpər/",
+   "zh": "纸",
+   "icon": "paper",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "pen",
+   "word": "pen",
+   "ipa": "/pen/",
+   "zh": "钢笔；笔",
+   "icon": "pen",
+   "plural": "pens",
+   "pluralIpa": "/penz/",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "pencil",
+   "word": "pencil",
+   "ipa": "/ˈpensl/",
+   "zh": "铅笔",
+   "icon": "pencil",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "eraser",
+   "word": "eraser",
+   "ipa": "/ɪˈreɪsər/",
+   "zh": "橡皮",
+   "icon": "eraser",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "ruler",
+   "word": "ruler",
+   "ipa": "/ˈruːlər/",
+   "zh": "尺子",
+   "icon": "ruler",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "crayon",
+   "word": "crayon",
+   "ipa": "/ˈkreɪɑːn/",
+   "zh": "蜡笔",
+   "icon": "crayon",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "schoolbag",
+   "to": "ruler"
+  },
+  {
+   "from": "schoolbag",
+   "to": "crayon"
+  },
+  {
+   "from": "schoolbag",
+   "to": "book"
+  },
+  {
+   "from": "book",
+   "to": "dictionary",
+   "label": "很厚的"
+  },
+  {
+   "from": "book",
+   "to": "notebook",
+   "label": "note +"
+  },
+  {
+   "from": "book",
+   "to": "paper",
+   "label": "用纸做"
+  },
+  {
+   "from": "pen",
+   "to": "notebook",
+   "label": "写"
+  },
+  {
+   "from": "pencil",
+   "to": "notebook"
+  },
+  {
+   "from": "eraser",
+   "to": "pencil",
+   "label": "擦掉"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！明天要上学啦，我们先来收拾一下书包。"
+    },
+    {
+     "en": "schoolbag"
+    },
+    {
+     "zh": "书包。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:schoolbag",
+    "focus:schoolbag"
+   ],
+   "parts": [
+    {
+     "zh": "背着去上学的包，叫书包。学校，加上包："
+    },
+    {
+     "en": "school"
+    },
+    {
+     "en": "bag"
+    },
+    {
+     "en": "schoolbag"
+    },
+    {
+     "zh": "它还有一个名字，书加上包：",
+     "cue": [
+      "alt:schoolbag"
+     ]
+    },
+    {
+     "en": "bookbag"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:book",
+    "edge:schoolbag>book",
+    "focus:book"
+   ],
+   "parts": [
+    {
+     "zh": "书包里，最重要的就是书："
+    },
+    {
+     "en": "book"
+    },
+    {
+     "zh": "很多本书：",
+     "cue": [
+      "plural:book"
+     ]
+    },
+    {
+     "en": "books"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:dictionary",
+    "edge:book>dictionary",
+    "focus:dictionary"
+   ],
+   "parts": [
+    {
+     "zh": "遇到不认识的字，就查一查又厚又大的词典："
+    },
+    {
+     "en": "dictionary"
+    },
+    {
+     "en": "Look it up in the dictionary."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:notebook",
+    "edge:book>notebook",
+    "focus:notebook"
+   ],
+   "parts": [
+    {
+     "zh": "用来记笔记的本子，是笔记，加上书："
+    },
+    {
+     "en": "note"
+    },
+    {
+     "en": "book"
+    },
+    {
+     "en": "notebook"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:paper",
+    "edge:book>paper",
+    "focus:paper"
+   ],
+   "parts": [
+    {
+     "zh": "书和本子，都是用纸做的："
+    },
+    {
+     "en": "paper"
+    },
+    {
+     "zh": "纸通常不加 s。一张纸，要这样说："
+    },
+    {
+     "en": "a piece of paper"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pen",
+    "edge:pen>notebook",
+    "focus:pen"
+   ],
+   "parts": [
+    {
+     "zh": "在本子上写字，要用笔："
+    },
+    {
+     "en": "pen"
+    },
+    {
+     "zh": "很多支笔：",
+     "cue": [
+      "plural:pen"
+     ]
+    },
+    {
+     "en": "pens"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pencil",
+    "edge:pencil>notebook",
+    "focus:pencil"
+   ],
+   "parts": [
+    {
+     "zh": "画画、写作业，常常用铅笔："
+    },
+    {
+     "en": "pencil"
+    },
+    {
+     "zh": "比一比，铅笔就是在钢笔后面，多了几个字母。"
+    },
+    {
+     "en": "pen",
+     "cue": [
+      "focus:pen"
+     ]
+    },
+    {
+     "en": "pencil",
+     "cue": [
+      "focus:pencil"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:eraser",
+    "edge:eraser>pencil",
+    "focus:eraser"
+   ],
+   "parts": [
+    {
+     "zh": "铅笔字写错了，用橡皮擦一擦："
+    },
+    {
+     "en": "eraser"
+    },
+    {
+     "zh": "擦掉这个动作，加上字母 r，就变成了擦东西的工具："
+    },
+    {
+     "en": "erase"
+    },
+    {
+     "en": "eraser"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ruler",
+    "edge:schoolbag>ruler",
+    "focus:ruler"
+   ],
+   "parts": [
+    {
+     "zh": "要画一条直直的线，就用尺子："
+    },
+    {
+     "en": "ruler"
+    },
+    {
+     "en": "a long ruler"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:crayon",
+    "edge:schoolbag>crayon",
+    "focus:crayon"
+   ],
+   "parts": [
+    {
+     "zh": "画画用的五颜六色的笔，是蜡笔："
+    },
+    {
+     "en": "crayon"
+    },
+    {
+     "en": "I draw with crayons."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们一起把书包装好吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "a book",
+     "cue": [
+      "focus:book"
+     ]
+    },
+    {
+     "en": "a notebook",
+     "cue": [
+      "focus:notebook"
+     ]
+    },
+    {
+     "en": "a dictionary",
+     "cue": [
+      "focus:dictionary"
+     ]
+    },
+    {
+     "en": "a pen",
+     "cue": [
+      "focus:pen"
+     ]
+    },
+    {
+     "en": "a pencil",
+     "cue": [
+      "focus:pencil"
+     ]
+    },
+    {
+     "en": "an eraser",
+     "cue": [
+      "focus:eraser"
+     ]
+    },
+    {
+     "en": "a ruler",
+     "cue": [
+      "focus:ruler"
+     ]
+    },
+    {
+     "en": "and crayons!",
+     "cue": [
+      "focus:crayon"
+     ]
+    },
+    {
+     "en": "My schoolbag is ready!",
+     "cue": [
+      "focus:schoolbag"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:schoolbag"
+   ],
+   "parts": [
+    {
+     "en": "schoolbag, bookbag"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:book"
+   ],
+   "parts": [
+    {
+     "en": "book, books"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:dictionary"
+   ],
+   "parts": [
+    {
+     "en": "dictionary"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:notebook"
+   ],
+   "parts": [
+    {
+     "en": "notebook"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:paper"
+   ],
+   "parts": [
+    {
+     "en": "paper"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pen"
+   ],
+   "parts": [
+    {
+     "en": "pen, pens"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pencil"
+   ],
+   "parts": [
+    {
+     "en": "pencil"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:eraser"
+   ],
+   "parts": [
+    {
+     "en": "eraser"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ruler"
+   ],
+   "parts": [
+    {
+     "en": "ruler"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:crayon"
+   ],
+   "parts": [
+    {
+     "en": "crayon"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！今天晚上收拾书包的时候，一边装一边用英语说出来吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

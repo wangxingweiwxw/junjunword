@@ -1,7 +1,7 @@
 :root {
   --bg1: #EAF5FF; --bg2: #FFF6EA;
   --ink: #2B2D42; --muted: #8A8FA3;
-  --noun: #FF7A59; --adj: #2FA36B; --verb: #3D8BFD; --num: #9B5DE5; --prep: #E0A100; --hi: #FF8A00;
+  --noun: #FF7A59; --adj: #2FA36B; --verb: #3D8BFD; --num: #9B5DE5; --prep: #E0A100; --adv: #2BB3A3; --hi: #FF8A00;
   --card: #FFFFFF; --line: #F0E2D0;
   --round: "Nunito", "Varela Round", ui-rounded, "SF Pro Rounded", "Arial Rounded MT Bold", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
 }
@@ -37,6 +37,7 @@ body {
 .vp-node.verb .vp-pos { background: var(--verb); }
 .vp-node.num .vp-pos { background: var(--num); }
 .vp-node.prep .vp-pos { background: var(--prep); }
+.vp-node.adv .vp-pos { background: var(--adv); }
 .vp-alt {
   position: absolute; left: 50%; bottom: -30px; transform: translateX(-50%); opacity: 0; white-space: nowrap;
   font-size: 20px; font-weight: 700; color: #fff; background: var(--noun); padding: 2px 14px; border-radius: 99px;

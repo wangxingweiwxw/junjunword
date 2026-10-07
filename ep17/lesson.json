@@ -1,0 +1,854 @@
+{
+ "id": "ep17",
+ "title": "senses",
+ "titleZh": "感觉",
+ "episode": "第 17 集",
+ "titleIcon": "sense",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1950
+  ]
+ },
+ "nodes": [
+  {
+   "id": "sense",
+   "word": "sense",
+   "ipa": "/sens/",
+   "zh": "感觉",
+   "icon": "sense",
+   "plural": "senses",
+   "pluralIpa": "/ˈsensɪz/",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    150,
+    790
+   ]
+  },
+  {
+   "id": "see",
+   "word": "see",
+   "ipa": "/siː/",
+   "zh": "看见",
+   "icon": "see",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    150,
+    150
+   ]
+  },
+  {
+   "id": "sight",
+   "word": "sight",
+   "ipa": "/saɪt/",
+   "zh": "视觉",
+   "icon": "sight",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    150,
+    470
+   ]
+  },
+  {
+   "id": "hear",
+   "word": "hear",
+   "ipa": "/hɪr/",
+   "zh": "听见",
+   "icon": "hear",
+   "kind": "verb",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    450,
+    150
+   ]
+  },
+  {
+   "id": "listen",
+   "word": "listen",
+   "ipa": "/ˈlɪsn/",
+   "zh": "听",
+   "icon": "listen",
+   "kind": "verb",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    450,
+    790
+   ]
+  },
+  {
+   "id": "hearing",
+   "word": "hearing",
+   "ipa": "/ˈhɪrɪŋ/",
+   "zh": "听觉",
+   "icon": "hearing",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    450,
+    470
+   ]
+  },
+  {
+   "id": "smell",
+   "word": "smell",
+   "ipa": "/smel/",
+   "zh": "闻；嗅觉",
+   "icon": "smell",
+   "kind": "verb",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    750,
+    470
+   ]
+  },
+  {
+   "id": "taste",
+   "word": "taste",
+   "ipa": "/teɪst/",
+   "zh": "尝；味觉",
+   "icon": "taste",
+   "kind": "verb",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1050,
+    470
+   ]
+  },
+  {
+   "id": "sweet",
+   "word": "sweet",
+   "ipa": "/swiːt/",
+   "zh": "甜的",
+   "icon": "sweet",
+   "kind": "adj",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1050,
+    790
+   ]
+  },
+  {
+   "id": "salty",
+   "word": "salty",
+   "ipa": "/ˈsɔːlti/",
+   "zh": "咸的",
+   "icon": "salty",
+   "kind": "adj",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1050,
+    150
+   ]
+  },
+  {
+   "id": "sour",
+   "word": "sour",
+   "ipa": "/ˈsaʊər/",
+   "zh": "酸的",
+   "icon": "sour",
+   "kind": "adj",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1350,
+    150
+   ]
+  },
+  {
+   "id": "bitter",
+   "word": "bitter",
+   "ipa": "/ˈbɪtər/",
+   "zh": "苦的",
+   "icon": "bitter",
+   "kind": "adj",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1350,
+    790
+   ]
+  },
+  {
+   "id": "touch",
+   "word": "touch",
+   "ipa": "/tʌtʃ/",
+   "zh": "摸；触觉",
+   "icon": "touch",
+   "kind": "verb",
+   "atP": [
+    450,
+    1800
+   ],
+   "at": [
+    1650,
+    470
+   ]
+  },
+  {
+   "id": "feel",
+   "word": "feel",
+   "ipa": "/fiːl/",
+   "zh": "感觉；觉得",
+   "icon": "feel",
+   "kind": "verb",
+   "atP": [
+    150,
+    1800
+   ],
+   "at": [
+    1650,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "see",
+   "to": "sight"
+  },
+  {
+   "from": "sense",
+   "to": "sight"
+  },
+  {
+   "from": "hear",
+   "to": "hearing"
+  },
+  {
+   "from": "listen",
+   "to": "hearing",
+   "dashed": true
+  },
+  {
+   "from": "sight",
+   "to": "hearing",
+   "dashed": true
+  },
+  {
+   "from": "hearing",
+   "to": "smell",
+   "dashed": true
+  },
+  {
+   "from": "smell",
+   "to": "taste",
+   "dashed": true
+  },
+  {
+   "from": "taste",
+   "to": "touch",
+   "dashed": true
+  },
+  {
+   "from": "taste",
+   "to": "salty"
+  },
+  {
+   "from": "taste",
+   "to": "sweet"
+  },
+  {
+   "from": "taste",
+   "to": "sour"
+  },
+  {
+   "from": "taste",
+   "to": "bitter"
+  },
+  {
+   "from": "feel",
+   "to": "touch"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！我们的身体，有五种神奇的感觉。今天，我们来一个一个认识它们。"
+    },
+    {
+     "en": "senses"
+    },
+    {
+     "zh": "感觉。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:sense",
+    "focus:sense"
+   ],
+   "parts": [
+    {
+     "zh": "看、听、闻、尝、摸，这些感觉，英语叫"
+    },
+    {
+     "en": "sense"
+    },
+    {
+     "zh": "我们一共有五种感觉：",
+     "cue": [
+      "plural:sense"
+     ]
+    },
+    {
+     "en": "five senses"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:see",
+    "focus:see"
+   ],
+   "parts": [
+    {
+     "zh": "第一种，靠眼睛。眼睛能看见："
+    },
+    {
+     "en": "see"
+    },
+    {
+     "en": "Eyes can see."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sight",
+    "edge:see>sight",
+    "edge:sense>sight",
+    "focus:sight"
+   ],
+   "parts": [
+    {
+     "zh": "能看见东西的本领，叫视觉："
+    },
+    {
+     "en": "sight"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hear",
+    "focus:hear"
+   ],
+   "parts": [
+    {
+     "zh": "第二种，靠耳朵。耳朵能听见："
+    },
+    {
+     "en": "hear"
+    },
+    {
+     "en": "Ears can hear."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:listen",
+    "focus:listen"
+   ],
+   "parts": [
+    {
+     "zh": "竖起耳朵，认认真真地去听，用"
+    },
+    {
+     "en": "listen"
+    },
+    {
+     "zh": "就像第七集的看和看见：主动去听，是"
+    },
+    {
+     "en": "listen",
+     "cue": [
+      "focus:listen"
+     ]
+    },
+    {
+     "zh": "听到了，是",
+     "cue": [
+      "focus:hear"
+     ]
+    },
+    {
+     "en": "hear"
+    },
+    {
+     "en": "Listen! Can you hear it?",
+     "cue": [
+      "focus:listen,hear"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hearing",
+    "edge:hear>hearing",
+    "edge:listen>hearing",
+    "edge:sight>hearing",
+    "focus:hearing"
+   ],
+   "parts": [
+    {
+     "zh": "能听见声音的本领，叫听觉："
+    },
+    {
+     "en": "hearing"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:smell",
+    "edge:hearing>smell",
+    "focus:smell"
+   ],
+   "parts": [
+    {
+     "zh": "第三种，靠鼻子。闻一闻，英语是"
+    },
+    {
+     "en": "smell"
+    },
+    {
+     "zh": "这个词，也是嗅觉的意思。"
+    },
+    {
+     "en": "It smells good!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:taste",
+    "edge:smell>taste",
+    "focus:taste"
+   ],
+   "parts": [
+    {
+     "zh": "第四种，靠舌头。尝一尝，英语是"
+    },
+    {
+     "en": "taste"
+    },
+    {
+     "zh": "它也是味觉的意思。舌头能尝出好多种味道："
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sweet",
+    "edge:taste>sweet",
+    "focus:sweet"
+   ],
+   "parts": [
+    {
+     "zh": "糖果是甜的："
+    },
+    {
+     "en": "sweet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:salty",
+    "edge:taste>salty",
+    "focus:salty"
+   ],
+   "parts": [
+    {
+     "zh": "盐是咸的。盐，加上字母 y，就是咸的："
+    },
+    {
+     "en": "salt"
+    },
+    {
+     "en": "salty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sour",
+    "edge:taste>sour",
+    "focus:sour"
+   ],
+   "parts": [
+    {
+     "zh": "柠檬是酸的："
+    },
+    {
+     "en": "sour"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bitter",
+    "edge:taste>bitter",
+    "focus:bitter"
+   ],
+   "parts": [
+    {
+     "zh": "药是苦的："
+    },
+    {
+     "en": "bitter"
+    },
+    {
+     "en": "The medicine is bitter."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:touch",
+    "edge:taste>touch",
+    "focus:touch"
+   ],
+   "parts": [
+    {
+     "zh": "第五种，靠手。摸一摸，英语是"
+    },
+    {
+     "en": "touch"
+    },
+    {
+     "zh": "它也是触觉的意思。"
+    },
+    {
+     "en": "Hands can touch."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:feel",
+    "edge:feel>touch",
+    "focus:feel"
+   ],
+   "parts": [
+    {
+     "zh": "摸到了东西，心里就有了感觉："
+    },
+    {
+     "en": "feel"
+    },
+    {
+     "en": "It feels soft."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sight,hearing,smell,taste,touch"
+   ],
+   "parts": [
+    {
+     "zh": "五种感觉，我们一起来数一数："
+    },
+    {
+     "en": "sight",
+     "cue": [
+      "focus:sight"
+     ]
+    },
+    {
+     "en": "hearing",
+     "cue": [
+      "focus:hearing"
+     ]
+    },
+    {
+     "en": "smell",
+     "cue": [
+      "focus:smell"
+     ]
+    },
+    {
+     "en": "taste",
+     "cue": [
+      "focus:taste"
+     ]
+    },
+    {
+     "en": "touch",
+     "cue": [
+      "focus:touch"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "猜一猜，这些东西是什么味道？"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "zh": "柠檬："
+    },
+    {
+     "en": "sour",
+     "cue": [
+      "focus:sour"
+     ]
+    },
+    {
+     "zh": "糖果："
+    },
+    {
+     "en": "sweet",
+     "cue": [
+      "focus:sweet"
+     ]
+    },
+    {
+     "zh": "盐："
+    },
+    {
+     "en": "salty",
+     "cue": [
+      "focus:salty"
+     ]
+    },
+    {
+     "zh": "药："
+    },
+    {
+     "en": "bitter",
+     "cue": [
+      "focus:bitter"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sense"
+   ],
+   "parts": [
+    {
+     "en": "sense, senses"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:see"
+   ],
+   "parts": [
+    {
+     "en": "see"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sight"
+   ],
+   "parts": [
+    {
+     "en": "sight"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hear"
+   ],
+   "parts": [
+    {
+     "en": "hear"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:listen"
+   ],
+   "parts": [
+    {
+     "en": "listen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hearing"
+   ],
+   "parts": [
+    {
+     "en": "hearing"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:smell"
+   ],
+   "parts": [
+    {
+     "en": "smell"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:taste"
+   ],
+   "parts": [
+    {
+     "en": "taste"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sweet"
+   ],
+   "parts": [
+    {
+     "en": "sweet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:salty"
+   ],
+   "parts": [
+    {
+     "en": "salty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sour"
+   ],
+   "parts": [
+    {
+     "en": "sour"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bitter"
+   ],
+   "parts": [
+    {
+     "en": "bitter"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:touch"
+   ],
+   "parts": [
+    {
+     "en": "touch"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:feel"
+   ],
+   "parts": [
+    {
+     "en": "feel"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！吃饭的时候，试着用英语说一说，每道菜是什么味道吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

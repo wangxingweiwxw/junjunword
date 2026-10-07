@@ -1,0 +1,862 @@
+{
+ "duration": 182.301,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！出门前，先看看窗外。今天的天气怎么样呢？",
+   "t0": 0.4,
+   "t1": 6.29,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "weather",
+   "t0": 6.54,
+   "t1": 7.002,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "天气。",
+   "t0": 7.502,
+   "t1": 8.075,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "晴天、雨天、下雪天，都是天气：",
+   "t0": 8.925,
+   "t1": 12.237,
+   "cue": [
+    "map",
+    "show:weather",
+    "focus:weather"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "weather",
+   "t0": 12.487,
+   "t1": 12.948,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "中间的 e a，在这里读得很短。",
+   "t0": 13.448,
+   "t1": 15.962,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "How's the weather today?",
+   "t0": 16.212,
+   "t1": 17.357,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "我们每时每刻都在呼吸的，是空气：",
+   "t0": 18.457,
+   "t1": 21.469,
+   "cue": [
+    "show:air",
+    "edge:weather>air",
+    "focus:air"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "air",
+   "t0": 21.719,
+   "t1": 22.11,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "fresh air",
+   "t0": 22.61,
+   "t1": 23.297,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "今天要学一个小魔法：很多天气的词，就是在名词后面加上一个字母 y。",
+   "t0": 24.397,
+   "t1": 30.653,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "太阳是",
+   "t0": 31.503,
+   "t1": 32.212,
+   "cue": [
+    "show:sunny",
+    "edge:weather>sunny",
+    "focus:sunny",
+    "alt:sunny"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "sun",
+   "t0": 32.462,
+   "t1": 32.976,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "加上 y 的时候，要再多写一个 n。晴朗的：",
+   "t0": 33.476,
+   "t1": 37.445,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "sunny",
+   "t0": 37.695,
+   "t1": 38.224,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "It's sunny today.",
+   "t0": 38.724,
+   "t1": 39.74,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "太阳照下来的光，暖暖的，是阳光。太阳，加上照耀：",
+   "t0": 40.84,
+   "t1": 46.224,
+   "cue": [
+    "show:sunshine",
+    "edge:sunny>sunshine",
+    "focus:sunshine"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "sun",
+   "t0": 46.474,
+   "t1": 46.988,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "shine",
+   "t0": 47.488,
+   "t1": 48.016,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "sunshine",
+   "t0": 48.516,
+   "t1": 49.293,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "云是",
+   "t0": 50.393,
+   "t1": 50.94,
+   "cue": [
+    "show:cloudy",
+    "edge:weather>cloudy",
+    "focus:cloudy",
+    "alt:cloudy"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "cloud",
+   "t0": 51.19,
+   "t1": 51.696,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "满天都是云，就是多云的：",
+   "t0": 52.196,
+   "t1": 54.46,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "cloudy",
+   "t0": 54.71,
+   "t1": 55.221,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "风是",
+   "t0": 56.321,
+   "t1": 56.886,
+   "cue": [
+    "show:windy",
+    "edge:cloudy>windy",
+    "focus:windy",
+    "alt:windy"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "wind",
+   "t0": 57.136,
+   "t1": 57.496,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "树叶被吹得哗哗响，就是刮风的：",
+   "t0": 57.996,
+   "t1": 60.819,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "windy",
+   "t0": 61.069,
+   "t1": 61.564,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "雨是",
+   "t0": 62.664,
+   "t1": 63.176,
+   "cue": [
+    "show:rainy",
+    "edge:weather>rainy",
+    "focus:rainy",
+    "alt:rainy"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "rain",
+   "t0": 63.426,
+   "t1": 63.88,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "下雨的：",
+   "t0": 64.38,
+   "t1": 65.063,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "rainy",
+   "t0": 65.313,
+   "t1": 65.768,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "It's rainy. Take an umbrella.",
+   "t0": 66.268,
+   "t1": 69.117,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "雨下一会儿就停了，这种一阵一阵的雨，叫阵雨：",
+   "t0": 70.217,
+   "t1": 74.131,
+   "cue": [
+    "show:shower",
+    "edge:rainy>shower",
+    "focus:shower"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "shower",
+   "t0": 74.381,
+   "t1": 74.888,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "洗澡用的淋浴，也是这个词哦。",
+   "t0": 75.388,
+   "t1": 77.828,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "雨越下越大，还打雷闪电，那是暴风雨：",
+   "t0": 78.678,
+   "t1": 82.206,
+   "cue": [
+    "show:storm",
+    "edge:rainy>storm",
+    "focus:storm"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "storm",
+   "t0": 82.456,
+   "t1": 83.058,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "同样，加上 y，就是有暴风雨的：",
+   "t0": 83.558,
+   "t1": 86.473,
+   "cue": [
+    "alt:storm"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "stormy",
+   "t0": 86.723,
+   "t1": 87.387,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "雾是",
+   "t0": 88.487,
+   "t1": 88.987,
+   "cue": [
+    "show:foggy",
+    "edge:air>foggy",
+    "focus:foggy",
+    "alt:foggy"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "fog",
+   "t0": 89.237,
+   "t1": 89.661,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "加上 y 的时候，要再多写一个 g。有雾的：",
+   "t0": 90.161,
+   "t1": 94.144,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "foggy",
+   "t0": 94.394,
+   "t1": 94.893,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "雾天里，什么都看不清。",
+   "t0": 95.393,
+   "t1": 97.385,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "夏天，太阳火辣辣的，好热：",
+   "t0": 98.235,
+   "t1": 100.965,
+   "cue": [
+    "show:hot",
+    "edge:sunny>hot",
+    "focus:hot"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "hot",
+   "t0": 101.215,
+   "t1": 101.641,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "It's so hot!",
+   "t0": 102.141,
+   "t1": 103.081,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "热的反面，是冷：",
+   "t0": 104.181,
+   "t1": 105.766,
+   "cue": [
+    "show:cold",
+    "edge:hot>cold",
+    "focus:cold"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "cold",
+   "t0": 106.016,
+   "t1": 106.428,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "It's cold. Put on your coat.",
+   "t0": 106.928,
+   "t1": 109.818,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "冷到一定程度，就会下雪。雪是",
+   "t0": 110.918,
+   "t1": 114.55,
+   "cue": [
+    "show:snowy",
+    "edge:cold>snowy",
+    "focus:snowy",
+    "alt:snowy"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "snow",
+   "t0": 114.8,
+   "t1": 115.356,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "下雪的：",
+   "t0": 115.856,
+   "t1": 116.538,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "snowy",
+   "t0": 116.788,
+   "t1": 117.367,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "我们把名词和它的 y 形式，一对一对地读一遍：",
+   "t0": 118.467,
+   "t1": 122.369,
+   "cue": [
+    "focus:sunny,cloudy,windy,rainy,snowy,foggy"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "sun, sunny",
+   "t0": 122.619,
+   "t1": 123.789,
+   "cue": [
+    "focus:sunny"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "cloud, cloudy",
+   "t0": 124.289,
+   "t1": 125.559,
+   "cue": [
+    "focus:cloudy"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "wind, windy",
+   "t0": 126.059,
+   "t1": 127.101,
+   "cue": [
+    "focus:windy"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "rain, rainy",
+   "t0": 127.601,
+   "t1": 128.639,
+   "cue": [
+    "focus:rainy"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "snow, snowy",
+   "t0": 129.139,
+   "t1": 130.501,
+   "cue": [
+    "focus:snowy"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "fog, foggy",
+   "t0": 131.001,
+   "t1": 132.153,
+   "cue": [
+    "focus:foggy"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "我们来当小小天气预报员吧！",
+   "t0": 133.253,
+   "t1": 135.433,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Good morning! Here's the weather.",
+   "t0": 136.283,
+   "t1": 139.087,
+   "cue": [
+    "focus:weather"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Monday is sunny.",
+   "t0": 139.587,
+   "t1": 140.587,
+   "cue": [
+    "focus:sunny"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Tuesday is rainy.",
+   "t0": 141.087,
+   "t1": 142.169,
+   "cue": [
+    "focus:rainy"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Wednesday is windy and cold.",
+   "t0": 142.669,
+   "t1": 144.395,
+   "cue": [
+    "focus:windy,cold"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 145.495,
+   "t1": 148.745,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "weather",
+   "t0": 149.595,
+   "t1": 150.057,
+   "cue": [
+    "focus:weather"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "air",
+   "t0": 151.157,
+   "t1": 151.548,
+   "cue": [
+    "focus:air"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "sunny",
+   "t0": 152.648,
+   "t1": 153.177,
+   "cue": [
+    "focus:sunny"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "sunshine",
+   "t0": 154.277,
+   "t1": 155.054,
+   "cue": [
+    "focus:sunshine"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "cloudy",
+   "t0": 156.154,
+   "t1": 156.666,
+   "cue": [
+    "focus:cloudy"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "windy",
+   "t0": 157.766,
+   "t1": 158.261,
+   "cue": [
+    "focus:windy"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "rainy",
+   "t0": 159.361,
+   "t1": 159.816,
+   "cue": [
+    "focus:rainy"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "shower",
+   "t0": 160.916,
+   "t1": 161.423,
+   "cue": [
+    "focus:shower"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "storm, stormy",
+   "t0": 162.523,
+   "t1": 163.84,
+   "cue": [
+    "focus:storm"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "foggy",
+   "t0": 164.94,
+   "t1": 165.439,
+   "cue": [
+    "focus:foggy"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "hot",
+   "t0": 166.539,
+   "t1": 166.965,
+   "cue": [
+    "focus:hot"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "cold",
+   "t0": 168.065,
+   "t1": 168.477,
+   "cue": [
+    "focus:cold"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "snowy",
+   "t0": 169.577,
+   "t1": 170.156,
+   "cue": [
+    "focus:snowy"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "zh",
+   "text": "太棒了！明天早上，看看窗外，用英语说一说天气吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 171.256,
+   "t1": 180.451,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "weather": [
+   0.25,
+   0.712
+  ],
+  "air": [
+   0.962,
+   1.353
+  ],
+  "sunny": [
+   1.603,
+   2.132
+  ],
+  "sunny:alt": [
+   2.382,
+   2.896
+  ],
+  "sunshine": [
+   3.146,
+   3.923
+  ],
+  "cloudy": [
+   4.173,
+   4.684
+  ],
+  "cloudy:alt": [
+   4.934,
+   5.44
+  ],
+  "windy": [
+   5.69,
+   6.185
+  ],
+  "windy:alt": [
+   6.435,
+   6.795
+  ],
+  "rainy": [
+   7.045,
+   7.5
+  ],
+  "rainy:alt": [
+   7.75,
+   8.205
+  ],
+  "shower": [
+   8.455,
+   8.962
+  ],
+  "storm": [
+   9.212,
+   9.814
+  ],
+  "storm:alt": [
+   10.064,
+   10.728
+  ],
+  "snowy": [
+   10.978,
+   11.557
+  ],
+  "snowy:alt": [
+   11.807,
+   12.362
+  ],
+  "foggy": [
+   12.612,
+   13.111
+  ],
+  "foggy:alt": [
+   13.361,
+   13.785
+  ],
+  "hot": [
+   14.035,
+   14.461
+  ],
+  "cold": [
+   14.711,
+   15.123
+  ]
+ }
+}

@@ -1,0 +1,716 @@
+{
+ "id": "ep12",
+ "title": "party",
+ "titleZh": "生日派对",
+ "episode": "第 12 集",
+ "titleIcon": "celebrate",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "invite",
+   "word": "invite",
+   "ipa": "/ɪnˈvaɪt/",
+   "zh": "邀请",
+   "icon": "invite",
+   "kind": "verb",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "invitation",
+   "word": "invitation",
+   "ipa": "/ˌɪnvɪˈteɪʃn/",
+   "zh": "请帖；邀请",
+   "icon": "invitation",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "guest",
+   "word": "guest",
+   "ipa": "/ɡest/",
+   "zh": "客人",
+   "icon": "guest",
+   "plural": "guests",
+   "pluralIpa": "/ɡests/",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "please",
+   "word": "please",
+   "ipa": "/pliːz/",
+   "zh": "请",
+   "icon": "please",
+   "kind": "adv",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "celebrate",
+   "word": "celebrate",
+   "ipa": "/ˈselɪbreɪt/",
+   "zh": "庆祝",
+   "icon": "celebrate",
+   "kind": "verb",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "among",
+   "word": "among",
+   "ipa": "/əˈmʌŋ/",
+   "zh": "在…之中",
+   "icon": "among",
+   "kind": "prep",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "without",
+   "word": "without",
+   "ipa": "/wɪˈðaʊt/",
+   "zh": "没有",
+   "icon": "without",
+   "kind": "prep",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "age",
+   "word": "age",
+   "ipa": "/eɪdʒ/",
+   "zh": "年龄",
+   "icon": "age",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "forget",
+   "word": "forget",
+   "ipa": "/fərˈɡet/",
+   "zh": "忘记",
+   "icon": "forget",
+   "kind": "verb",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "remember",
+   "word": "remember",
+   "ipa": "/rɪˈmembər/",
+   "zh": "记得；记住",
+   "icon": "remember",
+   "kind": "verb",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "remind",
+   "word": "remind",
+   "ipa": "/rɪˈmaɪnd/",
+   "zh": "提醒",
+   "icon": "remind",
+   "kind": "verb",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "excuse",
+   "word": "excuse",
+   "ipa": "/ɪkˈskjuːz/",
+   "zh": "原谅；打扰",
+   "icon": "excuse",
+   "alt": "Excuse me.",
+   "altLabel": "常说",
+   "kind": "verb",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "please",
+   "to": "invite",
+   "label": "礼貌地",
+   "dashed": true
+  },
+  {
+   "from": "invite",
+   "to": "invitation",
+   "label": "+ation"
+  },
+  {
+   "from": "invite",
+   "to": "guest"
+  },
+  {
+   "from": "without",
+   "to": "guest",
+   "dashed": true
+  },
+  {
+   "from": "guest",
+   "to": "among"
+  },
+  {
+   "from": "celebrate",
+   "to": "among"
+  },
+  {
+   "from": "celebrate",
+   "to": "age",
+   "label": "又长一岁"
+  },
+  {
+   "from": "forget",
+   "to": "remember",
+   "label": "反义"
+  },
+  {
+   "from": "remember",
+   "to": "remind"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！还记得第四集的生日聚会吗？今天，我们来办一场更热闹的生日派对！"
+    },
+    {
+     "en": "a birthday party"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:invite",
+    "focus:invite"
+   ],
+   "parts": [
+    {
+     "zh": "想让好朋友来参加派对，就要邀请他们："
+    },
+    {
+     "en": "invite"
+    },
+    {
+     "en": "I invite my friends."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:invitation",
+    "edge:invite>invitation",
+    "focus:invitation"
+   ],
+   "parts": [
+    {
+     "zh": "写在卡片上的邀请，叫请帖。邀请这个词的后面，加上 a t i o n："
+    },
+    {
+     "en": "invitation"
+    },
+    {
+     "en": "a birthday invitation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:guest",
+    "edge:invite>guest",
+    "focus:guest"
+   ],
+   "parts": [
+    {
+     "zh": "被请来的朋友，就是客人："
+    },
+    {
+     "en": "guest"
+    },
+    {
+     "zh": "来了很多客人：",
+     "cue": [
+      "plural:guest"
+     ]
+    },
+    {
+     "en": "guests"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:please",
+    "edge:please>invite",
+    "focus:please"
+   ],
+   "parts": [
+    {
+     "zh": "邀请别人的时候要有礼貌，记得说请："
+    },
+    {
+     "en": "please"
+    },
+    {
+     "en": "Please come to my party!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:celebrate",
+    "focus:celebrate"
+   ],
+   "parts": [
+    {
+     "zh": "大家聚在一起，开开心心地庆祝："
+    },
+    {
+     "en": "celebrate"
+    },
+    {
+     "en": "Let's celebrate!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:among",
+    "edge:guest>among",
+    "edge:celebrate>among",
+    "focus:among"
+   ],
+   "parts": [
+    {
+     "zh": "我站在客人们的中间，和大家一起庆祝。在……之中，英语是"
+    },
+    {
+     "en": "among"
+    },
+    {
+     "en": "I sing among my friends."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:without",
+    "edge:without>guest",
+    "focus:without"
+   ],
+   "parts": [
+    {
+     "zh": "要是一个客人都没有，派对就冷清了。没有，英语是"
+    },
+    {
+     "en": "without"
+    },
+    {
+     "zh": "它是由两个小词拼起来的："
+    },
+    {
+     "en": "with"
+    },
+    {
+     "en": "out"
+    },
+    {
+     "en": "without"
+    },
+    {
+     "en": "a party without guests"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:age",
+    "edge:celebrate>age",
+    "focus:age"
+   ],
+   "parts": [
+    {
+     "zh": "过一次生日，我们就又长大了一岁。年龄，英语是"
+    },
+    {
+     "en": "age"
+    },
+    {
+     "zh": "问别人几岁了，常常这样说："
+    },
+    {
+     "en": "How old are you?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:forget",
+    "focus:forget"
+   ],
+   "parts": [
+    {
+     "zh": "哎呀，出门的时候，忘了带礼物！忘记，英语是"
+    },
+    {
+     "en": "forget"
+    },
+    {
+     "en": "Don't forget!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:remember",
+    "edge:forget>remember",
+    "focus:remember"
+   ],
+   "parts": [
+    {
+     "zh": "忘记的反面，是记得、记住："
+    },
+    {
+     "en": "remember"
+    },
+    {
+     "en": "I remember your birthday."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:remind",
+    "edge:remember>remind",
+    "focus:remind"
+   ],
+   "parts": [
+    {
+     "zh": "帮别人记住一件事，就是提醒："
+    },
+    {
+     "en": "remind"
+    },
+    {
+     "zh": "它和记得一样，也是 r e 开头的哦。"
+    },
+    {
+     "en": "Please remind me."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:excuse",
+    "focus:excuse"
+   ],
+   "parts": [
+    {
+     "zh": "想请别人让一让，或者要打扰别人的时候，我们会礼貌地说：",
+     "cue": [
+      "alt:excuse"
+     ]
+    },
+    {
+     "en": "Excuse me."
+    },
+    {
+     "zh": "打扰、原谅，英语是"
+    },
+    {
+     "en": "excuse"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:please,excuse"
+   ],
+   "parts": [
+    {
+     "zh": "请和打扰了，都是有礼貌的好孩子常常说的话："
+    },
+    {
+     "en": "Please.",
+     "cue": [
+      "focus:please"
+     ]
+    },
+    {
+     "en": "Excuse me.",
+     "cue": [
+      "focus:excuse"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:forget,remember,remind"
+   ],
+   "parts": [
+    {
+     "zh": "再来比一比这三个和记忆有关的词："
+    },
+    {
+     "en": "forget",
+     "cue": [
+      "focus:forget"
+     ]
+    },
+    {
+     "en": "remember",
+     "cue": [
+      "focus:remember"
+     ]
+    },
+    {
+     "en": "remind",
+     "cue": [
+      "focus:remind"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:invite"
+   ],
+   "parts": [
+    {
+     "en": "invite"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:invitation"
+   ],
+   "parts": [
+    {
+     "en": "invitation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:guest"
+   ],
+   "parts": [
+    {
+     "en": "guest, guests"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:please"
+   ],
+   "parts": [
+    {
+     "en": "please"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:celebrate"
+   ],
+   "parts": [
+    {
+     "en": "celebrate"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:among"
+   ],
+   "parts": [
+    {
+     "en": "among"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:without"
+   ],
+   "parts": [
+    {
+     "en": "without"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:age"
+   ],
+   "parts": [
+    {
+     "en": "age"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:forget"
+   ],
+   "parts": [
+    {
+     "en": "forget"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:remember"
+   ],
+   "parts": [
+    {
+     "en": "remember"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:remind"
+   ],
+   "parts": [
+    {
+     "en": "remind"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:excuse"
+   ],
+   "parts": [
+    {
+     "en": "excuse, Excuse me."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！下次过生日，用英语给好朋友写一张请帖吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}
