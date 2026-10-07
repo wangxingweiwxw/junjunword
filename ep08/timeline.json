@@ -1,0 +1,840 @@
+{
+ "duration": 176.855,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！今天，我们来认识自己的身体。",
+   "t0": 0.4,
+   "t1": 4.606,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "body",
+   "t0": 4.856,
+   "t1": 5.296,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "身体。",
+   "t0": 5.796,
+   "t1": 6.396,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "从头到脚，整个的你，就是身体：",
+   "t0": 7.246,
+   "t1": 10.324,
+   "cue": [
+    "map",
+    "show:body",
+    "focus:body"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "body",
+   "t0": 10.574,
+   "t1": 11.013,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "This is my body.",
+   "t0": 11.513,
+   "t1": 12.549,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "身体最上面，圆圆的，是头：",
+   "t0": 13.649,
+   "t1": 16.416,
+   "cue": [
+    "show:head",
+    "focus:head"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "head",
+   "t0": 16.666,
+   "t1": 17.028,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Touch your head.",
+   "t0": 17.528,
+   "t1": 18.352,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "头上长着头发：",
+   "t0": 19.452,
+   "t1": 20.681,
+   "cue": [
+    "show:hair",
+    "edge:head>hair",
+    "focus:hair"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "hair",
+   "t0": 20.931,
+   "t1": 21.319,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "头发有成千上万根，可这个词通常不加 s 哦。",
+   "t0": 21.819,
+   "t1": 26.139,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "I have black hair.",
+   "t0": 26.389,
+   "t1": 27.526,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "头和身体中间，连着脖子：",
+   "t0": 28.626,
+   "t1": 31.02,
+   "cue": [
+    "show:neck",
+    "edge:head>neck",
+    "focus:neck"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "neck",
+   "t0": 31.27,
+   "t1": 31.734,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "脖子下面，就是身体啦：",
+   "t0": 32.834,
+   "t1": 34.792,
+   "cue": [
+    "edge:neck>body",
+    "focus:body"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "body",
+   "t0": 35.042,
+   "t1": 35.482,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "脖子两边，又宽又平的地方是肩膀：",
+   "t0": 36.582,
+   "t1": 39.609,
+   "cue": [
+    "show:shoulder",
+    "edge:neck>shoulder",
+    "focus:shoulder"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "shoulder",
+   "t0": 39.859,
+   "t1": 40.444,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "two shoulders",
+   "t0": 40.944,
+   "t1": 41.876,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "从肩膀往下，长长的是胳膊：",
+   "t0": 42.976,
+   "t1": 45.505,
+   "cue": [
+    "show:arm",
+    "edge:shoulder>arm",
+    "focus:arm"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "arm",
+   "t0": 45.755,
+   "t1": 46.153,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "Raise your arms!",
+   "t0": 46.653,
+   "t1": 47.685,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "胳膊的最下面，是手：",
+   "t0": 48.785,
+   "t1": 50.673,
+   "cue": [
+    "show:hand",
+    "edge:arm>hand",
+    "focus:hand"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "hand",
+   "t0": 50.923,
+   "t1": 51.298,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Clap your hands!",
+   "t0": 51.798,
+   "t1": 52.753,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "还记得第三集吗？每只手上，都有五根手指：",
+   "t0": 53.853,
+   "t1": 58.193,
+   "cue": [
+    "show:finger",
+    "edge:hand>finger",
+    "focus:finger"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "finger",
+   "t0": 58.443,
+   "t1": 58.943,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "five fingers",
+   "t0": 59.443,
+   "t1": 60.438,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "身体下面，撑着我们走路、跑步的，是腿：",
+   "t0": 61.538,
+   "t1": 65.402,
+   "cue": [
+    "show:leg",
+    "edge:body>leg",
+    "focus:leg"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "leg",
+   "t0": 65.652,
+   "t1": 66.084,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "腿中间能弯起来的地方，是膝盖：",
+   "t0": 67.184,
+   "t1": 69.942,
+   "cue": [
+    "show:knee",
+    "edge:leg>knee",
+    "focus:knee"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "knee",
+   "t0": 70.192,
+   "t1": 70.588,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "小提示：开头的字母 k，是不发音的。",
+   "t0": 71.088,
+   "t1": 74.388,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Bend your knees.",
+   "t0": 74.638,
+   "t1": 75.559,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "腿的最下面，踩在地上的，是脚：",
+   "t0": 76.659,
+   "t1": 79.689,
+   "cue": [
+    "show:foot",
+    "edge:leg>foot",
+    "focus:foot"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "foot",
+   "t0": 79.939,
+   "t1": 80.374,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "脚上也有五根小小的，叫脚趾：",
+   "t0": 81.474,
+   "t1": 84.102,
+   "cue": [
+    "show:toe",
+    "edge:foot>toe",
+    "focus:toe"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "toe",
+   "t0": 84.352,
+   "t1": 84.794,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "Wiggle your toes!",
+   "t0": 85.294,
+   "t1": 86.479,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "最后学一个动作词：摇一摇、晃一晃，",
+   "t0": 87.579,
+   "t1": 90.856,
+   "cue": [
+    "show:shake",
+    "edge:shake>head",
+    "focus:shake"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "shake",
+   "t0": 91.106,
+   "t1": 91.605,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "摇头，是",
+   "t0": 92.105,
+   "t1": 93.21,
+   "cue": [
+    "focus:shake,head"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "shake your head",
+   "t0": 93.46,
+   "t1": 94.33,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "握手，是",
+   "t0": 94.83,
+   "t1": 95.933,
+   "cue": [
+    "focus:shake,hand"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "shake hands",
+   "t0": 96.183,
+   "t1": 97.094,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "身体的很多部位，我们都有两个。变成很多个的时候，怎么说呢？",
+   "t0": 98.194,
+   "t1": 103.896,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "大部分在后面加上字母 s 就好：",
+   "t0": 104.746,
+   "t1": 107.515,
+   "cue": [
+    "focus:hand"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "hand",
+   "t0": 107.765,
+   "t1": 108.14,
+   "cue": [
+    "focus:hand"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "hands",
+   "t0": 108.64,
+   "t1": 109.16,
+   "cue": [
+    "plural:hand"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "leg",
+   "t0": 109.66,
+   "t1": 110.093,
+   "cue": [
+    "focus:leg"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "legs",
+   "t0": 110.593,
+   "t1": 111.185,
+   "cue": [
+    "plural:leg"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "toe",
+   "t0": 111.685,
+   "t1": 112.127,
+   "cue": [
+    "focus:toe"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "toes",
+   "t0": 112.627,
+   "t1": 113.136,
+   "cue": [
+    "plural:toe"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最特别的是脚。它不加 s，而是把中间的两个 o，变成两个 e：",
+   "t0": 114.236,
+   "t1": 120.217,
+   "cue": [
+    "focus:foot"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "foot",
+   "t0": 120.467,
+   "t1": 120.902,
+   "cue": []
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "feet",
+   "t0": 121.402,
+   "t1": 121.809,
+   "cue": [
+    "plural:foot"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "one foot, two feet.",
+   "t0": 122.309,
+   "t1": 124.039,
+   "cue": []
+  },
+  {
+   "seg": 18,
+   "lang": "zh",
+   "text": "来做个身体操吧！听到哪里，就摸一摸哪里！",
+   "t0": 125.139,
+   "t1": 129.236,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "Head!",
+   "t0": 130.086,
+   "t1": 130.448,
+   "cue": [
+    "focus:head"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "Shoulders!",
+   "t0": 130.948,
+   "t1": 131.64,
+   "cue": [
+    "focus:shoulder"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "Knees!",
+   "t0": 132.14,
+   "t1": 132.673,
+   "cue": [
+    "focus:knee"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "Toes!",
+   "t0": 133.173,
+   "t1": 133.728,
+   "cue": [
+    "focus:toe"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "Hands up!",
+   "t0": 134.228,
+   "t1": 134.809,
+   "cue": [
+    "focus:hand"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "Shake, shake, shake!",
+   "t0": 135.309,
+   "t1": 137.159,
+   "cue": [
+    "focus:shake"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 138.259,
+   "t1": 141.509,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "body",
+   "t0": 142.359,
+   "t1": 142.799,
+   "cue": [
+    "focus:body"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "head",
+   "t0": 143.899,
+   "t1": 144.261,
+   "cue": [
+    "focus:head"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "hair",
+   "t0": 145.361,
+   "t1": 145.75,
+   "cue": [
+    "focus:hair"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "neck",
+   "t0": 146.85,
+   "t1": 147.313,
+   "cue": [
+    "focus:neck"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "shoulder",
+   "t0": 148.413,
+   "t1": 148.998,
+   "cue": [
+    "focus:shoulder"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "arm",
+   "t0": 150.098,
+   "t1": 150.496,
+   "cue": [
+    "focus:arm"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "hand, hands",
+   "t0": 151.596,
+   "t1": 152.745,
+   "cue": [
+    "focus:hand"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "finger",
+   "t0": 153.845,
+   "t1": 154.345,
+   "cue": [
+    "focus:finger"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "leg, legs",
+   "t0": 155.445,
+   "t1": 156.685,
+   "cue": [
+    "focus:leg"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "knee",
+   "t0": 157.785,
+   "t1": 158.181,
+   "cue": [
+    "focus:knee"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "foot, feet",
+   "t0": 159.281,
+   "t1": 160.357,
+   "cue": [
+    "focus:foot"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "toe, toes",
+   "t0": 161.457,
+   "t1": 162.614,
+   "cue": [
+    "focus:toe"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "en",
+   "text": "shake",
+   "t0": 163.714,
+   "t1": 164.213,
+   "cue": [
+    "focus:shake"
+   ]
+  },
+  {
+   "seg": 34,
+   "lang": "zh",
+   "text": "太棒了！洗澡的时候，可以一边洗一边用英语说身体的部位哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 165.313,
+   "t1": 175.005,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "body": [
+   0.25,
+   0.69
+  ],
+  "head": [
+   0.94,
+   1.302
+  ],
+  "hair": [
+   1.552,
+   1.94
+  ],
+  "neck": [
+   2.19,
+   2.654
+  ],
+  "shoulder": [
+   2.904,
+   3.488
+  ],
+  "arm": [
+   3.738,
+   4.136
+  ],
+  "hand": [
+   4.386,
+   4.761
+  ],
+  "hand:pl": [
+   5.011,
+   5.532
+  ],
+  "finger": [
+   5.782,
+   6.282
+  ],
+  "leg": [
+   6.532,
+   6.965
+  ],
+  "leg:pl": [
+   7.215,
+   7.807
+  ],
+  "knee": [
+   8.057,
+   8.453
+  ],
+  "foot": [
+   8.703,
+   9.138
+  ],
+  "foot:pl": [
+   9.388,
+   9.795
+  ],
+  "toe": [
+   10.045,
+   10.487
+  ],
+  "toe:pl": [
+   10.737,
+   11.246
+  ],
+  "shake": [
+   11.496,
+   11.994
+  ]
+ }
+}

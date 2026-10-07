@@ -1,0 +1,679 @@
+{
+ "duration": 152.273,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！早上起床，我们要穿上漂亮的衣服。",
+   "t0": 0.4,
+   "t1": 4.99,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "clothes",
+   "t0": 5.24,
+   "t1": 5.829,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "衣服。",
+   "t0": 6.329,
+   "t1": 6.811,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "身上穿的各种衣服，合在一起，叫",
+   "t0": 7.661,
+   "t1": 10.956,
+   "cue": [
+    "map",
+    "show:clothes",
+    "focus:clothes"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "clothes",
+   "t0": 11.206,
+   "t1": 11.794,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "它中间的 t h，舌尖要轻轻碰一下牙齿。",
+   "t0": 12.294,
+   "t1": 16.099,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "These are my clothes.",
+   "t0": 16.349,
+   "t1": 17.502,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "把衣服穿在身上，把帽子戴在头上，都用同一个词：",
+   "t0": 18.602,
+   "t1": 22.966,
+   "cue": [
+    "show:wear",
+    "edge:wear>clothes",
+    "focus:wear"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "wear",
+   "t0": 23.216,
+   "t1": 23.636,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "I wear a coat.",
+   "t0": 24.136,
+   "t1": 25.107,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "我们从头开始。头上戴的、一圈都有帽檐的帽子：",
+   "t0": 26.207,
+   "t1": 30.911,
+   "cue": [
+    "show:hat",
+    "edge:clothes>hat",
+    "focus:hat"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "hat",
+   "t0": 31.161,
+   "t1": 31.604,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "a sun hat",
+   "t0": 32.104,
+   "t1": 33.005,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "只在前面有一个帽舌的，是鸭舌帽：",
+   "t0": 34.105,
+   "t1": 37.014,
+   "cue": [
+    "show:cap",
+    "edge:hat>cap",
+    "focus:cap"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "cap",
+   "t0": 37.264,
+   "t1": 37.646,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "a red cap",
+   "t0": 38.146,
+   "t1": 39.021,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "一圈都有帽檐，是",
+   "t0": 40.121,
+   "t1": 41.898,
+   "cue": [
+    "focus:hat,cap"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "hat",
+   "t0": 42.148,
+   "t1": 42.591,
+   "cue": [
+    "focus:hat"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "只有前面的帽舌，是",
+   "t0": 43.091,
+   "t1": 44.998,
+   "cue": [
+    "focus:cap"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "cap",
+   "t0": 45.248,
+   "t1": 45.63,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "身上穿的短袖衫，摊开来像一个大写字母 T，所以叫",
+   "t0": 46.73,
+   "t1": 51.546,
+   "cue": [
+    "show:tshirt",
+    "edge:clothes>tshirt",
+    "focus:tshirt"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "T-shirt",
+   "t0": 51.796,
+   "t1": 52.482,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "a white T-shirt",
+   "t0": 52.982,
+   "t1": 54.153,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "贴着身体穿在最里面的，是内衣。下面，加上穿：",
+   "t0": 55.253,
+   "t1": 60.498,
+   "cue": [
+    "show:underwear",
+    "edge:clothes>underwear",
+    "focus:underwear"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "under",
+   "t0": 60.748,
+   "t1": 61.178,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "wear",
+   "t0": 61.678,
+   "t1": 62.098,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "underwear",
+   "t0": 62.598,
+   "t1": 63.243,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "两条腿穿的长长的，是裤子：",
+   "t0": 64.343,
+   "t1": 66.905,
+   "cue": [
+    "show:trousers",
+    "edge:clothes>trousers",
+    "focus:trousers"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "trousers",
+   "t0": 67.155,
+   "t1": 67.914,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "裤子有两条裤腿，所以这个词总是带着字母 s。",
+   "t0": 68.414,
+   "t1": 72.721,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "脚上，先穿袜子：",
+   "t0": 73.571,
+   "t1": 75.209,
+   "cue": [
+    "show:sock",
+    "edge:clothes>sock",
+    "focus:sock"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "sock",
+   "t0": 75.459,
+   "t1": 75.962,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "再穿上鞋子：",
+   "t0": 77.062,
+   "t1": 78.15,
+   "cue": [
+    "show:shoe",
+    "edge:clothes>shoe",
+    "focus:shoe"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "shoe",
+   "t0": 78.4,
+   "t1": 78.916,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Put on your shoes!",
+   "t0": 79.416,
+   "t1": 80.567,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "袜子和鞋子，都是两只一起穿。两只配成一对，叫",
+   "t0": 81.667,
+   "t1": 86.739,
+   "cue": [
+    "show:pair",
+    "edge:pair>sock",
+    "edge:pair>shoe",
+    "focus:pair"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "pair",
+   "t0": 86.989,
+   "t1": 87.42,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "a pair of socks",
+   "t0": 87.92,
+   "t1": 89.117,
+   "cue": [
+    "focus:pair,sock"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "a pair of shoes",
+   "t0": 89.617,
+   "t1": 90.766,
+   "cue": [
+    "focus:pair,shoe"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "裤子也一样，要说一条裤子：",
+   "t0": 91.266,
+   "t1": 93.531,
+   "cue": [
+    "focus:pair,trousers"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "a pair of trousers",
+   "t0": 93.781,
+   "t1": 95.132,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "很多只袜子、很多只鞋，在后面加上字母 s：",
+   "t0": 96.232,
+   "t1": 100.678,
+   "cue": [
+    "focus:sock"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "sock",
+   "t0": 100.928,
+   "t1": 101.431,
+   "cue": [
+    "focus:sock"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "socks",
+   "t0": 101.931,
+   "t1": 102.57,
+   "cue": [
+    "plural:sock"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "shoe",
+   "t0": 103.07,
+   "t1": 103.586,
+   "cue": [
+    "focus:shoe"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "shoes",
+   "t0": 104.086,
+   "t1": 104.653,
+   "cue": [
+    "plural:shoe"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "我们一起来穿衣服吧！从里到外，从头到脚！",
+   "t0": 105.753,
+   "t1": 109.908,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "underwear",
+   "t0": 110.758,
+   "t1": 111.404,
+   "cue": [
+    "focus:underwear"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "T-shirt",
+   "t0": 111.904,
+   "t1": 112.59,
+   "cue": [
+    "focus:tshirt"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "trousers",
+   "t0": 113.09,
+   "t1": 113.849,
+   "cue": [
+    "focus:trousers"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "socks",
+   "t0": 114.349,
+   "t1": 114.987,
+   "cue": [
+    "focus:sock"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "shoes",
+   "t0": 115.487,
+   "t1": 116.054,
+   "cue": [
+    "focus:shoe"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "and a cap!",
+   "t0": 116.554,
+   "t1": 117.256,
+   "cue": [
+    "focus:cap"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 118.356,
+   "t1": 121.606,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "clothes",
+   "t0": 122.456,
+   "t1": 123.044,
+   "cue": [
+    "focus:clothes"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "wear",
+   "t0": 124.144,
+   "t1": 124.564,
+   "cue": [
+    "focus:wear"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "hat",
+   "t0": 125.664,
+   "t1": 126.107,
+   "cue": [
+    "focus:hat"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "cap",
+   "t0": 127.207,
+   "t1": 127.589,
+   "cue": [
+    "focus:cap"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "T-shirt",
+   "t0": 128.689,
+   "t1": 129.375,
+   "cue": [
+    "focus:tshirt"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "underwear",
+   "t0": 130.475,
+   "t1": 131.121,
+   "cue": [
+    "focus:underwear"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "trousers",
+   "t0": 132.221,
+   "t1": 132.98,
+   "cue": [
+    "focus:trousers"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "sock, socks",
+   "t0": 134.08,
+   "t1": 135.405,
+   "cue": [
+    "focus:sock"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "shoe, shoes",
+   "t0": 136.505,
+   "t1": 137.795,
+   "cue": [
+    "focus:shoe"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "pair",
+   "t0": 138.895,
+   "t1": 139.326,
+   "cue": [
+    "focus:pair"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "zh",
+   "text": "太棒了！明天早上穿衣服的时候，一边穿，一边用英语说出来吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 140.426,
+   "t1": 150.423,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "clothes": [
+   0.25,
+   0.838
+  ],
+  "wear": [
+   1.088,
+   1.508
+  ],
+  "hat": [
+   1.758,
+   2.201
+  ],
+  "cap": [
+   2.451,
+   2.833
+  ],
+  "tshirt": [
+   3.083,
+   3.769
+  ],
+  "underwear": [
+   4.019,
+   4.665
+  ],
+  "trousers": [
+   4.915,
+   5.674
+  ],
+  "sock": [
+   5.924,
+   6.427
+  ],
+  "sock:pl": [
+   6.677,
+   7.316
+  ],
+  "shoe": [
+   7.566,
+   8.082
+  ],
+  "shoe:pl": [
+   8.332,
+   8.899
+  ],
+  "pair": [
+   9.149,
+   9.58
+  ]
+ }
+}

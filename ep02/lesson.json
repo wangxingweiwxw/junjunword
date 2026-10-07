@@ -1,0 +1,158 @@
+{
+  "id": "ep02",
+  "title": "family",
+  "titleZh": "家人",
+  "episode": "第 2 集",
+  "titleIcon": "family",
+  "voices": {
+    "zh": {"voice": "zh-CN-XiaoxiaoNeural", "rate": "-5%"},
+    "en": {"voice": "en-US-JennyNeural", "rate": "-15%"}
+  },
+  "stage": {
+    "landscape": [1800, 940],
+    "portrait": [900, 1320]
+  },
+  "nodes": [
+    {"id": "family",   "word": "family",   "ipa": "/ˈfæməli/",  "zh": "家庭；一家人", "icon": "family",   "plural": "families",  "pluralIpa": "/ˈfæməliz/",  "at": [190, 470],  "atP": [125, 480]},
+    {"id": "mother",   "word": "mother",   "ipa": "/ˈmʌðər/",   "zh": "妈妈；母亲",   "icon": "mother",   "alt": "mom", "at": [450, 150],  "atP": [125, 150]},
+    {"id": "parents",  "word": "parents",  "ipa": "/ˈperənts/", "zh": "父母",         "icon": "parents",  "at": [800, 150],  "atP": [450, 150]},
+    {"id": "father",   "word": "father",   "ipa": "/ˈfɑːðər/",  "zh": "爸爸；父亲",   "icon": "father",   "alt": "dad", "at": [1150, 150], "atP": [775, 150]},
+    {"id": "child",    "word": "child",    "ipa": "/tʃaɪld/",   "zh": "孩子",         "icon": "child",    "plural": "children",  "pluralIpa": "/ˈtʃɪldrən/", "at": [800, 470],  "atP": [450, 480]},
+    {"id": "kid",      "word": "kid",      "ipa": "/kɪd/",      "zh": "小孩（口语）", "icon": "kid",      "plural": "kids",      "pluralIpa": "/kɪdz/",      "at": [1150, 470], "atP": [775, 480]},
+    {"id": "daughter", "word": "daughter", "ipa": "/ˈdɔːtər/",  "zh": "女儿",         "icon": "daughter", "plural": "daughters", "pluralIpa": "/ˈdɔːtərz/",  "at": [550, 790],  "atP": [250, 800]},
+    {"id": "son",      "word": "son",      "ipa": "/sʌn/",      "zh": "儿子",         "icon": "son",      "plural": "sons",      "pluralIpa": "/sʌnz/",      "at": [1050, 790], "atP": [650, 800]},
+    {"id": "depend",   "word": "depend",   "ipa": "/dɪˈpend/",  "zh": "依靠；依赖",   "icon": "depend",   "kind": "verb", "at": [1590, 150], "atP": [125, 1170]},
+    {"id": "kiss",     "word": "kiss",     "ipa": "/kɪs/",      "zh": "亲吻",         "icon": "kiss",     "kind": "verb", "at": [1590, 470], "atP": [450, 1170]},
+    {"id": "call",     "word": "call",     "ipa": "/kɔːl/",     "zh": "打电话",       "icon": "call",     "kind": "verb", "at": [1590, 790], "atP": [775, 1170]}
+  ],
+  "edges": [
+    {"from": "mother", "to": "parents"},
+    {"from": "father", "to": "parents"},
+    {"from": "mother", "to": "child"},
+    {"from": "father", "to": "child"},
+    {"from": "child",  "to": "kid",      "label": "口语"},
+    {"from": "child",  "to": "daughter", "label": "女孩"},
+    {"from": "child",  "to": "son",      "label": "男孩"}
+  ],
+  "script": [
+    {"cue": ["title"], "parts": [
+      {"zh": "小朋友们好！今天要学的单词，听起来就很温暖。"},
+      {"en": "family"},
+      {"zh": "意思是，家庭，一家人。"}
+    ]},
+    {"cue": ["map", "show:family", "focus:family"], "parts": [
+      {"zh": "爸爸、妈妈和你，住在同一个屋檐下，就组成了一个家。家庭，英语叫"},
+      {"en": "family"},
+      {"en": "This is my family."}
+    ]},
+    {"cue": ["show:mother", "focus:mother"], "parts": [
+      {"zh": "先来认识家里每天照顾你的人，妈妈。妈妈，正式一点的说法是"},
+      {"en": "mother"},
+      {"zh": "在家里，我们更常亲切地叫她", "cue": ["alt:mother"]},
+      {"en": "mom"},
+      {"en": "I love you, Mom!"}
+    ]},
+    {"cue": ["show:father", "focus:father"], "parts": [
+      {"zh": "再来看看爸爸。爸爸，正式一点的说法是"},
+      {"en": "father"},
+      {"zh": "平时叫爸爸，就说", "cue": ["alt:father"]},
+      {"en": "dad"},
+      {"en": "Good morning, Dad!"}
+    ]},
+    {"cue": ["show:parents", "edge:mother>parents", "edge:father>parents", "focus:parents"], "parts": [
+      {"zh": "妈妈和爸爸合在一起，就是父母："},
+      {"en": "parents"},
+      {"zh": "父母是两个人，所以这个单词的最后，有一个字母 s。"},
+      {"en": "Mom and Dad are my parents."}
+    ]},
+    {"cue": ["show:child", "edge:mother>child", "edge:father>child", "focus:child"], "parts": [
+      {"zh": "爸爸妈妈最疼爱的小宝贝，就是孩子。孩子，英语是"},
+      {"en": "child"},
+      {"en": "I am a child."}
+    ]},
+    {"cue": ["show:kid", "edge:child>kid", "focus:kid"], "parts": [
+      {"zh": "孩子还有一个更轻松、更口语的说法："},
+      {"en": "kid"},
+      {"zh": "意思差不多，平时聊天的时候，大家特别爱用它。"},
+      {"en": "Hi, kids!"}
+    ]},
+    {"cue": ["show:daughter", "edge:child>daughter", "focus:daughter"], "parts": [
+      {"zh": "如果这个孩子是女孩，对爸爸妈妈来说，她就是女儿："},
+      {"en": "daughter"},
+      {"zh": "小提示：中间的两个字母 g 和 h，是不发音的。"},
+      {"en": "She is their daughter."}
+    ]},
+    {"cue": ["show:son", "edge:child>son", "focus:son"], "parts": [
+      {"zh": "如果是男孩，他就是儿子："},
+      {"en": "son"},
+      {"en": "He is their son."}
+    ]},
+    {"cue": ["focus:none"], "parts": [
+      {"zh": "一家人在一起，每天都会做很多暖暖的事。下面再学三个动作单词。"}
+    ]},
+    {"cue": ["show:depend", "focus:depend,child,parents"], "parts": [
+      {"zh": "我们还小，吃饭、穿衣、上学，很多事都要靠爸爸妈妈帮忙。依靠，英语是"},
+      {"en": "depend"},
+      {"zh": "依靠谁，后面常常跟一个小词"},
+      {"en": "on"},
+      {"en": "Kids depend on their parents."}
+    ]},
+    {"cue": ["show:kiss", "focus:kiss,mother,kid"], "parts": [
+      {"zh": "晚上睡觉前，妈妈会在你的脸上轻轻亲一下。亲吻，英语是"},
+      {"en": "kiss"},
+      {"en": "Give Mom a kiss."}
+    ]},
+    {"cue": ["show:call", "focus:call,father,son"], "parts": [
+      {"zh": "爸爸去外地工作了，想他的时候怎么办？给他打个电话吧！打电话，英语是"},
+      {"en": "call"},
+      {"en": "Let's call Dad!"}
+    ]},
+    {"cue": ["focus:none"], "parts": [
+      {"zh": "接下来看一看，一个变成很多个的时候，这些单词会怎么变。"}
+    ]},
+    {"cue": ["focus:kid"], "parts": [
+      {"zh": "大部分单词，在后面加一个 s 就可以了。"},
+      {"en": "kid", "cue": ["focus:kid"]},
+      {"en": "kids", "cue": ["plural:kid"]},
+      {"en": "son", "cue": ["focus:son"]},
+      {"en": "sons", "cue": ["plural:son"]},
+      {"en": "daughter", "cue": ["focus:daughter"]},
+      {"en": "daughters", "cue": ["plural:daughter"]}
+    ]},
+    {"cue": ["focus:family"], "parts": [
+      {"zh": "家庭这个词，最后一个字母是 y。变成很多个的时候，要把 y 换成 i e s。"},
+      {"en": "family"},
+      {"en": "families", "cue": ["plural:family"]}
+    ]},
+    {"cue": ["focus:child"], "parts": [
+      {"zh": "最特别的是孩子。它不加 s，而是在后面接上 r e n 三个字母。"},
+      {"en": "child"},
+      {"en": "children", "cue": ["plural:child"]},
+      {"zh": "连读音也跟着变了，要多读几遍哦。"},
+      {"en": "one child, many children."}
+    ]},
+    {"cue": ["focus:mother,father"], "parts": [
+      {"zh": "还记得吗？妈妈，在家可以叫"},
+      {"en": "mom", "cue": ["focus:mother"]},
+      {"zh": "爸爸，在家可以叫", "cue": ["focus:father"]},
+      {"en": "dad"}
+    ]},
+    {"cue": ["focus:none"], "parts": [
+      {"zh": "最后，跟着我把今天的单词再读一遍吧！"}
+    ]},
+    {"cue": ["focus:family"], "parts": [{"en": "family, families"}]},
+    {"cue": ["focus:parents"], "parts": [{"en": "parents"}]},
+    {"cue": ["focus:mother"], "parts": [{"en": "mother, mom"}]},
+    {"cue": ["focus:father"], "parts": [{"en": "father, dad"}]},
+    {"cue": ["focus:child"], "parts": [{"en": "child, children"}]},
+    {"cue": ["focus:kid"], "parts": [{"en": "kid, kids"}]},
+    {"cue": ["focus:daughter"], "parts": [{"en": "daughter, daughters"}]},
+    {"cue": ["focus:son"], "parts": [{"en": "son, sons"}]},
+    {"cue": ["focus:depend"], "parts": [{"en": "depend"}]},
+    {"cue": ["focus:kiss"], "parts": [{"en": "kiss"}]},
+    {"cue": ["focus:call"], "parts": [{"en": "call"}]},
+    {"cue": ["focus:none", "end"], "parts": [
+      {"zh": "太棒了！今天回家，记得给家人一个大大的拥抱。点一点图上的单词，还能再听一遍发音哦。"}
+    ]}
+  ]
+}

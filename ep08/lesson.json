@@ -1,0 +1,842 @@
+{
+ "id": "ep08",
+ "title": "body",
+ "titleZh": "身体",
+ "episode": "第 8 集",
+ "titleIcon": "body",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1660
+  ]
+ },
+ "nodes": [
+  {
+   "id": "body",
+   "word": "body",
+   "ipa": "/ˈbɑːdi/",
+   "zh": "身体",
+   "icon": "body",
+   "atP": [
+    450,
+    830
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "head",
+   "word": "head",
+   "ipa": "/hed/",
+   "zh": "头",
+   "icon": "head",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "hair",
+   "word": "hair",
+   "ipa": "/her/",
+   "zh": "头发",
+   "icon": "hair",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "neck",
+   "word": "neck",
+   "ipa": "/nek/",
+   "zh": "脖子",
+   "icon": "neck",
+   "atP": [
+    450,
+    490
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "shoulder",
+   "word": "shoulder",
+   "ipa": "/ˈʃoʊldər/",
+   "zh": "肩膀",
+   "icon": "shoulder",
+   "atP": [
+    150,
+    490
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "arm",
+   "word": "arm",
+   "ipa": "/ɑːrm/",
+   "zh": "胳膊",
+   "icon": "arm",
+   "atP": [
+    150,
+    830
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "hand",
+   "word": "hand",
+   "ipa": "/hænd/",
+   "zh": "手",
+   "icon": "hand",
+   "plural": "hands",
+   "pluralIpa": "/hændz/",
+   "atP": [
+    150,
+    1170
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "finger",
+   "word": "finger",
+   "ipa": "/ˈfɪŋɡər/",
+   "zh": "手指",
+   "icon": "finger",
+   "atP": [
+    150,
+    1510
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "leg",
+   "word": "leg",
+   "ipa": "/leɡ/",
+   "zh": "腿",
+   "icon": "leg",
+   "plural": "legs",
+   "pluralIpa": "/leɡz/",
+   "atP": [
+    450,
+    1170
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "knee",
+   "word": "knee",
+   "ipa": "/niː/",
+   "zh": "膝盖",
+   "icon": "knee",
+   "atP": [
+    750,
+    1170
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "foot",
+   "word": "foot",
+   "ipa": "/fʊt/",
+   "zh": "脚",
+   "icon": "foot",
+   "plural": "feet",
+   "pluralIpa": "/fiːt/",
+   "atP": [
+    450,
+    1510
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "toe",
+   "word": "toe",
+   "ipa": "/toʊ/",
+   "zh": "脚趾",
+   "icon": "toe",
+   "plural": "toes",
+   "pluralIpa": "/toʊz/",
+   "atP": [
+    750,
+    1510
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  },
+  {
+   "id": "shake",
+   "word": "shake",
+   "ipa": "/ʃeɪk/",
+   "zh": "摇；晃动",
+   "icon": "shake",
+   "kind": "verb",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "head",
+   "to": "hair"
+  },
+  {
+   "from": "shake",
+   "to": "head",
+   "label": "摇头",
+   "dashed": true
+  },
+  {
+   "from": "head",
+   "to": "neck"
+  },
+  {
+   "from": "neck",
+   "to": "shoulder"
+  },
+  {
+   "from": "shoulder",
+   "to": "arm"
+  },
+  {
+   "from": "arm",
+   "to": "hand"
+  },
+  {
+   "from": "hand",
+   "to": "finger"
+  },
+  {
+   "from": "neck",
+   "to": "body"
+  },
+  {
+   "from": "body",
+   "to": "leg"
+  },
+  {
+   "from": "leg",
+   "to": "knee"
+  },
+  {
+   "from": "leg",
+   "to": "foot"
+  },
+  {
+   "from": "foot",
+   "to": "toe"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！今天，我们来认识自己的身体。"
+    },
+    {
+     "en": "body"
+    },
+    {
+     "zh": "身体。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:body",
+    "focus:body"
+   ],
+   "parts": [
+    {
+     "zh": "从头到脚，整个的你，就是身体："
+    },
+    {
+     "en": "body"
+    },
+    {
+     "en": "This is my body."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:head",
+    "focus:head"
+   ],
+   "parts": [
+    {
+     "zh": "身体最上面，圆圆的，是头："
+    },
+    {
+     "en": "head"
+    },
+    {
+     "en": "Touch your head."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hair",
+    "edge:head>hair",
+    "focus:hair"
+   ],
+   "parts": [
+    {
+     "zh": "头上长着头发："
+    },
+    {
+     "en": "hair"
+    },
+    {
+     "zh": "头发有成千上万根，可这个词通常不加 s 哦。"
+    },
+    {
+     "en": "I have black hair."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:neck",
+    "edge:head>neck",
+    "focus:neck"
+   ],
+   "parts": [
+    {
+     "zh": "头和身体中间，连着脖子："
+    },
+    {
+     "en": "neck"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "edge:neck>body",
+    "focus:body"
+   ],
+   "parts": [
+    {
+     "zh": "脖子下面，就是身体啦："
+    },
+    {
+     "en": "body"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:shoulder",
+    "edge:neck>shoulder",
+    "focus:shoulder"
+   ],
+   "parts": [
+    {
+     "zh": "脖子两边，又宽又平的地方是肩膀："
+    },
+    {
+     "en": "shoulder"
+    },
+    {
+     "en": "two shoulders"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:arm",
+    "edge:shoulder>arm",
+    "focus:arm"
+   ],
+   "parts": [
+    {
+     "zh": "从肩膀往下，长长的是胳膊："
+    },
+    {
+     "en": "arm"
+    },
+    {
+     "en": "Raise your arms!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hand",
+    "edge:arm>hand",
+    "focus:hand"
+   ],
+   "parts": [
+    {
+     "zh": "胳膊的最下面，是手："
+    },
+    {
+     "en": "hand"
+    },
+    {
+     "en": "Clap your hands!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:finger",
+    "edge:hand>finger",
+    "focus:finger"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第三集吗？每只手上，都有五根手指："
+    },
+    {
+     "en": "finger"
+    },
+    {
+     "en": "five fingers"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:leg",
+    "edge:body>leg",
+    "focus:leg"
+   ],
+   "parts": [
+    {
+     "zh": "身体下面，撑着我们走路、跑步的，是腿："
+    },
+    {
+     "en": "leg"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:knee",
+    "edge:leg>knee",
+    "focus:knee"
+   ],
+   "parts": [
+    {
+     "zh": "腿中间能弯起来的地方，是膝盖："
+    },
+    {
+     "en": "knee"
+    },
+    {
+     "zh": "小提示：开头的字母 k，是不发音的。"
+    },
+    {
+     "en": "Bend your knees."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:foot",
+    "edge:leg>foot",
+    "focus:foot"
+   ],
+   "parts": [
+    {
+     "zh": "腿的最下面，踩在地上的，是脚："
+    },
+    {
+     "en": "foot"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:toe",
+    "edge:foot>toe",
+    "focus:toe"
+   ],
+   "parts": [
+    {
+     "zh": "脚上也有五根小小的，叫脚趾："
+    },
+    {
+     "en": "toe"
+    },
+    {
+     "en": "Wiggle your toes!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:shake",
+    "edge:shake>head",
+    "focus:shake"
+   ],
+   "parts": [
+    {
+     "zh": "最后学一个动作词：摇一摇、晃一晃，"
+    },
+    {
+     "en": "shake"
+    },
+    {
+     "zh": "摇头，是",
+     "cue": [
+      "focus:shake,head"
+     ]
+    },
+    {
+     "en": "shake your head"
+    },
+    {
+     "zh": "握手，是",
+     "cue": [
+      "focus:shake,hand"
+     ]
+    },
+    {
+     "en": "shake hands"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "身体的很多部位，我们都有两个。变成很多个的时候，怎么说呢？"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hand"
+   ],
+   "parts": [
+    {
+     "zh": "大部分在后面加上字母 s 就好："
+    },
+    {
+     "en": "hand",
+     "cue": [
+      "focus:hand"
+     ]
+    },
+    {
+     "en": "hands",
+     "cue": [
+      "plural:hand"
+     ]
+    },
+    {
+     "en": "leg",
+     "cue": [
+      "focus:leg"
+     ]
+    },
+    {
+     "en": "legs",
+     "cue": [
+      "plural:leg"
+     ]
+    },
+    {
+     "en": "toe",
+     "cue": [
+      "focus:toe"
+     ]
+    },
+    {
+     "en": "toes",
+     "cue": [
+      "plural:toe"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:foot"
+   ],
+   "parts": [
+    {
+     "zh": "最特别的是脚。它不加 s，而是把中间的两个 o，变成两个 e："
+    },
+    {
+     "en": "foot"
+    },
+    {
+     "en": "feet",
+     "cue": [
+      "plural:foot"
+     ]
+    },
+    {
+     "en": "one foot, two feet."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "来做个身体操吧！听到哪里，就摸一摸哪里！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Head!",
+     "cue": [
+      "focus:head"
+     ]
+    },
+    {
+     "en": "Shoulders!",
+     "cue": [
+      "focus:shoulder"
+     ]
+    },
+    {
+     "en": "Knees!",
+     "cue": [
+      "focus:knee"
+     ]
+    },
+    {
+     "en": "Toes!",
+     "cue": [
+      "focus:toe"
+     ]
+    },
+    {
+     "en": "Hands up!",
+     "cue": [
+      "focus:hand"
+     ]
+    },
+    {
+     "en": "Shake, shake, shake!",
+     "cue": [
+      "focus:shake"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:body"
+   ],
+   "parts": [
+    {
+     "en": "body"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:head"
+   ],
+   "parts": [
+    {
+     "en": "head"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hair"
+   ],
+   "parts": [
+    {
+     "en": "hair"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:neck"
+   ],
+   "parts": [
+    {
+     "en": "neck"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:shoulder"
+   ],
+   "parts": [
+    {
+     "en": "shoulder"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:arm"
+   ],
+   "parts": [
+    {
+     "en": "arm"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hand"
+   ],
+   "parts": [
+    {
+     "en": "hand, hands"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:finger"
+   ],
+   "parts": [
+    {
+     "en": "finger"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:leg"
+   ],
+   "parts": [
+    {
+     "en": "leg, legs"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:knee"
+   ],
+   "parts": [
+    {
+     "en": "knee"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:foot"
+   ],
+   "parts": [
+    {
+     "en": "foot, feet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:toe"
+   ],
+   "parts": [
+    {
+     "en": "toe, toes"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:shake"
+   ],
+   "parts": [
+    {
+     "en": "shake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！洗澡的时候，可以一边洗一边用英语说身体的部位哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

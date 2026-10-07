@@ -1,0 +1,711 @@
+{
+ "duration": 170.007,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！今天的单词，和一年里最开心的一天有关。",
+   "t0": 0.4,
+   "t1": 5.649,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "birthday",
+   "t0": 5.899,
+   "t1": 6.465,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "生日。",
+   "t0": 6.965,
+   "t1": 7.489,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "你出生的那一天，每年都会再来一次，它就是你的生日：",
+   "t0": 8.339,
+   "t1": 12.953,
+   "cue": [
+    "map",
+    "show:birthday",
+    "focus:birthday"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "birthday",
+   "t0": 13.203,
+   "t1": 13.769,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "Happy birthday!",
+   "t0": 14.269,
+   "t1": 15.186,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "过生日，最开心的就是开一个热热闹闹的聚会：",
+   "t0": 16.286,
+   "t1": 20.225,
+   "cue": [
+    "show:party",
+    "edge:birthday>party",
+    "focus:party"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "party",
+   "t0": 20.475,
+   "t1": 20.954,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "a birthday party",
+   "t0": 21.454,
+   "t1": 22.522,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "聚会上，怎么能少了甜甜的蛋糕？蛋糕，英语是",
+   "t0": 23.622,
+   "t1": 28.344,
+   "cue": [
+    "show:cake",
+    "edge:party>cake",
+    "focus:cake"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "cake",
+   "t0": 28.594,
+   "t1": 29.029,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "a big cake",
+   "t0": 29.529,
+   "t1": 30.352,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "蛋糕上要插上蜡烛，几岁就插几根：",
+   "t0": 31.452,
+   "t1": 34.53,
+   "cue": [
+    "show:candle",
+    "edge:cake>candle",
+    "focus:candle"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "candle",
+   "t0": 34.78,
+   "t1": 35.332,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "蜡烛要点亮，就要用到火柴：",
+   "t0": 36.432,
+   "t1": 38.92,
+   "cue": [
+    "show:match",
+    "edge:match>candle",
+    "focus:match"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "match",
+   "t0": 39.17,
+   "t1": 39.742,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "火柴有危险，一定要请大人帮忙点哦。",
+   "t0": 40.242,
+   "t1": 43.289,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "蜡烛亮起来啦！先闭上眼睛，在心里许一个愿望：",
+   "t0": 44.139,
+   "t1": 48.804,
+   "cue": [
+    "show:wish",
+    "focus:wish,candle"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "wish",
+   "t0": 49.054,
+   "t1": 49.501,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "Make a wish!",
+   "t0": 50.001,
+   "t1": 50.869,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "许完愿，深吸一口气，呼——把蜡烛吹灭！吹，英语是",
+   "t0": 51.969,
+   "t1": 57.74,
+   "cue": [
+    "show:blow",
+    "edge:candle>blow",
+    "edge:wish>blow",
+    "focus:blow"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "blow",
+   "t0": 57.99,
+   "t1": 58.468,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "Blow out the candles!",
+   "t0": 58.968,
+   "t1": 60.15,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "嘴巴还能吹什么？对啦，吹气球！气球是",
+   "t0": 61.25,
+   "t1": 66.084,
+   "cue": [
+    "show:balloon",
+    "edge:blow>balloon",
+    "focus:balloon"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "balloon",
+   "t0": 66.334,
+   "t1": 66.911,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "小提示：它中间有两个字母 l，还有两个字母 o。",
+   "t0": 67.411,
+   "t1": 71.656,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Let's blow up a balloon!",
+   "t0": 71.906,
+   "t1": 73.216,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "朋友们来参加聚会，还会带来礼物：",
+   "t0": 74.316,
+   "t1": 77.19,
+   "cue": [
+    "show:present",
+    "edge:party>present",
+    "focus:present"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "present",
+   "t0": 77.44,
+   "t1": 78.038,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "礼物还有一个更短的说法，叫",
+   "t0": 78.538,
+   "t1": 80.942,
+   "cue": [
+    "alt:present"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "gift",
+   "t0": 81.192,
+   "t1": 81.591,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "把礼物送给别人，是给：",
+   "t0": 82.691,
+   "t1": 84.79,
+   "cue": [
+    "show:give",
+    "edge:present>give",
+    "focus:give"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "give",
+   "t0": 85.04,
+   "t1": 85.344,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "I give you a present.",
+   "t0": 85.844,
+   "t1": 87.069,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "收到别人送来的礼物，就是得到：",
+   "t0": 88.169,
+   "t1": 90.815,
+   "cue": [
+    "show:get",
+    "edge:present>get",
+    "focus:get"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "get",
+   "t0": 91.065,
+   "t1": 91.522,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "I get a present!",
+   "t0": 92.022,
+   "t1": 93.029,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "这份礼物，是专门为你准备的。说给谁的、为了谁，就用这个小小的词：",
+   "t0": 94.129,
+   "t1": 100.859,
+   "cue": [
+    "show:for",
+    "edge:give>for",
+    "focus:for"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "for",
+   "t0": 101.109,
+   "t1": 101.527,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "This present is for you.",
+   "t0": 102.027,
+   "t1": 103.372,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "生日聚会上，很多东西都不止一个。一个变成很多个，后面加上字母 s 就好啦。",
+   "t0": 104.472,
+   "t1": 111.847,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "candle",
+   "t0": 112.697,
+   "t1": 113.249,
+   "cue": [
+    "focus:candle",
+    "focus:candle"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "candles",
+   "t0": 113.749,
+   "t1": 114.434,
+   "cue": [
+    "plural:candle"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "balloon",
+   "t0": 114.934,
+   "t1": 115.51,
+   "cue": [
+    "focus:balloon"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "balloons",
+   "t0": 116.01,
+   "t1": 116.707,
+   "cue": [
+    "plural:balloon"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "present",
+   "t0": 117.207,
+   "t1": 117.805,
+   "cue": [
+    "focus:present"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "presents",
+   "t0": 118.305,
+   "t1": 118.932,
+   "cue": [
+    "plural:present"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "给和得到，正好是一对。我送出去，是",
+   "t0": 120.032,
+   "t1": 124.157,
+   "cue": [
+    "focus:give,get"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "give",
+   "t0": 124.407,
+   "t1": 124.71,
+   "cue": [
+    "focus:give"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "我收进来，是",
+   "t0": 125.21,
+   "t1": 126.601,
+   "cue": [
+    "focus:get"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "get",
+   "t0": 126.851,
+   "t1": 127.308,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，我们一起来唱一句生日歌吧！",
+   "t0": 128.408,
+   "t1": 131.098,
+   "cue": [
+    "focus:birthday"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Happy birthday to you!",
+   "t0": 131.348,
+   "t1": 132.592,
+   "cue": []
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 133.692,
+   "t1": 136.942,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "birthday",
+   "t0": 137.792,
+   "t1": 138.359,
+   "cue": [
+    "focus:birthday"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "party",
+   "t0": 139.459,
+   "t1": 139.938,
+   "cue": [
+    "focus:party"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "cake",
+   "t0": 141.038,
+   "t1": 141.473,
+   "cue": [
+    "focus:cake"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "candle, candles",
+   "t0": 142.573,
+   "t1": 144.11,
+   "cue": [
+    "focus:candle"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "match",
+   "t0": 145.21,
+   "t1": 145.783,
+   "cue": [
+    "focus:match"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "wish",
+   "t0": 146.883,
+   "t1": 147.33,
+   "cue": [
+    "focus:wish"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "blow",
+   "t0": 148.43,
+   "t1": 148.909,
+   "cue": [
+    "focus:blow"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "balloon, balloons",
+   "t0": 150.009,
+   "t1": 151.439,
+   "cue": [
+    "focus:balloon"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "present, gift",
+   "t0": 152.539,
+   "t1": 153.781,
+   "cue": [
+    "focus:present"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "give",
+   "t0": 154.881,
+   "t1": 155.185,
+   "cue": [
+    "focus:give"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "get",
+   "t0": 156.285,
+   "t1": 156.741,
+   "cue": [
+    "focus:get"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "for",
+   "t0": 157.841,
+   "t1": 158.259,
+   "cue": [
+    "focus:for"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！下次过生日的时候，记得用英语许一个愿哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 159.359,
+   "t1": 168.157,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "birthday": [
+   0.25,
+   0.817
+  ],
+  "party": [
+   1.067,
+   1.545
+  ],
+  "cake": [
+   1.795,
+   2.23
+  ],
+  "candle": [
+   2.48,
+   3.032
+  ],
+  "candle:pl": [
+   3.282,
+   3.967
+  ],
+  "match": [
+   4.217,
+   4.79
+  ],
+  "wish": [
+   5.04,
+   5.486
+  ],
+  "blow": [
+   5.736,
+   6.215
+  ],
+  "balloon": [
+   6.465,
+   7.042
+  ],
+  "balloon:pl": [
+   7.292,
+   7.988
+  ],
+  "present": [
+   8.238,
+   8.837
+  ],
+  "present:alt": [
+   9.087,
+   9.486
+  ],
+  "present:pl": [
+   9.736,
+   10.363
+  ],
+  "give": [
+   10.613,
+   10.916
+  ],
+  "get": [
+   11.166,
+   11.623
+  ],
+  "for": [
+   11.873,
+   12.291
+  ]
+ }
+}

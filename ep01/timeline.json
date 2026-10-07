@@ -1,0 +1,620 @@
+{
+ "duration": 144.964,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！今天我们来学一个特别常用的单词。",
+   "t0": 0.4,
+   "t1": 4.844,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "people",
+   "t0": 5.094,
+   "t1": 5.581,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "意思是，人们。",
+   "t0": 6.081,
+   "t1": 7.385,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "要认识它，我们先从一个人开始。一个人，英语叫",
+   "t0": 8.235,
+   "t1": 13.043,
+   "cue": [
+    "map",
+    "show:person",
+    "focus:person"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "person",
+   "t0": 13.293,
+   "t1": 13.885,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "person",
+   "t0": 14.385,
+   "t1": 14.978,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "每个人，都有一个属于自己的名字。名字，就是",
+   "t0": 16.078,
+   "t1": 20.812,
+   "cue": [
+    "show:name",
+    "edge:name>person",
+    "focus:name"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "name",
+   "t0": 21.062,
+   "t1": 21.489,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "What's your name?",
+   "t0": 21.989,
+   "t1": 22.789,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "一个人，是",
+   "t0": 23.889,
+   "t1": 25.108,
+   "cue": [
+    "focus:person"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "person",
+   "t0": 25.358,
+   "t1": 25.951,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "那很多很多人在一起呢？就变成了",
+   "t0": 26.451,
+   "t1": 29.72,
+   "cue": [
+    "show:people",
+    "edge:person>people",
+    "focus:people"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "people",
+   "t0": 29.97,
+   "t1": 30.457,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "注意哦，它不是在后面加一个 s，而是换成了一个全新的单词。",
+   "t0": 30.957,
+   "t1": 36.17,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "one person, many people.",
+   "t0": 36.42,
+   "t1": 38.269,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "人有男，也有女。小男孩，是",
+   "t0": 39.369,
+   "t1": 42.942,
+   "cue": [
+    "show:boy",
+    "edge:person>boy",
+    "focus:boy"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "boy",
+   "t0": 43.192,
+   "t1": 43.599,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "小女孩，是",
+   "t0": 44.699,
+   "t1": 45.995,
+   "cue": [
+    "show:girl",
+    "edge:person>girl",
+    "focus:girl"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "girl",
+   "t0": 46.245,
+   "t1": 46.634,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "男孩和女孩年纪都还小，就像刚刚发芽的小苗。年轻的、小的，英语是",
+   "t0": 47.734,
+   "t1": 54.898,
+   "cue": [
+    "show:young",
+    "edge:young>boy",
+    "edge:young>girl",
+    "focus:young"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "young",
+   "t0": 55.148,
+   "t1": 55.597,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "a young boy, a young girl.",
+   "t0": 56.097,
+   "t1": 57.876,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "男孩慢慢长大，就成了男人：",
+   "t0": 58.976,
+   "t1": 61.395,
+   "cue": [
+    "show:man",
+    "edge:boy>man",
+    "focus:man"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "man",
+   "t0": 61.645,
+   "t1": 62.104,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "女孩慢慢长大，就成了女人：",
+   "t0": 63.204,
+   "t1": 65.584,
+   "cue": [
+    "show:woman",
+    "edge:girl>woman",
+    "focus:woman"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "woman",
+   "t0": 65.834,
+   "t1": 66.35,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "再过很多很多年，头发白了，人就老了。老的、年老的，英语是",
+   "t0": 67.45,
+   "t1": 73.82,
+   "cue": [
+    "show:old",
+    "edge:old>man",
+    "edge:old>woman",
+    "focus:old"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "old",
+   "t0": 74.07,
+   "t1": 74.418,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "an old man, an old woman.",
+   "t0": 74.918,
+   "t1": 76.715,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "接下来看一看，当一个变成很多个的时候，这些单词会怎么变。",
+   "t0": 77.815,
+   "t1": 83.023,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "大部分单词，只要在后面加一个 s 就可以了。",
+   "t0": 83.873,
+   "t1": 87.598,
+   "cue": [
+    "focus:boy"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "boy",
+   "t0": 87.848,
+   "t1": 88.255,
+   "cue": [
+    "focus:boy"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "boys",
+   "t0": 88.755,
+   "t1": 89.338,
+   "cue": [
+    "plural:boy"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "girl",
+   "t0": 89.838,
+   "t1": 90.227,
+   "cue": [
+    "focus:girl"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "girls",
+   "t0": 90.727,
+   "t1": 91.28,
+   "cue": [
+    "plural:girl"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "name",
+   "t0": 91.78,
+   "t1": 92.208,
+   "cue": [
+    "focus:name"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "names",
+   "t0": 92.708,
+   "t1": 93.259,
+   "cue": [
+    "plural:name"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "但是，男人和女人很特别，不加 s，而是把中间的字母 a，换成字母 e。",
+   "t0": 94.359,
+   "t1": 100.973,
+   "cue": [
+    "focus:man,woman"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "man",
+   "t0": 101.223,
+   "t1": 101.682,
+   "cue": [
+    "focus:man"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "men",
+   "t0": 102.182,
+   "t1": 102.646,
+   "cue": [
+    "plural:man"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "woman",
+   "t0": 103.146,
+   "t1": 103.663,
+   "cue": [
+    "focus:woman"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "women",
+   "t0": 104.163,
+   "t1": 104.663,
+   "cue": [
+    "plural:woman"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "女人的复数，连读音也变了，要特别注意哦。",
+   "t0": 105.163,
+   "t1": 108.875,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "还记得吗？一个人，是",
+   "t0": 109.725,
+   "t1": 112.387,
+   "cue": [
+    "focus:person,people"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "person",
+   "t0": 112.637,
+   "t1": 113.229,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "很多人，就是",
+   "t0": 113.729,
+   "t1": 115.146,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "people",
+   "t0": 115.396,
+   "t1": 115.883,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 116.983,
+   "t1": 120.233,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "people",
+   "t0": 121.083,
+   "t1": 121.57,
+   "cue": [
+    "focus:people"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "person",
+   "t0": 122.67,
+   "t1": 123.262,
+   "cue": [
+    "focus:person"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "name, names",
+   "t0": 124.362,
+   "t1": 125.54,
+   "cue": [
+    "focus:name"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "boy, boys",
+   "t0": 126.64,
+   "t1": 127.853,
+   "cue": [
+    "focus:boy"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "girl, girls",
+   "t0": 128.953,
+   "t1": 130.065,
+   "cue": [
+    "focus:girl"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "young",
+   "t0": 131.165,
+   "t1": 131.614,
+   "cue": [
+    "focus:young"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "man, men",
+   "t0": 132.714,
+   "t1": 133.733,
+   "cue": [
+    "focus:man"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "woman, women",
+   "t0": 134.833,
+   "t1": 135.951,
+   "cue": [
+    "focus:woman"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "old",
+   "t0": 137.051,
+   "t1": 137.4,
+   "cue": [
+    "focus:old"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "zh",
+   "text": "太棒了！点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 138.5,
+   "t1": 143.114,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "name": [
+   0.25,
+   0.678
+  ],
+  "name:pl": [
+   0.928,
+   1.479
+  ],
+  "person": [
+   1.729,
+   2.322
+  ],
+  "people": [
+   2.572,
+   3.058
+  ],
+  "boy": [
+   3.308,
+   3.716
+  ],
+  "boy:pl": [
+   3.966,
+   4.548
+  ],
+  "young": [
+   4.798,
+   5.247
+  ],
+  "girl": [
+   5.497,
+   5.886
+  ],
+  "girl:pl": [
+   6.136,
+   6.69
+  ],
+  "man": [
+   6.94,
+   7.399
+  ],
+  "man:pl": [
+   7.649,
+   8.113
+  ],
+  "old": [
+   8.363,
+   8.711
+  ],
+  "woman": [
+   8.961,
+   9.478
+  ],
+  "woman:pl": [
+   9.728,
+   10.228
+  ]
+ }
+}

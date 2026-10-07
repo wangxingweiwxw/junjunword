@@ -1,0 +1,914 @@
+{
+ "id": "ep03",
+ "title": "numbers",
+ "titleZh": "数字",
+ "episode": "第 3 集",
+ "titleIcon": "numbers",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1760
+  ]
+ },
+ "nodes": [
+  {
+   "id": "number",
+   "word": "number",
+   "ipa": "/ˈnʌmbər/",
+   "zh": "数字；号码",
+   "icon": "number",
+   "plural": "numbers",
+   "pluralIpa": "/ˈnʌmbərz/",
+   "pluralIcon": "numbers",
+   "at": [
+    900,
+    150
+   ],
+   "atP": [
+    450,
+    150
+   ]
+  },
+  {
+   "id": "one",
+   "word": "one",
+   "ipa": "/wʌn/",
+   "zh": "一",
+   "icon": "n1",
+   "kind": "num",
+   "at": [
+    220,
+    450
+   ],
+   "atP": [
+    250,
+    440
+   ]
+  },
+  {
+   "id": "two",
+   "word": "two",
+   "ipa": "/tuː/",
+   "zh": "二",
+   "icon": "n2",
+   "kind": "num",
+   "at": [
+    560,
+    450
+   ],
+   "atP": [
+    250,
+    740
+   ]
+  },
+  {
+   "id": "three",
+   "word": "three",
+   "ipa": "/θriː/",
+   "zh": "三",
+   "icon": "n3",
+   "kind": "num",
+   "at": [
+    900,
+    450
+   ],
+   "atP": [
+    250,
+    1040
+   ]
+  },
+  {
+   "id": "four",
+   "word": "four",
+   "ipa": "/fɔːr/",
+   "zh": "四",
+   "icon": "n4",
+   "kind": "num",
+   "at": [
+    1240,
+    450
+   ],
+   "atP": [
+    250,
+    1340
+   ]
+  },
+  {
+   "id": "five",
+   "word": "five",
+   "ipa": "/faɪv/",
+   "zh": "五",
+   "icon": "n5",
+   "kind": "num",
+   "at": [
+    1580,
+    450
+   ],
+   "atP": [
+    250,
+    1640
+   ]
+  },
+  {
+   "id": "six",
+   "word": "six",
+   "ipa": "/sɪks/",
+   "zh": "六",
+   "icon": "n6",
+   "kind": "num",
+   "at": [
+    220,
+    770
+   ],
+   "atP": [
+    650,
+    440
+   ]
+  },
+  {
+   "id": "seven",
+   "word": "seven",
+   "ipa": "/ˈsevn/",
+   "zh": "七",
+   "icon": "n7",
+   "kind": "num",
+   "at": [
+    560,
+    770
+   ],
+   "atP": [
+    650,
+    740
+   ]
+  },
+  {
+   "id": "eight",
+   "word": "eight",
+   "ipa": "/eɪt/",
+   "zh": "八",
+   "icon": "n8",
+   "kind": "num",
+   "at": [
+    900,
+    770
+   ],
+   "atP": [
+    650,
+    1040
+   ]
+  },
+  {
+   "id": "nine",
+   "word": "nine",
+   "ipa": "/naɪn/",
+   "zh": "九",
+   "icon": "n9",
+   "kind": "num",
+   "at": [
+    1240,
+    770
+   ],
+   "atP": [
+    650,
+    1340
+   ]
+  },
+  {
+   "id": "ten",
+   "word": "ten",
+   "ipa": "/ten/",
+   "zh": "十",
+   "icon": "n10",
+   "kind": "num",
+   "at": [
+    1580,
+    770
+   ],
+   "atP": [
+    650,
+    1640
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "one",
+   "to": "two"
+  },
+  {
+   "from": "two",
+   "to": "three"
+  },
+  {
+   "from": "three",
+   "to": "four"
+  },
+  {
+   "from": "four",
+   "to": "five"
+  },
+  {
+   "from": "six",
+   "to": "seven"
+  },
+  {
+   "from": "seven",
+   "to": "eight"
+  },
+  {
+   "from": "eight",
+   "to": "nine"
+  },
+  {
+   "from": "nine",
+   "to": "ten"
+  },
+  {
+   "from": "one",
+   "to": "six",
+   "dashed": true,
+   "label": "+5"
+  },
+  {
+   "from": "two",
+   "to": "seven",
+   "dashed": true
+  },
+  {
+   "from": "three",
+   "to": "eight",
+   "dashed": true
+  },
+  {
+   "from": "four",
+   "to": "nine",
+   "dashed": true
+  },
+  {
+   "from": "five",
+   "to": "ten",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！今天我们一起来数数。"
+    },
+    {
+     "en": "numbers"
+    },
+    {
+     "zh": "意思是，数字。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:number",
+    "focus:number"
+   ],
+   "parts": [
+    {
+     "zh": "钟表上、电梯里、门牌上，到处都能看到数字。一个数字，英语叫"
+    },
+    {
+     "en": "number"
+    },
+    {
+     "zh": "很多个数字，就在后面加上字母 s："
+    },
+    {
+     "en": "numbers",
+     "cue": [
+      "plural:number"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "现在，伸出一只小手，跟我一根一根地数。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:one",
+    "focus:one"
+   ],
+   "parts": [
+    {
+     "zh": "竖起一根手指，是一："
+    },
+    {
+     "en": "one"
+    },
+    {
+     "en": "one apple"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:two",
+    "edge:one>two",
+    "focus:two"
+   ],
+   "parts": [
+    {
+     "zh": "再多一根，是二："
+    },
+    {
+     "en": "two"
+    },
+    {
+     "zh": "小提示：中间的字母 w，在这里不发音。"
+    },
+    {
+     "en": "two eyes"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:three",
+    "edge:two>three",
+    "focus:three"
+   ],
+   "parts": [
+    {
+     "zh": "再多一根，是三："
+    },
+    {
+     "en": "three"
+    },
+    {
+     "zh": "开头的 t h，舌尖要轻轻放在上下牙齿中间，吹出气来。"
+    },
+    {
+     "en": "three"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:four",
+    "edge:three>four",
+    "focus:four"
+   ],
+   "parts": [
+    {
+     "zh": "再多一根，是四："
+    },
+    {
+     "en": "four"
+    },
+    {
+     "en": "A cat has four legs."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:five",
+    "edge:four>five",
+    "focus:five"
+   ],
+   "parts": [
+    {
+     "zh": "五根手指全部伸出来，一只手就数完了："
+    },
+    {
+     "en": "five"
+    },
+    {
+     "en": "five fingers"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "一只手不够用了，没关系，再伸出另一只手，我们接着数！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:six",
+    "focus:six"
+   ],
+   "parts": [
+    {
+     "zh": "五再多一个，是六："
+    },
+    {
+     "en": "six"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:seven",
+    "edge:six>seven",
+    "focus:seven"
+   ],
+   "parts": [
+    {
+     "zh": "七："
+    },
+    {
+     "en": "seven"
+    },
+    {
+     "zh": "它有两个音节，要读完整，不要吞掉后半截。"
+    },
+    {
+     "en": "seven"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:eight",
+    "edge:seven>eight",
+    "focus:eight"
+   ],
+   "parts": [
+    {
+     "zh": "八："
+    },
+    {
+     "en": "eight"
+    },
+    {
+     "zh": "还记得上一集的女儿吗？这里的 g h，也一样不发音。"
+    },
+    {
+     "en": "eight"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:nine",
+    "edge:eight>nine",
+    "focus:nine"
+   ],
+   "parts": [
+    {
+     "zh": "九："
+    },
+    {
+     "en": "nine"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ten",
+    "edge:nine>ten",
+    "focus:ten"
+   ],
+   "parts": [
+    {
+     "zh": "两只手的十根手指，全部伸出来啦！十："
+    },
+    {
+     "en": "ten"
+    },
+    {
+     "en": "ten fingers"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "仔细看看上下两行，你发现了什么小秘密吗？"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "edge:one>six",
+    "focus:one,six"
+   ],
+   "parts": [
+    {
+     "zh": "上面的一，加上一只手的五，正好就是下面的六。"
+    },
+    {
+     "en": "One plus five is six."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "edge:two>seven",
+    "edge:three>eight",
+    "edge:four>nine",
+    "edge:five>ten",
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "每一对上下的数字，都是这样，相差五。"
+    },
+    {
+     "en": "two, seven",
+     "cue": [
+      "focus:two,seven"
+     ]
+    },
+    {
+     "en": "three, eight",
+     "cue": [
+      "focus:three,eight"
+     ]
+    },
+    {
+     "en": "four, nine",
+     "cue": [
+      "focus:four,nine"
+     ]
+    },
+    {
+     "en": "five, ten",
+     "cue": [
+      "focus:five,ten"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "现在，我们一起从一数到十吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "one",
+     "cue": [
+      "focus:one"
+     ]
+    },
+    {
+     "en": "two",
+     "cue": [
+      "focus:two"
+     ]
+    },
+    {
+     "en": "three",
+     "cue": [
+      "focus:three"
+     ]
+    },
+    {
+     "en": "four",
+     "cue": [
+      "focus:four"
+     ]
+    },
+    {
+     "en": "five",
+     "cue": [
+      "focus:five"
+     ]
+    },
+    {
+     "en": "six",
+     "cue": [
+      "focus:six"
+     ]
+    },
+    {
+     "en": "seven",
+     "cue": [
+      "focus:seven"
+     ]
+    },
+    {
+     "en": "eight",
+     "cue": [
+      "focus:eight"
+     ]
+    },
+    {
+     "en": "nine",
+     "cue": [
+      "focus:nine"
+     ]
+    },
+    {
+     "en": "ten",
+     "cue": [
+      "focus:ten"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "再来倒着数一遍，就像火箭准备发射一样！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "ten",
+     "cue": [
+      "focus:ten"
+     ]
+    },
+    {
+     "en": "nine",
+     "cue": [
+      "focus:nine"
+     ]
+    },
+    {
+     "en": "eight",
+     "cue": [
+      "focus:eight"
+     ]
+    },
+    {
+     "en": "seven",
+     "cue": [
+      "focus:seven"
+     ]
+    },
+    {
+     "en": "six",
+     "cue": [
+      "focus:six"
+     ]
+    },
+    {
+     "en": "five",
+     "cue": [
+      "focus:five"
+     ]
+    },
+    {
+     "en": "four",
+     "cue": [
+      "focus:four"
+     ]
+    },
+    {
+     "en": "three",
+     "cue": [
+      "focus:three"
+     ]
+    },
+    {
+     "en": "two",
+     "cue": [
+      "focus:two"
+     ]
+    },
+    {
+     "en": "one",
+     "cue": [
+      "focus:one"
+     ]
+    },
+    {
+     "en": "Blast off!",
+     "cue": [
+      "focus:none"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "考考你：三加四，等于几？想一想……"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:seven"
+   ],
+   "parts": [
+    {
+     "zh": "答案是七："
+    },
+    {
+     "en": "seven"
+    },
+    {
+     "en": "Three plus four is seven."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "再来一题：二加六，等于几？想一想……"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:eight"
+   ],
+   "parts": [
+    {
+     "zh": "答对了吗？是八："
+    },
+    {
+     "en": "eight"
+    },
+    {
+     "en": "Two plus six is eight."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:number"
+   ],
+   "parts": [
+    {
+     "en": "number, numbers"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:one"
+   ],
+   "parts": [
+    {
+     "en": "one"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:two"
+   ],
+   "parts": [
+    {
+     "en": "two"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:three"
+   ],
+   "parts": [
+    {
+     "en": "three"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:four"
+   ],
+   "parts": [
+    {
+     "en": "four"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:five"
+   ],
+   "parts": [
+    {
+     "en": "five"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:six"
+   ],
+   "parts": [
+    {
+     "en": "six"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:seven"
+   ],
+   "parts": [
+    {
+     "en": "seven"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:eight"
+   ],
+   "parts": [
+    {
+     "en": "eight"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:nine"
+   ],
+   "parts": [
+    {
+     "en": "nine"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ten"
+   ],
+   "parts": [
+    {
+     "en": "ten"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！今天回家，试着用英语数一数你有几个玩具吧。点一点图上的数字，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,680 @@
+{
+ "id": "ep10",
+ "title": "clothes",
+ "titleZh": "衣服",
+ "episode": "第 10 集",
+ "titleIcon": "clothes",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1290
+  ]
+ },
+ "nodes": [
+  {
+   "id": "clothes",
+   "word": "clothes",
+   "ipa": "/kloʊðz/",
+   "zh": "衣服",
+   "icon": "clothes",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "wear",
+   "word": "wear",
+   "ipa": "/wer/",
+   "zh": "穿；戴",
+   "icon": "wear",
+   "kind": "verb",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "hat",
+   "word": "hat",
+   "ipa": "/hæt/",
+   "zh": "帽子",
+   "icon": "hat",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "cap",
+   "word": "cap",
+   "ipa": "/kæp/",
+   "zh": "鸭舌帽",
+   "icon": "cap",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "tshirt",
+   "word": "T-shirt",
+   "ipa": "/ˈtiː ʃɜːrt/",
+   "zh": "T恤衫",
+   "icon": "tshirt",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "underwear",
+   "word": "underwear",
+   "ipa": "/ˈʌndərwer/",
+   "zh": "内衣；内裤",
+   "icon": "underwear",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "trousers",
+   "word": "trousers",
+   "ipa": "/ˈtraʊzərz/",
+   "zh": "裤子",
+   "icon": "trousers",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "sock",
+   "word": "sock",
+   "ipa": "/sɑːk/",
+   "zh": "袜子",
+   "icon": "sock",
+   "plural": "socks",
+   "pluralIpa": "/sɑːks/",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "shoe",
+   "word": "shoe",
+   "ipa": "/ʃuː/",
+   "zh": "鞋子",
+   "icon": "shoe",
+   "plural": "shoes",
+   "pluralIpa": "/ʃuːz/",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "pair",
+   "word": "pair",
+   "ipa": "/per/",
+   "zh": "一双；一对",
+   "icon": "pair",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "wear",
+   "to": "clothes"
+  },
+  {
+   "from": "clothes",
+   "to": "hat"
+  },
+  {
+   "from": "hat",
+   "to": "cap",
+   "label": "只有帽舌"
+  },
+  {
+   "from": "clothes",
+   "to": "tshirt"
+  },
+  {
+   "from": "clothes",
+   "to": "underwear"
+  },
+  {
+   "from": "clothes",
+   "to": "trousers"
+  },
+  {
+   "from": "clothes",
+   "to": "sock"
+  },
+  {
+   "from": "clothes",
+   "to": "shoe"
+  },
+  {
+   "from": "pair",
+   "to": "shoe",
+   "dashed": true
+  },
+  {
+   "from": "pair",
+   "to": "sock",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！早上起床，我们要穿上漂亮的衣服。"
+    },
+    {
+     "en": "clothes"
+    },
+    {
+     "zh": "衣服。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:clothes",
+    "focus:clothes"
+   ],
+   "parts": [
+    {
+     "zh": "身上穿的各种衣服，合在一起，叫"
+    },
+    {
+     "en": "clothes"
+    },
+    {
+     "zh": "它中间的 t h，舌尖要轻轻碰一下牙齿。"
+    },
+    {
+     "en": "These are my clothes."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wear",
+    "edge:wear>clothes",
+    "focus:wear"
+   ],
+   "parts": [
+    {
+     "zh": "把衣服穿在身上，把帽子戴在头上，都用同一个词："
+    },
+    {
+     "en": "wear"
+    },
+    {
+     "en": "I wear a coat."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hat",
+    "edge:clothes>hat",
+    "focus:hat"
+   ],
+   "parts": [
+    {
+     "zh": "我们从头开始。头上戴的、一圈都有帽檐的帽子："
+    },
+    {
+     "en": "hat"
+    },
+    {
+     "en": "a sun hat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cap",
+    "edge:hat>cap",
+    "focus:cap"
+   ],
+   "parts": [
+    {
+     "zh": "只在前面有一个帽舌的，是鸭舌帽："
+    },
+    {
+     "en": "cap"
+    },
+    {
+     "en": "a red cap"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hat,cap"
+   ],
+   "parts": [
+    {
+     "zh": "一圈都有帽檐，是"
+    },
+    {
+     "en": "hat",
+     "cue": [
+      "focus:hat"
+     ]
+    },
+    {
+     "zh": "只有前面的帽舌，是",
+     "cue": [
+      "focus:cap"
+     ]
+    },
+    {
+     "en": "cap"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tshirt",
+    "edge:clothes>tshirt",
+    "focus:tshirt"
+   ],
+   "parts": [
+    {
+     "zh": "身上穿的短袖衫，摊开来像一个大写字母 T，所以叫"
+    },
+    {
+     "en": "T-shirt"
+    },
+    {
+     "en": "a white T-shirt"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:underwear",
+    "edge:clothes>underwear",
+    "focus:underwear"
+   ],
+   "parts": [
+    {
+     "zh": "贴着身体穿在最里面的，是内衣。下面，加上穿："
+    },
+    {
+     "en": "under"
+    },
+    {
+     "en": "wear"
+    },
+    {
+     "en": "underwear"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:trousers",
+    "edge:clothes>trousers",
+    "focus:trousers"
+   ],
+   "parts": [
+    {
+     "zh": "两条腿穿的长长的，是裤子："
+    },
+    {
+     "en": "trousers"
+    },
+    {
+     "zh": "裤子有两条裤腿，所以这个词总是带着字母 s。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sock",
+    "edge:clothes>sock",
+    "focus:sock"
+   ],
+   "parts": [
+    {
+     "zh": "脚上，先穿袜子："
+    },
+    {
+     "en": "sock"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:shoe",
+    "edge:clothes>shoe",
+    "focus:shoe"
+   ],
+   "parts": [
+    {
+     "zh": "再穿上鞋子："
+    },
+    {
+     "en": "shoe"
+    },
+    {
+     "en": "Put on your shoes!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pair",
+    "edge:pair>sock",
+    "edge:pair>shoe",
+    "focus:pair"
+   ],
+   "parts": [
+    {
+     "zh": "袜子和鞋子，都是两只一起穿。两只配成一对，叫"
+    },
+    {
+     "en": "pair"
+    },
+    {
+     "en": "a pair of socks",
+     "cue": [
+      "focus:pair,sock"
+     ]
+    },
+    {
+     "en": "a pair of shoes",
+     "cue": [
+      "focus:pair,shoe"
+     ]
+    },
+    {
+     "zh": "裤子也一样，要说一条裤子：",
+     "cue": [
+      "focus:pair,trousers"
+     ]
+    },
+    {
+     "en": "a pair of trousers"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sock"
+   ],
+   "parts": [
+    {
+     "zh": "很多只袜子、很多只鞋，在后面加上字母 s："
+    },
+    {
+     "en": "sock",
+     "cue": [
+      "focus:sock"
+     ]
+    },
+    {
+     "en": "socks",
+     "cue": [
+      "plural:sock"
+     ]
+    },
+    {
+     "en": "shoe",
+     "cue": [
+      "focus:shoe"
+     ]
+    },
+    {
+     "en": "shoes",
+     "cue": [
+      "plural:shoe"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们一起来穿衣服吧！从里到外，从头到脚！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "underwear",
+     "cue": [
+      "focus:underwear"
+     ]
+    },
+    {
+     "en": "T-shirt",
+     "cue": [
+      "focus:tshirt"
+     ]
+    },
+    {
+     "en": "trousers",
+     "cue": [
+      "focus:trousers"
+     ]
+    },
+    {
+     "en": "socks",
+     "cue": [
+      "focus:sock"
+     ]
+    },
+    {
+     "en": "shoes",
+     "cue": [
+      "focus:shoe"
+     ]
+    },
+    {
+     "en": "and a cap!",
+     "cue": [
+      "focus:cap"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:clothes"
+   ],
+   "parts": [
+    {
+     "en": "clothes"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wear"
+   ],
+   "parts": [
+    {
+     "en": "wear"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hat"
+   ],
+   "parts": [
+    {
+     "en": "hat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cap"
+   ],
+   "parts": [
+    {
+     "en": "cap"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tshirt"
+   ],
+   "parts": [
+    {
+     "en": "T-shirt"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:underwear"
+   ],
+   "parts": [
+    {
+     "en": "underwear"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:trousers"
+   ],
+   "parts": [
+    {
+     "en": "trousers"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sock"
+   ],
+   "parts": [
+    {
+     "en": "sock, socks"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:shoe"
+   ],
+   "parts": [
+    {
+     "en": "shoe, shoes"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pair"
+   ],
+   "parts": [
+    {
+     "en": "pair"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！明天早上穿衣服的时候，一边穿，一边用英语说出来吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

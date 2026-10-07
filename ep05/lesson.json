@@ -1,0 +1,775 @@
+{
+ "id": "ep05",
+ "title": "home",
+ "titleZh": "家",
+ "episode": "第 5 集",
+ "titleIcon": "home",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1680
+  ]
+ },
+ "nodes": [
+  {
+   "id": "home",
+   "word": "home",
+   "ipa": "/hoʊm/",
+   "zh": "家",
+   "icon": "home",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "house",
+   "word": "house",
+   "ipa": "/haʊs/",
+   "zh": "房子",
+   "icon": "house",
+   "atP": [
+    450,
+    495
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "address",
+   "word": "address",
+   "ipa": "/ˈædres/",
+   "zh": "地址",
+   "icon": "address",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "door",
+   "word": "door",
+   "ipa": "/dɔːr/",
+   "zh": "门",
+   "icon": "door",
+   "atP": [
+    150,
+    495
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "lock",
+   "word": "lock",
+   "ipa": "/lɑːk/",
+   "zh": "锁",
+   "icon": "lock",
+   "atP": [
+    150,
+    840
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "key",
+   "word": "key",
+   "ipa": "/kiː/",
+   "zh": "钥匙",
+   "icon": "key",
+   "atP": [
+    150,
+    1185
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "window",
+   "word": "window",
+   "ipa": "/ˈwɪndoʊ/",
+   "zh": "窗户",
+   "icon": "window",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "stairs",
+   "word": "stairs",
+   "ipa": "/sterz/",
+   "zh": "楼梯",
+   "icon": "stairs",
+   "atP": [
+    750,
+    495
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "step",
+   "word": "step",
+   "ipa": "/step/",
+   "zh": "台阶；一步",
+   "icon": "step",
+   "plural": "steps",
+   "pluralIpa": "/steps/",
+   "atP": [
+    750,
+    840
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "gate",
+   "word": "gate",
+   "ipa": "/ɡeɪt/",
+   "zh": "大门",
+   "icon": "gate",
+   "atP": [
+    450,
+    840
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "yard",
+   "word": "yard",
+   "ipa": "/jɑːrd/",
+   "zh": "院子",
+   "icon": "yard",
+   "atP": [
+    450,
+    1185
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "flower",
+   "word": "flower",
+   "ipa": "/ˈflaʊər/",
+   "zh": "花",
+   "icon": "flower",
+   "plural": "flowers",
+   "pluralIpa": "/ˈflaʊərz/",
+   "atP": [
+    450,
+    1530
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "pool",
+   "word": "pool",
+   "ipa": "/puːl/",
+   "zh": "游泳池",
+   "icon": "pool",
+   "atP": [
+    750,
+    1185
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "home",
+   "to": "address"
+  },
+  {
+   "from": "home",
+   "to": "house"
+  },
+  {
+   "from": "house",
+   "to": "door"
+  },
+  {
+   "from": "door",
+   "to": "lock"
+  },
+  {
+   "from": "key",
+   "to": "lock",
+   "label": "打开"
+  },
+  {
+   "from": "house",
+   "to": "window"
+  },
+  {
+   "from": "house",
+   "to": "stairs"
+  },
+  {
+   "from": "stairs",
+   "to": "step",
+   "label": "每一级"
+  },
+  {
+   "from": "house",
+   "to": "gate"
+  },
+  {
+   "from": "gate",
+   "to": "yard",
+   "label": "走进"
+  },
+  {
+   "from": "yard",
+   "to": "flower"
+  },
+  {
+   "from": "yard",
+   "to": "pool"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！今天我们来认识自己的家。英语里，有两个词都和家有关。"
+    },
+    {
+     "en": "home"
+    },
+    {
+     "en": "house"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:home",
+    "focus:home"
+   ],
+   "parts": [
+    {
+     "zh": "第一个是"
+    },
+    {
+     "en": "home"
+    },
+    {
+     "zh": "它是有爸爸妈妈、让你觉得温暖的那个家。"
+    },
+    {
+     "en": "I love my home."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:house",
+    "edge:home>house",
+    "focus:house"
+   ],
+   "parts": [
+    {
+     "zh": "第二个是"
+    },
+    {
+     "en": "house"
+    },
+    {
+     "zh": "它说的是房子本身，是用砖头和木头盖起来、看得见摸得着的建筑。"
+    },
+    {
+     "en": "This is my house."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:home,house"
+   ],
+   "parts": [
+    {
+     "zh": "一个是温暖的家，一个是盖好的房子。放学了，我们要说："
+    },
+    {
+     "en": "Let's go home!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:address",
+    "edge:home>address",
+    "focus:address"
+   ],
+   "parts": [
+    {
+     "zh": "要让快递叔叔找到你的家，就要写清楚地址："
+    },
+    {
+     "en": "address"
+    },
+    {
+     "zh": "小提示：它有两个字母 d，最后还有两个字母 s。"
+    },
+    {
+     "en": "What's your address?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:door",
+    "edge:house>door",
+    "focus:door"
+   ],
+   "parts": [
+    {
+     "zh": "走到房子跟前，先看到的是门："
+    },
+    {
+     "en": "door"
+    },
+    {
+     "en": "Open the door, please."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:lock",
+    "edge:door>lock",
+    "focus:lock"
+   ],
+   "parts": [
+    {
+     "zh": "门上有一把锁，锁好了，家里就安全啦："
+    },
+    {
+     "en": "lock"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:key",
+    "edge:key>lock",
+    "focus:key"
+   ],
+   "parts": [
+    {
+     "zh": "要打开这把锁，就得用钥匙："
+    },
+    {
+     "en": "key"
+    },
+    {
+     "en": "Where is my key?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:window",
+    "edge:house>window",
+    "focus:window"
+   ],
+   "parts": [
+    {
+     "zh": "房子上还有窗户，阳光从这里照进来："
+    },
+    {
+     "en": "window"
+    },
+    {
+     "en": "Look out of the window."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:stairs",
+    "edge:house>stairs",
+    "focus:stairs"
+   ],
+   "parts": [
+    {
+     "zh": "上楼下楼，要走楼梯："
+    },
+    {
+     "en": "stairs"
+    },
+    {
+     "zh": "楼梯有很多级，所以这个词的最后，总是带着字母 s。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:step",
+    "edge:stairs>step",
+    "focus:step"
+   ],
+   "parts": [
+    {
+     "zh": "楼梯上的每一级是台阶；迈出去的一步，也用这个词："
+    },
+    {
+     "en": "step"
+    },
+    {
+     "en": "one step"
+    },
+    {
+     "en": "two steps",
+     "cue": [
+      "plural:step"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:gate",
+    "edge:house>gate",
+    "focus:gate"
+   ],
+   "parts": [
+    {
+     "zh": "房子外面的围墙上，还有一扇大门："
+    },
+    {
+     "en": "gate"
+    },
+    {
+     "zh": "房子上的门和院子外的大门，可不是同一个词哦。"
+    },
+    {
+     "en": "door",
+     "cue": [
+      "focus:door"
+     ]
+    },
+    {
+     "en": "gate",
+     "cue": [
+      "focus:gate"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:yard",
+    "edge:gate>yard",
+    "focus:yard"
+   ],
+   "parts": [
+    {
+     "zh": "走进大门，就是院子："
+    },
+    {
+     "en": "yard"
+    },
+    {
+     "en": "We play in the yard."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:flower",
+    "edge:yard>flower",
+    "focus:flower"
+   ],
+   "parts": [
+    {
+     "zh": "院子里，开满了漂亮的花："
+    },
+    {
+     "en": "flower"
+    },
+    {
+     "en": "flowers",
+     "cue": [
+      "plural:flower"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pool",
+    "edge:yard>pool",
+    "focus:pool"
+   ],
+   "parts": [
+    {
+     "zh": "要是院子很大，说不定还有一个游泳池："
+    },
+    {
+     "en": "pool"
+    },
+    {
+     "en": "Let's swim in the pool!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "现在，我们从外面一路走回家里，再说一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "gate",
+     "cue": [
+      "focus:gate"
+     ]
+    },
+    {
+     "en": "yard",
+     "cue": [
+      "focus:yard"
+     ]
+    },
+    {
+     "en": "door",
+     "cue": [
+      "focus:door"
+     ]
+    },
+    {
+     "en": "stairs",
+     "cue": [
+      "focus:stairs"
+     ]
+    },
+    {
+     "en": "house",
+     "cue": [
+      "focus:house"
+     ]
+    },
+    {
+     "en": "home",
+     "cue": [
+      "focus:home"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:home"
+   ],
+   "parts": [
+    {
+     "en": "home"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:house"
+   ],
+   "parts": [
+    {
+     "en": "house"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:address"
+   ],
+   "parts": [
+    {
+     "en": "address"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:door"
+   ],
+   "parts": [
+    {
+     "en": "door"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:lock"
+   ],
+   "parts": [
+    {
+     "en": "lock"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:key"
+   ],
+   "parts": [
+    {
+     "en": "key"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:window"
+   ],
+   "parts": [
+    {
+     "en": "window"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:stairs"
+   ],
+   "parts": [
+    {
+     "en": "stairs"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:step"
+   ],
+   "parts": [
+    {
+     "en": "step, steps"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:gate"
+   ],
+   "parts": [
+    {
+     "en": "gate"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:yard"
+   ],
+   "parts": [
+    {
+     "en": "yard"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:flower"
+   ],
+   "parts": [
+    {
+     "en": "flower, flowers"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pool"
+   ],
+   "parts": [
+    {
+     "en": "pool"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！回家的路上，试着用英语说一说你看到的东西。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

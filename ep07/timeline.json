@@ -1,0 +1,804 @@
+{
+ "duration": 176.659,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！今天我们来学动作。准备好了吗？一起动起来！",
+   "t0": 0.4,
+   "t1": 6.73,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "action",
+   "t0": 6.98,
+   "t1": 7.574,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "动作，行动。",
+   "t0": 8.074,
+   "t1": 9.282,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "拍电影的时候，导演一喊这个词，演员们就开始表演啦：",
+   "t0": 10.132,
+   "t1": 14.867,
+   "cue": [
+    "map",
+    "show:action",
+    "focus:action"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "Action!",
+   "t0": 15.117,
+   "t1": 15.685,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "它的意思，就是动作、行动。",
+   "t0": 16.185,
+   "t1": 18.769,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "action",
+   "t0": 19.019,
+   "t1": 19.614,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "两只脚轮流向前，一步一步地走：",
+   "t0": 20.714,
+   "t1": 23.461,
+   "cue": [
+    "show:walk",
+    "edge:action>walk",
+    "focus:walk"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "walk",
+   "t0": 23.711,
+   "t1": 24.16,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Let's walk to school.",
+   "t0": 24.66,
+   "t1": 25.865,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "走得越来越快，两只脚一起离开地面，就变成了跑：",
+   "t0": 26.965,
+   "t1": 31.326,
+   "cue": [
+    "show:run",
+    "edge:walk>run",
+    "focus:run"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "run",
+   "t0": 31.576,
+   "t1": 32.018,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Run, run, run!",
+   "t0": 32.518,
+   "t1": 34.106,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "停下脚步，直直地站好：",
+   "t0": 35.206,
+   "t1": 37.414,
+   "cue": [
+    "show:stand",
+    "edge:walk>stand",
+    "focus:stand"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "stand",
+   "t0": 37.664,
+   "t1": 38.253,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "Stand up, please.",
+   "t0": 38.753,
+   "t1": 40.28,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "站累了，找一把椅子坐下来：",
+   "t0": 41.38,
+   "t1": 43.722,
+   "cue": [
+    "show:sit",
+    "edge:stand>sit",
+    "focus:sit"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "sit",
+   "t0": 43.972,
+   "t1": 44.493,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Sit down, please.",
+   "t0": 44.993,
+   "t1": 46.553,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "站起来，是",
+   "t0": 47.653,
+   "t1": 48.817,
+   "cue": [
+    "focus:stand,sit"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "stand up",
+   "t0": 49.067,
+   "t1": 49.774,
+   "cue": [
+    "focus:stand"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "坐下去，是",
+   "t0": 50.274,
+   "t1": 51.523,
+   "cue": [
+    "focus:sit"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "sit down",
+   "t0": 51.773,
+   "t1": 52.566,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "站在路口，红灯亮了，要耐心地等一等：",
+   "t0": 53.666,
+   "t1": 57.09,
+   "cue": [
+    "show:wait",
+    "edge:stand>wait",
+    "focus:wait"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "wait",
+   "t0": 57.34,
+   "t1": 57.808,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "Wait for me!",
+   "t0": 58.308,
+   "t1": 59.095,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "下面是眼睛的动作。把眼睛转过去，专门去看：",
+   "t0": 60.195,
+   "t1": 64.655,
+   "cue": [
+    "show:look",
+    "edge:action>look",
+    "focus:look"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "look",
+   "t0": 64.905,
+   "t1": 65.322,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Look at me!",
+   "t0": 65.822,
+   "t1": 66.518,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "东西自己跑进了你的眼睛里，就是看见：",
+   "t0": 67.618,
+   "t1": 70.807,
+   "cue": [
+    "show:see",
+    "edge:look>see",
+    "focus:see"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "see",
+   "t0": 71.057,
+   "t1": 71.501,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "I can see a bird.",
+   "t0": 72.001,
+   "t1": 73.079,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "看，是你主动去看；看见，是看的结果。",
+   "t0": 74.179,
+   "t1": 77.941,
+   "cue": [
+    "focus:look,see"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Look! Can you see it?",
+   "t0": 78.191,
+   "t1": 80.651,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "最后是嘴巴的动作。这四个词都和说话有关，用法却各不相同哦。",
+   "t0": 81.751,
+   "t1": 87.926,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "两个人你一句、我一句，聊天交谈，用",
+   "t0": 88.776,
+   "t1": 92.303,
+   "cue": [
+    "show:talk",
+    "focus:talk"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "talk",
+   "t0": 92.553,
+   "t1": 93.017,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "常常这样说：",
+   "t0": 93.517,
+   "t1": 94.566,
+   "cue": [
+    "alt:talk"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "talk with friends",
+   "t0": 94.816,
+   "t1": 95.882,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "说出一句具体的话，用",
+   "t0": 96.982,
+   "t1": 98.981,
+   "cue": [
+    "show:say",
+    "focus:say"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "say",
+   "t0": 99.231,
+   "t1": 99.706,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "比如，说一声你好：",
+   "t0": 100.206,
+   "t1": 101.828,
+   "cue": [
+    "alt:say"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "say hello",
+   "t0": 102.078,
+   "t1": 102.913,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "说一种语言，用",
+   "t0": 104.013,
+   "t1": 105.567,
+   "cue": [
+    "show:speak",
+    "focus:speak"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "speak",
+   "t0": 105.817,
+   "t1": 106.333,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "比如，说英语：",
+   "t0": 106.833,
+   "t1": 108.227,
+   "cue": [
+    "alt:speak"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "speak English",
+   "t0": 108.477,
+   "t1": 109.507,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "把一件事告诉别人，或者讲一个故事，用",
+   "t0": 110.607,
+   "t1": 114.177,
+   "cue": [
+    "show:tell",
+    "focus:tell"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "tell",
+   "t0": 114.427,
+   "t1": 114.86,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "比如，讲一个故事：",
+   "t0": 115.36,
+   "t1": 116.982,
+   "cue": [
+    "alt:tell"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "tell a story",
+   "t0": 117.232,
+   "t1": 118.153,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "我们把这四个连起来说一遍：",
+   "t0": 119.253,
+   "t1": 121.269,
+   "cue": [
+    "focus:talk,say,speak,tell"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "talk with friends",
+   "t0": 121.519,
+   "t1": 122.586,
+   "cue": [
+    "focus:talk"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "say hello",
+   "t0": 123.086,
+   "t1": 123.921,
+   "cue": [
+    "focus:say"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "speak English",
+   "t0": 124.421,
+   "t1": 125.451,
+   "cue": [
+    "focus:speak"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "tell a story",
+   "t0": 125.951,
+   "t1": 126.872,
+   "cue": [
+    "focus:tell"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "来玩个小游戏吧！听到口令，就跟着做动作！",
+   "t0": 127.972,
+   "t1": 132.006,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Stand up!",
+   "t0": 132.856,
+   "t1": 133.581,
+   "cue": [
+    "focus:stand"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Walk!",
+   "t0": 134.081,
+   "t1": 134.542,
+   "cue": [
+    "focus:walk"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Run!",
+   "t0": 135.042,
+   "t1": 135.478,
+   "cue": [
+    "focus:run"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Stop! Wait!",
+   "t0": 135.978,
+   "t1": 138.147,
+   "cue": [
+    "focus:wait"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Look!",
+   "t0": 138.647,
+   "t1": 139.096,
+   "cue": [
+    "focus:look"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Sit down.",
+   "t0": 139.596,
+   "t1": 140.389,
+   "cue": [
+    "focus:sit"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 141.489,
+   "t1": 144.739,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "action",
+   "t0": 145.589,
+   "t1": 146.184,
+   "cue": [
+    "focus:action"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "walk",
+   "t0": 147.284,
+   "t1": 147.733,
+   "cue": [
+    "focus:walk"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "run",
+   "t0": 148.833,
+   "t1": 149.274,
+   "cue": [
+    "focus:run"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "stand",
+   "t0": 150.374,
+   "t1": 150.964,
+   "cue": [
+    "focus:stand"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "sit",
+   "t0": 152.064,
+   "t1": 152.585,
+   "cue": [
+    "focus:sit"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "wait",
+   "t0": 153.685,
+   "t1": 154.153,
+   "cue": [
+    "focus:wait"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "look",
+   "t0": 155.253,
+   "t1": 155.67,
+   "cue": [
+    "focus:look"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "see",
+   "t0": 156.77,
+   "t1": 157.214,
+   "cue": [
+    "focus:see"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "talk",
+   "t0": 158.314,
+   "t1": 158.778,
+   "cue": [
+    "focus:talk"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "say",
+   "t0": 159.878,
+   "t1": 160.353,
+   "cue": [
+    "focus:say"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "speak",
+   "t0": 161.453,
+   "t1": 161.969,
+   "cue": [
+    "focus:speak"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "tell",
+   "t0": 163.069,
+   "t1": 163.502,
+   "cue": [
+    "focus:tell"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "zh",
+   "text": "太棒了！今天回家，用英语给爸爸妈妈发口令，让他们也动起来吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 164.602,
+   "t1": 174.809,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "action": [
+   0.25,
+   0.844
+  ],
+  "walk": [
+   1.094,
+   1.543
+  ],
+  "run": [
+   1.793,
+   2.235
+  ],
+  "stand": [
+   2.485,
+   3.074
+  ],
+  "sit": [
+   3.324,
+   3.845
+  ],
+  "wait": [
+   4.095,
+   4.563
+  ],
+  "look": [
+   4.813,
+   5.231
+  ],
+  "see": [
+   5.481,
+   5.924
+  ],
+  "talk": [
+   6.174,
+   6.638
+  ],
+  "talk:alt": [
+   6.888,
+   7.955
+  ],
+  "say": [
+   8.205,
+   8.68
+  ],
+  "say:alt": [
+   8.93,
+   9.766
+  ],
+  "speak": [
+   10.016,
+   10.532
+  ],
+  "speak:alt": [
+   10.782,
+   11.812
+  ],
+  "tell": [
+   12.062,
+   12.495
+  ],
+  "tell:alt": [
+   12.745,
+   13.666
+  ]
+ }
+}

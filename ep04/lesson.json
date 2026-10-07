@@ -1,0 +1,745 @@
+{
+ "id": "ep04",
+ "title": "birthday",
+ "titleZh": "生日",
+ "episode": "第 4 集",
+ "titleIcon": "birthday",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1290
+  ]
+ },
+ "nodes": [
+  {
+   "id": "birthday",
+   "word": "birthday",
+   "ipa": "/ˈbɜːrθdeɪ/",
+   "zh": "生日",
+   "icon": "birthday",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "party",
+   "word": "party",
+   "ipa": "/ˈpɑːrti/",
+   "zh": "聚会；派对",
+   "icon": "party",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "cake",
+   "word": "cake",
+   "ipa": "/keɪk/",
+   "zh": "蛋糕",
+   "icon": "cake",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "candle",
+   "word": "candle",
+   "ipa": "/ˈkændl/",
+   "zh": "蜡烛",
+   "icon": "candle",
+   "plural": "candles",
+   "pluralIpa": "/ˈkændlz/",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "match",
+   "word": "match",
+   "ipa": "/mætʃ/",
+   "zh": "火柴",
+   "icon": "match",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "wish",
+   "word": "wish",
+   "ipa": "/wɪʃ/",
+   "zh": "愿望；许愿",
+   "icon": "wish",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "blow",
+   "word": "blow",
+   "ipa": "/bloʊ/",
+   "zh": "吹",
+   "icon": "blow",
+   "kind": "verb",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "balloon",
+   "word": "balloon",
+   "ipa": "/bəˈluːn/",
+   "zh": "气球",
+   "icon": "balloon",
+   "plural": "balloons",
+   "pluralIpa": "/bəˈluːnz/",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  },
+  {
+   "id": "present",
+   "word": "present",
+   "ipa": "/ˈpreznt/",
+   "zh": "礼物",
+   "icon": "present",
+   "alt": "gift",
+   "plural": "presents",
+   "pluralIpa": "/ˈpreznts/",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "give",
+   "word": "give",
+   "ipa": "/ɡɪv/",
+   "zh": "给；送",
+   "icon": "give",
+   "kind": "verb",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "get",
+   "word": "get",
+   "ipa": "/ɡet/",
+   "zh": "得到；收到",
+   "icon": "get",
+   "kind": "verb",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "for",
+   "word": "for",
+   "ipa": "/fɔːr/",
+   "zh": "为了；给…的",
+   "icon": "for",
+   "kind": "prep",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "birthday",
+   "to": "party"
+  },
+  {
+   "from": "party",
+   "to": "cake"
+  },
+  {
+   "from": "party",
+   "to": "present"
+  },
+  {
+   "from": "cake",
+   "to": "candle",
+   "label": "插上"
+  },
+  {
+   "from": "match",
+   "to": "candle",
+   "label": "点燃"
+  },
+  {
+   "from": "candle",
+   "to": "blow",
+   "label": "吹灭"
+  },
+  {
+   "from": "blow",
+   "to": "balloon",
+   "label": "吹"
+  },
+  {
+   "from": "wish",
+   "to": "blow",
+   "label": "许完愿",
+   "dashed": true
+  },
+  {
+   "from": "present",
+   "to": "give"
+  },
+  {
+   "from": "present",
+   "to": "get"
+  },
+  {
+   "from": "give",
+   "to": "for",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！今天的单词，和一年里最开心的一天有关。"
+    },
+    {
+     "en": "birthday"
+    },
+    {
+     "zh": "生日。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:birthday",
+    "focus:birthday"
+   ],
+   "parts": [
+    {
+     "zh": "你出生的那一天，每年都会再来一次，它就是你的生日："
+    },
+    {
+     "en": "birthday"
+    },
+    {
+     "en": "Happy birthday!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:party",
+    "edge:birthday>party",
+    "focus:party"
+   ],
+   "parts": [
+    {
+     "zh": "过生日，最开心的就是开一个热热闹闹的聚会："
+    },
+    {
+     "en": "party"
+    },
+    {
+     "en": "a birthday party"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cake",
+    "edge:party>cake",
+    "focus:cake"
+   ],
+   "parts": [
+    {
+     "zh": "聚会上，怎么能少了甜甜的蛋糕？蛋糕，英语是"
+    },
+    {
+     "en": "cake"
+    },
+    {
+     "en": "a big cake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:candle",
+    "edge:cake>candle",
+    "focus:candle"
+   ],
+   "parts": [
+    {
+     "zh": "蛋糕上要插上蜡烛，几岁就插几根："
+    },
+    {
+     "en": "candle"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:match",
+    "edge:match>candle",
+    "focus:match"
+   ],
+   "parts": [
+    {
+     "zh": "蜡烛要点亮，就要用到火柴："
+    },
+    {
+     "en": "match"
+    },
+    {
+     "zh": "火柴有危险，一定要请大人帮忙点哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wish",
+    "focus:wish,candle"
+   ],
+   "parts": [
+    {
+     "zh": "蜡烛亮起来啦！先闭上眼睛，在心里许一个愿望："
+    },
+    {
+     "en": "wish"
+    },
+    {
+     "en": "Make a wish!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:blow",
+    "edge:candle>blow",
+    "edge:wish>blow",
+    "focus:blow"
+   ],
+   "parts": [
+    {
+     "zh": "许完愿，深吸一口气，呼——把蜡烛吹灭！吹，英语是"
+    },
+    {
+     "en": "blow"
+    },
+    {
+     "en": "Blow out the candles!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:balloon",
+    "edge:blow>balloon",
+    "focus:balloon"
+   ],
+   "parts": [
+    {
+     "zh": "嘴巴还能吹什么？对啦，吹气球！气球是"
+    },
+    {
+     "en": "balloon"
+    },
+    {
+     "zh": "小提示：它中间有两个字母 l，还有两个字母 o。"
+    },
+    {
+     "en": "Let's blow up a balloon!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:present",
+    "edge:party>present",
+    "focus:present"
+   ],
+   "parts": [
+    {
+     "zh": "朋友们来参加聚会，还会带来礼物："
+    },
+    {
+     "en": "present"
+    },
+    {
+     "zh": "礼物还有一个更短的说法，叫",
+     "cue": [
+      "alt:present"
+     ]
+    },
+    {
+     "en": "gift"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:give",
+    "edge:present>give",
+    "focus:give"
+   ],
+   "parts": [
+    {
+     "zh": "把礼物送给别人，是给："
+    },
+    {
+     "en": "give"
+    },
+    {
+     "en": "I give you a present."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:get",
+    "edge:present>get",
+    "focus:get"
+   ],
+   "parts": [
+    {
+     "zh": "收到别人送来的礼物，就是得到："
+    },
+    {
+     "en": "get"
+    },
+    {
+     "en": "I get a present!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:for",
+    "edge:give>for",
+    "focus:for"
+   ],
+   "parts": [
+    {
+     "zh": "这份礼物，是专门为你准备的。说给谁的、为了谁，就用这个小小的词："
+    },
+    {
+     "en": "for"
+    },
+    {
+     "en": "This present is for you."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "生日聚会上，很多东西都不止一个。一个变成很多个，后面加上字母 s 就好啦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:candle"
+   ],
+   "parts": [
+    {
+     "en": "candle",
+     "cue": [
+      "focus:candle"
+     ]
+    },
+    {
+     "en": "candles",
+     "cue": [
+      "plural:candle"
+     ]
+    },
+    {
+     "en": "balloon",
+     "cue": [
+      "focus:balloon"
+     ]
+    },
+    {
+     "en": "balloons",
+     "cue": [
+      "plural:balloon"
+     ]
+    },
+    {
+     "en": "present",
+     "cue": [
+      "focus:present"
+     ]
+    },
+    {
+     "en": "presents",
+     "cue": [
+      "plural:present"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:give,get"
+   ],
+   "parts": [
+    {
+     "zh": "给和得到，正好是一对。我送出去，是"
+    },
+    {
+     "en": "give",
+     "cue": [
+      "focus:give"
+     ]
+    },
+    {
+     "zh": "我收进来，是",
+     "cue": [
+      "focus:get"
+     ]
+    },
+    {
+     "en": "get"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:birthday"
+   ],
+   "parts": [
+    {
+     "zh": "最后，我们一起来唱一句生日歌吧！"
+    },
+    {
+     "en": "Happy birthday to you!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:birthday"
+   ],
+   "parts": [
+    {
+     "en": "birthday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:party"
+   ],
+   "parts": [
+    {
+     "en": "party"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cake"
+   ],
+   "parts": [
+    {
+     "en": "cake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:candle"
+   ],
+   "parts": [
+    {
+     "en": "candle, candles"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:match"
+   ],
+   "parts": [
+    {
+     "en": "match"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wish"
+   ],
+   "parts": [
+    {
+     "en": "wish"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:blow"
+   ],
+   "parts": [
+    {
+     "en": "blow"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:balloon"
+   ],
+   "parts": [
+    {
+     "en": "balloon, balloons"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:present"
+   ],
+   "parts": [
+    {
+     "en": "present, gift"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:give"
+   ],
+   "parts": [
+    {
+     "en": "give"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:get"
+   ],
+   "parts": [
+    {
+     "en": "get"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:for"
+   ],
+   "parts": [
+    {
+     "en": "for"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！下次过生日的时候，记得用英语许一个愿哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

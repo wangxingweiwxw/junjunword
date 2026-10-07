@@ -1,0 +1,733 @@
+{
+ "id": "ep09",
+ "title": "sports",
+ "titleZh": "运动",
+ "episode": "第 9 集",
+ "titleIcon": "sports",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1660
+  ]
+ },
+ "nodes": [
+  {
+   "id": "sports",
+   "word": "sports",
+   "ipa": "/spɔːrts/",
+   "zh": "运动；体育",
+   "icon": "sports",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "run",
+   "word": "run",
+   "ipa": "/rʌn/",
+   "zh": "跑",
+   "icon": "run",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "race",
+   "word": "race",
+   "ipa": "/reɪs/",
+   "zh": "赛跑；比赛",
+   "icon": "race",
+   "atP": [
+    150,
+    490
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "jump",
+   "word": "jump",
+   "ipa": "/dʒʌmp/",
+   "zh": "跳",
+   "icon": "jump",
+   "kind": "verb",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "fall",
+   "word": "fall",
+   "ipa": "/fɔːl/",
+   "zh": "摔倒；落下",
+   "icon": "fall",
+   "kind": "verb",
+   "alt": "fell",
+   "altLabel": "过去式",
+   "atP": [
+    750,
+    490
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "ball",
+   "word": "ball",
+   "ipa": "/bɔːl/",
+   "zh": "球",
+   "icon": "ball",
+   "atP": [
+    450,
+    830
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "football",
+   "word": "football",
+   "ipa": "/ˈfʊtbɔːl/",
+   "zh": "足球",
+   "icon": "football",
+   "atP": [
+    150,
+    830
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "soccer",
+   "word": "soccer",
+   "ipa": "/ˈsɑːkər/",
+   "zh": "足球（美式）",
+   "icon": "soccer",
+   "atP": [
+    150,
+    1170
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "basketball",
+   "word": "basketball",
+   "ipa": "/ˈbæskɪtbɔːl/",
+   "zh": "篮球",
+   "icon": "basketball",
+   "atP": [
+    750,
+    830
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "volleyball",
+   "word": "volleyball",
+   "ipa": "/ˈvɑːlibɔːl/",
+   "zh": "排球",
+   "icon": "volleyball",
+   "atP": [
+    750,
+    1170
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "tabletennis",
+   "word": "table tennis",
+   "ipa": "/ˈteɪbl ˌtenɪs/",
+   "zh": "乒乓球",
+   "icon": "tabletennis",
+   "atP": [
+    450,
+    1170
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "net",
+   "word": "net",
+   "ipa": "/net/",
+   "zh": "网",
+   "icon": "net",
+   "atP": [
+    450,
+    1510
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "sports",
+   "to": "run"
+  },
+  {
+   "from": "sports",
+   "to": "jump"
+  },
+  {
+   "from": "run",
+   "to": "race",
+   "label": "比一比"
+  },
+  {
+   "from": "jump",
+   "to": "fall",
+   "label": "没站稳"
+  },
+  {
+   "from": "sports",
+   "to": "ball"
+  },
+  {
+   "from": "ball",
+   "to": "football"
+  },
+  {
+   "from": "ball",
+   "to": "basketball"
+  },
+  {
+   "from": "ball",
+   "to": "tabletennis"
+  },
+  {
+   "from": "ball",
+   "to": "volleyball"
+  },
+  {
+   "from": "football",
+   "to": "soccer",
+   "label": "美国叫"
+  },
+  {
+   "from": "tabletennis",
+   "to": "net"
+  },
+  {
+   "from": "volleyball",
+   "to": "net"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！今天，我们来学运动。"
+    },
+    {
+     "en": "sports"
+    },
+    {
+     "zh": "运动，体育。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:sports",
+    "focus:sports"
+   ],
+   "parts": [
+    {
+     "zh": "跑跑跳跳、打球踢球，这些都是运动："
+    },
+    {
+     "en": "sports"
+    },
+    {
+     "zh": "运动有很多很多种，所以这个词常常带着字母 s。"
+    },
+    {
+     "en": "I love sports!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:run",
+    "edge:sports>run",
+    "focus:run"
+   ],
+   "parts": [
+    {
+     "zh": "最简单的运动是跑步。还记得第七集学过的吗？"
+    },
+    {
+     "en": "run"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:race",
+    "edge:run>race",
+    "focus:race"
+   ],
+   "parts": [
+    {
+     "zh": "大家站在同一条起跑线上，比一比谁跑得快，就是赛跑："
+    },
+    {
+     "en": "race"
+    },
+    {
+     "en": "Let's have a race!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:jump",
+    "edge:sports>jump",
+    "focus:jump"
+   ],
+   "parts": [
+    {
+     "zh": "两只脚用力一蹬，跳起来："
+    },
+    {
+     "en": "jump"
+    },
+    {
+     "en": "Jump high!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fall",
+    "edge:jump>fall",
+    "focus:fall"
+   ],
+   "parts": [
+    {
+     "zh": "哎呀，没站稳，摔倒了！摔倒、落下，英语是"
+    },
+    {
+     "en": "fall"
+    },
+    {
+     "zh": "如果是已经摔倒了，要说成",
+     "cue": [
+      "alt:fall"
+     ]
+    },
+    {
+     "en": "fell"
+    },
+    {
+     "zh": "把字母 a 换成 e，就变成过去发生的事啦。"
+    },
+    {
+     "en": "He fell down."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ball",
+    "edge:sports>ball",
+    "focus:ball"
+   ],
+   "parts": [
+    {
+     "zh": "很多运动，都离不开一个圆圆的球："
+    },
+    {
+     "en": "ball"
+    },
+    {
+     "en": "Catch the ball!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:football",
+    "edge:ball>football",
+    "focus:football"
+   ],
+   "parts": [
+    {
+     "zh": "用脚踢的球，是足球。还记得上一集的脚吗？脚加上球："
+    },
+    {
+     "en": "foot"
+    },
+    {
+     "en": "ball"
+    },
+    {
+     "en": "football"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:soccer",
+    "edge:football>soccer",
+    "focus:soccer"
+   ],
+   "parts": [
+    {
+     "zh": "在美国，足球还有另外一个名字："
+    },
+    {
+     "en": "soccer"
+    },
+    {
+     "en": "Let's play soccer."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:basketball",
+    "edge:ball>basketball",
+    "focus:basketball"
+   ],
+   "parts": [
+    {
+     "zh": "把球投进高高的篮筐里，是篮球。篮子，加上球："
+    },
+    {
+     "en": "basket"
+    },
+    {
+     "en": "basketball"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:volleyball",
+    "edge:ball>volleyball",
+    "focus:volleyball"
+   ],
+   "parts": [
+    {
+     "zh": "隔着一张网，用手把球拍来拍去，是排球："
+    },
+    {
+     "en": "volleyball"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tabletennis",
+    "edge:ball>tabletennis",
+    "focus:tabletennis"
+   ],
+   "parts": [
+    {
+     "zh": "在桌子上打的小小的球，是乒乓球。桌子，加上网球："
+    },
+    {
+     "en": "table"
+    },
+    {
+     "en": "tennis"
+    },
+    {
+     "en": "table tennis"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:net",
+    "edge:tabletennis>net",
+    "edge:volleyball>net",
+    "focus:net"
+   ],
+   "parts": [
+    {
+     "zh": "排球场和乒乓球桌的中间，都拦着一张网："
+    },
+    {
+     "en": "net"
+    },
+    {
+     "en": "Hit the ball over the net."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "你发现了吗？好多球类的名字，都是用小词拼起来的。"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "foot, ball, football",
+     "cue": [
+      "focus:football"
+     ]
+    },
+    {
+     "en": "basket, ball, basketball",
+     "cue": [
+      "focus:basketball"
+     ]
+    },
+    {
+     "en": "table, tennis, table tennis",
+     "cue": [
+      "focus:tabletennis"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "说打球、踢球，英语里都用同一个词"
+    },
+    {
+     "en": "play"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "play football",
+     "cue": [
+      "focus:football"
+     ]
+    },
+    {
+     "en": "play basketball",
+     "cue": [
+      "focus:basketball"
+     ]
+    },
+    {
+     "en": "play table tennis",
+     "cue": [
+      "focus:tabletennis"
+     ]
+    },
+    {
+     "en": "My favorite sport is basketball.",
+     "cue": [
+      "focus:basketball"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sports"
+   ],
+   "parts": [
+    {
+     "en": "sports"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:run"
+   ],
+   "parts": [
+    {
+     "en": "run"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:race"
+   ],
+   "parts": [
+    {
+     "en": "race"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:jump"
+   ],
+   "parts": [
+    {
+     "en": "jump"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fall"
+   ],
+   "parts": [
+    {
+     "en": "fall, fell"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ball"
+   ],
+   "parts": [
+    {
+     "en": "ball"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:football"
+   ],
+   "parts": [
+    {
+     "en": "football"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:soccer"
+   ],
+   "parts": [
+    {
+     "en": "soccer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:basketball"
+   ],
+   "parts": [
+    {
+     "en": "basketball"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:volleyball"
+   ],
+   "parts": [
+    {
+     "en": "volleyball"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tabletennis"
+   ],
+   "parts": [
+    {
+     "en": "table tennis"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:net"
+   ],
+   "parts": [
+    {
+     "en": "net"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！你最喜欢哪一项运动？试着用英语告诉爸爸妈妈吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

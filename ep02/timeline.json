@@ -1,0 +1,817 @@
+{
+ "duration": 222.278,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！今天要学的单词，听起来就很温暖。",
+   "t0": 0.4,
+   "t1": 5.054,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "family",
+   "t0": 5.304,
+   "t1": 5.867,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "意思是，家庭，一家人。",
+   "t0": 6.367,
+   "t1": 8.683,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "爸爸、妈妈和你，住在同一个屋檐下，就组成了一个家。家庭，英语叫",
+   "t0": 9.533,
+   "t1": 16.221,
+   "cue": [
+    "map",
+    "show:family",
+    "focus:family"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "family",
+   "t0": 16.471,
+   "t1": 17.034,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "This is my family.",
+   "t0": 17.534,
+   "t1": 18.719,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "先来认识家里每天照顾你的人，妈妈。妈妈，正式一点的说法是",
+   "t0": 19.819,
+   "t1": 25.653,
+   "cue": [
+    "show:mother",
+    "focus:mother"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "mother",
+   "t0": 25.903,
+   "t1": 26.382,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "在家里，我们更常亲切地叫她",
+   "t0": 26.882,
+   "t1": 29.474,
+   "cue": [
+    "alt:mother"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "mom",
+   "t0": 29.724,
+   "t1": 30.137,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "I love you, Mom!",
+   "t0": 30.637,
+   "t1": 31.997,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "再来看看爸爸。爸爸，正式一点的说法是",
+   "t0": 33.097,
+   "t1": 37.029,
+   "cue": [
+    "show:father",
+    "focus:father"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "father",
+   "t0": 37.279,
+   "t1": 37.755,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "平时叫爸爸，就说",
+   "t0": 38.255,
+   "t1": 40.052,
+   "cue": [
+    "alt:father"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "dad",
+   "t0": 40.302,
+   "t1": 40.747,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Good morning, Dad!",
+   "t0": 41.247,
+   "t1": 42.584,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "妈妈和爸爸合在一起，就是父母：",
+   "t0": 43.684,
+   "t1": 46.441,
+   "cue": [
+    "show:parents",
+    "edge:mother>parents",
+    "edge:father>parents",
+    "focus:parents"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "parents",
+   "t0": 46.691,
+   "t1": 47.275,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "父母是两个人，所以这个单词的最后，有一个字母 s。",
+   "t0": 47.775,
+   "t1": 52.564,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "Mom and Dad are my parents.",
+   "t0": 52.814,
+   "t1": 54.467,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "爸爸妈妈最疼爱的小宝贝，就是孩子。孩子，英语是",
+   "t0": 55.567,
+   "t1": 60.843,
+   "cue": [
+    "show:child",
+    "edge:mother>child",
+    "edge:father>child",
+    "focus:child"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "child",
+   "t0": 61.093,
+   "t1": 61.57,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "I am a child.",
+   "t0": 62.07,
+   "t1": 62.966,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "孩子还有一个更轻松、更口语的说法：",
+   "t0": 64.066,
+   "t1": 66.991,
+   "cue": [
+    "show:kid",
+    "edge:child>kid",
+    "focus:kid"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "kid",
+   "t0": 67.241,
+   "t1": 67.613,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "意思差不多，平时聊天的时候，大家特别爱用它。",
+   "t0": 68.113,
+   "t1": 72.236,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "Hi, kids!",
+   "t0": 72.486,
+   "t1": 73.627,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "如果这个孩子是女孩，对爸爸妈妈来说，她就是女儿：",
+   "t0": 74.727,
+   "t1": 79.152,
+   "cue": [
+    "show:daughter",
+    "edge:child>daughter",
+    "focus:daughter"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "daughter",
+   "t0": 79.402,
+   "t1": 79.891,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "小提示：中间的两个字母 g 和 h，是不发音的。",
+   "t0": 80.391,
+   "t1": 84.895,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "She is their daughter.",
+   "t0": 85.145,
+   "t1": 86.176,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "如果是男孩，他就是儿子：",
+   "t0": 87.276,
+   "t1": 89.451,
+   "cue": [
+    "show:son",
+    "edge:child>son",
+    "focus:son"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "son",
+   "t0": 89.701,
+   "t1": 90.215,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "He is their son.",
+   "t0": 90.715,
+   "t1": 91.768,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "一家人在一起，每天都会做很多暖暖的事。下面再学三个动作单词。",
+   "t0": 92.868,
+   "t1": 99.367,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "我们还小，吃饭、穿衣、上学，很多事都要靠爸爸妈妈帮忙。依靠，英语是",
+   "t0": 100.217,
+   "t1": 108.014,
+   "cue": [
+    "show:depend",
+    "focus:depend,child,parents"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "depend",
+   "t0": 108.264,
+   "t1": 108.856,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "依靠谁，后面常常跟一个小词",
+   "t0": 109.356,
+   "t1": 112.171,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "on",
+   "t0": 112.421,
+   "t1": 112.825,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Kids depend on their parents.",
+   "t0": 113.325,
+   "t1": 115.036,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "晚上睡觉前，妈妈会在你的脸上轻轻亲一下。亲吻，英语是",
+   "t0": 116.136,
+   "t1": 122.274,
+   "cue": [
+    "show:kiss",
+    "focus:kiss,mother,kid"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "kiss",
+   "t0": 122.524,
+   "t1": 122.992,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Give Mom a kiss.",
+   "t0": 123.492,
+   "t1": 124.595,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "爸爸去外地工作了，想他的时候怎么办？给他打个电话吧！打电话，英语是",
+   "t0": 125.695,
+   "t1": 132.919,
+   "cue": [
+    "show:call",
+    "focus:call,father,son"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "call",
+   "t0": 133.169,
+   "t1": 133.557,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "Let's call Dad!",
+   "t0": 134.057,
+   "t1": 135.073,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "接下来看一看，一个变成很多个的时候，这些单词会怎么变。",
+   "t0": 136.173,
+   "t1": 141.225,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "大部分单词，在后面加一个 s 就可以了。",
+   "t0": 142.075,
+   "t1": 145.473,
+   "cue": [
+    "focus:kid"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "kid",
+   "t0": 145.723,
+   "t1": 146.095,
+   "cue": [
+    "focus:kid"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "kids",
+   "t0": 146.595,
+   "t1": 147.114,
+   "cue": [
+    "plural:kid"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "son",
+   "t0": 147.614,
+   "t1": 148.128,
+   "cue": [
+    "focus:son"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "sons",
+   "t0": 148.628,
+   "t1": 149.267,
+   "cue": [
+    "plural:son"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "daughter",
+   "t0": 149.767,
+   "t1": 150.256,
+   "cue": [
+    "focus:daughter"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "daughters",
+   "t0": 150.756,
+   "t1": 151.407,
+   "cue": [
+    "plural:daughter"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "家庭这个词，最后一个字母是 y。变成很多个的时候，要把 y 换成 i e s。",
+   "t0": 152.507,
+   "t1": 159.45,
+   "cue": [
+    "focus:family"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "family",
+   "t0": 159.7,
+   "t1": 160.264,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "families",
+   "t0": 160.764,
+   "t1": 161.435,
+   "cue": [
+    "plural:family"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最特别的是孩子。它不加 s，而是在后面接上 r e n 三个字母。",
+   "t0": 162.535,
+   "t1": 168.644,
+   "cue": [
+    "focus:child"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "child",
+   "t0": 168.894,
+   "t1": 169.371,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "children",
+   "t0": 169.871,
+   "t1": 170.47,
+   "cue": [
+    "plural:child"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "连读音也跟着变了，要多读几遍哦。",
+   "t0": 170.97,
+   "t1": 173.867,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "one child, many children.",
+   "t0": 174.117,
+   "t1": 176.0,
+   "cue": []
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "还记得吗？妈妈，在家可以叫",
+   "t0": 177.1,
+   "t1": 180.226,
+   "cue": [
+    "focus:mother,father"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "mom",
+   "t0": 180.476,
+   "t1": 180.888,
+   "cue": [
+    "focus:mother"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "爸爸，在家可以叫",
+   "t0": 181.388,
+   "t1": 183.044,
+   "cue": [
+    "focus:father"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "dad",
+   "t0": 183.294,
+   "t1": 183.74,
+   "cue": []
+  },
+  {
+   "seg": 18,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 184.84,
+   "t1": 188.09,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "family, families",
+   "t0": 188.94,
+   "t1": 190.385,
+   "cue": [
+    "focus:family"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "parents",
+   "t0": 191.485,
+   "t1": 192.069,
+   "cue": [
+    "focus:parents"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "mother, mom",
+   "t0": 193.169,
+   "t1": 194.266,
+   "cue": [
+    "focus:mother"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "father, dad",
+   "t0": 195.366,
+   "t1": 196.56,
+   "cue": [
+    "focus:father"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "child, children",
+   "t0": 197.66,
+   "t1": 198.923,
+   "cue": [
+    "focus:child"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "kid, kids",
+   "t0": 200.023,
+   "t1": 201.137,
+   "cue": [
+    "focus:kid"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "daughter, daughters",
+   "t0": 202.237,
+   "t1": 203.625,
+   "cue": [
+    "focus:daughter"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "son, sons",
+   "t0": 204.725,
+   "t1": 206.058,
+   "cue": [
+    "focus:son"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "depend",
+   "t0": 207.158,
+   "t1": 207.75,
+   "cue": [
+    "focus:depend"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "kiss",
+   "t0": 208.85,
+   "t1": 209.318,
+   "cue": [
+    "focus:kiss"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "call",
+   "t0": 210.418,
+   "t1": 210.805,
+   "cue": [
+    "focus:call"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！今天回家，记得给家人一个大大的拥抱。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 211.905,
+   "t1": 220.428,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "family": [
+   0.25,
+   0.814
+  ],
+  "family:pl": [
+   1.064,
+   1.735
+  ],
+  "mother": [
+   1.985,
+   2.464
+  ],
+  "mother:alt": [
+   2.714,
+   3.127
+  ],
+  "parents": [
+   3.377,
+   3.961
+  ],
+  "father": [
+   4.211,
+   4.686
+  ],
+  "father:alt": [
+   4.936,
+   5.382
+  ],
+  "child": [
+   5.632,
+   6.109
+  ],
+  "child:pl": [
+   6.359,
+   6.958
+  ],
+  "kid": [
+   7.208,
+   7.58
+  ],
+  "kid:pl": [
+   7.83,
+   8.349
+  ],
+  "daughter": [
+   8.599,
+   9.088
+  ],
+  "daughter:pl": [
+   9.338,
+   9.989
+  ],
+  "son": [
+   10.239,
+   10.753
+  ],
+  "son:pl": [
+   11.003,
+   11.642
+  ],
+  "depend": [
+   11.892,
+   12.485
+  ],
+  "kiss": [
+   12.735,
+   13.202
+  ],
+  "call": [
+   13.452,
+   13.84
+  ]
+ }
+}

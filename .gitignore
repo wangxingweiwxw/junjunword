@@ -1,0 +1,8 @@
+# regenerable / large local tooling
+tools/ffmpeg
+tools/node_modules/
+__pycache__/
+# TTS clip cache (tts.py rebuilds it)
+ep*/audio/cache/
+# capture temp files
+*.video.mp4

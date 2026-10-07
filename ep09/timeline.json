@@ -1,0 +1,695 @@
+{
+ "duration": 172.139,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！今天，我们来学运动。",
+   "t0": 0.4,
+   "t1": 3.854,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "sports",
+   "t0": 4.104,
+   "t1": 4.825,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "运动，体育。",
+   "t0": 5.325,
+   "t1": 6.532,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "跑跑跳跳、打球踢球，这些都是运动：",
+   "t0": 7.382,
+   "t1": 10.85,
+   "cue": [
+    "map",
+    "show:sports",
+    "focus:sports"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "sports",
+   "t0": 11.1,
+   "t1": 11.82,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "运动有很多很多种，所以这个词常常带着字母 s。",
+   "t0": 12.32,
+   "t1": 17.031,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "I love sports!",
+   "t0": 17.281,
+   "t1": 18.355,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "最简单的运动是跑步。还记得第七集学过的吗？",
+   "t0": 19.455,
+   "t1": 23.649,
+   "cue": [
+    "show:run",
+    "edge:sports>run",
+    "focus:run"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "run",
+   "t0": 23.899,
+   "t1": 24.341,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "大家站在同一条起跑线上，比一比谁跑得快，就是赛跑：",
+   "t0": 25.441,
+   "t1": 30.263,
+   "cue": [
+    "show:race",
+    "edge:run>race",
+    "focus:race"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "race",
+   "t0": 30.513,
+   "t1": 30.975,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Let's have a race!",
+   "t0": 31.475,
+   "t1": 32.56,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "两只脚用力一蹬，跳起来：",
+   "t0": 33.66,
+   "t1": 35.855,
+   "cue": [
+    "show:jump",
+    "edge:sports>jump",
+    "focus:jump"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "jump",
+   "t0": 36.105,
+   "t1": 36.466,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "Jump high!",
+   "t0": 36.966,
+   "t1": 37.656,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "哎呀，没站稳，摔倒了！摔倒、落下，英语是",
+   "t0": 38.756,
+   "t1": 43.758,
+   "cue": [
+    "show:fall",
+    "edge:jump>fall",
+    "focus:fall"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "fall",
+   "t0": 44.008,
+   "t1": 44.412,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "如果是已经摔倒了，要说成",
+   "t0": 44.912,
+   "t1": 47.311,
+   "cue": [
+    "alt:fall"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "fell",
+   "t0": 47.561,
+   "t1": 47.963,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "把字母 a 换成 e，就变成过去发生的事啦。",
+   "t0": 48.463,
+   "t1": 52.03,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "He fell down.",
+   "t0": 52.28,
+   "t1": 53.241,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "很多运动，都离不开一个圆圆的球：",
+   "t0": 54.341,
+   "t1": 57.151,
+   "cue": [
+    "show:ball",
+    "edge:sports>ball",
+    "focus:ball"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "ball",
+   "t0": 57.401,
+   "t1": 57.791,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "Catch the ball!",
+   "t0": 58.291,
+   "t1": 59.158,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "用脚踢的球，是足球。还记得上一集的脚吗？脚加上球：",
+   "t0": 60.258,
+   "t1": 66.186,
+   "cue": [
+    "show:football",
+    "edge:ball>football",
+    "focus:football"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "foot",
+   "t0": 66.436,
+   "t1": 66.871,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "ball",
+   "t0": 67.371,
+   "t1": 67.761,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "football",
+   "t0": 68.261,
+   "t1": 68.824,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "在美国，足球还有另外一个名字：",
+   "t0": 69.924,
+   "t1": 72.72,
+   "cue": [
+    "show:soccer",
+    "edge:football>soccer",
+    "focus:soccer"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "soccer",
+   "t0": 72.97,
+   "t1": 73.557,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Let's play soccer.",
+   "t0": 74.057,
+   "t1": 75.204,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "把球投进高高的篮筐里，是篮球。篮子，加上球：",
+   "t0": 76.304,
+   "t1": 81.424,
+   "cue": [
+    "show:basketball",
+    "edge:ball>basketball",
+    "focus:basketball"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "basket",
+   "t0": 81.674,
+   "t1": 82.315,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "basketball",
+   "t0": 82.815,
+   "t1": 83.618,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "隔着一张网，用手把球拍来拍去，是排球：",
+   "t0": 84.718,
+   "t1": 88.524,
+   "cue": [
+    "show:volleyball",
+    "edge:ball>volleyball",
+    "focus:volleyball"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "volleyball",
+   "t0": 88.774,
+   "t1": 89.454,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "在桌子上打的小小的球，是乒乓球。桌子，加上网球：",
+   "t0": 90.554,
+   "t1": 95.903,
+   "cue": [
+    "show:tabletennis",
+    "edge:ball>tabletennis",
+    "focus:tabletennis"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "table",
+   "t0": 96.153,
+   "t1": 96.633,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "tennis",
+   "t0": 97.133,
+   "t1": 97.713,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "table tennis",
+   "t0": 98.213,
+   "t1": 99.224,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "排球场和乒乓球桌的中间，都拦着一张网：",
+   "t0": 100.324,
+   "t1": 104.015,
+   "cue": [
+    "show:net",
+    "edge:tabletennis>net",
+    "edge:volleyball>net",
+    "focus:net"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "net",
+   "t0": 104.265,
+   "t1": 104.763,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "Hit the ball over the net.",
+   "t0": 105.263,
+   "t1": 106.697,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "你发现了吗？好多球类的名字，都是用小词拼起来的。",
+   "t0": 107.797,
+   "t1": 112.623,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "foot, ball, football",
+   "t0": 113.473,
+   "t1": 115.243,
+   "cue": [
+    "focus:football"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "basket, ball, basketball",
+   "t0": 115.743,
+   "t1": 117.965,
+   "cue": [
+    "focus:basketball"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "table, tennis, table tennis",
+   "t0": 118.465,
+   "t1": 121.042,
+   "cue": [
+    "focus:tabletennis"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "说打球、踢球，英语里都用同一个词",
+   "t0": 122.142,
+   "t1": 125.708,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "play",
+   "t0": 125.958,
+   "t1": 126.441,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "play football",
+   "t0": 127.541,
+   "t1": 128.414,
+   "cue": [
+    "focus:football"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "play basketball",
+   "t0": 128.914,
+   "t1": 129.991,
+   "cue": [
+    "focus:basketball"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "play table tennis",
+   "t0": 130.491,
+   "t1": 131.804,
+   "cue": [
+    "focus:tabletennis"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "My favorite sport is basketball.",
+   "t0": 132.304,
+   "t1": 134.286,
+   "cue": [
+    "focus:basketball"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 135.386,
+   "t1": 138.636,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "sports",
+   "t0": 139.486,
+   "t1": 140.207,
+   "cue": [
+    "focus:sports"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "run",
+   "t0": 141.307,
+   "t1": 141.748,
+   "cue": [
+    "focus:run"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "race",
+   "t0": 142.848,
+   "t1": 143.31,
+   "cue": [
+    "focus:race"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "jump",
+   "t0": 144.41,
+   "t1": 144.771,
+   "cue": [
+    "focus:jump"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "fall, fell",
+   "t0": 145.871,
+   "t1": 146.933,
+   "cue": [
+    "focus:fall"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "ball",
+   "t0": 148.033,
+   "t1": 148.423,
+   "cue": [
+    "focus:ball"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "football",
+   "t0": 149.523,
+   "t1": 150.087,
+   "cue": [
+    "focus:football"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "soccer",
+   "t0": 151.187,
+   "t1": 151.773,
+   "cue": [
+    "focus:soccer"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "basketball",
+   "t0": 152.873,
+   "t1": 153.676,
+   "cue": [
+    "focus:basketball"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "volleyball",
+   "t0": 154.776,
+   "t1": 155.455,
+   "cue": [
+    "focus:volleyball"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "table tennis",
+   "t0": 156.555,
+   "t1": 157.567,
+   "cue": [
+    "focus:tabletennis"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "net",
+   "t0": 158.667,
+   "t1": 159.165,
+   "cue": [
+    "focus:net"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！你最喜欢哪一项运动？试着用英语告诉爸爸妈妈吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 160.265,
+   "t1": 170.289,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "sports": [
+   0.25,
+   0.97
+  ],
+  "run": [
+   1.22,
+   1.662
+  ],
+  "race": [
+   1.912,
+   2.373
+  ],
+  "jump": [
+   2.623,
+   2.985
+  ],
+  "fall": [
+   3.235,
+   3.64
+  ],
+  "fall:alt": [
+   3.89,
+   4.291
+  ],
+  "ball": [
+   4.541,
+   4.931
+  ],
+  "football": [
+   5.181,
+   5.744
+  ],
+  "soccer": [
+   5.994,
+   6.581
+  ],
+  "basketball": [
+   6.831,
+   7.634
+  ],
+  "volleyball": [
+   7.884,
+   8.563
+  ],
+  "tabletennis": [
+   8.813,
+   9.824
+  ],
+  "net": [
+   10.074,
+   10.573
+  ]
+ }
+}

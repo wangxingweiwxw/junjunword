@@ -1,0 +1,656 @@
+{
+ "duration": 164.245,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！今天，我们一起走进学校。",
+   "t0": 0.4,
+   "t1": 4.532,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "school",
+   "t0": 4.782,
+   "t1": 5.355,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "学校。",
+   "t0": 5.855,
+   "t1": 6.419,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "每天背着书包去上学的地方，就是学校：",
+   "t0": 7.269,
+   "t1": 10.664,
+   "cue": [
+    "map",
+    "show:school",
+    "focus:school"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "school",
+   "t0": 10.914,
+   "t1": 11.487,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "I go to school.",
+   "t0": 11.987,
+   "t1": 12.977,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "学校里，同学们分成一个一个班，坐在一起上课。班级和课，英语都可以说",
+   "t0": 14.077,
+   "t1": 21.37,
+   "cue": [
+    "show:class",
+    "edge:school>class",
+    "focus:class"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "class",
+   "t0": 21.62,
+   "t1": 22.186,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "We have an English class.",
+   "t0": 22.686,
+   "t1": 24.174,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "站在讲台前给我们讲课，就是教：",
+   "t0": 25.274,
+   "t1": 28.035,
+   "cue": [
+    "show:teach",
+    "edge:teach>class",
+    "focus:teach"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "teach",
+   "t0": 28.285,
+   "t1": 28.737,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "在后面加上 e r，就变成了教书的人，老师：",
+   "t0": 29.237,
+   "t1": 33.102,
+   "cue": [
+    "alt:teach"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "teacher",
+   "t0": 33.352,
+   "t1": 33.875,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "爸爸妈妈每天上班工作。工作，英语是",
+   "t0": 34.975,
+   "t1": 39.218,
+   "cue": [
+    "show:work",
+    "focus:work"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "work",
+   "t0": 39.468,
+   "t1": 39.879,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "Mom goes to work.",
+   "t0": 40.379,
+   "t1": 41.38,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "把学校和工作拼在一起，就是我们在学校里要做的功课：",
+   "t0": 42.48,
+   "t1": 47.105,
+   "cue": [
+    "show:schoolwork",
+    "edge:school>schoolwork",
+    "edge:work>schoolwork",
+    "focus:schoolwork"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "school",
+   "t0": 47.355,
+   "t1": 47.928,
+   "cue": [
+    "focus:school"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "work",
+   "t0": 48.428,
+   "t1": 48.84,
+   "cue": [
+    "focus:work"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "schoolwork",
+   "t0": 49.34,
+   "t1": 50.12,
+   "cue": [
+    "focus:schoolwork"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "还记得上一集的家吗？家加上工作，就是要带回家做的家庭作业：",
+   "t0": 51.22,
+   "t1": 57.304,
+   "cue": [
+    "show:homework",
+    "edge:work>homework",
+    "focus:homework"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "home",
+   "t0": 57.554,
+   "t1": 57.961,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "work",
+   "t0": 58.461,
+   "t1": 58.872,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "homework",
+   "t0": 59.372,
+   "t1": 59.975,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "I do my homework.",
+   "t0": 60.475,
+   "t1": 61.568,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "作业写完了，每一题都打上勾，就是完成：",
+   "t0": 62.668,
+   "t1": 66.322,
+   "cue": [
+    "show:complete",
+    "edge:homework>complete",
+    "focus:complete"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "complete",
+   "t0": 66.572,
+   "t1": 67.203,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "I complete my homework.",
+   "t0": 67.703,
+   "t1": 69.12,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "和你在同一个班的小伙伴，是同学。班级，加上表示伙伴的小词",
+   "t0": 70.22,
+   "t1": 76.328,
+   "cue": [
+    "show:classmate",
+    "edge:class>classmate",
+    "focus:classmate"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "mate",
+   "t0": 76.578,
+   "t1": 77.028,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "就是",
+   "t0": 77.528,
+   "t1": 78.102,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "classmate",
+   "t0": 78.352,
+   "t1": 79.068,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "She is my classmate.",
+   "t0": 79.568,
+   "t1": 80.875,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "同学们穿着一模一样的衣服，那是校服：",
+   "t0": 81.975,
+   "t1": 85.372,
+   "cue": [
+    "show:uniform",
+    "edge:classmate>uniform",
+    "focus:uniform"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "uniform",
+   "t0": 85.622,
+   "t1": 86.408,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "开头的 u n i，是一个的意思。大家穿成一个样子，就是校服。",
+   "t0": 86.908,
+   "t1": 92.709,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "I wear my school uniform.",
+   "t0": 92.959,
+   "t1": 94.532,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "每过一年，我们就升上一个年级：",
+   "t0": 95.632,
+   "t1": 98.301,
+   "cue": [
+    "show:grade",
+    "edge:class>grade",
+    "focus:grade"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "grade",
+   "t0": 98.551,
+   "t1": 99.021,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "I'm in Grade Three.",
+   "t0": 99.521,
+   "t1": 100.611,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "一个学年，又分成上下两个学期：",
+   "t0": 101.711,
+   "t1": 104.589,
+   "cue": [
+    "show:term",
+    "edge:grade>term",
+    "focus:term"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "term",
+   "t0": 104.839,
+   "t1": 105.269,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "A new term begins!",
+   "t0": 105.769,
+   "t1": 107.033,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "你发现了吗？今天有好几个单词，都是两个小词拼起来的。",
+   "t0": 108.133,
+   "t1": 113.252,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "school, work, schoolwork",
+   "t0": 114.102,
+   "t1": 116.255,
+   "cue": [
+    "focus:schoolwork"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "home, work, homework",
+   "t0": 116.755,
+   "t1": 118.628,
+   "cue": [
+    "focus:homework"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "class, mate, classmate",
+   "t0": 119.128,
+   "t1": 121.238,
+   "cue": [
+    "focus:classmate"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "很多个同学，后面加上字母 s：",
+   "t0": 122.338,
+   "t1": 125.26,
+   "cue": [
+    "focus:classmate"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "classmate",
+   "t0": 125.51,
+   "t1": 126.227,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "classmates",
+   "t0": 126.727,
+   "t1": 127.568,
+   "cue": [
+    "plural:classmate"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 128.668,
+   "t1": 131.919,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "school",
+   "t0": 132.769,
+   "t1": 133.342,
+   "cue": [
+    "focus:school"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "class",
+   "t0": 134.442,
+   "t1": 135.008,
+   "cue": [
+    "focus:class"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "teach, teacher",
+   "t0": 136.108,
+   "t1": 137.35,
+   "cue": [
+    "focus:teach"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "work",
+   "t0": 138.45,
+   "t1": 138.862,
+   "cue": [
+    "focus:work"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "schoolwork",
+   "t0": 139.962,
+   "t1": 140.742,
+   "cue": [
+    "focus:schoolwork"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "homework",
+   "t0": 141.842,
+   "t1": 142.445,
+   "cue": [
+    "focus:homework"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "complete",
+   "t0": 143.545,
+   "t1": 144.175,
+   "cue": [
+    "focus:complete"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "classmate, classmates",
+   "t0": 145.275,
+   "t1": 147.061,
+   "cue": [
+    "focus:classmate"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "uniform",
+   "t0": 148.161,
+   "t1": 148.947,
+   "cue": [
+    "focus:uniform"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "grade",
+   "t0": 150.047,
+   "t1": 150.517,
+   "cue": [
+    "focus:grade"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "term",
+   "t0": 151.617,
+   "t1": 152.047,
+   "cue": [
+    "focus:term"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "zh",
+   "text": "太棒了！明天上学的时候，用英语跟你的同学打个招呼吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 153.147,
+   "t1": 162.395,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "school": [
+   0.25,
+   0.823
+  ],
+  "class": [
+   1.073,
+   1.639
+  ],
+  "teach": [
+   1.889,
+   2.34
+  ],
+  "teach:alt": [
+   2.59,
+   3.113
+  ],
+  "work": [
+   3.363,
+   3.774
+  ],
+  "schoolwork": [
+   4.024,
+   4.805
+  ],
+  "homework": [
+   5.055,
+   5.657
+  ],
+  "complete": [
+   5.907,
+   6.538
+  ],
+  "classmate": [
+   6.788,
+   7.504
+  ],
+  "classmate:pl": [
+   7.754,
+   8.596
+  ],
+  "uniform": [
+   8.846,
+   9.632
+  ],
+  "grade": [
+   9.882,
+   10.352
+  ],
+  "term": [
+   10.602,
+   11.032
+  ]
+ }
+}

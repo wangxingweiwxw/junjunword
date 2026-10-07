@@ -1,0 +1,680 @@
+{
+ "id": "ep06",
+ "title": "school",
+ "titleZh": "学校",
+ "episode": "第 6 集",
+ "titleIcon": "school",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1290
+  ]
+ },
+ "nodes": [
+  {
+   "id": "school",
+   "word": "school",
+   "ipa": "/skuːl/",
+   "zh": "学校",
+   "icon": "school",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "class",
+   "word": "class",
+   "ipa": "/klæs/",
+   "zh": "班级；课",
+   "icon": "class",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "teach",
+   "word": "teach",
+   "ipa": "/tiːtʃ/",
+   "zh": "教",
+   "icon": "teach",
+   "kind": "verb",
+   "alt": "teacher",
+   "altLabel": "加 er →",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "work",
+   "word": "work",
+   "ipa": "/wɜːrk/",
+   "zh": "工作；学习",
+   "icon": "work",
+   "kind": "verb",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "schoolwork",
+   "word": "schoolwork",
+   "ipa": "/ˈskuːlwɜːrk/",
+   "zh": "功课",
+   "icon": "schoolwork",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "homework",
+   "word": "homework",
+   "ipa": "/ˈhoʊmwɜːrk/",
+   "zh": "家庭作业",
+   "icon": "homework",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "complete",
+   "word": "complete",
+   "ipa": "/kəmˈpliːt/",
+   "zh": "完成",
+   "icon": "complete",
+   "kind": "verb",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "classmate",
+   "word": "classmate",
+   "ipa": "/ˈklæsmeɪt/",
+   "zh": "同学",
+   "icon": "classmate",
+   "plural": "classmates",
+   "pluralIpa": "/ˈklæsmeɪts/",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "uniform",
+   "word": "uniform",
+   "ipa": "/ˈjuːnɪfɔːrm/",
+   "zh": "校服；制服",
+   "icon": "uniform",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "grade",
+   "word": "grade",
+   "ipa": "/ɡreɪd/",
+   "zh": "年级",
+   "icon": "grade",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "term",
+   "word": "term",
+   "ipa": "/tɜːrm/",
+   "zh": "学期",
+   "icon": "term",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "school",
+   "to": "class"
+  },
+  {
+   "from": "teach",
+   "to": "class"
+  },
+  {
+   "from": "school",
+   "to": "schoolwork",
+   "label": "+"
+  },
+  {
+   "from": "work",
+   "to": "schoolwork",
+   "label": "+"
+  },
+  {
+   "from": "work",
+   "to": "homework"
+  },
+  {
+   "from": "homework",
+   "to": "complete",
+   "label": "做完"
+  },
+  {
+   "from": "class",
+   "to": "classmate"
+  },
+  {
+   "from": "classmate",
+   "to": "uniform",
+   "label": "穿"
+  },
+  {
+   "from": "class",
+   "to": "grade"
+  },
+  {
+   "from": "grade",
+   "to": "term",
+   "label": "分成"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！今天，我们一起走进学校。"
+    },
+    {
+     "en": "school"
+    },
+    {
+     "zh": "学校。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:school",
+    "focus:school"
+   ],
+   "parts": [
+    {
+     "zh": "每天背着书包去上学的地方，就是学校："
+    },
+    {
+     "en": "school"
+    },
+    {
+     "en": "I go to school."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:class",
+    "edge:school>class",
+    "focus:class"
+   ],
+   "parts": [
+    {
+     "zh": "学校里，同学们分成一个一个班，坐在一起上课。班级和课，英语都可以说"
+    },
+    {
+     "en": "class"
+    },
+    {
+     "en": "We have an English class."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:teach",
+    "edge:teach>class",
+    "focus:teach"
+   ],
+   "parts": [
+    {
+     "zh": "站在讲台前给我们讲课，就是教："
+    },
+    {
+     "en": "teach"
+    },
+    {
+     "zh": "在后面加上 e r，就变成了教书的人，老师：",
+     "cue": [
+      "alt:teach"
+     ]
+    },
+    {
+     "en": "teacher"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:work",
+    "focus:work"
+   ],
+   "parts": [
+    {
+     "zh": "爸爸妈妈每天上班工作。工作，英语是"
+    },
+    {
+     "en": "work"
+    },
+    {
+     "en": "Mom goes to work."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:schoolwork",
+    "edge:school>schoolwork",
+    "edge:work>schoolwork",
+    "focus:schoolwork"
+   ],
+   "parts": [
+    {
+     "zh": "把学校和工作拼在一起，就是我们在学校里要做的功课："
+    },
+    {
+     "en": "school",
+     "cue": [
+      "focus:school"
+     ]
+    },
+    {
+     "en": "work",
+     "cue": [
+      "focus:work"
+     ]
+    },
+    {
+     "en": "schoolwork",
+     "cue": [
+      "focus:schoolwork"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:homework",
+    "edge:work>homework",
+    "focus:homework"
+   ],
+   "parts": [
+    {
+     "zh": "还记得上一集的家吗？家加上工作，就是要带回家做的家庭作业："
+    },
+    {
+     "en": "home"
+    },
+    {
+     "en": "work"
+    },
+    {
+     "en": "homework"
+    },
+    {
+     "en": "I do my homework."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:complete",
+    "edge:homework>complete",
+    "focus:complete"
+   ],
+   "parts": [
+    {
+     "zh": "作业写完了，每一题都打上勾，就是完成："
+    },
+    {
+     "en": "complete"
+    },
+    {
+     "en": "I complete my homework."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:classmate",
+    "edge:class>classmate",
+    "focus:classmate"
+   ],
+   "parts": [
+    {
+     "zh": "和你在同一个班的小伙伴，是同学。班级，加上表示伙伴的小词"
+    },
+    {
+     "en": "mate"
+    },
+    {
+     "zh": "就是"
+    },
+    {
+     "en": "classmate"
+    },
+    {
+     "en": "She is my classmate."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:uniform",
+    "edge:classmate>uniform",
+    "focus:uniform"
+   ],
+   "parts": [
+    {
+     "zh": "同学们穿着一模一样的衣服，那是校服："
+    },
+    {
+     "en": "uniform"
+    },
+    {
+     "zh": "开头的 u n i，是一个的意思。大家穿成一个样子，就是校服。"
+    },
+    {
+     "en": "I wear my school uniform."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:grade",
+    "edge:class>grade",
+    "focus:grade"
+   ],
+   "parts": [
+    {
+     "zh": "每过一年，我们就升上一个年级："
+    },
+    {
+     "en": "grade"
+    },
+    {
+     "en": "I'm in Grade Three."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:term",
+    "edge:grade>term",
+    "focus:term"
+   ],
+   "parts": [
+    {
+     "zh": "一个学年，又分成上下两个学期："
+    },
+    {
+     "en": "term"
+    },
+    {
+     "en": "A new term begins!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "你发现了吗？今天有好几个单词，都是两个小词拼起来的。"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "school, work, schoolwork",
+     "cue": [
+      "focus:schoolwork"
+     ]
+    },
+    {
+     "en": "home, work, homework",
+     "cue": [
+      "focus:homework"
+     ]
+    },
+    {
+     "en": "class, mate, classmate",
+     "cue": [
+      "focus:classmate"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:classmate"
+   ],
+   "parts": [
+    {
+     "zh": "很多个同学，后面加上字母 s："
+    },
+    {
+     "en": "classmate"
+    },
+    {
+     "en": "classmates",
+     "cue": [
+      "plural:classmate"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:school"
+   ],
+   "parts": [
+    {
+     "en": "school"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:class"
+   ],
+   "parts": [
+    {
+     "en": "class"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:teach"
+   ],
+   "parts": [
+    {
+     "en": "teach, teacher"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:work"
+   ],
+   "parts": [
+    {
+     "en": "work"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:schoolwork"
+   ],
+   "parts": [
+    {
+     "en": "schoolwork"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:homework"
+   ],
+   "parts": [
+    {
+     "en": "homework"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:complete"
+   ],
+   "parts": [
+    {
+     "en": "complete"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:classmate"
+   ],
+   "parts": [
+    {
+     "en": "classmate, classmates"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:uniform"
+   ],
+   "parts": [
+    {
+     "en": "uniform"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:grade"
+   ],
+   "parts": [
+    {
+     "en": "grade"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:term"
+   ],
+   "parts": [
+    {
+     "en": "term"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！明天上学的时候，用英语跟你的同学打个招呼吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

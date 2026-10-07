@@ -1,0 +1,949 @@
+{
+ "duration": 200.037,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！今天我们一起来数数。",
+   "t0": 0.4,
+   "t1": 3.73,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "numbers",
+   "t0": 3.98,
+   "t1": 4.621,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "意思是，数字。",
+   "t0": 5.121,
+   "t1": 6.547,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "钟表上、电梯里、门牌上，到处都能看到数字。一个数字，英语叫",
+   "t0": 7.397,
+   "t1": 14.285,
+   "cue": [
+    "map",
+    "show:number",
+    "focus:number"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "number",
+   "t0": 14.535,
+   "t1": 15.018,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "很多个数字，就在后面加上字母 s：",
+   "t0": 15.518,
+   "t1": 18.779,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "numbers",
+   "t0": 19.029,
+   "t1": 19.67,
+   "cue": [
+    "plural:number"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "现在，伸出一只小手，跟我一根一根地数。",
+   "t0": 20.77,
+   "t1": 24.239,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "竖起一根手指，是一：",
+   "t0": 25.089,
+   "t1": 26.993,
+   "cue": [
+    "show:one",
+    "focus:one"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "one",
+   "t0": 27.243,
+   "t1": 27.663,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "one apple",
+   "t0": 28.163,
+   "t1": 28.888,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "再多一根，是二：",
+   "t0": 29.988,
+   "t1": 31.489,
+   "cue": [
+    "show:two",
+    "edge:one>two",
+    "focus:two"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "two",
+   "t0": 31.739,
+   "t1": 32.154,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "小提示：中间的字母 w，在这里不发音。",
+   "t0": 32.654,
+   "t1": 36.616,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "two eyes",
+   "t0": 36.866,
+   "t1": 37.686,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "再多一根，是三：",
+   "t0": 38.786,
+   "t1": 40.287,
+   "cue": [
+    "show:three",
+    "edge:two>three",
+    "focus:three"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "three",
+   "t0": 40.537,
+   "t1": 40.928,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "开头的 t h，舌尖要轻轻放在上下牙齿中间，吹出气来。",
+   "t0": 41.428,
+   "t1": 46.893,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "three",
+   "t0": 47.143,
+   "t1": 47.535,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "再多一根，是四：",
+   "t0": 48.635,
+   "t1": 50.174,
+   "cue": [
+    "show:four",
+    "edge:three>four",
+    "focus:four"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "four",
+   "t0": 50.424,
+   "t1": 50.841,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "A cat has four legs.",
+   "t0": 51.341,
+   "t1": 53.026,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "五根手指全部伸出来，一只手就数完了：",
+   "t0": 54.126,
+   "t1": 57.405,
+   "cue": [
+    "show:five",
+    "edge:four>five",
+    "focus:five"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "five",
+   "t0": 57.655,
+   "t1": 58.166,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "five fingers",
+   "t0": 58.666,
+   "t1": 59.663,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "一只手不够用了，没关系，再伸出另一只手，我们接着数！",
+   "t0": 60.763,
+   "t1": 65.747,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "五再多一个，是六：",
+   "t0": 66.597,
+   "t1": 68.251,
+   "cue": [
+    "show:six",
+    "focus:six"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "six",
+   "t0": 68.501,
+   "t1": 69.086,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "七：",
+   "t0": 70.186,
+   "t1": 70.493,
+   "cue": [
+    "show:seven",
+    "edge:six>seven",
+    "focus:seven"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "seven",
+   "t0": 70.743,
+   "t1": 71.318,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "它有两个音节，要读完整，不要吞掉后半截。",
+   "t0": 71.818,
+   "t1": 75.637,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "seven",
+   "t0": 75.887,
+   "t1": 76.461,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "八：",
+   "t0": 77.561,
+   "t1": 77.857,
+   "cue": [
+    "show:eight",
+    "edge:seven>eight",
+    "focus:eight"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "eight",
+   "t0": 78.107,
+   "t1": 78.52,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "还记得上一集的女儿吗？这里的 g h，也一样不发音。",
+   "t0": 79.02,
+   "t1": 83.848,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "eight",
+   "t0": 84.098,
+   "t1": 84.511,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "九：",
+   "t0": 85.611,
+   "t1": 85.93,
+   "cue": [
+    "show:nine",
+    "edge:eight>nine",
+    "focus:nine"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "nine",
+   "t0": 86.18,
+   "t1": 86.68,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "两只手的十根手指，全部伸出来啦！十：",
+   "t0": 87.78,
+   "t1": 91.678,
+   "cue": [
+    "show:ten",
+    "edge:nine>ten",
+    "focus:ten"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "ten",
+   "t0": 91.928,
+   "t1": 92.365,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "ten fingers",
+   "t0": 92.865,
+   "t1": 93.851,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "仔细看看上下两行，你发现了什么小秘密吗？",
+   "t0": 94.951,
+   "t1": 98.435,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "上面的一，加上一只手的五，正好就是下面的六。",
+   "t0": 99.285,
+   "t1": 103.445,
+   "cue": [
+    "edge:one>six",
+    "focus:one,six"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "One plus five is six.",
+   "t0": 103.695,
+   "t1": 105.309,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "每一对上下的数字，都是这样，相差五。",
+   "t0": 106.409,
+   "t1": 109.966,
+   "cue": [
+    "edge:two>seven",
+    "edge:three>eight",
+    "edge:four>nine",
+    "edge:five>ten",
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "two, seven",
+   "t0": 110.216,
+   "t1": 111.436,
+   "cue": [
+    "focus:two,seven"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "three, eight",
+   "t0": 111.936,
+   "t1": 113.015,
+   "cue": [
+    "focus:three,eight"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "four, nine",
+   "t0": 113.515,
+   "t1": 114.665,
+   "cue": [
+    "focus:four,nine"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "five, ten",
+   "t0": 115.165,
+   "t1": 116.376,
+   "cue": [
+    "focus:five,ten"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "现在，我们一起从一数到十吧！",
+   "t0": 117.476,
+   "t1": 119.966,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "one",
+   "t0": 120.816,
+   "t1": 121.237,
+   "cue": [
+    "focus:one"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "two",
+   "t0": 121.737,
+   "t1": 122.151,
+   "cue": [
+    "focus:two"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "three",
+   "t0": 122.651,
+   "t1": 123.042,
+   "cue": [
+    "focus:three"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "four",
+   "t0": 123.542,
+   "t1": 123.96,
+   "cue": [
+    "focus:four"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "five",
+   "t0": 124.46,
+   "t1": 124.971,
+   "cue": [
+    "focus:five"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "six",
+   "t0": 125.471,
+   "t1": 126.055,
+   "cue": [
+    "focus:six"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "seven",
+   "t0": 126.555,
+   "t1": 127.13,
+   "cue": [
+    "focus:seven"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "eight",
+   "t0": 127.63,
+   "t1": 128.043,
+   "cue": [
+    "focus:eight"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "nine",
+   "t0": 128.543,
+   "t1": 129.043,
+   "cue": [
+    "focus:nine"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "ten",
+   "t0": 129.543,
+   "t1": 129.98,
+   "cue": [
+    "focus:ten"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "zh",
+   "text": "再来倒着数一遍，就像火箭准备发射一样！",
+   "t0": 131.079,
+   "t1": 134.436,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "ten",
+   "t0": 135.286,
+   "t1": 135.723,
+   "cue": [
+    "focus:ten"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "nine",
+   "t0": 136.223,
+   "t1": 136.723,
+   "cue": [
+    "focus:nine"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "eight",
+   "t0": 137.223,
+   "t1": 137.636,
+   "cue": [
+    "focus:eight"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "seven",
+   "t0": 138.136,
+   "t1": 138.711,
+   "cue": [
+    "focus:seven"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "six",
+   "t0": 139.211,
+   "t1": 139.795,
+   "cue": [
+    "focus:six"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "five",
+   "t0": 140.295,
+   "t1": 140.806,
+   "cue": [
+    "focus:five"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "four",
+   "t0": 141.306,
+   "t1": 141.724,
+   "cue": [
+    "focus:four"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "three",
+   "t0": 142.224,
+   "t1": 142.615,
+   "cue": [
+    "focus:three"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "two",
+   "t0": 143.115,
+   "t1": 143.529,
+   "cue": [
+    "focus:two"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "one",
+   "t0": 144.029,
+   "t1": 144.45,
+   "cue": [
+    "focus:one"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "Blast off!",
+   "t0": 144.95,
+   "t1": 145.729,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "zh",
+   "text": "考考你：三加四，等于几？想一想……",
+   "t0": 146.829,
+   "t1": 150.745,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "zh",
+   "text": "答案是七：",
+   "t0": 151.595,
+   "t1": 152.436,
+   "cue": [
+    "focus:seven"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "seven",
+   "t0": 152.686,
+   "t1": 153.26,
+   "cue": []
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "Three plus four is seven.",
+   "t0": 153.76,
+   "t1": 155.282,
+   "cue": []
+  },
+  {
+   "seg": 23,
+   "lang": "zh",
+   "text": "再来一题：二加六，等于几？想一想……",
+   "t0": 156.382,
+   "t1": 160.382,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "zh",
+   "text": "答对了吗？是八：",
+   "t0": 161.232,
+   "t1": 163.197,
+   "cue": [
+    "focus:eight"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "eight",
+   "t0": 163.447,
+   "t1": 163.861,
+   "cue": []
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "Two plus six is eight.",
+   "t0": 164.361,
+   "t1": 165.799,
+   "cue": []
+  },
+  {
+   "seg": 25,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍！",
+   "t0": 166.899,
+   "t1": 169.977,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "number, numbers",
+   "t0": 170.827,
+   "t1": 172.115,
+   "cue": [
+    "focus:number"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "one",
+   "t0": 173.215,
+   "t1": 173.635,
+   "cue": [
+    "focus:one"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "two",
+   "t0": 174.735,
+   "t1": 175.149,
+   "cue": [
+    "focus:two"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "three",
+   "t0": 176.249,
+   "t1": 176.64,
+   "cue": [
+    "focus:three"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "four",
+   "t0": 177.74,
+   "t1": 178.158,
+   "cue": [
+    "focus:four"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "five",
+   "t0": 179.258,
+   "t1": 179.769,
+   "cue": [
+    "focus:five"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "six",
+   "t0": 180.869,
+   "t1": 181.454,
+   "cue": [
+    "focus:six"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "en",
+   "text": "seven",
+   "t0": 182.554,
+   "t1": 183.128,
+   "cue": [
+    "focus:seven"
+   ]
+  },
+  {
+   "seg": 34,
+   "lang": "en",
+   "text": "eight",
+   "t0": 184.228,
+   "t1": 184.641,
+   "cue": [
+    "focus:eight"
+   ]
+  },
+  {
+   "seg": 35,
+   "lang": "en",
+   "text": "nine",
+   "t0": 185.741,
+   "t1": 186.241,
+   "cue": [
+    "focus:nine"
+   ]
+  },
+  {
+   "seg": 36,
+   "lang": "en",
+   "text": "ten",
+   "t0": 187.341,
+   "t1": 187.778,
+   "cue": [
+    "focus:ten"
+   ]
+  },
+  {
+   "seg": 37,
+   "lang": "zh",
+   "text": "太棒了！今天回家，试着用英语数一数你有几个玩具吧。点一点图上的数字，还能再听一遍发音哦。",
+   "t0": 188.878,
+   "t1": 198.187,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "number": [
+   0.25,
+   0.734
+  ],
+  "number:pl": [
+   0.984,
+   1.625
+  ],
+  "one": [
+   1.875,
+   2.295
+  ],
+  "two": [
+   2.545,
+   2.959
+  ],
+  "three": [
+   3.209,
+   3.6
+  ],
+  "four": [
+   3.85,
+   4.268
+  ],
+  "five": [
+   4.518,
+   5.029
+  ],
+  "six": [
+   5.279,
+   5.864
+  ],
+  "seven": [
+   6.114,
+   6.688
+  ],
+  "eight": [
+   6.938,
+   7.351
+  ],
+  "nine": [
+   7.601,
+   8.101
+  ],
+  "ten": [
+   8.351,
+   8.788
+  ]
+ }
+}

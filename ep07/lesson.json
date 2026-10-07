@@ -1,0 +1,792 @@
+{
+ "id": "ep07",
+ "title": "action",
+ "titleZh": "动作",
+ "episode": "第 7 集",
+ "titleIcon": "action",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "action",
+   "word": "action",
+   "ipa": "/ˈækʃn/",
+   "zh": "动作；行动",
+   "icon": "action",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "walk",
+   "word": "walk",
+   "ipa": "/wɔːk/",
+   "zh": "走；步行",
+   "icon": "walk",
+   "kind": "verb",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "run",
+   "word": "run",
+   "ipa": "/rʌn/",
+   "zh": "跑",
+   "icon": "run",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "stand",
+   "word": "stand",
+   "ipa": "/stænd/",
+   "zh": "站",
+   "icon": "stand",
+   "kind": "verb",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "sit",
+   "word": "sit",
+   "ipa": "/sɪt/",
+   "zh": "坐",
+   "icon": "sit",
+   "kind": "verb",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "wait",
+   "word": "wait",
+   "ipa": "/weɪt/",
+   "zh": "等待",
+   "icon": "wait",
+   "kind": "verb",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "look",
+   "word": "look",
+   "ipa": "/lʊk/",
+   "zh": "看",
+   "icon": "look",
+   "kind": "verb",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "see",
+   "word": "see",
+   "ipa": "/siː/",
+   "zh": "看见",
+   "icon": "see",
+   "kind": "verb",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "talk",
+   "word": "talk",
+   "ipa": "/tɔːk/",
+   "zh": "交谈；聊天",
+   "icon": "talk",
+   "alt": "talk with friends",
+   "altLabel": "搭配",
+   "kind": "verb",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "say",
+   "word": "say",
+   "ipa": "/seɪ/",
+   "zh": "说（话）",
+   "icon": "say",
+   "alt": "say hello",
+   "altLabel": "搭配",
+   "kind": "verb",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "speak",
+   "word": "speak",
+   "ipa": "/spiːk/",
+   "zh": "说（语言）",
+   "icon": "speak",
+   "alt": "speak English",
+   "altLabel": "搭配",
+   "kind": "verb",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "tell",
+   "word": "tell",
+   "ipa": "/tel/",
+   "zh": "告诉；讲述",
+   "icon": "tell",
+   "alt": "tell a story",
+   "altLabel": "搭配",
+   "kind": "verb",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "action",
+   "to": "walk"
+  },
+  {
+   "from": "walk",
+   "to": "run",
+   "label": "更快"
+  },
+  {
+   "from": "walk",
+   "to": "stand",
+   "label": "停下"
+  },
+  {
+   "from": "stand",
+   "to": "sit"
+  },
+  {
+   "from": "stand",
+   "to": "wait"
+  },
+  {
+   "from": "action",
+   "to": "look"
+  },
+  {
+   "from": "look",
+   "to": "see",
+   "label": "结果"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！今天我们来学动作。准备好了吗？一起动起来！"
+    },
+    {
+     "en": "action"
+    },
+    {
+     "zh": "动作，行动。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:action",
+    "focus:action"
+   ],
+   "parts": [
+    {
+     "zh": "拍电影的时候，导演一喊这个词，演员们就开始表演啦："
+    },
+    {
+     "en": "Action!"
+    },
+    {
+     "zh": "它的意思，就是动作、行动。"
+    },
+    {
+     "en": "action"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:walk",
+    "edge:action>walk",
+    "focus:walk"
+   ],
+   "parts": [
+    {
+     "zh": "两只脚轮流向前，一步一步地走："
+    },
+    {
+     "en": "walk"
+    },
+    {
+     "en": "Let's walk to school."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:run",
+    "edge:walk>run",
+    "focus:run"
+   ],
+   "parts": [
+    {
+     "zh": "走得越来越快，两只脚一起离开地面，就变成了跑："
+    },
+    {
+     "en": "run"
+    },
+    {
+     "en": "Run, run, run!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:stand",
+    "edge:walk>stand",
+    "focus:stand"
+   ],
+   "parts": [
+    {
+     "zh": "停下脚步，直直地站好："
+    },
+    {
+     "en": "stand"
+    },
+    {
+     "en": "Stand up, please."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sit",
+    "edge:stand>sit",
+    "focus:sit"
+   ],
+   "parts": [
+    {
+     "zh": "站累了，找一把椅子坐下来："
+    },
+    {
+     "en": "sit"
+    },
+    {
+     "en": "Sit down, please."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:stand,sit"
+   ],
+   "parts": [
+    {
+     "zh": "站起来，是"
+    },
+    {
+     "en": "stand up",
+     "cue": [
+      "focus:stand"
+     ]
+    },
+    {
+     "zh": "坐下去，是",
+     "cue": [
+      "focus:sit"
+     ]
+    },
+    {
+     "en": "sit down"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wait",
+    "edge:stand>wait",
+    "focus:wait"
+   ],
+   "parts": [
+    {
+     "zh": "站在路口，红灯亮了，要耐心地等一等："
+    },
+    {
+     "en": "wait"
+    },
+    {
+     "en": "Wait for me!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:look",
+    "edge:action>look",
+    "focus:look"
+   ],
+   "parts": [
+    {
+     "zh": "下面是眼睛的动作。把眼睛转过去，专门去看："
+    },
+    {
+     "en": "look"
+    },
+    {
+     "en": "Look at me!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:see",
+    "edge:look>see",
+    "focus:see"
+   ],
+   "parts": [
+    {
+     "zh": "东西自己跑进了你的眼睛里，就是看见："
+    },
+    {
+     "en": "see"
+    },
+    {
+     "en": "I can see a bird."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:look,see"
+   ],
+   "parts": [
+    {
+     "zh": "看，是你主动去看；看见，是看的结果。"
+    },
+    {
+     "en": "Look! Can you see it?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后是嘴巴的动作。这四个词都和说话有关，用法却各不相同哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:talk",
+    "focus:talk"
+   ],
+   "parts": [
+    {
+     "zh": "两个人你一句、我一句，聊天交谈，用"
+    },
+    {
+     "en": "talk"
+    },
+    {
+     "zh": "常常这样说：",
+     "cue": [
+      "alt:talk"
+     ]
+    },
+    {
+     "en": "talk with friends"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:say",
+    "focus:say"
+   ],
+   "parts": [
+    {
+     "zh": "说出一句具体的话，用"
+    },
+    {
+     "en": "say"
+    },
+    {
+     "zh": "比如，说一声你好：",
+     "cue": [
+      "alt:say"
+     ]
+    },
+    {
+     "en": "say hello"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:speak",
+    "focus:speak"
+   ],
+   "parts": [
+    {
+     "zh": "说一种语言，用"
+    },
+    {
+     "en": "speak"
+    },
+    {
+     "zh": "比如，说英语：",
+     "cue": [
+      "alt:speak"
+     ]
+    },
+    {
+     "en": "speak English"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tell",
+    "focus:tell"
+   ],
+   "parts": [
+    {
+     "zh": "把一件事告诉别人，或者讲一个故事，用"
+    },
+    {
+     "en": "tell"
+    },
+    {
+     "zh": "比如，讲一个故事：",
+     "cue": [
+      "alt:tell"
+     ]
+    },
+    {
+     "en": "tell a story"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:talk,say,speak,tell"
+   ],
+   "parts": [
+    {
+     "zh": "我们把这四个连起来说一遍："
+    },
+    {
+     "en": "talk with friends",
+     "cue": [
+      "focus:talk"
+     ]
+    },
+    {
+     "en": "say hello",
+     "cue": [
+      "focus:say"
+     ]
+    },
+    {
+     "en": "speak English",
+     "cue": [
+      "focus:speak"
+     ]
+    },
+    {
+     "en": "tell a story",
+     "cue": [
+      "focus:tell"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "来玩个小游戏吧！听到口令，就跟着做动作！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Stand up!",
+     "cue": [
+      "focus:stand"
+     ]
+    },
+    {
+     "en": "Walk!",
+     "cue": [
+      "focus:walk"
+     ]
+    },
+    {
+     "en": "Run!",
+     "cue": [
+      "focus:run"
+     ]
+    },
+    {
+     "en": "Stop! Wait!",
+     "cue": [
+      "focus:wait"
+     ]
+    },
+    {
+     "en": "Look!",
+     "cue": [
+      "focus:look"
+     ]
+    },
+    {
+     "en": "Sit down.",
+     "cue": [
+      "focus:sit"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:action"
+   ],
+   "parts": [
+    {
+     "en": "action"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:walk"
+   ],
+   "parts": [
+    {
+     "en": "walk"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:run"
+   ],
+   "parts": [
+    {
+     "en": "run"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:stand"
+   ],
+   "parts": [
+    {
+     "en": "stand"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sit"
+   ],
+   "parts": [
+    {
+     "en": "sit"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wait"
+   ],
+   "parts": [
+    {
+     "en": "wait"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:look"
+   ],
+   "parts": [
+    {
+     "en": "look"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:see"
+   ],
+   "parts": [
+    {
+     "en": "see"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:talk"
+   ],
+   "parts": [
+    {
+     "en": "talk"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:say"
+   ],
+   "parts": [
+    {
+     "en": "say"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:speak"
+   ],
+   "parts": [
+    {
+     "en": "speak"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tell"
+   ],
+   "parts": [
+    {
+     "en": "tell"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！今天回家，用英语给爸爸妈妈发口令，让他们也动起来吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}
