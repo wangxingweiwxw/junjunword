@@ -1,0 +1,729 @@
+{
+ "duration": 149.477,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！还记得第四十三集的餐厅吗？今天，我们走进餐厅点菜！",
+   "t0": 0.4,
+   "t1": 7.214,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "restaurant",
+   "t0": 7.464,
+   "t1": 8.16,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "餐厅，英语是",
+   "t0": 9.26,
+   "t1": 10.712,
+   "cue": [
+    "map",
+    "show:restaurant",
+    "focus:restaurant"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "restaurant",
+   "t0": 10.962,
+   "t1": 11.658,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "中间的 a u，读得轻轻的。",
+   "t0": 12.158,
+   "t1": 14.332,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "坐下来，先看看菜单：",
+   "t0": 15.182,
+   "t1": 17.053,
+   "cue": [
+    "show:menu",
+    "edge:restaurant>menu",
+    "focus:menu"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "menu",
+   "t0": 17.303,
+   "t1": 17.852,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Can I see the menu?",
+   "t0": 18.352,
+   "t1": 19.446,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "服务员来为我们服务：",
+   "t0": 20.546,
+   "t1": 22.192,
+   "cue": [
+    "show:service",
+    "edge:restaurant>service",
+    "focus:service"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "service",
+   "t0": 22.442,
+   "t1": 23.107,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Good service!",
+   "t0": 23.607,
+   "t1": 24.476,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "今天是爸爸请客。请客，英语是",
+   "t0": 25.576,
+   "t1": 29.17,
+   "cue": [
+    "show:treat",
+    "edge:service>treat",
+    "focus:treat"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "treat",
+   "t0": 29.42,
+   "t1": 29.904,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "It's my treat!",
+   "t0": 30.404,
+   "t1": 31.292,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "没听清服务员说什么？可以礼貌地说：",
+   "t0": 32.392,
+   "t1": 35.884,
+   "cue": [
+    "show:pardon",
+    "edge:restaurant>pardon",
+    "focus:pardon",
+    "alt:pardon"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Pardon?",
+   "t0": 36.134,
+   "t1": 36.581,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "意思是，请再说一遍。还记得第十二集的",
+   "t0": 37.081,
+   "t1": 41.043,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Excuse me.",
+   "t0": 41.293,
+   "t1": 42.149,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "正常的、普通的，英语是",
+   "t0": 43.249,
+   "t1": 45.743,
+   "cue": [
+    "show:normal",
+    "edge:service>normal",
+    "focus:normal"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "normal",
+   "t0": 45.993,
+   "t1": 46.55,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "a normal day",
+   "t0": 47.05,
+   "t1": 47.968,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "菜单上的每一道菜，叫",
+   "t0": 49.068,
+   "t1": 51.143,
+   "cue": [
+    "show:dish",
+    "edge:restaurant>dish",
+    "focus:dish"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "dish",
+   "t0": 51.393,
+   "t1": 51.852,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "很多道菜，加上 e s：",
+   "t0": 52.352,
+   "t1": 54.395,
+   "cue": [
+    "plural:dish"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "dishes",
+   "t0": 54.645,
+   "t1": 55.286,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "厨师在厨房里做菜：",
+   "t0": 56.386,
+   "t1": 58.067,
+   "cue": [
+    "show:make",
+    "edge:make>dish",
+    "focus:make"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "make",
+   "t0": 58.317,
+   "t1": 58.743,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "The cook makes dishes.",
+   "t0": 59.243,
+   "t1": 60.712,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "尝一口，真好吃！美味的，英语是",
+   "t0": 61.812,
+   "t1": 65.71,
+   "cue": [
+    "show:delicious",
+    "edge:dish>delicious",
+    "focus:delicious"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "delicious",
+   "t0": 65.96,
+   "t1": 66.774,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "It's delicious!",
+   "t0": 67.274,
+   "t1": 68.308,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "中国人最爱吃的饺子：",
+   "t0": 69.408,
+   "t1": 71.133,
+   "cue": [
+    "show:dumpling",
+    "edge:dish>dumpling",
+    "focus:dumpling"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "dumpling",
+   "t0": 71.383,
+   "t1": 71.971,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "很多个饺子：",
+   "t0": 72.471,
+   "t1": 73.478,
+   "cue": [
+    "plural:dumpling"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "dumplings",
+   "t0": 73.728,
+   "t1": 74.507,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "饺子在中国很常见：",
+   "t0": 75.607,
+   "t1": 77.279,
+   "cue": [
+    "show:common",
+    "edge:dumpling>common",
+    "focus:common"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "common",
+   "t0": 77.529,
+   "t1": 78.038,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Dumplings are a common dish.",
+   "t0": 78.538,
+   "t1": 80.26,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "菜点得很多，足够吃：",
+   "t0": 81.36,
+   "t1": 83.324,
+   "cue": [
+    "show:plenty",
+    "edge:dish>plenty",
+    "focus:plenty"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "plenty",
+   "t0": 83.574,
+   "t1": 84.134,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "plenty of food",
+   "t0": 84.634,
+   "t1": 85.633,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "一块蛋糕、一片披萨，用",
+   "t0": 86.733,
+   "t1": 89.182,
+   "cue": [
+    "show:piece",
+    "focus:piece"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "piece",
+   "t0": 89.432,
+   "t1": 89.868,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "a piece of cake",
+   "t0": 90.368,
+   "t1": 91.388,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "比一块还少，只有一点点，是",
+   "t0": 92.488,
+   "t1": 95.241,
+   "cue": [
+    "show:bit",
+    "edge:piece>bit",
+    "focus:bit",
+    "alt:bit"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "a bit",
+   "t0": 95.491,
+   "t1": 96.056,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Just a bit, please.",
+   "t0": 96.556,
+   "t1": 98.072,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "我们来演一演点菜吧！",
+   "t0": 99.172,
+   "t1": 100.723,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Can I see the menu, please?",
+   "t0": 101.573,
+   "t1": 103.361,
+   "cue": [
+    "focus:menu"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "I want some dumplings.",
+   "t0": 103.861,
+   "t1": 105.21,
+   "cue": [
+    "focus:dumpling"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "And a piece of cake.",
+   "t0": 105.71,
+   "t1": 106.878,
+   "cue": [
+    "focus:piece"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Mmm, delicious!",
+   "t0": 107.378,
+   "t1": 108.663,
+   "cue": [
+    "focus:delicious"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 109.763,
+   "t1": 113.014,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "restaurant",
+   "t0": 113.864,
+   "t1": 114.56,
+   "cue": [
+    "focus:restaurant"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "menu",
+   "t0": 115.66,
+   "t1": 116.209,
+   "cue": [
+    "focus:menu"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "service",
+   "t0": 117.309,
+   "t1": 117.975,
+   "cue": [
+    "focus:service"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "treat",
+   "t0": 119.075,
+   "t1": 119.558,
+   "cue": [
+    "focus:treat"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "pardon",
+   "t0": 120.658,
+   "t1": 121.178,
+   "cue": [
+    "focus:pardon"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "normal",
+   "t0": 122.278,
+   "t1": 122.835,
+   "cue": [
+    "focus:normal"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "dish, dishes",
+   "t0": 123.935,
+   "t1": 125.19,
+   "cue": [
+    "focus:dish"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "make",
+   "t0": 126.29,
+   "t1": 126.716,
+   "cue": [
+    "focus:make"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "delicious",
+   "t0": 127.816,
+   "t1": 128.63,
+   "cue": [
+    "focus:delicious"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "dumpling, dumplings",
+   "t0": 129.73,
+   "t1": 131.298,
+   "cue": [
+    "focus:dumpling"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "common",
+   "t0": 132.398,
+   "t1": 132.906,
+   "cue": [
+    "focus:common"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "plenty",
+   "t0": 134.006,
+   "t1": 134.566,
+   "cue": [
+    "focus:plenty"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "piece",
+   "t0": 135.666,
+   "t1": 136.102,
+   "cue": [
+    "focus:piece"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "a bit",
+   "t0": 137.202,
+   "t1": 137.767,
+   "cue": [
+    "focus:bit"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "zh",
+   "text": "太棒了！下次去餐厅，试着用英语点一道菜吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 138.867,
+   "t1": 147.627,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "restaurant": [
+   0.25,
+   0.946
+  ],
+  "menu": [
+   1.196,
+   1.746
+  ],
+  "service": [
+   1.996,
+   2.661
+  ],
+  "pardon": [
+   2.911,
+   3.431
+  ],
+  "pardon:alt": [
+   3.681,
+   4.128
+  ],
+  "normal": [
+   4.378,
+   4.935
+  ],
+  "treat": [
+   5.185,
+   5.669
+  ],
+  "make": [
+   5.919,
+   6.345
+  ],
+  "dish": [
+   6.595,
+   7.054
+  ],
+  "dish:pl": [
+   7.304,
+   7.944
+  ],
+  "delicious": [
+   8.194,
+   9.008
+  ],
+  "dumpling": [
+   9.258,
+   9.846
+  ],
+  "dumpling:pl": [
+   10.096,
+   10.875
+  ],
+  "common": [
+   11.125,
+   11.633
+  ],
+  "plenty": [
+   11.883,
+   12.443
+  ],
+  "piece": [
+   12.693,
+   13.129
+  ],
+  "bit": [
+   13.379,
+   13.775
+  ],
+  "bit:alt": [
+   14.025,
+   14.59
+  ]
+ }
+}

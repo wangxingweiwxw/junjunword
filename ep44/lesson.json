@@ -1,0 +1,794 @@
+{
+ "id": "ep44",
+ "title": "restaurant",
+ "titleZh": "餐厅",
+ "episode": "第 44 集",
+ "titleIcon": "restaurant",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "restaurant",
+   "word": "restaurant",
+   "ipa": "/ˈrestərɑːnt/",
+   "zh": "餐厅",
+   "icon": "restaurant",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "menu",
+   "word": "menu",
+   "ipa": "/ˈmenjuː/",
+   "zh": "菜单",
+   "icon": "menu",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "service",
+   "word": "service",
+   "ipa": "/ˈsɜːrvɪs/",
+   "zh": "服务",
+   "icon": "service",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "pardon",
+   "word": "pardon",
+   "ipa": "/ˈpɑːrdn/",
+   "zh": "原谅；请再说一遍",
+   "icon": "pardon",
+   "alt": "Pardon?",
+   "altLabel": "常说",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "normal",
+   "word": "normal",
+   "ipa": "/ˈnɔːrml/",
+   "zh": "正常的",
+   "icon": "normal",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "treat",
+   "word": "treat",
+   "ipa": "/triːt/",
+   "zh": "请客；款待",
+   "icon": "treat",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "make",
+   "word": "make",
+   "ipa": "/meɪk/",
+   "zh": "做；制作",
+   "icon": "make",
+   "kind": "verb",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "dish",
+   "word": "dish",
+   "ipa": "/dɪʃ/",
+   "zh": "一道菜",
+   "icon": "dish",
+   "plural": "dishes",
+   "pluralIpa": "/ˈdɪʃɪz/",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "delicious",
+   "word": "delicious",
+   "ipa": "/dɪˈlɪʃəs/",
+   "zh": "美味的",
+   "icon": "delicious",
+   "kind": "adj",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "dumpling",
+   "word": "dumpling",
+   "ipa": "/ˈdʌmplɪŋ/",
+   "zh": "饺子",
+   "icon": "dumpling",
+   "plural": "dumplings",
+   "pluralIpa": "/ˈdʌmplɪŋz/",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "common",
+   "word": "common",
+   "ipa": "/ˈkɑːmən/",
+   "zh": "常见的",
+   "icon": "common",
+   "kind": "adj",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "plenty",
+   "word": "plenty",
+   "ipa": "/ˈplenti/",
+   "zh": "很多；充足",
+   "icon": "plenty",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "piece",
+   "word": "piece",
+   "ipa": "/piːs/",
+   "zh": "一块；一片",
+   "icon": "piece",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "bit",
+   "word": "bit",
+   "ipa": "/bɪt/",
+   "zh": "一点儿",
+   "icon": "bit",
+   "alt": "a bit",
+   "altLabel": "常说",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "restaurant",
+   "to": "service"
+  },
+  {
+   "from": "service",
+   "to": "treat",
+   "dashed": true
+  },
+  {
+   "from": "service",
+   "to": "normal",
+   "dashed": true
+  },
+  {
+   "from": "restaurant",
+   "to": "menu"
+  },
+  {
+   "from": "restaurant",
+   "to": "pardon",
+   "dashed": true
+  },
+  {
+   "from": "restaurant",
+   "to": "dish"
+  },
+  {
+   "from": "make",
+   "to": "dish"
+  },
+  {
+   "from": "dish",
+   "to": "delicious"
+  },
+  {
+   "from": "dish",
+   "to": "dumpling"
+  },
+  {
+   "from": "dumpling",
+   "to": "common"
+  },
+  {
+   "from": "dish",
+   "to": "plenty",
+   "dashed": true
+  },
+  {
+   "from": "piece",
+   "to": "bit",
+   "label": "更少"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！还记得第四十三集的餐厅吗？今天，我们走进餐厅点菜！"
+    },
+    {
+     "en": "restaurant"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:restaurant",
+    "focus:restaurant"
+   ],
+   "parts": [
+    {
+     "zh": "餐厅，英语是"
+    },
+    {
+     "en": "restaurant"
+    },
+    {
+     "zh": "中间的 a u，读得轻轻的。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:menu",
+    "edge:restaurant>menu",
+    "focus:menu"
+   ],
+   "parts": [
+    {
+     "zh": "坐下来，先看看菜单："
+    },
+    {
+     "en": "menu"
+    },
+    {
+     "en": "Can I see the menu?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:service",
+    "edge:restaurant>service",
+    "focus:service"
+   ],
+   "parts": [
+    {
+     "zh": "服务员来为我们服务："
+    },
+    {
+     "en": "service"
+    },
+    {
+     "en": "Good service!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:treat",
+    "edge:service>treat",
+    "focus:treat"
+   ],
+   "parts": [
+    {
+     "zh": "今天是爸爸请客。请客，英语是"
+    },
+    {
+     "en": "treat"
+    },
+    {
+     "en": "It's my treat!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pardon",
+    "edge:restaurant>pardon",
+    "focus:pardon"
+   ],
+   "parts": [
+    {
+     "zh": "没听清服务员说什么？可以礼貌地说：",
+     "cue": [
+      "alt:pardon"
+     ]
+    },
+    {
+     "en": "Pardon?"
+    },
+    {
+     "zh": "意思是，请再说一遍。还记得第十二集的"
+    },
+    {
+     "en": "Excuse me."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:normal",
+    "edge:service>normal",
+    "focus:normal"
+   ],
+   "parts": [
+    {
+     "zh": "正常的、普通的，英语是"
+    },
+    {
+     "en": "normal"
+    },
+    {
+     "en": "a normal day"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:dish",
+    "edge:restaurant>dish",
+    "focus:dish"
+   ],
+   "parts": [
+    {
+     "zh": "菜单上的每一道菜，叫"
+    },
+    {
+     "en": "dish"
+    },
+    {
+     "zh": "很多道菜，加上 e s：",
+     "cue": [
+      "plural:dish"
+     ]
+    },
+    {
+     "en": "dishes"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:make",
+    "edge:make>dish",
+    "focus:make"
+   ],
+   "parts": [
+    {
+     "zh": "厨师在厨房里做菜："
+    },
+    {
+     "en": "make"
+    },
+    {
+     "en": "The cook makes dishes."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:delicious",
+    "edge:dish>delicious",
+    "focus:delicious"
+   ],
+   "parts": [
+    {
+     "zh": "尝一口，真好吃！美味的，英语是"
+    },
+    {
+     "en": "delicious"
+    },
+    {
+     "en": "It's delicious!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:dumpling",
+    "edge:dish>dumpling",
+    "focus:dumpling"
+   ],
+   "parts": [
+    {
+     "zh": "中国人最爱吃的饺子："
+    },
+    {
+     "en": "dumpling"
+    },
+    {
+     "zh": "很多个饺子：",
+     "cue": [
+      "plural:dumpling"
+     ]
+    },
+    {
+     "en": "dumplings"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:common",
+    "edge:dumpling>common",
+    "focus:common"
+   ],
+   "parts": [
+    {
+     "zh": "饺子在中国很常见："
+    },
+    {
+     "en": "common"
+    },
+    {
+     "en": "Dumplings are a common dish."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:plenty",
+    "edge:dish>plenty",
+    "focus:plenty"
+   ],
+   "parts": [
+    {
+     "zh": "菜点得很多，足够吃："
+    },
+    {
+     "en": "plenty"
+    },
+    {
+     "en": "plenty of food"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:piece",
+    "focus:piece"
+   ],
+   "parts": [
+    {
+     "zh": "一块蛋糕、一片披萨，用"
+    },
+    {
+     "en": "piece"
+    },
+    {
+     "en": "a piece of cake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bit",
+    "edge:piece>bit",
+    "focus:bit"
+   ],
+   "parts": [
+    {
+     "zh": "比一块还少，只有一点点，是",
+     "cue": [
+      "alt:bit"
+     ]
+    },
+    {
+     "en": "a bit"
+    },
+    {
+     "en": "Just a bit, please."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们来演一演点菜吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Can I see the menu, please?",
+     "cue": [
+      "focus:menu"
+     ]
+    },
+    {
+     "en": "I want some dumplings.",
+     "cue": [
+      "focus:dumpling"
+     ]
+    },
+    {
+     "en": "And a piece of cake.",
+     "cue": [
+      "focus:piece"
+     ]
+    },
+    {
+     "en": "Mmm, delicious!",
+     "cue": [
+      "focus:delicious"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:restaurant"
+   ],
+   "parts": [
+    {
+     "en": "restaurant"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:menu"
+   ],
+   "parts": [
+    {
+     "en": "menu"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:service"
+   ],
+   "parts": [
+    {
+     "en": "service"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:treat"
+   ],
+   "parts": [
+    {
+     "en": "treat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pardon"
+   ],
+   "parts": [
+    {
+     "en": "pardon"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:normal"
+   ],
+   "parts": [
+    {
+     "en": "normal"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:dish"
+   ],
+   "parts": [
+    {
+     "en": "dish, dishes"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:make"
+   ],
+   "parts": [
+    {
+     "en": "make"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:delicious"
+   ],
+   "parts": [
+    {
+     "en": "delicious"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:dumpling"
+   ],
+   "parts": [
+    {
+     "en": "dumpling, dumplings"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:common"
+   ],
+   "parts": [
+    {
+     "en": "common"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:plenty"
+   ],
+   "parts": [
+    {
+     "en": "plenty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:piece"
+   ],
+   "parts": [
+    {
+     "en": "piece"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bit"
+   ],
+   "parts": [
+    {
+     "en": "a bit"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！下次去餐厅，试着用英语点一道菜吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

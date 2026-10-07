@@ -1,0 +1,690 @@
+{
+ "duration": 141.271,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！还记得第十集的衣服吗？今天，我们来学衣服的好搭档，配饰！",
+   "t0": 0.4,
+   "t1": 7.768,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "accessories",
+   "t0": 8.018,
+   "t1": 8.968,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "衣服：",
+   "t0": 10.068,
+   "t1": 10.537,
+   "cue": [
+    "map",
+    "show:clothes",
+    "focus:clothes"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "clothes",
+   "t0": 10.787,
+   "t1": 11.376,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "我们去服装店逛一逛。商店，也可以说",
+   "t0": 12.476,
+   "t1": 16.322,
+   "cue": [
+    "show:shop",
+    "edge:shop>clothes",
+    "focus:shop"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "shop",
+   "t0": 16.572,
+   "t1": 16.988,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "a clothes shop",
+   "t0": 17.488,
+   "t1": 18.427,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "周六你有空吗？有空的，英语是",
+   "t0": 19.527,
+   "t1": 22.919,
+   "cue": [
+    "show:available",
+    "edge:available>shop",
+    "focus:available"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "available",
+   "t0": 23.169,
+   "t1": 23.912,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Are you available on Saturday?",
+   "t0": 24.412,
+   "t1": 26.101,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "耳朵上戴的，是耳环。耳朵，加上环：",
+   "t0": 27.201,
+   "t1": 31.279,
+   "cue": [
+    "show:earring",
+    "edge:clothes>earring",
+    "focus:earring"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "ear",
+   "t0": 31.529,
+   "t1": 31.921,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "ring",
+   "t0": 32.421,
+   "t1": 32.836,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "earring",
+   "t0": 33.336,
+   "t1": 33.853,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "两只耳朵，一对耳环：",
+   "t0": 34.353,
+   "t1": 36.196,
+   "cue": [
+    "plural:earring"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "earrings",
+   "t0": 36.446,
+   "t1": 37.144,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "冬天脖子上围的，是围巾：",
+   "t0": 38.244,
+   "t1": 40.563,
+   "cue": [
+    "show:scarf",
+    "edge:clothes>scarf",
+    "focus:scarf"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "scarf",
+   "t0": 40.813,
+   "t1": 41.349,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "手上戴的，是手套：",
+   "t0": 42.449,
+   "t1": 44.302,
+   "cue": [
+    "show:glove",
+    "edge:scarf>glove",
+    "focus:glove"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "glove",
+   "t0": 44.552,
+   "t1": 45.038,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "一双手套：",
+   "t0": 45.538,
+   "t1": 46.449,
+   "cue": [
+    "plural:glove"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "a pair of gloves",
+   "t0": 46.699,
+   "t1": 47.848,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "手指上戴的，是戒指：",
+   "t0": 48.948,
+   "t1": 51.012,
+   "cue": [
+    "show:ring",
+    "edge:clothes>ring",
+    "focus:ring"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "ring",
+   "t0": 51.262,
+   "t1": 51.677,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "爸爸要去参加聚会，快把西装带来！带来，英语是",
+   "t0": 52.777,
+   "t1": 57.789,
+   "cue": [
+    "show:bring",
+    "focus:bring"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "bring",
+   "t0": 58.039,
+   "t1": 58.479,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "西装：",
+   "t0": 59.579,
+   "t1": 60.115,
+   "cue": [
+    "show:suit",
+    "edge:bring>suit",
+    "focus:suit"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "suit",
+   "t0": 60.365,
+   "t1": 60.904,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "穿西装，要系一条领带：",
+   "t0": 62.004,
+   "t1": 64.05,
+   "cue": [
+    "show:tie",
+    "edge:suit>tie",
+    "focus:tie"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "tie",
+   "t0": 64.3,
+   "t1": 64.755,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Can you tie a tie?",
+   "t0": 65.255,
+   "t1": 66.326,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "出门要背一个包：",
+   "t0": 67.426,
+   "t1": 68.683,
+   "cue": [
+    "show:bag",
+    "edge:clothes>bag",
+    "focus:bag"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "bag",
+   "t0": 68.933,
+   "t1": 69.34,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "提在手里的，是手提包。手，加上包：",
+   "t0": 70.44,
+   "t1": 74.448,
+   "cue": [
+    "show:handbag",
+    "edge:bag>handbag",
+    "focus:handbag"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "hand",
+   "t0": 74.698,
+   "t1": 75.073,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "bag",
+   "t0": 75.573,
+   "t1": 75.98,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "handbag",
+   "t0": 76.48,
+   "t1": 77.136,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "装钱的，是钱包。妈妈用的小钱包，常叫",
+   "t0": 78.236,
+   "t1": 82.612,
+   "cue": [
+    "show:purse",
+    "focus:purse"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "purse",
+   "t0": 82.862,
+   "t1": 83.313,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "爸爸放在口袋里的，常叫",
+   "t0": 84.413,
+   "t1": 86.691,
+   "cue": [
+    "show:wallet",
+    "edge:purse>wallet",
+    "focus:wallet"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "wallet",
+   "t0": 86.941,
+   "t1": 87.506,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "今天的拼词：",
+   "t0": 88.606,
+   "t1": 89.726,
+   "cue": [
+    "focus:earring,handbag"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "ear, ring, earring",
+   "t0": 89.976,
+   "t1": 91.718,
+   "cue": [
+    "focus:earring"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "hand, bag, handbag",
+   "t0": 92.218,
+   "t1": 94.058,
+   "cue": [
+    "focus:handbag"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "你今天戴了什么？",
+   "t0": 95.158,
+   "t1": 96.379,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "I wear a scarf.",
+   "t0": 97.229,
+   "t1": 98.249,
+   "cue": [
+    "focus:scarf"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "I wear gloves.",
+   "t0": 98.749,
+   "t1": 99.767,
+   "cue": [
+    "focus:glove"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "And I bring my bag!",
+   "t0": 100.267,
+   "t1": 101.405,
+   "cue": [
+    "focus:bring,bag"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 102.505,
+   "t1": 105.756,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "clothes",
+   "t0": 106.606,
+   "t1": 107.194,
+   "cue": [
+    "focus:clothes"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "shop",
+   "t0": 108.294,
+   "t1": 108.711,
+   "cue": [
+    "focus:shop"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "available",
+   "t0": 109.811,
+   "t1": 110.554,
+   "cue": [
+    "focus:available"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "earring, earrings",
+   "t0": 111.654,
+   "t1": 113.058,
+   "cue": [
+    "focus:earring"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "scarf",
+   "t0": 114.158,
+   "t1": 114.694,
+   "cue": [
+    "focus:scarf"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "glove, gloves",
+   "t0": 115.794,
+   "t1": 117.055,
+   "cue": [
+    "focus:glove"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "ring",
+   "t0": 118.155,
+   "t1": 118.57,
+   "cue": [
+    "focus:ring"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "bring",
+   "t0": 119.67,
+   "t1": 120.111,
+   "cue": [
+    "focus:bring"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "suit",
+   "t0": 121.211,
+   "t1": 121.75,
+   "cue": [
+    "focus:suit"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "tie",
+   "t0": 122.85,
+   "t1": 123.305,
+   "cue": [
+    "focus:tie"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "bag",
+   "t0": 124.405,
+   "t1": 124.811,
+   "cue": [
+    "focus:bag"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "handbag",
+   "t0": 125.911,
+   "t1": 126.568,
+   "cue": [
+    "focus:handbag"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "purse",
+   "t0": 127.668,
+   "t1": 128.119,
+   "cue": [
+    "focus:purse"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "wallet",
+   "t0": 129.219,
+   "t1": 129.784,
+   "cue": [
+    "focus:wallet"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "zh",
+   "text": "太棒了！出门前，用英语说一说你要带什么吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 130.884,
+   "t1": 139.421,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "clothes": [
+   0.25,
+   0.838
+  ],
+  "shop": [
+   1.088,
+   1.505
+  ],
+  "available": [
+   1.755,
+   2.498
+  ],
+  "bring": [
+   2.748,
+   3.189
+  ],
+  "suit": [
+   3.439,
+   3.978
+  ],
+  "tie": [
+   4.228,
+   4.683
+  ],
+  "earring": [
+   4.933,
+   5.45
+  ],
+  "earring:pl": [
+   5.7,
+   6.398
+  ],
+  "scarf": [
+   6.648,
+   7.184
+  ],
+  "glove": [
+   7.434,
+   7.92
+  ],
+  "glove:pl": [
+   8.17,
+   8.781
+  ],
+  "ring": [
+   9.031,
+   9.446
+  ],
+  "bag": [
+   9.696,
+   10.102
+  ],
+  "handbag": [
+   10.352,
+   11.009
+  ],
+  "purse": [
+   11.259,
+   11.71
+  ],
+  "wallet": [
+   11.96,
+   12.525
+  ]
+ }
+}

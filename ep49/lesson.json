@@ -1,0 +1,776 @@
+{
+ "id": "ep49",
+ "title": "accessories",
+ "titleZh": "配饰",
+ "episode": "第 49 集",
+ "titleIcon": "handbag",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "clothes",
+   "word": "clothes",
+   "ipa": "/kloʊðz/",
+   "zh": "衣服",
+   "icon": "clothes",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "shop",
+   "word": "shop",
+   "ipa": "/ʃɑːp/",
+   "zh": "商店",
+   "icon": "store",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "available",
+   "word": "available",
+   "ipa": "/əˈveɪləbl/",
+   "zh": "有空的；可获得的",
+   "icon": "available",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "bring",
+   "word": "bring",
+   "ipa": "/brɪŋ/",
+   "zh": "带来",
+   "icon": "bring",
+   "kind": "verb",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "suit",
+   "word": "suit",
+   "ipa": "/suːt/",
+   "zh": "西装",
+   "icon": "suit",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "tie",
+   "word": "tie",
+   "ipa": "/taɪ/",
+   "zh": "领带",
+   "icon": "tie",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "earring",
+   "word": "earring",
+   "ipa": "/ˈɪrɪŋ/",
+   "zh": "耳环",
+   "icon": "earring",
+   "plural": "earrings",
+   "pluralIpa": "/ˈɪrɪŋz/",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "scarf",
+   "word": "scarf",
+   "ipa": "/skɑːrf/",
+   "zh": "围巾",
+   "icon": "scarf",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "glove",
+   "word": "glove",
+   "ipa": "/ɡlʌv/",
+   "zh": "手套",
+   "icon": "glove",
+   "plural": "gloves",
+   "pluralIpa": "/ɡlʌvz/",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "ring",
+   "word": "ring",
+   "ipa": "/rɪŋ/",
+   "zh": "戒指",
+   "icon": "ring",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "bag",
+   "word": "bag",
+   "ipa": "/bæɡ/",
+   "zh": "包",
+   "icon": "bag",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "handbag",
+   "word": "handbag",
+   "ipa": "/ˈhændbæɡ/",
+   "zh": "手提包",
+   "icon": "handbag",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "purse",
+   "word": "purse",
+   "ipa": "/pɜːrs/",
+   "zh": "钱包（女式）",
+   "icon": "purse",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "wallet",
+   "word": "wallet",
+   "ipa": "/ˈwɑːlɪt/",
+   "zh": "钱包（男式）",
+   "icon": "wallet",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "shop",
+   "to": "clothes"
+  },
+  {
+   "from": "available",
+   "to": "shop",
+   "dashed": true
+  },
+  {
+   "from": "bring",
+   "to": "suit"
+  },
+  {
+   "from": "clothes",
+   "to": "earring",
+   "label": "耳朵上"
+  },
+  {
+   "from": "clothes",
+   "to": "scarf",
+   "label": "脖子上"
+  },
+  {
+   "from": "clothes",
+   "to": "ring",
+   "label": "手指上"
+  },
+  {
+   "from": "suit",
+   "to": "tie"
+  },
+  {
+   "from": "scarf",
+   "to": "glove",
+   "dashed": true
+  },
+  {
+   "from": "bag",
+   "to": "handbag",
+   "label": "hand+"
+  },
+  {
+   "from": "purse",
+   "to": "wallet",
+   "label": "都是钱包"
+  },
+  {
+   "from": "clothes",
+   "to": "bag"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！还记得第十集的衣服吗？今天，我们来学衣服的好搭档，配饰！"
+    },
+    {
+     "en": "accessories"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:clothes",
+    "focus:clothes"
+   ],
+   "parts": [
+    {
+     "zh": "衣服："
+    },
+    {
+     "en": "clothes"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:shop",
+    "edge:shop>clothes",
+    "focus:shop"
+   ],
+   "parts": [
+    {
+     "zh": "我们去服装店逛一逛。商店，也可以说"
+    },
+    {
+     "en": "shop"
+    },
+    {
+     "en": "a clothes shop"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:available",
+    "edge:available>shop",
+    "focus:available"
+   ],
+   "parts": [
+    {
+     "zh": "周六你有空吗？有空的，英语是"
+    },
+    {
+     "en": "available"
+    },
+    {
+     "en": "Are you available on Saturday?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:earring",
+    "edge:clothes>earring",
+    "focus:earring"
+   ],
+   "parts": [
+    {
+     "zh": "耳朵上戴的，是耳环。耳朵，加上环："
+    },
+    {
+     "en": "ear"
+    },
+    {
+     "en": "ring"
+    },
+    {
+     "en": "earring"
+    },
+    {
+     "zh": "两只耳朵，一对耳环：",
+     "cue": [
+      "plural:earring"
+     ]
+    },
+    {
+     "en": "earrings"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:scarf",
+    "edge:clothes>scarf",
+    "focus:scarf"
+   ],
+   "parts": [
+    {
+     "zh": "冬天脖子上围的，是围巾："
+    },
+    {
+     "en": "scarf"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:glove",
+    "edge:scarf>glove",
+    "focus:glove"
+   ],
+   "parts": [
+    {
+     "zh": "手上戴的，是手套："
+    },
+    {
+     "en": "glove"
+    },
+    {
+     "zh": "一双手套：",
+     "cue": [
+      "plural:glove"
+     ]
+    },
+    {
+     "en": "a pair of gloves"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ring",
+    "edge:clothes>ring",
+    "focus:ring"
+   ],
+   "parts": [
+    {
+     "zh": "手指上戴的，是戒指："
+    },
+    {
+     "en": "ring"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bring",
+    "focus:bring"
+   ],
+   "parts": [
+    {
+     "zh": "爸爸要去参加聚会，快把西装带来！带来，英语是"
+    },
+    {
+     "en": "bring"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:suit",
+    "edge:bring>suit",
+    "focus:suit"
+   ],
+   "parts": [
+    {
+     "zh": "西装："
+    },
+    {
+     "en": "suit"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tie",
+    "edge:suit>tie",
+    "focus:tie"
+   ],
+   "parts": [
+    {
+     "zh": "穿西装，要系一条领带："
+    },
+    {
+     "en": "tie"
+    },
+    {
+     "en": "Can you tie a tie?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bag",
+    "edge:clothes>bag",
+    "focus:bag"
+   ],
+   "parts": [
+    {
+     "zh": "出门要背一个包："
+    },
+    {
+     "en": "bag"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:handbag",
+    "edge:bag>handbag",
+    "focus:handbag"
+   ],
+   "parts": [
+    {
+     "zh": "提在手里的，是手提包。手，加上包："
+    },
+    {
+     "en": "hand"
+    },
+    {
+     "en": "bag"
+    },
+    {
+     "en": "handbag"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:purse",
+    "focus:purse"
+   ],
+   "parts": [
+    {
+     "zh": "装钱的，是钱包。妈妈用的小钱包，常叫"
+    },
+    {
+     "en": "purse"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wallet",
+    "edge:purse>wallet",
+    "focus:wallet"
+   ],
+   "parts": [
+    {
+     "zh": "爸爸放在口袋里的，常叫"
+    },
+    {
+     "en": "wallet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:earring,handbag"
+   ],
+   "parts": [
+    {
+     "zh": "今天的拼词："
+    },
+    {
+     "en": "ear, ring, earring",
+     "cue": [
+      "focus:earring"
+     ]
+    },
+    {
+     "en": "hand, bag, handbag",
+     "cue": [
+      "focus:handbag"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "你今天戴了什么？"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "I wear a scarf.",
+     "cue": [
+      "focus:scarf"
+     ]
+    },
+    {
+     "en": "I wear gloves.",
+     "cue": [
+      "focus:glove"
+     ]
+    },
+    {
+     "en": "And I bring my bag!",
+     "cue": [
+      "focus:bring,bag"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:clothes"
+   ],
+   "parts": [
+    {
+     "en": "clothes"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:shop"
+   ],
+   "parts": [
+    {
+     "en": "shop"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:available"
+   ],
+   "parts": [
+    {
+     "en": "available"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:earring"
+   ],
+   "parts": [
+    {
+     "en": "earring, earrings"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:scarf"
+   ],
+   "parts": [
+    {
+     "en": "scarf"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:glove"
+   ],
+   "parts": [
+    {
+     "en": "glove, gloves"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ring"
+   ],
+   "parts": [
+    {
+     "en": "ring"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bring"
+   ],
+   "parts": [
+    {
+     "en": "bring"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:suit"
+   ],
+   "parts": [
+    {
+     "en": "suit"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tie"
+   ],
+   "parts": [
+    {
+     "en": "tie"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bag"
+   ],
+   "parts": [
+    {
+     "en": "bag"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:handbag"
+   ],
+   "parts": [
+    {
+     "en": "handbag"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:purse"
+   ],
+   "parts": [
+    {
+     "en": "purse"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wallet"
+   ],
+   "parts": [
+    {
+     "en": "wallet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！出门前，用英语说一说你要带什么吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

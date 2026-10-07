@@ -1,0 +1,725 @@
+{
+ "duration": 145.335,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！还记得第十九集的天气吗？今天，我们学更多和天气有关的词。",
+   "t0": 0.4,
+   "t1": 7.774,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "weather",
+   "t0": 8.024,
+   "t1": 8.486,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "天气：",
+   "t0": 9.586,
+   "t1": 10.151,
+   "cue": [
+    "map",
+    "show:weather",
+    "focus:weather"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "weather",
+   "t0": 10.401,
+   "t1": 10.862,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "天气有多冷多热，要看温度：",
+   "t0": 11.962,
+   "t1": 14.406,
+   "cue": [
+    "show:temperature",
+    "edge:weather>temperature",
+    "focus:temperature"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "temperature",
+   "t0": 14.656,
+   "t1": 15.37,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "这个词很长，拆开读：",
+   "t0": 15.87,
+   "t1": 17.852,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "tem, pe, ra, ture",
+   "t0": 18.102,
+   "t1": 20.541,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "温度用度来表示：",
+   "t0": 21.641,
+   "t1": 22.994,
+   "cue": [
+    "show:degree",
+    "edge:temperature>degree",
+    "focus:degree"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "degree",
+   "t0": 23.244,
+   "t1": 23.797,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "It's 25 degrees today.",
+   "t0": 24.297,
+   "t1": 26.076,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "温度很高的时候，热浪滚滚，是炎热：",
+   "t0": 27.176,
+   "t1": 30.506,
+   "cue": [
+    "show:heat",
+    "edge:temperature>heat",
+    "focus:heat"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "heat",
+   "t0": 30.756,
+   "t1": 31.197,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "还记得第十九集的热 hot 吗？",
+   "t0": 31.697,
+   "t1": 33.84,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "太热太干，要小心着火冒烟。烟，英语是",
+   "t0": 34.69,
+   "t1": 39.314,
+   "cue": [
+    "show:smoke",
+    "edge:heat>smoke",
+    "focus:smoke"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "smoke",
+   "t0": 39.564,
+   "t1": 40.082,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "很久不下雨，地面是干的：",
+   "t0": 41.182,
+   "t1": 43.37,
+   "cue": [
+    "show:dry",
+    "edge:heat>dry",
+    "focus:dry"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "dry",
+   "t0": 43.62,
+   "t1": 44.079,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "被雨淋了，是湿的：",
+   "t0": 45.179,
+   "t1": 46.893,
+   "cue": [
+    "show:wet",
+    "edge:dry>wet",
+    "focus:wet"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "wet",
+   "t0": 47.143,
+   "t1": 47.6,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "干和湿：",
+   "t0": 48.1,
+   "t1": 48.814,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "dry",
+   "t0": 49.064,
+   "t1": 49.523,
+   "cue": [
+    "focus:dry"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "wet",
+   "t0": 50.023,
+   "t1": 50.48,
+   "cue": [
+    "focus:wet"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "下雨天：",
+   "t0": 51.58,
+   "t1": 52.335,
+   "cue": [
+    "show:rainy",
+    "edge:weather>rainy",
+    "focus:rainy"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "rainy",
+   "t0": 52.585,
+   "t1": 53.04,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "下雨要打伞：",
+   "t0": 54.14,
+   "t1": 55.218,
+   "cue": [
+    "show:umbrella",
+    "edge:rainy>umbrella",
+    "focus:umbrella"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "umbrella",
+   "t0": 55.468,
+   "t1": 56.097,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "或者穿雨衣。雨，加上外套：",
+   "t0": 57.197,
+   "t1": 60.316,
+   "cue": [
+    "show:raincoat",
+    "edge:rainy>raincoat",
+    "focus:raincoat"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "rain",
+   "t0": 60.566,
+   "t1": 61.021,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "coat",
+   "t0": 61.521,
+   "t1": 61.953,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "raincoat",
+   "t0": 62.453,
+   "t1": 63.134,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "出门前，记得带上：",
+   "t0": 64.234,
+   "t1": 65.974,
+   "cue": [
+    "show:take",
+    "edge:take>raincoat",
+    "focus:take"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "take",
+   "t0": 66.224,
+   "t1": 66.64,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Take your raincoat.",
+   "t0": 67.14,
+   "t1": 68.212,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "也带上雨伞。也，英语是",
+   "t0": 69.312,
+   "t1": 72.317,
+   "cue": [
+    "show:too",
+    "edge:too>umbrella",
+    "focus:too"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "too",
+   "t0": 72.567,
+   "t1": 72.981,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "Take your umbrella too.",
+   "t0": 73.481,
+   "t1": 74.792,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "还记得第二十集也学过一个 also 吗？",
+   "t0": 75.292,
+   "t1": 78.095,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "下雪天：",
+   "t0": 78.945,
+   "t1": 79.711,
+   "cue": [
+    "show:snowy",
+    "focus:snowy"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "snowy",
+   "t0": 79.961,
+   "t1": 80.54,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "冷得水变成了冰：",
+   "t0": 81.64,
+   "t1": 83.131,
+   "cue": [
+    "show:ice",
+    "edge:snowy>ice",
+    "focus:ice"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "ice",
+   "t0": 83.381,
+   "t1": 83.821,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "水变成冰，是结冰：",
+   "t0": 84.921,
+   "t1": 86.83,
+   "cue": [
+    "show:freeze",
+    "edge:ice>freeze",
+    "focus:freeze"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "freeze",
+   "t0": 87.08,
+   "t1": 87.648,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "已经结冰了，要说",
+   "t0": 88.148,
+   "t1": 89.86,
+   "cue": [
+    "alt:freeze"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "froze",
+   "t0": 90.11,
+   "t1": 90.606,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "The water froze this morning.",
+   "t0": 91.106,
+   "t1": 92.678,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "当一回天气预报员吧！",
+   "t0": 93.778,
+   "t1": 95.4,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Today is rainy and wet.",
+   "t0": 96.25,
+   "t1": 97.762,
+   "cue": [
+    "focus:rainy,wet"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Take your umbrella!",
+   "t0": 98.262,
+   "t1": 99.225,
+   "cue": [
+    "focus:take,umbrella"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Tomorrow is snowy. The water will freeze.",
+   "t0": 99.725,
+   "t1": 103.309,
+   "cue": [
+    "focus:snowy,freeze"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 104.409,
+   "t1": 107.66,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "weather",
+   "t0": 108.51,
+   "t1": 108.972,
+   "cue": [
+    "focus:weather"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "temperature",
+   "t0": 110.072,
+   "t1": 110.785,
+   "cue": [
+    "focus:temperature"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "degree",
+   "t0": 111.885,
+   "t1": 112.437,
+   "cue": [
+    "focus:degree"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "heat",
+   "t0": 113.537,
+   "t1": 113.978,
+   "cue": [
+    "focus:heat"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "smoke",
+   "t0": 115.078,
+   "t1": 115.596,
+   "cue": [
+    "focus:smoke"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "dry",
+   "t0": 116.696,
+   "t1": 117.154,
+   "cue": [
+    "focus:dry"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "wet",
+   "t0": 118.254,
+   "t1": 118.711,
+   "cue": [
+    "focus:wet"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "rainy",
+   "t0": 119.811,
+   "t1": 120.267,
+   "cue": [
+    "focus:rainy"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "umbrella",
+   "t0": 121.367,
+   "t1": 121.995,
+   "cue": [
+    "focus:umbrella"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "raincoat",
+   "t0": 123.095,
+   "t1": 123.777,
+   "cue": [
+    "focus:raincoat"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "take",
+   "t0": 124.877,
+   "t1": 125.293,
+   "cue": [
+    "focus:take"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "too",
+   "t0": 126.393,
+   "t1": 126.808,
+   "cue": [
+    "focus:too"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "snowy",
+   "t0": 127.908,
+   "t1": 128.487,
+   "cue": [
+    "focus:snowy"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "ice",
+   "t0": 129.587,
+   "t1": 130.026,
+   "cue": [
+    "focus:ice"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "en",
+   "text": "freeze, froze",
+   "t0": 131.126,
+   "t1": 132.44,
+   "cue": [
+    "focus:freeze"
+   ]
+  },
+  {
+   "seg": 34,
+   "lang": "zh",
+   "text": "太棒了！每天出门前，看看天气，用英语说一说要带什么吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 133.54,
+   "t1": 143.485,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "weather": [
+   0.25,
+   0.712
+  ],
+  "temperature": [
+   0.962,
+   1.675
+  ],
+  "degree": [
+   1.925,
+   2.478
+  ],
+  "heat": [
+   2.728,
+   3.168
+  ],
+  "smoke": [
+   3.418,
+   3.936
+  ],
+  "dry": [
+   4.186,
+   4.644
+  ],
+  "wet": [
+   4.894,
+   5.352
+  ],
+  "rainy": [
+   5.602,
+   6.057
+  ],
+  "umbrella": [
+   6.307,
+   6.936
+  ],
+  "raincoat": [
+   7.186,
+   7.867
+  ],
+  "take": [
+   8.117,
+   8.534
+  ],
+  "too": [
+   8.784,
+   9.198
+  ],
+  "snowy": [
+   9.448,
+   10.027
+  ],
+  "ice": [
+   10.277,
+   10.717
+  ],
+  "freeze": [
+   10.967,
+   11.535
+  ],
+  "freeze:alt": [
+   11.785,
+   12.28
+  ]
+ }
+}

@@ -1,0 +1,660 @@
+{
+ "duration": 131.282,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！今天放假，我们来帮爸爸妈妈做家务吧！",
+   "t0": 0.4,
+   "t1": 5.23,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "chores",
+   "t0": 5.48,
+   "t1": 6.089,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "家里要做的扫地、洗碗这些活儿，叫家务：",
+   "t0": 7.189,
+   "t1": 10.709,
+   "cue": [
+    "map",
+    "show:chore",
+    "focus:chore"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "chore",
+   "t0": 10.959,
+   "t1": 11.442,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "家务有很多样：",
+   "t0": 11.942,
+   "t1": 13.139,
+   "cue": [
+    "plural:chore"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "chores",
+   "t0": 13.389,
+   "t1": 13.997,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "I help with the chores.",
+   "t0": 14.497,
+   "t1": 15.768,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "哎呀，房间里乱七八糟的！",
+   "t0": 16.868,
+   "t1": 19.117,
+   "cue": [
+    "show:mess",
+    "edge:chore>mess",
+    "focus:mess"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "mess",
+   "t0": 19.367,
+   "t1": 19.875,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "加上 y，就是乱糟糟的：",
+   "t0": 20.375,
+   "t1": 22.389,
+   "cue": [
+    "alt:mess"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "messy",
+   "t0": 22.639,
+   "t1": 23.195,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "My room is a mess.",
+   "t0": 23.695,
+   "t1": 24.916,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "快把东西收拾好，整理得整整齐齐：",
+   "t0": 26.016,
+   "t1": 29.056,
+   "cue": [
+    "show:tidy",
+    "edge:chore>tidy",
+    "edge:mess>tidy",
+    "focus:tidy"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "tidy",
+   "t0": 29.306,
+   "t1": 29.77,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Tidy your room!",
+   "t0": 30.27,
+   "t1": 31.25,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "衣服弄得脏兮兮的，是",
+   "t0": 32.35,
+   "t1": 34.374,
+   "cue": [
+    "show:dirty",
+    "edge:chore>wash",
+    "focus:dirty"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "dirty",
+   "t0": 34.624,
+   "t1": 35.061,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "脏了就要洗：",
+   "t0": 36.161,
+   "t1": 37.125,
+   "cue": [
+    "show:wash",
+    "edge:dirty>wash",
+    "focus:wash"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "wash",
+   "t0": 37.375,
+   "t1": 37.824,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Wash your hands.",
+   "t0": 38.324,
+   "t1": 39.363,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "洗完了，就干干净净的：",
+   "t0": 40.463,
+   "t1": 42.509,
+   "cue": [
+    "show:clean",
+    "edge:wash>clean",
+    "focus:clean"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "clean",
+   "t0": 42.759,
+   "t1": 43.268,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "脏和干净，正好相反。",
+   "t0": 43.768,
+   "t1": 45.83,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "dirty",
+   "t0": 46.08,
+   "t1": 46.518,
+   "cue": [
+    "focus:dirty"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "clean",
+   "t0": 47.018,
+   "t1": 47.526,
+   "cue": [
+    "focus:clean"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "我们脚下踩的，是地板：",
+   "t0": 48.626,
+   "t1": 50.649,
+   "cue": [
+    "show:floor",
+    "focus:floor"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "floor",
+   "t0": 50.899,
+   "t1": 51.431,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "拿起扫帚，扫一扫地：",
+   "t0": 52.531,
+   "t1": 54.437,
+   "cue": [
+    "show:sweep",
+    "edge:floor>sweep",
+    "focus:sweep"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "sweep",
+   "t0": 54.687,
+   "t1": 55.152,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Sweep the floor.",
+   "t0": 55.652,
+   "t1": 56.736,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "刷子，英语是",
+   "t0": 57.836,
+   "t1": 59.324,
+   "cue": [
+    "show:brush",
+    "edge:sweep>brush",
+    "focus:brush"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "brush",
+   "t0": 59.574,
+   "t1": 60.067,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "还记得第三十八集的牙刷吗？",
+   "t0": 60.567,
+   "t1": 62.757,
+   "cue": [
+    "alt:brush"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "tooth, brush, toothbrush",
+   "t0": 63.007,
+   "t1": 65.196,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "扫出来的垃圾，英语是",
+   "t0": 66.296,
+   "t1": 68.399,
+   "cue": [
+    "show:rubbish",
+    "focus:rubbish"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "rubbish",
+   "t0": 68.649,
+   "t1": 69.236,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "垃圾要扔进垃圾桶：",
+   "t0": 70.336,
+   "t1": 72.111,
+   "cue": [
+    "show:bin",
+    "edge:rubbish>bin",
+    "focus:bin"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "bin",
+   "t0": 72.361,
+   "t1": 72.733,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Put the rubbish in the bin.",
+   "t0": 73.233,
+   "t1": 74.639,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "脏衣服，先放进篮子里：",
+   "t0": 75.739,
+   "t1": 77.888,
+   "cue": [
+    "show:basket",
+    "focus:basket"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "basket",
+   "t0": 78.138,
+   "t1": 78.779,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "还记得第九集的篮球吗？篮子加上球：",
+   "t0": 79.279,
+   "t1": 82.93,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "basketball",
+   "t0": 83.18,
+   "t1": 83.983,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "今天我们做了这些家务：",
+   "t0": 85.083,
+   "t1": 87.123,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "I tidy my room.",
+   "t0": 87.973,
+   "t1": 89.2,
+   "cue": [
+    "focus:tidy"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "I sweep the floor.",
+   "t0": 89.7,
+   "t1": 90.897,
+   "cue": [
+    "focus:sweep"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "I wash the dishes.",
+   "t0": 91.397,
+   "t1": 92.635,
+   "cue": [
+    "focus:wash"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Now everything is clean!",
+   "t0": 93.135,
+   "t1": 94.633,
+   "cue": [
+    "focus:clean"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 95.733,
+   "t1": 98.983,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "chore, chores",
+   "t0": 99.833,
+   "t1": 101.16,
+   "cue": [
+    "focus:chore"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "mess, messy",
+   "t0": 102.26,
+   "t1": 103.424,
+   "cue": [
+    "focus:mess"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "tidy",
+   "t0": 104.524,
+   "t1": 104.988,
+   "cue": [
+    "focus:tidy"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "dirty",
+   "t0": 106.088,
+   "t1": 106.525,
+   "cue": [
+    "focus:dirty"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "wash",
+   "t0": 107.625,
+   "t1": 108.075,
+   "cue": [
+    "focus:wash"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "clean",
+   "t0": 109.175,
+   "t1": 109.683,
+   "cue": [
+    "focus:clean"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "floor",
+   "t0": 110.783,
+   "t1": 111.315,
+   "cue": [
+    "focus:floor"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "sweep",
+   "t0": 112.415,
+   "t1": 112.88,
+   "cue": [
+    "focus:sweep"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "brush",
+   "t0": 113.98,
+   "t1": 114.474,
+   "cue": [
+    "focus:brush"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "rubbish",
+   "t0": 115.574,
+   "t1": 116.161,
+   "cue": [
+    "focus:rubbish"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "bin",
+   "t0": 117.261,
+   "t1": 117.634,
+   "cue": [
+    "focus:bin"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "basket",
+   "t0": 118.734,
+   "t1": 119.375,
+   "cue": [
+    "focus:basket"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "zh",
+   "text": "太棒了！今天回家，主动帮爸爸妈妈做一件家务吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 120.475,
+   "t1": 129.432,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "chore": [
+   0.25,
+   0.734
+  ],
+  "chore:pl": [
+   0.984,
+   1.592
+  ],
+  "mess": [
+   1.842,
+   2.351
+  ],
+  "mess:alt": [
+   2.601,
+   3.157
+  ],
+  "tidy": [
+   3.407,
+   3.87
+  ],
+  "dirty": [
+   4.12,
+   4.557
+  ],
+  "wash": [
+   4.807,
+   5.257
+  ],
+  "clean": [
+   5.507,
+   6.015
+  ],
+  "floor": [
+   6.265,
+   6.797
+  ],
+  "sweep": [
+   7.047,
+   7.513
+  ],
+  "brush": [
+   7.763,
+   8.256
+  ],
+  "brush:alt": [
+   8.506,
+   9.248
+  ],
+  "rubbish": [
+   9.498,
+   10.085
+  ],
+  "bin": [
+   10.335,
+   10.707
+  ],
+  "basket": [
+   10.957,
+   11.598
+  ]
+ }
+}

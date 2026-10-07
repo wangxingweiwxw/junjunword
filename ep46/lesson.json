@@ -1,0 +1,844 @@
+{
+ "id": "ep46",
+ "title": "countryside",
+ "titleZh": "乡村",
+ "episode": "第 46 集",
+ "titleIcon": "field",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "farm",
+   "word": "farm",
+   "ipa": "/fɑːrm/",
+   "zh": "农场",
+   "icon": "farm",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "field",
+   "word": "field",
+   "ipa": "/fiːld/",
+   "zh": "田地",
+   "icon": "field",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "plants",
+   "word": "plants",
+   "ipa": "/plænts/",
+   "zh": "植物（复数）",
+   "icon": "plants",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "kind",
+   "word": "kind",
+   "ipa": "/kaɪnd/",
+   "zh": "种类",
+   "icon": "kind",
+   "alt": "a kind of",
+   "altLabel": "常说",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "corn",
+   "word": "corn",
+   "ipa": "/kɔːrn/",
+   "zh": "玉米",
+   "icon": "corn",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "wheat",
+   "word": "wheat",
+   "ipa": "/wiːt/",
+   "zh": "小麦",
+   "icon": "wheat",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "cotton",
+   "word": "cotton",
+   "ipa": "/ˈkɑːtn/",
+   "zh": "棉花",
+   "icon": "cotton",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "pick",
+   "word": "pick",
+   "ipa": "/pɪk/",
+   "zh": "摘",
+   "icon": "pick",
+   "kind": "verb",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "water",
+   "word": "water",
+   "ipa": "/ˈwɔːtər/",
+   "zh": "浇水",
+   "icon": "water",
+   "kind": "verb",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "live",
+   "word": "live",
+   "ipa": "/lɪv/",
+   "zh": "活着",
+   "icon": "live",
+   "kind": "verb",
+   "alt": "alive",
+   "altLabel": "形容词",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "die",
+   "word": "die",
+   "ipa": "/daɪ/",
+   "zh": "死",
+   "icon": "die",
+   "kind": "verb",
+   "alt": "dead",
+   "altLabel": "形容词",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  },
+  {
+   "id": "wood",
+   "word": "wood",
+   "ipa": "/wʊd/",
+   "zh": "树林；木头",
+   "icon": "wood",
+   "alt": "woods",
+   "altLabel": "树林",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "duck",
+   "word": "duck",
+   "ipa": "/dʌk/",
+   "zh": "鸭子",
+   "icon": "duck",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "rabbit",
+   "word": "rabbit",
+   "ipa": "/ˈræbɪt/",
+   "zh": "兔子",
+   "icon": "rabbit",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "spider",
+   "word": "spider",
+   "ipa": "/ˈspaɪdər/",
+   "zh": "蜘蛛",
+   "icon": "spider",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "farm",
+   "to": "field"
+  },
+  {
+   "from": "field",
+   "to": "plants"
+  },
+  {
+   "from": "plants",
+   "to": "kind",
+   "dashed": true
+  },
+  {
+   "from": "plants",
+   "to": "wheat"
+  },
+  {
+   "from": "wheat",
+   "to": "corn",
+   "dashed": true
+  },
+  {
+   "from": "wheat",
+   "to": "cotton"
+  },
+  {
+   "from": "cotton",
+   "to": "pick",
+   "label": "去"
+  },
+  {
+   "from": "farm",
+   "to": "wood"
+  },
+  {
+   "from": "wood",
+   "to": "duck"
+  },
+  {
+   "from": "water",
+   "to": "live",
+   "label": "浇了"
+  },
+  {
+   "from": "water",
+   "to": "die",
+   "label": "不浇"
+  },
+  {
+   "from": "wood",
+   "to": "rabbit"
+  },
+  {
+   "from": "duck",
+   "to": "spider"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！还记得第三十七集的农场吗？今天，我们再去乡下走一走！"
+    },
+    {
+     "en": "countryside"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:farm",
+    "focus:farm"
+   ],
+   "parts": [
+    {
+     "zh": "农场："
+    },
+    {
+     "en": "farm"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:field",
+    "edge:farm>field",
+    "focus:field"
+   ],
+   "parts": [
+    {
+     "zh": "农场旁边一大片田地："
+    },
+    {
+     "en": "field"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:plants",
+    "edge:field>plants",
+    "focus:plants"
+   ],
+   "parts": [
+    {
+     "zh": "田里种着各种各样的植物："
+    },
+    {
+     "en": "plants"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:kind",
+    "edge:plants>kind",
+    "focus:kind"
+   ],
+   "parts": [
+    {
+     "zh": "一种、一类，英语是"
+    },
+    {
+     "en": "kind"
+    },
+    {
+     "zh": "常常这样说：",
+     "cue": [
+      "alt:kind"
+     ]
+    },
+    {
+     "en": "a kind of plant"
+    },
+    {
+     "zh": "小提示：它还有一个意思，是善良的。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wheat",
+    "edge:plants>wheat",
+    "focus:wheat"
+   ],
+   "parts": [
+    {
+     "zh": "金黄的小麦："
+    },
+    {
+     "en": "wheat"
+    },
+    {
+     "zh": "面包和面条，都是小麦做的哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:corn",
+    "edge:wheat>corn",
+    "focus:corn"
+   ],
+   "parts": [
+    {
+     "zh": "一粒一粒黄黄的玉米："
+    },
+    {
+     "en": "corn"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cotton",
+    "edge:wheat>cotton",
+    "focus:cotton"
+   ],
+   "parts": [
+    {
+     "zh": "白白软软的棉花："
+    },
+    {
+     "en": "cotton"
+    },
+    {
+     "en": "Corn, wheat and cotton are three kinds of plants."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pick",
+    "edge:cotton>pick",
+    "focus:pick"
+   ],
+   "parts": [
+    {
+     "zh": "棉花熟了，要去摘："
+    },
+    {
+     "en": "pick"
+    },
+    {
+     "en": "Let's pick cotton."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:water",
+    "focus:water"
+   ],
+   "parts": [
+    {
+     "zh": "植物要喝水，我们要给它浇水。水这个词，也可以当动词用："
+    },
+    {
+     "en": "water"
+    },
+    {
+     "en": "Water the corn in the morning."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:live",
+    "edge:water>live",
+    "focus:live"
+   ],
+   "parts": [
+    {
+     "zh": "浇了水，植物就能活下来："
+    },
+    {
+     "en": "live"
+    },
+    {
+     "zh": "活着的，是",
+     "cue": [
+      "alt:live"
+     ]
+    },
+    {
+     "en": "alive"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:die",
+    "edge:water>die",
+    "focus:die"
+   ],
+   "parts": [
+    {
+     "zh": "忘了浇水，植物就会死掉："
+    },
+    {
+     "en": "die"
+    },
+    {
+     "zh": "死了的，是",
+     "cue": [
+      "alt:die"
+     ]
+    },
+    {
+     "en": "dead"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wood",
+    "edge:farm>wood",
+    "focus:wood"
+   ],
+   "parts": [
+    {
+     "zh": "农场后面，有一片树林："
+    },
+    {
+     "en": "wood"
+    },
+    {
+     "zh": "树林常常说成",
+     "cue": [
+      "alt:wood"
+     ]
+    },
+    {
+     "en": "the woods"
+    },
+    {
+     "zh": "这个词也是木头的意思。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:duck",
+    "edge:wood>duck",
+    "focus:duck"
+   ],
+   "parts": [
+    {
+     "zh": "树林边的小河里，鸭子在游泳："
+    },
+    {
+     "en": "duck"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:rabbit",
+    "edge:wood>rabbit",
+    "focus:rabbit"
+   ],
+   "parts": [
+    {
+     "zh": "草丛里，蹦出来一只小兔子："
+    },
+    {
+     "en": "rabbit"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:spider",
+    "edge:duck>spider",
+    "focus:spider"
+   ],
+   "parts": [
+    {
+     "zh": "树枝上，蜘蛛在织网："
+    },
+    {
+     "en": "spider"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:live,die"
+   ],
+   "parts": [
+    {
+     "zh": "活着和死去，正好相反："
+    },
+    {
+     "en": "live, alive",
+     "cue": [
+      "focus:live"
+     ]
+    },
+    {
+     "en": "die, dead",
+     "cue": [
+      "focus:die"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "你在乡下看到了什么？"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "I see a duck.",
+     "cue": [
+      "focus:duck"
+     ]
+    },
+    {
+     "en": "I see a rabbit.",
+     "cue": [
+      "focus:rabbit"
+     ]
+    },
+    {
+     "en": "And a spider in the woods!",
+     "cue": [
+      "focus:spider,wood"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:farm"
+   ],
+   "parts": [
+    {
+     "en": "farm"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:field"
+   ],
+   "parts": [
+    {
+     "en": "field"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:plants"
+   ],
+   "parts": [
+    {
+     "en": "plants"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:kind"
+   ],
+   "parts": [
+    {
+     "en": "kind"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wheat"
+   ],
+   "parts": [
+    {
+     "en": "wheat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:corn"
+   ],
+   "parts": [
+    {
+     "en": "corn"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cotton"
+   ],
+   "parts": [
+    {
+     "en": "cotton"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pick"
+   ],
+   "parts": [
+    {
+     "en": "pick"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:water"
+   ],
+   "parts": [
+    {
+     "en": "water"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:live"
+   ],
+   "parts": [
+    {
+     "en": "live, alive"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:die"
+   ],
+   "parts": [
+    {
+     "en": "die, dead"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wood"
+   ],
+   "parts": [
+    {
+     "en": "wood"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:duck"
+   ],
+   "parts": [
+    {
+     "en": "duck"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:rabbit"
+   ],
+   "parts": [
+    {
+     "en": "rabbit"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:spider"
+   ],
+   "parts": [
+    {
+     "en": "spider"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！下次去乡下，用英语说一说你看到的植物和动物吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

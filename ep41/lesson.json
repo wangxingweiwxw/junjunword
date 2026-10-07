@@ -1,0 +1,696 @@
+{
+ "id": "ep41",
+ "title": "chores",
+ "titleZh": "家务",
+ "episode": "第 41 集",
+ "titleIcon": "chore",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "chore",
+   "word": "chore",
+   "ipa": "/tʃɔːr/",
+   "zh": "家务活",
+   "icon": "chore",
+   "plural": "chores",
+   "pluralIpa": "/tʃɔːrz/",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "mess",
+   "word": "mess",
+   "ipa": "/mes/",
+   "zh": "乱七八糟",
+   "icon": "mess",
+   "alt": "messy",
+   "altLabel": "加 y →",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "tidy",
+   "word": "tidy",
+   "ipa": "/ˈtaɪdi/",
+   "zh": "整理；整齐的",
+   "icon": "tidy",
+   "kind": "verb",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "dirty",
+   "word": "dirty",
+   "ipa": "/ˈdɜːrti/",
+   "zh": "脏的",
+   "icon": "dirty",
+   "kind": "adj",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "wash",
+   "word": "wash",
+   "ipa": "/wɑːʃ/",
+   "zh": "洗",
+   "icon": "wash",
+   "kind": "verb",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "clean",
+   "word": "clean",
+   "ipa": "/kliːn/",
+   "zh": "干净的；打扫",
+   "icon": "clean",
+   "kind": "adj",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "floor",
+   "word": "floor",
+   "ipa": "/flɔːr/",
+   "zh": "地板",
+   "icon": "floor",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "sweep",
+   "word": "sweep",
+   "ipa": "/swiːp/",
+   "zh": "扫",
+   "icon": "sweep",
+   "kind": "verb",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "brush",
+   "word": "brush",
+   "ipa": "/brʌʃ/",
+   "zh": "刷子；刷",
+   "icon": "brush",
+   "alt": "toothbrush",
+   "altLabel": "想起",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "rubbish",
+   "word": "rubbish",
+   "ipa": "/ˈrʌbɪʃ/",
+   "zh": "垃圾",
+   "icon": "rubbish",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "bin",
+   "word": "bin",
+   "ipa": "/bɪn/",
+   "zh": "垃圾桶",
+   "icon": "bin",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "basket",
+   "word": "basket",
+   "ipa": "/ˈbæskɪt/",
+   "zh": "篮子",
+   "icon": "basket",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "chore",
+   "to": "mess"
+  },
+  {
+   "from": "mess",
+   "to": "tidy",
+   "dashed": true
+  },
+  {
+   "from": "chore",
+   "to": "tidy"
+  },
+  {
+   "from": "dirty",
+   "to": "wash"
+  },
+  {
+   "from": "wash",
+   "to": "clean",
+   "label": "洗完"
+  },
+  {
+   "from": "floor",
+   "to": "sweep"
+  },
+  {
+   "from": "sweep",
+   "to": "brush",
+   "dashed": true
+  },
+  {
+   "from": "rubbish",
+   "to": "bin",
+   "label": "扔进"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！今天放假，我们来帮爸爸妈妈做家务吧！"
+    },
+    {
+     "en": "chores"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:chore",
+    "focus:chore"
+   ],
+   "parts": [
+    {
+     "zh": "家里要做的扫地、洗碗这些活儿，叫家务："
+    },
+    {
+     "en": "chore"
+    },
+    {
+     "zh": "家务有很多样：",
+     "cue": [
+      "plural:chore"
+     ]
+    },
+    {
+     "en": "chores"
+    },
+    {
+     "en": "I help with the chores."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:mess",
+    "edge:chore>mess",
+    "focus:mess"
+   ],
+   "parts": [
+    {
+     "zh": "哎呀，房间里乱七八糟的！"
+    },
+    {
+     "en": "mess"
+    },
+    {
+     "zh": "加上 y，就是乱糟糟的：",
+     "cue": [
+      "alt:mess"
+     ]
+    },
+    {
+     "en": "messy"
+    },
+    {
+     "en": "My room is a mess."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tidy",
+    "edge:chore>tidy",
+    "edge:mess>tidy",
+    "focus:tidy"
+   ],
+   "parts": [
+    {
+     "zh": "快把东西收拾好，整理得整整齐齐："
+    },
+    {
+     "en": "tidy"
+    },
+    {
+     "en": "Tidy your room!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:dirty",
+    "focus:dirty"
+   ],
+   "parts": [
+    {
+     "zh": "衣服弄得脏兮兮的，是"
+    },
+    {
+     "en": "dirty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wash",
+    "edge:dirty>wash",
+    "focus:wash"
+   ],
+   "parts": [
+    {
+     "zh": "脏了就要洗："
+    },
+    {
+     "en": "wash"
+    },
+    {
+     "en": "Wash your hands."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:clean",
+    "edge:wash>clean",
+    "focus:clean"
+   ],
+   "parts": [
+    {
+     "zh": "洗完了，就干干净净的："
+    },
+    {
+     "en": "clean"
+    },
+    {
+     "zh": "脏和干净，正好相反。"
+    },
+    {
+     "en": "dirty",
+     "cue": [
+      "focus:dirty"
+     ]
+    },
+    {
+     "en": "clean",
+     "cue": [
+      "focus:clean"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:floor",
+    "focus:floor"
+   ],
+   "parts": [
+    {
+     "zh": "我们脚下踩的，是地板："
+    },
+    {
+     "en": "floor"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sweep",
+    "edge:floor>sweep",
+    "focus:sweep"
+   ],
+   "parts": [
+    {
+     "zh": "拿起扫帚，扫一扫地："
+    },
+    {
+     "en": "sweep"
+    },
+    {
+     "en": "Sweep the floor."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:brush",
+    "edge:sweep>brush",
+    "focus:brush"
+   ],
+   "parts": [
+    {
+     "zh": "刷子，英语是"
+    },
+    {
+     "en": "brush"
+    },
+    {
+     "zh": "还记得第三十八集的牙刷吗？",
+     "cue": [
+      "alt:brush"
+     ]
+    },
+    {
+     "en": "tooth, brush, toothbrush"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:rubbish",
+    "focus:rubbish"
+   ],
+   "parts": [
+    {
+     "zh": "扫出来的垃圾，英语是"
+    },
+    {
+     "en": "rubbish"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bin",
+    "edge:rubbish>bin",
+    "focus:bin"
+   ],
+   "parts": [
+    {
+     "zh": "垃圾要扔进垃圾桶："
+    },
+    {
+     "en": "bin"
+    },
+    {
+     "en": "Put the rubbish in the bin."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:basket",
+    "focus:basket"
+   ],
+   "parts": [
+    {
+     "zh": "脏衣服，先放进篮子里："
+    },
+    {
+     "en": "basket"
+    },
+    {
+     "zh": "还记得第九集的篮球吗？篮子加上球："
+    },
+    {
+     "en": "basketball"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "今天我们做了这些家务："
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "I tidy my room.",
+     "cue": [
+      "focus:tidy"
+     ]
+    },
+    {
+     "en": "I sweep the floor.",
+     "cue": [
+      "focus:sweep"
+     ]
+    },
+    {
+     "en": "I wash the dishes.",
+     "cue": [
+      "focus:wash"
+     ]
+    },
+    {
+     "en": "Now everything is clean!",
+     "cue": [
+      "focus:clean"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:chore"
+   ],
+   "parts": [
+    {
+     "en": "chore, chores"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:mess"
+   ],
+   "parts": [
+    {
+     "en": "mess, messy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tidy"
+   ],
+   "parts": [
+    {
+     "en": "tidy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:dirty"
+   ],
+   "parts": [
+    {
+     "en": "dirty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wash"
+   ],
+   "parts": [
+    {
+     "en": "wash"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:clean"
+   ],
+   "parts": [
+    {
+     "en": "clean"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:floor"
+   ],
+   "parts": [
+    {
+     "en": "floor"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sweep"
+   ],
+   "parts": [
+    {
+     "en": "sweep"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:brush"
+   ],
+   "parts": [
+    {
+     "en": "brush"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:rubbish"
+   ],
+   "parts": [
+    {
+     "en": "rubbish"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bin"
+   ],
+   "parts": [
+    {
+     "en": "bin"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:basket"
+   ],
+   "parts": [
+    {
+     "en": "basket"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！今天回家，主动帮爸爸妈妈做一件家务吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

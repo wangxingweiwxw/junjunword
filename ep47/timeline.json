@@ -1,0 +1,662 @@
+{
+ "duration": 136.016,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！还记得第四十三集的动物园吗？今天，我们进去好好逛一逛！",
+   "t0": 0.4,
+   "t1": 7.195,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "zoo",
+   "t0": 7.445,
+   "t1": 7.944,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "动物园：",
+   "t0": 9.044,
+   "t1": 9.652,
+   "cue": [
+    "map",
+    "show:zoo",
+    "focus:zoo"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "zoo",
+   "t0": 9.902,
+   "t1": 10.401,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "两个 o，读成长长的 u。",
+   "t0": 10.901,
+   "t1": 12.96,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "第一站，去看中国的国宝，大熊猫：",
+   "t0": 13.81,
+   "t1": 16.884,
+   "cue": [
+    "show:panda",
+    "edge:zoo>panda",
+    "focus:panda"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "panda",
+   "t0": 17.134,
+   "t1": 17.654,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "熊猫最爱吃竹子：",
+   "t0": 18.754,
+   "t1": 20.286,
+   "cue": [
+    "show:bamboo",
+    "edge:panda>bamboo",
+    "focus:bamboo"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "bamboo",
+   "t0": 20.536,
+   "t1": 21.109,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Pandas eat bamboo all day.",
+   "t0": 21.609,
+   "t1": 23.279,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "森林之王，狮子：",
+   "t0": 24.379,
+   "t1": 26.084,
+   "cue": [
+    "show:lion",
+    "edge:zoo>lion",
+    "focus:lion"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "lion",
+   "t0": 26.334,
+   "t1": 26.837,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "身上有黑白条纹的斑马：",
+   "t0": 27.937,
+   "t1": 29.932,
+   "cue": [
+    "show:zebra",
+    "edge:zoo>zebra",
+    "focus:zebra"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "zebra",
+   "t0": 30.182,
+   "t1": 30.722,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "脖子长长的长颈鹿：",
+   "t0": 31.822,
+   "t1": 33.398,
+   "cue": [
+    "show:giraffe",
+    "edge:zoo>giraffe",
+    "focus:giraffe"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "giraffe",
+   "t0": 33.648,
+   "t1": 34.2,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "还记得第二十八集的长 long 吗？",
+   "t0": 34.7,
+   "t1": 37.137,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "The giraffe has a long neck.",
+   "t0": 37.387,
+   "t1": 39.02,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "鼻子长长的大象：",
+   "t0": 40.12,
+   "t1": 41.537,
+   "cue": [
+    "show:elephant",
+    "edge:zoo>elephant",
+    "focus:elephant"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "elephant",
+   "t0": 41.787,
+   "t1": 42.487,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "晚上才睁大眼睛的猫头鹰：",
+   "t0": 43.587,
+   "t1": 45.772,
+   "cue": [
+    "show:owl",
+    "edge:zoo>owl",
+    "focus:owl"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "owl",
+   "t0": 46.022,
+   "t1": 46.359,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "爬树最快的猴子：",
+   "t0": 47.459,
+   "t1": 48.836,
+   "cue": [
+    "show:monkey",
+    "edge:zoo>monkey",
+    "focus:monkey"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "monkey",
+   "t0": 49.086,
+   "t1": 49.673,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "很多只猴子：",
+   "t0": 50.173,
+   "t1": 51.223,
+   "cue": [
+    "plural:monkey"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "monkeys",
+   "t0": 51.473,
+   "t1": 52.24,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "Monkeys and owls live in the trees.",
+   "t0": 52.74,
+   "t1": 54.752,
+   "cue": [
+    "focus:monkey,owl"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "胖乎乎的熊：",
+   "t0": 55.852,
+   "t1": 56.895,
+   "cue": [
+    "show:bear",
+    "edge:zoo>bear",
+    "focus:bear"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "bear",
+   "t0": 57.145,
+   "t1": 57.548,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "嗷呜，狼：",
+   "t0": 58.648,
+   "t1": 59.655,
+   "cue": [
+    "show:wolf",
+    "edge:zoo>wolf",
+    "focus:wolf"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "wolf",
+   "t0": 59.905,
+   "t1": 60.402,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "很多只狼，也是 f 变成 v e s。还记得 leaf 和 leaves 吗？",
+   "t0": 60.902,
+   "t1": 66.444,
+   "cue": [
+    "plural:wolf"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "wolves",
+   "t0": 66.694,
+   "t1": 67.303,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "海洋馆里，有凶猛的鲨鱼：",
+   "t0": 68.403,
+   "t1": 70.678,
+   "cue": [
+    "show:shark",
+    "edge:bear>shark",
+    "focus:shark"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "shark",
+   "t0": 70.928,
+   "t1": 71.458,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "还有世界上最大的动物，鲸：",
+   "t0": 72.558,
+   "t1": 74.906,
+   "cue": [
+    "show:whale",
+    "edge:elephant>whale",
+    "focus:whale"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "whale",
+   "t0": 75.156,
+   "t1": 75.585,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "开头的 w h，只读 w。",
+   "t0": 76.085,
+   "t1": 78.708,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "陆地上最大的是大象，大海里最大的是鲸：",
+   "t0": 79.558,
+   "t1": 83.248,
+   "cue": [
+    "focus:elephant,whale"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "elephant",
+   "t0": 83.498,
+   "t1": 84.197,
+   "cue": [
+    "focus:elephant"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "whale",
+   "t0": 84.697,
+   "t1": 85.126,
+   "cue": [
+    "focus:whale"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "猜一猜，我是谁？",
+   "t0": 86.226,
+   "t1": 87.726,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "I am black and white. I eat bamboo.",
+   "t0": 88.576,
+   "t1": 91.965,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Panda!",
+   "t0": 92.465,
+   "t1": 92.988,
+   "cue": [
+    "focus:panda"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "I have a very long neck.",
+   "t0": 93.488,
+   "t1": 94.996,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Giraffe!",
+   "t0": 95.496,
+   "t1": 96.042,
+   "cue": [
+    "focus:giraffe"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 97.142,
+   "t1": 100.392,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "zoo",
+   "t0": 101.242,
+   "t1": 101.741,
+   "cue": [
+    "focus:zoo"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "panda",
+   "t0": 102.841,
+   "t1": 103.361,
+   "cue": [
+    "focus:panda"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "bamboo",
+   "t0": 104.461,
+   "t1": 105.034,
+   "cue": [
+    "focus:bamboo"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "lion",
+   "t0": 106.134,
+   "t1": 106.638,
+   "cue": [
+    "focus:lion"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "zebra",
+   "t0": 107.738,
+   "t1": 108.278,
+   "cue": [
+    "focus:zebra"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "giraffe",
+   "t0": 109.378,
+   "t1": 109.93,
+   "cue": [
+    "focus:giraffe"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "elephant",
+   "t0": 111.03,
+   "t1": 111.73,
+   "cue": [
+    "focus:elephant"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "owl",
+   "t0": 112.83,
+   "t1": 113.167,
+   "cue": [
+    "focus:owl"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "monkey, monkeys",
+   "t0": 114.267,
+   "t1": 115.76,
+   "cue": [
+    "focus:monkey"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "bear",
+   "t0": 116.86,
+   "t1": 117.263,
+   "cue": [
+    "focus:bear"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "wolf, wolves",
+   "t0": 118.363,
+   "t1": 119.714,
+   "cue": [
+    "focus:wolf"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "shark",
+   "t0": 120.814,
+   "t1": 121.344,
+   "cue": [
+    "focus:shark"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "whale",
+   "t0": 122.444,
+   "t1": 122.873,
+   "cue": [
+    "focus:whale"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "zh",
+   "text": "太棒了！你最喜欢动物园里的哪种动物？用英语告诉爸爸妈妈吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 123.973,
+   "t1": 134.166,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "zoo": [
+   0.25,
+   0.749
+  ],
+  "panda": [
+   0.999,
+   1.519
+  ],
+  "bamboo": [
+   1.769,
+   2.342
+  ],
+  "lion": [
+   2.592,
+   3.096
+  ],
+  "zebra": [
+   3.346,
+   3.886
+  ],
+  "giraffe": [
+   4.136,
+   4.688
+  ],
+  "elephant": [
+   4.938,
+   5.638
+  ],
+  "owl": [
+   5.888,
+   6.225
+  ],
+  "monkey": [
+   6.475,
+   7.062
+  ],
+  "monkey:pl": [
+   7.312,
+   8.079
+  ],
+  "bear": [
+   8.329,
+   8.732
+  ],
+  "wolf": [
+   8.982,
+   9.48
+  ],
+  "wolf:pl": [
+   9.73,
+   10.338
+  ],
+  "shark": [
+   10.588,
+   11.118
+  ],
+  "whale": [
+   11.368,
+   11.797
+  ]
+ }
+}

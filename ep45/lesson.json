@@ -1,0 +1,798 @@
+{
+ "id": "ep45",
+ "title": "animals",
+ "titleZh": "动物",
+ "episode": "第 45 集",
+ "titleIcon": "animal",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "animal",
+   "word": "animal",
+   "ipa": "/ˈænɪml/",
+   "zh": "动物",
+   "icon": "animal",
+   "plural": "animals",
+   "pluralIpa": "/ˈænɪmlz/",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "wild",
+   "word": "wild",
+   "ipa": "/waɪld/",
+   "zh": "野生的",
+   "icon": "wild",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "pet",
+   "word": "pet",
+   "ipa": "/pet/",
+   "zh": "宠物",
+   "icon": "pet",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "care",
+   "word": "care",
+   "ipa": "/ker/",
+   "zh": "照顾；关心",
+   "icon": "care",
+   "kind": "verb",
+   "alt": "take care of",
+   "altLabel": "常说",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "usual",
+   "word": "usual",
+   "ipa": "/ˈjuːʒuəl/",
+   "zh": "平常的",
+   "icon": "usual",
+   "kind": "adj",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "unusual",
+   "word": "unusual",
+   "ipa": "/ʌnˈjuːʒuəl/",
+   "zh": "不寻常的",
+   "icon": "unusual",
+   "kind": "adj",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "dog",
+   "word": "dog",
+   "ipa": "/dɔːɡ/",
+   "zh": "狗",
+   "icon": "dog",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "cat",
+   "word": "cat",
+   "ipa": "/kæt/",
+   "zh": "猫",
+   "icon": "cat",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "mouse",
+   "word": "mouse",
+   "ipa": "/maʊs/",
+   "zh": "老鼠",
+   "icon": "mouse",
+   "plural": "mice",
+   "pluralIpa": "/maɪs/",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "snake",
+   "word": "snake",
+   "ipa": "/sneɪk/",
+   "zh": "蛇",
+   "icon": "snake",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "bird",
+   "word": "bird",
+   "ipa": "/bɜːrd/",
+   "zh": "鸟",
+   "icon": "bird",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "wing",
+   "word": "wing",
+   "ipa": "/wɪŋ/",
+   "zh": "翅膀",
+   "icon": "wing",
+   "plural": "wings",
+   "pluralIpa": "/wɪŋz/",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "fly",
+   "word": "fly",
+   "ipa": "/flaɪ/",
+   "zh": "飞",
+   "icon": "fly",
+   "kind": "verb",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  },
+  {
+   "id": "tail",
+   "word": "tail",
+   "ipa": "/teɪl/",
+   "zh": "尾巴",
+   "icon": "tail",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "wild",
+   "to": "animal"
+  },
+  {
+   "from": "animal",
+   "to": "pet"
+  },
+  {
+   "from": "pet",
+   "to": "care",
+   "label": "要"
+  },
+  {
+   "from": "pet",
+   "to": "dog"
+  },
+  {
+   "from": "dog",
+   "to": "cat"
+  },
+  {
+   "from": "usual",
+   "to": "unusual",
+   "label": "un+"
+  },
+  {
+   "from": "unusual",
+   "to": "snake",
+   "dashed": true
+  },
+  {
+   "from": "unusual",
+   "to": "mouse",
+   "dashed": true
+  },
+  {
+   "from": "cat",
+   "to": "bird"
+  },
+  {
+   "from": "bird",
+   "to": "wing"
+  },
+  {
+   "from": "wing",
+   "to": "fly"
+  },
+  {
+   "from": "wing",
+   "to": "tail",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！你喜欢小动物吗？今天，我们来学动物和宠物。"
+    },
+    {
+     "en": "animals"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:animal",
+    "focus:animal"
+   ],
+   "parts": [
+    {
+     "zh": "会跑、会跳、会飞的生物，都是动物："
+    },
+    {
+     "en": "animal"
+    },
+    {
+     "zh": "很多动物：",
+     "cue": [
+      "plural:animal"
+     ]
+    },
+    {
+     "en": "animals"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wild",
+    "edge:wild>animal",
+    "focus:wild"
+   ],
+   "parts": [
+    {
+     "zh": "住在森林、草原里，没人养的，是野生的："
+    },
+    {
+     "en": "wild"
+    },
+    {
+     "en": "wild animals"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pet",
+    "edge:animal>pet",
+    "focus:pet"
+   ],
+   "parts": [
+    {
+     "zh": "养在家里的，是宠物："
+    },
+    {
+     "en": "pet"
+    },
+    {
+     "en": "Do you have a pet?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:care",
+    "edge:pet>care",
+    "focus:care"
+   ],
+   "parts": [
+    {
+     "zh": "养宠物，要好好照顾它："
+    },
+    {
+     "en": "care"
+    },
+    {
+     "zh": "常常这样说：",
+     "cue": [
+      "alt:care"
+     ]
+    },
+    {
+     "en": "take care of my pet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:dog",
+    "edge:pet>dog",
+    "focus:dog"
+   ],
+   "parts": [
+    {
+     "zh": "最常见的宠物，是狗："
+    },
+    {
+     "en": "dog"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cat",
+    "edge:dog>cat",
+    "focus:cat"
+   ],
+   "parts": [
+    {
+     "zh": "还有猫："
+    },
+    {
+     "en": "cat"
+    },
+    {
+     "en": "Cats and dogs are pets."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:usual",
+    "focus:usual"
+   ],
+   "parts": [
+    {
+     "zh": "猫和狗当宠物，是很平常的事。平常的，英语是"
+    },
+    {
+     "en": "usual"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:unusual",
+    "edge:usual>unusual",
+    "focus:unusual"
+   ],
+   "parts": [
+    {
+     "zh": "前面加上 u n，意思就反过来了，不寻常的："
+    },
+    {
+     "en": "unusual"
+    },
+    {
+     "en": "usual",
+     "cue": [
+      "focus:usual"
+     ]
+    },
+    {
+     "en": "unusual",
+     "cue": [
+      "focus:unusual"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:snake",
+    "edge:unusual>snake",
+    "focus:snake"
+   ],
+   "parts": [
+    {
+     "zh": "有人养蛇当宠物，那可真不寻常："
+    },
+    {
+     "en": "snake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:mouse",
+    "edge:unusual>mouse",
+    "focus:mouse"
+   ],
+   "parts": [
+    {
+     "zh": "还有人养小老鼠："
+    },
+    {
+     "en": "mouse"
+    },
+    {
+     "zh": "很多只老鼠，不加 s，而是变成",
+     "cue": [
+      "plural:mouse"
+     ]
+    },
+    {
+     "en": "mice"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bird",
+    "edge:cat>bird",
+    "focus:bird"
+   ],
+   "parts": [
+    {
+     "zh": "叽叽喳喳的鸟，也可以当宠物："
+    },
+    {
+     "en": "bird"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wing",
+    "edge:bird>wing",
+    "focus:wing"
+   ],
+   "parts": [
+    {
+     "zh": "鸟有一对翅膀："
+    },
+    {
+     "en": "wing"
+    },
+    {
+     "zh": "两只翅膀：",
+     "cue": [
+      "plural:wing"
+     ]
+    },
+    {
+     "en": "wings"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fly",
+    "edge:wing>fly",
+    "focus:fly"
+   ],
+   "parts": [
+    {
+     "zh": "扇动翅膀，就能飞："
+    },
+    {
+     "en": "fly"
+    },
+    {
+     "en": "My pet bird can fly."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tail",
+    "edge:wing>tail",
+    "focus:tail"
+   ],
+   "parts": [
+    {
+     "zh": "鸟、猫、狗，都有尾巴："
+    },
+    {
+     "en": "tail"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:mouse"
+   ],
+   "parts": [
+    {
+     "zh": "今天又学了一个特别的复数，像第八集的脚 feet 一样，要单独记："
+    },
+    {
+     "en": "one mouse, two mice."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "介绍一下你的宠物吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "I have a pet dog.",
+     "cue": [
+      "focus:pet,dog"
+     ]
+    },
+    {
+     "en": "It has a long tail.",
+     "cue": [
+      "focus:tail"
+     ]
+    },
+    {
+     "en": "I take care of it every day.",
+     "cue": [
+      "focus:care"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:animal"
+   ],
+   "parts": [
+    {
+     "en": "animal, animals"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wild"
+   ],
+   "parts": [
+    {
+     "en": "wild"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pet"
+   ],
+   "parts": [
+    {
+     "en": "pet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:care"
+   ],
+   "parts": [
+    {
+     "en": "care"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:dog"
+   ],
+   "parts": [
+    {
+     "en": "dog"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cat"
+   ],
+   "parts": [
+    {
+     "en": "cat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:usual"
+   ],
+   "parts": [
+    {
+     "en": "usual"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:unusual"
+   ],
+   "parts": [
+    {
+     "en": "unusual"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:snake"
+   ],
+   "parts": [
+    {
+     "en": "snake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:mouse"
+   ],
+   "parts": [
+    {
+     "en": "mouse, mice"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bird"
+   ],
+   "parts": [
+    {
+     "en": "bird"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wing"
+   ],
+   "parts": [
+    {
+     "en": "wing, wings"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fly"
+   ],
+   "parts": [
+    {
+     "en": "fly"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tail"
+   ],
+   "parts": [
+    {
+     "en": "tail"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！你最想养什么宠物？用英语告诉爸爸妈妈吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

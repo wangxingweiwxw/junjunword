@@ -1,0 +1,686 @@
+{
+ "duration": 135.668,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！学校里，有很多要遵守的规则。今天，我们来学校规！",
+   "t0": 0.4,
+   "t1": 7.311,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "school rules",
+   "t0": 7.561,
+   "t1": 8.511,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "学校里最大的老师，是校长。头，加上主人：",
+   "t0": 9.611,
+   "t1": 14.247,
+   "cue": [
+    "map",
+    "show:headmaster",
+    "focus:headmaster"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "head",
+   "t0": 14.497,
+   "t1": 14.859,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "master",
+   "t0": 15.359,
+   "t1": 15.997,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "headmaster",
+   "t0": 16.497,
+   "t1": 17.327,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "校长和老师们，一起教育我们：",
+   "t0": 18.427,
+   "t1": 20.963,
+   "cue": [
+    "show:educate",
+    "edge:headmaster>educate",
+    "focus:educate"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "educate",
+   "t0": 21.213,
+   "t1": 21.917,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "在小学上学的孩子，是小学生：",
+   "t0": 23.017,
+   "t1": 25.735,
+   "cue": [
+    "show:pupil",
+    "edge:educate>pupil",
+    "focus:pupil"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "pupil",
+   "t0": 25.985,
+   "t1": 26.51,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "每一个学生，都很重要。每个，英语是",
+   "t0": 27.61,
+   "t1": 31.759,
+   "cue": [
+    "show:each",
+    "edge:pupil>each",
+    "focus:each"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "each",
+   "t0": 32.009,
+   "t1": 32.441,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "each pupil",
+   "t0": 32.941,
+   "t1": 33.764,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "学校的规矩，是规则：",
+   "t0": 34.864,
+   "t1": 36.84,
+   "cue": [
+    "show:rule",
+    "edge:educate>rule",
+    "focus:rule"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "rule",
+   "t0": 37.09,
+   "t1": 37.525,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "很多条规则：",
+   "t0": 38.025,
+   "t1": 39.109,
+   "cue": [
+    "plural:rule"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "rules",
+   "t0": 39.359,
+   "t1": 39.923,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "规则要好好遵守：",
+   "t0": 41.023,
+   "t1": 42.513,
+   "cue": [
+    "show:follow",
+    "edge:rule>follow",
+    "focus:follow"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "follow",
+   "t0": 42.763,
+   "t1": 43.316,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "Please follow the rules.",
+   "t0": 43.816,
+   "t1": 45.173,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "上课要集中注意力：",
+   "t0": 46.273,
+   "t1": 47.95,
+   "cue": [
+    "show:attention",
+    "edge:rule>attention",
+    "focus:attention"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "attention",
+   "t0": 48.2,
+   "t1": 48.983,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "Attention, please!",
+   "t0": 49.483,
+   "t1": 50.991,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "早上不能迟到：",
+   "t0": 52.091,
+   "t1": 53.245,
+   "cue": [
+    "show:late",
+    "edge:rule>late",
+    "focus:late"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "late",
+   "t0": 53.495,
+   "t1": 53.955,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Don't be late for school.",
+   "t0": 54.455,
+   "t1": 55.808,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "叮铃铃，上课铃响了！",
+   "t0": 56.908,
+   "t1": 58.739,
+   "cue": [
+    "show:bell",
+    "edge:late>bell",
+    "focus:bell"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "bell",
+   "t0": 58.989,
+   "t1": 59.359,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "为了不迟到，晚上要定好闹钟：",
+   "t0": 60.459,
+   "t1": 62.957,
+   "cue": [
+    "show:alarm",
+    "edge:late>alarm",
+    "focus:alarm"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "alarm",
+   "t0": 63.207,
+   "t1": 63.76,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "全称是",
+   "t0": 64.26,
+   "t1": 65.031,
+   "cue": [
+    "alt:alarm"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "alarm clock",
+   "t0": 65.281,
+   "t1": 66.201,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "每天都来上课，是出席：",
+   "t0": 67.301,
+   "t1": 69.492,
+   "cue": [
+    "show:attend",
+    "focus:attend"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "attend",
+   "t0": 69.742,
+   "t1": 70.304,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "I attend every class.",
+   "t0": 70.804,
+   "t1": 72.351,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "没有来上课，是缺席的：",
+   "t0": 73.451,
+   "t1": 75.47,
+   "cue": [
+    "show:absent",
+    "edge:attend>absent",
+    "focus:absent"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "absent",
+   "t0": 75.72,
+   "t1": 76.302,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "Who is absent today?",
+   "t0": 76.802,
+   "t1": 77.956,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "同学之间，不能打架：",
+   "t0": 79.056,
+   "t1": 80.983,
+   "cue": [
+    "show:fight",
+    "focus:fight"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "fight",
+   "t0": 81.233,
+   "t1": 81.695,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "Don't fight!",
+   "t0": 82.195,
+   "t1": 82.939,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "违反了规则，就会受到惩罚：",
+   "t0": 84.039,
+   "t1": 86.482,
+   "cue": [
+    "show:punish",
+    "edge:fight>punish",
+    "focus:punish"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "punish",
+   "t0": 86.732,
+   "t1": 87.3,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "我们一起来读一读校规：",
+   "t0": 88.4,
+   "t1": 90.433,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Follow the rules.",
+   "t0": 91.283,
+   "t1": 92.337,
+   "cue": [
+    "focus:follow,rule"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Don't be late.",
+   "t0": 92.837,
+   "t1": 93.715,
+   "cue": [
+    "focus:late"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Pay attention in class.",
+   "t0": 94.215,
+   "t1": 95.778,
+   "cue": [
+    "focus:attention"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Don't fight.",
+   "t0": 96.278,
+   "t1": 97.039,
+   "cue": [
+    "focus:fight"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 98.139,
+   "t1": 101.39,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "headmaster",
+   "t0": 102.24,
+   "t1": 103.07,
+   "cue": [
+    "focus:headmaster"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "educate",
+   "t0": 104.17,
+   "t1": 104.873,
+   "cue": [
+    "focus:educate"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "pupil",
+   "t0": 105.973,
+   "t1": 106.498,
+   "cue": [
+    "focus:pupil"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "each",
+   "t0": 107.598,
+   "t1": 108.03,
+   "cue": [
+    "focus:each"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "rule, rules",
+   "t0": 109.13,
+   "t1": 110.375,
+   "cue": [
+    "focus:rule"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "follow",
+   "t0": 111.475,
+   "t1": 112.028,
+   "cue": [
+    "focus:follow"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "attention",
+   "t0": 113.128,
+   "t1": 113.911,
+   "cue": [
+    "focus:attention"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "late",
+   "t0": 115.011,
+   "t1": 115.471,
+   "cue": [
+    "focus:late"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "bell",
+   "t0": 116.571,
+   "t1": 116.941,
+   "cue": [
+    "focus:bell"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "alarm",
+   "t0": 118.041,
+   "t1": 118.594,
+   "cue": [
+    "focus:alarm"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "attend",
+   "t0": 119.694,
+   "t1": 120.257,
+   "cue": [
+    "focus:attend"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "absent",
+   "t0": 121.357,
+   "t1": 121.938,
+   "cue": [
+    "focus:absent"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "fight",
+   "t0": 123.038,
+   "t1": 123.5,
+   "cue": [
+    "focus:fight"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "punish",
+   "t0": 124.6,
+   "t1": 125.169,
+   "cue": [
+    "focus:punish"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "zh",
+   "text": "太棒了！做一个遵守校规的好学生吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 126.269,
+   "t1": 133.818,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "headmaster": [
+   0.25,
+   1.08
+  ],
+  "pupil": [
+   1.33,
+   1.855
+  ],
+  "each": [
+   2.105,
+   2.537
+  ],
+  "educate": [
+   2.787,
+   3.49
+  ],
+  "rule": [
+   3.74,
+   4.175
+  ],
+  "rule:pl": [
+   4.425,
+   4.989
+  ],
+  "follow": [
+   5.239,
+   5.791
+  ],
+  "attention": [
+   6.041,
+   6.825
+  ],
+  "late": [
+   7.075,
+   7.534
+  ],
+  "bell": [
+   7.784,
+   8.154
+  ],
+  "alarm": [
+   8.404,
+   8.958
+  ],
+  "alarm:alt": [
+   9.208,
+   10.127
+  ],
+  "attend": [
+   10.377,
+   10.94
+  ],
+  "absent": [
+   11.19,
+   11.771
+  ],
+  "fight": [
+   12.021,
+   12.483
+  ],
+  "punish": [
+   12.733,
+   13.302
+  ]
+ }
+}

@@ -1,0 +1,789 @@
+{
+ "id": "ep43",
+ "title": "town",
+ "titleZh": "城镇",
+ "episode": "第 43 集",
+ "titleIcon": "town",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "town",
+   "word": "town",
+   "ipa": "/taʊn/",
+   "zh": "城镇",
+   "icon": "town",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "village",
+   "word": "village",
+   "ipa": "/ˈvɪlɪdʒ/",
+   "zh": "村庄",
+   "icon": "village",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "square",
+   "word": "square",
+   "ipa": "/skwer/",
+   "zh": "广场",
+   "icon": "square",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "show",
+   "word": "show",
+   "ipa": "/ʃoʊ/",
+   "zh": "演出；表演",
+   "icon": "show",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "cinema",
+   "word": "cinema",
+   "ipa": "/ˈsɪnəmə/",
+   "zh": "电影院",
+   "icon": "cinema",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "restaurant",
+   "word": "restaurant",
+   "ipa": "/ˈrestərɑːnt/",
+   "zh": "餐厅",
+   "icon": "restaurant",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "mall",
+   "word": "mall",
+   "ipa": "/mɔːl/",
+   "zh": "购物中心",
+   "icon": "mall",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "supermarket",
+   "word": "supermarket",
+   "ipa": "/ˈsuːpərmɑːrkɪt/",
+   "zh": "超市",
+   "icon": "supermarket",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "bookstore",
+   "word": "bookstore",
+   "ipa": "/ˈbʊkstɔːr/",
+   "zh": "书店",
+   "icon": "bookstore",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "zoo",
+   "word": "zoo",
+   "ipa": "/zuː/",
+   "zh": "动物园",
+   "icon": "zoo",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "street",
+   "word": "street",
+   "ipa": "/striːt/",
+   "zh": "街道",
+   "icon": "street",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "crossing",
+   "word": "crossing",
+   "ipa": "/ˈkrɔːsɪŋ/",
+   "zh": "人行横道",
+   "icon": "crossing",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "cross",
+   "word": "cross",
+   "ipa": "/krɔːs/",
+   "zh": "穿过",
+   "icon": "cross",
+   "kind": "verb",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "open",
+   "word": "open",
+   "ipa": "/ˈoʊpən/",
+   "zh": "开着的",
+   "icon": "open",
+   "kind": "adj",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "closed",
+   "word": "closed",
+   "ipa": "/kloʊzd/",
+   "zh": "关着的",
+   "icon": "closed",
+   "kind": "adj",
+   "alt": "close",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "town",
+   "to": "village",
+   "label": "更小"
+  },
+  {
+   "from": "town",
+   "to": "square"
+  },
+  {
+   "from": "square",
+   "to": "show",
+   "label": "看"
+  },
+  {
+   "from": "town",
+   "to": "restaurant"
+  },
+  {
+   "from": "restaurant",
+   "to": "cinema"
+  },
+  {
+   "from": "town",
+   "to": "supermarket",
+   "dashed": true
+  },
+  {
+   "from": "supermarket",
+   "to": "mall"
+  },
+  {
+   "from": "supermarket",
+   "to": "bookstore"
+  },
+  {
+   "from": "street",
+   "to": "zoo",
+   "dashed": true
+  },
+  {
+   "from": "street",
+   "to": "crossing"
+  },
+  {
+   "from": "crossing",
+   "to": "cross"
+  },
+  {
+   "from": "open",
+   "to": "closed",
+   "label": "反义"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！周末，我们一起逛一逛城镇吧！"
+    },
+    {
+     "en": "town"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:town",
+    "focus:town"
+   ],
+   "parts": [
+    {
+     "zh": "有很多房子、商店和街道的地方，是城镇："
+    },
+    {
+     "en": "town"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:village",
+    "edge:town>village",
+    "focus:village"
+   ],
+   "parts": [
+    {
+     "zh": "比城镇更小、在乡下的，是村庄："
+    },
+    {
+     "en": "village"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:square",
+    "edge:town>square",
+    "focus:square"
+   ],
+   "parts": [
+    {
+     "zh": "城镇中间，有一个大大的广场："
+    },
+    {
+     "en": "square"
+    },
+    {
+     "zh": "这个词也是正方形的意思。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:show",
+    "edge:square>show",
+    "focus:show"
+   ],
+   "parts": [
+    {
+     "zh": "广场上正在表演节目："
+    },
+    {
+     "en": "show"
+    },
+    {
+     "en": "Let's watch the show!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:restaurant",
+    "edge:town>restaurant",
+    "focus:restaurant"
+   ],
+   "parts": [
+    {
+     "zh": "饿了，就去餐厅吃饭："
+    },
+    {
+     "en": "restaurant"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cinema",
+    "edge:restaurant>cinema",
+    "focus:cinema"
+   ],
+   "parts": [
+    {
+     "zh": "吃完饭，去电影院看电影："
+    },
+    {
+     "en": "cinema"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:supermarket",
+    "edge:town>supermarket",
+    "focus:supermarket"
+   ],
+   "parts": [
+    {
+     "zh": "买吃的、用的，去超市。超级，加上市场："
+    },
+    {
+     "en": "super"
+    },
+    {
+     "en": "market"
+    },
+    {
+     "en": "supermarket"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:mall",
+    "edge:supermarket>mall",
+    "focus:mall"
+   ],
+   "parts": [
+    {
+     "zh": "有很多很多商店的大楼，是购物中心："
+    },
+    {
+     "en": "mall"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bookstore",
+    "edge:supermarket>bookstore",
+    "focus:bookstore"
+   ],
+   "parts": [
+    {
+     "zh": "卖书的商店，是书店。书，加上商店："
+    },
+    {
+     "en": "book"
+    },
+    {
+     "en": "store"
+    },
+    {
+     "en": "bookstore"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:street",
+    "focus:street"
+   ],
+   "parts": [
+    {
+     "zh": "路两边都是房子的，是街道："
+    },
+    {
+     "en": "street"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:zoo",
+    "edge:street>zoo",
+    "focus:zoo"
+   ],
+   "parts": [
+    {
+     "zh": "沿着街道走，就到了动物园："
+    },
+    {
+     "en": "zoo"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:crossing",
+    "edge:street>crossing",
+    "focus:crossing"
+   ],
+   "parts": [
+    {
+     "zh": "过马路，要走人行横道："
+    },
+    {
+     "en": "crossing"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cross",
+    "edge:crossing>cross",
+    "focus:cross"
+   ],
+   "parts": [
+    {
+     "zh": "穿过马路，英语是"
+    },
+    {
+     "en": "cross"
+    },
+    {
+     "en": "Cross the street carefully."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:open",
+    "focus:open"
+   ],
+   "parts": [
+    {
+     "zh": "商店门口挂着牌子。开着门，是"
+    },
+    {
+     "en": "open"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:closed",
+    "edge:open>closed",
+    "focus:closed"
+   ],
+   "parts": [
+    {
+     "zh": "关门了，是"
+    },
+    {
+     "en": "closed"
+    },
+    {
+     "zh": "它来自关上：",
+     "cue": [
+      "alt:closed"
+     ]
+    },
+    {
+     "en": "close"
+    },
+    {
+     "en": "The store is closed."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "说一说，你周末想去哪里？"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Let's go to the cinema.",
+     "cue": [
+      "focus:cinema"
+     ]
+    },
+    {
+     "en": "Let's go to the zoo.",
+     "cue": [
+      "focus:zoo"
+     ]
+    },
+    {
+     "en": "Let's go to the bookstore!",
+     "cue": [
+      "focus:bookstore"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:town"
+   ],
+   "parts": [
+    {
+     "en": "town"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:village"
+   ],
+   "parts": [
+    {
+     "en": "village"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:square"
+   ],
+   "parts": [
+    {
+     "en": "square"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:show"
+   ],
+   "parts": [
+    {
+     "en": "show"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:restaurant"
+   ],
+   "parts": [
+    {
+     "en": "restaurant"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cinema"
+   ],
+   "parts": [
+    {
+     "en": "cinema"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:supermarket"
+   ],
+   "parts": [
+    {
+     "en": "supermarket"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:mall"
+   ],
+   "parts": [
+    {
+     "en": "mall"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bookstore"
+   ],
+   "parts": [
+    {
+     "en": "bookstore"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:street"
+   ],
+   "parts": [
+    {
+     "en": "street"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:zoo"
+   ],
+   "parts": [
+    {
+     "en": "zoo"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:crossing"
+   ],
+   "parts": [
+    {
+     "en": "crossing"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cross"
+   ],
+   "parts": [
+    {
+     "en": "cross"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:open"
+   ],
+   "parts": [
+    {
+     "en": "open"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:closed"
+   ],
+   "parts": [
+    {
+     "en": "closed"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！下次逛街的时候，用英语说一说你看到的地方吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

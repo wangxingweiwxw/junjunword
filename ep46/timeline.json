@@ -1,0 +1,761 @@
+{
+ "duration": 150.0,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！还记得第三十七集的农场吗？今天，我们再去乡下走一走！",
+   "t0": 0.4,
+   "t1": 7.291,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "countryside",
+   "t0": 7.541,
+   "t1": 8.383,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "农场：",
+   "t0": 9.483,
+   "t1": 10.04,
+   "cue": [
+    "map",
+    "show:farm",
+    "focus:farm"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "farm",
+   "t0": 10.29,
+   "t1": 10.724,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "农场旁边一大片田地：",
+   "t0": 11.824,
+   "t1": 13.757,
+   "cue": [
+    "show:field",
+    "edge:farm>field",
+    "focus:field"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "field",
+   "t0": 14.007,
+   "t1": 14.405,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "田里种着各种各样的植物：",
+   "t0": 15.505,
+   "t1": 17.58,
+   "cue": [
+    "show:plants",
+    "edge:field>plants",
+    "focus:plants"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "plants",
+   "t0": 17.83,
+   "t1": 18.39,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "一种、一类，英语是",
+   "t0": 19.49,
+   "t1": 21.63,
+   "cue": [
+    "show:kind",
+    "edge:plants>kind",
+    "focus:kind"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "kind",
+   "t0": 21.88,
+   "t1": 22.321,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "常常这样说：",
+   "t0": 22.821,
+   "t1": 23.87,
+   "cue": [
+    "alt:kind"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "a kind of plant",
+   "t0": 24.12,
+   "t1": 25.21,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "小提示：它还有一个意思，是善良的。",
+   "t0": 25.71,
+   "t1": 29.038,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "金黄的小麦：",
+   "t0": 29.888,
+   "t1": 30.935,
+   "cue": [
+    "show:wheat",
+    "edge:plants>wheat",
+    "focus:wheat"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "wheat",
+   "t0": 31.185,
+   "t1": 31.622,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "面包和面条，都是小麦做的哦。",
+   "t0": 32.122,
+   "t1": 34.597,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "一粒一粒黄黄的玉米：",
+   "t0": 35.447,
+   "t1": 37.156,
+   "cue": [
+    "show:corn",
+    "edge:wheat>corn",
+    "focus:corn"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "corn",
+   "t0": 37.406,
+   "t1": 37.857,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "白白软软的棉花：",
+   "t0": 38.957,
+   "t1": 40.374,
+   "cue": [
+    "show:cotton",
+    "edge:wheat>cotton",
+    "focus:cotton"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "cotton",
+   "t0": 40.624,
+   "t1": 41.066,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "Corn, wheat and cotton are three kinds of plants.",
+   "t0": 41.566,
+   "t1": 44.87,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "棉花熟了，要去摘：",
+   "t0": 45.97,
+   "t1": 47.672,
+   "cue": [
+    "show:pick",
+    "edge:cotton>pick",
+    "focus:pick"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "pick",
+   "t0": 47.922,
+   "t1": 48.344,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Let's pick cotton.",
+   "t0": 48.844,
+   "t1": 49.903,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "植物要喝水，我们要给它浇水。水这个词，也可以当动词用：",
+   "t0": 51.003,
+   "t1": 56.701,
+   "cue": [
+    "show:water",
+    "focus:water"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "water",
+   "t0": 56.951,
+   "t1": 57.416,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "Water the corn in the morning.",
+   "t0": 57.916,
+   "t1": 59.434,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "浇了水，植物就能活下来：",
+   "t0": 60.534,
+   "t1": 62.714,
+   "cue": [
+    "show:live",
+    "edge:water>live",
+    "focus:live"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "live",
+   "t0": 62.964,
+   "t1": 63.514,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "活着的，是",
+   "t0": 64.014,
+   "t1": 65.212,
+   "cue": [
+    "alt:live"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "alive",
+   "t0": 65.462,
+   "t1": 66.081,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "忘了浇水，植物就会死掉：",
+   "t0": 67.181,
+   "t1": 69.427,
+   "cue": [
+    "show:die",
+    "edge:water>die",
+    "focus:die"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "die",
+   "t0": 69.677,
+   "t1": 70.103,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "死了的，是",
+   "t0": 70.603,
+   "t1": 71.855,
+   "cue": [
+    "alt:die"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "dead",
+   "t0": 72.105,
+   "t1": 72.537,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "农场后面，有一片树林：",
+   "t0": 73.637,
+   "t1": 75.789,
+   "cue": [
+    "show:wood",
+    "edge:farm>wood",
+    "focus:wood"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "wood",
+   "t0": 76.039,
+   "t1": 76.417,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "树林常常说成",
+   "t0": 76.917,
+   "t1": 78.396,
+   "cue": [
+    "alt:wood"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "the woods",
+   "t0": 78.646,
+   "t1": 79.334,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "这个词也是木头的意思。",
+   "t0": 79.834,
+   "t1": 81.852,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "树林边的小河里，鸭子在游泳：",
+   "t0": 82.702,
+   "t1": 85.41,
+   "cue": [
+    "show:duck",
+    "edge:wood>duck",
+    "focus:duck"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "duck",
+   "t0": 85.66,
+   "t1": 86.076,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "草丛里，蹦出来一只小兔子：",
+   "t0": 87.176,
+   "t1": 89.626,
+   "cue": [
+    "show:rabbit",
+    "edge:wood>rabbit",
+    "focus:rabbit"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "rabbit",
+   "t0": 89.876,
+   "t1": 90.414,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "树枝上，蜘蛛在织网：",
+   "t0": 91.514,
+   "t1": 93.531,
+   "cue": [
+    "show:spider",
+    "edge:duck>spider",
+    "focus:spider"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "spider",
+   "t0": 93.781,
+   "t1": 94.371,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "活着和死去，正好相反：",
+   "t0": 95.471,
+   "t1": 97.615,
+   "cue": [
+    "focus:live,die"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "live, alive",
+   "t0": 97.865,
+   "t1": 99.041,
+   "cue": [
+    "focus:live"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "die, dead",
+   "t0": 99.541,
+   "t1": 100.632,
+   "cue": [
+    "focus:die"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "你在乡下看到了什么？",
+   "t0": 101.732,
+   "t1": 103.303,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "I see a duck.",
+   "t0": 104.153,
+   "t1": 105.094,
+   "cue": [
+    "focus:duck"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "I see a rabbit.",
+   "t0": 105.594,
+   "t1": 106.624,
+   "cue": [
+    "focus:rabbit"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "And a spider in the woods!",
+   "t0": 107.124,
+   "t1": 108.594,
+   "cue": [
+    "focus:spider,wood"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 109.694,
+   "t1": 112.945,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "farm",
+   "t0": 113.795,
+   "t1": 114.229,
+   "cue": [
+    "focus:farm"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "field",
+   "t0": 115.329,
+   "t1": 115.727,
+   "cue": [
+    "focus:field"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "plants",
+   "t0": 116.827,
+   "t1": 117.387,
+   "cue": [
+    "focus:plants"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "kind",
+   "t0": 118.487,
+   "t1": 118.928,
+   "cue": [
+    "focus:kind"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "wheat",
+   "t0": 120.028,
+   "t1": 120.466,
+   "cue": [
+    "focus:wheat"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "corn",
+   "t0": 121.566,
+   "t1": 122.016,
+   "cue": [
+    "focus:corn"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "cotton",
+   "t0": 123.116,
+   "t1": 123.558,
+   "cue": [
+    "focus:cotton"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "pick",
+   "t0": 124.658,
+   "t1": 125.081,
+   "cue": [
+    "focus:pick"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "water",
+   "t0": 126.181,
+   "t1": 126.645,
+   "cue": [
+    "focus:water"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "live, alive",
+   "t0": 127.745,
+   "t1": 128.921,
+   "cue": [
+    "focus:live"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "die, dead",
+   "t0": 130.021,
+   "t1": 131.112,
+   "cue": [
+    "focus:die"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "wood",
+   "t0": 132.212,
+   "t1": 132.59,
+   "cue": [
+    "focus:wood"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "duck",
+   "t0": 133.69,
+   "t1": 134.106,
+   "cue": [
+    "focus:duck"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "en",
+   "text": "rabbit",
+   "t0": 135.206,
+   "t1": 135.744,
+   "cue": [
+    "focus:rabbit"
+   ]
+  },
+  {
+   "seg": 34,
+   "lang": "en",
+   "text": "spider",
+   "t0": 136.844,
+   "t1": 137.434,
+   "cue": [
+    "focus:spider"
+   ]
+  },
+  {
+   "seg": 35,
+   "lang": "zh",
+   "text": "太棒了！下次去乡下，用英语说一说你看到的植物和动物吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 138.534,
+   "t1": 148.15,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "farm": [
+   0.25,
+   0.684
+  ],
+  "field": [
+   0.934,
+   1.333
+  ],
+  "plants": [
+   1.583,
+   2.143
+  ],
+  "kind": [
+   2.393,
+   2.833
+  ],
+  "kind:alt": [
+   3.083,
+   3.737
+  ],
+  "corn": [
+   3.987,
+   4.437
+  ],
+  "wheat": [
+   4.687,
+   5.125
+  ],
+  "cotton": [
+   5.375,
+   5.816
+  ],
+  "pick": [
+   6.066,
+   6.489
+  ],
+  "water": [
+   6.739,
+   7.204
+  ],
+  "live": [
+   7.454,
+   8.004
+  ],
+  "live:alt": [
+   8.254,
+   8.873
+  ],
+  "die": [
+   9.123,
+   9.549
+  ],
+  "die:alt": [
+   9.799,
+   10.231
+  ],
+  "wood": [
+   10.481,
+   10.859
+  ],
+  "wood:alt": [
+   11.109,
+   11.629
+  ],
+  "duck": [
+   11.879,
+   12.295
+  ],
+  "rabbit": [
+   12.545,
+   13.083
+  ],
+  "spider": [
+   13.333,
+   13.923
+  ]
+ }
+}

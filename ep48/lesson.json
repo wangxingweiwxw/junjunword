@@ -1,0 +1,709 @@
+{
+ "id": "ep48",
+ "title": "shopping",
+ "titleZh": "购物",
+ "episode": "第 48 集",
+ "titleIcon": "shopping",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "store",
+   "word": "store",
+   "ipa": "/stɔːr/",
+   "zh": "商店",
+   "icon": "store",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "buy",
+   "word": "buy",
+   "ipa": "/baɪ/",
+   "zh": "买",
+   "icon": "buy",
+   "kind": "verb",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "sell",
+   "word": "sell",
+   "ipa": "/sel/",
+   "zh": "卖",
+   "icon": "sell",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "free",
+   "word": "free",
+   "ipa": "/friː/",
+   "zh": "免费的",
+   "icon": "free",
+   "kind": "adj",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "afford",
+   "word": "afford",
+   "ipa": "/əˈfɔːrd/",
+   "zh": "买得起",
+   "icon": "afford",
+   "kind": "verb",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "steal",
+   "word": "steal",
+   "ipa": "/stiːl/",
+   "zh": "偷",
+   "icon": "steal",
+   "kind": "verb",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  },
+  {
+   "id": "shopping",
+   "word": "shopping",
+   "ipa": "/ˈʃɑːpɪŋ/",
+   "zh": "购物",
+   "icon": "shopping",
+   "alt": "shop",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "market",
+   "word": "market",
+   "ipa": "/ˈmɑːrkɪt/",
+   "zh": "市场",
+   "icon": "market",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "cheap",
+   "word": "cheap",
+   "ipa": "/tʃiːp/",
+   "zh": "便宜的",
+   "icon": "cheap",
+   "kind": "adj",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "expensive",
+   "word": "expensive",
+   "ipa": "/ɪkˈspensɪv/",
+   "zh": "贵的",
+   "icon": "expensive",
+   "kind": "adj",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "trade",
+   "word": "trade",
+   "ipa": "/treɪd/",
+   "zh": "交易；交换",
+   "icon": "trade",
+   "kind": "verb",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "deal",
+   "word": "deal",
+   "ipa": "/diːl/",
+   "zh": "成交；交易",
+   "icon": "deal",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "store",
+   "to": "buy"
+  },
+  {
+   "from": "store",
+   "to": "sell"
+  },
+  {
+   "from": "store",
+   "to": "shopping"
+  },
+  {
+   "from": "shopping",
+   "to": "free",
+   "dashed": true
+  },
+  {
+   "from": "shopping",
+   "to": "afford"
+  },
+  {
+   "from": "shopping",
+   "to": "market"
+  },
+  {
+   "from": "market",
+   "to": "cheap"
+  },
+  {
+   "from": "market",
+   "to": "expensive"
+  },
+  {
+   "from": "market",
+   "to": "trade"
+  },
+  {
+   "from": "trade",
+   "to": "deal"
+  },
+  {
+   "from": "afford",
+   "to": "steal",
+   "label": "买不起也不能",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！和妈妈一起去逛街买东西吧！"
+    },
+    {
+     "en": "shopping"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:store",
+    "focus:store"
+   ],
+   "parts": [
+    {
+     "zh": "卖东西的地方，是商店："
+    },
+    {
+     "en": "store"
+    },
+    {
+     "zh": "还记得第四十三集的书店 bookstore 吗？"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:buy",
+    "edge:store>buy",
+    "focus:buy"
+   ],
+   "parts": [
+    {
+     "zh": "花钱买东西，是"
+    },
+    {
+     "en": "buy"
+    },
+    {
+     "en": "I want to buy a toy."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sell",
+    "edge:store>sell",
+    "focus:sell"
+   ],
+   "parts": [
+    {
+     "zh": "把东西卖给别人，是"
+    },
+    {
+     "en": "sell"
+    },
+    {
+     "zh": "买和卖，正好相反："
+    },
+    {
+     "en": "buy",
+     "cue": [
+      "focus:buy"
+     ]
+    },
+    {
+     "en": "sell",
+     "cue": [
+      "focus:sell"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:shopping",
+    "edge:store>shopping",
+    "focus:shopping"
+   ],
+   "parts": [
+    {
+     "zh": "逛商店买东西，是购物："
+    },
+    {
+     "en": "shopping"
+    },
+    {
+     "zh": "它来自",
+     "cue": [
+      "alt:shopping"
+     ]
+    },
+    {
+     "en": "shop"
+    },
+    {
+     "zh": "要多写一个 p，再加上 i n g。"
+    },
+    {
+     "en": "Let's go shopping!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:free",
+    "edge:shopping>free",
+    "focus:free"
+   ],
+   "parts": [
+    {
+     "zh": "不要钱，是免费的："
+    },
+    {
+     "en": "free"
+    },
+    {
+     "en": "It's free!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:afford",
+    "edge:shopping>afford",
+    "focus:afford"
+   ],
+   "parts": [
+    {
+     "zh": "钱够了，买得起，英语是"
+    },
+    {
+     "en": "afford"
+    },
+    {
+     "en": "I can afford it."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:market",
+    "edge:shopping>market",
+    "focus:market"
+   ],
+   "parts": [
+    {
+     "zh": "很多小摊子挤在一起，是市场："
+    },
+    {
+     "en": "market"
+    },
+    {
+     "zh": "还记得超市 supermarket 吗？"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cheap",
+    "edge:market>cheap",
+    "focus:cheap"
+   ],
+   "parts": [
+    {
+     "zh": "价钱低，是便宜的："
+    },
+    {
+     "en": "cheap"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:expensive",
+    "edge:market>expensive",
+    "focus:expensive"
+   ],
+   "parts": [
+    {
+     "zh": "价钱高，是贵的："
+    },
+    {
+     "en": "expensive"
+    },
+    {
+     "zh": "便宜和贵："
+    },
+    {
+     "en": "cheap",
+     "cue": [
+      "focus:cheap"
+     ]
+    },
+    {
+     "en": "expensive",
+     "cue": [
+      "focus:expensive"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:trade",
+    "edge:market>trade",
+    "focus:trade"
+   ],
+   "parts": [
+    {
+     "zh": "用我的东西，换你的东西，是交换、交易："
+    },
+    {
+     "en": "trade"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:deal",
+    "edge:trade>deal",
+    "focus:deal"
+   ],
+   "parts": [
+    {
+     "zh": "双方都同意了，握握手，成交！"
+    },
+    {
+     "en": "deal"
+    },
+    {
+     "en": "It's a deal!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:steal",
+    "edge:afford>steal",
+    "focus:steal"
+   ],
+   "parts": [
+    {
+     "zh": "买不起的东西，也绝对不能偷。偷，英语是"
+    },
+    {
+     "en": "steal"
+    },
+    {
+     "en": "Never steal!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们来演一演买东西吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "How much is it?",
+     "cue": [
+      "focus:store"
+     ]
+    },
+    {
+     "en": "It's ten yuan.",
+     "cue": [
+      "focus:cheap"
+     ]
+    },
+    {
+     "en": "That's cheap! I'll buy it.",
+     "cue": [
+      "focus:buy"
+     ]
+    },
+    {
+     "en": "Deal!",
+     "cue": [
+      "focus:deal"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:store"
+   ],
+   "parts": [
+    {
+     "en": "store"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:buy"
+   ],
+   "parts": [
+    {
+     "en": "buy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sell"
+   ],
+   "parts": [
+    {
+     "en": "sell"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:shopping"
+   ],
+   "parts": [
+    {
+     "en": "shopping"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:free"
+   ],
+   "parts": [
+    {
+     "en": "free"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:afford"
+   ],
+   "parts": [
+    {
+     "en": "afford"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:market"
+   ],
+   "parts": [
+    {
+     "en": "market"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cheap"
+   ],
+   "parts": [
+    {
+     "en": "cheap"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:expensive"
+   ],
+   "parts": [
+    {
+     "en": "expensive"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:trade"
+   ],
+   "parts": [
+    {
+     "en": "trade"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:deal"
+   ],
+   "parts": [
+    {
+     "en": "deal"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:steal"
+   ],
+   "parts": [
+    {
+     "en": "steal"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！下次去商店，用英语问一问 How much is it 吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

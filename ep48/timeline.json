@@ -1,0 +1,654 @@
+{
+ "duration": 128.286,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！和妈妈一起去逛街买东西吧！",
+   "t0": 0.4,
+   "t1": 4.302,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "shopping",
+   "t0": 4.552,
+   "t1": 5.158,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "卖东西的地方，是商店：",
+   "t0": 6.258,
+   "t1": 8.304,
+   "cue": [
+    "map",
+    "show:store",
+    "focus:store"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "store",
+   "t0": 8.554,
+   "t1": 9.084,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "还记得第四十三集的书店 bookstore 吗？",
+   "t0": 9.584,
+   "t1": 12.497,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "花钱买东西，是",
+   "t0": 13.347,
+   "t1": 14.995,
+   "cue": [
+    "show:buy",
+    "edge:store>buy",
+    "focus:buy"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "buy",
+   "t0": 15.245,
+   "t1": 15.611,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "I want to buy a toy.",
+   "t0": 16.111,
+   "t1": 17.406,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "把东西卖给别人，是",
+   "t0": 18.506,
+   "t1": 20.407,
+   "cue": [
+    "show:sell",
+    "edge:store>sell",
+    "focus:sell"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "sell",
+   "t0": 20.657,
+   "t1": 21.135,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "买和卖，正好相反：",
+   "t0": 21.635,
+   "t1": 23.509,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "buy",
+   "t0": 23.759,
+   "t1": 24.125,
+   "cue": [
+    "focus:buy"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "sell",
+   "t0": 24.625,
+   "t1": 25.103,
+   "cue": [
+    "focus:sell"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "逛商店买东西，是购物：",
+   "t0": 26.203,
+   "t1": 28.378,
+   "cue": [
+    "show:shopping",
+    "edge:store>shopping",
+    "focus:shopping"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "shopping",
+   "t0": 28.628,
+   "t1": 29.235,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "它来自",
+   "t0": 29.735,
+   "t1": 30.397,
+   "cue": [
+    "alt:shopping"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "shop",
+   "t0": 30.647,
+   "t1": 31.064,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "要多写一个 p，再加上 i n g。",
+   "t0": 31.564,
+   "t1": 34.274,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "Let's go shopping!",
+   "t0": 34.524,
+   "t1": 35.657,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "不要钱，是免费的：",
+   "t0": 36.757,
+   "t1": 38.482,
+   "cue": [
+    "show:free",
+    "edge:shopping>free",
+    "focus:free"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "free",
+   "t0": 38.732,
+   "t1": 39.167,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "It's free!",
+   "t0": 39.667,
+   "t1": 40.308,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "钱够了，买得起，英语是",
+   "t0": 41.408,
+   "t1": 43.897,
+   "cue": [
+    "show:afford",
+    "edge:shopping>afford",
+    "focus:afford"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "afford",
+   "t0": 44.147,
+   "t1": 44.722,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "I can afford it.",
+   "t0": 45.222,
+   "t1": 46.227,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "很多小摊子挤在一起，是市场：",
+   "t0": 47.327,
+   "t1": 49.936,
+   "cue": [
+    "show:market",
+    "edge:shopping>market",
+    "focus:market"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "market",
+   "t0": 50.186,
+   "t1": 50.797,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "还记得超市 supermarket 吗？",
+   "t0": 51.297,
+   "t1": 53.523,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "价钱低，是便宜的：",
+   "t0": 54.373,
+   "t1": 56.082,
+   "cue": [
+    "show:cheap",
+    "edge:market>cheap",
+    "focus:cheap"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "cheap",
+   "t0": 56.332,
+   "t1": 56.693,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "价钱高，是贵的：",
+   "t0": 57.793,
+   "t1": 59.345,
+   "cue": [
+    "show:expensive",
+    "edge:market>expensive",
+    "focus:expensive"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "expensive",
+   "t0": 59.595,
+   "t1": 60.426,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "便宜和贵：",
+   "t0": 60.926,
+   "t1": 61.797,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "cheap",
+   "t0": 62.047,
+   "t1": 62.407,
+   "cue": [
+    "focus:cheap"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "expensive",
+   "t0": 62.907,
+   "t1": 63.738,
+   "cue": [
+    "focus:expensive"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "用我的东西，换你的东西，是交换、交易：",
+   "t0": 64.838,
+   "t1": 68.503,
+   "cue": [
+    "show:trade",
+    "edge:market>trade",
+    "focus:trade"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "trade",
+   "t0": 68.753,
+   "t1": 69.199,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "双方都同意了，握握手，成交！",
+   "t0": 70.299,
+   "t1": 73.052,
+   "cue": [
+    "show:deal",
+    "edge:trade>deal",
+    "focus:deal"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "deal",
+   "t0": 73.302,
+   "t1": 73.707,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "It's a deal!",
+   "t0": 74.207,
+   "t1": 74.959,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "买不起的东西，也绝对不能偷。偷，英语是",
+   "t0": 76.059,
+   "t1": 80.484,
+   "cue": [
+    "show:steal",
+    "edge:afford>steal",
+    "focus:steal"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "steal",
+   "t0": 80.734,
+   "t1": 81.282,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "Never steal!",
+   "t0": 81.782,
+   "t1": 82.646,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "我们来演一演买东西吧！",
+   "t0": 83.746,
+   "t1": 85.471,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "How much is it?",
+   "t0": 86.321,
+   "t1": 87.246,
+   "cue": [
+    "focus:store"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "It's ten yuan.",
+   "t0": 87.746,
+   "t1": 88.774,
+   "cue": [
+    "focus:cheap"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "That's cheap! I'll buy it.",
+   "t0": 89.274,
+   "t1": 91.854,
+   "cue": [
+    "focus:buy"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Deal!",
+   "t0": 92.354,
+   "t1": 92.754,
+   "cue": [
+    "focus:deal"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 93.854,
+   "t1": 97.105,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "store",
+   "t0": 97.955,
+   "t1": 98.484,
+   "cue": [
+    "focus:store"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "buy",
+   "t0": 99.584,
+   "t1": 99.95,
+   "cue": [
+    "focus:buy"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "sell",
+   "t0": 101.05,
+   "t1": 101.529,
+   "cue": [
+    "focus:sell"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "shopping",
+   "t0": 102.629,
+   "t1": 103.235,
+   "cue": [
+    "focus:shopping"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "free",
+   "t0": 104.335,
+   "t1": 104.769,
+   "cue": [
+    "focus:free"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "afford",
+   "t0": 105.869,
+   "t1": 106.444,
+   "cue": [
+    "focus:afford"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "market",
+   "t0": 107.544,
+   "t1": 108.155,
+   "cue": [
+    "focus:market"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "cheap",
+   "t0": 109.255,
+   "t1": 109.616,
+   "cue": [
+    "focus:cheap"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "expensive",
+   "t0": 110.716,
+   "t1": 111.547,
+   "cue": [
+    "focus:expensive"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "trade",
+   "t0": 112.647,
+   "t1": 113.093,
+   "cue": [
+    "focus:trade"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "deal",
+   "t0": 114.193,
+   "t1": 114.599,
+   "cue": [
+    "focus:deal"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "steal",
+   "t0": 115.699,
+   "t1": 116.247,
+   "cue": [
+    "focus:steal"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "zh",
+   "text": "太棒了！下次去商店，用英语问一问 How much is it 吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 117.347,
+   "t1": 126.436,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "store": [
+   0.25,
+   0.78
+  ],
+  "buy": [
+   1.03,
+   1.396
+  ],
+  "sell": [
+   1.646,
+   2.124
+  ],
+  "free": [
+   2.374,
+   2.808
+  ],
+  "afford": [
+   3.058,
+   3.633
+  ],
+  "steal": [
+   3.883,
+   4.432
+  ],
+  "shopping": [
+   4.682,
+   5.288
+  ],
+  "shopping:alt": [
+   5.538,
+   5.955
+  ],
+  "market": [
+   6.205,
+   6.816
+  ],
+  "cheap": [
+   7.066,
+   7.426
+  ],
+  "expensive": [
+   7.676,
+   8.507
+  ],
+  "trade": [
+   8.757,
+   9.204
+  ],
+  "deal": [
+   9.454,
+   9.859
+  ]
+ }
+}

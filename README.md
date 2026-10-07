@@ -102,3 +102,13 @@ ep04+ 的 `lesson.json` 由同目录的 `lesson.py` 生成（`python3 ep04/lesso
 | ep38 rooms | room bedroom living room kitchen bathroom ceiling toilet restroom washroom toothbrush soap towel | 2:19 |
 | ep39 feelings | feeling happy smile like excited surprised sudden(suddenly) mad sad cry tears afraid scared fear | 2:30 |
 | ep40 drinks | thirsty(thirst) drink water milk juice coffee beer soup cup enough satisfy | 2:00 |
+| ep41 chores | chore mess(messy) tidy dirty wash clean floor sweep brush rubbish bin basket | 2:11 |
+| ep42 school rules | headmaster educate pupil each rule follow attention late bell alarm attend absent fight punish | 2:15 |
+| ep43 town | town village square show restaurant cinema supermarket mall bookstore street zoo crossing cross open closed | 2:20 |
+| ep44 restaurant | restaurant menu service treat pardon normal dish make delicious dumpling common plenty piece bit | 2:29 |
+| ep45 animals | animal wild pet care dog cat usual unusual snake mouse(mice) bird wing fly tail | 2:27 |
+| ep46 countryside | farm field plants kind wheat corn cotton pick water live(alive) die(dead) wood duck rabbit spider | 2:30 |
+| ep47 zoo | zoo panda bamboo lion zebra giraffe elephant owl monkey bear wolf(wolves) shark whale | 2:16 |
+| ep48 shopping | store buy sell shopping free afford market cheap expensive trade deal steal | 2:08 |
+| ep49 accessories | clothes shop available earring scarf glove ring bring suit tie bag handbag purse wallet | 2:21 |
+| ep50 weather (2) | weather temperature degree heat smoke dry wet rainy umbrella raincoat take too snowy ice freeze(froze) | 2:25 |

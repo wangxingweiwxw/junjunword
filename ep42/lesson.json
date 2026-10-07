@@ -1,0 +1,772 @@
+{
+ "id": "ep42",
+ "title": "school rules",
+ "titleZh": "校规",
+ "episode": "第 42 集",
+ "titleIcon": "rule",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "headmaster",
+   "word": "headmaster",
+   "ipa": "/ˌhedˈmæstər/",
+   "zh": "校长",
+   "icon": "headmaster",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "pupil",
+   "word": "pupil",
+   "ipa": "/ˈpjuːpl/",
+   "zh": "小学生",
+   "icon": "pupil",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "each",
+   "word": "each",
+   "ipa": "/iːtʃ/",
+   "zh": "每个",
+   "icon": "each",
+   "kind": "adj",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "educate",
+   "word": "educate",
+   "ipa": "/ˈedʒukeɪt/",
+   "zh": "教育",
+   "icon": "educate",
+   "kind": "verb",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "rule",
+   "word": "rule",
+   "ipa": "/ruːl/",
+   "zh": "规则",
+   "icon": "rule",
+   "plural": "rules",
+   "pluralIpa": "/ruːlz/",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "follow",
+   "word": "follow",
+   "ipa": "/ˈfɑːloʊ/",
+   "zh": "遵守；跟随",
+   "icon": "follow",
+   "kind": "verb",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "attention",
+   "word": "attention",
+   "ipa": "/əˈtenʃn/",
+   "zh": "注意",
+   "icon": "attention",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "late",
+   "word": "late",
+   "ipa": "/leɪt/",
+   "zh": "迟到的",
+   "icon": "late",
+   "kind": "adj",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "bell",
+   "word": "bell",
+   "ipa": "/bel/",
+   "zh": "铃",
+   "icon": "bell",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "alarm",
+   "word": "alarm",
+   "ipa": "/əˈlɑːrm/",
+   "zh": "闹钟",
+   "icon": "alarm",
+   "alt": "alarm clock",
+   "altLabel": "全称",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "attend",
+   "word": "attend",
+   "ipa": "/əˈtend/",
+   "zh": "出席",
+   "icon": "attend",
+   "kind": "verb",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "absent",
+   "word": "absent",
+   "ipa": "/ˈæbsənt/",
+   "zh": "缺席的",
+   "icon": "absent",
+   "kind": "adj",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "fight",
+   "word": "fight",
+   "ipa": "/faɪt/",
+   "zh": "打架",
+   "icon": "fight",
+   "kind": "verb",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "punish",
+   "word": "punish",
+   "ipa": "/ˈpʌnɪʃ/",
+   "zh": "惩罚",
+   "icon": "punish",
+   "kind": "verb",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "headmaster",
+   "to": "educate"
+  },
+  {
+   "from": "educate",
+   "to": "pupil"
+  },
+  {
+   "from": "pupil",
+   "to": "each",
+   "dashed": true
+  },
+  {
+   "from": "educate",
+   "to": "rule"
+  },
+  {
+   "from": "rule",
+   "to": "follow",
+   "label": "要"
+  },
+  {
+   "from": "rule",
+   "to": "attention"
+  },
+  {
+   "from": "rule",
+   "to": "late",
+   "label": "不要"
+  },
+  {
+   "from": "late",
+   "to": "bell",
+   "label": "听到"
+  },
+  {
+   "from": "late",
+   "to": "alarm",
+   "label": "定好"
+  },
+  {
+   "from": "attend",
+   "to": "absent",
+   "label": "反义"
+  },
+  {
+   "from": "fight",
+   "to": "punish",
+   "label": "会被"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！学校里，有很多要遵守的规则。今天，我们来学校规！"
+    },
+    {
+     "en": "school rules"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:headmaster",
+    "focus:headmaster"
+   ],
+   "parts": [
+    {
+     "zh": "学校里最大的老师，是校长。头，加上主人："
+    },
+    {
+     "en": "head"
+    },
+    {
+     "en": "master"
+    },
+    {
+     "en": "headmaster"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:educate",
+    "edge:headmaster>educate",
+    "focus:educate"
+   ],
+   "parts": [
+    {
+     "zh": "校长和老师们，一起教育我们："
+    },
+    {
+     "en": "educate"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pupil",
+    "edge:educate>pupil",
+    "focus:pupil"
+   ],
+   "parts": [
+    {
+     "zh": "在小学上学的孩子，是小学生："
+    },
+    {
+     "en": "pupil"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:each",
+    "edge:pupil>each",
+    "focus:each"
+   ],
+   "parts": [
+    {
+     "zh": "每一个学生，都很重要。每个，英语是"
+    },
+    {
+     "en": "each"
+    },
+    {
+     "en": "each pupil"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:rule",
+    "edge:educate>rule",
+    "focus:rule"
+   ],
+   "parts": [
+    {
+     "zh": "学校的规矩，是规则："
+    },
+    {
+     "en": "rule"
+    },
+    {
+     "zh": "很多条规则：",
+     "cue": [
+      "plural:rule"
+     ]
+    },
+    {
+     "en": "rules"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:follow",
+    "edge:rule>follow",
+    "focus:follow"
+   ],
+   "parts": [
+    {
+     "zh": "规则要好好遵守："
+    },
+    {
+     "en": "follow"
+    },
+    {
+     "en": "Please follow the rules."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:attention",
+    "edge:rule>attention",
+    "focus:attention"
+   ],
+   "parts": [
+    {
+     "zh": "上课要集中注意力："
+    },
+    {
+     "en": "attention"
+    },
+    {
+     "en": "Attention, please!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:late",
+    "edge:rule>late",
+    "focus:late"
+   ],
+   "parts": [
+    {
+     "zh": "早上不能迟到："
+    },
+    {
+     "en": "late"
+    },
+    {
+     "en": "Don't be late for school."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bell",
+    "edge:late>bell",
+    "focus:bell"
+   ],
+   "parts": [
+    {
+     "zh": "叮铃铃，上课铃响了！"
+    },
+    {
+     "en": "bell"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:alarm",
+    "edge:late>alarm",
+    "focus:alarm"
+   ],
+   "parts": [
+    {
+     "zh": "为了不迟到，晚上要定好闹钟："
+    },
+    {
+     "en": "alarm"
+    },
+    {
+     "zh": "全称是",
+     "cue": [
+      "alt:alarm"
+     ]
+    },
+    {
+     "en": "alarm clock"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:attend",
+    "focus:attend"
+   ],
+   "parts": [
+    {
+     "zh": "每天都来上课，是出席："
+    },
+    {
+     "en": "attend"
+    },
+    {
+     "en": "I attend every class."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:absent",
+    "edge:attend>absent",
+    "focus:absent"
+   ],
+   "parts": [
+    {
+     "zh": "没有来上课，是缺席的："
+    },
+    {
+     "en": "absent"
+    },
+    {
+     "en": "Who is absent today?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fight",
+    "focus:fight"
+   ],
+   "parts": [
+    {
+     "zh": "同学之间，不能打架："
+    },
+    {
+     "en": "fight"
+    },
+    {
+     "en": "Don't fight!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:punish",
+    "edge:fight>punish",
+    "focus:punish"
+   ],
+   "parts": [
+    {
+     "zh": "违反了规则，就会受到惩罚："
+    },
+    {
+     "en": "punish"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们一起来读一读校规："
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Follow the rules.",
+     "cue": [
+      "focus:follow,rule"
+     ]
+    },
+    {
+     "en": "Don't be late.",
+     "cue": [
+      "focus:late"
+     ]
+    },
+    {
+     "en": "Pay attention in class.",
+     "cue": [
+      "focus:attention"
+     ]
+    },
+    {
+     "en": "Don't fight.",
+     "cue": [
+      "focus:fight"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:headmaster"
+   ],
+   "parts": [
+    {
+     "en": "headmaster"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:educate"
+   ],
+   "parts": [
+    {
+     "en": "educate"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pupil"
+   ],
+   "parts": [
+    {
+     "en": "pupil"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:each"
+   ],
+   "parts": [
+    {
+     "en": "each"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:rule"
+   ],
+   "parts": [
+    {
+     "en": "rule, rules"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:follow"
+   ],
+   "parts": [
+    {
+     "en": "follow"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:attention"
+   ],
+   "parts": [
+    {
+     "en": "attention"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:late"
+   ],
+   "parts": [
+    {
+     "en": "late"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bell"
+   ],
+   "parts": [
+    {
+     "en": "bell"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:alarm"
+   ],
+   "parts": [
+    {
+     "en": "alarm"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:attend"
+   ],
+   "parts": [
+    {
+     "en": "attend"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:absent"
+   ],
+   "parts": [
+    {
+     "en": "absent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fight"
+   ],
+   "parts": [
+    {
+     "en": "fight"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:punish"
+   ],
+   "parts": [
+    {
+     "en": "punish"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！做一个遵守校规的好学生吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

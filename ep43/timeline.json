@@ -1,0 +1,680 @@
+{
+ "duration": 140.572,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！周末，我们一起逛一逛城镇吧！",
+   "t0": 0.4,
+   "t1": 4.469,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "town",
+   "t0": 4.719,
+   "t1": 5.2,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "有很多房子、商店和街道的地方，是城镇：",
+   "t0": 6.3,
+   "t1": 10.061,
+   "cue": [
+    "map",
+    "show:town",
+    "focus:town"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "town",
+   "t0": 10.311,
+   "t1": 10.792,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "比城镇更小、在乡下的，是村庄：",
+   "t0": 11.892,
+   "t1": 15.017,
+   "cue": [
+    "show:village",
+    "edge:town>village",
+    "focus:village"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "village",
+   "t0": 15.267,
+   "t1": 15.915,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "城镇中间，有一个大大的广场：",
+   "t0": 17.015,
+   "t1": 19.618,
+   "cue": [
+    "show:square",
+    "edge:town>square",
+    "focus:square"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "square",
+   "t0": 19.868,
+   "t1": 20.461,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "这个词也是正方形的意思。",
+   "t0": 20.961,
+   "t1": 23.231,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "广场上正在表演节目：",
+   "t0": 24.081,
+   "t1": 26.045,
+   "cue": [
+    "show:show",
+    "edge:square>show",
+    "focus:show"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "show",
+   "t0": 26.295,
+   "t1": 26.791,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "Let's watch the show!",
+   "t0": 27.291,
+   "t1": 28.488,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "饿了，就去餐厅吃饭：",
+   "t0": 29.588,
+   "t1": 31.382,
+   "cue": [
+    "show:restaurant",
+    "edge:town>restaurant",
+    "focus:restaurant"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "restaurant",
+   "t0": 31.632,
+   "t1": 32.328,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "吃完饭，去电影院看电影：",
+   "t0": 33.428,
+   "t1": 35.766,
+   "cue": [
+    "show:cinema",
+    "edge:restaurant>cinema",
+    "focus:cinema"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "cinema",
+   "t0": 36.016,
+   "t1": 36.668,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "买吃的、用的，去超市。超级，加上市场：",
+   "t0": 37.768,
+   "t1": 42.426,
+   "cue": [
+    "show:supermarket",
+    "edge:town>supermarket",
+    "focus:supermarket"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "super",
+   "t0": 42.676,
+   "t1": 43.254,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "market",
+   "t0": 43.754,
+   "t1": 44.365,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "supermarket",
+   "t0": 44.865,
+   "t1": 45.829,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "有很多很多商店的大楼，是购物中心：",
+   "t0": 46.929,
+   "t1": 50.048,
+   "cue": [
+    "show:mall",
+    "edge:supermarket>mall",
+    "focus:mall"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "mall",
+   "t0": 50.298,
+   "t1": 50.749,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "卖书的商店，是书店。书，加上商店：",
+   "t0": 51.849,
+   "t1": 56.022,
+   "cue": [
+    "show:bookstore",
+    "edge:supermarket>bookstore",
+    "focus:bookstore"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "book",
+   "t0": 56.272,
+   "t1": 56.657,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "store",
+   "t0": 57.157,
+   "t1": 57.687,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "bookstore",
+   "t0": 58.187,
+   "t1": 58.854,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "路两边都是房子的，是街道：",
+   "t0": 59.954,
+   "t1": 62.349,
+   "cue": [
+    "show:street",
+    "focus:street"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "street",
+   "t0": 62.599,
+   "t1": 63.177,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "沿着街道走，就到了动物园：",
+   "t0": 64.277,
+   "t1": 66.583,
+   "cue": [
+    "show:zoo",
+    "edge:street>zoo",
+    "focus:zoo"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "zoo",
+   "t0": 66.833,
+   "t1": 67.332,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "过马路，要走人行横道：",
+   "t0": 68.432,
+   "t1": 70.449,
+   "cue": [
+    "show:crossing",
+    "edge:street>crossing",
+    "focus:crossing"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "crossing",
+   "t0": 70.699,
+   "t1": 71.358,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "穿过马路，英语是",
+   "t0": 72.458,
+   "t1": 74.198,
+   "cue": [
+    "show:cross",
+    "edge:crossing>cross",
+    "focus:cross"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "cross",
+   "t0": 74.448,
+   "t1": 75.0,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "Cross the street carefully.",
+   "t0": 75.5,
+   "t1": 76.983,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "商店门口挂着牌子。开着门，是",
+   "t0": 78.083,
+   "t1": 81.795,
+   "cue": [
+    "show:open",
+    "focus:open"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "open",
+   "t0": 82.045,
+   "t1": 82.532,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "关门了，是",
+   "t0": 83.632,
+   "t1": 84.872,
+   "cue": [
+    "show:closed",
+    "edge:open>closed",
+    "focus:closed"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "closed",
+   "t0": 85.122,
+   "t1": 85.637,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "它来自关上：",
+   "t0": 86.137,
+   "t1": 87.125,
+   "cue": [
+    "alt:closed"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "close",
+   "t0": 87.375,
+   "t1": 87.881,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "The store is closed.",
+   "t0": 88.381,
+   "t1": 89.589,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "说一说，你周末想去哪里？",
+   "t0": 90.689,
+   "t1": 92.955,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Let's go to the cinema.",
+   "t0": 93.805,
+   "t1": 95.096,
+   "cue": [
+    "focus:cinema"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Let's go to the zoo.",
+   "t0": 95.596,
+   "t1": 96.809,
+   "cue": [
+    "focus:zoo"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Let's go to the bookstore!",
+   "t0": 97.309,
+   "t1": 98.691,
+   "cue": [
+    "focus:bookstore"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 99.791,
+   "t1": 103.042,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "town",
+   "t0": 103.892,
+   "t1": 104.373,
+   "cue": [
+    "focus:town"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "village",
+   "t0": 105.473,
+   "t1": 106.122,
+   "cue": [
+    "focus:village"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "square",
+   "t0": 107.222,
+   "t1": 107.815,
+   "cue": [
+    "focus:square"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "show",
+   "t0": 108.915,
+   "t1": 109.411,
+   "cue": [
+    "focus:show"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "restaurant",
+   "t0": 110.511,
+   "t1": 111.206,
+   "cue": [
+    "focus:restaurant"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "cinema",
+   "t0": 112.306,
+   "t1": 112.958,
+   "cue": [
+    "focus:cinema"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "supermarket",
+   "t0": 114.058,
+   "t1": 115.023,
+   "cue": [
+    "focus:supermarket"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "mall",
+   "t0": 116.123,
+   "t1": 116.574,
+   "cue": [
+    "focus:mall"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "bookstore",
+   "t0": 117.674,
+   "t1": 118.341,
+   "cue": [
+    "focus:bookstore"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "street",
+   "t0": 119.441,
+   "t1": 120.019,
+   "cue": [
+    "focus:street"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "zoo",
+   "t0": 121.119,
+   "t1": 121.618,
+   "cue": [
+    "focus:zoo"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "crossing",
+   "t0": 122.718,
+   "t1": 123.378,
+   "cue": [
+    "focus:crossing"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "cross",
+   "t0": 124.478,
+   "t1": 125.03,
+   "cue": [
+    "focus:cross"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "open",
+   "t0": 126.13,
+   "t1": 126.616,
+   "cue": [
+    "focus:open"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "en",
+   "text": "closed",
+   "t0": 127.716,
+   "t1": 128.231,
+   "cue": [
+    "focus:closed"
+   ]
+  },
+  {
+   "seg": 34,
+   "lang": "zh",
+   "text": "太棒了！下次逛街的时候，用英语说一说你看到的地方吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 129.331,
+   "t1": 138.722,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "town": [
+   0.25,
+   0.731
+  ],
+  "village": [
+   0.981,
+   1.63
+  ],
+  "square": [
+   1.88,
+   2.474
+  ],
+  "show": [
+   2.724,
+   3.219
+  ],
+  "cinema": [
+   3.469,
+   4.121
+  ],
+  "restaurant": [
+   4.371,
+   5.067
+  ],
+  "mall": [
+   5.317,
+   5.768
+  ],
+  "supermarket": [
+   6.018,
+   6.982
+  ],
+  "bookstore": [
+   7.232,
+   7.899
+  ],
+  "zoo": [
+   8.149,
+   8.648
+  ],
+  "street": [
+   8.898,
+   9.477
+  ],
+  "crossing": [
+   9.727,
+   10.386
+  ],
+  "cross": [
+   10.636,
+   11.188
+  ],
+  "open": [
+   11.438,
+   11.924
+  ],
+  "closed": [
+   12.174,
+   12.689
+  ],
+  "closed:alt": [
+   12.939,
+   13.445
+  ]
+ }
+}
