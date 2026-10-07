@@ -1,0 +1,796 @@
+{
+ "id": "ep11",
+ "title": "numbers",
+ "titleZh": "数字 11–19",
+ "episode": "第 11 集",
+ "titleIcon": "numbers",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1410
+  ]
+ },
+ "nodes": [
+  {
+   "id": "numbers",
+   "word": "numbers",
+   "ipa": "/ˈnʌmbərz/",
+   "zh": "数字",
+   "icon": "numbers",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    190
+   ]
+  },
+  {
+   "id": "eleven",
+   "word": "eleven",
+   "ipa": "/ɪˈlevn/",
+   "zh": "十一",
+   "icon": "n11",
+   "kind": "num",
+   "atP": [
+    150,
+    520
+   ],
+   "at": [
+    540,
+    190
+   ]
+  },
+  {
+   "id": "twelve",
+   "word": "twelve",
+   "ipa": "/twelv/",
+   "zh": "十二",
+   "icon": "n12",
+   "kind": "num",
+   "atP": [
+    450,
+    520
+   ],
+   "at": [
+    900,
+    190
+   ]
+  },
+  {
+   "id": "thirteen",
+   "word": "thirteen",
+   "ipa": "/ˌθɜːrˈtiːn/",
+   "zh": "十三",
+   "icon": "n13",
+   "kind": "num",
+   "alt": "3 + 10",
+   "altLabel": "=",
+   "atP": [
+    750,
+    520
+   ],
+   "at": [
+    1260,
+    190
+   ]
+  },
+  {
+   "id": "fourteen",
+   "word": "fourteen",
+   "ipa": "/ˌfɔːrˈtiːn/",
+   "zh": "十四",
+   "icon": "n14",
+   "kind": "num",
+   "alt": "4 + 10",
+   "altLabel": "=",
+   "atP": [
+    750,
+    890
+   ],
+   "at": [
+    1620,
+    190
+   ]
+  },
+  {
+   "id": "fifteen",
+   "word": "fifteen",
+   "ipa": "/ˌfɪfˈtiːn/",
+   "zh": "十五",
+   "icon": "n15",
+   "kind": "num",
+   "alt": "5 + 10",
+   "altLabel": "=",
+   "atP": [
+    450,
+    890
+   ],
+   "at": [
+    1620,
+    650
+   ]
+  },
+  {
+   "id": "sixteen",
+   "word": "sixteen",
+   "ipa": "/ˌsɪksˈtiːn/",
+   "zh": "十六",
+   "icon": "n16",
+   "kind": "num",
+   "alt": "6 + 10",
+   "altLabel": "=",
+   "atP": [
+    150,
+    890
+   ],
+   "at": [
+    1260,
+    650
+   ]
+  },
+  {
+   "id": "seventeen",
+   "word": "seventeen",
+   "ipa": "/ˌsevnˈtiːn/",
+   "zh": "十七",
+   "icon": "n17",
+   "kind": "num",
+   "alt": "7 + 10",
+   "altLabel": "=",
+   "atP": [
+    150,
+    1260
+   ],
+   "at": [
+    900,
+    650
+   ]
+  },
+  {
+   "id": "eighteen",
+   "word": "eighteen",
+   "ipa": "/ˌeɪˈtiːn/",
+   "zh": "十八",
+   "icon": "n18",
+   "kind": "num",
+   "alt": "8 + 10",
+   "altLabel": "=",
+   "atP": [
+    450,
+    1260
+   ],
+   "at": [
+    540,
+    650
+   ]
+  },
+  {
+   "id": "nineteen",
+   "word": "nineteen",
+   "ipa": "/ˌnaɪnˈtiːn/",
+   "zh": "十九",
+   "icon": "n19",
+   "kind": "num",
+   "alt": "9 + 10",
+   "altLabel": "=",
+   "atP": [
+    750,
+    1260
+   ],
+   "at": [
+    180,
+    650
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "eleven",
+   "to": "twelve"
+  },
+  {
+   "from": "twelve",
+   "to": "thirteen"
+  },
+  {
+   "from": "thirteen",
+   "to": "fourteen"
+  },
+  {
+   "from": "fourteen",
+   "to": "fifteen"
+  },
+  {
+   "from": "fifteen",
+   "to": "sixteen"
+  },
+  {
+   "from": "sixteen",
+   "to": "seventeen"
+  },
+  {
+   "from": "seventeen",
+   "to": "eighteen"
+  },
+  {
+   "from": "eighteen",
+   "to": "nineteen"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！第三集，我们学会了从一数到十。今天，我们接着往下数！"
+    },
+    {
+     "en": "numbers"
+    },
+    {
+     "zh": "数字。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:numbers",
+    "focus:numbers"
+   ],
+   "parts": [
+    {
+     "zh": "十根手指都用完了，还想往下数，怎么办？别着急，我们一起来认识十一到十九。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:eleven",
+    "focus:eleven"
+   ],
+   "parts": [
+    {
+     "zh": "十一，是"
+    },
+    {
+     "en": "eleven"
+    },
+    {
+     "zh": "它是一个全新的单词，要单独记住。"
+    },
+    {
+     "en": "eleven"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:twelve",
+    "edge:eleven>twelve",
+    "focus:twelve"
+   ],
+   "parts": [
+    {
+     "zh": "十二，是"
+    },
+    {
+     "en": "twelve"
+    },
+    {
+     "zh": "它也很特别，要单独记。一年正好有十二个月："
+    },
+    {
+     "en": "twelve months"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:thirteen",
+    "edge:twelve>thirteen",
+    "focus:thirteen"
+   ],
+   "parts": [
+    {
+     "zh": "从十三开始，就有规律啦！十三，是"
+    },
+    {
+     "en": "thirteen"
+    },
+    {
+     "zh": "后面的 t e e n，意思就是十。十三，就是三加十：",
+     "cue": [
+      "alt:thirteen"
+     ]
+    },
+    {
+     "en": "three plus ten"
+    },
+    {
+     "zh": "不过三本来是"
+    },
+    {
+     "en": "three"
+    },
+    {
+     "zh": "在这里变成了 t h i r，要小心哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fourteen",
+    "edge:thirteen>fourteen",
+    "focus:fourteen",
+    "alt:fourteen"
+   ],
+   "parts": [
+    {
+     "zh": "十四，就是四，加上 t e e n："
+    },
+    {
+     "en": "four"
+    },
+    {
+     "en": "fourteen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fifteen",
+    "edge:fourteen>fifteen",
+    "focus:fifteen",
+    "alt:fifteen"
+   ],
+   "parts": [
+    {
+     "zh": "十五要注意，五本来是"
+    },
+    {
+     "en": "five"
+    },
+    {
+     "zh": "在这里变成了 f i f："
+    },
+    {
+     "en": "fifteen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sixteen",
+    "edge:fifteen>sixteen",
+    "focus:sixteen",
+    "alt:sixteen"
+   ],
+   "parts": [
+    {
+     "zh": "十六："
+    },
+    {
+     "en": "six"
+    },
+    {
+     "en": "sixteen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:seventeen",
+    "edge:sixteen>seventeen",
+    "focus:seventeen",
+    "alt:seventeen"
+   ],
+   "parts": [
+    {
+     "zh": "十七："
+    },
+    {
+     "en": "seven"
+    },
+    {
+     "en": "seventeen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:eighteen",
+    "edge:seventeen>eighteen",
+    "focus:eighteen",
+    "alt:eighteen"
+   ],
+   "parts": [
+    {
+     "zh": "十八：八本来是"
+    },
+    {
+     "en": "eight"
+    },
+    {
+     "zh": "它已经以字母 t 结尾了，所以只要再加上 e e n，中间只有一个 t："
+    },
+    {
+     "en": "eighteen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:nineteen",
+    "edge:eighteen>nineteen",
+    "focus:nineteen",
+    "alt:nineteen"
+   ],
+   "parts": [
+    {
+     "zh": "十九："
+    },
+    {
+     "en": "nine"
+    },
+    {
+     "en": "nineteen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们来总结一下规律。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:eleven,twelve"
+   ],
+   "parts": [
+    {
+     "zh": "十一和十二最特别，要单独记住："
+    },
+    {
+     "en": "eleven",
+     "cue": [
+      "focus:eleven"
+     ]
+    },
+    {
+     "en": "twelve",
+     "cue": [
+      "focus:twelve"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fourteen,sixteen,seventeen,nineteen"
+   ],
+   "parts": [
+    {
+     "zh": "十四、十六、十七、十九最听话，直接在后面加上 t e e n："
+    },
+    {
+     "en": "fourteen",
+     "cue": [
+      "focus:fourteen"
+     ]
+    },
+    {
+     "en": "sixteen",
+     "cue": [
+      "focus:sixteen"
+     ]
+    },
+    {
+     "en": "seventeen",
+     "cue": [
+      "focus:seventeen"
+     ]
+    },
+    {
+     "en": "nineteen",
+     "cue": [
+      "focus:nineteen"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:thirteen,fifteen,eighteen"
+   ],
+   "parts": [
+    {
+     "zh": "十三、十五、十八，前面要稍微变一变："
+    },
+    {
+     "en": "thirteen",
+     "cue": [
+      "focus:thirteen"
+     ]
+    },
+    {
+     "en": "fifteen",
+     "cue": [
+      "focus:fifteen"
+     ]
+    },
+    {
+     "en": "eighteen",
+     "cue": [
+      "focus:eighteen"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "小提示：这些数字读的时候，重音落在后面的 teen 上。我们一起从十一数到十九吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "eleven",
+     "cue": [
+      "focus:eleven"
+     ]
+    },
+    {
+     "en": "twelve",
+     "cue": [
+      "focus:twelve"
+     ]
+    },
+    {
+     "en": "thirteen",
+     "cue": [
+      "focus:thirteen"
+     ]
+    },
+    {
+     "en": "fourteen",
+     "cue": [
+      "focus:fourteen"
+     ]
+    },
+    {
+     "en": "fifteen",
+     "cue": [
+      "focus:fifteen"
+     ]
+    },
+    {
+     "en": "sixteen",
+     "cue": [
+      "focus:sixteen"
+     ]
+    },
+    {
+     "en": "seventeen",
+     "cue": [
+      "focus:seventeen"
+     ]
+    },
+    {
+     "en": "eighteen",
+     "cue": [
+      "focus:eighteen"
+     ]
+    },
+    {
+     "en": "nineteen",
+     "cue": [
+      "focus:nineteen"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "考考你：十加五，等于几？想一想……"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fifteen"
+   ],
+   "parts": [
+    {
+     "zh": "答案是"
+    },
+    {
+     "en": "fifteen"
+    },
+    {
+     "en": "Ten plus five is fifteen."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "再来一题：九加九，等于几？想一想……"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:eighteen"
+   ],
+   "parts": [
+    {
+     "zh": "答对了吗？是"
+    },
+    {
+     "en": "eighteen"
+    },
+    {
+     "en": "Nine plus nine is eighteen."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:numbers"
+   ],
+   "parts": [
+    {
+     "en": "numbers"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:eleven"
+   ],
+   "parts": [
+    {
+     "en": "eleven"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:twelve"
+   ],
+   "parts": [
+    {
+     "en": "twelve"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:thirteen"
+   ],
+   "parts": [
+    {
+     "en": "thirteen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fourteen"
+   ],
+   "parts": [
+    {
+     "en": "fourteen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fifteen"
+   ],
+   "parts": [
+    {
+     "en": "fifteen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sixteen"
+   ],
+   "parts": [
+    {
+     "en": "sixteen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:seventeen"
+   ],
+   "parts": [
+    {
+     "en": "seventeen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:eighteen"
+   ],
+   "parts": [
+    {
+     "en": "eighteen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:nineteen"
+   ],
+   "parts": [
+    {
+     "en": "nineteen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！今天回家，试着用英语数一数，家里的楼梯有多少级吧。点一点图上的数字，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

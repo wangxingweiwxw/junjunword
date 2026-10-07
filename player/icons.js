@@ -615,6 +615,15 @@
     shoe: () => sneaker(60, 70, 1.9, '#E63946'),
   });
 
+  Object.assign(ART, Object.fromEntries(Array.from({length: 9}, (_, i) => {
+    // ---------- ep11 teens: big number + a ten-bar + extra dots ----------
+    const k = i + 11, c = NUMC[i];
+    return ['n' + k, () => `<text x="60" y="56" text-anchor="middle" font-size="58" ${FONT} fill="${c}" stroke="#fff" stroke-width="5" paint-order="stroke" letter-spacing="-3">${k}</text>
+      <rect x="13" y="66" width="94" height="14" rx="4" fill="${c}" opacity=".28"/>
+      ${Array.from({length: 10}, (_, j) => `<rect x="${15.5 + j * 9}" y="68.5" width="7" height="9" rx="2" fill="${c}" opacity=".75"/>`).join('')}
+      ${Array.from({length: k - 10}, (_, j) => `<circle cx="${60 + (j - (k - 11) / 2) * 11}" cy="96" r="4.6" fill="${c}"/>`).join('')}`];
+  })));
+
   function svg(name, plural) {
     const art = ART[name];
     if (!art) return `<div class="vp-emoji">${name}</div>`;

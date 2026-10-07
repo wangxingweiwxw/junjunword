@@ -1,0 +1,859 @@
+{
+ "duration": 192.457,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！第三集，我们学会了从一数到十。今天，我们接着往下数！",
+   "t0": 0.4,
+   "t1": 8.048,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "numbers",
+   "t0": 8.298,
+   "t1": 8.939,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "数字。",
+   "t0": 9.439,
+   "t1": 10.002,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "十根手指都用完了，还想往下数，怎么办？别着急，我们一起来认识十一到十九。",
+   "t0": 10.852,
+   "t1": 18.497,
+   "cue": [
+    "map",
+    "show:numbers",
+    "focus:numbers"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "十一，是",
+   "t0": 19.347,
+   "t1": 20.442,
+   "cue": [
+    "show:eleven",
+    "focus:eleven"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "eleven",
+   "t0": 20.692,
+   "t1": 21.348,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "它是一个全新的单词，要单独记住。",
+   "t0": 21.848,
+   "t1": 24.716,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "eleven",
+   "t0": 24.966,
+   "t1": 25.622,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "十二，是",
+   "t0": 26.722,
+   "t1": 27.804,
+   "cue": [
+    "show:twelve",
+    "edge:eleven>twelve",
+    "focus:twelve"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "twelve",
+   "t0": 28.054,
+   "t1": 28.475,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "它也很特别，要单独记。一年正好有十二个月：",
+   "t0": 28.975,
+   "t1": 33.498,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "twelve months",
+   "t0": 33.748,
+   "t1": 34.664,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "从十三开始，就有规律啦！十三，是",
+   "t0": 35.764,
+   "t1": 39.936,
+   "cue": [
+    "show:thirteen",
+    "edge:twelve>thirteen",
+    "focus:thirteen"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "thirteen",
+   "t0": 40.186,
+   "t1": 40.841,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "后面的 t e e n，意思就是十。十三，就是三加十：",
+   "t0": 41.341,
+   "t1": 46.578,
+   "cue": [
+    "alt:thirteen"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "three plus ten",
+   "t0": 46.828,
+   "t1": 47.95,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "不过三本来是",
+   "t0": 48.45,
+   "t1": 49.696,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "three",
+   "t0": 49.946,
+   "t1": 50.338,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "在这里变成了 t h i r，要小心哦。",
+   "t0": 50.838,
+   "t1": 54.01,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "十四，就是四，加上 t e e n：",
+   "t0": 54.86,
+   "t1": 57.736,
+   "cue": [
+    "show:fourteen",
+    "edge:thirteen>fourteen",
+    "focus:fourteen",
+    "alt:fourteen"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "four",
+   "t0": 57.986,
+   "t1": 58.404,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "fourteen",
+   "t0": 58.904,
+   "t1": 59.575,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "十五要注意，五本来是",
+   "t0": 60.675,
+   "t1": 62.77,
+   "cue": [
+    "show:fifteen",
+    "edge:fourteen>fifteen",
+    "focus:fifteen",
+    "alt:fifteen"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "five",
+   "t0": 63.02,
+   "t1": 63.531,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "在这里变成了 f i f：",
+   "t0": 64.031,
+   "t1": 65.92,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "fifteen",
+   "t0": 66.17,
+   "t1": 66.819,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "十六：",
+   "t0": 67.919,
+   "t1": 68.456,
+   "cue": [
+    "show:sixteen",
+    "edge:fifteen>sixteen",
+    "focus:sixteen",
+    "alt:sixteen"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "six",
+   "t0": 68.706,
+   "t1": 69.291,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "sixteen",
+   "t0": 69.791,
+   "t1": 70.613,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "十七：",
+   "t0": 71.713,
+   "t1": 72.287,
+   "cue": [
+    "show:seventeen",
+    "edge:sixteen>seventeen",
+    "focus:seventeen",
+    "alt:seventeen"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "seven",
+   "t0": 72.537,
+   "t1": 73.111,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "seventeen",
+   "t0": 73.611,
+   "t1": 74.478,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "十八：八本来是",
+   "t0": 75.578,
+   "t1": 77.243,
+   "cue": [
+    "show:eighteen",
+    "edge:seventeen>eighteen",
+    "focus:eighteen",
+    "alt:eighteen"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "eight",
+   "t0": 77.493,
+   "t1": 77.906,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "它已经以字母 t 结尾了，所以只要再加上 e e n，中间只有一个 t：",
+   "t0": 78.406,
+   "t1": 84.364,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "eighteen",
+   "t0": 84.614,
+   "t1": 85.212,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "十九：",
+   "t0": 86.312,
+   "t1": 86.868,
+   "cue": [
+    "show:nineteen",
+    "edge:eighteen>nineteen",
+    "focus:nineteen",
+    "alt:nineteen"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "nine",
+   "t0": 87.118,
+   "t1": 87.617,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "nineteen",
+   "t0": 88.117,
+   "t1": 88.811,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "我们来总结一下规律。",
+   "t0": 89.911,
+   "t1": 91.503,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "十一和十二最特别，要单独记住：",
+   "t0": 92.353,
+   "t1": 95.344,
+   "cue": [
+    "focus:eleven,twelve"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "eleven",
+   "t0": 95.594,
+   "t1": 96.25,
+   "cue": [
+    "focus:eleven"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "twelve",
+   "t0": 96.75,
+   "t1": 97.172,
+   "cue": [
+    "focus:twelve"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "十四、十六、十七、十九最听话，直接在后面加上 t e e n：",
+   "t0": 98.272,
+   "t1": 104.37,
+   "cue": [
+    "focus:fourteen,sixteen,seventeen,nineteen"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "fourteen",
+   "t0": 104.62,
+   "t1": 105.292,
+   "cue": [
+    "focus:fourteen"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "sixteen",
+   "t0": 105.792,
+   "t1": 106.614,
+   "cue": [
+    "focus:sixteen"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "seventeen",
+   "t0": 107.114,
+   "t1": 107.981,
+   "cue": [
+    "focus:seventeen"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "nineteen",
+   "t0": 108.481,
+   "t1": 109.175,
+   "cue": [
+    "focus:nineteen"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "十三、十五、十八，前面要稍微变一变：",
+   "t0": 110.275,
+   "t1": 114.07,
+   "cue": [
+    "focus:thirteen,fifteen,eighteen"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "thirteen",
+   "t0": 114.32,
+   "t1": 114.975,
+   "cue": [
+    "focus:thirteen"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "fifteen",
+   "t0": 115.475,
+   "t1": 116.124,
+   "cue": [
+    "focus:fifteen"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "eighteen",
+   "t0": 116.624,
+   "t1": 117.221,
+   "cue": [
+    "focus:eighteen"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "小提示：这些数字读的时候，重音落在后面的 teen 上。我们一起从十一数到十九吧！",
+   "t0": 118.321,
+   "t1": 126.031,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "eleven",
+   "t0": 126.881,
+   "t1": 127.537,
+   "cue": [
+    "focus:eleven"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "twelve",
+   "t0": 128.037,
+   "t1": 128.458,
+   "cue": [
+    "focus:twelve"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "thirteen",
+   "t0": 128.958,
+   "t1": 129.614,
+   "cue": [
+    "focus:thirteen"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "fourteen",
+   "t0": 130.114,
+   "t1": 130.785,
+   "cue": [
+    "focus:fourteen"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "fifteen",
+   "t0": 131.285,
+   "t1": 131.934,
+   "cue": [
+    "focus:fifteen"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "sixteen",
+   "t0": 132.434,
+   "t1": 133.256,
+   "cue": [
+    "focus:sixteen"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "seventeen",
+   "t0": 133.756,
+   "t1": 134.623,
+   "cue": [
+    "focus:seventeen"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "eighteen",
+   "t0": 135.123,
+   "t1": 135.721,
+   "cue": [
+    "focus:eighteen"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "nineteen",
+   "t0": 136.221,
+   "t1": 136.914,
+   "cue": [
+    "focus:nineteen"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "考考你：十加五，等于几？想一想……",
+   "t0": 138.014,
+   "t1": 141.826,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "zh",
+   "text": "答案是",
+   "t0": 142.676,
+   "t1": 143.354,
+   "cue": [
+    "focus:fifteen"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "fifteen",
+   "t0": 143.604,
+   "t1": 144.252,
+   "cue": []
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Ten plus five is fifteen.",
+   "t0": 144.752,
+   "t1": 146.55,
+   "cue": []
+  },
+  {
+   "seg": 19,
+   "lang": "zh",
+   "text": "再来一题：九加九，等于几？想一想……",
+   "t0": 147.65,
+   "t1": 151.62,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "zh",
+   "text": "答对了吗？是",
+   "t0": 152.47,
+   "t1": 154.27,
+   "cue": [
+    "focus:eighteen"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "eighteen",
+   "t0": 154.52,
+   "t1": 155.117,
+   "cue": []
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "Nine plus nine is eighteen.",
+   "t0": 155.617,
+   "t1": 157.398,
+   "cue": []
+  },
+  {
+   "seg": 21,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 158.498,
+   "t1": 161.749,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "numbers",
+   "t0": 162.599,
+   "t1": 163.24,
+   "cue": [
+    "focus:numbers"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "eleven",
+   "t0": 164.34,
+   "t1": 164.995,
+   "cue": [
+    "focus:eleven"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "twelve",
+   "t0": 166.095,
+   "t1": 166.517,
+   "cue": [
+    "focus:twelve"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "thirteen",
+   "t0": 167.617,
+   "t1": 168.272,
+   "cue": [
+    "focus:thirteen"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "fourteen",
+   "t0": 169.372,
+   "t1": 170.044,
+   "cue": [
+    "focus:fourteen"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "fifteen",
+   "t0": 171.144,
+   "t1": 171.792,
+   "cue": [
+    "focus:fifteen"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "sixteen",
+   "t0": 172.892,
+   "t1": 173.715,
+   "cue": [
+    "focus:sixteen"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "seventeen",
+   "t0": 174.815,
+   "t1": 175.682,
+   "cue": [
+    "focus:seventeen"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "eighteen",
+   "t0": 176.782,
+   "t1": 177.38,
+   "cue": [
+    "focus:eighteen"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "nineteen",
+   "t0": 178.48,
+   "t1": 179.173,
+   "cue": [
+    "focus:nineteen"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "zh",
+   "text": "太棒了！今天回家，试着用英语数一数，家里的楼梯有多少级吧。点一点图上的数字，还能再听一遍发音哦。",
+   "t0": 180.273,
+   "t1": 190.607,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "numbers": [
+   0.25,
+   0.891
+  ],
+  "eleven": [
+   1.141,
+   1.797
+  ],
+  "twelve": [
+   2.047,
+   2.468
+  ],
+  "thirteen": [
+   2.718,
+   3.374
+  ],
+  "thirteen:alt": [
+   3.624,
+   4.745
+  ],
+  "fourteen": [
+   4.995,
+   5.667
+  ],
+  "fourteen:alt": [
+   5.917,
+   7.019
+  ],
+  "fifteen": [
+   7.269,
+   7.918
+  ],
+  "fifteen:alt": [
+   8.168,
+   9.334
+  ],
+  "sixteen": [
+   9.584,
+   10.406
+  ],
+  "sixteen:alt": [
+   10.656,
+   11.907
+  ],
+  "seventeen": [
+   12.157,
+   13.024
+  ],
+  "seventeen:alt": [
+   13.274,
+   14.568
+  ],
+  "eighteen": [
+   14.818,
+   15.415
+  ],
+  "eighteen:alt": [
+   15.665,
+   16.755
+  ],
+  "nineteen": [
+   17.005,
+   17.698
+  ],
+  "nineteen:alt": [
+   17.948,
+   19.12
+  ]
+ }
+}

@@ -28,7 +28,7 @@ tools/
 ## 用 Python 写课（ep04 起）
 
 ep04+ 的 `lesson.json` 由同目录的 `lesson.py` 生成（`python3 ep04/lesson.py`），用 `tools/lessonkit.py`：
-只画**竖屏 3 列网格**（每行一个字符串，`.` 表示空位），横屏自动取转置——竖屏里不交叉的箭头，横屏里也不交叉。
+只画**竖屏 3 列网格**（每行一个字符串，`.` 表示空位），横屏自动取转置（也可在 `grid()` 之后改 `L.byid[id]["at"]` 自定横屏位置，见 ep11）——竖屏里不交叉的箭头，横屏里也不交叉。
 `L.grid(rows, flip=True)` 让横屏上下翻转；`dy` 调竖屏行距。保存时会检查 cue 里引用的 id 是否都存在。
 `altLabel` 改徽章前缀（默认“也叫”，如 `"过去式"`、`"搭配"`）；`kind` 可选 `adj` `verb` `num` `prep`。
 `icons.js` 里有可摆姿势的 `kid({la, ra, ll, rl, rot, hl})`（四肢角度，0=向下，90=向前），走、跑、坐、跳、身体部位高亮都用它。
@@ -72,3 +72,4 @@ ep04+ 的 `lesson.json` 由同目录的 `lesson.py` 生成（`python3 ep04/lesso
 | ep08 body | body head hair neck shoulder arm hand finger leg knee foot(feet) toe shake | 2:57 |
 | ep09 sports | sports run race jump fall(fell) ball football soccer basketball volleyball table tennis net | 2:52 |
 | ep10 clothes | clothes wear hat cap T-shirt underwear trousers sock shoe pair | 2:32 |
+| ep11 numbers 11–19 | numbers eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen | 3:12 |
