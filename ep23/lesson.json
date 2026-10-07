@@ -1,0 +1,736 @@
+{
+ "id": "ep23",
+ "title": "numbers",
+ "titleZh": "数字 20–100",
+ "episode": "第 23 集",
+ "titleIcon": "n100",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1410
+  ]
+ },
+ "nodes": [
+  {
+   "id": "zero",
+   "word": "zero",
+   "ipa": "/ˈzɪroʊ/",
+   "zh": "零",
+   "icon": "n0",
+   "kind": "num",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    190
+   ]
+  },
+  {
+   "id": "twenty",
+   "word": "twenty",
+   "ipa": "/ˈtwenti/",
+   "zh": "二十",
+   "icon": "n20",
+   "kind": "num",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    540,
+    190
+   ]
+  },
+  {
+   "id": "thirty",
+   "word": "thirty",
+   "ipa": "/ˈθɜːrti/",
+   "zh": "三十",
+   "icon": "n30",
+   "kind": "num",
+   "alt": "thirteen",
+   "altLabel": "别混",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    900,
+    190
+   ]
+  },
+  {
+   "id": "forty",
+   "word": "forty",
+   "ipa": "/ˈfɔːrti/",
+   "zh": "四十",
+   "icon": "n40",
+   "kind": "num",
+   "alt": "fourteen",
+   "altLabel": "别混",
+   "atP": [
+    750,
+    520
+   ],
+   "at": [
+    1260,
+    190
+   ]
+  },
+  {
+   "id": "fifty",
+   "word": "fifty",
+   "ipa": "/ˈfɪfti/",
+   "zh": "五十",
+   "icon": "n50",
+   "kind": "num",
+   "alt": "fifteen",
+   "altLabel": "别混",
+   "atP": [
+    450,
+    520
+   ],
+   "at": [
+    1620,
+    190
+   ]
+  },
+  {
+   "id": "sixty",
+   "word": "sixty",
+   "ipa": "/ˈsɪksti/",
+   "zh": "六十",
+   "icon": "n60",
+   "kind": "num",
+   "alt": "sixteen",
+   "altLabel": "别混",
+   "atP": [
+    150,
+    520
+   ],
+   "at": [
+    1620,
+    650
+   ]
+  },
+  {
+   "id": "seventy",
+   "word": "seventy",
+   "ipa": "/ˈsevnti/",
+   "zh": "七十",
+   "icon": "n70",
+   "kind": "num",
+   "alt": "seventeen",
+   "altLabel": "别混",
+   "atP": [
+    150,
+    890
+   ],
+   "at": [
+    1260,
+    650
+   ]
+  },
+  {
+   "id": "eighty",
+   "word": "eighty",
+   "ipa": "/ˈeɪti/",
+   "zh": "八十",
+   "icon": "n80",
+   "kind": "num",
+   "alt": "eighteen",
+   "altLabel": "别混",
+   "atP": [
+    450,
+    890
+   ],
+   "at": [
+    900,
+    650
+   ]
+  },
+  {
+   "id": "ninety",
+   "word": "ninety",
+   "ipa": "/ˈnaɪnti/",
+   "zh": "九十",
+   "icon": "n90",
+   "kind": "num",
+   "alt": "nineteen",
+   "altLabel": "别混",
+   "atP": [
+    750,
+    890
+   ],
+   "at": [
+    540,
+    650
+   ]
+  },
+  {
+   "id": "hundred",
+   "word": "one hundred",
+   "ipa": "/wʌn ˈhʌndrəd/",
+   "zh": "一百",
+   "icon": "n100",
+   "kind": "num",
+   "atP": [
+    450,
+    1260
+   ],
+   "at": [
+    180,
+    650
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "zero",
+   "to": "twenty"
+  },
+  {
+   "from": "twenty",
+   "to": "thirty",
+   "label": "+10"
+  },
+  {
+   "from": "thirty",
+   "to": "forty"
+  },
+  {
+   "from": "forty",
+   "to": "fifty"
+  },
+  {
+   "from": "fifty",
+   "to": "sixty"
+  },
+  {
+   "from": "sixty",
+   "to": "seventy"
+  },
+  {
+   "from": "seventy",
+   "to": "eighty"
+  },
+  {
+   "from": "eighty",
+   "to": "ninety"
+  },
+  {
+   "from": "ninety",
+   "to": "hundred"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！我们已经会从一数到十九了。今天，我们来学更大的数，一直数到一百！"
+    },
+    {
+     "en": "one hundred"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:zero",
+    "focus:zero"
+   ],
+   "parts": [
+    {
+     "zh": "先从什么都没有开始。零，英语是"
+    },
+    {
+     "en": "zero"
+    },
+    {
+     "en": "zero apples"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:twenty",
+    "edge:zero>twenty",
+    "focus:twenty"
+   ],
+   "parts": [
+    {
+     "zh": "两只手加两只脚，二十根手指脚趾，是二十："
+    },
+    {
+     "en": "twenty"
+    },
+    {
+     "zh": "后面的 t y，表示几个十。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:thirty",
+    "edge:twenty>thirty",
+    "focus:thirty"
+   ],
+   "parts": [
+    {
+     "zh": "三十，和十三一样，前面变成 t h i r："
+    },
+    {
+     "en": "thirty"
+    },
+    {
+     "zh": "可千万别和十三搞混了：",
+     "cue": [
+      "alt:thirty"
+     ]
+    },
+    {
+     "en": "thirteen",
+     "cue": [
+      "focus:thirty"
+     ]
+    },
+    {
+     "en": "thirty"
+    },
+    {
+     "zh": "十几，后面是长长的 teen，重音在后面；几十，后面是短短的 ty，重音在前面。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:forty",
+    "edge:thirty>forty",
+    "focus:forty",
+    "alt:forty"
+   ],
+   "parts": [
+    {
+     "zh": "四十要特别小心。四是 f o u r，可四十没有 u："
+    },
+    {
+     "en": "forty"
+    },
+    {
+     "zh": "比一比："
+    },
+    {
+     "en": "fourteen, forty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fifty",
+    "edge:forty>fifty",
+    "focus:fifty",
+    "alt:fifty"
+   ],
+   "parts": [
+    {
+     "zh": "五十，和十五一样，前面变成 f i f："
+    },
+    {
+     "en": "fifty"
+    },
+    {
+     "en": "fifteen, fifty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sixty",
+    "edge:fifty>sixty",
+    "focus:sixty",
+    "alt:sixty"
+   ],
+   "parts": [
+    {
+     "zh": "六十："
+    },
+    {
+     "en": "sixty"
+    },
+    {
+     "en": "sixteen, sixty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:seventy",
+    "edge:sixty>seventy",
+    "focus:seventy",
+    "alt:seventy"
+   ],
+   "parts": [
+    {
+     "zh": "七十："
+    },
+    {
+     "en": "seventy"
+    },
+    {
+     "en": "seventeen, seventy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:eighty",
+    "edge:seventy>eighty",
+    "focus:eighty",
+    "alt:eighty"
+   ],
+   "parts": [
+    {
+     "zh": "八十，只有一个字母 t："
+    },
+    {
+     "en": "eighty"
+    },
+    {
+     "en": "eighteen, eighty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ninety",
+    "edge:eighty>ninety",
+    "focus:ninety",
+    "alt:ninety"
+   ],
+   "parts": [
+    {
+     "zh": "九十，九后面的 e 要留着："
+    },
+    {
+     "en": "ninety"
+    },
+    {
+     "en": "nineteen, ninety"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hundred",
+    "edge:ninety>hundred",
+    "focus:hundred"
+   ],
+   "parts": [
+    {
+     "zh": "九十再加十，就到了一百！"
+    },
+    {
+     "en": "one hundred"
+    },
+    {
+     "en": "one hundred days"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们来整十整十地数一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "zero",
+     "cue": [
+      "focus:zero"
+     ]
+    },
+    {
+     "en": "twenty",
+     "cue": [
+      "focus:twenty"
+     ]
+    },
+    {
+     "en": "thirty",
+     "cue": [
+      "focus:thirty"
+     ]
+    },
+    {
+     "en": "forty",
+     "cue": [
+      "focus:forty"
+     ]
+    },
+    {
+     "en": "fifty",
+     "cue": [
+      "focus:fifty"
+     ]
+    },
+    {
+     "en": "sixty",
+     "cue": [
+      "focus:sixty"
+     ]
+    },
+    {
+     "en": "seventy",
+     "cue": [
+      "focus:seventy"
+     ]
+    },
+    {
+     "en": "eighty",
+     "cue": [
+      "focus:eighty"
+     ]
+    },
+    {
+     "en": "ninety",
+     "cue": [
+      "focus:ninety"
+     ]
+    },
+    {
+     "en": "one hundred!",
+     "cue": [
+      "focus:hundred"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:thirty,forty,fifty"
+   ],
+   "parts": [
+    {
+     "zh": "仔细听，十几和几十的读音不一样："
+    },
+    {
+     "en": "thirteen, thirty",
+     "cue": [
+      "focus:thirty"
+     ]
+    },
+    {
+     "en": "fourteen, forty",
+     "cue": [
+      "focus:forty"
+     ]
+    },
+    {
+     "en": "fifteen, fifty",
+     "cue": [
+      "focus:fifty"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "几十和几个合在一起，中间加一个短横线就好啦。比如二十一："
+    },
+    {
+     "en": "twenty-one",
+     "cue": [
+      "focus:twenty"
+     ]
+    },
+    {
+     "zh": "九十九："
+    },
+    {
+     "en": "ninety-nine",
+     "cue": [
+      "focus:ninety"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "考考你：五十加五十，等于几？"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hundred"
+   ],
+   "parts": [
+    {
+     "zh": "答对了！是"
+    },
+    {
+     "en": "one hundred"
+    },
+    {
+     "en": "Fifty plus fifty is one hundred."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:zero"
+   ],
+   "parts": [
+    {
+     "en": "zero"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:twenty"
+   ],
+   "parts": [
+    {
+     "en": "twenty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:thirty"
+   ],
+   "parts": [
+    {
+     "en": "thirty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:forty"
+   ],
+   "parts": [
+    {
+     "en": "forty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fifty"
+   ],
+   "parts": [
+    {
+     "en": "fifty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sixty"
+   ],
+   "parts": [
+    {
+     "en": "sixty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:seventy"
+   ],
+   "parts": [
+    {
+     "en": "seventy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:eighty"
+   ],
+   "parts": [
+    {
+     "en": "eighty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ninety"
+   ],
+   "parts": [
+    {
+     "en": "ninety"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hundred"
+   ],
+   "parts": [
+    {
+     "en": "one hundred"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！试着用英语数一数，你能一口气数到一百吗？点一点图上的数字，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

@@ -82,3 +82,13 @@ ep04+ 的 `lesson.json` 由同目录的 `lesson.py` 生成（`python3 ep04/lesso
 | ep18 food | hungry eat full food meal rice meat chicken pork beef mutton oil spicy | 2:29 |
 | ep19 weather | weather air sunny sunshine cloudy windy rainy shower storm(stormy) foggy hot cold snowy | 3:02 |
 | ep20 seasons | season spring summer autumn(fall) winter dress skirt shorts pocket jacket jeans sweater coat also | 2:55 |
+| ep21 meals | breakfast porridge pancake butter prefer lunch sandwich bread salad noodles dinner hamburger spaghetti sausage | 2:53 |
+| ep22 friends | let play with friend game toy share greet wave shy nervous promise | 2:42 |
+| ep23 numbers 20–100 | zero twenty … ninety, one hundred | 2:44 |
+| ep24 colours | colour(color) red orange yellow green blue purple pink brown bright white gold silver dark black | 2:47 |
+| ep25 transportation | transportation car truck bus bicycle(bike) motorbike ride train subway ticket plane ship boat fast slow | 3:06 |
+| ep26 relatives | grandfather grandmother grandparents grandson granddaughter uncle aunt cousin relative | 2:41 |
+| ep27 classroom | classroom board blackboard chalk teacher lesson student monitor desk seat row group | 2:28 |
+| ep28 measures | tall short long straight inch thick thin a lot much weigh half quarter | 2:41 |
+| ep29 clubs | club join chess painting imagine photo camera background camping tent magazine article poem inspiration | 2:36 |
+| ep30 music | sound noise music concert piano violin guitar drum song sing voice terrible | 2:29 |

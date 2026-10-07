@@ -1,0 +1,695 @@
+{
+ "duration": 161.523,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！你有好朋友吗？今天，我们来学和朋友有关的单词。",
+   "t0": 0.4,
+   "t1": 6.868,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "friends",
+   "t0": 7.118,
+   "t1": 7.689,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "朋友。",
+   "t0": 8.189,
+   "t1": 8.669,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "周末到了，妈妈说：去玩吧！让、允许，英语是",
+   "t0": 9.519,
+   "t1": 14.725,
+   "cue": [
+    "map",
+    "show:let",
+    "focus:let"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "let",
+   "t0": 14.975,
+   "t1": 15.469,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "My mother lets me play.",
+   "t0": 15.969,
+   "t1": 17.466,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "玩，英语是",
+   "t0": 18.566,
+   "t1": 19.804,
+   "cue": [
+    "show:play",
+    "edge:let>play",
+    "focus:play"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "play",
+   "t0": 20.054,
+   "t1": 20.537,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Let's play!",
+   "t0": 21.037,
+   "t1": 21.835,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "一个人玩没意思，要和别人一起玩。和……一起，英语是",
+   "t0": 22.935,
+   "t1": 28.369,
+   "cue": [
+    "show:with",
+    "edge:play>with",
+    "focus:with"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "with",
+   "t0": 28.619,
+   "t1": 28.852,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "还记得第十二集的没有吗？with，加上 out，就是没有。",
+   "t0": 29.352,
+   "t1": 34.465,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "和谁一起玩呢？和好朋友！朋友，英语是",
+   "t0": 35.315,
+   "t1": 40.161,
+   "cue": [
+    "show:friend",
+    "edge:with>friend",
+    "focus:friend"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "friend",
+   "t0": 40.411,
+   "t1": 40.845,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "小提示：中间的 i 不发音哦。",
+   "t0": 41.345,
+   "t1": 43.831,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "I play with my friends.",
+   "t0": 44.081,
+   "t1": 45.479,
+   "cue": [
+    "plural:friend"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "我们一起玩游戏：",
+   "t0": 46.579,
+   "t1": 47.804,
+   "cue": [
+    "show:game",
+    "edge:play>game",
+    "focus:game"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "game",
+   "t0": 48.054,
+   "t1": 48.482,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Let's play a game!",
+   "t0": 48.982,
+   "t1": 50.077,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "还可以一起玩玩具：",
+   "t0": 51.177,
+   "t1": 52.633,
+   "cue": [
+    "show:toy",
+    "edge:play>toy",
+    "focus:toy"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "toy",
+   "t0": 52.883,
+   "t1": 53.358,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "很多玩具：",
+   "t0": 53.858,
+   "t1": 54.709,
+   "cue": [
+    "plural:toy"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "toys",
+   "t0": 54.959,
+   "t1": 55.566,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "好朋友会把自己的玩具拿出来，和大家一起玩。分享，英语是",
+   "t0": 56.666,
+   "t1": 62.672,
+   "cue": [
+    "show:share",
+    "edge:share>toy",
+    "focus:share"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "share",
+   "t0": 62.922,
+   "t1": 63.408,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "We can share toys.",
+   "t0": 63.908,
+   "t1": 65.231,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "见到朋友，先要打个招呼：",
+   "t0": 66.331,
+   "t1": 68.539,
+   "cue": [
+    "show:greet",
+    "edge:friend>greet",
+    "focus:greet"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "greet",
+   "t0": 68.789,
+   "t1": 69.287,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Hello, friend!",
+   "t0": 69.787,
+   "t1": 70.933,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "离得远，就举起手来挥一挥：",
+   "t0": 72.033,
+   "t1": 74.397,
+   "cue": [
+    "show:wave",
+    "edge:greet>wave",
+    "focus:wave"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "wave",
+   "t0": 74.647,
+   "t1": 75.105,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "Wave goodbye!",
+   "t0": 75.605,
+   "t1": 76.405,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "有的小朋友见到新朋友，会脸红，不好意思说话，那是害羞：",
+   "t0": 77.505,
+   "t1": 82.918,
+   "cue": [
+    "show:shy",
+    "focus:shy"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "shy",
+   "t0": 83.168,
+   "t1": 83.652,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Don't be shy!",
+   "t0": 84.152,
+   "t1": 85.023,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "心里怦怦跳，手心冒汗，是紧张：",
+   "t0": 86.123,
+   "t1": 89.298,
+   "cue": [
+    "show:nervous",
+    "edge:shy>nervous",
+    "focus:nervous"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "nervous",
+   "t0": 89.548,
+   "t1": 90.169,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "别紧张，笑一笑，主动打个招呼就好啦。",
+   "t0": 90.669,
+   "t1": 94.002,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "好朋友之间，说到就要做到。我们勾勾手指，做一个承诺：",
+   "t0": 94.852,
+   "t1": 100.174,
+   "cue": [
+    "show:promise",
+    "edge:friend>promise",
+    "focus:promise"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "promise",
+   "t0": 100.424,
+   "t1": 101.027,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "I promise!",
+   "t0": 101.527,
+   "t1": 102.302,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "打招呼的两种方式：",
+   "t0": 103.402,
+   "t1": 104.983,
+   "cue": [
+    "focus:greet,wave"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "greet",
+   "t0": 105.233,
+   "t1": 105.731,
+   "cue": [
+    "focus:greet"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "wave",
+   "t0": 106.231,
+   "t1": 106.688,
+   "cue": [
+    "focus:wave"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "两种不好意思的感觉：",
+   "t0": 107.788,
+   "t1": 109.5,
+   "cue": [
+    "focus:shy,nervous"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "shy",
+   "t0": 109.75,
+   "t1": 110.233,
+   "cue": [
+    "focus:shy"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "nervous",
+   "t0": 110.733,
+   "t1": 111.354,
+   "cue": [
+    "focus:nervous"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "我们来演一演，交一个新朋友吧！",
+   "t0": 112.454,
+   "t1": 114.986,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Hi! I'm Lele. What's your name?",
+   "t0": 115.836,
+   "t1": 120.09,
+   "cue": [
+    "focus:greet"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Do you want to play with me?",
+   "t0": 120.59,
+   "t1": 121.858,
+   "cue": [
+    "focus:play,with"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "We can share my toys.",
+   "t0": 122.358,
+   "t1": 123.836,
+   "cue": [
+    "focus:share,toy"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Let's be friends!",
+   "t0": 124.336,
+   "t1": 125.443,
+   "cue": [
+    "focus:friend"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 126.543,
+   "t1": 129.793,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "let",
+   "t0": 130.643,
+   "t1": 131.137,
+   "cue": [
+    "focus:let"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "play",
+   "t0": 132.237,
+   "t1": 132.72,
+   "cue": [
+    "focus:play"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "with",
+   "t0": 133.82,
+   "t1": 134.053,
+   "cue": [
+    "focus:with"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "friend, friends",
+   "t0": 135.153,
+   "t1": 136.413,
+   "cue": [
+    "focus:friend"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "game",
+   "t0": 137.513,
+   "t1": 137.941,
+   "cue": [
+    "focus:game"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "toy, toys",
+   "t0": 139.041,
+   "t1": 140.288,
+   "cue": [
+    "focus:toy"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "share",
+   "t0": 141.388,
+   "t1": 141.874,
+   "cue": [
+    "focus:share"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "greet",
+   "t0": 142.974,
+   "t1": 143.472,
+   "cue": [
+    "focus:greet"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "wave",
+   "t0": 144.572,
+   "t1": 145.03,
+   "cue": [
+    "focus:wave"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "shy",
+   "t0": 146.13,
+   "t1": 146.613,
+   "cue": [
+    "focus:shy"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "nervous",
+   "t0": 147.713,
+   "t1": 148.334,
+   "cue": [
+    "focus:nervous"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "promise",
+   "t0": 149.434,
+   "t1": 150.037,
+   "cue": [
+    "focus:promise"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！明天，用英语和你的好朋友打个招呼吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 151.137,
+   "t1": 159.673,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "friend": [
+   0.25,
+   0.684
+  ],
+  "friend:pl": [
+   0.934,
+   1.506
+  ],
+  "let": [
+   1.756,
+   2.25
+  ],
+  "play": [
+   2.5,
+   2.983
+  ],
+  "with": [
+   3.233,
+   3.466
+  ],
+  "game": [
+   3.716,
+   4.144
+  ],
+  "toy": [
+   4.394,
+   4.868
+  ],
+  "toy:pl": [
+   5.118,
+   5.725
+  ],
+  "share": [
+   5.975,
+   6.462
+  ],
+  "greet": [
+   6.712,
+   7.21
+  ],
+  "wave": [
+   7.46,
+   7.917
+  ],
+  "shy": [
+   8.167,
+   8.65
+  ],
+  "nervous": [
+   8.9,
+   9.521
+  ],
+  "promise": [
+   9.771,
+   10.375
+  ]
+ }
+}

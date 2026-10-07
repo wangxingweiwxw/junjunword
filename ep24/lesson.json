@@ -1,0 +1,877 @@
+{
+ "id": "ep24",
+ "title": "colours",
+ "titleZh": "颜色",
+ "episode": "第 24 集",
+ "titleIcon": "colour",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1900
+  ]
+ },
+ "nodes": [
+  {
+   "id": "colour",
+   "word": "colour",
+   "ipa": "/ˈkʌlər/",
+   "zh": "颜色",
+   "icon": "colour",
+   "alt": "color",
+   "altLabel": "美式",
+   "atP": [
+    450,
+    790
+   ],
+   "at": [
+    750,
+    470
+   ]
+  },
+  {
+   "id": "red",
+   "word": "red",
+   "ipa": "/red/",
+   "zh": "红色",
+   "icon": "red",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    150,
+    150
+   ]
+  },
+  {
+   "id": "orange",
+   "word": "orange",
+   "ipa": "/ˈɔːrɪndʒ/",
+   "zh": "橙色",
+   "icon": "orange",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    150,
+    470
+   ]
+  },
+  {
+   "id": "yellow",
+   "word": "yellow",
+   "ipa": "/ˈjeloʊ/",
+   "zh": "黄色",
+   "icon": "yellow",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    150,
+    790
+   ]
+  },
+  {
+   "id": "green",
+   "word": "green",
+   "ipa": "/ɡriːn/",
+   "zh": "绿色",
+   "icon": "green",
+   "atP": [
+    750,
+    470
+   ],
+   "at": [
+    450,
+    790
+   ]
+  },
+  {
+   "id": "blue",
+   "word": "blue",
+   "ipa": "/bluː/",
+   "zh": "蓝色",
+   "icon": "blue",
+   "atP": [
+    450,
+    470
+   ],
+   "at": [
+    450,
+    470
+   ]
+  },
+  {
+   "id": "purple",
+   "word": "purple",
+   "ipa": "/ˈpɜːrpl/",
+   "zh": "紫色",
+   "icon": "purple",
+   "atP": [
+    150,
+    470
+   ],
+   "at": [
+    450,
+    150
+   ]
+  },
+  {
+   "id": "pink",
+   "word": "pink",
+   "ipa": "/pɪŋk/",
+   "zh": "粉色",
+   "icon": "pink",
+   "atP": [
+    150,
+    790
+   ],
+   "at": [
+    750,
+    150
+   ]
+  },
+  {
+   "id": "white",
+   "word": "white",
+   "ipa": "/waɪt/",
+   "zh": "白色",
+   "icon": "white",
+   "atP": [
+    150,
+    1430
+   ],
+   "at": [
+    1350,
+    150
+   ]
+  },
+  {
+   "id": "gold",
+   "word": "gold",
+   "ipa": "/ɡoʊld/",
+   "zh": "金色",
+   "icon": "gold",
+   "atP": [
+    450,
+    1430
+   ],
+   "at": [
+    1350,
+    470
+   ]
+  },
+  {
+   "id": "silver",
+   "word": "silver",
+   "ipa": "/ˈsɪlvər/",
+   "zh": "银色",
+   "icon": "silver",
+   "atP": [
+    450,
+    1750
+   ],
+   "at": [
+    1650,
+    470
+   ]
+  },
+  {
+   "id": "black",
+   "word": "black",
+   "ipa": "/blæk/",
+   "zh": "黑色",
+   "icon": "black",
+   "atP": [
+    750,
+    1430
+   ],
+   "at": [
+    1350,
+    790
+   ]
+  },
+  {
+   "id": "brown",
+   "word": "brown",
+   "ipa": "/braʊn/",
+   "zh": "棕色",
+   "icon": "brown",
+   "atP": [
+    750,
+    790
+   ],
+   "at": [
+    750,
+    790
+   ]
+  },
+  {
+   "id": "bright",
+   "word": "bright",
+   "ipa": "/braɪt/",
+   "zh": "明亮的",
+   "icon": "bright",
+   "kind": "adj",
+   "atP": [
+    150,
+    1110
+   ],
+   "at": [
+    1050,
+    150
+   ]
+  },
+  {
+   "id": "dark",
+   "word": "dark",
+   "ipa": "/dɑːrk/",
+   "zh": "深色的；黑暗的",
+   "icon": "dark",
+   "kind": "adj",
+   "atP": [
+    750,
+    1110
+   ],
+   "at": [
+    1050,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "red",
+   "to": "orange"
+  },
+  {
+   "from": "orange",
+   "to": "yellow"
+  },
+  {
+   "from": "yellow",
+   "to": "green"
+  },
+  {
+   "from": "green",
+   "to": "blue"
+  },
+  {
+   "from": "blue",
+   "to": "purple"
+  },
+  {
+   "from": "bright",
+   "to": "white"
+  },
+  {
+   "from": "bright",
+   "to": "gold"
+  },
+  {
+   "from": "gold",
+   "to": "silver",
+   "label": "还有"
+  },
+  {
+   "from": "dark",
+   "to": "black"
+  },
+  {
+   "from": "dark",
+   "to": "brown"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！雨过天晴，天上挂着一道彩虹。今天，我们来学颜色！"
+    },
+    {
+     "en": "colours"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:colour",
+    "focus:colour"
+   ],
+   "parts": [
+    {
+     "zh": "颜色，英语是"
+    },
+    {
+     "en": "colour"
+    },
+    {
+     "zh": "在美国，它写作 c o l o r，少了一个字母 u，读音一样。",
+     "cue": [
+      "alt:colour"
+     ]
+    },
+    {
+     "en": "What colour is it?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们沿着彩虹，一个颜色一个颜色地认。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:red",
+    "focus:red"
+   ],
+   "parts": [
+    {
+     "zh": "彩虹最外面，是红色，像红红的苹果："
+    },
+    {
+     "en": "red"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:orange",
+    "edge:red>orange",
+    "focus:orange"
+   ],
+   "parts": [
+    {
+     "zh": "橙色，和橙子是同一个词："
+    },
+    {
+     "en": "orange"
+    },
+    {
+     "en": "an orange orange!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:yellow",
+    "edge:orange>yellow",
+    "focus:yellow"
+   ],
+   "parts": [
+    {
+     "zh": "黄色，像香蕉："
+    },
+    {
+     "en": "yellow"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:green",
+    "edge:yellow>green",
+    "focus:green"
+   ],
+   "parts": [
+    {
+     "zh": "绿色，像树叶："
+    },
+    {
+     "en": "green"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:blue",
+    "edge:green>blue",
+    "focus:blue"
+   ],
+   "parts": [
+    {
+     "zh": "蓝色，像大海和天空："
+    },
+    {
+     "en": "blue"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:purple",
+    "edge:blue>purple",
+    "focus:purple"
+   ],
+   "parts": [
+    {
+     "zh": "紫色，像一串葡萄："
+    },
+    {
+     "en": "purple"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pink",
+    "focus:pink"
+   ],
+   "parts": [
+    {
+     "zh": "红色里加上白色，就变成了可爱的粉色："
+    },
+    {
+     "en": "pink"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:brown",
+    "focus:brown"
+   ],
+   "parts": [
+    {
+     "zh": "小熊身上，是棕色的："
+    },
+    {
+     "en": "brown"
+    },
+    {
+     "en": "a brown bear"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bright",
+    "focus:bright"
+   ],
+   "parts": [
+    {
+     "zh": "阳光照着，颜色亮亮的，是明亮的："
+    },
+    {
+     "en": "bright"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:white",
+    "edge:bright>white",
+    "focus:white"
+   ],
+   "parts": [
+    {
+     "zh": "最亮的颜色，是白色，像天上的白云："
+    },
+    {
+     "en": "white"
+    },
+    {
+     "zh": "开头的 w 后面跟着一个 h，这个 h 不发音。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:gold",
+    "edge:bright>gold",
+    "focus:gold"
+   ],
+   "parts": [
+    {
+     "zh": "闪闪发光的金色，像金牌："
+    },
+    {
+     "en": "gold"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:silver",
+    "edge:gold>silver",
+    "focus:silver"
+   ],
+   "parts": [
+    {
+     "zh": "比金色淡一点的，是银色，像银币："
+    },
+    {
+     "en": "silver"
+    },
+    {
+     "en": "gold and silver"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:dark",
+    "focus:dark"
+   ],
+   "parts": [
+    {
+     "zh": "天黑了，颜色暗暗的，是深色的、黑暗的："
+    },
+    {
+     "en": "dark"
+    },
+    {
+     "en": "dark blue",
+     "cue": [
+      "focus:dark,blue"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:black",
+    "edge:dark>black",
+    "focus:black"
+   ],
+   "parts": [
+    {
+     "zh": "最深的颜色，是黑色，像夜里的小黑猫："
+    },
+    {
+     "en": "black"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "edge:dark>brown",
+    "focus:dark,brown"
+   ],
+   "parts": [
+    {
+     "zh": "棕色，也是深深的颜色："
+    },
+    {
+     "en": "brown"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:red,orange,yellow,green,blue,purple"
+   ],
+   "parts": [
+    {
+     "zh": "我们把彩虹的颜色，从外到里读一遍："
+    },
+    {
+     "en": "red",
+     "cue": [
+      "focus:red"
+     ]
+    },
+    {
+     "en": "orange",
+     "cue": [
+      "focus:orange"
+     ]
+    },
+    {
+     "en": "yellow",
+     "cue": [
+      "focus:yellow"
+     ]
+    },
+    {
+     "en": "green",
+     "cue": [
+      "focus:green"
+     ]
+    },
+    {
+     "en": "blue",
+     "cue": [
+      "focus:blue"
+     ]
+    },
+    {
+     "en": "purple",
+     "cue": [
+      "focus:purple"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:white,black"
+   ],
+   "parts": [
+    {
+     "zh": "一白一黑，正好相反："
+    },
+    {
+     "en": "white",
+     "cue": [
+      "focus:white"
+     ]
+    },
+    {
+     "en": "black",
+     "cue": [
+      "focus:black"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "猜一猜，它们是什么颜色？"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "zh": "香蕉："
+    },
+    {
+     "en": "Yellow!",
+     "cue": [
+      "focus:yellow"
+     ]
+    },
+    {
+     "zh": "天空："
+    },
+    {
+     "en": "Blue!",
+     "cue": [
+      "focus:blue"
+     ]
+    },
+    {
+     "zh": "雪："
+    },
+    {
+     "en": "White!",
+     "cue": [
+      "focus:white"
+     ]
+    },
+    {
+     "zh": "我的书包："
+    },
+    {
+     "en": "My schoolbag is orange.",
+     "cue": [
+      "focus:orange"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:colour"
+   ],
+   "parts": [
+    {
+     "en": "colour"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:red"
+   ],
+   "parts": [
+    {
+     "en": "red"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:orange"
+   ],
+   "parts": [
+    {
+     "en": "orange"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:yellow"
+   ],
+   "parts": [
+    {
+     "en": "yellow"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:green"
+   ],
+   "parts": [
+    {
+     "en": "green"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:blue"
+   ],
+   "parts": [
+    {
+     "en": "blue"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:purple"
+   ],
+   "parts": [
+    {
+     "en": "purple"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pink"
+   ],
+   "parts": [
+    {
+     "en": "pink"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:brown"
+   ],
+   "parts": [
+    {
+     "en": "brown"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bright"
+   ],
+   "parts": [
+    {
+     "en": "bright"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:white"
+   ],
+   "parts": [
+    {
+     "en": "white"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:gold"
+   ],
+   "parts": [
+    {
+     "en": "gold"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:silver"
+   ],
+   "parts": [
+    {
+     "en": "silver"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:dark"
+   ],
+   "parts": [
+    {
+     "en": "dark"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:black"
+   ],
+   "parts": [
+    {
+     "en": "black"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！你最喜欢什么颜色？用英语告诉爸爸妈妈吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

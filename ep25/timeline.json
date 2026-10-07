@@ -1,0 +1,870 @@
+{
+ "duration": 185.529,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！出门去远方，要坐什么呢？今天，我们来学交通工具。",
+   "t0": 0.4,
+   "t1": 7.141,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "transportation",
+   "t0": 7.391,
+   "t1": 8.506,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "交通运输。",
+   "t0": 9.006,
+   "t1": 9.947,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "把人和东西从一个地方送到另一个地方，就是交通运输：",
+   "t0": 10.797,
+   "t1": 15.657,
+   "cue": [
+    "map",
+    "show:transportation",
+    "focus:transportation"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "transportation",
+   "t0": 15.907,
+   "t1": 17.022,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "这个词很长，我们拆开读：",
+   "t0": 17.522,
+   "t1": 19.741,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "trans, por, ta, tion",
+   "t0": 19.991,
+   "t1": 22.633,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "transportation",
+   "t0": 23.133,
+   "t1": 24.248,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "路上跑得最多的，是小汽车：",
+   "t0": 25.348,
+   "t1": 27.786,
+   "cue": [
+    "show:car",
+    "edge:transportation>car",
+    "focus:car"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "car",
+   "t0": 28.036,
+   "t1": 28.452,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Dad drives a car.",
+   "t0": 28.952,
+   "t1": 30.138,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "拉货的大卡车：",
+   "t0": 31.238,
+   "t1": 32.456,
+   "cue": [
+    "show:truck",
+    "edge:transportation>truck",
+    "focus:truck"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "truck",
+   "t0": 32.706,
+   "t1": 33.182,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "很多人一起坐的，是公共汽车：",
+   "t0": 34.282,
+   "t1": 36.877,
+   "cue": [
+    "show:bus",
+    "edge:transportation>bus",
+    "focus:bus"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "bus",
+   "t0": 37.127,
+   "t1": 37.566,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "I go to school by bus.",
+   "t0": 38.066,
+   "t1": 39.498,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "两个轮子，用脚蹬的，是自行车。二，加上圈圈：",
+   "t0": 40.598,
+   "t1": 45.72,
+   "cue": [
+    "show:bicycle",
+    "focus:bicycle"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "bi",
+   "t0": 45.97,
+   "t1": 46.336,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "cycle",
+   "t0": 46.836,
+   "t1": 47.425,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "bicycle",
+   "t0": 47.925,
+   "t1": 48.617,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "平时常常简单地叫它",
+   "t0": 49.117,
+   "t1": 51.005,
+   "cue": [
+    "alt:bicycle"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "bike",
+   "t0": 51.255,
+   "t1": 51.654,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "带着发动机的两轮车，是摩托车。马达，加上自行车：",
+   "t0": 52.754,
+   "t1": 58.004,
+   "cue": [
+    "show:motorbike",
+    "focus:motorbike"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "motor",
+   "t0": 58.254,
+   "t1": 58.73,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "bike",
+   "t0": 59.23,
+   "t1": 59.629,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "motorbike",
+   "t0": 60.129,
+   "t1": 60.86,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "骑自行车、骑摩托车，都用",
+   "t0": 61.96,
+   "t1": 64.775,
+   "cue": [
+    "show:ride",
+    "edge:bicycle>ride",
+    "edge:motorbike>ride",
+    "focus:ride"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "ride",
+   "t0": 65.025,
+   "t1": 65.503,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "I ride a bike to the park.",
+   "t0": 66.003,
+   "t1": 67.409,
+   "cue": [
+    "focus:ride,bicycle"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "在铁轨上跑的长长的车，是火车：",
+   "t0": 68.509,
+   "t1": 71.475,
+   "cue": [
+    "show:train",
+    "focus:train"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "train",
+   "t0": 71.725,
+   "t1": 72.234,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Choo choo! Here comes the train.",
+   "t0": 72.734,
+   "t1": 75.814,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "在城市的地下跑的火车，是地铁。在下面，加上路：",
+   "t0": 76.914,
+   "t1": 82.119,
+   "cue": [
+    "show:subway",
+    "edge:train>subway",
+    "focus:subway"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "sub",
+   "t0": 82.369,
+   "t1": 82.757,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "way",
+   "t0": 83.257,
+   "t1": 83.648,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "subway",
+   "t0": 84.148,
+   "t1": 84.778,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "坐地铁、坐火车，都要先买票：",
+   "t0": 85.878,
+   "t1": 88.773,
+   "cue": [
+    "show:ticket",
+    "edge:subway>ticket",
+    "focus:ticket"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "ticket",
+   "t0": 89.023,
+   "t1": 89.574,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Two tickets, please.",
+   "t0": 90.074,
+   "t1": 91.76,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "在天上飞的，是飞机：",
+   "t0": 92.86,
+   "t1": 94.833,
+   "cue": [
+    "show:plane",
+    "edge:transportation>plane",
+    "focus:plane"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "plane",
+   "t0": 95.083,
+   "t1": 95.6,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "它的全名是",
+   "t0": 96.1,
+   "t1": 97.117,
+   "cue": [
+    "alt:plane"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "airplane",
+   "t0": 97.367,
+   "t1": 98.027,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "空气，加上飞机。",
+   "t0": 98.527,
+   "t1": 100.124,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "在大海上航行的大轮船：",
+   "t0": 100.974,
+   "t1": 103.086,
+   "cue": [
+    "show:ship",
+    "edge:transportation>ship",
+    "focus:ship"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "ship",
+   "t0": 103.336,
+   "t1": 103.761,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "在小河里漂的小船：",
+   "t0": 104.861,
+   "t1": 106.543,
+   "cue": [
+    "show:boat",
+    "edge:transportation>boat",
+    "focus:boat"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "boat",
+   "t0": 106.793,
+   "t1": 107.228,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "大的是",
+   "t0": 107.728,
+   "t1": 108.383,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "ship",
+   "t0": 108.633,
+   "t1": 109.058,
+   "cue": [
+    "focus:ship"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "小的是",
+   "t0": 109.558,
+   "t1": 110.259,
+   "cue": [
+    "focus:boat"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "boat",
+   "t0": 110.509,
+   "t1": 110.945,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "飞机跑得特别快。快的，英语是",
+   "t0": 112.045,
+   "t1": 115.476,
+   "cue": [
+    "show:fast",
+    "edge:plane>fast",
+    "focus:fast"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "fast",
+   "t0": 115.726,
+   "t1": 116.239,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "The plane is fast.",
+   "t0": 116.739,
+   "t1": 117.975,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "轮船走得比较慢，像小蜗牛。慢的，英语是",
+   "t0": 119.075,
+   "t1": 123.734,
+   "cue": [
+    "show:slow",
+    "edge:ship>slow",
+    "focus:slow"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "slow",
+   "t0": 123.984,
+   "t1": 124.542,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "The ship is slow.",
+   "t0": 125.042,
+   "t1": 126.106,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "一快一慢：",
+   "t0": 127.206,
+   "t1": 127.98,
+   "cue": [
+    "focus:fast,slow"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "fast",
+   "t0": 128.23,
+   "t1": 128.743,
+   "cue": [
+    "focus:fast"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "slow",
+   "t0": 129.243,
+   "t1": 129.802,
+   "cue": [
+    "focus:slow"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "说一说，你怎么去这些地方？用 by 加上交通工具：",
+   "t0": 130.902,
+   "t1": 135.591,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "by bus",
+   "t0": 136.441,
+   "t1": 137.116,
+   "cue": [
+    "focus:bus"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "by train",
+   "t0": 137.616,
+   "t1": 138.314,
+   "cue": [
+    "focus:train"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "by plane",
+   "t0": 138.814,
+   "t1": 139.506,
+   "cue": [
+    "focus:plane"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "by ship",
+   "t0": 140.006,
+   "t1": 140.656,
+   "cue": [
+    "focus:ship"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "I choose to ride a bike!",
+   "t0": 141.156,
+   "t1": 142.532,
+   "cue": [
+    "focus:ride,bicycle"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 143.632,
+   "t1": 146.882,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "transportation",
+   "t0": 147.732,
+   "t1": 148.847,
+   "cue": [
+    "focus:transportation"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "car",
+   "t0": 149.947,
+   "t1": 150.363,
+   "cue": [
+    "focus:car"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "truck",
+   "t0": 151.463,
+   "t1": 151.938,
+   "cue": [
+    "focus:truck"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "bus",
+   "t0": 153.038,
+   "t1": 153.478,
+   "cue": [
+    "focus:bus"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "bicycle, bike",
+   "t0": 154.578,
+   "t1": 155.856,
+   "cue": [
+    "focus:bicycle"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "motorbike",
+   "t0": 156.956,
+   "t1": 157.687,
+   "cue": [
+    "focus:motorbike"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "ride",
+   "t0": 158.787,
+   "t1": 159.266,
+   "cue": [
+    "focus:ride"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "train",
+   "t0": 160.366,
+   "t1": 160.874,
+   "cue": [
+    "focus:train"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "subway",
+   "t0": 161.974,
+   "t1": 162.603,
+   "cue": [
+    "focus:subway"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "ticket",
+   "t0": 163.703,
+   "t1": 164.255,
+   "cue": [
+    "focus:ticket"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "plane, airplane",
+   "t0": 165.355,
+   "t1": 166.684,
+   "cue": [
+    "focus:plane"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "ship",
+   "t0": 167.784,
+   "t1": 168.209,
+   "cue": [
+    "focus:ship"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "boat",
+   "t0": 169.309,
+   "t1": 169.745,
+   "cue": [
+    "focus:boat"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "en",
+   "text": "fast",
+   "t0": 170.845,
+   "t1": 171.358,
+   "cue": [
+    "focus:fast"
+   ]
+  },
+  {
+   "seg": 34,
+   "lang": "en",
+   "text": "slow",
+   "t0": 172.458,
+   "t1": 173.016,
+   "cue": [
+    "focus:slow"
+   ]
+  },
+  {
+   "seg": 35,
+   "lang": "zh",
+   "text": "太棒了！下次出门的时候，用英语说一说你坐的是什么车吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 174.116,
+   "t1": 183.679,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "transportation": [
+   0.25,
+   1.365
+  ],
+  "car": [
+   1.615,
+   2.031
+  ],
+  "truck": [
+   2.281,
+   2.756
+  ],
+  "bus": [
+   3.006,
+   3.446
+  ],
+  "motorbike": [
+   3.696,
+   4.427
+  ],
+  "bicycle": [
+   4.677,
+   5.369
+  ],
+  "bicycle:alt": [
+   5.619,
+   6.017
+  ],
+  "ride": [
+   6.267,
+   6.746
+  ],
+  "train": [
+   6.996,
+   7.504
+  ],
+  "subway": [
+   7.754,
+   8.384
+  ],
+  "ticket": [
+   8.634,
+   9.185
+  ],
+  "plane": [
+   9.435,
+   9.952
+  ],
+  "plane:alt": [
+   10.202,
+   10.863
+  ],
+  "ship": [
+   11.113,
+   11.537
+  ],
+  "boat": [
+   11.787,
+   12.223
+  ],
+  "fast": [
+   12.473,
+   12.986
+  ],
+  "slow": [
+   13.236,
+   13.795
+  ]
+ }
+}

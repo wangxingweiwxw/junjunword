@@ -1,0 +1,714 @@
+{
+ "duration": 173.403,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！还记得第十八集吗？一天要吃三顿饭。今天，我们来看看每顿饭都吃些什么。",
+   "t0": 0.4,
+   "t1": 9.665,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "three meals a day",
+   "t0": 9.915,
+   "t1": 11.045,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "早上起床吃的第一顿饭，是早餐：",
+   "t0": 12.145,
+   "t1": 14.958,
+   "cue": [
+    "map",
+    "show:breakfast",
+    "focus:breakfast"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "breakfast",
+   "t0": 15.208,
+   "t1": 15.936,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "它是两个词拼起来的：打破，加上禁食。睡了一整夜，饿了很久，现在终于可以吃东西啦！",
+   "t0": 16.436,
+   "t1": 24.673,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "break",
+   "t0": 24.923,
+   "t1": 25.369,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "fast",
+   "t0": 25.869,
+   "t1": 26.382,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "breakfast",
+   "t0": 26.882,
+   "t1": 27.611,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "早餐可以喝一碗热乎乎的粥：",
+   "t0": 28.711,
+   "t1": 31.018,
+   "cue": [
+    "show:porridge",
+    "edge:breakfast>porridge",
+    "focus:porridge"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "porridge",
+   "t0": 31.268,
+   "t1": 31.841,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "也可以吃一叠软软的薄煎饼。平底锅，加上蛋糕：",
+   "t0": 32.941,
+   "t1": 37.581,
+   "cue": [
+    "show:pancake",
+    "edge:breakfast>pancake",
+    "focus:pancake"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "pan",
+   "t0": 37.831,
+   "t1": 38.303,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "cake",
+   "t0": 38.803,
+   "t1": 39.238,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "pancake",
+   "t0": 39.738,
+   "t1": 40.409,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "煎饼上抹一块黄油，香喷喷的：",
+   "t0": 41.509,
+   "t1": 44.151,
+   "cue": [
+    "show:butter",
+    "edge:butter>pancake",
+    "focus:butter"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "butter",
+   "t0": 44.401,
+   "t1": 44.797,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "粥和煎饼，你更喜欢哪一个？更喜欢，英语是",
+   "t0": 45.897,
+   "t1": 50.551,
+   "cue": [
+    "show:prefer",
+    "edge:prefer>porridge",
+    "focus:prefer"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "prefer",
+   "t0": 50.801,
+   "t1": 51.38,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "I prefer porridge for breakfast.",
+   "t0": 51.88,
+   "t1": 53.787,
+   "cue": [
+    "focus:prefer,porridge"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "中午吃的饭，是午餐：",
+   "t0": 54.887,
+   "t1": 56.705,
+   "cue": [
+    "show:lunch",
+    "focus:lunch"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "lunch",
+   "t0": 56.955,
+   "t1": 57.463,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "Lunch time!",
+   "t0": 57.963,
+   "t1": 58.761,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "午餐带一个三明治：",
+   "t0": 59.861,
+   "t1": 61.474,
+   "cue": [
+    "show:sandwich",
+    "edge:lunch>sandwich",
+    "focus:sandwich"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "sandwich",
+   "t0": 61.724,
+   "t1": 62.526,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "中间的字母 d，读的时候几乎听不到。",
+   "t0": 63.026,
+   "t1": 66.19,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "三明治是用面包做的：",
+   "t0": 67.04,
+   "t1": 68.917,
+   "cue": [
+    "show:bread",
+    "edge:sandwich>bread",
+    "focus:bread"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "bread",
+   "t0": 69.167,
+   "t1": 69.574,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "面包通常不加 s。一片面包，要说",
+   "t0": 70.074,
+   "t1": 74.021,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "a slice of bread",
+   "t0": 74.271,
+   "t1": 75.388,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "再配一碗新鲜的蔬菜沙拉：",
+   "t0": 76.488,
+   "t1": 78.633,
+   "cue": [
+    "show:salad",
+    "edge:lunch>salad",
+    "focus:salad"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "salad",
+   "t0": 78.883,
+   "t1": 79.423,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "I eat salad at noon.",
+   "t0": 79.923,
+   "t1": 81.334,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "中国小朋友午餐还爱吃面条。面条长长的、很多根，所以总是带着 s：",
+   "t0": 82.434,
+   "t1": 89.57,
+   "cue": [
+    "show:noodles",
+    "edge:lunch>noodles",
+    "focus:noodles"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "noodles",
+   "t0": 89.82,
+   "t1": 90.451,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "傍晚，一家人坐在一起，吃晚餐：",
+   "t0": 91.551,
+   "t1": 94.544,
+   "cue": [
+    "show:dinner",
+    "focus:dinner"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "dinner",
+   "t0": 94.794,
+   "t1": 95.219,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Dinner is ready!",
+   "t0": 95.719,
+   "t1": 96.622,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "晚餐吃一个大大的汉堡包：",
+   "t0": 97.722,
+   "t1": 99.814,
+   "cue": [
+    "show:hamburger",
+    "edge:dinner>hamburger",
+    "focus:hamburger"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "hamburger",
+   "t0": 100.064,
+   "t1": 100.709,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "或者一盘意大利面：",
+   "t0": 101.809,
+   "t1": 103.547,
+   "cue": [
+    "show:spaghetti",
+    "edge:dinner>spaghetti",
+    "focus:spaghetti"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "spaghetti",
+   "t0": 103.797,
+   "t1": 104.498,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "它是从意大利来的词，g 后面跟着一个不发音的 h。",
+   "t0": 104.998,
+   "t1": 109.381,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "再来一根烤香肠：",
+   "t0": 110.231,
+   "t1": 111.63,
+   "cue": [
+    "show:sausage",
+    "edge:dinner>sausage",
+    "focus:sausage"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "sausage",
+   "t0": 111.88,
+   "t1": 112.643,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "一天三顿饭，按顺序读一遍：",
+   "t0": 113.743,
+   "t1": 116.281,
+   "cue": [
+    "focus:breakfast,lunch,dinner"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "breakfast in the morning",
+   "t0": 116.531,
+   "t1": 117.828,
+   "cue": [
+    "focus:breakfast"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "lunch at noon",
+   "t0": 118.328,
+   "t1": 119.28,
+   "cue": [
+    "focus:lunch"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "dinner in the evening",
+   "t0": 119.78,
+   "t1": 120.871,
+   "cue": [
+    "focus:dinner"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "你最喜欢吃什么呢？像这样说一说吧：",
+   "t0": 121.971,
+   "t1": 125.457,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "For breakfast, I have porridge.",
+   "t0": 126.307,
+   "t1": 128.387,
+   "cue": [
+    "focus:breakfast,porridge"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "For lunch, I have noodles.",
+   "t0": 128.887,
+   "t1": 130.699,
+   "cue": [
+    "focus:lunch,noodles"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "For dinner, I prefer spaghetti!",
+   "t0": 131.199,
+   "t1": 133.202,
+   "cue": [
+    "focus:dinner,spaghetti,prefer"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 134.302,
+   "t1": 137.553,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "breakfast",
+   "t0": 138.403,
+   "t1": 139.131,
+   "cue": [
+    "focus:breakfast"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "porridge",
+   "t0": 140.231,
+   "t1": 140.805,
+   "cue": [
+    "focus:porridge"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "pancake",
+   "t0": 141.905,
+   "t1": 142.576,
+   "cue": [
+    "focus:pancake"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "butter",
+   "t0": 143.676,
+   "t1": 144.073,
+   "cue": [
+    "focus:butter"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "prefer",
+   "t0": 145.173,
+   "t1": 145.752,
+   "cue": [
+    "focus:prefer"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "lunch",
+   "t0": 146.852,
+   "t1": 147.36,
+   "cue": [
+    "focus:lunch"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "sandwich",
+   "t0": 148.46,
+   "t1": 149.262,
+   "cue": [
+    "focus:sandwich"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "bread",
+   "t0": 150.362,
+   "t1": 150.769,
+   "cue": [
+    "focus:bread"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "salad",
+   "t0": 151.869,
+   "t1": 152.409,
+   "cue": [
+    "focus:salad"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "noodles",
+   "t0": 153.509,
+   "t1": 154.14,
+   "cue": [
+    "focus:noodles"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "dinner",
+   "t0": 155.24,
+   "t1": 155.664,
+   "cue": [
+    "focus:dinner"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "hamburger",
+   "t0": 156.764,
+   "t1": 157.409,
+   "cue": [
+    "focus:hamburger"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "spaghetti",
+   "t0": 158.509,
+   "t1": 159.21,
+   "cue": [
+    "focus:spaghetti"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "sausage",
+   "t0": 160.31,
+   "t1": 161.074,
+   "cue": [
+    "focus:sausage"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "zh",
+   "text": "太棒了！明天吃早餐的时候，用英语说一说你在吃什么吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 162.174,
+   "t1": 171.553,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "breakfast": [
+   0.25,
+   0.979
+  ],
+  "porridge": [
+   1.229,
+   1.802
+  ],
+  "pancake": [
+   2.052,
+   2.724
+  ],
+  "butter": [
+   2.974,
+   3.37
+  ],
+  "prefer": [
+   3.62,
+   4.199
+  ],
+  "lunch": [
+   4.449,
+   4.957
+  ],
+  "sandwich": [
+   5.207,
+   6.009
+  ],
+  "bread": [
+   6.259,
+   6.666
+  ],
+  "salad": [
+   6.916,
+   7.456
+  ],
+  "noodles": [
+   7.706,
+   8.337
+  ],
+  "dinner": [
+   8.587,
+   9.012
+  ],
+  "hamburger": [
+   9.262,
+   9.906
+  ],
+  "sausage": [
+   10.156,
+   10.92
+  ],
+  "spaghetti": [
+   11.17,
+   11.871
+  ]
+ }
+}

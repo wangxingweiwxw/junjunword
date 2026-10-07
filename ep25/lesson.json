@@ -1,0 +1,884 @@
+{
+ "id": "ep25",
+ "title": "transportation",
+ "titleZh": "交通",
+ "episode": "第 25 集",
+ "titleIcon": "transportation",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1950
+  ]
+ },
+ "nodes": [
+  {
+   "id": "transportation",
+   "word": "transportation",
+   "ipa": "/ˌtrænspərˈteɪʃn/",
+   "zh": "交通运输",
+   "icon": "transportation",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    450,
+    470
+   ]
+  },
+  {
+   "id": "car",
+   "word": "car",
+   "ipa": "/kɑːr/",
+   "zh": "小汽车",
+   "icon": "car",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    450,
+    150
+   ]
+  },
+  {
+   "id": "truck",
+   "word": "truck",
+   "ipa": "/trʌk/",
+   "zh": "卡车",
+   "icon": "truck",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    750,
+    150
+   ]
+  },
+  {
+   "id": "bus",
+   "word": "bus",
+   "ipa": "/bʌs/",
+   "zh": "公共汽车",
+   "icon": "bus",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    750,
+    470
+   ]
+  },
+  {
+   "id": "motorbike",
+   "word": "motorbike",
+   "ipa": "/ˈmoʊtərbaɪk/",
+   "zh": "摩托车",
+   "icon": "motorbike",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1050,
+    150
+   ]
+  },
+  {
+   "id": "bicycle",
+   "word": "bicycle",
+   "ipa": "/ˈbaɪsɪkl/",
+   "zh": "自行车",
+   "icon": "bicycle",
+   "alt": "bike",
+   "altLabel": "简称",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1050,
+    470
+   ]
+  },
+  {
+   "id": "ride",
+   "word": "ride",
+   "ipa": "/raɪd/",
+   "zh": "骑；乘坐",
+   "icon": "ride",
+   "kind": "verb",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1350,
+    470
+   ]
+  },
+  {
+   "id": "train",
+   "word": "train",
+   "ipa": "/treɪn/",
+   "zh": "火车",
+   "icon": "train",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1050,
+    790
+   ]
+  },
+  {
+   "id": "subway",
+   "word": "subway",
+   "ipa": "/ˈsʌbweɪ/",
+   "zh": "地铁",
+   "icon": "subway",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1350,
+    790
+   ]
+  },
+  {
+   "id": "ticket",
+   "word": "ticket",
+   "ipa": "/ˈtɪkɪt/",
+   "zh": "票",
+   "icon": "ticket",
+   "atP": [
+    750,
+    1800
+   ],
+   "at": [
+    1650,
+    790
+   ]
+  },
+  {
+   "id": "plane",
+   "word": "plane",
+   "ipa": "/pleɪn/",
+   "zh": "飞机",
+   "icon": "plane",
+   "alt": "airplane",
+   "altLabel": "也叫",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    150,
+    470
+   ]
+  },
+  {
+   "id": "ship",
+   "word": "ship",
+   "ipa": "/ʃɪp/",
+   "zh": "轮船",
+   "icon": "ship",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    450,
+    790
+   ]
+  },
+  {
+   "id": "boat",
+   "word": "boat",
+   "ipa": "/boʊt/",
+   "zh": "小船",
+   "icon": "boat",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    750,
+    790
+   ]
+  },
+  {
+   "id": "fast",
+   "word": "fast",
+   "ipa": "/fæst/",
+   "zh": "快的",
+   "icon": "fast",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    150,
+    150
+   ]
+  },
+  {
+   "id": "slow",
+   "word": "slow",
+   "ipa": "/sloʊ/",
+   "zh": "慢的",
+   "icon": "slow",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    150,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "transportation",
+   "to": "plane"
+  },
+  {
+   "from": "transportation",
+   "to": "car"
+  },
+  {
+   "from": "transportation",
+   "to": "ship"
+  },
+  {
+   "from": "transportation",
+   "to": "bus"
+  },
+  {
+   "from": "transportation",
+   "to": "truck"
+  },
+  {
+   "from": "transportation",
+   "to": "boat"
+  },
+  {
+   "from": "plane",
+   "to": "fast",
+   "label": "很"
+  },
+  {
+   "from": "ship",
+   "to": "slow",
+   "label": "比较"
+  },
+  {
+   "from": "bicycle",
+   "to": "ride"
+  },
+  {
+   "from": "motorbike",
+   "to": "ride"
+  },
+  {
+   "from": "train",
+   "to": "subway",
+   "label": "在地下"
+  },
+  {
+   "from": "subway",
+   "to": "ticket",
+   "label": "要买"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！出门去远方，要坐什么呢？今天，我们来学交通工具。"
+    },
+    {
+     "en": "transportation"
+    },
+    {
+     "zh": "交通运输。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:transportation",
+    "focus:transportation"
+   ],
+   "parts": [
+    {
+     "zh": "把人和东西从一个地方送到另一个地方，就是交通运输："
+    },
+    {
+     "en": "transportation"
+    },
+    {
+     "zh": "这个词很长，我们拆开读："
+    },
+    {
+     "en": "trans, por, ta, tion"
+    },
+    {
+     "en": "transportation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:car",
+    "edge:transportation>car",
+    "focus:car"
+   ],
+   "parts": [
+    {
+     "zh": "路上跑得最多的，是小汽车："
+    },
+    {
+     "en": "car"
+    },
+    {
+     "en": "Dad drives a car."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:truck",
+    "edge:transportation>truck",
+    "focus:truck"
+   ],
+   "parts": [
+    {
+     "zh": "拉货的大卡车："
+    },
+    {
+     "en": "truck"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bus",
+    "edge:transportation>bus",
+    "focus:bus"
+   ],
+   "parts": [
+    {
+     "zh": "很多人一起坐的，是公共汽车："
+    },
+    {
+     "en": "bus"
+    },
+    {
+     "en": "I go to school by bus."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bicycle",
+    "focus:bicycle"
+   ],
+   "parts": [
+    {
+     "zh": "两个轮子，用脚蹬的，是自行车。二，加上圈圈："
+    },
+    {
+     "en": "bi"
+    },
+    {
+     "en": "cycle"
+    },
+    {
+     "en": "bicycle"
+    },
+    {
+     "zh": "平时常常简单地叫它",
+     "cue": [
+      "alt:bicycle"
+     ]
+    },
+    {
+     "en": "bike"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:motorbike",
+    "focus:motorbike"
+   ],
+   "parts": [
+    {
+     "zh": "带着发动机的两轮车，是摩托车。马达，加上自行车："
+    },
+    {
+     "en": "motor"
+    },
+    {
+     "en": "bike"
+    },
+    {
+     "en": "motorbike"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ride",
+    "edge:bicycle>ride",
+    "edge:motorbike>ride",
+    "focus:ride"
+   ],
+   "parts": [
+    {
+     "zh": "骑自行车、骑摩托车，都用"
+    },
+    {
+     "en": "ride"
+    },
+    {
+     "en": "I ride a bike to the park.",
+     "cue": [
+      "focus:ride,bicycle"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:train",
+    "focus:train"
+   ],
+   "parts": [
+    {
+     "zh": "在铁轨上跑的长长的车，是火车："
+    },
+    {
+     "en": "train"
+    },
+    {
+     "en": "Choo choo! Here comes the train."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:subway",
+    "edge:train>subway",
+    "focus:subway"
+   ],
+   "parts": [
+    {
+     "zh": "在城市的地下跑的火车，是地铁。在下面，加上路："
+    },
+    {
+     "en": "sub"
+    },
+    {
+     "en": "way"
+    },
+    {
+     "en": "subway"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ticket",
+    "edge:subway>ticket",
+    "focus:ticket"
+   ],
+   "parts": [
+    {
+     "zh": "坐地铁、坐火车，都要先买票："
+    },
+    {
+     "en": "ticket"
+    },
+    {
+     "en": "Two tickets, please."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:plane",
+    "edge:transportation>plane",
+    "focus:plane"
+   ],
+   "parts": [
+    {
+     "zh": "在天上飞的，是飞机："
+    },
+    {
+     "en": "plane"
+    },
+    {
+     "zh": "它的全名是",
+     "cue": [
+      "alt:plane"
+     ]
+    },
+    {
+     "en": "airplane"
+    },
+    {
+     "zh": "空气，加上飞机。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ship",
+    "edge:transportation>ship",
+    "focus:ship"
+   ],
+   "parts": [
+    {
+     "zh": "在大海上航行的大轮船："
+    },
+    {
+     "en": "ship"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:boat",
+    "edge:transportation>boat",
+    "focus:boat"
+   ],
+   "parts": [
+    {
+     "zh": "在小河里漂的小船："
+    },
+    {
+     "en": "boat"
+    },
+    {
+     "zh": "大的是"
+    },
+    {
+     "en": "ship",
+     "cue": [
+      "focus:ship"
+     ]
+    },
+    {
+     "zh": "小的是",
+     "cue": [
+      "focus:boat"
+     ]
+    },
+    {
+     "en": "boat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fast",
+    "edge:plane>fast",
+    "focus:fast"
+   ],
+   "parts": [
+    {
+     "zh": "飞机跑得特别快。快的，英语是"
+    },
+    {
+     "en": "fast"
+    },
+    {
+     "en": "The plane is fast."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:slow",
+    "edge:ship>slow",
+    "focus:slow"
+   ],
+   "parts": [
+    {
+     "zh": "轮船走得比较慢，像小蜗牛。慢的，英语是"
+    },
+    {
+     "en": "slow"
+    },
+    {
+     "en": "The ship is slow."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fast,slow"
+   ],
+   "parts": [
+    {
+     "zh": "一快一慢："
+    },
+    {
+     "en": "fast",
+     "cue": [
+      "focus:fast"
+     ]
+    },
+    {
+     "en": "slow",
+     "cue": [
+      "focus:slow"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "说一说，你怎么去这些地方？用 by 加上交通工具："
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "by bus",
+     "cue": [
+      "focus:bus"
+     ]
+    },
+    {
+     "en": "by train",
+     "cue": [
+      "focus:train"
+     ]
+    },
+    {
+     "en": "by plane",
+     "cue": [
+      "focus:plane"
+     ]
+    },
+    {
+     "en": "by ship",
+     "cue": [
+      "focus:ship"
+     ]
+    },
+    {
+     "en": "I choose to ride a bike!",
+     "cue": [
+      "focus:ride,bicycle"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:transportation"
+   ],
+   "parts": [
+    {
+     "en": "transportation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:car"
+   ],
+   "parts": [
+    {
+     "en": "car"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:truck"
+   ],
+   "parts": [
+    {
+     "en": "truck"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bus"
+   ],
+   "parts": [
+    {
+     "en": "bus"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bicycle"
+   ],
+   "parts": [
+    {
+     "en": "bicycle, bike"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:motorbike"
+   ],
+   "parts": [
+    {
+     "en": "motorbike"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ride"
+   ],
+   "parts": [
+    {
+     "en": "ride"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:train"
+   ],
+   "parts": [
+    {
+     "en": "train"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:subway"
+   ],
+   "parts": [
+    {
+     "en": "subway"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ticket"
+   ],
+   "parts": [
+    {
+     "en": "ticket"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:plane"
+   ],
+   "parts": [
+    {
+     "en": "plane, airplane"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ship"
+   ],
+   "parts": [
+    {
+     "en": "ship"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:boat"
+   ],
+   "parts": [
+    {
+     "en": "boat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fast"
+   ],
+   "parts": [
+    {
+     "en": "fast"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:slow"
+   ],
+   "parts": [
+    {
+     "en": "slow"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！下次出门的时候，用英语说一说你坐的是什么车吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

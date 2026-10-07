@@ -1,0 +1,717 @@
+{
+ "id": "ep27",
+ "title": "classroom",
+ "titleZh": "教室",
+ "episode": "第 27 集",
+ "titleIcon": "classroom",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1320
+  ]
+ },
+ "nodes": [
+  {
+   "id": "classroom",
+   "word": "classroom",
+   "ipa": "/ˈklæsruːm/",
+   "zh": "教室",
+   "icon": "classroom",
+   "atP": [
+    450,
+    490
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "board",
+   "word": "board",
+   "ipa": "/bɔːrd/",
+   "zh": "木板；板",
+   "icon": "board",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "blackboard",
+   "word": "blackboard",
+   "ipa": "/ˈblækbɔːrd/",
+   "zh": "黑板",
+   "icon": "blackboard",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "chalk",
+   "word": "chalk",
+   "ipa": "/tʃɔːk/",
+   "zh": "粉笔",
+   "icon": "chalk",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "teacher",
+   "word": "teacher",
+   "ipa": "/ˈtiːtʃər/",
+   "zh": "老师",
+   "icon": "teach",
+   "alt": "teach + er",
+   "altLabel": "=",
+   "atP": [
+    750,
+    490
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "lesson",
+   "word": "lesson",
+   "ipa": "/ˈlesn/",
+   "zh": "一节课",
+   "icon": "lesson",
+   "plural": "lessons",
+   "pluralIpa": "/ˈlesnz/",
+   "atP": [
+    150,
+    490
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "student",
+   "word": "student",
+   "ipa": "/ˈstuːdnt/",
+   "zh": "学生",
+   "icon": "student",
+   "plural": "students",
+   "pluralIpa": "/ˈstuːdnts/",
+   "atP": [
+    450,
+    830
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "monitor",
+   "word": "monitor",
+   "ipa": "/ˈmɑːnɪtər/",
+   "zh": "班长",
+   "icon": "monitor",
+   "atP": [
+    150,
+    830
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "desk",
+   "word": "desk",
+   "ipa": "/desk/",
+   "zh": "课桌",
+   "icon": "desk",
+   "atP": [
+    150,
+    1170
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "seat",
+   "word": "seat",
+   "ipa": "/siːt/",
+   "zh": "座位",
+   "icon": "seat",
+   "atP": [
+    450,
+    1170
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "row",
+   "word": "row",
+   "ipa": "/roʊ/",
+   "zh": "一排",
+   "icon": "row",
+   "atP": [
+    750,
+    1170
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  },
+  {
+   "id": "group",
+   "word": "group",
+   "ipa": "/ɡruːp/",
+   "zh": "小组",
+   "icon": "group",
+   "atP": [
+    750,
+    830
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "board",
+   "to": "blackboard",
+   "label": "black +"
+  },
+  {
+   "from": "blackboard",
+   "to": "chalk",
+   "label": "用…写"
+  },
+  {
+   "from": "classroom",
+   "to": "blackboard"
+  },
+  {
+   "from": "classroom",
+   "to": "teacher"
+  },
+  {
+   "from": "classroom",
+   "to": "lesson"
+  },
+  {
+   "from": "classroom",
+   "to": "student"
+  },
+  {
+   "from": "student",
+   "to": "monitor"
+  },
+  {
+   "from": "student",
+   "to": "group"
+  },
+  {
+   "from": "student",
+   "to": "seat"
+  },
+  {
+   "from": "desk",
+   "to": "seat"
+  },
+  {
+   "from": "seat",
+   "to": "row"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！上课铃响了，我们走进教室吧。"
+    },
+    {
+     "en": "classroom"
+    },
+    {
+     "zh": "教室。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:classroom",
+    "focus:classroom"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第六集的班级吗？班级，加上房间，就是上课的教室："
+    },
+    {
+     "en": "class"
+    },
+    {
+     "en": "room"
+    },
+    {
+     "en": "classroom"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:board",
+    "focus:board"
+   ],
+   "parts": [
+    {
+     "zh": "一块平平的木板，英语叫"
+    },
+    {
+     "en": "board"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:blackboard",
+    "edge:board>blackboard",
+    "edge:classroom>blackboard",
+    "focus:blackboard"
+   ],
+   "parts": [
+    {
+     "zh": "把木板涂成黑色，挂在教室前面，就是黑板。黑色，加上板："
+    },
+    {
+     "en": "black"
+    },
+    {
+     "en": "board"
+    },
+    {
+     "en": "blackboard"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:chalk",
+    "edge:blackboard>chalk",
+    "focus:chalk"
+   ],
+   "parts": [
+    {
+     "zh": "在黑板上写字，要用粉笔："
+    },
+    {
+     "en": "chalk"
+    },
+    {
+     "zh": "小提示：中间的 l 不发音。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:teacher",
+    "edge:classroom>teacher",
+    "focus:teacher"
+   ],
+   "parts": [
+    {
+     "zh": "站在黑板前给我们上课的，是老师。还记得第六集的教吗？加上 e r：",
+     "cue": [
+      "alt:teacher"
+     ]
+    },
+    {
+     "en": "teach"
+    },
+    {
+     "en": "teacher"
+    },
+    {
+     "en": "Good morning, teacher!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:lesson",
+    "edge:classroom>lesson",
+    "focus:lesson"
+   ],
+   "parts": [
+    {
+     "zh": "老师上的一节课，叫"
+    },
+    {
+     "en": "lesson"
+    },
+    {
+     "en": "Lesson One"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:student",
+    "edge:classroom>student",
+    "focus:student"
+   ],
+   "parts": [
+    {
+     "zh": "坐在下面认真听课的，是学生："
+    },
+    {
+     "en": "student"
+    },
+    {
+     "zh": "很多学生：",
+     "cue": [
+      "plural:student"
+     ]
+    },
+    {
+     "en": "students"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:monitor",
+    "edge:student>monitor",
+    "focus:monitor"
+   ],
+   "parts": [
+    {
+     "zh": "帮老师管理班级的学生，是班长："
+    },
+    {
+     "en": "monitor"
+    },
+    {
+     "en": "He is our monitor."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:desk",
+    "focus:desk"
+   ],
+   "parts": [
+    {
+     "zh": "每个学生都有一张课桌："
+    },
+    {
+     "en": "desk"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:seat",
+    "edge:student>seat",
+    "edge:desk>seat",
+    "focus:seat"
+   ],
+   "parts": [
+    {
+     "zh": "还有一个自己的座位："
+    },
+    {
+     "en": "seat"
+    },
+    {
+     "en": "Please take your seat."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:row",
+    "edge:seat>row",
+    "focus:row"
+   ],
+   "parts": [
+    {
+     "zh": "座位一个挨着一个，排成一排："
+    },
+    {
+     "en": "row"
+    },
+    {
+     "en": "I sit in the first row."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:group",
+    "edge:student>group",
+    "focus:group"
+   ],
+   "parts": [
+    {
+     "zh": "上课讨论的时候，几个同学围在一起，组成一个小组："
+    },
+    {
+     "en": "group"
+    },
+    {
+     "en": "Let's work in groups."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:board,blackboard,classroom"
+   ],
+   "parts": [
+    {
+     "zh": "今天的拼词："
+    },
+    {
+     "en": "black, board, blackboard",
+     "cue": [
+      "focus:blackboard"
+     ]
+    },
+    {
+     "en": "class, room, classroom",
+     "cue": [
+      "focus:classroom"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "上课啦！跟着老师的口令做一做："
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Stand up!",
+     "cue": [
+      "focus:student"
+     ]
+    },
+    {
+     "en": "Good morning, teacher!",
+     "cue": [
+      "focus:teacher"
+     ]
+    },
+    {
+     "en": "Sit down, please.",
+     "cue": [
+      "focus:seat"
+     ]
+    },
+    {
+     "en": "Look at the blackboard.",
+     "cue": [
+      "focus:blackboard"
+     ]
+    },
+    {
+     "en": "Work in groups.",
+     "cue": [
+      "focus:group"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:classroom"
+   ],
+   "parts": [
+    {
+     "en": "classroom"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:board"
+   ],
+   "parts": [
+    {
+     "en": "board"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:blackboard"
+   ],
+   "parts": [
+    {
+     "en": "blackboard"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:chalk"
+   ],
+   "parts": [
+    {
+     "en": "chalk"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:teacher"
+   ],
+   "parts": [
+    {
+     "en": "teacher"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:lesson"
+   ],
+   "parts": [
+    {
+     "en": "lesson"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:student"
+   ],
+   "parts": [
+    {
+     "en": "student, students"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:monitor"
+   ],
+   "parts": [
+    {
+     "en": "monitor"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:desk"
+   ],
+   "parts": [
+    {
+     "en": "desk"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:seat"
+   ],
+   "parts": [
+    {
+     "en": "seat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:row"
+   ],
+   "parts": [
+    {
+     "en": "row"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:group"
+   ],
+   "parts": [
+    {
+     "en": "group"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！明天到了教室，用英语说一说你看到的东西吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

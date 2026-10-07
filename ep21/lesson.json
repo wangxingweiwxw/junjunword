@@ -1,0 +1,779 @@
+{
+ "id": "ep21",
+ "title": "meals",
+ "titleZh": "一日三餐",
+ "episode": "第 21 集",
+ "titleIcon": "lunch",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1950
+  ]
+ },
+ "nodes": [
+  {
+   "id": "breakfast",
+   "word": "breakfast",
+   "ipa": "/ˈbrekfəst/",
+   "zh": "早餐",
+   "icon": "breakfast",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    150,
+    470
+   ]
+  },
+  {
+   "id": "porridge",
+   "word": "porridge",
+   "ipa": "/ˈpɔːrɪdʒ/",
+   "zh": "粥",
+   "icon": "porridge",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    150,
+    150
+   ]
+  },
+  {
+   "id": "pancake",
+   "word": "pancake",
+   "ipa": "/ˈpænkeɪk/",
+   "zh": "薄煎饼",
+   "icon": "pancake",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    150,
+    790
+   ]
+  },
+  {
+   "id": "butter",
+   "word": "butter",
+   "ipa": "/ˈbʌtər/",
+   "zh": "黄油",
+   "icon": "butter",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    450,
+    790
+   ]
+  },
+  {
+   "id": "prefer",
+   "word": "prefer",
+   "ipa": "/prɪˈfɜːr/",
+   "zh": "更喜欢",
+   "icon": "prefer",
+   "kind": "verb",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    450,
+    150
+   ]
+  },
+  {
+   "id": "lunch",
+   "word": "lunch",
+   "ipa": "/lʌntʃ/",
+   "zh": "午餐",
+   "icon": "lunch",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    750,
+    470
+   ]
+  },
+  {
+   "id": "sandwich",
+   "word": "sandwich",
+   "ipa": "/ˈsænwɪtʃ/",
+   "zh": "三明治",
+   "icon": "sandwich",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    750,
+    790
+   ]
+  },
+  {
+   "id": "bread",
+   "word": "bread",
+   "ipa": "/bred/",
+   "zh": "面包",
+   "icon": "bread",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1050,
+    790
+   ]
+  },
+  {
+   "id": "salad",
+   "word": "salad",
+   "ipa": "/ˈsæləd/",
+   "zh": "沙拉",
+   "icon": "salad",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    750,
+    150
+   ]
+  },
+  {
+   "id": "noodles",
+   "word": "noodles",
+   "ipa": "/ˈnuːdlz/",
+   "zh": "面条",
+   "icon": "noodles",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1050,
+    150
+   ]
+  },
+  {
+   "id": "dinner",
+   "word": "dinner",
+   "ipa": "/ˈdɪnər/",
+   "zh": "晚餐",
+   "icon": "dinner",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1350,
+    470
+   ]
+  },
+  {
+   "id": "hamburger",
+   "word": "hamburger",
+   "ipa": "/ˈhæmbɜːrɡər/",
+   "zh": "汉堡包",
+   "icon": "hamburger",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1350,
+    150
+   ]
+  },
+  {
+   "id": "sausage",
+   "word": "sausage",
+   "ipa": "/ˈsɔːsɪdʒ/",
+   "zh": "香肠",
+   "icon": "sausage",
+   "atP": [
+    450,
+    1800
+   ],
+   "at": [
+    1650,
+    470
+   ]
+  },
+  {
+   "id": "spaghetti",
+   "word": "spaghetti",
+   "ipa": "/spəˈɡeti/",
+   "zh": "意大利面",
+   "icon": "spaghetti",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1350,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "breakfast",
+   "to": "porridge"
+  },
+  {
+   "from": "breakfast",
+   "to": "pancake"
+  },
+  {
+   "from": "butter",
+   "to": "pancake",
+   "label": "抹上"
+  },
+  {
+   "from": "prefer",
+   "to": "porridge",
+   "dashed": true
+  },
+  {
+   "from": "lunch",
+   "to": "salad"
+  },
+  {
+   "from": "lunch",
+   "to": "sandwich"
+  },
+  {
+   "from": "lunch",
+   "to": "noodles"
+  },
+  {
+   "from": "sandwich",
+   "to": "bread",
+   "label": "用…做"
+  },
+  {
+   "from": "dinner",
+   "to": "hamburger"
+  },
+  {
+   "from": "dinner",
+   "to": "spaghetti"
+  },
+  {
+   "from": "dinner",
+   "to": "sausage"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！还记得第十八集吗？一天要吃三顿饭。今天，我们来看看每顿饭都吃些什么。"
+    },
+    {
+     "en": "three meals a day"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:breakfast",
+    "focus:breakfast"
+   ],
+   "parts": [
+    {
+     "zh": "早上起床吃的第一顿饭，是早餐："
+    },
+    {
+     "en": "breakfast"
+    },
+    {
+     "zh": "它是两个词拼起来的：打破，加上禁食。睡了一整夜，饿了很久，现在终于可以吃东西啦！"
+    },
+    {
+     "en": "break"
+    },
+    {
+     "en": "fast"
+    },
+    {
+     "en": "breakfast"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:porridge",
+    "edge:breakfast>porridge",
+    "focus:porridge"
+   ],
+   "parts": [
+    {
+     "zh": "早餐可以喝一碗热乎乎的粥："
+    },
+    {
+     "en": "porridge"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pancake",
+    "edge:breakfast>pancake",
+    "focus:pancake"
+   ],
+   "parts": [
+    {
+     "zh": "也可以吃一叠软软的薄煎饼。平底锅，加上蛋糕："
+    },
+    {
+     "en": "pan"
+    },
+    {
+     "en": "cake"
+    },
+    {
+     "en": "pancake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:butter",
+    "edge:butter>pancake",
+    "focus:butter"
+   ],
+   "parts": [
+    {
+     "zh": "煎饼上抹一块黄油，香喷喷的："
+    },
+    {
+     "en": "butter"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:prefer",
+    "edge:prefer>porridge",
+    "focus:prefer"
+   ],
+   "parts": [
+    {
+     "zh": "粥和煎饼，你更喜欢哪一个？更喜欢，英语是"
+    },
+    {
+     "en": "prefer"
+    },
+    {
+     "en": "I prefer porridge for breakfast.",
+     "cue": [
+      "focus:prefer,porridge"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:lunch",
+    "focus:lunch"
+   ],
+   "parts": [
+    {
+     "zh": "中午吃的饭，是午餐："
+    },
+    {
+     "en": "lunch"
+    },
+    {
+     "en": "Lunch time!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sandwich",
+    "edge:lunch>sandwich",
+    "focus:sandwich"
+   ],
+   "parts": [
+    {
+     "zh": "午餐带一个三明治："
+    },
+    {
+     "en": "sandwich"
+    },
+    {
+     "zh": "中间的字母 d，读的时候几乎听不到。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bread",
+    "edge:sandwich>bread",
+    "focus:bread"
+   ],
+   "parts": [
+    {
+     "zh": "三明治是用面包做的："
+    },
+    {
+     "en": "bread"
+    },
+    {
+     "zh": "面包通常不加 s。一片面包，要说"
+    },
+    {
+     "en": "a slice of bread"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:salad",
+    "edge:lunch>salad",
+    "focus:salad"
+   ],
+   "parts": [
+    {
+     "zh": "再配一碗新鲜的蔬菜沙拉："
+    },
+    {
+     "en": "salad"
+    },
+    {
+     "en": "I eat salad at noon."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:noodles",
+    "edge:lunch>noodles",
+    "focus:noodles"
+   ],
+   "parts": [
+    {
+     "zh": "中国小朋友午餐还爱吃面条。面条长长的、很多根，所以总是带着 s："
+    },
+    {
+     "en": "noodles"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:dinner",
+    "focus:dinner"
+   ],
+   "parts": [
+    {
+     "zh": "傍晚，一家人坐在一起，吃晚餐："
+    },
+    {
+     "en": "dinner"
+    },
+    {
+     "en": "Dinner is ready!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hamburger",
+    "edge:dinner>hamburger",
+    "focus:hamburger"
+   ],
+   "parts": [
+    {
+     "zh": "晚餐吃一个大大的汉堡包："
+    },
+    {
+     "en": "hamburger"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:spaghetti",
+    "edge:dinner>spaghetti",
+    "focus:spaghetti"
+   ],
+   "parts": [
+    {
+     "zh": "或者一盘意大利面："
+    },
+    {
+     "en": "spaghetti"
+    },
+    {
+     "zh": "它是从意大利来的词，g 后面跟着一个不发音的 h。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sausage",
+    "edge:dinner>sausage",
+    "focus:sausage"
+   ],
+   "parts": [
+    {
+     "zh": "再来一根烤香肠："
+    },
+    {
+     "en": "sausage"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:breakfast,lunch,dinner"
+   ],
+   "parts": [
+    {
+     "zh": "一天三顿饭，按顺序读一遍："
+    },
+    {
+     "en": "breakfast in the morning",
+     "cue": [
+      "focus:breakfast"
+     ]
+    },
+    {
+     "en": "lunch at noon",
+     "cue": [
+      "focus:lunch"
+     ]
+    },
+    {
+     "en": "dinner in the evening",
+     "cue": [
+      "focus:dinner"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "你最喜欢吃什么呢？像这样说一说吧："
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "For breakfast, I have porridge.",
+     "cue": [
+      "focus:breakfast,porridge"
+     ]
+    },
+    {
+     "en": "For lunch, I have noodles.",
+     "cue": [
+      "focus:lunch,noodles"
+     ]
+    },
+    {
+     "en": "For dinner, I prefer spaghetti!",
+     "cue": [
+      "focus:dinner,spaghetti,prefer"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:breakfast"
+   ],
+   "parts": [
+    {
+     "en": "breakfast"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:porridge"
+   ],
+   "parts": [
+    {
+     "en": "porridge"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pancake"
+   ],
+   "parts": [
+    {
+     "en": "pancake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:butter"
+   ],
+   "parts": [
+    {
+     "en": "butter"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:prefer"
+   ],
+   "parts": [
+    {
+     "en": "prefer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:lunch"
+   ],
+   "parts": [
+    {
+     "en": "lunch"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sandwich"
+   ],
+   "parts": [
+    {
+     "en": "sandwich"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bread"
+   ],
+   "parts": [
+    {
+     "en": "bread"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:salad"
+   ],
+   "parts": [
+    {
+     "en": "salad"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:noodles"
+   ],
+   "parts": [
+    {
+     "en": "noodles"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:dinner"
+   ],
+   "parts": [
+    {
+     "en": "dinner"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hamburger"
+   ],
+   "parts": [
+    {
+     "en": "hamburger"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:spaghetti"
+   ],
+   "parts": [
+    {
+     "en": "spaghetti"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sausage"
+   ],
+   "parts": [
+    {
+     "en": "sausage"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！明天吃早餐的时候，用英语说一说你在吃什么吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

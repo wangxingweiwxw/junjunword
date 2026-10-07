@@ -1,0 +1,736 @@
+{
+ "id": "ep22",
+ "title": "friends",
+ "titleZh": "朋友",
+ "episode": "第 22 集",
+ "titleIcon": "friend",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1320
+  ]
+ },
+ "nodes": [
+  {
+   "id": "friend",
+   "word": "friend",
+   "ipa": "/frend/",
+   "zh": "朋友",
+   "icon": "friend",
+   "plural": "friends",
+   "pluralIpa": "/frendz/",
+   "atP": [
+    150,
+    830
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "let",
+   "word": "let",
+   "ipa": "/let/",
+   "zh": "让；允许",
+   "icon": "let",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "play",
+   "word": "play",
+   "ipa": "/pleɪ/",
+   "zh": "玩",
+   "icon": "play",
+   "kind": "verb",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "with",
+   "word": "with",
+   "ipa": "/wɪð/",
+   "zh": "和……一起",
+   "icon": "with",
+   "kind": "prep",
+   "atP": [
+    150,
+    490
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "game",
+   "word": "game",
+   "ipa": "/ɡeɪm/",
+   "zh": "游戏；比赛",
+   "icon": "game",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "toy",
+   "word": "toy",
+   "ipa": "/tɔɪ/",
+   "zh": "玩具",
+   "icon": "toy",
+   "plural": "toys",
+   "pluralIpa": "/tɔɪz/",
+   "atP": [
+    450,
+    490
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "share",
+   "word": "share",
+   "ipa": "/ʃer/",
+   "zh": "分享",
+   "icon": "share",
+   "kind": "verb",
+   "atP": [
+    750,
+    490
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "greet",
+   "word": "greet",
+   "ipa": "/ɡriːt/",
+   "zh": "打招呼",
+   "icon": "greet",
+   "kind": "verb",
+   "atP": [
+    450,
+    830
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "wave",
+   "word": "wave",
+   "ipa": "/weɪv/",
+   "zh": "挥手",
+   "icon": "wave",
+   "kind": "verb",
+   "atP": [
+    750,
+    830
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "shy",
+   "word": "shy",
+   "ipa": "/ʃaɪ/",
+   "zh": "害羞的",
+   "icon": "shy",
+   "kind": "adj",
+   "atP": [
+    450,
+    1170
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "nervous",
+   "word": "nervous",
+   "ipa": "/ˈnɜːrvəs/",
+   "zh": "紧张的",
+   "icon": "nervous",
+   "kind": "adj",
+   "atP": [
+    750,
+    1170
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  },
+  {
+   "id": "promise",
+   "word": "promise",
+   "ipa": "/ˈprɑːmɪs/",
+   "zh": "承诺；保证",
+   "icon": "promise",
+   "kind": "verb",
+   "atP": [
+    150,
+    1170
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "let",
+   "to": "play"
+  },
+  {
+   "from": "play",
+   "to": "with"
+  },
+  {
+   "from": "play",
+   "to": "game"
+  },
+  {
+   "from": "with",
+   "to": "friend"
+  },
+  {
+   "from": "share",
+   "to": "toy",
+   "dashed": true
+  },
+  {
+   "from": "play",
+   "to": "toy"
+  },
+  {
+   "from": "friend",
+   "to": "greet"
+  },
+  {
+   "from": "greet",
+   "to": "wave",
+   "label": "用手"
+  },
+  {
+   "from": "shy",
+   "to": "nervous",
+   "label": "有点像"
+  },
+  {
+   "from": "friend",
+   "to": "promise"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！你有好朋友吗？今天，我们来学和朋友有关的单词。"
+    },
+    {
+     "en": "friends"
+    },
+    {
+     "zh": "朋友。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:let",
+    "focus:let"
+   ],
+   "parts": [
+    {
+     "zh": "周末到了，妈妈说：去玩吧！让、允许，英语是"
+    },
+    {
+     "en": "let"
+    },
+    {
+     "en": "My mother lets me play."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:play",
+    "edge:let>play",
+    "focus:play"
+   ],
+   "parts": [
+    {
+     "zh": "玩，英语是"
+    },
+    {
+     "en": "play"
+    },
+    {
+     "en": "Let's play!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:with",
+    "edge:play>with",
+    "focus:with"
+   ],
+   "parts": [
+    {
+     "zh": "一个人玩没意思，要和别人一起玩。和……一起，英语是"
+    },
+    {
+     "en": "with"
+    },
+    {
+     "zh": "还记得第十二集的没有吗？with，加上 out，就是没有。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:friend",
+    "edge:with>friend",
+    "focus:friend"
+   ],
+   "parts": [
+    {
+     "zh": "和谁一起玩呢？和好朋友！朋友，英语是"
+    },
+    {
+     "en": "friend"
+    },
+    {
+     "zh": "小提示：中间的 i 不发音哦。"
+    },
+    {
+     "en": "I play with my friends.",
+     "cue": [
+      "plural:friend"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:game",
+    "edge:play>game",
+    "focus:game"
+   ],
+   "parts": [
+    {
+     "zh": "我们一起玩游戏："
+    },
+    {
+     "en": "game"
+    },
+    {
+     "en": "Let's play a game!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:toy",
+    "edge:play>toy",
+    "focus:toy"
+   ],
+   "parts": [
+    {
+     "zh": "还可以一起玩玩具："
+    },
+    {
+     "en": "toy"
+    },
+    {
+     "zh": "很多玩具：",
+     "cue": [
+      "plural:toy"
+     ]
+    },
+    {
+     "en": "toys"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:share",
+    "edge:share>toy",
+    "focus:share"
+   ],
+   "parts": [
+    {
+     "zh": "好朋友会把自己的玩具拿出来，和大家一起玩。分享，英语是"
+    },
+    {
+     "en": "share"
+    },
+    {
+     "en": "We can share toys."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:greet",
+    "edge:friend>greet",
+    "focus:greet"
+   ],
+   "parts": [
+    {
+     "zh": "见到朋友，先要打个招呼："
+    },
+    {
+     "en": "greet"
+    },
+    {
+     "en": "Hello, friend!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wave",
+    "edge:greet>wave",
+    "focus:wave"
+   ],
+   "parts": [
+    {
+     "zh": "离得远，就举起手来挥一挥："
+    },
+    {
+     "en": "wave"
+    },
+    {
+     "en": "Wave goodbye!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:shy",
+    "focus:shy"
+   ],
+   "parts": [
+    {
+     "zh": "有的小朋友见到新朋友，会脸红，不好意思说话，那是害羞："
+    },
+    {
+     "en": "shy"
+    },
+    {
+     "en": "Don't be shy!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:nervous",
+    "edge:shy>nervous",
+    "focus:nervous"
+   ],
+   "parts": [
+    {
+     "zh": "心里怦怦跳，手心冒汗，是紧张："
+    },
+    {
+     "en": "nervous"
+    },
+    {
+     "zh": "别紧张，笑一笑，主动打个招呼就好啦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:promise",
+    "edge:friend>promise",
+    "focus:promise"
+   ],
+   "parts": [
+    {
+     "zh": "好朋友之间，说到就要做到。我们勾勾手指，做一个承诺："
+    },
+    {
+     "en": "promise"
+    },
+    {
+     "en": "I promise!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:greet,wave"
+   ],
+   "parts": [
+    {
+     "zh": "打招呼的两种方式："
+    },
+    {
+     "en": "greet",
+     "cue": [
+      "focus:greet"
+     ]
+    },
+    {
+     "en": "wave",
+     "cue": [
+      "focus:wave"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:shy,nervous"
+   ],
+   "parts": [
+    {
+     "zh": "两种不好意思的感觉："
+    },
+    {
+     "en": "shy",
+     "cue": [
+      "focus:shy"
+     ]
+    },
+    {
+     "en": "nervous",
+     "cue": [
+      "focus:nervous"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们来演一演，交一个新朋友吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Hi! I'm Lele. What's your name?",
+     "cue": [
+      "focus:greet"
+     ]
+    },
+    {
+     "en": "Do you want to play with me?",
+     "cue": [
+      "focus:play,with"
+     ]
+    },
+    {
+     "en": "We can share my toys.",
+     "cue": [
+      "focus:share,toy"
+     ]
+    },
+    {
+     "en": "Let's be friends!",
+     "cue": [
+      "focus:friend"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:let"
+   ],
+   "parts": [
+    {
+     "en": "let"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:play"
+   ],
+   "parts": [
+    {
+     "en": "play"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:with"
+   ],
+   "parts": [
+    {
+     "en": "with"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:friend"
+   ],
+   "parts": [
+    {
+     "en": "friend, friends"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:game"
+   ],
+   "parts": [
+    {
+     "en": "game"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:toy"
+   ],
+   "parts": [
+    {
+     "en": "toy, toys"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:share"
+   ],
+   "parts": [
+    {
+     "en": "share"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:greet"
+   ],
+   "parts": [
+    {
+     "en": "greet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wave"
+   ],
+   "parts": [
+    {
+     "en": "wave"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:shy"
+   ],
+   "parts": [
+    {
+     "en": "shy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:nervous"
+   ],
+   "parts": [
+    {
+     "en": "nervous"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:promise"
+   ],
+   "parts": [
+    {
+     "en": "promise"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！明天，用英语和你的好朋友打个招呼吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

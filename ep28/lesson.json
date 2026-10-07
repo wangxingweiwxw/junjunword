@@ -1,0 +1,719 @@
+{
+ "id": "ep28",
+ "title": "measures",
+ "titleZh": "大小和多少",
+ "episode": "第 28 集",
+ "titleIcon": "weigh",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "tall",
+   "word": "tall",
+   "ipa": "/tɔːl/",
+   "zh": "高的",
+   "icon": "tall",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "short",
+   "word": "short",
+   "ipa": "/ʃɔːrt/",
+   "zh": "矮的；短的",
+   "icon": "short",
+   "kind": "adj",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "long",
+   "word": "long",
+   "ipa": "/lɔːŋ/",
+   "zh": "长的",
+   "icon": "long",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "straight",
+   "word": "straight",
+   "ipa": "/streɪt/",
+   "zh": "直的",
+   "icon": "straight",
+   "kind": "adj",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "inch",
+   "word": "inch",
+   "ipa": "/ɪntʃ/",
+   "zh": "英寸",
+   "icon": "inch",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "thick",
+   "word": "thick",
+   "ipa": "/θɪk/",
+   "zh": "厚的",
+   "icon": "thick",
+   "kind": "adj",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "thin",
+   "word": "thin",
+   "ipa": "/θɪn/",
+   "zh": "薄的；瘦的",
+   "icon": "thin",
+   "kind": "adj",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "lot",
+   "word": "a lot",
+   "ipa": "/ə lɑːt/",
+   "zh": "许多",
+   "icon": "lot",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "much",
+   "word": "much",
+   "ipa": "/mʌtʃ/",
+   "zh": "许多（不可数）",
+   "icon": "much",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "weigh",
+   "word": "weigh",
+   "ipa": "/weɪ/",
+   "zh": "称重",
+   "icon": "weigh",
+   "kind": "verb",
+   "alt": "weight",
+   "altLabel": "名词",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "half",
+   "word": "half",
+   "ipa": "/hæf/",
+   "zh": "一半",
+   "icon": "half",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "quarter",
+   "word": "quarter",
+   "ipa": "/ˈkwɔːrtər/",
+   "zh": "四分之一",
+   "icon": "quarter",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "tall",
+   "to": "short",
+   "label": "反义"
+  },
+  {
+   "from": "short",
+   "to": "long",
+   "label": "反义"
+  },
+  {
+   "from": "straight",
+   "to": "inch",
+   "label": "量一量",
+   "dashed": true
+  },
+  {
+   "from": "thick",
+   "to": "thin",
+   "label": "反义"
+  },
+  {
+   "from": "lot",
+   "to": "much",
+   "label": "也表示多"
+  },
+  {
+   "from": "half",
+   "to": "quarter",
+   "label": "再分"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！东西有高有矮，有厚有薄，有多有少。今天，我们来比一比！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:tall",
+    "focus:tall"
+   ],
+   "parts": [
+    {
+     "zh": "爸爸个子高高的："
+    },
+    {
+     "en": "tall"
+    },
+    {
+     "en": "Dad is tall."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:short",
+    "edge:tall>short",
+    "focus:short"
+   ],
+   "parts": [
+    {
+     "zh": "我个子矮矮的："
+    },
+    {
+     "en": "short"
+    },
+    {
+     "en": "I am short."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:long",
+    "edge:short>long",
+    "focus:long"
+   ],
+   "parts": [
+    {
+     "zh": "这个词还有一个意思：短。短的反面，是长："
+    },
+    {
+     "en": "long"
+    },
+    {
+     "zh": "长颈鹿的脖子长长的："
+    },
+    {
+     "en": "The giraffe has a long neck."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tall,short,long"
+   ],
+   "parts": [
+    {
+     "zh": "记住哦：人的个子，用高和矮；东西的长度，用长和短。"
+    },
+    {
+     "en": "tall, short",
+     "cue": [
+      "focus:tall,short"
+     ]
+    },
+    {
+     "en": "long, short",
+     "cue": [
+      "focus:long,short"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:straight",
+    "focus:straight"
+   ],
+   "parts": [
+    {
+     "zh": "尺子的边，是笔直笔直的："
+    },
+    {
+     "en": "straight"
+    },
+    {
+     "zh": "中间的 g h，又不发音了。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:inch",
+    "edge:straight>inch",
+    "focus:inch"
+   ],
+   "parts": [
+    {
+     "zh": "用尺子量一量。尺子上的一小段，是一英寸，差不多是你大拇指那么宽："
+    },
+    {
+     "en": "inch"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:thick",
+    "focus:thick"
+   ],
+   "parts": [
+    {
+     "zh": "词典厚厚的："
+    },
+    {
+     "en": "thick"
+    },
+    {
+     "zh": "开头的 t h，舌尖放在牙齿中间。"
+    },
+    {
+     "en": "a thick book"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:thin",
+    "edge:thick>thin",
+    "focus:thin"
+   ],
+   "parts": [
+    {
+     "zh": "作业本薄薄的："
+    },
+    {
+     "en": "thin"
+    },
+    {
+     "en": "a thin book"
+    },
+    {
+     "zh": "说一个人很瘦，也可以用这个词。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:lot",
+    "focus:lot"
+   ],
+   "parts": [
+    {
+     "zh": "爆米花装了满满一桶，好多好多："
+    },
+    {
+     "en": "a lot"
+    },
+    {
+     "en": "a lot of popcorn"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:much",
+    "edge:lot>much",
+    "focus:much"
+   ],
+   "parts": [
+    {
+     "zh": "牛奶、水这样数不清的东西，问有多少，要用"
+    },
+    {
+     "en": "much"
+    },
+    {
+     "en": "How much milk do you want?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:weigh",
+    "focus:weigh"
+   ],
+   "parts": [
+    {
+     "zh": "东西有多重，放在秤上称一称："
+    },
+    {
+     "en": "weigh"
+    },
+    {
+     "zh": "它的名词是重量：",
+     "cue": [
+      "alt:weigh"
+     ]
+    },
+    {
+     "en": "weight"
+    },
+    {
+     "zh": "这两个词里，g h 都不发音。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:half",
+    "focus:half"
+   ],
+   "parts": [
+    {
+     "zh": "一个披萨，从中间切一刀，每份是一半："
+    },
+    {
+     "en": "half"
+    },
+    {
+     "zh": "小提示：l 不发音。"
+    },
+    {
+     "en": "half a pizza"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:quarter",
+    "edge:half>quarter",
+    "focus:quarter"
+   ],
+   "parts": [
+    {
+     "zh": "再切一刀，切成四块，每一块是四分之一："
+    },
+    {
+     "en": "quarter"
+    },
+    {
+     "zh": "一刻钟，也是一小时的四分之一："
+    },
+    {
+     "en": "a quarter of an hour"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "今天藏着好几个不发音的字母，我们一起找一找："
+    },
+    {
+     "en": "straight",
+     "cue": [
+      "focus:straight"
+     ]
+    },
+    {
+     "en": "weigh",
+     "cue": [
+      "focus:weigh"
+     ]
+    },
+    {
+     "en": "half",
+     "cue": [
+      "focus:half"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "比一比，选一选！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "A giraffe is tall.",
+     "cue": [
+      "focus:tall"
+     ]
+    },
+    {
+     "en": "A dictionary is thick.",
+     "cue": [
+      "focus:thick"
+     ]
+    },
+    {
+     "en": "I want half a pizza, please.",
+     "cue": [
+      "focus:half"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tall"
+   ],
+   "parts": [
+    {
+     "en": "tall"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:short"
+   ],
+   "parts": [
+    {
+     "en": "short"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:long"
+   ],
+   "parts": [
+    {
+     "en": "long"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:straight"
+   ],
+   "parts": [
+    {
+     "en": "straight"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:inch"
+   ],
+   "parts": [
+    {
+     "en": "inch"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:thick"
+   ],
+   "parts": [
+    {
+     "en": "thick"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:thin"
+   ],
+   "parts": [
+    {
+     "en": "thin"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:lot"
+   ],
+   "parts": [
+    {
+     "en": "a lot"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:much"
+   ],
+   "parts": [
+    {
+     "en": "much"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:weigh"
+   ],
+   "parts": [
+    {
+     "en": "weigh, weight"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:half"
+   ],
+   "parts": [
+    {
+     "en": "half"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:quarter"
+   ],
+   "parts": [
+    {
+     "en": "quarter"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！回家找两样东西，用英语比一比它们吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

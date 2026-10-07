@@ -1,0 +1,633 @@
+{
+ "id": "ep26",
+ "title": "relatives",
+ "titleZh": "亲戚",
+ "episode": "第 26 集",
+ "titleIcon": "relative",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1380
+  ]
+ },
+ "nodes": [
+  {
+   "id": "grandparents",
+   "word": "grandparents",
+   "ipa": "/ˈɡrænperənts/",
+   "zh": "祖父母",
+   "icon": "grandparents",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "grandfather",
+   "word": "grandfather",
+   "ipa": "/ˈɡrænfɑːðər/",
+   "zh": "爷爷；外公",
+   "icon": "grandfather",
+   "alt": "grandpa",
+   "altLabel": "口语",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "grandmother",
+   "word": "grandmother",
+   "ipa": "/ˈɡrænmʌðər/",
+   "zh": "奶奶；外婆",
+   "icon": "grandmother",
+   "alt": "grandma",
+   "altLabel": "口语",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "grandson",
+   "word": "grandson",
+   "ipa": "/ˈɡrænsʌn/",
+   "zh": "孙子；外孙",
+   "icon": "grandson",
+   "atP": [
+    150,
+    510
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "granddaughter",
+   "word": "granddaughter",
+   "ipa": "/ˈɡrændɔːtər/",
+   "zh": "孙女；外孙女",
+   "icon": "granddaughter",
+   "atP": [
+    750,
+    510
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "uncle",
+   "word": "uncle",
+   "ipa": "/ˈʌŋkl/",
+   "zh": "叔叔；舅舅",
+   "icon": "uncle",
+   "atP": [
+    150,
+    870
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "aunt",
+   "word": "aunt",
+   "ipa": "/ænt/",
+   "zh": "阿姨；姑姑",
+   "icon": "aunt",
+   "atP": [
+    750,
+    870
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "cousin",
+   "word": "cousin",
+   "ipa": "/ˈkʌzn/",
+   "zh": "堂/表兄弟姐妹",
+   "icon": "cousin",
+   "plural": "cousins",
+   "pluralIpa": "/ˈkʌznz/",
+   "atP": [
+    450,
+    870
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "relative",
+   "word": "relative",
+   "ipa": "/ˈrelətɪv/",
+   "zh": "亲戚",
+   "icon": "relative",
+   "plural": "relatives",
+   "pluralIpa": "/ˈrelətɪvz/",
+   "atP": [
+    450,
+    1230
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "grandfather",
+   "to": "grandparents"
+  },
+  {
+   "from": "grandmother",
+   "to": "grandparents"
+  },
+  {
+   "from": "grandparents",
+   "to": "grandson"
+  },
+  {
+   "from": "grandparents",
+   "to": "granddaughter"
+  },
+  {
+   "from": "uncle",
+   "to": "cousin"
+  },
+  {
+   "from": "aunt",
+   "to": "cousin"
+  },
+  {
+   "from": "cousin",
+   "to": "relative"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！过年的时候，家里来了好多亲戚。还记得第二集的家人吗？今天，我们认识更多家人。"
+    },
+    {
+     "en": "relatives"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "今天有一个小秘密：在家人的名字前面加上"
+    },
+    {
+     "en": "grand"
+    },
+    {
+     "zh": "就变成了长一辈，或者小一辈的家人。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:grandfather",
+    "focus:grandfather"
+   ],
+   "parts": [
+    {
+     "zh": "爸爸的爸爸，或者妈妈的爸爸，就是爷爷或外公："
+    },
+    {
+     "en": "father"
+    },
+    {
+     "en": "grandfather"
+    },
+    {
+     "zh": "在家里，可以亲切地叫他",
+     "cue": [
+      "alt:grandfather"
+     ]
+    },
+    {
+     "en": "Grandpa"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:grandmother",
+    "focus:grandmother"
+   ],
+   "parts": [
+    {
+     "zh": "爸爸的妈妈，或者妈妈的妈妈，就是奶奶或外婆："
+    },
+    {
+     "en": "mother"
+    },
+    {
+     "en": "grandmother"
+    },
+    {
+     "zh": "亲切地叫她",
+     "cue": [
+      "alt:grandmother"
+     ]
+    },
+    {
+     "en": "Grandma"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:grandparents",
+    "edge:grandfather>grandparents",
+    "edge:grandmother>grandparents",
+    "focus:grandparents"
+   ],
+   "parts": [
+    {
+     "zh": "他们两个合在一起，就是祖父母："
+    },
+    {
+     "en": "parents"
+    },
+    {
+     "en": "grandparents"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:grandson",
+    "edge:grandparents>grandson",
+    "focus:grandson"
+   ],
+   "parts": [
+    {
+     "zh": "对爷爷奶奶来说，你如果是男孩，就是他们的孙子："
+    },
+    {
+     "en": "son"
+    },
+    {
+     "en": "grandson"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:granddaughter",
+    "edge:grandparents>granddaughter",
+    "focus:granddaughter"
+   ],
+   "parts": [
+    {
+     "zh": "如果是女孩，就是孙女："
+    },
+    {
+     "en": "daughter"
+    },
+    {
+     "en": "granddaughter"
+    },
+    {
+     "zh": "注意哦，这里有两个字母 d 连在一起。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:grandfather,grandmother,grandson,granddaughter"
+   ],
+   "parts": [
+    {
+     "zh": "加上 grand，家人就变多啦："
+    },
+    {
+     "en": "father, grandfather",
+     "cue": [
+      "focus:grandfather"
+     ]
+    },
+    {
+     "en": "mother, grandmother",
+     "cue": [
+      "focus:grandmother"
+     ]
+    },
+    {
+     "en": "son, grandson",
+     "cue": [
+      "focus:grandson"
+     ]
+    },
+    {
+     "en": "daughter, granddaughter",
+     "cue": [
+      "focus:granddaughter"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:uncle",
+    "focus:uncle"
+   ],
+   "parts": [
+    {
+     "zh": "爸爸妈妈的兄弟，叔叔、舅舅、伯伯，英语都叫"
+    },
+    {
+     "en": "uncle"
+    },
+    {
+     "en": "My uncle is my grandfather's son."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:aunt",
+    "focus:aunt"
+   ],
+   "parts": [
+    {
+     "zh": "爸爸妈妈的姐妹，姑姑、阿姨，英语都叫"
+    },
+    {
+     "en": "aunt"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cousin",
+    "edge:uncle>cousin",
+    "edge:aunt>cousin",
+    "focus:cousin"
+   ],
+   "parts": [
+    {
+     "zh": "叔叔阿姨家的孩子，堂哥、表妹，英语都叫"
+    },
+    {
+     "en": "cousin"
+    },
+    {
+     "zh": "小提示：中间的 o u，读短短的 a。"
+    },
+    {
+     "en": "My cousin is in the car."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:relative",
+    "edge:cousin>relative",
+    "focus:relative"
+   ],
+   "parts": [
+    {
+     "zh": "所有这些亲人，合在一起，就是亲戚："
+    },
+    {
+     "en": "relative"
+    },
+    {
+     "zh": "很多亲戚：",
+     "cue": [
+      "plural:relative"
+     ]
+    },
+    {
+     "en": "relatives"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:uncle,aunt,cousin"
+   ],
+   "parts": [
+    {
+     "zh": "中文要分叔叔、舅舅、姑姑、阿姨，英语简单多了："
+    },
+    {
+     "en": "uncle",
+     "cue": [
+      "focus:uncle"
+     ]
+    },
+    {
+     "en": "aunt",
+     "cue": [
+      "focus:aunt"
+     ]
+    },
+    {
+     "en": "cousin",
+     "cue": [
+      "focus:cousin"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们来介绍一下全家福吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "This is my grandpa.",
+     "cue": [
+      "focus:grandfather"
+     ]
+    },
+    {
+     "en": "This is my grandma.",
+     "cue": [
+      "focus:grandmother"
+     ]
+    },
+    {
+     "en": "These are my uncle and aunt.",
+     "cue": [
+      "focus:uncle,aunt"
+     ]
+    },
+    {
+     "en": "And this is my cousin!",
+     "cue": [
+      "focus:cousin"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:grandfather"
+   ],
+   "parts": [
+    {
+     "en": "grandfather, grandpa"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:grandmother"
+   ],
+   "parts": [
+    {
+     "en": "grandmother, grandma"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:grandparents"
+   ],
+   "parts": [
+    {
+     "en": "grandparents"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:grandson"
+   ],
+   "parts": [
+    {
+     "en": "grandson"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:granddaughter"
+   ],
+   "parts": [
+    {
+     "en": "granddaughter"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:uncle"
+   ],
+   "parts": [
+    {
+     "en": "uncle"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:aunt"
+   ],
+   "parts": [
+    {
+     "en": "aunt"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cousin"
+   ],
+   "parts": [
+    {
+     "en": "cousin"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:relative"
+   ],
+   "parts": [
+    {
+     "en": "relative, relatives"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！下次见到亲戚的时候，用英语和他们打个招呼吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,684 @@
+{
+ "duration": 148.517,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！嘘，你听，是什么声音？今天，我们来学音乐。",
+   "t0": 0.4,
+   "t1": 6.755,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "music",
+   "t0": 7.005,
+   "t1": 7.595,
+   "cue": []
+  },
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "音乐。",
+   "t0": 8.095,
+   "t1": 8.597,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "耳朵听到的一切，都叫声音：",
+   "t0": 9.447,
+   "t1": 11.909,
+   "cue": [
+    "map",
+    "show:sound",
+    "focus:sound"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "sound",
+   "t0": 12.159,
+   "t1": 12.662,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "What's that sound?",
+   "t0": 13.162,
+   "t1": 14.214,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "吵吵闹闹、让人想捂住耳朵的声音，是噪音：",
+   "t0": 15.314,
+   "t1": 19.295,
+   "cue": [
+    "show:noise",
+    "edge:sound>noise",
+    "focus:noise"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "noise",
+   "t0": 19.545,
+   "t1": 20.154,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "加上 y，就是吵闹的：",
+   "t0": 20.654,
+   "t1": 22.532,
+   "cue": [
+    "alt:noise"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "noisy",
+   "t0": 22.782,
+   "t1": 23.391,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "好听的、让人想跳舞的声音，是音乐：",
+   "t0": 24.491,
+   "t1": 27.784,
+   "cue": [
+    "show:music",
+    "edge:sound>music",
+    "focus:music"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "music",
+   "t0": 28.034,
+   "t1": 28.624,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "I love music!",
+   "t0": 29.124,
+   "t1": 30.142,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "很多人一起听乐队表演，是音乐会：",
+   "t0": 31.242,
+   "t1": 34.223,
+   "cue": [
+    "show:concert",
+    "edge:concert>music",
+    "focus:concert"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "concert",
+   "t0": 34.473,
+   "t1": 35.141,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "音乐会上，有黑白琴键的钢琴：",
+   "t0": 36.241,
+   "t1": 39.013,
+   "cue": [
+    "show:piano",
+    "edge:concert>piano",
+    "focus:piano"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "piano",
+   "t0": 39.263,
+   "t1": 39.852,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "夹在下巴下面拉的小提琴：",
+   "t0": 40.952,
+   "t1": 43.19,
+   "cue": [
+    "show:violin",
+    "edge:concert>violin",
+    "focus:violin"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "violin",
+   "t0": 43.44,
+   "t1": 44.106,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "抱在怀里弹的吉他：",
+   "t0": 45.206,
+   "t1": 46.66,
+   "cue": [
+    "show:guitar",
+    "edge:concert>guitar",
+    "focus:guitar"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "guitar",
+   "t0": 46.91,
+   "t1": 47.5,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "小提示：开头的 g u，只读 g。",
+   "t0": 48.0,
+   "t1": 50.996,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "咚咚咚，敲起来的鼓：",
+   "t0": 51.846,
+   "t1": 53.708,
+   "cue": [
+    "show:drum",
+    "edge:concert>drum",
+    "focus:drum"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "drum",
+   "t0": 53.958,
+   "t1": 54.416,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "弹钢琴、拉小提琴、弹吉他、打鼓，英语里都用同一个词 play：",
+   "t0": 55.516,
+   "t1": 61.405,
+   "cue": [
+    "focus:piano,violin,guitar,drum"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "play the piano",
+   "t0": 61.655,
+   "t1": 62.649,
+   "cue": [
+    "focus:piano"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "play the violin",
+   "t0": 63.149,
+   "t1": 64.234,
+   "cue": [
+    "focus:violin"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "play the guitar",
+   "t0": 64.734,
+   "t1": 65.727,
+   "cue": [
+    "focus:guitar"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "play the drums",
+   "t0": 66.227,
+   "t1": 67.224,
+   "cue": [
+    "focus:drum"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "音乐会上，还有好听的歌曲：",
+   "t0": 68.324,
+   "t1": 70.708,
+   "cue": [
+    "show:song",
+    "edge:concert>song",
+    "focus:song"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "song",
+   "t0": 70.958,
+   "t1": 71.516,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "唱歌，是",
+   "t0": 72.616,
+   "t1": 73.737,
+   "cue": [
+    "show:sing",
+    "edge:song>sing",
+    "focus:sing"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "sing",
+   "t0": 73.987,
+   "t1": 74.495,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "sing a song",
+   "t0": 74.995,
+   "t1": 75.96,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "加上 e r，就是唱歌的人，歌手：",
+   "t0": 76.46,
+   "t1": 79.43,
+   "cue": [
+    "alt:sing"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "singer",
+   "t0": 79.68,
+   "t1": 80.226,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "唱歌的时候，从嗓子里发出来的声音，是嗓音：",
+   "t0": 81.326,
+   "t1": 85.413,
+   "cue": [
+    "show:voice",
+    "edge:sing>voice",
+    "focus:voice"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "voice",
+   "t0": 85.663,
+   "t1": 86.221,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "She has a sweet voice.",
+   "t0": 86.721,
+   "t1": 88.16,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "要是唱跑了调，听起来就很糟糕：",
+   "t0": 89.26,
+   "t1": 91.971,
+   "cue": [
+    "show:terrible",
+    "edge:voice>terrible",
+    "focus:terrible"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "terrible",
+   "t0": 92.221,
+   "t1": 92.836,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "不过没关系，多练习就会越唱越好！",
+   "t0": 93.336,
+   "t1": 96.579,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "三种声音，比一比：",
+   "t0": 97.429,
+   "t1": 99.238,
+   "cue": [
+    "focus:sound,noise,voice"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "sound",
+   "t0": 99.488,
+   "t1": 99.99,
+   "cue": [
+    "focus:sound"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "noise",
+   "t0": 100.49,
+   "t1": 101.099,
+   "cue": [
+    "focus:noise"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "voice",
+   "t0": 101.599,
+   "t1": 102.157,
+   "cue": [
+    "focus:voice"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "我们也来开一场小小音乐会吧！",
+   "t0": 103.257,
+   "t1": 105.419,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "I play the guitar.",
+   "t0": 106.269,
+   "t1": 107.422,
+   "cue": [
+    "focus:guitar"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "You play the drums.",
+   "t0": 107.922,
+   "t1": 109.104,
+   "cue": [
+    "focus:drum"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Let's sing a song together!",
+   "t0": 109.604,
+   "t1": 111.155,
+   "cue": [
+    "focus:sing,song"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 112.255,
+   "t1": 115.506,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "sound",
+   "t0": 116.356,
+   "t1": 116.859,
+   "cue": [
+    "focus:sound"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "noise, noisy",
+   "t0": 117.959,
+   "t1": 119.337,
+   "cue": [
+    "focus:noise"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "music",
+   "t0": 120.437,
+   "t1": 121.027,
+   "cue": [
+    "focus:music"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "concert",
+   "t0": 122.127,
+   "t1": 122.795,
+   "cue": [
+    "focus:concert"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "piano",
+   "t0": 123.895,
+   "t1": 124.484,
+   "cue": [
+    "focus:piano"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "violin",
+   "t0": 125.584,
+   "t1": 126.249,
+   "cue": [
+    "focus:violin"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "guitar",
+   "t0": 127.349,
+   "t1": 127.939,
+   "cue": [
+    "focus:guitar"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "drum",
+   "t0": 129.039,
+   "t1": 129.498,
+   "cue": [
+    "focus:drum"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "song",
+   "t0": 130.598,
+   "t1": 131.156,
+   "cue": [
+    "focus:song"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "sing, singer",
+   "t0": 132.256,
+   "t1": 133.434,
+   "cue": [
+    "focus:sing"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "voice",
+   "t0": 134.534,
+   "t1": 135.092,
+   "cue": [
+    "focus:voice"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "terrible",
+   "t0": 136.192,
+   "t1": 136.807,
+   "cue": [
+    "focus:terrible"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！今天回家，唱一首你最喜欢的英文歌吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 137.907,
+   "t1": 146.667,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "sound": [
+   0.25,
+   0.753
+  ],
+  "noise": [
+   1.003,
+   1.612
+  ],
+  "noise:alt": [
+   1.862,
+   2.471
+  ],
+  "music": [
+   2.721,
+   3.311
+  ],
+  "concert": [
+   3.561,
+   4.229
+  ],
+  "song": [
+   4.479,
+   5.037
+  ],
+  "sing": [
+   5.287,
+   5.794
+  ],
+  "sing:alt": [
+   6.044,
+   6.591
+  ],
+  "voice": [
+   6.841,
+   7.398
+  ],
+  "terrible": [
+   7.648,
+   8.263
+  ],
+  "piano": [
+   8.513,
+   9.102
+  ],
+  "violin": [
+   9.352,
+   10.017
+  ],
+  "guitar": [
+   10.267,
+   10.857
+  ],
+  "drum": [
+   11.107,
+   11.566
+  ]
+ }
+}

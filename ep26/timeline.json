@@ -1,0 +1,659 @@
+{
+ "duration": 160.6,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！过年的时候，家里来了好多亲戚。还记得第二集的家人吗？今天，我们认识更多家人。",
+   "t0": 0.4,
+   "t1": 9.924,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "relatives",
+   "t0": 10.174,
+   "t1": 11.029,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "今天有一个小秘密：在家人的名字前面加上",
+   "t0": 12.129,
+   "t1": 15.758,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "grand",
+   "t0": 16.008,
+   "t1": 16.469,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "就变成了长一辈，或者小一辈的家人。",
+   "t0": 16.969,
+   "t1": 19.951,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "爸爸的爸爸，或者妈妈的爸爸，就是爷爷或外公：",
+   "t0": 20.801,
+   "t1": 24.926,
+   "cue": [
+    "map",
+    "show:grandfather",
+    "focus:grandfather"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "father",
+   "t0": 25.176,
+   "t1": 25.652,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "grandfather",
+   "t0": 26.152,
+   "t1": 26.89,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "在家里，可以亲切地叫他",
+   "t0": 27.39,
+   "t1": 29.594,
+   "cue": [
+    "alt:grandfather"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Grandpa",
+   "t0": 29.844,
+   "t1": 30.407,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "爸爸的妈妈，或者妈妈的妈妈，就是奶奶或外婆：",
+   "t0": 31.507,
+   "t1": 35.692,
+   "cue": [
+    "show:grandmother",
+    "focus:grandmother"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "mother",
+   "t0": 35.942,
+   "t1": 36.421,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "grandmother",
+   "t0": 36.921,
+   "t1": 37.603,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "亲切地叫她",
+   "t0": 38.103,
+   "t1": 39.155,
+   "cue": [
+    "alt:grandmother"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Grandma",
+   "t0": 39.405,
+   "t1": 39.972,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "他们两个合在一起，就是祖父母：",
+   "t0": 41.072,
+   "t1": 43.741,
+   "cue": [
+    "show:grandparents",
+    "edge:grandfather>grandparents",
+    "edge:grandmother>grandparents",
+    "focus:grandparents"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "parents",
+   "t0": 43.991,
+   "t1": 44.575,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "grandparents",
+   "t0": 45.075,
+   "t1": 45.925,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "对爷爷奶奶来说，你如果是男孩，就是他们的孙子：",
+   "t0": 47.025,
+   "t1": 51.197,
+   "cue": [
+    "show:grandson",
+    "edge:grandparents>grandson",
+    "focus:grandson"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "son",
+   "t0": 51.447,
+   "t1": 51.961,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "grandson",
+   "t0": 52.461,
+   "t1": 53.169,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "如果是女孩，就是孙女：",
+   "t0": 54.269,
+   "t1": 56.327,
+   "cue": [
+    "show:granddaughter",
+    "edge:grandparents>granddaughter",
+    "focus:granddaughter"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "daughter",
+   "t0": 56.577,
+   "t1": 57.066,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "granddaughter",
+   "t0": 57.566,
+   "t1": 58.291,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "注意哦，这里有两个字母 d 连在一起。",
+   "t0": 58.791,
+   "t1": 61.753,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "加上 grand，家人就变多啦：",
+   "t0": 62.603,
+   "t1": 64.882,
+   "cue": [
+    "focus:grandfather,grandmother,grandson,granddaughter"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "father, grandfather",
+   "t0": 65.132,
+   "t1": 66.644,
+   "cue": [
+    "focus:grandfather"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "mother, grandmother",
+   "t0": 67.144,
+   "t1": 68.532,
+   "cue": [
+    "focus:grandmother"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "son, grandson",
+   "t0": 69.032,
+   "t1": 70.457,
+   "cue": [
+    "focus:grandson"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "daughter, granddaughter",
+   "t0": 70.957,
+   "t1": 72.367,
+   "cue": [
+    "focus:granddaughter"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "爸爸妈妈的兄弟，叔叔、舅舅、伯伯，英语都叫",
+   "t0": 73.467,
+   "t1": 78.048,
+   "cue": [
+    "show:uncle",
+    "focus:uncle"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "uncle",
+   "t0": 78.298,
+   "t1": 78.816,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "My uncle is my grandfather's son.",
+   "t0": 79.316,
+   "t1": 81.518,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "爸爸妈妈的姐妹，姑姑、阿姨，英语都叫",
+   "t0": 82.618,
+   "t1": 86.412,
+   "cue": [
+    "show:aunt",
+    "focus:aunt"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "aunt",
+   "t0": 86.662,
+   "t1": 87.079,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "叔叔阿姨家的孩子，堂哥、表妹，英语都叫",
+   "t0": 88.179,
+   "t1": 92.292,
+   "cue": [
+    "show:cousin",
+    "edge:uncle>cousin",
+    "edge:aunt>cousin",
+    "focus:cousin"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "cousin",
+   "t0": 92.542,
+   "t1": 93.098,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "小提示：中间的 o u，读短短的 a。",
+   "t0": 93.598,
+   "t1": 96.831,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "My cousin is in the car.",
+   "t0": 97.081,
+   "t1": 98.618,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "所有这些亲人，合在一起，就是亲戚：",
+   "t0": 99.718,
+   "t1": 103.152,
+   "cue": [
+    "show:relative",
+    "edge:cousin>relative",
+    "focus:relative"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "relative",
+   "t0": 103.402,
+   "t1": 104.143,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "很多亲戚：",
+   "t0": 104.643,
+   "t1": 105.53,
+   "cue": [
+    "plural:relative"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "relatives",
+   "t0": 105.78,
+   "t1": 106.635,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "中文要分叔叔、舅舅、姑姑、阿姨，英语简单多了：",
+   "t0": 107.735,
+   "t1": 112.524,
+   "cue": [
+    "focus:uncle,aunt,cousin"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "uncle",
+   "t0": 112.774,
+   "t1": 113.292,
+   "cue": [
+    "focus:uncle"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "aunt",
+   "t0": 113.792,
+   "t1": 114.209,
+   "cue": [
+    "focus:aunt"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "cousin",
+   "t0": 114.709,
+   "t1": 115.264,
+   "cue": [
+    "focus:cousin"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "我们来介绍一下全家福吧！",
+   "t0": 116.364,
+   "t1": 118.327,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "This is my grandpa.",
+   "t0": 119.177,
+   "t1": 120.359,
+   "cue": [
+    "focus:grandfather"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "This is my grandma.",
+   "t0": 120.859,
+   "t1": 122.03,
+   "cue": [
+    "focus:grandmother"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "These are my uncle and aunt.",
+   "t0": 122.53,
+   "t1": 124.026,
+   "cue": [
+    "focus:uncle,aunt"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "And this is my cousin!",
+   "t0": 124.526,
+   "t1": 125.819,
+   "cue": [
+    "focus:cousin"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 126.919,
+   "t1": 130.17,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "grandfather, grandpa",
+   "t0": 131.02,
+   "t1": 132.597,
+   "cue": [
+    "focus:grandfather"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "grandmother, grandma",
+   "t0": 133.697,
+   "t1": 135.197,
+   "cue": [
+    "focus:grandmother"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "grandparents",
+   "t0": 136.297,
+   "t1": 137.146,
+   "cue": [
+    "focus:grandparents"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "grandson",
+   "t0": 138.246,
+   "t1": 138.955,
+   "cue": [
+    "focus:grandson"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "granddaughter",
+   "t0": 140.055,
+   "t1": 140.78,
+   "cue": [
+    "focus:granddaughter"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "uncle",
+   "t0": 141.88,
+   "t1": 142.398,
+   "cue": [
+    "focus:uncle"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "aunt",
+   "t0": 143.498,
+   "t1": 143.915,
+   "cue": [
+    "focus:aunt"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "cousin",
+   "t0": 145.015,
+   "t1": 145.571,
+   "cue": [
+    "focus:cousin"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "relative, relatives",
+   "t0": 146.671,
+   "t1": 148.377,
+   "cue": [
+    "focus:relative"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "zh",
+   "text": "太棒了！下次见到亲戚的时候，用英语和他们打个招呼吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 149.477,
+   "t1": 158.75,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "grandparents": [
+   0.25,
+   1.099
+  ],
+  "grandfather": [
+   1.349,
+   2.088
+  ],
+  "grandfather:alt": [
+   2.338,
+   2.902
+  ],
+  "grandmother": [
+   3.152,
+   3.834
+  ],
+  "grandmother:alt": [
+   4.084,
+   4.651
+  ],
+  "grandson": [
+   4.901,
+   5.61
+  ],
+  "granddaughter": [
+   5.86,
+   6.585
+  ],
+  "uncle": [
+   6.835,
+   7.353
+  ],
+  "aunt": [
+   7.603,
+   8.02
+  ],
+  "cousin": [
+   8.27,
+   8.826
+  ],
+  "cousin:pl": [
+   9.076,
+   9.757
+  ],
+  "relative": [
+   10.007,
+   10.749
+  ],
+  "relative:pl": [
+   10.999,
+   11.854
+  ]
+ }
+}

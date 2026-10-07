@@ -1,0 +1,701 @@
+{
+ "duration": 161.17,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！东西有高有矮，有厚有薄，有多有少。今天，我们来比一比！",
+   "t0": 0.4,
+   "t1": 7.81,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "爸爸个子高高的：",
+   "t0": 8.66,
+   "t1": 9.937,
+   "cue": [
+    "map",
+    "show:tall",
+    "focus:tall"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "tall",
+   "t0": 10.187,
+   "t1": 10.629,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "Dad is tall.",
+   "t0": 11.129,
+   "t1": 12.041,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "我个子矮矮的：",
+   "t0": 13.141,
+   "t1": 14.158,
+   "cue": [
+    "show:short",
+    "edge:tall>short",
+    "focus:short"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "short",
+   "t0": 14.408,
+   "t1": 14.961,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "I am short.",
+   "t0": 15.461,
+   "t1": 16.298,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "这个词还有一个意思：短。短的反面，是长：",
+   "t0": 17.398,
+   "t1": 21.876,
+   "cue": [
+    "show:long",
+    "edge:short>long",
+    "focus:long"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "long",
+   "t0": 22.126,
+   "t1": 22.664,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "长颈鹿的脖子长长的：",
+   "t0": 23.164,
+   "t1": 24.994,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "The giraffe has a long neck.",
+   "t0": 25.244,
+   "t1": 26.877,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "记住哦：人的个子，用高和矮；东西的长度，用长和短。",
+   "t0": 27.977,
+   "t1": 33.106,
+   "cue": [
+    "focus:tall,short,long"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "tall, short",
+   "t0": 33.356,
+   "t1": 34.564,
+   "cue": [
+    "focus:tall,short"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "long, short",
+   "t0": 35.064,
+   "t1": 36.32,
+   "cue": [
+    "focus:long,short"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "尺子的边，是笔直笔直的：",
+   "t0": 37.42,
+   "t1": 39.693,
+   "cue": [
+    "show:straight",
+    "focus:straight"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "straight",
+   "t0": 39.943,
+   "t1": 40.544,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "中间的 g h，又不发音了。",
+   "t0": 41.044,
+   "t1": 43.334,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "用尺子量一量。尺子上的一小段，是一英寸，差不多是你大拇指那么宽：",
+   "t0": 44.184,
+   "t1": 50.727,
+   "cue": [
+    "show:inch",
+    "edge:straight>inch",
+    "focus:inch"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "inch",
+   "t0": 50.977,
+   "t1": 51.364,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "词典厚厚的：",
+   "t0": 52.464,
+   "t1": 53.468,
+   "cue": [
+    "show:thick",
+    "focus:thick"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "thick",
+   "t0": 53.718,
+   "t1": 54.069,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "开头的 t h，舌尖放在牙齿中间。",
+   "t0": 54.569,
+   "t1": 57.756,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "a thick book",
+   "t0": 58.006,
+   "t1": 58.83,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "作业本薄薄的：",
+   "t0": 59.93,
+   "t1": 61.091,
+   "cue": [
+    "show:thin",
+    "edge:thick>thin",
+    "focus:thin"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "thin",
+   "t0": 61.341,
+   "t1": 61.663,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "a thin book",
+   "t0": 62.163,
+   "t1": 62.954,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "说一个人很瘦，也可以用这个词。",
+   "t0": 63.454,
+   "t1": 66.091,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "爆米花装了满满一桶，好多好多：",
+   "t0": 66.941,
+   "t1": 69.818,
+   "cue": [
+    "show:lot",
+    "focus:lot"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "a lot",
+   "t0": 70.068,
+   "t1": 70.684,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "a lot of popcorn",
+   "t0": 71.184,
+   "t1": 72.399,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "牛奶、水这样数不清的东西，问有多少，要用",
+   "t0": 73.499,
+   "t1": 77.914,
+   "cue": [
+    "show:much",
+    "edge:lot>much",
+    "focus:much"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "much",
+   "t0": 78.164,
+   "t1": 78.708,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "How much milk do you want?",
+   "t0": 79.208,
+   "t1": 80.626,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "东西有多重，放在秤上称一称：",
+   "t0": 81.726,
+   "t1": 84.365,
+   "cue": [
+    "show:weigh",
+    "focus:weigh"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "weigh",
+   "t0": 84.615,
+   "t1": 85.006,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "它的名词是重量：",
+   "t0": 85.506,
+   "t1": 86.903,
+   "cue": [
+    "alt:weigh"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "weight",
+   "t0": 87.153,
+   "t1": 87.621,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "这两个词里，g h 都不发音。",
+   "t0": 88.121,
+   "t1": 90.658,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "一个披萨，从中间切一刀，每份是一半：",
+   "t0": 91.508,
+   "t1": 95.088,
+   "cue": [
+    "show:half",
+    "focus:half"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "half",
+   "t0": 95.338,
+   "t1": 95.606,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "小提示：l 不发音。",
+   "t0": 96.106,
+   "t1": 98.067,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "half a pizza",
+   "t0": 98.317,
+   "t1": 99.203,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "再切一刀，切成四块，每一块是四分之一：",
+   "t0": 100.303,
+   "t1": 103.994,
+   "cue": [
+    "show:quarter",
+    "edge:half>quarter",
+    "focus:quarter"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "quarter",
+   "t0": 104.244,
+   "t1": 104.724,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "一刻钟，也是一小时的四分之一：",
+   "t0": 105.224,
+   "t1": 107.94,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "a quarter of an hour",
+   "t0": 108.19,
+   "t1": 109.42,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "今天藏着好几个不发音的字母，我们一起找一找：",
+   "t0": 110.52,
+   "t1": 114.489,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "straight",
+   "t0": 114.739,
+   "t1": 115.34,
+   "cue": [
+    "focus:straight"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "weigh",
+   "t0": 115.84,
+   "t1": 116.231,
+   "cue": [
+    "focus:weigh"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "half",
+   "t0": 116.731,
+   "t1": 116.999,
+   "cue": [
+    "focus:half"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "比一比，选一选！",
+   "t0": 118.099,
+   "t1": 119.611,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "A giraffe is tall.",
+   "t0": 120.461,
+   "t1": 121.626,
+   "cue": [
+    "focus:tall"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "A dictionary is thick.",
+   "t0": 122.126,
+   "t1": 123.554,
+   "cue": [
+    "focus:thick"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "I want half a pizza, please.",
+   "t0": 124.054,
+   "t1": 126.091,
+   "cue": [
+    "focus:half"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 127.191,
+   "t1": 130.441,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "tall",
+   "t0": 131.291,
+   "t1": 131.734,
+   "cue": [
+    "focus:tall"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "short",
+   "t0": 132.834,
+   "t1": 133.386,
+   "cue": [
+    "focus:short"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "long",
+   "t0": 134.486,
+   "t1": 135.025,
+   "cue": [
+    "focus:long"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "straight",
+   "t0": 136.125,
+   "t1": 136.726,
+   "cue": [
+    "focus:straight"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "inch",
+   "t0": 137.826,
+   "t1": 138.213,
+   "cue": [
+    "focus:inch"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "thick",
+   "t0": 139.313,
+   "t1": 139.663,
+   "cue": [
+    "focus:thick"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "thin",
+   "t0": 140.763,
+   "t1": 141.085,
+   "cue": [
+    "focus:thin"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "a lot",
+   "t0": 142.185,
+   "t1": 142.8,
+   "cue": [
+    "focus:lot"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "much",
+   "t0": 143.9,
+   "t1": 144.444,
+   "cue": [
+    "focus:much"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "weigh, weight",
+   "t0": 145.544,
+   "t1": 146.604,
+   "cue": [
+    "focus:weigh"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "half",
+   "t0": 147.704,
+   "t1": 147.972,
+   "cue": [
+    "focus:half"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "quarter",
+   "t0": 149.072,
+   "t1": 149.552,
+   "cue": [
+    "focus:quarter"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！回家找两样东西，用英语比一比它们吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 150.652,
+   "t1": 159.32,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "tall": [
+   0.25,
+   0.692
+  ],
+  "short": [
+   0.942,
+   1.495
+  ],
+  "long": [
+   1.745,
+   2.283
+  ],
+  "straight": [
+   2.533,
+   3.134
+  ],
+  "inch": [
+   3.384,
+   3.771
+  ],
+  "thick": [
+   4.021,
+   4.372
+  ],
+  "thin": [
+   4.622,
+   4.943
+  ],
+  "lot": [
+   5.193,
+   5.809
+  ],
+  "much": [
+   6.059,
+   6.603
+  ],
+  "weigh": [
+   6.853,
+   7.244
+  ],
+  "weigh:alt": [
+   7.494,
+   7.962
+  ],
+  "half": [
+   8.212,
+   8.48
+  ],
+  "quarter": [
+   8.73,
+   9.21
+  ]
+ }
+}

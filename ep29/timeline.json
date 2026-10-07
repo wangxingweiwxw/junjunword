@@ -1,0 +1,662 @@
+{
+ "duration": 155.75,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！放学以后，学校里有好多有趣的社团。今天，我们去参观一下！",
+   "t0": 0.4,
+   "t1": 7.96,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "clubs",
+   "t0": 8.21,
+   "t1": 8.792,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "喜欢同一件事的人，聚在一起，就是俱乐部、社团：",
+   "t0": 9.892,
+   "t1": 14.588,
+   "cue": [
+    "map",
+    "show:club",
+    "focus:club"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "club",
+   "t0": 14.838,
+   "t1": 15.245,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "想参加一个社团，英语说",
+   "t0": 16.345,
+   "t1": 18.647,
+   "cue": [
+    "show:join",
+    "edge:join>club",
+    "focus:join"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "join",
+   "t0": 18.897,
+   "t1": 19.392,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Can I join the club?",
+   "t0": 19.892,
+   "t1": 20.982,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "第一个，棋社。国际象棋，英语是",
+   "t0": 22.082,
+   "t1": 26.005,
+   "cue": [
+    "show:chess",
+    "edge:club>chess",
+    "focus:chess"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "chess",
+   "t0": 26.255,
+   "t1": 26.774,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "I joined chess club this morning.",
+   "t0": 27.274,
+   "t1": 29.175,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "第二个，画画社。画画，加上 i n g，就是绘画：",
+   "t0": 30.275,
+   "t1": 35.441,
+   "cue": [
+    "show:painting",
+    "edge:club>painting",
+    "focus:painting",
+    "alt:painting"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "paint",
+   "t0": 35.691,
+   "t1": 36.177,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "painting",
+   "t0": 36.677,
+   "t1": 37.284,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "画画之前，先闭上眼睛，想象一下要画什么：",
+   "t0": 38.384,
+   "t1": 42.299,
+   "cue": [
+    "show:imagine",
+    "edge:imagine>painting",
+    "focus:imagine"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "imagine",
+   "t0": 42.549,
+   "t1": 43.27,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Imagine a pink cloud!",
+   "t0": 43.77,
+   "t1": 45.165,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "第三个，摄影社。拍出来的照片，英语是",
+   "t0": 46.265,
+   "t1": 50.675,
+   "cue": [
+    "show:photo",
+    "edge:club>photo",
+    "focus:photo"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "photo",
+   "t0": 50.925,
+   "t1": 51.439,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "拍照，要用照相机：",
+   "t0": 52.539,
+   "t1": 54.339,
+   "cue": [
+    "show:camera",
+    "edge:camera>photo",
+    "focus:camera"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "camera",
+   "t0": 54.589,
+   "t1": 55.13,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "The camera is for photo club.",
+   "t0": 55.63,
+   "t1": 57.443,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "照片里，站在人后面的风景，叫背景。后面，加上地面：",
+   "t0": 58.543,
+   "t1": 64.321,
+   "cue": [
+    "show:background",
+    "edge:background>photo",
+    "focus:background"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "back",
+   "t0": 64.571,
+   "t1": 64.982,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "ground",
+   "t0": 65.482,
+   "t1": 65.937,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "background",
+   "t0": 66.437,
+   "t1": 67.101,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "第四个，露营社。周末去野外住一晚，是露营：",
+   "t0": 68.201,
+   "t1": 72.968,
+   "cue": [
+    "show:camping",
+    "edge:club>camping",
+    "focus:camping"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "camping",
+   "t0": 73.218,
+   "t1": 73.791,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "露营的时候，要搭一顶帐篷：",
+   "t0": 74.891,
+   "t1": 77.205,
+   "cue": [
+    "show:tent",
+    "edge:tent>camping",
+    "focus:tent"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "tent",
+   "t0": 77.455,
+   "t1": 77.908,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "第五个，文学社。我们来编一本自己的杂志：",
+   "t0": 79.008,
+   "t1": 83.235,
+   "cue": [
+    "show:magazine",
+    "focus:magazine"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "magazine",
+   "t0": 83.485,
+   "t1": 84.229,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "杂志里，有一篇一篇的文章：",
+   "t0": 85.329,
+   "t1": 87.634,
+   "cue": [
+    "show:article",
+    "edge:magazine>article",
+    "focus:article"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "article",
+   "t0": 87.884,
+   "t1": 88.473,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "还有短短的、读起来像唱歌一样的诗：",
+   "t0": 89.573,
+   "t1": 92.66,
+   "cue": [
+    "show:poem",
+    "focus:poem"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "poem",
+   "t0": 92.91,
+   "t1": 93.375,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "写文章、写诗的时候，脑子里突然冒出一个好主意，叮！那就是灵感：",
+   "t0": 94.475,
+   "t1": 101.071,
+   "cue": [
+    "show:inspiration",
+    "edge:inspiration>article",
+    "edge:inspiration>poem",
+    "focus:inspiration"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "inspiration",
+   "t0": 101.321,
+   "t1": 102.232,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "你想参加哪个社团呢？",
+   "t0": 103.332,
+   "t1": 104.968,
+   "cue": [
+    "focus:chess,painting,photo,camping,magazine"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "chess club",
+   "t0": 105.218,
+   "t1": 105.96,
+   "cue": [
+    "focus:chess"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "painting club",
+   "t0": 106.46,
+   "t1": 107.311,
+   "cue": [
+    "focus:painting"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "photo club",
+   "t0": 107.811,
+   "t1": 108.548,
+   "cue": [
+    "focus:photo"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "camping club",
+   "t0": 109.048,
+   "t1": 109.884,
+   "cue": [
+    "focus:camping"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "or a magazine club?",
+   "t0": 110.384,
+   "t1": 111.533,
+   "cue": [
+    "focus:magazine"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "说出你的选择吧：",
+   "t0": 112.633,
+   "t1": 113.959,
+   "cue": [
+    "focus:join,club"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "I want to join the painting club!",
+   "t0": 114.209,
+   "t1": 115.902,
+   "cue": [
+    "focus:join,painting"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 117.002,
+   "t1": 120.252,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "club",
+   "t0": 121.102,
+   "t1": 121.509,
+   "cue": [
+    "focus:club"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "join",
+   "t0": 122.609,
+   "t1": 123.104,
+   "cue": [
+    "focus:join"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "chess",
+   "t0": 124.204,
+   "t1": 124.724,
+   "cue": [
+    "focus:chess"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "painting",
+   "t0": 125.824,
+   "t1": 126.431,
+   "cue": [
+    "focus:painting"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "imagine",
+   "t0": 127.531,
+   "t1": 128.252,
+   "cue": [
+    "focus:imagine"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "photo",
+   "t0": 129.352,
+   "t1": 129.866,
+   "cue": [
+    "focus:photo"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "camera",
+   "t0": 130.966,
+   "t1": 131.508,
+   "cue": [
+    "focus:camera"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "background",
+   "t0": 132.608,
+   "t1": 133.271,
+   "cue": [
+    "focus:background"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "camping",
+   "t0": 134.371,
+   "t1": 134.944,
+   "cue": [
+    "focus:camping"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "tent",
+   "t0": 136.044,
+   "t1": 136.497,
+   "cue": [
+    "focus:tent"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "magazine",
+   "t0": 137.597,
+   "t1": 138.34,
+   "cue": [
+    "focus:magazine"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "article",
+   "t0": 139.44,
+   "t1": 140.029,
+   "cue": [
+    "focus:article"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "poem",
+   "t0": 141.129,
+   "t1": 141.595,
+   "cue": [
+    "focus:poem"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "inspiration",
+   "t0": 142.695,
+   "t1": 143.606,
+   "cue": [
+    "focus:inspiration"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "zh",
+   "text": "太棒了！用英语告诉你的好朋友，你最想参加哪个社团吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 144.706,
+   "t1": 153.9,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "club": [
+   0.25,
+   0.657
+  ],
+  "join": [
+   0.907,
+   1.402
+  ],
+  "chess": [
+   1.652,
+   2.171
+  ],
+  "painting": [
+   2.421,
+   3.029
+  ],
+  "painting:alt": [
+   3.279,
+   3.765
+  ],
+  "imagine": [
+   4.015,
+   4.736
+  ],
+  "camera": [
+   4.986,
+   5.527
+  ],
+  "photo": [
+   5.777,
+   6.291
+  ],
+  "background": [
+   6.541,
+   7.205
+  ],
+  "tent": [
+   7.455,
+   7.907
+  ],
+  "camping": [
+   8.157,
+   8.73
+  ],
+  "magazine": [
+   8.98,
+   9.724
+  ],
+  "article": [
+   9.974,
+   10.563
+  ],
+  "poem": [
+   10.813,
+   11.279
+  ],
+  "inspiration": [
+   11.529,
+   12.44
+  ]
+ }
+}

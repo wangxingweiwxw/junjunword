@@ -1,0 +1,755 @@
+{
+ "id": "ep29",
+ "title": "clubs",
+ "titleZh": "社团",
+ "episode": "第 29 集",
+ "titleIcon": "club",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1950
+  ]
+ },
+ "nodes": [
+  {
+   "id": "club",
+   "word": "club",
+   "ipa": "/klʌb/",
+   "zh": "俱乐部；社团",
+   "icon": "club",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    150,
+    470
+   ]
+  },
+  {
+   "id": "join",
+   "word": "join",
+   "ipa": "/dʒɔɪn/",
+   "zh": "参加；加入",
+   "icon": "join",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    150,
+    150
+   ]
+  },
+  {
+   "id": "chess",
+   "word": "chess",
+   "ipa": "/tʃes/",
+   "zh": "国际象棋",
+   "icon": "chess",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    150,
+    790
+   ]
+  },
+  {
+   "id": "painting",
+   "word": "painting",
+   "ipa": "/ˈpeɪntɪŋ/",
+   "zh": "绘画；画",
+   "icon": "painting",
+   "alt": "paint",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    450,
+    470
+   ]
+  },
+  {
+   "id": "imagine",
+   "word": "imagine",
+   "ipa": "/ɪˈmædʒɪn/",
+   "zh": "想象",
+   "icon": "imagine",
+   "kind": "verb",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    450,
+    790
+   ]
+  },
+  {
+   "id": "camera",
+   "word": "camera",
+   "ipa": "/ˈkæmərə/",
+   "zh": "照相机",
+   "icon": "camera",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1050,
+    470
+   ]
+  },
+  {
+   "id": "photo",
+   "word": "photo",
+   "ipa": "/ˈfoʊtoʊ/",
+   "zh": "照片",
+   "icon": "photo",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    750,
+    470
+   ]
+  },
+  {
+   "id": "background",
+   "word": "background",
+   "ipa": "/ˈbækɡraʊnd/",
+   "zh": "背景",
+   "icon": "background",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    750,
+    790
+   ]
+  },
+  {
+   "id": "tent",
+   "word": "tent",
+   "ipa": "/tent/",
+   "zh": "帐篷",
+   "icon": "tent",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    750,
+    150
+   ]
+  },
+  {
+   "id": "camping",
+   "word": "camping",
+   "ipa": "/ˈkæmpɪŋ/",
+   "zh": "露营",
+   "icon": "camping",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    450,
+    150
+   ]
+  },
+  {
+   "id": "magazine",
+   "word": "magazine",
+   "ipa": "/ˌmæɡəˈziːn/",
+   "zh": "杂志",
+   "icon": "magazine",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1350,
+    150
+   ]
+  },
+  {
+   "id": "article",
+   "word": "article",
+   "ipa": "/ˈɑːrtɪkl/",
+   "zh": "文章",
+   "icon": "article",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1350,
+    470
+   ]
+  },
+  {
+   "id": "poem",
+   "word": "poem",
+   "ipa": "/ˈpoʊəm/",
+   "zh": "诗",
+   "icon": "poem",
+   "atP": [
+    450,
+    1800
+   ],
+   "at": [
+    1650,
+    470
+   ]
+  },
+  {
+   "id": "inspiration",
+   "word": "inspiration",
+   "ipa": "/ˌɪnspəˈreɪʃn/",
+   "zh": "灵感",
+   "icon": "inspiration",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1350,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "join",
+   "to": "club"
+  },
+  {
+   "from": "club",
+   "to": "chess"
+  },
+  {
+   "from": "club",
+   "to": "painting"
+  },
+  {
+   "from": "club",
+   "to": "camping"
+  },
+  {
+   "from": "imagine",
+   "to": "painting"
+  },
+  {
+   "from": "tent",
+   "to": "camping"
+  },
+  {
+   "from": "camera",
+   "to": "photo",
+   "label": "拍"
+  },
+  {
+   "from": "background",
+   "to": "photo"
+  },
+  {
+   "from": "magazine",
+   "to": "article",
+   "label": "里面有"
+  },
+  {
+   "from": "inspiration",
+   "to": "article"
+  },
+  {
+   "from": "inspiration",
+   "to": "poem"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！放学以后，学校里有好多有趣的社团。今天，我们去参观一下！"
+    },
+    {
+     "en": "clubs"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:club",
+    "focus:club"
+   ],
+   "parts": [
+    {
+     "zh": "喜欢同一件事的人，聚在一起，就是俱乐部、社团："
+    },
+    {
+     "en": "club"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:join",
+    "edge:join>club",
+    "focus:join"
+   ],
+   "parts": [
+    {
+     "zh": "想参加一个社团，英语说"
+    },
+    {
+     "en": "join"
+    },
+    {
+     "en": "Can I join the club?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:chess",
+    "edge:club>chess",
+    "focus:chess"
+   ],
+   "parts": [
+    {
+     "zh": "第一个，棋社。国际象棋，英语是"
+    },
+    {
+     "en": "chess"
+    },
+    {
+     "en": "I joined chess club this morning."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:painting",
+    "edge:club>painting",
+    "focus:painting"
+   ],
+   "parts": [
+    {
+     "zh": "第二个，画画社。画画，加上 i n g，就是绘画：",
+     "cue": [
+      "alt:painting"
+     ]
+    },
+    {
+     "en": "paint"
+    },
+    {
+     "en": "painting"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:imagine",
+    "edge:imagine>painting",
+    "focus:imagine"
+   ],
+   "parts": [
+    {
+     "zh": "画画之前，先闭上眼睛，想象一下要画什么："
+    },
+    {
+     "en": "imagine"
+    },
+    {
+     "en": "Imagine a pink cloud!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:photo",
+    "focus:photo"
+   ],
+   "parts": [
+    {
+     "zh": "第三个，摄影社。拍出来的照片，英语是"
+    },
+    {
+     "en": "photo"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:camera",
+    "edge:camera>photo",
+    "focus:camera"
+   ],
+   "parts": [
+    {
+     "zh": "拍照，要用照相机："
+    },
+    {
+     "en": "camera"
+    },
+    {
+     "en": "The camera is for photo club."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:background",
+    "edge:background>photo",
+    "focus:background"
+   ],
+   "parts": [
+    {
+     "zh": "照片里，站在人后面的风景，叫背景。后面，加上地面："
+    },
+    {
+     "en": "back"
+    },
+    {
+     "en": "ground"
+    },
+    {
+     "en": "background"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:camping",
+    "edge:club>camping",
+    "focus:camping"
+   ],
+   "parts": [
+    {
+     "zh": "第四个，露营社。周末去野外住一晚，是露营："
+    },
+    {
+     "en": "camping"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tent",
+    "edge:tent>camping",
+    "focus:tent"
+   ],
+   "parts": [
+    {
+     "zh": "露营的时候，要搭一顶帐篷："
+    },
+    {
+     "en": "tent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:magazine",
+    "focus:magazine"
+   ],
+   "parts": [
+    {
+     "zh": "第五个，文学社。我们来编一本自己的杂志："
+    },
+    {
+     "en": "magazine"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:article",
+    "edge:magazine>article",
+    "focus:article"
+   ],
+   "parts": [
+    {
+     "zh": "杂志里，有一篇一篇的文章："
+    },
+    {
+     "en": "article"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:poem",
+    "focus:poem"
+   ],
+   "parts": [
+    {
+     "zh": "还有短短的、读起来像唱歌一样的诗："
+    },
+    {
+     "en": "poem"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:inspiration",
+    "edge:inspiration>article",
+    "edge:inspiration>poem",
+    "focus:inspiration"
+   ],
+   "parts": [
+    {
+     "zh": "写文章、写诗的时候，脑子里突然冒出一个好主意，叮！那就是灵感："
+    },
+    {
+     "en": "inspiration"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:chess,painting,photo,camping,magazine"
+   ],
+   "parts": [
+    {
+     "zh": "你想参加哪个社团呢？"
+    },
+    {
+     "en": "chess club",
+     "cue": [
+      "focus:chess"
+     ]
+    },
+    {
+     "en": "painting club",
+     "cue": [
+      "focus:painting"
+     ]
+    },
+    {
+     "en": "photo club",
+     "cue": [
+      "focus:photo"
+     ]
+    },
+    {
+     "en": "camping club",
+     "cue": [
+      "focus:camping"
+     ]
+    },
+    {
+     "en": "or a magazine club?",
+     "cue": [
+      "focus:magazine"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:join,club"
+   ],
+   "parts": [
+    {
+     "zh": "说出你的选择吧："
+    },
+    {
+     "en": "I want to join the painting club!",
+     "cue": [
+      "focus:join,painting"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:club"
+   ],
+   "parts": [
+    {
+     "en": "club"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:join"
+   ],
+   "parts": [
+    {
+     "en": "join"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:chess"
+   ],
+   "parts": [
+    {
+     "en": "chess"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:painting"
+   ],
+   "parts": [
+    {
+     "en": "painting"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:imagine"
+   ],
+   "parts": [
+    {
+     "en": "imagine"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:photo"
+   ],
+   "parts": [
+    {
+     "en": "photo"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:camera"
+   ],
+   "parts": [
+    {
+     "en": "camera"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:background"
+   ],
+   "parts": [
+    {
+     "en": "background"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:camping"
+   ],
+   "parts": [
+    {
+     "en": "camping"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tent"
+   ],
+   "parts": [
+    {
+     "en": "tent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:magazine"
+   ],
+   "parts": [
+    {
+     "en": "magazine"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:article"
+   ],
+   "parts": [
+    {
+     "en": "article"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:poem"
+   ],
+   "parts": [
+    {
+     "en": "poem"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:inspiration"
+   ],
+   "parts": [
+    {
+     "en": "inspiration"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！用英语告诉你的好朋友，你最想参加哪个社团吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}
