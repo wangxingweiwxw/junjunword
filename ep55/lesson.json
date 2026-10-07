@@ -1,0 +1,745 @@
+{
+ "id": "ep55",
+ "title": "exams",
+ "titleZh": "考试",
+ "episode": "第 55 集",
+ "titleIcon": "exam",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "exam",
+   "word": "exam",
+   "ipa": "/ɪɡˈzæm/",
+   "zh": "考试",
+   "icon": "exam",
+   "alt": "examination",
+   "altLabel": "全称",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "test",
+   "word": "test",
+   "ipa": "/test/",
+   "zh": "测验",
+   "icon": "test",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "preparation",
+   "word": "preparation",
+   "ipa": "/ˌprepəˈreɪʃn/",
+   "zh": "准备",
+   "icon": "preparation",
+   "alt": "prepare",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "start",
+   "word": "start",
+   "ipa": "/stɑːrt/",
+   "zh": "开始",
+   "icon": "start",
+   "kind": "verb",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "finish",
+   "word": "finish",
+   "ipa": "/ˈfɪnɪʃ/",
+   "zh": "完成",
+   "icon": "finish",
+   "kind": "verb",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "know",
+   "word": "know",
+   "ipa": "/noʊ/",
+   "zh": "知道",
+   "icon": "know",
+   "kind": "verb",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "question",
+   "word": "question",
+   "ipa": "/ˈkwestʃən/",
+   "zh": "问题",
+   "icon": "question",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "answer",
+   "word": "answer",
+   "ipa": "/ˈænsər/",
+   "zh": "答案；回答",
+   "icon": "answer",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "guess",
+   "word": "guess",
+   "ipa": "/ɡes/",
+   "zh": "猜",
+   "icon": "guess",
+   "kind": "verb",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "right",
+   "word": "right",
+   "ipa": "/raɪt/",
+   "zh": "对的",
+   "icon": "rightok",
+   "kind": "adj",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "wrong",
+   "word": "wrong",
+   "ipa": "/rɔːŋ/",
+   "zh": "错的",
+   "icon": "wrong",
+   "kind": "adj",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "correct",
+   "word": "correct",
+   "ipa": "/kəˈrekt/",
+   "zh": "改正；正确的",
+   "icon": "correct",
+   "kind": "verb",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "level",
+   "word": "level",
+   "ipa": "/ˈlevl/",
+   "zh": "水平；级别",
+   "icon": "level",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "grade",
+   "word": "grade",
+   "ipa": "/ɡreɪd/",
+   "zh": "成绩；分数",
+   "icon": "gradeA",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "preparation",
+   "to": "exam"
+  },
+  {
+   "from": "exam",
+   "to": "test"
+  },
+  {
+   "from": "exam",
+   "to": "know",
+   "dashed": true
+  },
+  {
+   "from": "question",
+   "to": "answer"
+  },
+  {
+   "from": "question",
+   "to": "guess",
+   "dashed": true
+  },
+  {
+   "from": "guess",
+   "to": "right"
+  },
+  {
+   "from": "guess",
+   "to": "wrong"
+  },
+  {
+   "from": "wrong",
+   "to": "correct",
+   "label": "要"
+  },
+  {
+   "from": "grade",
+   "to": "level",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！考试要来啦，别紧张！今天，我们来学和考试有关的单词。"
+    },
+    {
+     "en": "exam"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:exam",
+    "focus:exam"
+   ],
+   "parts": [
+    {
+     "zh": "考试，英语是"
+    },
+    {
+     "en": "exam"
+    },
+    {
+     "zh": "它的全称是",
+     "cue": [
+      "alt:exam"
+     ]
+    },
+    {
+     "en": "examination"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:test",
+    "edge:exam>test",
+    "focus:test"
+   ],
+   "parts": [
+    {
+     "zh": "小一点的考试，是测验："
+    },
+    {
+     "en": "test"
+    },
+    {
+     "en": "a spelling test"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:preparation",
+    "edge:preparation>exam",
+    "focus:preparation"
+   ],
+   "parts": [
+    {
+     "zh": "考试前，要做好准备："
+    },
+    {
+     "en": "preparation"
+    },
+    {
+     "zh": "它来自",
+     "cue": [
+      "alt:preparation"
+     ]
+    },
+    {
+     "en": "prepare"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:know",
+    "edge:exam>know",
+    "focus:know"
+   ],
+   "parts": [
+    {
+     "zh": "复习好了，答案心里都知道："
+    },
+    {
+     "en": "know"
+    },
+    {
+     "zh": "开头的 k 不发音哦。"
+    },
+    {
+     "en": "I know the answer!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:start",
+    "focus:start"
+   ],
+   "parts": [
+    {
+     "zh": "考试开始了："
+    },
+    {
+     "en": "start"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:finish",
+    "edge:start>finish",
+    "focus:finish"
+   ],
+   "parts": [
+    {
+     "zh": "写完了，就是完成："
+    },
+    {
+     "en": "finish"
+    },
+    {
+     "en": "I finished the test."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:question",
+    "focus:question"
+   ],
+   "parts": [
+    {
+     "zh": "试卷上的每一道题，是问题："
+    },
+    {
+     "en": "question"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:answer",
+    "edge:question>answer",
+    "focus:answer"
+   ],
+   "parts": [
+    {
+     "zh": "写出答案："
+    },
+    {
+     "en": "answer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:guess",
+    "edge:question>guess",
+    "focus:guess"
+   ],
+   "parts": [
+    {
+     "zh": "实在不会，只好猜一猜："
+    },
+    {
+     "en": "guess"
+    },
+    {
+     "zh": "中间的 u 不发音。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:right",
+    "edge:guess>right",
+    "focus:right"
+   ],
+   "parts": [
+    {
+     "zh": "答对了，是"
+    },
+    {
+     "en": "right"
+    },
+    {
+     "zh": "还记得第五十三集的右边吗？同一个词，两个意思！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wrong",
+    "edge:guess>wrong",
+    "focus:wrong"
+   ],
+   "parts": [
+    {
+     "zh": "答错了，是"
+    },
+    {
+     "en": "wrong"
+    },
+    {
+     "zh": "开头的 w 不发音。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:correct",
+    "edge:wrong>correct",
+    "focus:correct"
+   ],
+   "parts": [
+    {
+     "zh": "错了不要紧，把它改正过来："
+    },
+    {
+     "en": "correct"
+    },
+    {
+     "zh": "它也是正确的意思。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:grade",
+    "focus:grade"
+   ],
+   "parts": [
+    {
+     "zh": "考完试，老师给出成绩："
+    },
+    {
+     "en": "grade"
+    },
+    {
+     "zh": "还记得第六集的年级吗？也是这个词。"
+    },
+    {
+     "en": "I got a good grade!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:level",
+    "edge:grade>level",
+    "focus:level"
+   ],
+   "parts": [
+    {
+     "zh": "成绩越来越好，水平就越来越高："
+    },
+    {
+     "en": "level"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:right,wrong"
+   ],
+   "parts": [
+    {
+     "zh": "对和错："
+    },
+    {
+     "en": "right",
+     "cue": [
+      "focus:right"
+     ]
+    },
+    {
+     "en": "wrong",
+     "cue": [
+      "focus:wrong"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:exam"
+   ],
+   "parts": [
+    {
+     "en": "exam"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:test"
+   ],
+   "parts": [
+    {
+     "en": "test"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:preparation"
+   ],
+   "parts": [
+    {
+     "en": "preparation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:know"
+   ],
+   "parts": [
+    {
+     "en": "know"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:start"
+   ],
+   "parts": [
+    {
+     "en": "start"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:finish"
+   ],
+   "parts": [
+    {
+     "en": "finish"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:question"
+   ],
+   "parts": [
+    {
+     "en": "question"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:answer"
+   ],
+   "parts": [
+    {
+     "en": "answer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:guess"
+   ],
+   "parts": [
+    {
+     "en": "guess"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:right"
+   ],
+   "parts": [
+    {
+     "en": "right"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wrong"
+   ],
+   "parts": [
+    {
+     "en": "wrong"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:correct"
+   ],
+   "parts": [
+    {
+     "en": "correct"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:grade"
+   ],
+   "parts": [
+    {
+     "en": "grade"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:level"
+   ],
+   "parts": [
+    {
+     "en": "level"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！考试前好好准备，考试时认真作答，你一定能行！点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

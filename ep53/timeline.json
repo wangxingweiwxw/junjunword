@@ -1,0 +1,690 @@
+{
+ "duration": 128.149,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！迷路了怎么办？今天，我们来学问路和指路！",
+   "t0": 0.4,
+   "t1": 6.112,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "directions",
+   "t0": 6.362,
+   "t1": 7.219,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "要找到地方，英语是",
+   "t0": 8.319,
+   "t1": 10.233,
+   "cue": [
+    "map",
+    "show:find",
+    "focus:find"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "find",
+   "t0": 10.483,
+   "t1": 10.926,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "I can't find the library.",
+   "t0": 11.426,
+   "t1": 12.92,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "去一个地方的路，是",
+   "t0": 14.02,
+   "t1": 15.799,
+   "cue": [
+    "show:way",
+    "edge:find>way",
+    "focus:way"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "way",
+   "t0": 16.049,
+   "t1": 16.44,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Can you tell me the way?",
+   "t0": 16.94,
+   "t1": 18.096,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "朝着一个方向走，是",
+   "t0": 19.197,
+   "t1": 21.082,
+   "cue": [
+    "show:towards",
+    "edge:way>towards",
+    "focus:towards"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "towards",
+   "t0": 21.332,
+   "t1": 21.963,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Walk towards the bank.",
+   "t0": 22.463,
+   "t1": 23.76,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "走到路口，要转弯：",
+   "t0": 24.86,
+   "t1": 26.577,
+   "cue": [
+    "show:turn",
+    "edge:way>turn",
+    "focus:turn"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "turn",
+   "t0": 26.827,
+   "t1": 27.228,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "往左转：",
+   "t0": 28.328,
+   "t1": 29.062,
+   "cue": [
+    "show:left",
+    "edge:turn>left",
+    "focus:left"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "turn left",
+   "t0": 29.312,
+   "t1": 30.088,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "左边，是",
+   "t0": 30.588,
+   "t1": 31.705,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "left",
+   "t0": 31.955,
+   "t1": 32.421,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "往右转：",
+   "t0": 33.521,
+   "t1": 34.251,
+   "cue": [
+    "show:right",
+    "edge:turn>right",
+    "focus:right"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "turn right",
+   "t0": 34.501,
+   "t1": 35.204,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "右边，是",
+   "t0": 35.704,
+   "t1": 36.791,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "right",
+   "t0": 37.041,
+   "t1": 37.534,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "一左一右，跟着我伸出手：",
+   "t0": 38.634,
+   "t1": 40.761,
+   "cue": [
+    "focus:left,right"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "left!",
+   "t0": 41.011,
+   "t1": 41.475,
+   "cue": [
+    "focus:left"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "right!",
+   "t0": 41.975,
+   "t1": 42.478,
+   "cue": [
+    "focus:right"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "向上，是",
+   "t0": 43.578,
+   "t1": 44.727,
+   "cue": [
+    "show:up",
+    "focus:up"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "up",
+   "t0": 44.977,
+   "t1": 45.229,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Go up the stairs.",
+   "t0": 45.729,
+   "t1": 46.849,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "向下，是",
+   "t0": 47.949,
+   "t1": 49.084,
+   "cue": [
+    "show:down",
+    "edge:up>down",
+    "focus:down"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "down",
+   "t0": 49.334,
+   "t1": 49.816,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "Go down the stairs.",
+   "t0": 50.316,
+   "t1": 51.53,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "顺着一条路一直走，是沿着：",
+   "t0": 52.63,
+   "t1": 55.077,
+   "cue": [
+    "show:along",
+    "focus:along"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "along",
+   "t0": 55.327,
+   "t1": 55.932,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Go along the street.",
+   "t0": 56.432,
+   "t1": 57.573,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "从桥的上面走过去，是越过：",
+   "t0": 58.673,
+   "t1": 61.081,
+   "cue": [
+    "show:over",
+    "edge:along>over",
+    "focus:over"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "over",
+   "t0": 61.331,
+   "t1": 61.774,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Go over the bridge.",
+   "t0": 62.274,
+   "t1": 63.44,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "从隧道的里面穿过去，是",
+   "t0": 64.54,
+   "t1": 66.841,
+   "cue": [
+    "show:through",
+    "edge:along>through",
+    "focus:through"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "through",
+   "t0": 67.091,
+   "t1": 67.53,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "Go through the tunnel.",
+   "t0": 68.03,
+   "t1": 69.025,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "从外面走进里面，是进入：",
+   "t0": 70.125,
+   "t1": 72.36,
+   "cue": [
+    "show:into",
+    "edge:along>into",
+    "focus:into"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "into",
+   "t0": 72.61,
+   "t1": 73.174,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "在……里面，加上到：",
+   "t0": 73.674,
+   "t1": 75.539,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "in",
+   "t0": 75.789,
+   "t1": 76.119,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "to",
+   "t0": 76.619,
+   "t1": 76.942,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "into",
+   "t0": 77.442,
+   "t1": 78.006,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "一个从上面过，一个从里面过：",
+   "t0": 79.106,
+   "t1": 81.577,
+   "cue": [
+    "focus:over,through"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "over",
+   "t0": 81.827,
+   "t1": 82.271,
+   "cue": [
+    "focus:over"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "through",
+   "t0": 82.771,
+   "t1": 83.211,
+   "cue": [
+    "focus:through"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "我们来指路吧！",
+   "t0": 84.311,
+   "t1": 85.39,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Go along the street.",
+   "t0": 86.24,
+   "t1": 87.381,
+   "cue": [
+    "focus:along"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Turn left at the corner.",
+   "t0": 87.881,
+   "t1": 89.221,
+   "cue": [
+    "focus:turn,left"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Go over the bridge.",
+   "t0": 89.721,
+   "t1": 90.887,
+   "cue": [
+    "focus:over"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Then go into the library!",
+   "t0": 91.387,
+   "t1": 92.83,
+   "cue": [
+    "focus:into"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 93.93,
+   "t1": 97.181,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "find",
+   "t0": 98.031,
+   "t1": 98.474,
+   "cue": [
+    "focus:find"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "way",
+   "t0": 99.574,
+   "t1": 99.965,
+   "cue": [
+    "focus:way"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "towards",
+   "t0": 101.065,
+   "t1": 101.695,
+   "cue": [
+    "focus:towards"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "turn",
+   "t0": 102.795,
+   "t1": 103.196,
+   "cue": [
+    "focus:turn"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "left",
+   "t0": 104.296,
+   "t1": 104.761,
+   "cue": [
+    "focus:left"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "right",
+   "t0": 105.861,
+   "t1": 106.354,
+   "cue": [
+    "focus:right"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "up",
+   "t0": 107.454,
+   "t1": 107.706,
+   "cue": [
+    "focus:up"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "down",
+   "t0": 108.806,
+   "t1": 109.289,
+   "cue": [
+    "focus:down"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "along",
+   "t0": 110.389,
+   "t1": 110.994,
+   "cue": [
+    "focus:along"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "over",
+   "t0": 112.094,
+   "t1": 112.537,
+   "cue": [
+    "focus:over"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "through",
+   "t0": 113.637,
+   "t1": 114.077,
+   "cue": [
+    "focus:through"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "into",
+   "t0": 115.177,
+   "t1": 115.741,
+   "cue": [
+    "focus:into"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！下次出门，试着用英语给爸爸妈妈指一指路吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 116.841,
+   "t1": 126.299,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "find": [
+   0.25,
+   0.693
+  ],
+  "way": [
+   0.943,
+   1.334
+  ],
+  "towards": [
+   1.584,
+   2.215
+  ],
+  "turn": [
+   2.465,
+   2.865
+  ],
+  "left": [
+   3.115,
+   3.581
+  ],
+  "right": [
+   3.831,
+   4.323
+  ],
+  "up": [
+   4.573,
+   4.826
+  ],
+  "down": [
+   5.076,
+   5.558
+  ],
+  "over": [
+   5.808,
+   6.252
+  ],
+  "through": [
+   6.502,
+   6.942
+  ],
+  "along": [
+   7.192,
+   7.796
+  ],
+  "into": [
+   8.046,
+   8.611
+  ]
+ }
+}

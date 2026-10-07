@@ -112,3 +112,13 @@ ep04+ 的 `lesson.json` 由同目录的 `lesson.py` 生成（`python3 ep04/lesso
 | ep48 shopping | store buy sell shopping free afford market cheap expensive trade deal steal | 2:08 |
 | ep49 accessories | clothes shop available earring scarf glove ring bring suit tie bag handbag purse wallet | 2:21 |
 | ep50 weather (2) | weather temperature degree heat smoke dry wet rainy umbrella raincoat take too snowy ice freeze(froze) | 2:25 |
+| ep51 town (2) | town street corner across church factory grounds prison library borrow lend return bank | 2:22 |
+| ep52 transport (2) | airport flight arrive narrowly drive(driver) license taxi wheel traffic station underground railway tunnel bridge | 2:26 |
+| ep53 directions | find way towards turn left right up down along over through into | 2:08 |
+| ep54 animal traits | size big small cute brave funny humorous smart stupid silly though | 2:03 |
+| ep55 exams | exam(examination) test preparation know start finish question answer guess right wrong correct grade level | 2:12 |
+| ep56 holiday | holiday general relaxing trip away picnic suppose festival during visit(visitor) come(came) together | 2:11 |
+| ep57 travel | vacation travel agent passport hotel tour guide palace museum tower island beach map | 2:04 |
+| ep58 feelings (2) | feelings enjoy comfortable pleasant happiness unhappiness miss separate regret shame pity hate | 2:19 |
+| ep59 order | order first … tenth next last | 2:01 |
+| ep60 months | month date in January … December | 2:22 |

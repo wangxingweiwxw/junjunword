@@ -1,0 +1,673 @@
+{
+ "duration": 131.76,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！考试要来啦，别紧张！今天，我们来学和考试有关的单词。",
+   "t0": 0.4,
+   "t1": 7.675,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "exam",
+   "t0": 7.925,
+   "t1": 8.549,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "考试，英语是",
+   "t0": 9.649,
+   "t1": 11.131,
+   "cue": [
+    "map",
+    "show:exam",
+    "focus:exam"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "exam",
+   "t0": 11.381,
+   "t1": 12.006,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "它的全称是",
+   "t0": 12.506,
+   "t1": 13.512,
+   "cue": [
+    "alt:exam"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "examination",
+   "t0": 13.762,
+   "t1": 14.852,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "小一点的考试，是测验：",
+   "t0": 15.952,
+   "t1": 18.109,
+   "cue": [
+    "show:test",
+    "edge:exam>test",
+    "focus:test"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "test",
+   "t0": 18.359,
+   "t1": 18.884,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "a spelling test",
+   "t0": 19.384,
+   "t1": 20.609,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "考试前，要做好准备：",
+   "t0": 21.709,
+   "t1": 23.662,
+   "cue": [
+    "show:preparation",
+    "edge:preparation>exam",
+    "focus:preparation"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "preparation",
+   "t0": 23.912,
+   "t1": 24.779,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "它来自",
+   "t0": 25.279,
+   "t1": 25.941,
+   "cue": [
+    "alt:preparation"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "prepare",
+   "t0": 26.191,
+   "t1": 26.795,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "复习好了，答案心里都知道：",
+   "t0": 27.895,
+   "t1": 30.205,
+   "cue": [
+    "show:know",
+    "edge:exam>know",
+    "focus:know"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "know",
+   "t0": 30.455,
+   "t1": 30.917,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "开头的 k 不发音哦。",
+   "t0": 31.417,
+   "t1": 32.894,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "I know the answer!",
+   "t0": 33.144,
+   "t1": 34.162,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "考试开始了：",
+   "t0": 35.262,
+   "t1": 36.297,
+   "cue": [
+    "show:start",
+    "focus:start"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "start",
+   "t0": 36.547,
+   "t1": 37.131,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "写完了，就是完成：",
+   "t0": 38.231,
+   "t1": 40.046,
+   "cue": [
+    "show:finish",
+    "edge:start>finish",
+    "focus:finish"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "finish",
+   "t0": 40.296,
+   "t1": 40.846,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "I finished the test.",
+   "t0": 41.346,
+   "t1": 42.735,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "试卷上的每一道题，是问题：",
+   "t0": 43.835,
+   "t1": 46.31,
+   "cue": [
+    "show:question",
+    "focus:question"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "question",
+   "t0": 46.56,
+   "t1": 47.217,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "写出答案：",
+   "t0": 48.317,
+   "t1": 49.141,
+   "cue": [
+    "show:answer",
+    "edge:question>answer",
+    "focus:answer"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "answer",
+   "t0": 49.391,
+   "t1": 49.927,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "实在不会，只好猜一猜：",
+   "t0": 51.027,
+   "t1": 53.171,
+   "cue": [
+    "show:guess",
+    "edge:question>guess",
+    "focus:guess"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "guess",
+   "t0": 53.421,
+   "t1": 53.908,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "中间的 u 不发音。",
+   "t0": 54.408,
+   "t1": 55.753,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "答对了，是",
+   "t0": 56.603,
+   "t1": 57.849,
+   "cue": [
+    "show:right",
+    "edge:guess>right",
+    "focus:right"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "right",
+   "t0": 58.099,
+   "t1": 58.592,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "还记得第五十三集的右边吗？同一个词，两个意思！",
+   "t0": 59.092,
+   "t1": 63.708,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "答错了，是",
+   "t0": 64.558,
+   "t1": 65.832,
+   "cue": [
+    "show:wrong",
+    "edge:guess>wrong",
+    "focus:wrong"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "wrong",
+   "t0": 66.082,
+   "t1": 66.6,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "开头的 w 不发音。",
+   "t0": 67.1,
+   "t1": 68.744,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "错了不要紧，把它改正过来：",
+   "t0": 69.594,
+   "t1": 71.941,
+   "cue": [
+    "show:correct",
+    "edge:wrong>correct",
+    "focus:correct"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "correct",
+   "t0": 72.191,
+   "t1": 72.759,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "它也是正确的意思。",
+   "t0": 73.259,
+   "t1": 74.632,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "考完试，老师给出成绩：",
+   "t0": 75.482,
+   "t1": 77.692,
+   "cue": [
+    "show:grade",
+    "focus:grade"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "grade",
+   "t0": 77.942,
+   "t1": 78.412,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "还记得第六集的年级吗？也是这个词。",
+   "t0": 78.912,
+   "t1": 82.378,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "I got a good grade!",
+   "t0": 82.628,
+   "t1": 83.755,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "成绩越来越好，水平就越来越高：",
+   "t0": 84.855,
+   "t1": 87.631,
+   "cue": [
+    "show:level",
+    "edge:grade>level",
+    "focus:level"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "level",
+   "t0": 87.881,
+   "t1": 88.367,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "对和错：",
+   "t0": 89.467,
+   "t1": 90.174,
+   "cue": [
+    "focus:right,wrong"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "right",
+   "t0": 90.424,
+   "t1": 90.917,
+   "cue": [
+    "focus:right"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "wrong",
+   "t0": 91.417,
+   "t1": 91.934,
+   "cue": [
+    "focus:wrong"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 93.034,
+   "t1": 96.285,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "exam",
+   "t0": 97.135,
+   "t1": 97.759,
+   "cue": [
+    "focus:exam"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "test",
+   "t0": 98.859,
+   "t1": 99.384,
+   "cue": [
+    "focus:test"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "preparation",
+   "t0": 100.484,
+   "t1": 101.35,
+   "cue": [
+    "focus:preparation"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "know",
+   "t0": 102.45,
+   "t1": 102.912,
+   "cue": [
+    "focus:know"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "start",
+   "t0": 104.012,
+   "t1": 104.596,
+   "cue": [
+    "focus:start"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "finish",
+   "t0": 105.696,
+   "t1": 106.246,
+   "cue": [
+    "focus:finish"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "question",
+   "t0": 107.346,
+   "t1": 108.003,
+   "cue": [
+    "focus:question"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "answer",
+   "t0": 109.103,
+   "t1": 109.638,
+   "cue": [
+    "focus:answer"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "guess",
+   "t0": 110.738,
+   "t1": 111.225,
+   "cue": [
+    "focus:guess"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "right",
+   "t0": 112.325,
+   "t1": 112.818,
+   "cue": [
+    "focus:right"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "wrong",
+   "t0": 113.918,
+   "t1": 114.436,
+   "cue": [
+    "focus:wrong"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "correct",
+   "t0": 115.536,
+   "t1": 116.104,
+   "cue": [
+    "focus:correct"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "grade",
+   "t0": 117.204,
+   "t1": 117.674,
+   "cue": [
+    "focus:grade"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "level",
+   "t0": 118.774,
+   "t1": 119.26,
+   "cue": [
+    "focus:level"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "zh",
+   "text": "太棒了！考试前好好准备，考试时认真作答，你一定能行！点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 120.36,
+   "t1": 129.91,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "exam": [
+   0.25,
+   0.874
+  ],
+  "exam:alt": [
+   1.124,
+   2.214
+  ],
+  "test": [
+   2.464,
+   2.988
+  ],
+  "preparation": [
+   3.238,
+   4.105
+  ],
+  "preparation:alt": [
+   4.355,
+   4.958
+  ],
+  "start": [
+   5.208,
+   5.792
+  ],
+  "finish": [
+   6.042,
+   6.592
+  ],
+  "know": [
+   6.842,
+   7.304
+  ],
+  "question": [
+   7.554,
+   8.211
+  ],
+  "answer": [
+   8.461,
+   8.997
+  ],
+  "guess": [
+   9.247,
+   9.733
+  ],
+  "right": [
+   9.983,
+   10.476
+  ],
+  "wrong": [
+   10.726,
+   11.244
+  ],
+  "correct": [
+   11.494,
+   12.062
+  ],
+  "level": [
+   12.312,
+   12.798
+  ],
+  "grade": [
+   13.048,
+   13.518
+  ]
+ }
+}

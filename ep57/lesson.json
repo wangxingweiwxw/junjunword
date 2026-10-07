@@ -1,0 +1,704 @@
+{
+ "id": "ep57",
+ "title": "travel",
+ "titleZh": "旅行",
+ "episode": "第 57 集",
+ "titleIcon": "travel",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "vacation",
+   "word": "vacation",
+   "ipa": "/veɪˈkeɪʃn/",
+   "zh": "假期",
+   "icon": "vacation",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "travel",
+   "word": "travel",
+   "ipa": "/ˈtrævl/",
+   "zh": "旅行",
+   "icon": "travel",
+   "kind": "verb",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "agent",
+   "word": "agent",
+   "ipa": "/ˈeɪdʒənt/",
+   "zh": "代理人",
+   "icon": "agent",
+   "alt": "travel agent",
+   "altLabel": "常说",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "passport",
+   "word": "passport",
+   "ipa": "/ˈpæspɔːrt/",
+   "zh": "护照",
+   "icon": "passport",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "hotel",
+   "word": "hotel",
+   "ipa": "/hoʊˈtel/",
+   "zh": "酒店",
+   "icon": "hotel",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "tour",
+   "word": "tour",
+   "ipa": "/tʊr/",
+   "zh": "游览",
+   "icon": "tour",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "guide",
+   "word": "guide",
+   "ipa": "/ɡaɪd/",
+   "zh": "导游",
+   "icon": "guide",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "palace",
+   "word": "palace",
+   "ipa": "/ˈpæləs/",
+   "zh": "宫殿",
+   "icon": "palace",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "museum",
+   "word": "museum",
+   "ipa": "/mjuˈziːəm/",
+   "zh": "博物馆",
+   "icon": "museum",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "tower",
+   "word": "tower",
+   "ipa": "/ˈtaʊər/",
+   "zh": "塔",
+   "icon": "tower",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  },
+  {
+   "id": "island",
+   "word": "island",
+   "ipa": "/ˈaɪlənd/",
+   "zh": "岛",
+   "icon": "island",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "beach",
+   "word": "beach",
+   "ipa": "/biːtʃ/",
+   "zh": "海滩",
+   "icon": "beach",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "map",
+   "word": "map",
+   "ipa": "/mæp/",
+   "zh": "地图",
+   "icon": "map",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "vacation",
+   "to": "travel"
+  },
+  {
+   "from": "travel",
+   "to": "agent"
+  },
+  {
+   "from": "travel",
+   "to": "passport",
+   "dashed": true
+  },
+  {
+   "from": "vacation",
+   "to": "hotel",
+   "dashed": true
+  },
+  {
+   "from": "travel",
+   "to": "tour"
+  },
+  {
+   "from": "tour",
+   "to": "guide"
+  },
+  {
+   "from": "guide",
+   "to": "museum"
+  },
+  {
+   "from": "guide",
+   "to": "palace"
+  },
+  {
+   "from": "museum",
+   "to": "tower"
+  },
+  {
+   "from": "travel",
+   "to": "island"
+  },
+  {
+   "from": "island",
+   "to": "beach"
+  },
+  {
+   "from": "island",
+   "to": "map",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！暑假到了，我们一起去旅行吧！"
+    },
+    {
+     "en": "travel"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:vacation",
+    "focus:vacation"
+   ],
+   "parts": [
+    {
+     "zh": "长长的假期，英语是"
+    },
+    {
+     "en": "vacation"
+    },
+    {
+     "zh": "还记得上一集的 holiday 吗？意思差不多。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:travel",
+    "edge:vacation>travel",
+    "focus:travel"
+   ],
+   "parts": [
+    {
+     "zh": "去远方玩，是旅行："
+    },
+    {
+     "en": "travel"
+    },
+    {
+     "en": "I love to travel."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:agent",
+    "edge:travel>agent",
+    "focus:agent"
+   ],
+   "parts": [
+    {
+     "zh": "帮我们安排旅行的人，是旅行社的代理人："
+    },
+    {
+     "en": "agent"
+    },
+    {
+     "zh": "合起来叫",
+     "cue": [
+      "alt:agent"
+     ]
+    },
+    {
+     "en": "travel agent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:passport",
+    "edge:travel>passport",
+    "focus:passport"
+   ],
+   "parts": [
+    {
+     "zh": "出国旅行，要带护照。通过，加上港口："
+    },
+    {
+     "en": "pass"
+    },
+    {
+     "en": "port"
+    },
+    {
+     "en": "passport"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hotel",
+    "edge:vacation>hotel",
+    "focus:hotel"
+   ],
+   "parts": [
+    {
+     "zh": "晚上，住在酒店里："
+    },
+    {
+     "en": "hotel"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tour",
+    "edge:travel>tour",
+    "focus:tour"
+   ],
+   "parts": [
+    {
+     "zh": "跟着旅行团，四处游览："
+    },
+    {
+     "en": "tour"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:guide",
+    "edge:tour>guide",
+    "focus:guide"
+   ],
+   "parts": [
+    {
+     "zh": "举着小旗子带路的，是导游："
+    },
+    {
+     "en": "guide"
+    },
+    {
+     "en": "Follow the guide!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:palace",
+    "edge:guide>palace",
+    "focus:palace"
+   ],
+   "parts": [
+    {
+     "zh": "导游带我们参观宫殿："
+    },
+    {
+     "en": "palace"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:museum",
+    "edge:guide>museum",
+    "focus:museum"
+   ],
+   "parts": [
+    {
+     "zh": "参观博物馆，看古老的宝贝："
+    },
+    {
+     "en": "museum"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tower",
+    "edge:museum>tower",
+    "focus:tower"
+   ],
+   "parts": [
+    {
+     "zh": "爬上高高的塔，看看风景："
+    },
+    {
+     "en": "tower"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:island",
+    "edge:travel>island",
+    "focus:island"
+   ],
+   "parts": [
+    {
+     "zh": "坐船去一座小岛："
+    },
+    {
+     "en": "island"
+    },
+    {
+     "zh": "小提示：中间的 s 不发音哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:beach",
+    "edge:island>beach",
+    "focus:beach"
+   ],
+   "parts": [
+    {
+     "zh": "岛上有金色的沙滩："
+    },
+    {
+     "en": "beach"
+    },
+    {
+     "en": "I enjoy the sunshine at the beach."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:map",
+    "edge:island>map",
+    "focus:map"
+   ],
+   "parts": [
+    {
+     "zh": "迷路了，看看地图："
+    },
+    {
+     "en": "map"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "说一说你的旅行计划吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "I will travel to an island.",
+     "cue": [
+      "focus:travel,island"
+     ]
+    },
+    {
+     "en": "I will stay at a hotel.",
+     "cue": [
+      "focus:hotel"
+     ]
+    },
+    {
+     "en": "I will visit a museum and a palace!",
+     "cue": [
+      "focus:museum,palace"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:vacation"
+   ],
+   "parts": [
+    {
+     "en": "vacation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:travel"
+   ],
+   "parts": [
+    {
+     "en": "travel"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:agent"
+   ],
+   "parts": [
+    {
+     "en": "agent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:passport"
+   ],
+   "parts": [
+    {
+     "en": "passport"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hotel"
+   ],
+   "parts": [
+    {
+     "en": "hotel"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tour"
+   ],
+   "parts": [
+    {
+     "en": "tour"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:guide"
+   ],
+   "parts": [
+    {
+     "en": "guide"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:palace"
+   ],
+   "parts": [
+    {
+     "en": "palace"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:museum"
+   ],
+   "parts": [
+    {
+     "en": "museum"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tower"
+   ],
+   "parts": [
+    {
+     "en": "tower"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:island"
+   ],
+   "parts": [
+    {
+     "en": "island"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:beach"
+   ],
+   "parts": [
+    {
+     "en": "beach"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:map"
+   ],
+   "parts": [
+    {
+     "en": "map"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！你最想去哪里旅行？用英语告诉爸爸妈妈吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

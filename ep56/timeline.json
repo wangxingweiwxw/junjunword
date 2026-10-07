@@ -1,0 +1,620 @@
+{
+ "duration": 131.025,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！放假啦！今天，我们来学和假日有关的单词。",
+   "t0": 0.4,
+   "t1": 6.582,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "holiday",
+   "t0": 6.832,
+   "t1": 7.455,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "不用上学、不用上班的日子，是假日：",
+   "t0": 8.555,
+   "t1": 11.896,
+   "cue": [
+    "map",
+    "show:holiday",
+    "focus:holiday"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "holiday",
+   "t0": 12.146,
+   "t1": 12.769,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "Happy holiday!",
+   "t0": 13.269,
+   "t1": 14.184,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "平常的、一般的日子，英语是",
+   "t0": 15.284,
+   "t1": 18.172,
+   "cue": [
+    "show:general",
+    "edge:holiday>general",
+    "focus:general"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "general",
+   "t0": 18.422,
+   "t1": 18.994,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "a general day",
+   "t0": 19.494,
+   "t1": 20.51,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "假日让人很放松：",
+   "t0": 21.61,
+   "t1": 23.067,
+   "cue": [
+    "show:relaxing",
+    "edge:holiday>relaxing",
+    "focus:relaxing"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "relaxing",
+   "t0": 23.317,
+   "t1": 24.144,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "The holiday is relaxing.",
+   "t0": 24.644,
+   "t1": 26.277,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "放假了，出去玩一趟：",
+   "t0": 27.377,
+   "t1": 29.129,
+   "cue": [
+    "show:trip",
+    "edge:holiday>trip",
+    "focus:trip"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "trip",
+   "t0": 29.379,
+   "t1": 29.78,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "a trip to the beach",
+   "t0": 30.28,
+   "t1": 31.468,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "离开家，去远方，是",
+   "t0": 32.568,
+   "t1": 34.679,
+   "cue": [
+    "show:away",
+    "edge:trip>away",
+    "focus:away"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "away",
+   "t0": 34.929,
+   "t1": 35.39,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "We go away for the holiday.",
+   "t0": 35.89,
+   "t1": 37.434,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "带上吃的，去公园野餐：",
+   "t0": 38.534,
+   "t1": 40.633,
+   "cue": [
+    "show:picnic",
+    "edge:trip>picnic",
+    "focus:picnic"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "picnic",
+   "t0": 40.883,
+   "t1": 41.498,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "明天会下雨吗？我猜想不会：",
+   "t0": 42.598,
+   "t1": 45.487,
+   "cue": [
+    "show:suppose",
+    "edge:picnic>suppose",
+    "focus:suppose"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "suppose",
+   "t0": 45.737,
+   "t1": 46.484,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "I suppose it will be sunny.",
+   "t0": 46.984,
+   "t1": 48.487,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "春节、中秋节，都是节日：",
+   "t0": 49.587,
+   "t1": 52.186,
+   "cue": [
+    "show:festival",
+    "edge:holiday>festival",
+    "focus:festival"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "festival",
+   "t0": 52.436,
+   "t1": 53.117,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "the Spring Festival",
+   "t0": 53.617,
+   "t1": 54.832,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "在节日期间，英语是",
+   "t0": 55.932,
+   "t1": 57.9,
+   "cue": [
+    "show:during",
+    "edge:festival>during",
+    "focus:during"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "during",
+   "t0": 58.15,
+   "t1": 58.597,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "during the festival",
+   "t0": 59.097,
+   "t1": 60.233,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "节日里，我们去拜访亲戚：",
+   "t0": 61.333,
+   "t1": 63.534,
+   "cue": [
+    "show:visit",
+    "edge:festival>visit",
+    "focus:visit"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "visit",
+   "t0": 63.784,
+   "t1": 64.335,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "I visit my family during the festival.",
+   "t0": 64.835,
+   "t1": 67.061,
+   "cue": [
+    "focus:visit,during"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "加上 o r，就是来拜访的人，客人：",
+   "t0": 67.561,
+   "t1": 70.664,
+   "cue": [
+    "alt:visit"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "visitor",
+   "t0": 70.914,
+   "t1": 71.48,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "客人来了！来，英语是",
+   "t0": 72.58,
+   "t1": 75.286,
+   "cue": [
+    "show:come",
+    "edge:visit>come",
+    "focus:come"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "come",
+   "t0": 75.536,
+   "t1": 75.93,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "已经来了，要说",
+   "t0": 76.43,
+   "t1": 77.96,
+   "cue": [
+    "alt:come"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "came",
+   "t0": 78.21,
+   "t1": 78.618,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "一家人聚在一起，是",
+   "t0": 79.718,
+   "t1": 81.615,
+   "cue": [
+    "show:together",
+    "edge:visit>together",
+    "focus:together"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "together",
+   "t0": 81.865,
+   "t1": 82.493,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "We have dinner together.",
+   "t0": 82.993,
+   "t1": 84.288,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "说一说你的假期吧！",
+   "t0": 85.388,
+   "t1": 86.843,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "During the holiday, I go on a trip.",
+   "t0": 87.693,
+   "t1": 89.87,
+   "cue": [
+    "focus:during,trip"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "We have a picnic together.",
+   "t0": 90.37,
+   "t1": 91.832,
+   "cue": [
+    "focus:picnic,together"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "It's very relaxing!",
+   "t0": 92.332,
+   "t1": 93.71,
+   "cue": [
+    "focus:relaxing"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 94.81,
+   "t1": 98.06,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "holiday",
+   "t0": 98.91,
+   "t1": 99.533,
+   "cue": [
+    "focus:holiday"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "general",
+   "t0": 100.633,
+   "t1": 101.205,
+   "cue": [
+    "focus:general"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "relaxing",
+   "t0": 102.305,
+   "t1": 103.132,
+   "cue": [
+    "focus:relaxing"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "trip",
+   "t0": 104.232,
+   "t1": 104.633,
+   "cue": [
+    "focus:trip"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "away",
+   "t0": 105.733,
+   "t1": 106.194,
+   "cue": [
+    "focus:away"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "picnic",
+   "t0": 107.294,
+   "t1": 107.909,
+   "cue": [
+    "focus:picnic"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "suppose",
+   "t0": 109.009,
+   "t1": 109.756,
+   "cue": [
+    "focus:suppose"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "festival",
+   "t0": 110.856,
+   "t1": 111.537,
+   "cue": [
+    "focus:festival"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "during",
+   "t0": 112.637,
+   "t1": 113.085,
+   "cue": [
+    "focus:during"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "visit, visitor",
+   "t0": 114.185,
+   "t1": 115.467,
+   "cue": [
+    "focus:visit"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "come, came",
+   "t0": 116.567,
+   "t1": 117.626,
+   "cue": [
+    "focus:come"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "together",
+   "t0": 118.726,
+   "t1": 119.354,
+   "cue": [
+    "focus:together"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "zh",
+   "text": "太棒了！放假的时候，和家人一起做点开心的事吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 120.454,
+   "t1": 129.175,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "holiday": [
+   0.25,
+   0.873
+  ],
+  "general": [
+   1.123,
+   1.695
+  ],
+  "relaxing": [
+   1.945,
+   2.772
+  ],
+  "trip": [
+   3.022,
+   3.423
+  ],
+  "away": [
+   3.673,
+   4.134
+  ],
+  "picnic": [
+   4.384,
+   5.0
+  ],
+  "suppose": [
+   5.25,
+   5.996
+  ],
+  "festival": [
+   6.246,
+   6.927
+  ],
+  "during": [
+   7.177,
+   7.625
+  ],
+  "visit": [
+   7.875,
+   8.425
+  ],
+  "visit:alt": [
+   8.675,
+   9.24
+  ],
+  "come": [
+   9.49,
+   9.884
+  ],
+  "come:alt": [
+   10.134,
+   10.542
+  ],
+  "together": [
+   10.792,
+   11.42
+  ]
+ }
+}

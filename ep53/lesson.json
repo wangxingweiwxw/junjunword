@@ -1,0 +1,725 @@
+{
+ "id": "ep53",
+ "title": "directions",
+ "titleZh": "方向",
+ "episode": "第 53 集",
+ "titleIcon": "turn",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "find",
+   "word": "find",
+   "ipa": "/faɪnd/",
+   "zh": "找到",
+   "icon": "find",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "way",
+   "word": "way",
+   "ipa": "/weɪ/",
+   "zh": "路；方法",
+   "icon": "way",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "towards",
+   "word": "towards",
+   "ipa": "/təˈwɔːrdz/",
+   "zh": "朝着",
+   "icon": "towards",
+   "kind": "prep",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "turn",
+   "word": "turn",
+   "ipa": "/tɜːrn/",
+   "zh": "转弯",
+   "icon": "turn",
+   "kind": "verb",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "left",
+   "word": "left",
+   "ipa": "/left/",
+   "zh": "左边",
+   "icon": "left",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "right",
+   "word": "right",
+   "ipa": "/raɪt/",
+   "zh": "右边",
+   "icon": "rightdir",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "up",
+   "word": "up",
+   "ipa": "/ʌp/",
+   "zh": "向上",
+   "icon": "up",
+   "kind": "adv",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "down",
+   "word": "down",
+   "ipa": "/daʊn/",
+   "zh": "向下",
+   "icon": "down",
+   "kind": "adv",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "over",
+   "word": "over",
+   "ipa": "/ˈoʊvər/",
+   "zh": "越过",
+   "icon": "over",
+   "kind": "prep",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "through",
+   "word": "through",
+   "ipa": "/θruː/",
+   "zh": "穿过",
+   "icon": "through",
+   "kind": "prep",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "along",
+   "word": "along",
+   "ipa": "/əˈlɔːŋ/",
+   "zh": "沿着",
+   "icon": "along",
+   "kind": "prep",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "into",
+   "word": "into",
+   "ipa": "/ˈɪntuː/",
+   "zh": "进入",
+   "icon": "into",
+   "kind": "prep",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "find",
+   "to": "way"
+  },
+  {
+   "from": "way",
+   "to": "towards"
+  },
+  {
+   "from": "way",
+   "to": "turn",
+   "dashed": true
+  },
+  {
+   "from": "turn",
+   "to": "left"
+  },
+  {
+   "from": "turn",
+   "to": "right"
+  },
+  {
+   "from": "up",
+   "to": "down",
+   "label": "反义"
+  },
+  {
+   "from": "along",
+   "to": "over",
+   "dashed": true
+  },
+  {
+   "from": "along",
+   "to": "through",
+   "dashed": true
+  },
+  {
+   "from": "along",
+   "to": "into"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！迷路了怎么办？今天，我们来学问路和指路！"
+    },
+    {
+     "en": "directions"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:find",
+    "focus:find"
+   ],
+   "parts": [
+    {
+     "zh": "要找到地方，英语是"
+    },
+    {
+     "en": "find"
+    },
+    {
+     "en": "I can't find the library."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:way",
+    "edge:find>way",
+    "focus:way"
+   ],
+   "parts": [
+    {
+     "zh": "去一个地方的路，是"
+    },
+    {
+     "en": "way"
+    },
+    {
+     "en": "Can you tell me the way?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:towards",
+    "edge:way>towards",
+    "focus:towards"
+   ],
+   "parts": [
+    {
+     "zh": "朝着一个方向走，是"
+    },
+    {
+     "en": "towards"
+    },
+    {
+     "en": "Walk towards the bank."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:turn",
+    "edge:way>turn",
+    "focus:turn"
+   ],
+   "parts": [
+    {
+     "zh": "走到路口，要转弯："
+    },
+    {
+     "en": "turn"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:left",
+    "edge:turn>left",
+    "focus:left"
+   ],
+   "parts": [
+    {
+     "zh": "往左转："
+    },
+    {
+     "en": "turn left"
+    },
+    {
+     "zh": "左边，是"
+    },
+    {
+     "en": "left"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:right",
+    "edge:turn>right",
+    "focus:right"
+   ],
+   "parts": [
+    {
+     "zh": "往右转："
+    },
+    {
+     "en": "turn right"
+    },
+    {
+     "zh": "右边，是"
+    },
+    {
+     "en": "right"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:left,right"
+   ],
+   "parts": [
+    {
+     "zh": "一左一右，跟着我伸出手："
+    },
+    {
+     "en": "left!",
+     "cue": [
+      "focus:left"
+     ]
+    },
+    {
+     "en": "right!",
+     "cue": [
+      "focus:right"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:up",
+    "focus:up"
+   ],
+   "parts": [
+    {
+     "zh": "向上，是"
+    },
+    {
+     "en": "up"
+    },
+    {
+     "en": "Go up the stairs."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:down",
+    "edge:up>down",
+    "focus:down"
+   ],
+   "parts": [
+    {
+     "zh": "向下，是"
+    },
+    {
+     "en": "down"
+    },
+    {
+     "en": "Go down the stairs."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:along",
+    "focus:along"
+   ],
+   "parts": [
+    {
+     "zh": "顺着一条路一直走，是沿着："
+    },
+    {
+     "en": "along"
+    },
+    {
+     "en": "Go along the street."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:over",
+    "edge:along>over",
+    "focus:over"
+   ],
+   "parts": [
+    {
+     "zh": "从桥的上面走过去，是越过："
+    },
+    {
+     "en": "over"
+    },
+    {
+     "en": "Go over the bridge."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:through",
+    "edge:along>through",
+    "focus:through"
+   ],
+   "parts": [
+    {
+     "zh": "从隧道的里面穿过去，是"
+    },
+    {
+     "en": "through"
+    },
+    {
+     "en": "Go through the tunnel."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:into",
+    "edge:along>into",
+    "focus:into"
+   ],
+   "parts": [
+    {
+     "zh": "从外面走进里面，是进入："
+    },
+    {
+     "en": "into"
+    },
+    {
+     "zh": "在……里面，加上到："
+    },
+    {
+     "en": "in"
+    },
+    {
+     "en": "to"
+    },
+    {
+     "en": "into"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:over,through"
+   ],
+   "parts": [
+    {
+     "zh": "一个从上面过，一个从里面过："
+    },
+    {
+     "en": "over",
+     "cue": [
+      "focus:over"
+     ]
+    },
+    {
+     "en": "through",
+     "cue": [
+      "focus:through"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们来指路吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Go along the street.",
+     "cue": [
+      "focus:along"
+     ]
+    },
+    {
+     "en": "Turn left at the corner.",
+     "cue": [
+      "focus:turn,left"
+     ]
+    },
+    {
+     "en": "Go over the bridge.",
+     "cue": [
+      "focus:over"
+     ]
+    },
+    {
+     "en": "Then go into the library!",
+     "cue": [
+      "focus:into"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:find"
+   ],
+   "parts": [
+    {
+     "en": "find"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:way"
+   ],
+   "parts": [
+    {
+     "en": "way"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:towards"
+   ],
+   "parts": [
+    {
+     "en": "towards"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:turn"
+   ],
+   "parts": [
+    {
+     "en": "turn"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:left"
+   ],
+   "parts": [
+    {
+     "en": "left"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:right"
+   ],
+   "parts": [
+    {
+     "en": "right"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:up"
+   ],
+   "parts": [
+    {
+     "en": "up"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:down"
+   ],
+   "parts": [
+    {
+     "en": "down"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:along"
+   ],
+   "parts": [
+    {
+     "en": "along"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:over"
+   ],
+   "parts": [
+    {
+     "en": "over"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:through"
+   ],
+   "parts": [
+    {
+     "en": "through"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:into"
+   ],
+   "parts": [
+    {
+     "en": "into"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！下次出门，试着用英语给爸爸妈妈指一指路吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,756 @@
+{
+ "id": "ep52",
+ "title": "transport",
+ "titleZh": "交通（二）",
+ "episode": "第 52 集",
+ "titleIcon": "traffic",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "airport",
+   "word": "airport",
+   "ipa": "/ˈerpɔːrt/",
+   "zh": "机场",
+   "icon": "airport",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "flight",
+   "word": "flight",
+   "ipa": "/flaɪt/",
+   "zh": "航班",
+   "icon": "flight",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "arrive",
+   "word": "arrive",
+   "ipa": "/əˈraɪv/",
+   "zh": "到达",
+   "icon": "arrive",
+   "kind": "verb",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "narrowly",
+   "word": "narrowly",
+   "ipa": "/ˈnæroʊli/",
+   "zh": "勉强地；差一点",
+   "icon": "narrowly",
+   "kind": "adv",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "drive",
+   "word": "drive",
+   "ipa": "/draɪv/",
+   "zh": "开车",
+   "icon": "drive",
+   "kind": "verb",
+   "alt": "driver",
+   "altLabel": "加 r →",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "license",
+   "word": "license",
+   "ipa": "/ˈlaɪsns/",
+   "zh": "执照；驾照",
+   "icon": "license",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "wheel",
+   "word": "wheel",
+   "ipa": "/wiːl/",
+   "zh": "轮子",
+   "icon": "wheel",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "taxi",
+   "word": "taxi",
+   "ipa": "/ˈtæksi/",
+   "zh": "出租车",
+   "icon": "taxi",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "traffic",
+   "word": "traffic",
+   "ipa": "/ˈtræfɪk/",
+   "zh": "交通；车流",
+   "icon": "traffic",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "underground",
+   "word": "underground",
+   "ipa": "/ˈʌndərɡraʊnd/",
+   "zh": "地铁",
+   "icon": "subway",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "station",
+   "word": "station",
+   "ipa": "/ˈsteɪʃn/",
+   "zh": "车站",
+   "icon": "station",
+   "alt": "train station",
+   "altLabel": "常说",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "railway",
+   "word": "railway",
+   "ipa": "/ˈreɪlweɪ/",
+   "zh": "铁路",
+   "icon": "railway",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "tunnel",
+   "word": "tunnel",
+   "ipa": "/ˈtʌnl/",
+   "zh": "隧道",
+   "icon": "tunnel",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  },
+  {
+   "id": "bridge",
+   "word": "bridge",
+   "ipa": "/brɪdʒ/",
+   "zh": "桥",
+   "icon": "bridge",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "airport",
+   "to": "flight"
+  },
+  {
+   "from": "flight",
+   "to": "arrive"
+  },
+  {
+   "from": "arrive",
+   "to": "narrowly",
+   "dashed": true
+  },
+  {
+   "from": "license",
+   "to": "drive",
+   "label": "要有"
+  },
+  {
+   "from": "drive",
+   "to": "taxi"
+  },
+  {
+   "from": "taxi",
+   "to": "wheel",
+   "dashed": true
+  },
+  {
+   "from": "taxi",
+   "to": "traffic"
+  },
+  {
+   "from": "station",
+   "to": "underground"
+  },
+  {
+   "from": "station",
+   "to": "railway"
+  },
+  {
+   "from": "railway",
+   "to": "tunnel"
+  },
+  {
+   "from": "underground",
+   "to": "bridge",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！还记得第二十五集的交通工具吗？今天，我们学更多出行的单词。"
+    },
+    {
+     "en": "transportation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:airport",
+    "focus:airport"
+   ],
+   "parts": [
+    {
+     "zh": "坐飞机，先去机场。空中，加上港口："
+    },
+    {
+     "en": "air"
+    },
+    {
+     "en": "port"
+    },
+    {
+     "en": "airport"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:flight",
+    "edge:airport>flight",
+    "focus:flight"
+   ],
+   "parts": [
+    {
+     "zh": "每一班飞机，叫航班："
+    },
+    {
+     "en": "flight"
+    },
+    {
+     "zh": "还记得飞 fly 吗？g h 不发音。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:arrive",
+    "edge:flight>arrive",
+    "focus:arrive"
+   ],
+   "parts": [
+    {
+     "zh": "飞机降落，我们到达了："
+    },
+    {
+     "en": "arrive"
+    },
+    {
+     "en": "We arrive in Beijing."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:narrowly",
+    "edge:arrive>narrowly",
+    "focus:narrowly"
+   ],
+   "parts": [
+    {
+     "zh": "差一点就没赶上，勉强地，英语是"
+    },
+    {
+     "en": "narrowly"
+    },
+    {
+     "en": "We narrowly caught the flight."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:drive",
+    "focus:drive"
+   ],
+   "parts": [
+    {
+     "zh": "开汽车，是"
+    },
+    {
+     "en": "drive"
+    },
+    {
+     "zh": "加上 r，就是开车的人，司机：",
+     "cue": [
+      "alt:drive"
+     ]
+    },
+    {
+     "en": "driver"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:license",
+    "edge:license>drive",
+    "focus:license"
+   ],
+   "parts": [
+    {
+     "zh": "大人开车，要先考一个驾照："
+    },
+    {
+     "en": "license"
+    },
+    {
+     "en": "a driver's license"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:taxi",
+    "edge:drive>taxi",
+    "focus:taxi"
+   ],
+   "parts": [
+    {
+     "zh": "路边招手，坐出租车："
+    },
+    {
+     "en": "taxi"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wheel",
+    "edge:taxi>wheel",
+    "focus:wheel"
+   ],
+   "parts": [
+    {
+     "zh": "汽车跑起来，靠四个轮子："
+    },
+    {
+     "en": "wheel"
+    },
+    {
+     "zh": "开头的 w h，只读 w。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:traffic",
+    "edge:taxi>traffic",
+    "focus:traffic"
+   ],
+   "parts": [
+    {
+     "zh": "路上车来车往，是交通："
+    },
+    {
+     "en": "traffic"
+    },
+    {
+     "en": "There is a lot of traffic."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:station",
+    "focus:station"
+   ],
+   "parts": [
+    {
+     "zh": "坐火车，要去车站："
+    },
+    {
+     "en": "station"
+    },
+    {
+     "zh": "火车站常常说成",
+     "cue": [
+      "alt:station"
+     ]
+    },
+    {
+     "en": "train station"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:underground",
+    "edge:station>underground",
+    "focus:underground"
+   ],
+   "parts": [
+    {
+     "zh": "在英国，地铁叫"
+    },
+    {
+     "en": "underground"
+    },
+    {
+     "zh": "在下面，加上地面。还记得美国叫什么吗？"
+    },
+    {
+     "en": "subway"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:railway",
+    "edge:station>railway",
+    "focus:railway"
+   ],
+   "parts": [
+    {
+     "zh": "火车跑的路，是铁路："
+    },
+    {
+     "en": "railway"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tunnel",
+    "edge:railway>tunnel",
+    "focus:tunnel"
+   ],
+   "parts": [
+    {
+     "zh": "铁路穿过大山，要钻隧道："
+    },
+    {
+     "en": "tunnel"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bridge",
+    "edge:underground>bridge",
+    "focus:bridge"
+   ],
+   "parts": [
+    {
+     "zh": "跨过大河，要过桥："
+    },
+    {
+     "en": "bridge"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:airport,railway,underground"
+   ],
+   "parts": [
+    {
+     "zh": "今天的拼词："
+    },
+    {
+     "en": "air, port, airport",
+     "cue": [
+      "focus:airport"
+     ]
+    },
+    {
+     "en": "rail, way, railway",
+     "cue": [
+      "focus:railway"
+     ]
+    },
+    {
+     "en": "under, ground, underground",
+     "cue": [
+      "focus:underground"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:airport"
+   ],
+   "parts": [
+    {
+     "en": "airport"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:flight"
+   ],
+   "parts": [
+    {
+     "en": "flight"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:arrive"
+   ],
+   "parts": [
+    {
+     "en": "arrive"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:narrowly"
+   ],
+   "parts": [
+    {
+     "en": "narrowly"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:drive"
+   ],
+   "parts": [
+    {
+     "en": "drive, driver"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:license"
+   ],
+   "parts": [
+    {
+     "en": "license"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:taxi"
+   ],
+   "parts": [
+    {
+     "en": "taxi"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wheel"
+   ],
+   "parts": [
+    {
+     "en": "wheel"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:traffic"
+   ],
+   "parts": [
+    {
+     "en": "traffic"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:station"
+   ],
+   "parts": [
+    {
+     "en": "station"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:underground"
+   ],
+   "parts": [
+    {
+     "en": "underground"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:railway"
+   ],
+   "parts": [
+    {
+     "en": "railway"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tunnel"
+   ],
+   "parts": [
+    {
+     "en": "tunnel"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bridge"
+   ],
+   "parts": [
+    {
+     "en": "bridge"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！下次出门，用英语说一说你坐的是什么交通工具吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

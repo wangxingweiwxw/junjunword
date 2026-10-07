@@ -2005,6 +2005,260 @@
     freeze: () => glass('#BDE7FF', .8) + flake(60, 70, 18, '#fff') + flake(96, 22, 9, '#7FC8F8'),
   });
 
+  const flagGoal = (x, y, c = '#E63946') => `<path d="M${x} ${y} V${y + 70}" stroke="#8A8FA3" stroke-width="4"/><path d="M${x} ${y} h26 l-6 10 l6 10 h-26z" fill="${c}"/>`;
+  const arrowTo = (x1, y1, x2, y2, c = '#E63946', w = 6) => { const a = Math.atan2(y2 - y1, x2 - x1), h = 10;
+    return `<path d="M${x1} ${y1} L${x2} ${y2} M${x2 - h * Math.cos(a - .5)} ${y2 - h * Math.sin(a - .5)} L${x2} ${y2} L${x2 - h * Math.cos(a + .5)} ${y2 - h * Math.sin(a + .5)}" stroke="${c}" stroke-width="${w}" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`; };
+  const coin = (x, y, r = 10) => `<circle cx="${x}" cy="${y}" r="${r}" fill="#FFD23F" stroke="#E0A100" stroke-width="2.5"/><text x="${x}" y="${y + r * .4}" text-anchor="middle" font-size="${r * 1.1}" ${FONT} fill="#C77800">¥</text>`;
+  const paper = (inner, st = '#C5CBE0') => `<rect x="22" y="10" width="76" height="100" rx="6" fill="#fff" stroke="${st}" stroke-width="3"/>${inner}`;
+  const lines = (ys, x = 32, w = 56) => ys.map(y => `<path d="M${x} ${y} h${w}" stroke="#C5CBE0" stroke-width="4" stroke-linecap="round"/>`).join('');
+  Object.assign(ART, {
+    // ---------- ep51 town (2) ----------
+    church: () => `<rect x="30" y="54" width="60" height="56" fill="#F4F1E8" stroke="#C5CBE0" stroke-width="2"/><path d="M24 58 L60 30 L96 58Z" fill="#8D5A3B"/>
+       <rect x="50" y="20" width="20" height="40" fill="#F4F1E8" stroke="#C5CBE0" stroke-width="2"/><path d="M46 22 L60 6 L74 22Z" fill="#8D5A3B"/>
+       <path d="M50 82 a10 10 0 0 1 20 0 V110 H50Z" fill="#8D5A3B"/><circle cx="60" cy="40" r="6" fill="#7FC8F8"/>
+       ${[38, 76].map(x => `<path d="M${x} 72 a6 6 0 0 1 12 0 v12 h-12z" fill="#7FC8F8"/>`).join('')}`,
+    factory: () => `<path d="M8 110 V62 L32 48 V62 L56 48 V62 L80 48 V110Z" fill="#8A8FA3"/><rect x="84" y="20" width="14" height="90" fill="#6B7085"/><rect x="84" y="28" width="14" height="6" fill="#E63946"/>
+       ${[18, 42, 66].map(x => `<rect x="${x}" y="74" width="12" height="12" fill="#FFD23F"/>`).join('')}<circle cx="96" cy="12" r="8" fill="#E3E6F5"/><circle cx="108" cy="6" r="5" fill="#E3E6F5"/>`,
+    grounds: () => `<rect x="4" y="4" width="112" height="112" rx="18" fill="#BDE7FF"/><path d="M4 60 H116 V98 a18 18 0 0 1 -18 18 H22 a18 18 0 0 1 -18 -18Z" fill="#6CCB5F"/>
+       <ellipse cx="60" cy="86" rx="40" ry="16" fill="none" stroke="#fff" stroke-width="4"/><path d="M60 70 V102" stroke="#fff" stroke-width="3"/>
+       <rect x="12" y="40" width="96" height="20" fill="#E9A66B"/><path d="M12 40 h96" stroke="#B5703F" stroke-width="3"/>`,
+    prison: () => `<rect x="14" y="16" width="92" height="94" rx="6" fill="#8A8FA3"/><rect x="24" y="26" width="72" height="74" fill="#2B2D42"/>
+       ${[34, 50, 66, 82].map(x => `<rect x="${x}" y="26" width="5" height="74" fill="#C5CBE0"/>`).join('')}<rect x="24" y="58" width="72" height="5" fill="#C5CBE0"/>`,
+    library: () => `<rect x="10" y="40" width="100" height="70" fill="#F4E4C1"/><path d="M4 42 L60 12 L116 42Z" fill="#B5703F"/>
+       ${[22, 44, 66, 88].map(x => `<rect x="${x - 4}" y="46" width="8" height="54" fill="#E9C8A0"/>`).join('')}<rect x="6" y="100" width="108" height="10" fill="#C9934A"/>
+       <text x="60" y="36" text-anchor="middle" font-size="10" ${FONT} fill="#fff">LIBRARY</text>`,
+    borrow: () => `<g transform="translate(14 22) scale(.55)">${ART.book()}</g>` + arrowTo(96, 30, 96, 96, '#2FA36B') + hand(52, 102, .8, 0, SKIN[0])
+       + `<text x="96" y="22" text-anchor="middle" font-size="12" ${FONT} fill="#2FA36B">借入</text>`,
+    lend: () => `<g transform="translate(40 52) scale(.55)">${ART.book()}</g>` + arrowTo(24, 96, 24, 30, '#FF9F1C') + hand(70, 104, .8, 0, SKIN[1])
+       + `<text x="24" y="114" text-anchor="middle" font-size="12" ${FONT} fill="#FF9F1C">借出</text>`,
+    return: () => `<g transform="translate(30 30) scale(.5)">${ART.book()}</g><path d="M96 60 a36 36 0 1 1 -10 -26" stroke="#3D8BFD" stroke-width="7" fill="none" stroke-linecap="round"/>
+       <path d="M92 18 l-4 18 l18 -2z" fill="#3D8BFD"/>`,
+    bank: () => `<path d="M8 40 L60 10 L112 40Z" fill="#5A67D8"/><rect x="12" y="40" width="96" height="8" fill="#434FB8"/>
+       ${[22, 44, 66, 88].map(x => `<rect x="${x - 5}" y="50" width="10" height="46" fill="#E3E6F5"/>`).join('')}<rect x="8" y="96" width="104" height="12" fill="#434FB8"/>${coin(60, 28, 8)}`,
+    corner: () => `<path d="M10 10 H58 V58 H110 V110 H10Z" fill="#6B7085"/><path d="M34 10 V84 H110" stroke="#fff" stroke-width="4" stroke-dasharray="8 8" fill="none"/>
+       <circle cx="58" cy="58" r="14" fill="#FFD23F" stroke="#E0A100" stroke-width="3"/><rect x="62" y="16" width="44" height="36" rx="4" fill="#E9A66B"/>`,
+    across: () => `<path d="M0 40 H120 M0 84 H120" stroke="#C5CBE0" stroke-width="4"/><rect x="0" y="44" width="120" height="36" fill="#6B7085"/>`
+       + arrowTo(30, 104, 90, 20, '#E63946', 7),
+
+    // ---------- ep52 transport (2) ----------
+    airport: () => `<rect x="8" y="76" width="104" height="34" rx="4" fill="#C5CBE0"/><rect x="14" y="82" width="92" height="14" fill="#7FC8F8"/>
+       <rect x="84" y="20" width="16" height="56" fill="#8A8FA3"/><rect x="76" y="14" width="32" height="16" rx="4" fill="#5A67D8"/><path d="M80 20 h24" stroke="#BDE7FF" stroke-width="4"/>`
+       + `<g transform="translate(-10 -10) scale(.55)">${ART.plane()}</g>`,
+    flight: () => `<path d="M10 100 C40 96 70 70 104 26" stroke="#8A8FA3" stroke-width="3" fill="none" stroke-dasharray="6 6"/>` + `<g transform="translate(46 0) scale(.6)">${ART.plane()}</g>`
+       + `<circle cx="14" cy="100" r="7" fill="#E63946"/>`,
+    arrive: () => `<path d="M8 96 H112" stroke="#C5CBE0" stroke-width="5"/>` + flagGoal(96, 30) + arrowTo(14, 74, 80, 74, '#2FA36B', 7) + check(26, 40, 1.2),
+    narrowly: () => `<path d="M40 10 V110 M80 10 V110" stroke="#8A8FA3" stroke-width="10"/><path d="M50 60 H70" stroke="#FFD23F" stroke-width="10" stroke-linecap="round"/>`
+       + `<path d="M22 50 l-8 10 l8 10 M98 50 l8 10 l-8 10" stroke="#E63946" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+    drive: () => kid({s: .62, dx: -16, dy: -8, la: [80, 60], ra: [70, 50], shirt: '#3D8BFD'}) + `<circle cx="70" cy="58" r="22" fill="none" stroke="#2B2D42" stroke-width="7"/>
+       <circle cx="70" cy="58" r="5" fill="#2B2D42"/><path d="M48 58 h44 M70 58 v22" stroke="#2B2D42" stroke-width="4"/>`,
+    license: () => `<rect x="8" y="26" width="104" height="68" rx="8" fill="#BDE7FF" stroke="#3D8BFD" stroke-width="3"/><rect x="18" y="38" width="30" height="40" rx="4" fill="#fff"/>
+       <circle cx="33" cy="52" r="8" fill="${SKIN[0]}"/><path d="M23 74 a10 8 0 0 1 20 0z" fill="#3D8BFD"/>${lines([46, 58, 70], 58, 44)}<text x="80" y="88" text-anchor="middle" font-size="9" ${FONT} fill="#3D8BFD">DRIVER LICENSE</text>`,
+    wheel: () => `<circle cx="60" cy="60" r="48" fill="#2B2D42"/><circle cx="60" cy="60" r="30" fill="#C5CBE0"/><circle cx="60" cy="60" r="10" fill="#8A8FA3"/>
+       ${[0, 72, 144, 216, 288].map(a => `<path d="M60 60 L60 32" stroke="#8A8FA3" stroke-width="6" transform="rotate(${a} 60 60)"/>`).join('')}`,
+    taxi: () => ART.car().replace(/#E63946/g, '#FFD23F').replace('<rect x="104" y="64" width="6" height="6" rx="2" fill="#FFD23F"/>', '') + `<rect x="46" y="24" width="28" height="12" rx="3" fill="#2B2D42"/><text x="60" y="33" text-anchor="middle" font-size="9" ${FONT} fill="#FFD23F">TAXI</text>`,
+    traffic: () => `<rect x="44" y="8" width="32" height="80" rx="10" fill="#2B2D42"/>${[['#E63946', 24], ['#FFB703', 48], ['#2FA36B', 72]].map(([c, y]) => `<circle cx="60" cy="${y}" r="10" fill="${c}"/>`).join('')}
+       <rect x="56" y="88" width="8" height="24" fill="#2B2D42"/>` + `<g transform="translate(-14 58) scale(.42)">${ART.car()}</g><g transform="translate(70 62) scale(.4)">${ART.bus()}</g>`,
+    station: () => `<rect x="10" y="44" width="100" height="56" fill="#F4E4C1"/><path d="M4 48 L60 18 L116 48Z" fill="#C1440E"/><circle cx="60" cy="34" r="8" fill="#fff"/>
+       <path d="M60 30 v4 h3" stroke="${INK}" stroke-width="1.6" fill="none"/>${[24, 48, 72, 96].map(x => `<rect x="${x - 7}" y="60" width="14" height="22" rx="2" fill="#7FC8F8"/>`).join('')}
+       <rect x="4" y="100" width="112" height="10" fill="#8A8FA3"/>`,
+    railway: () => `<path d="M38 4 L14 116 M82 4 L106 116" stroke="#8A8FA3" stroke-width="6"/>${[14, 32, 52, 74, 98].map((y, i) => `<path d="M${36 - i * 4.5} ${y} H${84 + i * 4.5}" stroke="#8D5A3B" stroke-width="7"/>`).join('')}`,
+    tunnel: () => `<path d="M0 116 V60 C0 20 40 8 60 8 C80 8 120 20 120 60 V116Z" fill="#8D7B68"/><path d="M24 116 V70 a36 36 0 0 1 72 0 V116Z" fill="#2B2D42"/>
+       <path d="M0 116 H120" stroke="#6B7085" stroke-width="6"/>${[[16, 30], [100, 36], [30, 14]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="5" fill="#6B5B4B"/>`).join('')}<circle cx="60" cy="96" r="6" fill="#FFD23F"/>`,
+    bridge: () => `<path d="M0 104 q15 -6 30 0 t30 0 t30 0 t30 0 V120 H0Z" fill="#4CC9F0"/><path d="M4 70 H116" stroke="#C1440E" stroke-width="8"/>
+       <path d="M10 70 C30 30 90 30 110 70" stroke="#E63946" stroke-width="6" fill="none"/>${[22, 38, 60, 82, 98].map(x => `<path d="M${x} 70 V${70 - Math.sin((x - 10) / 100 * Math.PI) * 30}" stroke="#E63946" stroke-width="3"/>`).join('')}
+       <path d="M20 70 V104 M100 70 V104" stroke="#8D5A3B" stroke-width="8"/>`,
+
+    // ---------- ep53 directions ----------
+    find: () => `<circle cx="50" cy="50" r="28" fill="#E3F4FF" stroke="#3D8BFD" stroke-width="7"/><path d="M70 70 L100 100" stroke="#3D8BFD" stroke-width="10" stroke-linecap="round"/>` + star(50, 50, 13, 5.5, '#FFB703'),
+    way: () => `<path d="M60 116 C60 80 30 70 34 46 C38 22 70 24 76 6" stroke="#C9934A" stroke-width="22" fill="none"/>
+       <path d="M60 116 C60 80 30 70 34 46 C38 22 70 24 76 6" stroke="#fff" stroke-width="2.5" fill="none" stroke-dasharray="6 6"/>`,
+    towards: () => `<path d="M10 66 H110" stroke="#C5CBE0" stroke-width="4" stroke-dasharray="6 6"/><circle cx="96" cy="66" r="14" fill="#E63946"/><circle cx="96" cy="66" r="6" fill="#fff"/>`
+       + kid({s: .5, dx: -36, dy: 14, la: [-24, -8], ra: [26, 48], ll: [20, 8], rl: [-20, -36], shirt: '#3D8BFD'}) + arrowTo(40, 40, 76, 40, '#2FA36B'),
+    turn: () => `<path d="M30 110 V60 a24 24 0 0 1 24 -24 H92" stroke="#3D8BFD" stroke-width="10" fill="none" stroke-linecap="round"/><path d="M88 22 l20 14 l-20 14z" fill="#3D8BFD"/>`,
+    left: () => `<rect x="56" y="60" width="8" height="52" fill="#8A8FA3"/><path d="M104 30 V74 H40 L14 52 L40 30Z" fill="#E63946"/>
+       <text x="66" y="62" text-anchor="middle" font-size="22" ${FONT} fill="#fff">LEFT</text>`,
+    rightdir: () => `<rect x="56" y="60" width="8" height="52" fill="#8A8FA3"/><path d="M16 30 V74 H80 L106 52 L80 30Z" fill="#3D8BFD"/>
+       <text x="54" y="62" text-anchor="middle" font-size="20" ${FONT} fill="#fff">RIGHT</text>`,
+    up: () => hand(60, 74, 1.5, 0, SKIN[0]) + arrowTo(98, 96, 98, 20, '#2FA36B'),
+    down: () => hand(60, 46, 1.5, 180, SKIN[0]) + arrowTo(98, 20, 98, 96, '#FF9F1C'),
+    over: () => `<path d="M0 104 q15 -6 30 0 t30 0 t30 0 t30 0 V120 H0Z" fill="#4CC9F0"/><path d="M14 80 C30 50 90 50 106 80" stroke="#B5703F" stroke-width="8" fill="none"/>`
+       + `<path d="M14 54 C34 10 86 10 106 54" stroke="#E63946" stroke-width="4" fill="none" stroke-dasharray="6 5"/><path d="M98 44 l8 10 l-12 2z" fill="#E63946"/>`,
+    through: () => `<path d="M0 116 V64 a40 40 0 0 1 120 0 V116Z" fill="#8D7B68"/><path d="M28 116 V74 a32 32 0 0 1 64 0 V116Z" fill="#2B2D42"/>` + arrowTo(4, 96, 116, 96, '#FFD23F', 7),
+    along: () => `<rect x="0" y="70" width="120" height="30" fill="#6B7085"/><path d="M0 85 H120" stroke="#fff" stroke-width="3" stroke-dasharray="10 8"/>`
+       + kid({s: .44, dx: -26, dy: 2, la: [-24, -8], ra: [26, 48], ll: [20, 8], rl: [-20, -36], shirt: '#E63946'}) + arrowTo(30, 58, 110, 58, '#2FA36B'),
+    into: () => `<rect x="62" y="40" width="50" height="70" fill="#FFE8C2"/><path d="M56 44 L87 18 L118 44Z" fill="#C1440E"/><rect x="74" y="70" width="22" height="40" fill="#2B2D42"/>` + arrowTo(8, 90, 80, 90, '#2FA36B', 7),
+
+    // ---------- ep54 animal traits ----------
+    size: () => `<rect x="10" y="70" width="28" height="28" rx="4" fill="#FF9F1C"/><rect x="46" y="48" width="40" height="50" rx="5" fill="#3D8BFD"/><rect x="94" y="84" width="16" height="14" rx="3" fill="#2FA36B"/>
+       <path d="M6 106 H114" stroke="#8A8FA3" stroke-width="3"/><text x="66" y="40" text-anchor="middle" font-size="13" ${FONT} fill="#8A8FA3">S M L</text>`,
+    big: () => ART.elephant(),
+    small: () => `<g transform="translate(26 26) scale(.55)">${ART.mouse()}</g>` + `<path d="M10 104 H110" stroke="#C5CBE0" stroke-width="3"/>`,
+    brave: () => figure('boy', {shirt: '#E63946'}) + `<path d="M24 66 L10 112 L46 92Z M96 66 L110 112 L74 92Z" fill="#E63946" opacity=".75"/>` + star(60, 92, 10, 4, '#FFD23F'),
+    cute: () => `<circle cx="60" cy="62" r="44" fill="#FFB3C6"/><circle cx="26" cy="28" r="14" fill="#FFB3C6"/><circle cx="94" cy="28" r="14" fill="#FFB3C6"/>
+       <circle cx="44" cy="58" r="9" fill="${INK}"/><circle cx="76" cy="58" r="9" fill="${INK}"/><circle cx="47" cy="54" r="3.5" fill="#fff"/><circle cx="79" cy="54" r="3.5" fill="#fff"/>
+       <path d="M52 76 q8 8 16 0" stroke="${INK}" stroke-width="3" fill="none"/><ellipse cx="32" cy="74" rx="7" ry="4" fill="#FF6F91"/><ellipse cx="88" cy="74" rx="7" ry="4" fill="#FF6F91"/>`,
+    funny: () => emo('#FFD23F', `<path d="M34 50 l14 6 l-14 6 M86 50 l-14 6 l14 6" stroke="${INK}" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+       `<path d="M34 74 h52 q-4 24 -26 24 q-22 0 -26 -24z" fill="#9D0208"/>`, `<path d="M24 40 q-8 10 0 16 q8 -6 0 -16z M96 40 q8 10 0 16 q-8 -6 0 -16z" fill="#7FC8F8"/>`),
+    humorous: () => `<circle cx="60" cy="60" r="44" fill="#FFD23F"/><path d="M28 44 q10 -8 20 0 M72 44 q10 -8 20 0" stroke="${INK}" stroke-width="4" fill="none"/>
+       <circle cx="60" cy="66" r="9" fill="#E63946"/><path d="M40 60 q-18 0 -22 -10 M80 60 q18 0 22 -10" stroke="#2B2D42" stroke-width="5" fill="none" stroke-linecap="round"/>
+       <path d="M44 84 q16 12 32 0" stroke="${INK}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+    smart: () => ART.monkey() + `<path d="M28 26 h64 l-32 -16z" fill="#2B2D42"/><rect x="40" y="24" width="40" height="8" fill="#2B2D42"/><path d="M92 26 v14" stroke="#FFD23F" stroke-width="3"/>`,
+    stupid: () => ART.pig() + `<path d="M88 14 q8 -6 14 0 t14 0" stroke="#8A8FA3" stroke-width="3" fill="none"/><text x="104" y="40" font-size="18" ${FONT} fill="#8A8FA3">?</text>`,
+    silly: () => emo('#B9E28C', `<circle cx="44" cy="52" r="8" fill="#fff" stroke="${INK}" stroke-width="3"/><circle cx="76" cy="52" r="6" fill="#fff" stroke="${INK}" stroke-width="3"/><circle cx="46" cy="54" r="3" fill="${INK}"/><circle cx="74" cy="50" r="2.5" fill="${INK}"/>`,
+       `<path d="M40 74 q20 14 40 0" stroke="${INK}" stroke-width="4" fill="none"/><path d="M58 80 q4 14 10 0" fill="#FF6FA5"/>`),
+    though: () => `<path d="M14 60 C30 30 46 30 60 60 C74 90 90 90 106 60" stroke="#8A8FA3" stroke-width="6" fill="none" stroke-linecap="round"/>`
+       + `<text x="60" y="108" text-anchor="middle" font-size="15" ${FONT} fill="#8A8FA3">不过…</text>`,
+
+    // ---------- ep55 exams ----------
+    exam: () => paper(lines([30, 44, 58, 72, 86]) + `<text x="88" y="104" text-anchor="end" font-size="20" ${FONT} fill="#E63946">95</text>`) + pencil(102, 70, .9, 30),
+    examination: () => `<rect x="10" y="20" width="100" height="74" rx="4" fill="#2F6B4F" stroke="#8D5A3B" stroke-width="5"/><text x="60" y="64" text-anchor="middle" font-size="20" ${FONT} fill="#fff">EXAM</text>`
+       + clockF(96, 92, 16, 10, 10, {rim: '#E63946'}),
+    start: () => `<path d="M8 100 H112" stroke="#C5CBE0" stroke-width="4"/>` + flagGoal(24, 30, '#2FA36B') + arrowTo(40, 80, 104, 80, '#2FA36B', 7) + `<text x="70" y="60" text-anchor="middle" font-size="16" ${FONT} fill="#2FA36B">GO!</text>`,
+    finish: () => `<path d="M8 100 H112" stroke="#C5CBE0" stroke-width="4"/>` + flagGoal(90, 30) + arrowTo(10, 80, 76, 80, '#E63946', 7),
+    know: () => `<circle cx="60" cy="60" r="44" fill="#FFF3C4"/>` + mini('inspiration', 60, 54, .66) + check(96, 96, 1.2),
+    test: () => paper(`<text x="60" y="34" text-anchor="middle" font-size="14" ${FONT} fill="#3D8BFD">TEST</text>
+       ${[50, 68, 86].map((y, i) => `<circle cx="36" cy="${y}" r="5" fill="none" stroke="#8A8FA3" stroke-width="2"/><path d="M48 ${y} h40" stroke="#C5CBE0" stroke-width="4" stroke-linecap="round"/>${i === 1 ? `<circle cx="36" cy="${y}" r="3" fill="#3D8BFD"/>` : ''}`).join('')}`),
+    level: () => [0, 1, 2, 3].map(i => `<rect x="${14 + i * 24}" y="${86 - i * 20}" width="20" height="${24 + i * 20}" rx="3" fill="${['#C5CBE0', '#7FC8F8', '#3D8BFD', '#2A6FD6'][i]}"/>`).join('') + star(98, 22, 10, 4, '#FFD23F'),
+    gradeA: () => `<circle cx="60" cy="60" r="46" fill="#fff" stroke="#E63946" stroke-width="6"/><text x="56" y="82" text-anchor="middle" font-size="64" ${FONT} fill="#E63946">A</text>
+       <text x="88" y="52" text-anchor="middle" font-size="28" ${FONT} fill="#E63946">+</text>`,
+    preparation: () => `<g transform="translate(6 30) scale(.55)">${ART.book()}</g>` + pencil(96, 60, 1, 20) + `<g transform="translate(56 54) scale(.4)">${ART.ruler()}</g>` + check(36, 22, 1),
+    question: () => `<circle cx="60" cy="60" r="44" fill="#7FC8F8"/><text x="60" y="84" text-anchor="middle" font-size="68" ${FONT} fill="#fff">?</text>`,
+    answer: () => `<circle cx="60" cy="60" r="44" fill="#2FA36B"/><text x="60" y="82" text-anchor="middle" font-size="64" ${FONT} fill="#fff">!</text>`,
+    guess: () => `<g transform="translate(-14 22) scale(.86)">${figure('child', {shirt: '#FF9F1C'})}</g>` + thought(84, 30, 56, 44, `<text x="0" y="12" text-anchor="middle" font-size="30" ${FONT} fill="#8A8FA3">?!</text>`),
+    rightok: () => `<circle cx="60" cy="60" r="46" fill="#2FA36B"/>` + check(60, 62, 3, '#fff'),
+    wrong: () => `<circle cx="60" cy="60" r="46" fill="#E63946"/><path d="M40 40 L80 80 M80 40 L40 80" stroke="#fff" stroke-width="12" stroke-linecap="round"/>`,
+    correct: () => paper(`<path d="M34 40 h40" stroke="#C5CBE0" stroke-width="4" stroke-linecap="round"/><path d="M30 34 l48 12" stroke="#E63946" stroke-width="4"/>
+       <path d="M34 64 h40" stroke="#2FA36B" stroke-width="5" stroke-linecap="round"/>${check(84, 64, .8)}${lines([86])}`) + pencil(102, 84, .9, 30),
+  });
+
+  const face2 = (x, y, r, skin, mouth, eyes, hair = '#3B2A20') => `<circle cx="${x}" cy="${y}" r="${r}" fill="${skin}"/>` + cap(x, y, r, hair) + (eyes || `<circle cx="${x - r * .38}" cy="${y + r * .05}" r="${r * .1}" fill="${INK}"/><circle cx="${x + r * .38}" cy="${y + r * .05}" r="${r * .1}" fill="${INK}"/>`) + mouth;
+  const MON = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+  const MONC = ['#3D8BFD', '#E63946', '#2FA36B', '#FF6FA5', '#6CCB5F', '#FFB703', '#FF7A3D', '#E0A100', '#C1440E', '#9B5DE5', '#8D5A3B', '#2BB3A3'];
+  const MONART = [
+    (x, y) => flake(x, y, 9, '#7FC8F8'), (x, y) => heart(x, y, .55, '#E63946'), (x, y) => `<path d="M${x} ${y + 8} v-12" stroke="#3FA34D" stroke-width="3"/><circle cx="${x}" cy="${y - 6}" r="5" fill="#FF8FAB"/>`,
+    (x, y) => drops([[x - 6, y - 4], [x + 6, y]], '#3D8BFD'), (x, y) => `<circle cx="${x}" cy="${y}" r="7" fill="#FFD23F"/>${[0, 72, 144, 216, 288].map(a => `<circle cx="${x + 9 * Math.cos(a * Math.PI / 180)}" cy="${y + 9 * Math.sin(a * Math.PI / 180)}" r="5" fill="#FF6FA5"/>`).join('')}`,
+    (x, y) => sun(x, y, 7), (x, y) => `<path d="M${x - 10} ${y + 6} q10 -14 20 0" fill="#FF7A3D"/><path d="M${x} ${y - 8} v8" stroke="#8A8FA3" stroke-width="2"/>`,
+    (x, y) => `<path d="M${x - 12} ${y + 4} q6 -6 12 0 t12 0" stroke="#4CC9F0" stroke-width="4" fill="none"/>`, (x, y) => `<rect x="${x - 9}" y="${y - 8}" width="18" height="14" rx="2" fill="#E63946"/><path d="M${x - 5} ${y - 8} v-4 h10 v4" stroke="#E63946" stroke-width="2" fill="none"/>`,
+    (x, y) => `<path d="M${x - 9} ${y + 8} C${x - 9} ${y - 4} ${x + 9} ${y - 4} ${x + 9} ${y + 8}Z" fill="#FF7A3D"/><path d="M${x} ${y - 2} v-6" stroke="#3FA34D" stroke-width="3"/>`,
+    (x, y) => `<path d="M${x - 8} ${y + 8} c-6 -10 4 -18 8 -10 c4 -8 14 0 8 10z" fill="#C1440E"/>`, (x, y) => `<path d="M${x} ${y - 12} L${x - 10} ${y + 8} H${x + 10}Z" fill="#2FA36B"/>${star(x, y - 12, 4, 1.8, '#FFD23F')}`,
+  ];
+  const monthArt = (i) => `<rect x="16" y="14" width="88" height="94" rx="10" fill="#fff" stroke="#E3E6F5" stroke-width="3"/>
+      <path d="M16 24 a10 10 0 0 1 10 -10 h68 a10 10 0 0 1 10 10 v14 h-88z" fill="${MONC[i]}"/>
+      <rect x="36" y="6" width="6" height="16" rx="3" fill="#8A8FA3"/><rect x="78" y="6" width="6" height="16" rx="3" fill="#8A8FA3"/>
+      <text x="60" y="33" text-anchor="middle" font-size="15" ${FONT} fill="#fff">${MON[i]}</text>
+      <text x="44" y="82" text-anchor="middle" font-size="34" ${FONT} fill="${INK}">${i + 1}</text>${MONART[i](84, 70)}
+      <text x="60" y="102" text-anchor="middle" font-size="12" ${FONT} fill="#8A8FA3">${i + 1}月</text>`;
+  const ordArt = (k) => { const suf = k === 1 ? 'st' : k === 2 ? 'nd' : k === 3 ? 'rd' : 'th', c = NUMC[k - 1];
+    return `<path d="M60 8 L72 30 H96 L78 46 L86 72 L60 56 L34 72 L42 46 L24 30 H48Z" fill="${k <= 3 ? ['#FFD23F', '#C5CBE0', '#E9A66B'][k - 1] : c}" opacity="${k <= 3 ? 1 : .25}"/>
+      <text x="${k === 10 ? 52 : 56}" y="104" text-anchor="middle" font-size="${k === 10 ? 46 : 54}" ${FONT} fill="${c}" stroke="#fff" stroke-width="4" paint-order="stroke">${k}</text>
+      <text x="${k === 10 ? 92 : 84}" y="80" text-anchor="middle" font-size="22" ${FONT} fill="${c}">${suf}</text>`; };
+  Object.assign(ART,
+    Object.fromEntries(MON.map((m, i) => [['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'][i], () => monthArt(i)])),
+    Object.fromEntries(Array.from({length: 10}, (_, i) => ['ord' + (i + 1), () => ordArt(i + 1)])), {
+    // ---------- ep56 holiday ----------
+    holiday: () => calPage('HOLIDAY', '', '#E63946') + star(60, 74, 20, 8, '#FFD23F') + star(32, 92, 6, 2.5, '#FF6FA5') + star(90, 90, 7, 3, '#3D8BFD'),
+    general: () => [0, 1, 2, 3, 4, 5, 6, 7, 8].map(i => `<circle cx="${28 + (i % 3) * 32}" cy="${30 + Math.floor(i / 3) * 30}" r="11" fill="#C5CBE0"/>`).join('')
+       + `<text x="60" y="116" text-anchor="middle" font-size="13" ${FONT} fill="#8A8FA3">一般的</text>`,
+    relaxing: () => `<path d="M8 96 H112" stroke="#E9C46A" stroke-width="10" stroke-linecap="round"/><path d="M24 92 L40 56 H96 L88 92" fill="#2BB3A3"/><path d="M40 56 L56 30 L104 30 L96 56" fill="#45C9B8"/>`
+       + `<circle cx="66" cy="22" r="10" fill="${SKIN[0]}"/><path d="M50 18 h32" stroke="#2B2D42" stroke-width="5"/>` + sun(102, 14, 8),
+    trip: () => `<rect x="30" y="34" width="60" height="68" rx="8" fill="#FF7A59"/><path d="M48 34 V24 a6 6 0 0 1 6 -6 h12 a6 6 0 0 1 6 6 V34" stroke="#C1440E" stroke-width="6" fill="none"/>
+       <path d="M30 56 h60 M30 80 h60" stroke="#C1440E" stroke-width="4"/><circle cx="42" cy="106" r="5" fill="#2B2D42"/><circle cx="78" cy="106" r="5" fill="#2B2D42"/>
+       <rect x="38" y="62" width="18" height="10" rx="2" fill="#FFD23F"/>`,
+    away: () => `<rect x="62" y="44" width="48" height="60" fill="#FFE8C2"/><path d="M56 48 L86 22 L116 48Z" fill="#C1440E"/><rect x="78" y="72" width="16" height="32" fill="#8D5A3B"/>`
+       + kid({s: .5, dx: -36, dy: 22, rot: -6, la: [24, 48], ra: [-24, -8], ll: [-20, -36], rl: [20, 8], shirt: '#3D8BFD'}) + arrowTo(52, 40, 12, 40, '#FF9F1C'),
+    picnic: () => `<path d="M8 82 L60 64 L112 82 L60 104Z" fill="#E63946"/><path d="M34 73 L86 95 M86 73 L34 95" stroke="#fff" stroke-width="5"/>`
+       + `<g transform="translate(38 20) scale(.4)">${ART.basket()}</g><circle cx="88" cy="68" r="7" fill="#E63946"/><circle cx="30" cy="74" r="7" fill="#FFB703"/>` + sun(100, 18, 9),
+    suppose: () => `<g transform="translate(-16 22) scale(.84)">${figure('girl', {shirt: '#9B5DE5'})}</g>` + thought(84, 30, 56, 44, `<path d="M-10 10 l8 -18 l8 18z" fill="#2FA36B"/>${sun(12, -8, 5)}`)
+       + `<text x="102" y="68" font-size="18" ${FONT} fill="#8A8FA3">?</text>`,
+    festival: () => [[30, '#E63946'], [60, '#FFB703'], [90, '#E63946']].map(([x, c], i) => `<path d="M${x} ${10 + i % 2 * 8} V${20 + i % 2 * 8}" stroke="#8A8FA3" stroke-width="2"/>
+         <ellipse cx="${x}" cy="${40 + i % 2 * 8}" rx="16" ry="20" fill="${c}"/><rect x="${x - 10}" y="${18 + i % 2 * 8}" width="20" height="4" fill="#C77800"/><rect x="${x - 10}" y="${58 + i % 2 * 8}" width="20" height="4" fill="#C77800"/>
+         <path d="M${x} ${62 + i % 2 * 8} v14" stroke="#FFD23F" stroke-width="3"/>`).join('') + `<path d="M4 104 h112" stroke="#C5CBE0" stroke-width="4"/>${star(60, 96, 6, 2.5, '#FFD23F')}`,
+    during: () => `<path d="M10 70 H110" stroke="#C5CBE0" stroke-width="5"/><rect x="34" y="56" width="52" height="28" rx="6" fill="#FFB703" opacity=".7"/>
+       <path d="M34 50 v40 M86 50 v40" stroke="#E0A100" stroke-width="4"/>` + kid({s: .36, dy: -16, la: [-150, -160], ra: [150, 160], shirt: '#E63946'})
+       + `<text x="60" y="112" text-anchor="middle" font-size="13" ${FONT} fill="#8A8FA3">在…期间</text>`,
+    visit: () => `<rect x="70" y="14" width="44" height="98" rx="4" fill="#B5703F"/><rect x="76" y="20" width="32" height="92" fill="#FFF3C4"/>`
+       + person('woman', {shirt: '#9B5DE5'}, 48, 20, .7) + person('man', {shirt: '#3D8BFD'}, -14, 20, .8) + `<g transform="translate(20 72) scale(.35)">${gift(0, 0, 60, 60, '#FF6FA5')}</g>`,
+    visitor: () => ART.visit() + `<circle cx="20" cy="40" r="22" fill="none" stroke="#E63946" stroke-width="4"/>`,
+    come: () => person('child', {shirt: '#2FA36B'}, 30, 20, .8) + arrowTo(4, 70, 34, 70, '#2FA36B') + `<text x="18" y="104" text-anchor="middle" font-size="12" ${FONT} fill="#2FA36B">came</text>`,
+    together: () => [[-20, '#E63946', 0], [12, '#3D8BFD', 1], [44, '#FFB703', 2]].map(([dx, c, i]) => person(['girl', 'boy', 'child'][i], {shirt: c, skin: SKIN[i]}, dx, 20, .76)).join('')
+       + heart(60, 16, .7, '#FF4D6D'),
+
+    // ---------- ep57 travel ----------
+    vacation: () => sun(90, 26, 14) + `<path d="M0 82 q15 -8 30 0 t30 0 t30 0 t30 0 V120 H0Z" fill="#4CC9F0"/><path d="M0 100 H120 V120 H0Z" fill="#FFE08A"/>`
+       + `<path d="M36 100 V52" stroke="#8D5A3B" stroke-width="5"/>${[[-30], [0], [30], [60], [90]].map(([a]) => `<path d="M36 52 q${24 * Math.cos(a * Math.PI / 180)} ${-6 - 10 * Math.sin(a * Math.PI / 180)} ${30 * Math.cos(a * Math.PI / 180)} ${12}" stroke="#3FA34D" stroke-width="6" fill="none" stroke-linecap="round"/>`).join('')}`,
+    travel: () => `<circle cx="60" cy="60" r="44" fill="#7FC8F8"/><path d="M36 30 q14 -4 18 10 q-4 12 6 18 q10 8 0 18 q-14 4 -18 -10 q-12 -6 -8 -22z" fill="#6CCB5F"/>
+       <path d="M74 26 q14 2 18 14 q-6 4 -14 0 z M82 70 q12 0 14 12 q-10 10 -18 0z" fill="#6CCB5F"/>` + `<g transform="translate(60 -6) scale(.4)">${ART.plane()}</g>`,
+    agent: () => figure('man', {shirt: '#2E5AAC'}) + `<rect x="74" y="80" width="34" height="24" rx="3" fill="#fff" stroke="#C5CBE0" stroke-width="2"/>${lines([88, 96], 80, 22)}`
+       + `<g transform="translate(78 10) scale(.3)">${ART.travel()}</g>`,
+    tour: () => `<g transform="translate(-4 16) scale(.62)">${ART.bus()}</g>` + `<path d="M74 14 L74 70" stroke="#8A8FA3" stroke-width="3"/><path d="M74 14 h34 l-6 10 l6 10 h-34z" fill="#E63946"/>`
+       + `<path d="M10 104 Q40 84 60 100 T110 96" stroke="#C9934A" stroke-width="4" fill="none" stroke-dasharray="6 5"/>`,
+    guide: () => figure('woman', {shirt: '#FF9F1C', cap: '#2FA36B'}) + `<path d="M86 52 L104 42 V70 L86 60Z" fill="#E63946"/><rect x="80" y="52" width="8" height="10" rx="2" fill="#8A8FA3"/>`
+       + `<path d="M108 48 q6 8 0 16" stroke="#E63946" stroke-width="3" fill="none"/>`,
+    palace: () => `<rect x="8" y="64" width="104" height="44" fill="#E63946"/><path d="M2 66 Q60 40 118 66Z" fill="#FFB703"/><path d="M22 46 Q60 20 98 46 L94 54 H26Z" fill="#FFB703"/>
+       <path d="M30 34 Q60 6 90 34 Z" fill="#E0A100"/>${[20, 40, 80, 100].map(x => `<rect x="${x - 4}" y="70" width="8" height="38" fill="#C1121F"/>`).join('')}<rect x="50" y="78" width="20" height="30" fill="#8D5A3B"/>
+       <rect x="4" y="106" width="112" height="6" fill="#C5CBE0"/>`,
+    museum: () => `<path d="M8 40 L60 12 L112 40Z" fill="#C5CBE0"/><rect x="12" y="40" width="96" height="8" fill="#8A8FA3"/>
+       ${[24, 44, 64, 84, 100].map(x => `<rect x="${x - 5}" y="50" width="10" height="46" fill="#E3E6F5"/>`).join('')}<rect x="8" y="96" width="104" height="12" fill="#8A8FA3"/>
+       <path d="M52 30 l8 -8 l8 8 l-8 8z" fill="#FFD23F"/>`,
+    tower: () => `<path d="M48 112 L54 30 H66 L72 112Z" fill="#C9C1B5"/><rect x="46" y="30" width="28" height="10" fill="#8A8FA3"/><path d="M50 30 L60 6 L70 30Z" fill="#5A67D8"/>
+       <circle cx="60" cy="54" r="8" fill="#fff" stroke="#8A8FA3" stroke-width="2"/>${[72, 90].map(y => `<rect x="56" y="${y}" width="8" height="10" rx="2" fill="#7FC8F8"/>`).join('')}
+       <path d="M60 6 V0" stroke="#E63946" stroke-width="2"/>`,
+    passport: () => `<rect x="24" y="10" width="72" height="100" rx="8" fill="#1F3E7A"/><circle cx="60" cy="52" r="20" fill="none" stroke="#FFD23F" stroke-width="3"/>
+       <path d="M40 52 h40 M60 32 v40 M44 40 q16 8 32 0 M44 64 q16 -8 32 0" stroke="#FFD23F" stroke-width="2" fill="none"/>
+       <text x="60" y="94" text-anchor="middle" font-size="12" ${FONT} fill="#FFD23F">PASSPORT</text>`,
+    hotel: () => `<rect x="20" y="12" width="80" height="100" fill="#5A67D8"/><rect x="34" y="4" width="52" height="14" rx="3" fill="#E63946"/>
+       <text x="60" y="15" text-anchor="middle" font-size="10" ${FONT} fill="#fff">HOTEL</text>
+       ${[0, 1, 2, 3].map(r => [0, 1, 2].map(c => `<rect x="${30 + c * 22}" y="${26 + r * 18}" width="14" height="12" rx="1.5" fill="${(r + c) % 2 ? '#FFD23F' : '#BDE7FF'}"/>`).join('')).join('')}
+       <rect x="50" y="96" width="20" height="16" fill="#2B2D42"/>`,
+    island: () => `<path d="M0 84 q15 -6 30 0 t30 0 t30 0 t30 0 V120 H0Z" fill="#4CC9F0"/><ellipse cx="60" cy="86" rx="42" ry="12" fill="#FFE08A"/>
+       <path d="M58 86 C58 66 62 52 70 42" stroke="#8D5A3B" stroke-width="6" fill="none"/>${[[-40], [-10], [20], [60], [100]].map(([a]) => `<path d="M70 42 q${26 * Math.cos(a * Math.PI / 180)} ${-8 - 10 * Math.sin(a * Math.PI / 180)} ${32 * Math.cos(a * Math.PI / 180)} 12" stroke="#3FA34D" stroke-width="7" fill="none" stroke-linecap="round"/>`).join('')}`,
+    beach: () => sun(98, 22, 11) + `<path d="M0 62 q15 -6 30 0 t30 0 t30 0 t30 0 V80 H0Z" fill="#4CC9F0"/><path d="M0 78 H120 V120 H0Z" fill="#FFE08A"/>
+       <path d="M30 108 V74" stroke="#8A8FA3" stroke-width="3"/><path d="M8 78 Q30 54 52 78Z" fill="#E63946"/><path d="M19 78 Q30 62 41 78Z" fill="#fff"/>
+       <path d="M80 100 l6 -10 l6 10z" fill="#FF8FAB"/><circle cx="96" cy="104" r="5" fill="#FFB703"/>`,
+    map: () => `<path d="M8 22 L40 12 L80 24 L112 14 V98 L80 108 L40 96 L8 106Z" fill="#FFF3C4" stroke="#E0A100" stroke-width="3" stroke-linejoin="round"/>
+       <path d="M40 12 V96 M80 24 V108" stroke="#E0A100" stroke-width="2"/><path d="M20 80 C34 60 50 74 62 56 S90 40 98 30" stroke="#E63946" stroke-width="3" fill="none" stroke-dasharray="5 4"/>
+       <path d="M92 26 l12 12 M104 26 l-12 12" stroke="#E63946" stroke-width="4"/>`,
+
+    // ---------- ep58 feelings (2) ----------
+    enjoy: () => `<path d="M0 90 q15 -6 30 0 t30 0 t30 0 t30 0 V120 H0Z" fill="#4CC9F0"/><ellipse cx="60" cy="88" rx="40" ry="14" fill="#FF6FA5"/><ellipse cx="60" cy="86" rx="24" ry="7" fill="#4CC9F0"/>`
+       + face2(60, 54, 18, SKIN[0], `<path d="M50 60 q10 8 20 0" stroke="${INK}" stroke-width="3" fill="none"/>`, `<rect x="44" y="48" width="32" height="8" rx="4" fill="#2B2D42"/>`) + sun(100, 18, 9),
+    comfortable: () => `<rect x="10" y="56" width="100" height="44" rx="14" fill="#9B5DE5"/><rect x="18" y="40" width="84" height="30" rx="12" fill="#B07CEB"/>
+       <rect x="8" y="54" width="16" height="44" rx="8" fill="#7B3FC4"/><rect x="96" y="54" width="16" height="44" rx="8" fill="#7B3FC4"/>`
+       + face2(56, 46, 14, SKIN[0], `<path d="M50 52 q6 4 12 0" stroke="${INK}" stroke-width="2.5" fill="none"/>`, `<path d="M46 46 q4 -3 8 0 M58 46 q4 -3 8 0" stroke="${INK}" stroke-width="2.5" fill="none"/>`)
+       + `<text x="92" y="32" font-size="14" ${FONT} fill="#8A8FA3">z</text>`,
+    pleasant: () => emo('#FFD23F', `<path d="M36 52 q8 -8 16 0 M68 52 q8 -8 16 0" stroke="${INK}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+       `<path d="M40 70 q20 18 40 0" stroke="${INK}" stroke-width="4.5" fill="none"/>`, star(18, 24, 7, 3, '#FF9F1C') + star(102, 22, 8, 3.4, '#FF9F1C')),
+    happiness: () => person('woman', {shirt: '#FF6FA5'}, -16, 18, .84) + person('child', {shirt: '#FFB703'}, 34, 34, .7) + heart(60, 20, .8, '#FF4D6D') + star(22, 20, 6, 2.5, '#FFD23F'),
+    unhappiness: () => emo('#B8BFCC', `<path d="M36 50 q8 4 16 -2 M68 48 q8 6 16 2" stroke="${INK}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+       `<path d="M42 88 q18 -12 36 0" stroke="${INK}" stroke-width="4.5" fill="none"/>`, cloud(98, 20, .4, '#8A8FA3', '#6B7085')),
+    miss: () => `<g transform="translate(-16 22) scale(.84)">${figure('girl', {shirt: '#3D8BFD'})}</g>` + thought(84, 30, 56, 44, `${heart(0, 2, .7, '#FF4D6D')}`)
+       + `<path d="M28 66 q-4 8 0 10 q4 -2 0 -10z" fill="#7FC8F8"/>`,
+    separate: () => person('boy', {shirt: '#3D8BFD'}, -24, 20, .76) + person('girl', {shirt: '#FF6FA5'}, 48, 20, .76)
+       + arrowTo(52, 50, 30, 50, '#8A8FA3', 4) + arrowTo(68, 50, 90, 50, '#8A8FA3', 4) + `<path d="M60 30 V100" stroke="#C5CBE0" stroke-width="3" stroke-dasharray="5 5"/>`,
+    shame: () => face2(60, 56, 40, SKIN[0], `<path d="M50 80 q10 -4 20 0" stroke="${INK}" stroke-width="3" fill="none"/>`, `<path d="M40 58 q6 4 12 0 M68 58 q6 4 12 0" stroke="${INK}" stroke-width="3.5" fill="none"/>`)
+       + `<ellipse cx="34" cy="72" rx="10" ry="6" fill="#FF6F91"/><ellipse cx="86" cy="72" rx="10" ry="6" fill="#FF6F91"/>` + hand(30, 108, .55, 30, SKIN[0]) + `<g transform="translate(120 0) scale(-1 1)">${hand(30, 108, .55, 30, SKIN[0])}</g>`,
+    regret: () => face2(60, 56, 40, SKIN[1], `<path d="M46 84 q14 -10 28 0" stroke="${INK}" stroke-width="3.5" fill="none"/>`, `<path d="M38 52 l12 4 M82 52 l-12 4" stroke="${INK}" stroke-width="3.5"/>` + `<circle cx="45" cy="62" r="3.5" fill="${INK}"/><circle cx="75" cy="62" r="3.5" fill="${INK}"/>`)
+       + hand(82, 40, .55, -150, SKIN[1]) + `<text x="16" y="28" font-size="20" ${FONT} fill="#8A8FA3">…</text>`,
+    pity: () => person('child', {shirt: '#8A8FA3'}, -16, 20, .84) + `<g transform="translate(66 60) scale(.42)">${ART.dog()}</g>` + drops([[86, 50]], '#7FC8F8') + heart(98, 28, .5, '#FF8FAB'),
+    hate: () => emo('#E63946', `<path d="M34 44 l16 8 M86 44 l-16 8" stroke="${INK}" stroke-width="5" stroke-linecap="round"/><circle cx="44" cy="60" r="4" fill="${INK}"/><circle cx="76" cy="60" r="4" fill="${INK}"/>`,
+       `<path d="M40 88 h40" stroke="${INK}" stroke-width="5" stroke-linecap="round"/>`, `<path d="M96 14 l-6 10 l10 -2 l-6 10" stroke="#9D0208" stroke-width="4" fill="none"/>`),
+
+    // ---------- ep59 order ----------
+    order: () => [1, 2, 3].map((n, i) => `<rect x="${12 + i * 36}" y="${80 - i * 24}" width="30" height="${30 + i * 24}" rx="4" fill="${['#E9A66B', '#C5CBE0', '#FFD23F'][2 - i]}"/>
+         <text x="${27 + i * 36}" y="${102 - i * 12}" text-anchor="middle" font-size="18" ${FONT} fill="#fff">${3 - i}</text>`).join('') + arrowTo(10, 22, 70, 22, '#3D8BFD', 4),
+    next: () => [0, 1, 2].map(i => `<circle cx="${24 + i * 36}" cy="60" r="14" fill="${i === 1 ? '#2FA36B' : '#E3E6F5'}"/>`).join('') + arrowTo(24, 32, 60, 32, '#2FA36B', 4)
+       + `<text x="60" y="104" text-anchor="middle" font-size="14" ${FONT} fill="#8A8FA3">下一个</text>`,
+    last: () => [0, 1, 2, 3].map(i => `<circle cx="${18 + i * 28}" cy="60" r="11" fill="${i === 3 ? '#E63946' : '#E3E6F5'}"/>`).join('') + flagGoal(100, 22)
+       + `<text x="60" y="104" text-anchor="middle" font-size="14" ${FONT} fill="#8A8FA3">最后</text>`,
+
+    // ---------- ep60 months ----------
+    month: () => `<rect x="12" y="14" width="96" height="94" rx="10" fill="#fff" stroke="#E3E6F5" stroke-width="3"/><path d="M12 24 a10 10 0 0 1 10 -10 h76 a10 10 0 0 1 10 10 v12 h-96z" fill="#5A67D8"/>
+       ${Array.from({length: 20}, (_, i) => `<rect x="${20 + (i % 5) * 17}" y="${44 + Math.floor(i / 5) * 15}" width="12" height="10" rx="2" fill="${i === 12 ? '#E63946' : '#E3E6F5'}"/>`).join('')}`,
+    date: () => calPage('DATE', '10', '#E63946') + `<circle cx="60" cy="72" r="24" fill="none" stroke="#2FA36B" stroke-width="4"/>`,
+    inmonth: () => `<rect x="10" y="30" width="100" height="60" rx="10" fill="#E3E6F5"/><rect x="30" y="40" width="60" height="40" rx="6" fill="#5A67D8"/>
+       <text x="60" y="66" text-anchor="middle" font-size="16" ${FONT} fill="#fff">MAY</text><text x="60" y="112" text-anchor="middle" font-size="14" ${FONT} fill="#8A8FA3">in …</text>`,
+  });
+
   function svg(name, plural) {
     const art = ART[name];
     if (!art) return `<div class="vp-emoji">${name}</div>`;

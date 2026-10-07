@@ -1,0 +1,700 @@
+{
+ "id": "ep58",
+ "title": "feelings",
+ "titleZh": "感受",
+ "episode": "第 58 集",
+ "titleIcon": "happiness",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "feelings",
+   "word": "feelings",
+   "ipa": "/ˈfiːlɪŋz/",
+   "zh": "感受",
+   "icon": "feeling",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "enjoy",
+   "word": "enjoy",
+   "ipa": "/ɪnˈdʒɔɪ/",
+   "zh": "享受",
+   "icon": "enjoy",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "comfortable",
+   "word": "comfortable",
+   "ipa": "/ˈkʌmftəbl/",
+   "zh": "舒服的",
+   "icon": "comfortable",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "pleasant",
+   "word": "pleasant",
+   "ipa": "/ˈpleznt/",
+   "zh": "令人愉快的",
+   "icon": "pleasant",
+   "kind": "adj",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "happiness",
+   "word": "happiness",
+   "ipa": "/ˈhæpinəs/",
+   "zh": "幸福；快乐",
+   "icon": "happiness",
+   "alt": "happy",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "unhappiness",
+   "word": "unhappiness",
+   "ipa": "/ʌnˈhæpinəs/",
+   "zh": "不快乐",
+   "icon": "unhappiness",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "miss",
+   "word": "miss",
+   "ipa": "/mɪs/",
+   "zh": "想念",
+   "icon": "miss",
+   "kind": "verb",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "separate",
+   "word": "separate",
+   "ipa": "/ˈsepəreɪt/",
+   "zh": "分开",
+   "icon": "separate",
+   "kind": "verb",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "shame",
+   "word": "shame",
+   "ipa": "/ʃeɪm/",
+   "zh": "羞愧；遗憾",
+   "icon": "shame",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "regret",
+   "word": "regret",
+   "ipa": "/rɪˈɡret/",
+   "zh": "后悔",
+   "icon": "regret",
+   "kind": "verb",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "pity",
+   "word": "pity",
+   "ipa": "/ˈpɪti/",
+   "zh": "同情；可惜",
+   "icon": "pity",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "hate",
+   "word": "hate",
+   "ipa": "/heɪt/",
+   "zh": "讨厌；恨",
+   "icon": "hate",
+   "kind": "verb",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "enjoy",
+   "to": "pleasant"
+  },
+  {
+   "from": "comfortable",
+   "to": "pleasant"
+  },
+  {
+   "from": "feelings",
+   "to": "pleasant"
+  },
+  {
+   "from": "feelings",
+   "to": "happiness"
+  },
+  {
+   "from": "happiness",
+   "to": "unhappiness",
+   "label": "un+"
+  },
+  {
+   "from": "feelings",
+   "to": "miss"
+  },
+  {
+   "from": "miss",
+   "to": "separate",
+   "label": "因为"
+  },
+  {
+   "from": "feelings",
+   "to": "regret",
+   "dashed": true
+  },
+  {
+   "from": "regret",
+   "to": "shame",
+   "dashed": true
+  },
+  {
+   "from": "regret",
+   "to": "pity",
+   "dashed": true
+  },
+  {
+   "from": "regret",
+   "to": "hate",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！还记得第三十九集的情绪吗？今天，我们学更多表达感受的单词。"
+    },
+    {
+     "en": "feelings"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:feelings",
+    "focus:feelings"
+   ],
+   "parts": [
+    {
+     "zh": "心里的各种感受："
+    },
+    {
+     "en": "feelings"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:enjoy",
+    "focus:enjoy"
+   ],
+   "parts": [
+    {
+     "zh": "开开心心地享受一件事："
+    },
+    {
+     "en": "enjoy"
+    },
+    {
+     "en": "I enjoy the sunshine at the beach."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:comfortable",
+    "focus:comfortable"
+   ],
+   "parts": [
+    {
+     "zh": "躺在软软的沙发上，真舒服："
+    },
+    {
+     "en": "comfortable"
+    },
+    {
+     "zh": "这个词很长，中间的 or 读得很轻："
+    },
+    {
+     "en": "com, fort, able"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pleasant",
+    "edge:enjoy>pleasant",
+    "edge:comfortable>pleasant",
+    "edge:feelings>pleasant",
+    "focus:pleasant"
+   ],
+   "parts": [
+    {
+     "zh": "让人心情愉快的，是"
+    },
+    {
+     "en": "pleasant"
+    },
+    {
+     "en": "a pleasant day"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:happiness",
+    "edge:feelings>happiness",
+    "focus:happiness"
+   ],
+   "parts": [
+    {
+     "zh": "开心是 happy，把 y 变成 i，加上 n e s s，就是幸福、快乐：",
+     "cue": [
+      "alt:happiness"
+     ]
+    },
+    {
+     "en": "happy"
+    },
+    {
+     "en": "happiness"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:unhappiness",
+    "edge:happiness>unhappiness",
+    "focus:unhappiness"
+   ],
+   "parts": [
+    {
+     "zh": "前面加上 u n，就是不快乐："
+    },
+    {
+     "en": "unhappiness"
+    },
+    {
+     "zh": "还记得第四十五集的 unusual 吗？un 让意思反过来。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:miss",
+    "edge:feelings>miss",
+    "focus:miss"
+   ],
+   "parts": [
+    {
+     "zh": "好久没见到奶奶了，好想她："
+    },
+    {
+     "en": "miss"
+    },
+    {
+     "en": "I miss my grandma."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:separate",
+    "edge:miss>separate",
+    "focus:separate"
+   ],
+   "parts": [
+    {
+     "zh": "因为我们分开了，所以想念。分开，英语是"
+    },
+    {
+     "en": "separate"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:regret",
+    "edge:feelings>regret",
+    "focus:regret"
+   ],
+   "parts": [
+    {
+     "zh": "做错了事，心里很后悔："
+    },
+    {
+     "en": "regret"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:shame",
+    "edge:regret>shame",
+    "focus:shame"
+   ],
+   "parts": [
+    {
+     "zh": "羞愧，英语是"
+    },
+    {
+     "en": "shame"
+    },
+    {
+     "zh": "它也表示遗憾，比如："
+    },
+    {
+     "en": "What a shame!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pity",
+    "edge:regret>pity",
+    "focus:pity"
+   ],
+   "parts": [
+    {
+     "zh": "看到小狗淋雨，心里很同情："
+    },
+    {
+     "en": "pity"
+    },
+    {
+     "zh": "也可以表示可惜："
+    },
+    {
+     "en": "What a pity!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hate",
+    "edge:regret>hate",
+    "focus:hate"
+   ],
+   "parts": [
+    {
+     "zh": "非常非常讨厌，是"
+    },
+    {
+     "en": "hate"
+    },
+    {
+     "en": "I hate rainy days."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:shame,pity"
+   ],
+   "parts": [
+    {
+     "zh": "两句表示可惜的话："
+    },
+    {
+     "en": "What a shame!",
+     "cue": [
+      "focus:shame"
+     ]
+    },
+    {
+     "en": "What a pity!",
+     "cue": [
+      "focus:pity"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "说一说你现在的感受吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "I enjoy my vacation.",
+     "cue": [
+      "focus:enjoy"
+     ]
+    },
+    {
+     "en": "The bed is comfortable.",
+     "cue": [
+      "focus:comfortable"
+     ]
+    },
+    {
+     "en": "I miss my friends.",
+     "cue": [
+      "focus:miss"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:feelings"
+   ],
+   "parts": [
+    {
+     "en": "feelings"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:enjoy"
+   ],
+   "parts": [
+    {
+     "en": "enjoy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:comfortable"
+   ],
+   "parts": [
+    {
+     "en": "comfortable"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pleasant"
+   ],
+   "parts": [
+    {
+     "en": "pleasant"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:happiness"
+   ],
+   "parts": [
+    {
+     "en": "happiness"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:unhappiness"
+   ],
+   "parts": [
+    {
+     "en": "unhappiness"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:miss"
+   ],
+   "parts": [
+    {
+     "en": "miss"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:separate"
+   ],
+   "parts": [
+    {
+     "en": "separate"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:regret"
+   ],
+   "parts": [
+    {
+     "en": "regret"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:shame"
+   ],
+   "parts": [
+    {
+     "en": "shame"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pity"
+   ],
+   "parts": [
+    {
+     "en": "pity"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hate"
+   ],
+   "parts": [
+    {
+     "en": "hate"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！每天睡觉前，用英语说一说今天的感受吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

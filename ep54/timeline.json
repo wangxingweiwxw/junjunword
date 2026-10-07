@@ -1,0 +1,566 @@
+{
+ "duration": 123.433,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！每种动物都有自己的特点。今天，我们来学描述动物的形容词！",
+   "t0": 0.4,
+   "t1": 7.935,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "动物有大有小。大小、尺寸，英语是",
+   "t0": 8.785,
+   "t1": 12.918,
+   "cue": [
+    "map",
+    "show:size",
+    "focus:size"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "size",
+   "t0": 13.168,
+   "t1": 13.845,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "大象很大：",
+   "t0": 14.945,
+   "t1": 15.812,
+   "cue": [
+    "show:big",
+    "edge:size>big",
+    "focus:big"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "big",
+   "t0": 16.062,
+   "t1": 16.398,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Elephants are big.",
+   "t0": 16.898,
+   "t1": 17.971,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "老鼠很小：",
+   "t0": 19.071,
+   "t1": 19.975,
+   "cue": [
+    "show:small",
+    "edge:size>small",
+    "focus:small"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "small",
+   "t0": 20.225,
+   "t1": 20.784,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Mice are small.",
+   "t0": 21.284,
+   "t1": 22.244,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "还记得第四十五集学过的 mice 吗？",
+   "t0": 22.744,
+   "t1": 25.306,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "小小的动物，常常很可爱：",
+   "t0": 26.156,
+   "t1": 28.431,
+   "cue": [
+    "show:cute",
+    "edge:small>cute",
+    "focus:cute"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "cute",
+   "t0": 28.681,
+   "t1": 29.16,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "The puppy is so cute!",
+   "t0": 29.66,
+   "t1": 31.078,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "不怕危险，是勇敢的：",
+   "t0": 32.178,
+   "t1": 34.097,
+   "cue": [
+    "show:brave",
+    "focus:brave"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "brave",
+   "t0": 34.347,
+   "t1": 34.829,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "The little dog is brave.",
+   "t0": 35.329,
+   "t1": 36.763,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "让人哈哈大笑的，是好笑的：",
+   "t0": 37.863,
+   "t1": 40.324,
+   "cue": [
+    "show:funny",
+    "focus:funny"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "funny",
+   "t0": 40.574,
+   "t1": 41.006,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "Pigs are funny.",
+   "t0": 41.506,
+   "t1": 42.408,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "会讲笑话、说话风趣的，是幽默的：",
+   "t0": 43.508,
+   "t1": 46.664,
+   "cue": [
+    "show:humorous",
+    "edge:funny>humorous",
+    "focus:humorous"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "humorous",
+   "t0": 46.914,
+   "t1": 47.623,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "脑子转得快，是聪明的：",
+   "t0": 48.723,
+   "t1": 50.677,
+   "cue": [
+    "show:smart",
+    "focus:smart"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "smart",
+   "t0": 50.927,
+   "t1": 51.508,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Monkeys are smart.",
+   "t0": 52.008,
+   "t1": 53.2,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "聪明的反面，是笨的：",
+   "t0": 54.3,
+   "t1": 56.141,
+   "cue": [
+    "show:stupid",
+    "edge:smart>stupid",
+    "focus:stupid"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "stupid",
+   "t0": 56.391,
+   "t1": 56.995,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "这个词有点不礼貌，可别用来说别人哦。",
+   "t0": 57.495,
+   "t1": 60.598,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "傻乎乎的、调皮的，是",
+   "t0": 61.448,
+   "t1": 63.872,
+   "cue": [
+    "show:silly",
+    "edge:stupid>silly",
+    "focus:silly"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "silly",
+   "t0": 64.122,
+   "t1": 64.662,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Don't be silly!",
+   "t0": 65.162,
+   "t1": 66.07,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "最后学一个小词：不过、虽然。",
+   "t0": 67.17,
+   "t1": 70.01,
+   "cue": [
+    "show:though",
+    "focus:though"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "though",
+   "t0": 70.26,
+   "t1": 70.66,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "My dog is small, though it is brave.",
+   "t0": 71.16,
+   "t1": 73.513,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "还记得第三十四集的 although 吗？意思差不多。",
+   "t0": 74.013,
+   "t1": 78.058,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "一大一小：",
+   "t0": 78.908,
+   "t1": 79.732,
+   "cue": [
+    "focus:big,small"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "big",
+   "t0": 79.982,
+   "t1": 80.318,
+   "cue": [
+    "focus:big"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "small",
+   "t0": 80.818,
+   "t1": 81.378,
+   "cue": [
+    "focus:small"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "描述一下你喜欢的动物吧！",
+   "t0": 82.478,
+   "t1": 84.348,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "My cat is small and cute.",
+   "t0": 85.198,
+   "t1": 86.907,
+   "cue": [
+    "focus:small,cute"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "It is very smart.",
+   "t0": 87.407,
+   "t1": 88.59,
+   "cue": [
+    "focus:smart"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "And a little bit silly!",
+   "t0": 89.09,
+   "t1": 90.355,
+   "cue": [
+    "focus:silly"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 91.455,
+   "t1": 94.705,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "size",
+   "t0": 95.555,
+   "t1": 96.233,
+   "cue": [
+    "focus:size"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "big",
+   "t0": 97.333,
+   "t1": 97.669,
+   "cue": [
+    "focus:big"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "small",
+   "t0": 98.769,
+   "t1": 99.328,
+   "cue": [
+    "focus:small"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "cute",
+   "t0": 100.428,
+   "t1": 100.907,
+   "cue": [
+    "focus:cute"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "brave",
+   "t0": 102.007,
+   "t1": 102.49,
+   "cue": [
+    "focus:brave"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "funny",
+   "t0": 103.59,
+   "t1": 104.022,
+   "cue": [
+    "focus:funny"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "humorous",
+   "t0": 105.122,
+   "t1": 105.831,
+   "cue": [
+    "focus:humorous"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "smart",
+   "t0": 106.931,
+   "t1": 107.511,
+   "cue": [
+    "focus:smart"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "stupid",
+   "t0": 108.611,
+   "t1": 109.215,
+   "cue": [
+    "focus:stupid"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "silly",
+   "t0": 110.315,
+   "t1": 110.855,
+   "cue": [
+    "focus:silly"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "though",
+   "t0": 111.955,
+   "t1": 112.354,
+   "cue": [
+    "focus:though"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "zh",
+   "text": "太棒了！用英语描述一下你最喜欢的动物吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 113.454,
+   "t1": 121.583,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "size": [
+   0.25,
+   0.928
+  ],
+  "big": [
+   1.178,
+   1.513
+  ],
+  "small": [
+   1.763,
+   2.323
+  ],
+  "brave": [
+   2.573,
+   3.056
+  ],
+  "cute": [
+   3.306,
+   3.785
+  ],
+  "funny": [
+   4.035,
+   4.466
+  ],
+  "humorous": [
+   4.716,
+   5.426
+  ],
+  "smart": [
+   5.676,
+   6.256
+  ],
+  "stupid": [
+   6.506,
+   7.11
+  ],
+  "silly": [
+   7.36,
+   7.9
+  ],
+  "though": [
+   8.15,
+   8.549
+  ]
+ }
+}

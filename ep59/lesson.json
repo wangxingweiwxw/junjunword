@@ -1,0 +1,764 @@
+{
+ "id": "ep59",
+ "title": "order",
+ "titleZh": "顺序",
+ "episode": "第 59 集",
+ "titleIcon": "ord1",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1740
+  ]
+ },
+ "nodes": [
+  {
+   "id": "order",
+   "word": "order",
+   "ipa": "/ˈɔːrdər/",
+   "zh": "顺序",
+   "icon": "order",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    120
+   ]
+  },
+  {
+   "id": "first",
+   "word": "first",
+   "ipa": "/fɜːrst/",
+   "zh": "第一",
+   "icon": "ord1",
+   "kind": "num",
+   "alt": "one",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    510
+   ],
+   "at": [
+    180,
+    420
+   ]
+  },
+  {
+   "id": "second",
+   "word": "second",
+   "ipa": "/ˈsekənd/",
+   "zh": "第二",
+   "icon": "ord2",
+   "kind": "num",
+   "alt": "two",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    510
+   ],
+   "at": [
+    540,
+    420
+   ]
+  },
+  {
+   "id": "third",
+   "word": "third",
+   "ipa": "/θɜːrd/",
+   "zh": "第三",
+   "icon": "ord3",
+   "kind": "num",
+   "alt": "three",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    510
+   ],
+   "at": [
+    900,
+    420
+   ]
+  },
+  {
+   "id": "fourth",
+   "word": "fourth",
+   "ipa": "/fɔːrθ/",
+   "zh": "第四",
+   "icon": "ord4",
+   "kind": "num",
+   "alt": "four",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    870
+   ],
+   "at": [
+    1260,
+    420
+   ]
+  },
+  {
+   "id": "fifth",
+   "word": "fifth",
+   "ipa": "/fɪfθ/",
+   "zh": "第五",
+   "icon": "ord5",
+   "kind": "num",
+   "alt": "five",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    870
+   ],
+   "at": [
+    1620,
+    420
+   ]
+  },
+  {
+   "id": "sixth",
+   "word": "sixth",
+   "ipa": "/sɪksθ/",
+   "zh": "第六",
+   "icon": "ord6",
+   "kind": "num",
+   "alt": "six",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    870
+   ],
+   "at": [
+    1620,
+    780
+   ]
+  },
+  {
+   "id": "seventh",
+   "word": "seventh",
+   "ipa": "/ˈsevnθ/",
+   "zh": "第七",
+   "icon": "ord7",
+   "kind": "num",
+   "alt": "seven",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    1230
+   ],
+   "at": [
+    1260,
+    780
+   ]
+  },
+  {
+   "id": "eighth",
+   "word": "eighth",
+   "ipa": "/eɪtθ/",
+   "zh": "第八",
+   "icon": "ord8",
+   "kind": "num",
+   "alt": "eight",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    1230
+   ],
+   "at": [
+    900,
+    780
+   ]
+  },
+  {
+   "id": "ninth",
+   "word": "ninth",
+   "ipa": "/naɪnθ/",
+   "zh": "第九",
+   "icon": "ord9",
+   "kind": "num",
+   "alt": "nine",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    1230
+   ],
+   "at": [
+    540,
+    780
+   ]
+  },
+  {
+   "id": "tenth",
+   "word": "tenth",
+   "ipa": "/tenθ/",
+   "zh": "第十",
+   "icon": "ord10",
+   "kind": "num",
+   "alt": "ten",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    1590
+   ],
+   "at": [
+    180,
+    780
+   ]
+  },
+  {
+   "id": "next",
+   "word": "next",
+   "ipa": "/nekst/",
+   "zh": "下一个",
+   "icon": "next",
+   "kind": "adj",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    900,
+    120
+   ]
+  },
+  {
+   "id": "last",
+   "word": "last",
+   "ipa": "/læst/",
+   "zh": "最后的",
+   "icon": "last",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    1620,
+    120
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "first",
+   "to": "second"
+  },
+  {
+   "from": "second",
+   "to": "third"
+  },
+  {
+   "from": "third",
+   "to": "fourth"
+  },
+  {
+   "from": "fourth",
+   "to": "fifth"
+  },
+  {
+   "from": "fifth",
+   "to": "sixth"
+  },
+  {
+   "from": "sixth",
+   "to": "seventh"
+  },
+  {
+   "from": "seventh",
+   "to": "eighth"
+  },
+  {
+   "from": "eighth",
+   "to": "ninth"
+  },
+  {
+   "from": "ninth",
+   "to": "tenth"
+  },
+  {
+   "from": "order",
+   "to": "first",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！赛跑比赛，谁是第一名？今天，我们来学排顺序！"
+    },
+    {
+     "en": "order"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:order",
+    "focus:order"
+   ],
+   "parts": [
+    {
+     "zh": "一个接一个地排好，是顺序："
+    },
+    {
+     "en": "order"
+    },
+    {
+     "en": "in order"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "第一、第二、第三最特别，要单独记住。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:first",
+    "focus:first"
+   ],
+   "parts": [
+    {
+     "zh": "第一名，是"
+    },
+    {
+     "en": "first"
+    },
+    {
+     "zh": "它和 one 长得一点也不像。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:second",
+    "edge:first>second",
+    "focus:second"
+   ],
+   "parts": [
+    {
+     "zh": "第二名，是"
+    },
+    {
+     "en": "second"
+    },
+    {
+     "zh": "还记得第十四集吗？它也是秒的意思。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:third",
+    "edge:second>third",
+    "focus:third"
+   ],
+   "parts": [
+    {
+     "zh": "第三名，是"
+    },
+    {
+     "en": "third"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "从第四开始，就有规律啦：在数字后面加上 t h。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fourth",
+    "edge:third>fourth",
+    "focus:fourth",
+    "alt:fourth"
+   ],
+   "parts": [
+    {
+     "en": "four"
+    },
+    {
+     "en": "fourth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fifth",
+    "edge:fourth>fifth",
+    "focus:fifth",
+    "alt:fifth"
+   ],
+   "parts": [
+    {
+     "zh": "第五要小心，v e 变成了 f："
+    },
+    {
+     "en": "five"
+    },
+    {
+     "en": "fifth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sixth",
+    "edge:fifth>sixth",
+    "focus:sixth",
+    "alt:sixth"
+   ],
+   "parts": [
+    {
+     "en": "six"
+    },
+    {
+     "en": "sixth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:seventh",
+    "edge:sixth>seventh",
+    "focus:seventh",
+    "alt:seventh"
+   ],
+   "parts": [
+    {
+     "en": "seven"
+    },
+    {
+     "en": "seventh"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:eighth",
+    "edge:seventh>eighth",
+    "focus:eighth",
+    "alt:eighth"
+   ],
+   "parts": [
+    {
+     "zh": "第八，eight 已经有 t 了，只加一个 h："
+    },
+    {
+     "en": "eight"
+    },
+    {
+     "en": "eighth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ninth",
+    "edge:eighth>ninth",
+    "focus:ninth",
+    "alt:ninth"
+   ],
+   "parts": [
+    {
+     "zh": "第九，要去掉 nine 最后的 e："
+    },
+    {
+     "en": "nine"
+    },
+    {
+     "en": "ninth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tenth",
+    "edge:ninth>tenth",
+    "focus:tenth",
+    "alt:tenth"
+   ],
+   "parts": [
+    {
+     "en": "ten"
+    },
+    {
+     "en": "tenth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:next",
+    "focus:next"
+   ],
+   "parts": [
+    {
+     "zh": "下一个，英语是"
+    },
+    {
+     "en": "next"
+    },
+    {
+     "en": "Who's next?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:last",
+    "focus:last"
+   ],
+   "parts": [
+    {
+     "zh": "排在最后的，是"
+    },
+    {
+     "en": "last"
+    },
+    {
+     "en": "I'm the last one."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:first,second,third"
+   ],
+   "parts": [
+    {
+     "zh": "再说一遍最特别的三个："
+    },
+    {
+     "en": "first",
+     "cue": [
+      "focus:first"
+     ]
+    },
+    {
+     "en": "second",
+     "cue": [
+      "focus:second"
+     ]
+    },
+    {
+     "en": "third",
+     "cue": [
+      "focus:third"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fifth,eighth,ninth"
+   ],
+   "parts": [
+    {
+     "zh": "还有三个要变一变的："
+    },
+    {
+     "en": "fifth",
+     "cue": [
+      "focus:fifth"
+     ]
+    },
+    {
+     "en": "eighth",
+     "cue": [
+      "focus:eighth"
+     ]
+    },
+    {
+     "en": "ninth",
+     "cue": [
+      "focus:ninth"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:order"
+   ],
+   "parts": [
+    {
+     "en": "order"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:first"
+   ],
+   "parts": [
+    {
+     "en": "first"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:second"
+   ],
+   "parts": [
+    {
+     "en": "second"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:third"
+   ],
+   "parts": [
+    {
+     "en": "third"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fourth"
+   ],
+   "parts": [
+    {
+     "en": "fourth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fifth"
+   ],
+   "parts": [
+    {
+     "en": "fifth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sixth"
+   ],
+   "parts": [
+    {
+     "en": "sixth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:seventh"
+   ],
+   "parts": [
+    {
+     "en": "seventh"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:eighth"
+   ],
+   "parts": [
+    {
+     "en": "eighth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ninth"
+   ],
+   "parts": [
+    {
+     "en": "ninth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tenth"
+   ],
+   "parts": [
+    {
+     "en": "tenth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:next"
+   ],
+   "parts": [
+    {
+     "en": "next"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:last"
+   ],
+   "parts": [
+    {
+     "en": "last"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！下次排队的时候，用英语说一说你排第几吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

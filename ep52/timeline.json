@@ -1,0 +1,684 @@
+{
+ "duration": 146.348,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！还记得第二十五集的交通工具吗？今天，我们学更多出行的单词。",
+   "t0": 0.4,
+   "t1": 7.935,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "transportation",
+   "t0": 8.185,
+   "t1": 9.299,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "坐飞机，先去机场。空中，加上港口：",
+   "t0": 10.399,
+   "t1": 14.515,
+   "cue": [
+    "map",
+    "show:airport",
+    "focus:airport"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "air",
+   "t0": 14.765,
+   "t1": 15.157,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "port",
+   "t0": 15.657,
+   "t1": 16.156,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "airport",
+   "t0": 16.656,
+   "t1": 17.309,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "每一班飞机，叫航班：",
+   "t0": 18.409,
+   "t1": 20.251,
+   "cue": [
+    "show:flight",
+    "edge:airport>flight",
+    "focus:flight"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "flight",
+   "t0": 20.501,
+   "t1": 21.038,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "还记得飞 fly 吗？g h 不发音。",
+   "t0": 21.538,
+   "t1": 24.753,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "飞机降落，我们到达了：",
+   "t0": 25.603,
+   "t1": 27.496,
+   "cue": [
+    "show:arrive",
+    "edge:flight>arrive",
+    "focus:arrive"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "arrive",
+   "t0": 27.746,
+   "t1": 28.328,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "We arrive in Beijing.",
+   "t0": 28.828,
+   "t1": 30.154,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "差一点就没赶上，勉强地，英语是",
+   "t0": 31.254,
+   "t1": 34.439,
+   "cue": [
+    "show:narrowly",
+    "edge:arrive>narrowly",
+    "focus:narrowly"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "narrowly",
+   "t0": 34.689,
+   "t1": 35.35,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "We narrowly caught the flight.",
+   "t0": 35.85,
+   "t1": 37.48,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "开汽车，是",
+   "t0": 38.58,
+   "t1": 39.898,
+   "cue": [
+    "show:drive",
+    "focus:drive"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "drive",
+   "t0": 40.148,
+   "t1": 40.671,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "加上 r，就是开车的人，司机：",
+   "t0": 41.171,
+   "t1": 43.968,
+   "cue": [
+    "alt:drive"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "driver",
+   "t0": 44.218,
+   "t1": 44.727,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "大人开车，要先考一个驾照：",
+   "t0": 45.827,
+   "t1": 48.242,
+   "cue": [
+    "show:license",
+    "edge:license>drive",
+    "focus:license"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "license",
+   "t0": 48.492,
+   "t1": 49.223,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "a driver's license",
+   "t0": 49.723,
+   "t1": 51.078,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "路边招手，坐出租车：",
+   "t0": 52.178,
+   "t1": 54.192,
+   "cue": [
+    "show:taxi",
+    "edge:drive>taxi",
+    "focus:taxi"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "taxi",
+   "t0": 54.442,
+   "t1": 55.077,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "汽车跑起来，靠四个轮子：",
+   "t0": 56.177,
+   "t1": 58.408,
+   "cue": [
+    "show:wheel",
+    "edge:taxi>wheel",
+    "focus:wheel"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "wheel",
+   "t0": 58.658,
+   "t1": 59.033,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "开头的 w h，只读 w。",
+   "t0": 59.533,
+   "t1": 62.155,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "路上车来车往，是交通：",
+   "t0": 63.005,
+   "t1": 65.074,
+   "cue": [
+    "show:traffic",
+    "edge:taxi>traffic",
+    "focus:traffic"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "traffic",
+   "t0": 65.324,
+   "t1": 65.939,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "There is a lot of traffic.",
+   "t0": 66.439,
+   "t1": 67.856,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "坐火车，要去车站：",
+   "t0": 68.956,
+   "t1": 70.737,
+   "cue": [
+    "show:station",
+    "focus:station"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "station",
+   "t0": 70.987,
+   "t1": 71.708,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "火车站常常说成",
+   "t0": 72.208,
+   "t1": 73.848,
+   "cue": [
+    "alt:station"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "train station",
+   "t0": 74.098,
+   "t1": 75.102,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "在英国，地铁叫",
+   "t0": 76.202,
+   "t1": 77.787,
+   "cue": [
+    "show:underground",
+    "edge:station>underground",
+    "focus:underground"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "underground",
+   "t0": 78.037,
+   "t1": 78.78,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "在下面，加上地面。还记得美国叫什么吗？",
+   "t0": 79.28,
+   "t1": 83.318,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "subway",
+   "t0": 83.568,
+   "t1": 84.197,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "火车跑的路，是铁路：",
+   "t0": 85.297,
+   "t1": 87.197,
+   "cue": [
+    "show:railway",
+    "edge:station>railway",
+    "focus:railway"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "railway",
+   "t0": 87.447,
+   "t1": 88.032,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "铁路穿过大山，要钻隧道：",
+   "t0": 89.132,
+   "t1": 91.556,
+   "cue": [
+    "show:tunnel",
+    "edge:railway>tunnel",
+    "focus:tunnel"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "tunnel",
+   "t0": 91.806,
+   "t1": 92.257,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "跨过大河，要过桥：",
+   "t0": 93.357,
+   "t1": 95.13,
+   "cue": [
+    "show:bridge",
+    "edge:underground>bridge",
+    "focus:bridge"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "bridge",
+   "t0": 95.38,
+   "t1": 95.939,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "今天的拼词：",
+   "t0": 97.039,
+   "t1": 98.159,
+   "cue": [
+    "focus:airport,railway,underground"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "air, port, airport",
+   "t0": 98.409,
+   "t1": 100.406,
+   "cue": [
+    "focus:airport"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "rail, way, railway",
+   "t0": 100.906,
+   "t1": 102.684,
+   "cue": [
+    "focus:railway"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "under, ground, underground",
+   "t0": 103.184,
+   "t1": 105.149,
+   "cue": [
+    "focus:underground"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 106.249,
+   "t1": 109.499,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "airport",
+   "t0": 110.349,
+   "t1": 111.002,
+   "cue": [
+    "focus:airport"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "flight",
+   "t0": 112.102,
+   "t1": 112.639,
+   "cue": [
+    "focus:flight"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "arrive",
+   "t0": 113.739,
+   "t1": 114.32,
+   "cue": [
+    "focus:arrive"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "narrowly",
+   "t0": 115.42,
+   "t1": 116.082,
+   "cue": [
+    "focus:narrowly"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "drive, driver",
+   "t0": 117.182,
+   "t1": 118.349,
+   "cue": [
+    "focus:drive"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "license",
+   "t0": 119.449,
+   "t1": 120.179,
+   "cue": [
+    "focus:license"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "taxi",
+   "t0": 121.279,
+   "t1": 121.914,
+   "cue": [
+    "focus:taxi"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "wheel",
+   "t0": 123.014,
+   "t1": 123.389,
+   "cue": [
+    "focus:wheel"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "traffic",
+   "t0": 124.489,
+   "t1": 125.104,
+   "cue": [
+    "focus:traffic"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "station",
+   "t0": 126.204,
+   "t1": 126.924,
+   "cue": [
+    "focus:station"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "underground",
+   "t0": 128.024,
+   "t1": 128.768,
+   "cue": [
+    "focus:underground"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "railway",
+   "t0": 129.868,
+   "t1": 130.453,
+   "cue": [
+    "focus:railway"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "tunnel",
+   "t0": 131.553,
+   "t1": 132.005,
+   "cue": [
+    "focus:tunnel"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "bridge",
+   "t0": 133.105,
+   "t1": 133.664,
+   "cue": [
+    "focus:bridge"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "zh",
+   "text": "太棒了！下次出门，用英语说一说你坐的是什么交通工具吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 134.764,
+   "t1": 144.498,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "airport": [
+   0.25,
+   0.903
+  ],
+  "flight": [
+   1.153,
+   1.69
+  ],
+  "arrive": [
+   1.94,
+   2.521
+  ],
+  "narrowly": [
+   2.771,
+   3.433
+  ],
+  "drive": [
+   3.683,
+   4.206
+  ],
+  "drive:alt": [
+   4.456,
+   4.966
+  ],
+  "license": [
+   5.216,
+   5.946
+  ],
+  "wheel": [
+   6.196,
+   6.571
+  ],
+  "taxi": [
+   6.821,
+   7.455
+  ],
+  "traffic": [
+   7.705,
+   8.321
+  ],
+  "underground": [
+   8.571,
+   9.314
+  ],
+  "station": [
+   9.564,
+   10.284
+  ],
+  "station:alt": [
+   10.534,
+   11.538
+  ],
+  "railway": [
+   11.788,
+   12.374
+  ],
+  "tunnel": [
+   12.624,
+   13.075
+  ],
+  "bridge": [
+   13.325,
+   13.884
+  ]
+ }
+}

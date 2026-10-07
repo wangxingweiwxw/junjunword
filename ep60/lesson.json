@@ -1,0 +1,829 @@
+{
+ "id": "ep60",
+ "title": "months",
+ "titleZh": "月份",
+ "episode": "第 60 集",
+ "titleIcon": "month",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "month",
+   "word": "month",
+   "ipa": "/mʌnθ/",
+   "zh": "月；月份",
+   "icon": "month",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    170,
+    150
+   ]
+  },
+  {
+   "id": "date",
+   "word": "date",
+   "ipa": "/deɪt/",
+   "zh": "日期",
+   "icon": "date",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    170,
+    470
+   ]
+  },
+  {
+   "id": "in",
+   "word": "in",
+   "ipa": "/ɪn/",
+   "zh": "在（某月）",
+   "icon": "inmonth",
+   "kind": "prep",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    170,
+    790
+   ]
+  },
+  {
+   "id": "january",
+   "word": "January",
+   "ipa": "/ˈdʒænjueri/",
+   "zh": "1月",
+   "icon": "january",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "february",
+   "word": "February",
+   "ipa": "/ˈfebrueri/",
+   "zh": "2月",
+   "icon": "february",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "march",
+   "word": "March",
+   "ipa": "/mɑːrtʃ/",
+   "zh": "3月",
+   "icon": "march",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "april",
+   "word": "April",
+   "ipa": "/ˈeɪprəl/",
+   "zh": "4月",
+   "icon": "april",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "may",
+   "word": "May",
+   "ipa": "/meɪ/",
+   "zh": "5月",
+   "icon": "may",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "june",
+   "word": "June",
+   "ipa": "/dʒuːn/",
+   "zh": "6月",
+   "icon": "june",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "july",
+   "word": "July",
+   "ipa": "/dʒuˈlaɪ/",
+   "zh": "7月",
+   "icon": "july",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "august",
+   "word": "August",
+   "ipa": "/ˈɔːɡəst/",
+   "zh": "8月",
+   "icon": "august",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "september",
+   "word": "September",
+   "ipa": "/sepˈtembər/",
+   "zh": "9月",
+   "icon": "september",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "october",
+   "word": "October",
+   "ipa": "/ɑːkˈtoʊbər/",
+   "zh": "10月",
+   "icon": "october",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "november",
+   "word": "November",
+   "ipa": "/noʊˈvembər/",
+   "zh": "11月",
+   "icon": "november",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "december",
+   "word": "December",
+   "ipa": "/dɪˈsembər/",
+   "zh": "12月",
+   "icon": "december",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "january",
+   "to": "february"
+  },
+  {
+   "from": "february",
+   "to": "march"
+  },
+  {
+   "from": "march",
+   "to": "april"
+  },
+  {
+   "from": "may",
+   "to": "june"
+  },
+  {
+   "from": "june",
+   "to": "july"
+  },
+  {
+   "from": "july",
+   "to": "august"
+  },
+  {
+   "from": "september",
+   "to": "october"
+  },
+  {
+   "from": "october",
+   "to": "november"
+  },
+  {
+   "from": "november",
+   "to": "december"
+  },
+  {
+   "from": "month",
+   "to": "january",
+   "dashed": true
+  },
+  {
+   "from": "in",
+   "to": "september",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！一年有十二个月。今天，我们来学月份！"
+    },
+    {
+     "en": "months"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:month",
+    "focus:month"
+   ],
+   "parts": [
+    {
+     "zh": "一个月，英语是"
+    },
+    {
+     "en": "month"
+    },
+    {
+     "en": "twelve months in a year"
+    },
+    {
+     "zh": "小提示：每个月份的名字，开头都要大写。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:january",
+    "edge:month>january",
+    "focus:january"
+   ],
+   "parts": [
+    {
+     "zh": "新年的第一个月，一月："
+    },
+    {
+     "en": "January"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:february",
+    "edge:january>february",
+    "focus:february"
+   ],
+   "parts": [
+    {
+     "zh": "二月，中间的第一个 r 常常读得很轻："
+    },
+    {
+     "en": "February"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:march",
+    "edge:february>march",
+    "focus:march"
+   ],
+   "parts": [
+    {
+     "zh": "三月，春天来了："
+    },
+    {
+     "en": "March"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:april",
+    "edge:march>april",
+    "focus:april"
+   ],
+   "parts": [
+    {
+     "zh": "四月，常常下小雨："
+    },
+    {
+     "en": "April"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:may",
+    "edge:april>may",
+    "focus:may"
+   ],
+   "parts": [
+    {
+     "zh": "五月，花儿开了："
+    },
+    {
+     "en": "May"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:june",
+    "edge:may>june",
+    "focus:june"
+   ],
+   "parts": [
+    {
+     "zh": "六月，夏天到了："
+    },
+    {
+     "en": "June"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:july",
+    "edge:june>july",
+    "focus:july"
+   ],
+   "parts": [
+    {
+     "zh": "七月，重音在后面："
+    },
+    {
+     "en": "July"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:august",
+    "edge:july>august",
+    "focus:august"
+   ],
+   "parts": [
+    {
+     "zh": "八月，可以去海边玩水："
+    },
+    {
+     "en": "August"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:september",
+    "focus:september"
+   ],
+   "parts": [
+    {
+     "zh": "九月，开学啦："
+    },
+    {
+     "en": "September"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:october",
+    "edge:september>october",
+    "focus:october"
+   ],
+   "parts": [
+    {
+     "zh": "十月，秋天的南瓜熟了："
+    },
+    {
+     "en": "October"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:november",
+    "edge:october>november",
+    "focus:november"
+   ],
+   "parts": [
+    {
+     "zh": "十一月，树叶落下来："
+    },
+    {
+     "en": "November"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:december",
+    "edge:november>december",
+    "focus:december"
+   ],
+   "parts": [
+    {
+     "zh": "十二月，一年的最后一个月："
+    },
+    {
+     "en": "December"
+    },
+    {
+     "zh": "你发现了吗？九月到十二月，后面都带着 b e r。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:date",
+    "focus:date"
+   ],
+   "parts": [
+    {
+     "zh": "几月几号，是日期："
+    },
+    {
+     "en": "date"
+    },
+    {
+     "en": "What's the date today?"
+    },
+    {
+     "en": "It's March tenth.",
+     "cue": [
+      "focus:date,march"
+     ]
+    },
+    {
+     "zh": "说几号，要用上一集学的序数词哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:in",
+    "edge:in>september",
+    "focus:in"
+   ],
+   "parts": [
+    {
+     "zh": "在几月，前面要用小词"
+    },
+    {
+     "en": "in"
+    },
+    {
+     "en": "in September"
+    },
+    {
+     "en": "My birthday is in May.",
+     "cue": [
+      "focus:in,may"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们从一月读到十二月吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "January",
+     "cue": [
+      "focus:january"
+     ]
+    },
+    {
+     "en": "February",
+     "cue": [
+      "focus:february"
+     ]
+    },
+    {
+     "en": "March",
+     "cue": [
+      "focus:march"
+     ]
+    },
+    {
+     "en": "April",
+     "cue": [
+      "focus:april"
+     ]
+    },
+    {
+     "en": "May",
+     "cue": [
+      "focus:may"
+     ]
+    },
+    {
+     "en": "June",
+     "cue": [
+      "focus:june"
+     ]
+    },
+    {
+     "en": "July",
+     "cue": [
+      "focus:july"
+     ]
+    },
+    {
+     "en": "August",
+     "cue": [
+      "focus:august"
+     ]
+    },
+    {
+     "en": "September",
+     "cue": [
+      "focus:september"
+     ]
+    },
+    {
+     "en": "October",
+     "cue": [
+      "focus:october"
+     ]
+    },
+    {
+     "en": "November",
+     "cue": [
+      "focus:november"
+     ]
+    },
+    {
+     "en": "December",
+     "cue": [
+      "focus:december"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:month"
+   ],
+   "parts": [
+    {
+     "en": "month"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:date"
+   ],
+   "parts": [
+    {
+     "en": "date"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:in"
+   ],
+   "parts": [
+    {
+     "en": "in"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:january"
+   ],
+   "parts": [
+    {
+     "en": "January"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:february"
+   ],
+   "parts": [
+    {
+     "en": "February"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:march"
+   ],
+   "parts": [
+    {
+     "en": "March"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:april"
+   ],
+   "parts": [
+    {
+     "en": "April"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:may"
+   ],
+   "parts": [
+    {
+     "en": "May"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:june"
+   ],
+   "parts": [
+    {
+     "en": "June"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:july"
+   ],
+   "parts": [
+    {
+     "en": "July"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:august"
+   ],
+   "parts": [
+    {
+     "en": "August"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:september"
+   ],
+   "parts": [
+    {
+     "en": "September"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:october"
+   ],
+   "parts": [
+    {
+     "en": "October"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:november"
+   ],
+   "parts": [
+    {
+     "en": "November"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:december"
+   ],
+   "parts": [
+    {
+     "en": "December"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！你的生日在几月？用英语告诉爸爸妈妈吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

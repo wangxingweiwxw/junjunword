@@ -1,0 +1,625 @@
+{
+ "duration": 139.406,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！还记得第三十九集的情绪吗？今天，我们学更多表达感受的单词。",
+   "t0": 0.4,
+   "t1": 8.005,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "feelings",
+   "t0": 8.255,
+   "t1": 8.943,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "心里的各种感受：",
+   "t0": 10.043,
+   "t1": 11.404,
+   "cue": [
+    "map",
+    "show:feelings",
+    "focus:feelings"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "feelings",
+   "t0": 11.654,
+   "t1": 12.341,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "开开心心地享受一件事：",
+   "t0": 13.441,
+   "t1": 15.316,
+   "cue": [
+    "show:enjoy",
+    "focus:enjoy"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "enjoy",
+   "t0": 15.566,
+   "t1": 16.207,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "I enjoy the sunshine at the beach.",
+   "t0": 16.707,
+   "t1": 18.678,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "躺在软软的沙发上，真舒服：",
+   "t0": 19.778,
+   "t1": 22.297,
+   "cue": [
+    "show:comfortable",
+    "focus:comfortable"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "comfortable",
+   "t0": 22.547,
+   "t1": 23.29,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "这个词很长，中间的 or 读得很轻：",
+   "t0": 23.79,
+   "t1": 27.091,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "com, fort, able",
+   "t0": 27.341,
+   "t1": 29.107,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "让人心情愉快的，是",
+   "t0": 30.207,
+   "t1": 32.128,
+   "cue": [
+    "show:pleasant",
+    "edge:enjoy>pleasant",
+    "edge:comfortable>pleasant",
+    "edge:feelings>pleasant",
+    "focus:pleasant"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "pleasant",
+   "t0": 32.378,
+   "t1": 32.988,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "a pleasant day",
+   "t0": 33.488,
+   "t1": 34.477,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "开心是 happy，把 y 变成 i，加上 n e s s，就是幸福、快乐：",
+   "t0": 35.577,
+   "t1": 41.634,
+   "cue": [
+    "show:happiness",
+    "edge:feelings>happiness",
+    "focus:happiness",
+    "alt:happiness"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "happy",
+   "t0": 41.884,
+   "t1": 42.358,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "happiness",
+   "t0": 42.858,
+   "t1": 43.617,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "前面加上 u n，就是不快乐：",
+   "t0": 44.717,
+   "t1": 47.12,
+   "cue": [
+    "show:unhappiness",
+    "edge:happiness>unhappiness",
+    "focus:unhappiness"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "unhappiness",
+   "t0": 47.37,
+   "t1": 48.287,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "还记得第四十五集的 unusual 吗？un 让意思反过来。",
+   "t0": 48.787,
+   "t1": 53.383,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "好久没见到奶奶了，好想她：",
+   "t0": 54.233,
+   "t1": 56.631,
+   "cue": [
+    "show:miss",
+    "edge:feelings>miss",
+    "focus:miss"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "miss",
+   "t0": 56.881,
+   "t1": 57.334,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "I miss my grandma.",
+   "t0": 57.834,
+   "t1": 58.974,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "因为我们分开了，所以想念。分开，英语是",
+   "t0": 60.075,
+   "t1": 64.513,
+   "cue": [
+    "show:separate",
+    "edge:miss>separate",
+    "focus:separate"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "separate",
+   "t0": 64.763,
+   "t1": 65.404,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "做错了事，心里很后悔：",
+   "t0": 66.504,
+   "t1": 68.737,
+   "cue": [
+    "show:regret",
+    "edge:feelings>regret",
+    "focus:regret"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "regret",
+   "t0": 68.987,
+   "t1": 69.639,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "羞愧，英语是",
+   "t0": 70.739,
+   "t1": 72.229,
+   "cue": [
+    "show:shame",
+    "edge:regret>shame",
+    "focus:shame"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "shame",
+   "t0": 72.479,
+   "t1": 72.963,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "它也表示遗憾，比如：",
+   "t0": 73.463,
+   "t1": 75.331,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "What a shame!",
+   "t0": 75.581,
+   "t1": 76.373,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "看到小狗淋雨，心里很同情：",
+   "t0": 77.473,
+   "t1": 80.024,
+   "cue": [
+    "show:pity",
+    "edge:regret>pity",
+    "focus:pity"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "pity",
+   "t0": 80.274,
+   "t1": 80.697,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "也可以表示可惜：",
+   "t0": 81.197,
+   "t1": 82.55,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "What a pity!",
+   "t0": 82.8,
+   "t1": 83.527,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "非常非常讨厌，是",
+   "t0": 84.627,
+   "t1": 86.474,
+   "cue": [
+    "show:hate",
+    "edge:regret>hate",
+    "focus:hate"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "hate",
+   "t0": 86.724,
+   "t1": 87.157,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "I hate rainy days.",
+   "t0": 87.657,
+   "t1": 88.936,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "两句表示可惜的话：",
+   "t0": 90.036,
+   "t1": 91.716,
+   "cue": [
+    "focus:shame,pity"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "What a shame!",
+   "t0": 91.966,
+   "t1": 92.759,
+   "cue": [
+    "focus:shame"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "What a pity!",
+   "t0": 93.259,
+   "t1": 93.986,
+   "cue": [
+    "focus:pity"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "说一说你现在的感受吧！",
+   "t0": 95.086,
+   "t1": 96.919,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "I enjoy my vacation.",
+   "t0": 97.769,
+   "t1": 99.284,
+   "cue": [
+    "focus:enjoy"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "The bed is comfortable.",
+   "t0": 99.784,
+   "t1": 101.072,
+   "cue": [
+    "focus:comfortable"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "I miss my friends.",
+   "t0": 101.572,
+   "t1": 102.741,
+   "cue": [
+    "focus:miss"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 103.841,
+   "t1": 107.091,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "feelings",
+   "t0": 107.941,
+   "t1": 108.629,
+   "cue": [
+    "focus:feelings"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "enjoy",
+   "t0": 109.729,
+   "t1": 110.369,
+   "cue": [
+    "focus:enjoy"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "comfortable",
+   "t0": 111.469,
+   "t1": 112.213,
+   "cue": [
+    "focus:comfortable"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "pleasant",
+   "t0": 113.313,
+   "t1": 113.922,
+   "cue": [
+    "focus:pleasant"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "happiness",
+   "t0": 115.022,
+   "t1": 115.781,
+   "cue": [
+    "focus:happiness"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "unhappiness",
+   "t0": 116.881,
+   "t1": 117.798,
+   "cue": [
+    "focus:unhappiness"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "miss",
+   "t0": 118.898,
+   "t1": 119.351,
+   "cue": [
+    "focus:miss"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "separate",
+   "t0": 120.451,
+   "t1": 121.092,
+   "cue": [
+    "focus:separate"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "regret",
+   "t0": 122.192,
+   "t1": 122.845,
+   "cue": [
+    "focus:regret"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "shame",
+   "t0": 123.945,
+   "t1": 124.428,
+   "cue": [
+    "focus:shame"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "pity",
+   "t0": 125.528,
+   "t1": 125.952,
+   "cue": [
+    "focus:pity"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "hate",
+   "t0": 127.052,
+   "t1": 127.485,
+   "cue": [
+    "focus:hate"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "zh",
+   "text": "太棒了！每天睡觉前，用英语说一说今天的感受吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 128.585,
+   "t1": 137.556,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "feelings": [
+   0.25,
+   0.937
+  ],
+  "enjoy": [
+   1.187,
+   1.828
+  ],
+  "comfortable": [
+   2.078,
+   2.821
+  ],
+  "pleasant": [
+   3.071,
+   3.681
+  ],
+  "happiness": [
+   3.931,
+   4.69
+  ],
+  "happiness:alt": [
+   4.94,
+   5.414
+  ],
+  "unhappiness": [
+   5.664,
+   6.581
+  ],
+  "miss": [
+   6.831,
+   7.284
+  ],
+  "separate": [
+   7.534,
+   8.175
+  ],
+  "shame": [
+   8.425,
+   8.909
+  ],
+  "regret": [
+   9.159,
+   9.811
+  ],
+  "pity": [
+   10.061,
+   10.485
+  ],
+  "hate": [
+   10.735,
+   11.168
+  ]
+ }
+}

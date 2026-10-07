@@ -1,0 +1,626 @@
+{
+ "id": "ep54",
+ "title": "animal traits",
+ "titleZh": "动物特点",
+ "episode": "第 54 集",
+ "titleIcon": "cute",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "size",
+   "word": "size",
+   "ipa": "/saɪz/",
+   "zh": "大小；尺寸",
+   "icon": "size",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "big",
+   "word": "big",
+   "ipa": "/bɪɡ/",
+   "zh": "大的",
+   "icon": "big",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "small",
+   "word": "small",
+   "ipa": "/smɔːl/",
+   "zh": "小的",
+   "icon": "small",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "brave",
+   "word": "brave",
+   "ipa": "/breɪv/",
+   "zh": "勇敢的",
+   "icon": "brave",
+   "kind": "adj",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "cute",
+   "word": "cute",
+   "ipa": "/kjuːt/",
+   "zh": "可爱的",
+   "icon": "cute",
+   "kind": "adj",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "funny",
+   "word": "funny",
+   "ipa": "/ˈfʌni/",
+   "zh": "好笑的",
+   "icon": "funny",
+   "kind": "adj",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "humorous",
+   "word": "humorous",
+   "ipa": "/ˈhjuːmərəs/",
+   "zh": "幽默的",
+   "icon": "humorous",
+   "kind": "adj",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "smart",
+   "word": "smart",
+   "ipa": "/smɑːrt/",
+   "zh": "聪明的",
+   "icon": "smart",
+   "kind": "adj",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "stupid",
+   "word": "stupid",
+   "ipa": "/ˈstuːpɪd/",
+   "zh": "笨的",
+   "icon": "stupid",
+   "kind": "adj",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "silly",
+   "word": "silly",
+   "ipa": "/ˈsɪli/",
+   "zh": "傻乎乎的",
+   "icon": "silly",
+   "kind": "adj",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "though",
+   "word": "though",
+   "ipa": "/ðoʊ/",
+   "zh": "不过；虽然",
+   "icon": "though",
+   "kind": "adv",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "size",
+   "to": "big"
+  },
+  {
+   "from": "size",
+   "to": "small"
+  },
+  {
+   "from": "small",
+   "to": "cute",
+   "dashed": true
+  },
+  {
+   "from": "funny",
+   "to": "humorous",
+   "label": "更文雅"
+  },
+  {
+   "from": "smart",
+   "to": "stupid",
+   "label": "反义"
+  },
+  {
+   "from": "stupid",
+   "to": "silly",
+   "label": "差不多"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！每种动物都有自己的特点。今天，我们来学描述动物的形容词！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:size",
+    "focus:size"
+   ],
+   "parts": [
+    {
+     "zh": "动物有大有小。大小、尺寸，英语是"
+    },
+    {
+     "en": "size"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:big",
+    "edge:size>big",
+    "focus:big"
+   ],
+   "parts": [
+    {
+     "zh": "大象很大："
+    },
+    {
+     "en": "big"
+    },
+    {
+     "en": "Elephants are big."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:small",
+    "edge:size>small",
+    "focus:small"
+   ],
+   "parts": [
+    {
+     "zh": "老鼠很小："
+    },
+    {
+     "en": "small"
+    },
+    {
+     "en": "Mice are small."
+    },
+    {
+     "zh": "还记得第四十五集学过的 mice 吗？"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cute",
+    "edge:small>cute",
+    "focus:cute"
+   ],
+   "parts": [
+    {
+     "zh": "小小的动物，常常很可爱："
+    },
+    {
+     "en": "cute"
+    },
+    {
+     "en": "The puppy is so cute!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:brave",
+    "focus:brave"
+   ],
+   "parts": [
+    {
+     "zh": "不怕危险，是勇敢的："
+    },
+    {
+     "en": "brave"
+    },
+    {
+     "en": "The little dog is brave."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:funny",
+    "focus:funny"
+   ],
+   "parts": [
+    {
+     "zh": "让人哈哈大笑的，是好笑的："
+    },
+    {
+     "en": "funny"
+    },
+    {
+     "en": "Pigs are funny."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:humorous",
+    "edge:funny>humorous",
+    "focus:humorous"
+   ],
+   "parts": [
+    {
+     "zh": "会讲笑话、说话风趣的，是幽默的："
+    },
+    {
+     "en": "humorous"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:smart",
+    "focus:smart"
+   ],
+   "parts": [
+    {
+     "zh": "脑子转得快，是聪明的："
+    },
+    {
+     "en": "smart"
+    },
+    {
+     "en": "Monkeys are smart."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:stupid",
+    "edge:smart>stupid",
+    "focus:stupid"
+   ],
+   "parts": [
+    {
+     "zh": "聪明的反面，是笨的："
+    },
+    {
+     "en": "stupid"
+    },
+    {
+     "zh": "这个词有点不礼貌，可别用来说别人哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:silly",
+    "edge:stupid>silly",
+    "focus:silly"
+   ],
+   "parts": [
+    {
+     "zh": "傻乎乎的、调皮的，是"
+    },
+    {
+     "en": "silly"
+    },
+    {
+     "en": "Don't be silly!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:though",
+    "focus:though"
+   ],
+   "parts": [
+    {
+     "zh": "最后学一个小词：不过、虽然。"
+    },
+    {
+     "en": "though"
+    },
+    {
+     "en": "My dog is small, though it is brave."
+    },
+    {
+     "zh": "还记得第三十四集的 although 吗？意思差不多。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:big,small"
+   ],
+   "parts": [
+    {
+     "zh": "一大一小："
+    },
+    {
+     "en": "big",
+     "cue": [
+      "focus:big"
+     ]
+    },
+    {
+     "en": "small",
+     "cue": [
+      "focus:small"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "描述一下你喜欢的动物吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "My cat is small and cute.",
+     "cue": [
+      "focus:small,cute"
+     ]
+    },
+    {
+     "en": "It is very smart.",
+     "cue": [
+      "focus:smart"
+     ]
+    },
+    {
+     "en": "And a little bit silly!",
+     "cue": [
+      "focus:silly"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:size"
+   ],
+   "parts": [
+    {
+     "en": "size"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:big"
+   ],
+   "parts": [
+    {
+     "en": "big"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:small"
+   ],
+   "parts": [
+    {
+     "en": "small"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cute"
+   ],
+   "parts": [
+    {
+     "en": "cute"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:brave"
+   ],
+   "parts": [
+    {
+     "en": "brave"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:funny"
+   ],
+   "parts": [
+    {
+     "en": "funny"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:humorous"
+   ],
+   "parts": [
+    {
+     "en": "humorous"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:smart"
+   ],
+   "parts": [
+    {
+     "en": "smart"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:stupid"
+   ],
+   "parts": [
+    {
+     "en": "stupid"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:silly"
+   ],
+   "parts": [
+    {
+     "en": "silly"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:though"
+   ],
+   "parts": [
+    {
+     "en": "though"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！用英语描述一下你最喜欢的动物吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

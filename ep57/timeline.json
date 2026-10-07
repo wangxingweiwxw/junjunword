@@ -1,0 +1,606 @@
+{
+ "duration": 123.718,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！暑假到了，我们一起去旅行吧！",
+   "t0": 0.4,
+   "t1": 4.504,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "travel",
+   "t0": 4.754,
+   "t1": 5.258,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "长长的假期，英语是",
+   "t0": 6.358,
+   "t1": 8.445,
+   "cue": [
+    "map",
+    "show:vacation",
+    "focus:vacation"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "vacation",
+   "t0": 8.695,
+   "t1": 9.5,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "还记得上一集的 holiday 吗？意思差不多。",
+   "t0": 10.0,
+   "t1": 13.467,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "去远方玩，是旅行：",
+   "t0": 14.317,
+   "t1": 16.178,
+   "cue": [
+    "show:travel",
+    "edge:vacation>travel",
+    "focus:travel"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "travel",
+   "t0": 16.428,
+   "t1": 16.932,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "I love to travel.",
+   "t0": 17.432,
+   "t1": 18.522,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "帮我们安排旅行的人，是旅行社的代理人：",
+   "t0": 19.622,
+   "t1": 23.363,
+   "cue": [
+    "show:agent",
+    "edge:travel>agent",
+    "focus:agent"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "agent",
+   "t0": 23.613,
+   "t1": 24.169,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "合起来叫",
+   "t0": 24.669,
+   "t1": 25.47,
+   "cue": [
+    "alt:agent"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "travel agent",
+   "t0": 25.72,
+   "t1": 26.74,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "出国旅行，要带护照。通过，加上港口：",
+   "t0": 27.84,
+   "t1": 32.039,
+   "cue": [
+    "show:passport",
+    "edge:travel>passport",
+    "focus:passport"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "pass",
+   "t0": 32.289,
+   "t1": 32.807,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "port",
+   "t0": 33.307,
+   "t1": 33.806,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "passport",
+   "t0": 34.306,
+   "t1": 35.098,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "晚上，住在酒店里：",
+   "t0": 36.198,
+   "t1": 37.895,
+   "cue": [
+    "show:hotel",
+    "edge:vacation>hotel",
+    "focus:hotel"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "hotel",
+   "t0": 38.145,
+   "t1": 38.735,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "跟着旅行团，四处游览：",
+   "t0": 39.835,
+   "t1": 41.997,
+   "cue": [
+    "show:tour",
+    "edge:travel>tour",
+    "focus:tour"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "tour",
+   "t0": 42.247,
+   "t1": 42.684,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "举着小旗子带路的，是导游：",
+   "t0": 43.784,
+   "t1": 46.314,
+   "cue": [
+    "show:guide",
+    "edge:tour>guide",
+    "focus:guide"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "guide",
+   "t0": 46.564,
+   "t1": 46.992,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "Follow the guide!",
+   "t0": 47.492,
+   "t1": 48.353,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "导游带我们参观宫殿：",
+   "t0": 49.453,
+   "t1": 51.082,
+   "cue": [
+    "show:palace",
+    "edge:guide>palace",
+    "focus:palace"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "palace",
+   "t0": 51.332,
+   "t1": 51.907,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "参观博物馆，看古老的宝贝：",
+   "t0": 53.007,
+   "t1": 55.398,
+   "cue": [
+    "show:museum",
+    "edge:guide>museum",
+    "focus:museum"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "museum",
+   "t0": 55.648,
+   "t1": 56.313,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "爬上高高的塔，看看风景：",
+   "t0": 57.413,
+   "t1": 59.724,
+   "cue": [
+    "show:tower",
+    "edge:museum>tower",
+    "focus:tower"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "tower",
+   "t0": 59.974,
+   "t1": 60.444,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "坐船去一座小岛：",
+   "t0": 61.544,
+   "t1": 62.914,
+   "cue": [
+    "show:island",
+    "edge:travel>island",
+    "focus:island"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "island",
+   "t0": 63.164,
+   "t1": 63.668,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "小提示：中间的 s 不发音哦。",
+   "t0": 64.168,
+   "t1": 66.775,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "岛上有金色的沙滩：",
+   "t0": 67.625,
+   "t1": 69.213,
+   "cue": [
+    "show:beach",
+    "edge:island>beach",
+    "focus:beach"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "beach",
+   "t0": 69.463,
+   "t1": 69.935,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "I enjoy the sunshine at the beach.",
+   "t0": 70.435,
+   "t1": 72.407,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "迷路了，看看地图：",
+   "t0": 73.507,
+   "t1": 75.264,
+   "cue": [
+    "show:map",
+    "edge:island>map",
+    "focus:map"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "map",
+   "t0": 75.514,
+   "t1": 75.91,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "说一说你的旅行计划吧！",
+   "t0": 77.01,
+   "t1": 78.819,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "I will travel to an island.",
+   "t0": 79.669,
+   "t1": 81.2,
+   "cue": [
+    "focus:travel,island"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "I will stay at a hotel.",
+   "t0": 81.7,
+   "t1": 83.097,
+   "cue": [
+    "focus:hotel"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "I will visit a museum and a palace!",
+   "t0": 83.597,
+   "t1": 85.716,
+   "cue": [
+    "focus:museum,palace"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 86.816,
+   "t1": 90.066,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "vacation",
+   "t0": 90.916,
+   "t1": 91.721,
+   "cue": [
+    "focus:vacation"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "travel",
+   "t0": 92.821,
+   "t1": 93.325,
+   "cue": [
+    "focus:travel"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "agent",
+   "t0": 94.425,
+   "t1": 94.981,
+   "cue": [
+    "focus:agent"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "passport",
+   "t0": 96.081,
+   "t1": 96.873,
+   "cue": [
+    "focus:passport"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "hotel",
+   "t0": 97.973,
+   "t1": 98.562,
+   "cue": [
+    "focus:hotel"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "tour",
+   "t0": 99.662,
+   "t1": 100.1,
+   "cue": [
+    "focus:tour"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "guide",
+   "t0": 101.2,
+   "t1": 101.629,
+   "cue": [
+    "focus:guide"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "palace",
+   "t0": 102.729,
+   "t1": 103.304,
+   "cue": [
+    "focus:palace"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "museum",
+   "t0": 104.404,
+   "t1": 105.069,
+   "cue": [
+    "focus:museum"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "tower",
+   "t0": 106.169,
+   "t1": 106.64,
+   "cue": [
+    "focus:tower"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "island",
+   "t0": 107.74,
+   "t1": 108.244,
+   "cue": [
+    "focus:island"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "beach",
+   "t0": 109.344,
+   "t1": 109.815,
+   "cue": [
+    "focus:beach"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "map",
+   "t0": 110.915,
+   "t1": 111.311,
+   "cue": [
+    "focus:map"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！你最想去哪里旅行？用英语告诉爸爸妈妈吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 112.411,
+   "t1": 121.868,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "vacation": [
+   0.25,
+   1.055
+  ],
+  "travel": [
+   1.305,
+   1.809
+  ],
+  "agent": [
+   2.059,
+   2.615
+  ],
+  "agent:alt": [
+   2.865,
+   3.885
+  ],
+  "passport": [
+   4.135,
+   4.926
+  ],
+  "hotel": [
+   5.176,
+   5.766
+  ],
+  "tour": [
+   6.016,
+   6.454
+  ],
+  "guide": [
+   6.704,
+   7.132
+  ],
+  "palace": [
+   7.382,
+   7.957
+  ],
+  "museum": [
+   8.207,
+   8.872
+  ],
+  "tower": [
+   9.122,
+   9.593
+  ],
+  "island": [
+   9.843,
+   10.347
+  ],
+  "beach": [
+   10.597,
+   11.069
+  ],
+  "map": [
+   11.319,
+   11.714
+  ]
+ }
+}

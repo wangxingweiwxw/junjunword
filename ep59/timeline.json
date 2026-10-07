@@ -1,0 +1,696 @@
+{
+ "duration": 121.135,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！赛跑比赛，谁是第一名？今天，我们来学排顺序！",
+   "t0": 0.4,
+   "t1": 6.88,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "order",
+   "t0": 7.13,
+   "t1": 7.565,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "一个接一个地排好，是顺序：",
+   "t0": 8.665,
+   "t1": 11.04,
+   "cue": [
+    "map",
+    "show:order",
+    "focus:order"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "order",
+   "t0": 11.29,
+   "t1": 11.726,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "in order",
+   "t0": 12.226,
+   "t1": 12.824,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "第一、第二、第三最特别，要单独记住。",
+   "t0": 13.924,
+   "t1": 17.651,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "第一名，是",
+   "t0": 18.501,
+   "t1": 19.687,
+   "cue": [
+    "show:first",
+    "focus:first"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "first",
+   "t0": 19.937,
+   "t1": 20.417,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "它和 one 长得一点也不像。",
+   "t0": 20.917,
+   "t1": 22.755,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "第二名，是",
+   "t0": 23.605,
+   "t1": 24.774,
+   "cue": [
+    "show:second",
+    "edge:first>second",
+    "focus:second"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "second",
+   "t0": 25.024,
+   "t1": 25.623,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "还记得第十四集吗？它也是秒的意思。",
+   "t0": 26.123,
+   "t1": 29.596,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "第三名，是",
+   "t0": 30.446,
+   "t1": 31.68,
+   "cue": [
+    "show:third",
+    "edge:second>third",
+    "focus:third"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "third",
+   "t0": 31.93,
+   "t1": 32.259,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "从第四开始，就有规律啦：在数字后面加上 t h。",
+   "t0": 33.359,
+   "t1": 38.171,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "four",
+   "t0": 39.021,
+   "t1": 39.439,
+   "cue": [
+    "show:fourth",
+    "edge:third>fourth",
+    "focus:fourth",
+    "alt:fourth"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "fourth",
+   "t0": 39.939,
+   "t1": 40.232,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "第五要小心，v e 变成了 f：",
+   "t0": 41.332,
+   "t1": 43.899,
+   "cue": [
+    "show:fifth",
+    "edge:fourth>fifth",
+    "focus:fifth",
+    "alt:fifth"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "five",
+   "t0": 44.149,
+   "t1": 44.66,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "fifth",
+   "t0": 45.16,
+   "t1": 45.376,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "six",
+   "t0": 46.476,
+   "t1": 47.06,
+   "cue": [
+    "show:sixth",
+    "edge:fifth>sixth",
+    "focus:sixth",
+    "alt:sixth"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "sixth",
+   "t0": 47.56,
+   "t1": 48.056,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "seven",
+   "t0": 49.156,
+   "t1": 49.731,
+   "cue": [
+    "show:seventh",
+    "edge:sixth>seventh",
+    "focus:seventh",
+    "alt:seventh"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "seventh",
+   "t0": 50.231,
+   "t1": 50.742,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "第八，eight 已经有 t 了，只加一个 h：",
+   "t0": 51.842,
+   "t1": 55.221,
+   "cue": [
+    "show:eighth",
+    "edge:seventh>eighth",
+    "focus:eighth",
+    "alt:eighth"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "eight",
+   "t0": 55.471,
+   "t1": 55.884,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "eighth",
+   "t0": 56.384,
+   "t1": 56.71,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "第九，要去掉 nine 最后的 e：",
+   "t0": 57.81,
+   "t1": 60.153,
+   "cue": [
+    "show:ninth",
+    "edge:eighth>ninth",
+    "focus:ninth",
+    "alt:ninth"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "nine",
+   "t0": 60.403,
+   "t1": 60.902,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "ninth",
+   "t0": 61.402,
+   "t1": 61.863,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "ten",
+   "t0": 62.963,
+   "t1": 63.4,
+   "cue": [
+    "show:tenth",
+    "edge:ninth>tenth",
+    "focus:tenth",
+    "alt:tenth"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "tenth",
+   "t0": 63.9,
+   "t1": 64.31,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "下一个，英语是",
+   "t0": 65.41,
+   "t1": 66.952,
+   "cue": [
+    "show:next",
+    "focus:next"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "next",
+   "t0": 67.202,
+   "t1": 67.783,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Who's next?",
+   "t0": 68.283,
+   "t1": 69.07,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "排在最后的，是",
+   "t0": 70.17,
+   "t1": 71.747,
+   "cue": [
+    "show:last",
+    "focus:last"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "last",
+   "t0": 71.997,
+   "t1": 72.517,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "I'm the last one.",
+   "t0": 73.017,
+   "t1": 74.133,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "再说一遍最特别的三个：",
+   "t0": 75.233,
+   "t1": 77.391,
+   "cue": [
+    "focus:first,second,third"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "first",
+   "t0": 77.641,
+   "t1": 78.121,
+   "cue": [
+    "focus:first"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "second",
+   "t0": 78.621,
+   "t1": 79.22,
+   "cue": [
+    "focus:second"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "third",
+   "t0": 79.72,
+   "t1": 80.049,
+   "cue": [
+    "focus:third"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "还有三个要变一变的：",
+   "t0": 81.149,
+   "t1": 82.707,
+   "cue": [
+    "focus:fifth,eighth,ninth"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "fifth",
+   "t0": 82.957,
+   "t1": 83.173,
+   "cue": [
+    "focus:fifth"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "eighth",
+   "t0": 83.673,
+   "t1": 83.999,
+   "cue": [
+    "focus:eighth"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "ninth",
+   "t0": 84.499,
+   "t1": 84.959,
+   "cue": [
+    "focus:ninth"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 86.059,
+   "t1": 89.31,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "order",
+   "t0": 90.16,
+   "t1": 90.595,
+   "cue": [
+    "focus:order"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "first",
+   "t0": 91.695,
+   "t1": 92.175,
+   "cue": [
+    "focus:first"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "second",
+   "t0": 93.275,
+   "t1": 93.874,
+   "cue": [
+    "focus:second"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "third",
+   "t0": 94.974,
+   "t1": 95.303,
+   "cue": [
+    "focus:third"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "fourth",
+   "t0": 96.403,
+   "t1": 96.697,
+   "cue": [
+    "focus:fourth"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "fifth",
+   "t0": 97.797,
+   "t1": 98.012,
+   "cue": [
+    "focus:fifth"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "sixth",
+   "t0": 99.112,
+   "t1": 99.609,
+   "cue": [
+    "focus:sixth"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "seventh",
+   "t0": 100.709,
+   "t1": 101.22,
+   "cue": [
+    "focus:seventh"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "eighth",
+   "t0": 102.32,
+   "t1": 102.646,
+   "cue": [
+    "focus:eighth"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "ninth",
+   "t0": 103.746,
+   "t1": 104.206,
+   "cue": [
+    "focus:ninth"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "tenth",
+   "t0": 105.306,
+   "t1": 105.717,
+   "cue": [
+    "focus:tenth"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "next",
+   "t0": 106.817,
+   "t1": 107.397,
+   "cue": [
+    "focus:next"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "last",
+   "t0": 108.497,
+   "t1": 109.017,
+   "cue": [
+    "focus:last"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "zh",
+   "text": "太棒了！下次排队的时候，用英语说一说你排第几吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 110.117,
+   "t1": 119.285,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "order": [
+   0.25,
+   0.686
+  ],
+  "first": [
+   0.936,
+   1.416
+  ],
+  "first:alt": [
+   1.666,
+   2.086
+  ],
+  "second": [
+   2.336,
+   2.935
+  ],
+  "second:alt": [
+   3.185,
+   3.599
+  ],
+  "third": [
+   3.849,
+   4.178
+  ],
+  "third:alt": [
+   4.428,
+   4.819
+  ],
+  "fourth": [
+   5.069,
+   5.363
+  ],
+  "fourth:alt": [
+   5.613,
+   6.03
+  ],
+  "fifth": [
+   6.28,
+   6.496
+  ],
+  "fifth:alt": [
+   6.746,
+   7.257
+  ],
+  "sixth": [
+   7.507,
+   8.003
+  ],
+  "sixth:alt": [
+   8.253,
+   8.838
+  ],
+  "seventh": [
+   9.088,
+   9.599
+  ],
+  "seventh:alt": [
+   9.849,
+   10.424
+  ],
+  "eighth": [
+   10.674,
+   11.0
+  ],
+  "eighth:alt": [
+   11.25,
+   11.663
+  ],
+  "ninth": [
+   11.913,
+   12.373
+  ],
+  "ninth:alt": [
+   12.623,
+   13.123
+  ],
+  "tenth": [
+   13.373,
+   13.783
+  ],
+  "tenth:alt": [
+   14.033,
+   14.47
+  ],
+  "next": [
+   14.72,
+   15.301
+  ],
+  "last": [
+   15.551,
+   16.071
+  ]
+ }
+}

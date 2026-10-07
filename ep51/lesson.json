@@ -1,0 +1,729 @@
+{
+ "id": "ep51",
+ "title": "town",
+ "titleZh": "城镇（二）",
+ "episode": "第 51 集",
+ "titleIcon": "library",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "town",
+   "word": "town",
+   "ipa": "/taʊn/",
+   "zh": "城镇",
+   "icon": "town",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "street",
+   "word": "street",
+   "ipa": "/striːt/",
+   "zh": "街道",
+   "icon": "street",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "corner",
+   "word": "corner",
+   "ipa": "/ˈkɔːrnər/",
+   "zh": "拐角",
+   "icon": "corner",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "across",
+   "word": "across",
+   "ipa": "/əˈkrɔːs/",
+   "zh": "穿过；在对面",
+   "icon": "across",
+   "kind": "prep",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "church",
+   "word": "church",
+   "ipa": "/tʃɜːrtʃ/",
+   "zh": "教堂",
+   "icon": "church",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "factory",
+   "word": "factory",
+   "ipa": "/ˈfæktəri/",
+   "zh": "工厂",
+   "icon": "factory",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "prison",
+   "word": "prison",
+   "ipa": "/ˈprɪzn/",
+   "zh": "监狱",
+   "icon": "prison",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "grounds",
+   "word": "grounds",
+   "ipa": "/ɡraʊndz/",
+   "zh": "场地",
+   "icon": "grounds",
+   "alt": "ground",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "library",
+   "word": "library",
+   "ipa": "/ˈlaɪbreri/",
+   "zh": "图书馆",
+   "icon": "library",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "borrow",
+   "word": "borrow",
+   "ipa": "/ˈbɑːroʊ/",
+   "zh": "借入",
+   "icon": "borrow",
+   "kind": "verb",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "lend",
+   "word": "lend",
+   "ipa": "/lend/",
+   "zh": "借出",
+   "icon": "lend",
+   "kind": "verb",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "return",
+   "word": "return",
+   "ipa": "/rɪˈtɜːrn/",
+   "zh": "归还",
+   "icon": "return",
+   "kind": "verb",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "bank",
+   "word": "bank",
+   "ipa": "/bæŋk/",
+   "zh": "银行",
+   "icon": "bank",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "town",
+   "to": "street"
+  },
+  {
+   "from": "street",
+   "to": "corner"
+  },
+  {
+   "from": "street",
+   "to": "across"
+  },
+  {
+   "from": "town",
+   "to": "church"
+  },
+  {
+   "from": "town",
+   "to": "factory"
+  },
+  {
+   "from": "town",
+   "to": "grounds"
+  },
+  {
+   "from": "grounds",
+   "to": "prison",
+   "dashed": true
+  },
+  {
+   "from": "library",
+   "to": "borrow"
+  },
+  {
+   "from": "library",
+   "to": "lend"
+  },
+  {
+   "from": "library",
+   "to": "return"
+  },
+  {
+   "from": "bank",
+   "to": "lend",
+   "dashed": true
+  },
+  {
+   "from": "grounds",
+   "to": "library",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！还记得第四十三集的城镇吗？今天，我们去认识城镇里更多的地方。"
+    },
+    {
+     "en": "town"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:town",
+    "focus:town"
+   ],
+   "parts": [
+    {
+     "zh": "城镇："
+    },
+    {
+     "en": "town"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:street",
+    "edge:town>street",
+    "focus:street"
+   ],
+   "parts": [
+    {
+     "zh": "走上街道："
+    },
+    {
+     "en": "street"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:corner",
+    "edge:street>corner",
+    "focus:corner"
+   ],
+   "parts": [
+    {
+     "zh": "街道转弯的地方，是拐角："
+    },
+    {
+     "en": "corner"
+    },
+    {
+     "en": "at the corner"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:across",
+    "edge:street>across",
+    "focus:across"
+   ],
+   "parts": [
+    {
+     "zh": "从街的这边到那边，是穿过；在街的那边，是在对面："
+    },
+    {
+     "en": "across"
+    },
+    {
+     "en": "across the street"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:church",
+    "edge:town>church",
+    "focus:church"
+   ],
+   "parts": [
+    {
+     "zh": "屋顶尖尖、有十字架的建筑，是教堂："
+    },
+    {
+     "en": "church"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:factory",
+    "edge:town>factory",
+    "focus:factory"
+   ],
+   "parts": [
+    {
+     "zh": "烟囱冒烟、机器轰隆隆的，是工厂："
+    },
+    {
+     "en": "factory"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:grounds",
+    "edge:town>grounds",
+    "focus:grounds"
+   ],
+   "parts": [
+    {
+     "zh": "一大片空地，可以运动、做活动的，是场地："
+    },
+    {
+     "en": "grounds"
+    },
+    {
+     "zh": "它来自地面：",
+     "cue": [
+      "alt:grounds"
+     ]
+    },
+    {
+     "en": "ground"
+    },
+    {
+     "en": "school grounds"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:prison",
+    "edge:grounds>prison",
+    "focus:prison"
+   ],
+   "parts": [
+    {
+     "zh": "坏人被关起来的地方，是监狱："
+    },
+    {
+     "en": "prison"
+    },
+    {
+     "zh": "还记得第四十八集吗？偷东西，就可能被关进这里。"
+    },
+    {
+     "en": "steal"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:library",
+    "edge:grounds>library",
+    "focus:library"
+   ],
+   "parts": [
+    {
+     "zh": "有很多很多书，可以免费借书看的，是图书馆："
+    },
+    {
+     "en": "library"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:borrow",
+    "edge:library>borrow",
+    "focus:borrow"
+   ],
+   "parts": [
+    {
+     "zh": "从图书馆把书借来，是借入："
+    },
+    {
+     "en": "borrow"
+    },
+    {
+     "en": "I borrow a book from the library."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:lend",
+    "edge:library>lend",
+    "focus:lend"
+   ],
+   "parts": [
+    {
+     "zh": "把东西借给别人，是借出："
+    },
+    {
+     "en": "lend"
+    },
+    {
+     "en": "Can you lend me a pen?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:borrow,lend"
+   ],
+   "parts": [
+    {
+     "zh": "借入和借出，方向正好相反，可别弄混了："
+    },
+    {
+     "en": "borrow",
+     "cue": [
+      "focus:borrow"
+     ]
+    },
+    {
+     "en": "lend",
+     "cue": [
+      "focus:lend"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:return",
+    "edge:library>return",
+    "focus:return"
+   ],
+   "parts": [
+    {
+     "zh": "书看完了，要按时还回去："
+    },
+    {
+     "en": "return"
+    },
+    {
+     "en": "Return the book on time."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bank",
+    "edge:bank>lend",
+    "focus:bank"
+   ],
+   "parts": [
+    {
+     "zh": "存钱、取钱的地方，是银行："
+    },
+    {
+     "en": "bank"
+    },
+    {
+     "zh": "银行也会把钱借给需要的人。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "给朋友指一指路吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "The library is at the corner.",
+     "cue": [
+      "focus:library,corner"
+     ]
+    },
+    {
+     "en": "The bank is across the street.",
+     "cue": [
+      "focus:bank,across"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:town"
+   ],
+   "parts": [
+    {
+     "en": "town"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:street"
+   ],
+   "parts": [
+    {
+     "en": "street"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:corner"
+   ],
+   "parts": [
+    {
+     "en": "corner"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:across"
+   ],
+   "parts": [
+    {
+     "en": "across"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:church"
+   ],
+   "parts": [
+    {
+     "en": "church"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:factory"
+   ],
+   "parts": [
+    {
+     "en": "factory"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:grounds"
+   ],
+   "parts": [
+    {
+     "en": "grounds"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:prison"
+   ],
+   "parts": [
+    {
+     "en": "prison"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:library"
+   ],
+   "parts": [
+    {
+     "en": "library"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:borrow"
+   ],
+   "parts": [
+    {
+     "en": "borrow"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:lend"
+   ],
+   "parts": [
+    {
+     "en": "lend"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:return"
+   ],
+   "parts": [
+    {
+     "en": "return"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bank"
+   ],
+   "parts": [
+    {
+     "en": "bank"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！周末去图书馆借一本书吧，记得按时还哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

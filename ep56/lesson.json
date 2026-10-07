@@ -1,0 +1,691 @@
+{
+ "id": "ep56",
+ "title": "holiday",
+ "titleZh": "假日",
+ "episode": "第 56 集",
+ "titleIcon": "festival",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "holiday",
+   "word": "holiday",
+   "ipa": "/ˈhɑːlədeɪ/",
+   "zh": "假日；节日",
+   "icon": "holiday",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "general",
+   "word": "general",
+   "ipa": "/ˈdʒenrəl/",
+   "zh": "普通的；一般的",
+   "icon": "general",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "relaxing",
+   "word": "relaxing",
+   "ipa": "/rɪˈlæksɪŋ/",
+   "zh": "令人放松的",
+   "icon": "relaxing",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "trip",
+   "word": "trip",
+   "ipa": "/trɪp/",
+   "zh": "旅行；出游",
+   "icon": "trip",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "away",
+   "word": "away",
+   "ipa": "/əˈweɪ/",
+   "zh": "离开；远离",
+   "icon": "away",
+   "kind": "adv",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "picnic",
+   "word": "picnic",
+   "ipa": "/ˈpɪknɪk/",
+   "zh": "野餐",
+   "icon": "picnic",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "suppose",
+   "word": "suppose",
+   "ipa": "/səˈpoʊz/",
+   "zh": "猜想；认为",
+   "icon": "suppose",
+   "kind": "verb",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "festival",
+   "word": "festival",
+   "ipa": "/ˈfestɪvl/",
+   "zh": "节日",
+   "icon": "festival",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "during",
+   "word": "during",
+   "ipa": "/ˈdʊrɪŋ/",
+   "zh": "在……期间",
+   "icon": "during",
+   "kind": "prep",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "visit",
+   "word": "visit",
+   "ipa": "/ˈvɪzɪt/",
+   "zh": "拜访",
+   "icon": "visit",
+   "kind": "verb",
+   "alt": "visitor",
+   "altLabel": "加 or →",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "come",
+   "word": "come",
+   "ipa": "/kʌm/",
+   "zh": "来",
+   "icon": "come",
+   "kind": "verb",
+   "alt": "came",
+   "altLabel": "过去式",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "together",
+   "word": "together",
+   "ipa": "/təˈɡeðər/",
+   "zh": "一起",
+   "icon": "together",
+   "kind": "adv",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "holiday",
+   "to": "general",
+   "dashed": true
+  },
+  {
+   "from": "holiday",
+   "to": "relaxing"
+  },
+  {
+   "from": "holiday",
+   "to": "trip"
+  },
+  {
+   "from": "trip",
+   "to": "away"
+  },
+  {
+   "from": "trip",
+   "to": "picnic"
+  },
+  {
+   "from": "picnic",
+   "to": "suppose",
+   "dashed": true
+  },
+  {
+   "from": "holiday",
+   "to": "festival",
+   "dashed": true
+  },
+  {
+   "from": "festival",
+   "to": "during",
+   "dashed": true
+  },
+  {
+   "from": "festival",
+   "to": "visit"
+  },
+  {
+   "from": "visit",
+   "to": "come"
+  },
+  {
+   "from": "visit",
+   "to": "together"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！放假啦！今天，我们来学和假日有关的单词。"
+    },
+    {
+     "en": "holiday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:holiday",
+    "focus:holiday"
+   ],
+   "parts": [
+    {
+     "zh": "不用上学、不用上班的日子，是假日："
+    },
+    {
+     "en": "holiday"
+    },
+    {
+     "en": "Happy holiday!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:general",
+    "edge:holiday>general",
+    "focus:general"
+   ],
+   "parts": [
+    {
+     "zh": "平常的、一般的日子，英语是"
+    },
+    {
+     "en": "general"
+    },
+    {
+     "en": "a general day"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:relaxing",
+    "edge:holiday>relaxing",
+    "focus:relaxing"
+   ],
+   "parts": [
+    {
+     "zh": "假日让人很放松："
+    },
+    {
+     "en": "relaxing"
+    },
+    {
+     "en": "The holiday is relaxing."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:trip",
+    "edge:holiday>trip",
+    "focus:trip"
+   ],
+   "parts": [
+    {
+     "zh": "放假了，出去玩一趟："
+    },
+    {
+     "en": "trip"
+    },
+    {
+     "en": "a trip to the beach"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:away",
+    "edge:trip>away",
+    "focus:away"
+   ],
+   "parts": [
+    {
+     "zh": "离开家，去远方，是"
+    },
+    {
+     "en": "away"
+    },
+    {
+     "en": "We go away for the holiday."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:picnic",
+    "edge:trip>picnic",
+    "focus:picnic"
+   ],
+   "parts": [
+    {
+     "zh": "带上吃的，去公园野餐："
+    },
+    {
+     "en": "picnic"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:suppose",
+    "edge:picnic>suppose",
+    "focus:suppose"
+   ],
+   "parts": [
+    {
+     "zh": "明天会下雨吗？我猜想不会："
+    },
+    {
+     "en": "suppose"
+    },
+    {
+     "en": "I suppose it will be sunny."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:festival",
+    "edge:holiday>festival",
+    "focus:festival"
+   ],
+   "parts": [
+    {
+     "zh": "春节、中秋节，都是节日："
+    },
+    {
+     "en": "festival"
+    },
+    {
+     "en": "the Spring Festival"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:during",
+    "edge:festival>during",
+    "focus:during"
+   ],
+   "parts": [
+    {
+     "zh": "在节日期间，英语是"
+    },
+    {
+     "en": "during"
+    },
+    {
+     "en": "during the festival"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:visit",
+    "edge:festival>visit",
+    "focus:visit"
+   ],
+   "parts": [
+    {
+     "zh": "节日里，我们去拜访亲戚："
+    },
+    {
+     "en": "visit"
+    },
+    {
+     "en": "I visit my family during the festival.",
+     "cue": [
+      "focus:visit,during"
+     ]
+    },
+    {
+     "zh": "加上 o r，就是来拜访的人，客人：",
+     "cue": [
+      "alt:visit"
+     ]
+    },
+    {
+     "en": "visitor"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:come",
+    "edge:visit>come",
+    "focus:come"
+   ],
+   "parts": [
+    {
+     "zh": "客人来了！来，英语是"
+    },
+    {
+     "en": "come"
+    },
+    {
+     "zh": "已经来了，要说",
+     "cue": [
+      "alt:come"
+     ]
+    },
+    {
+     "en": "came"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:together",
+    "edge:visit>together",
+    "focus:together"
+   ],
+   "parts": [
+    {
+     "zh": "一家人聚在一起，是"
+    },
+    {
+     "en": "together"
+    },
+    {
+     "en": "We have dinner together."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "说一说你的假期吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "During the holiday, I go on a trip.",
+     "cue": [
+      "focus:during,trip"
+     ]
+    },
+    {
+     "en": "We have a picnic together.",
+     "cue": [
+      "focus:picnic,together"
+     ]
+    },
+    {
+     "en": "It's very relaxing!",
+     "cue": [
+      "focus:relaxing"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:holiday"
+   ],
+   "parts": [
+    {
+     "en": "holiday"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:general"
+   ],
+   "parts": [
+    {
+     "en": "general"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:relaxing"
+   ],
+   "parts": [
+    {
+     "en": "relaxing"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:trip"
+   ],
+   "parts": [
+    {
+     "en": "trip"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:away"
+   ],
+   "parts": [
+    {
+     "en": "away"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:picnic"
+   ],
+   "parts": [
+    {
+     "en": "picnic"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:suppose"
+   ],
+   "parts": [
+    {
+     "en": "suppose"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:festival"
+   ],
+   "parts": [
+    {
+     "en": "festival"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:during"
+   ],
+   "parts": [
+    {
+     "en": "during"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:visit"
+   ],
+   "parts": [
+    {
+     "en": "visit, visitor"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:come"
+   ],
+   "parts": [
+    {
+     "en": "come, came"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:together"
+   ],
+   "parts": [
+    {
+     "en": "together"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！放假的时候，和家人一起做点开心的事吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}
