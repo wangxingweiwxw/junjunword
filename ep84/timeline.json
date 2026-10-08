@@ -1,0 +1,493 @@
+{
+ "duration": 118.2,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！变——魔术表演开始啦！今天，我们来学和魔术有关的单词。",
+   "t0": 0.4,
+   "t1": 7.792,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "magic",
+   "t0": 8.042,
+   "t1": 8.666,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "神奇的魔法、魔术，英语是",
+   "t0": 9.766,
+   "t1": 12.484,
+   "cue": [
+    "map",
+    "show:magic",
+    "focus:magic"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "magic",
+   "t0": 12.734,
+   "t1": 13.358,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "变魔术，先看说明书上的指示：",
+   "t0": 14.458,
+   "t1": 17.212,
+   "cue": [
+    "show:instruction",
+    "edge:magic>instruction",
+    "focus:instruction"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "instruction",
+   "t0": 17.462,
+   "t1": 18.374,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "这个魔术很简单：",
+   "t0": 19.474,
+   "t1": 20.834,
+   "cue": [
+    "show:simple",
+    "edge:magic>simple",
+    "focus:simple"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "simple",
+   "t0": 21.084,
+   "t1": 21.635,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "还记得第七十八集的 easy 吗？意思差不多。",
+   "t0": 22.135,
+   "t1": 25.958,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "可能的，英语是",
+   "t0": 26.808,
+   "t1": 28.409,
+   "cue": [
+    "show:possible",
+    "edge:instruction>possible",
+    "focus:possible"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "possible",
+   "t0": 28.659,
+   "t1": 29.322,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "加上 i m，就是不可能的。还记得第七十四集的 impatient 吗？",
+   "t0": 30.422,
+   "t1": 35.865,
+   "cue": [
+    "show:impossible",
+    "edge:possible>impossible",
+    "focus:impossible"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "impossible",
+   "t0": 36.115,
+   "t1": 36.951,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Nothing is impossible!",
+   "t0": 37.451,
+   "t1": 38.833,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "魔术成功了，观众很满意。还记得第四十集的 satisfy 吗？",
+   "t0": 39.933,
+   "t1": 45.494,
+   "cue": [
+    "show:satisfaction",
+    "edge:simple>satisfaction",
+    "focus:satisfaction"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "satisfy",
+   "t0": 45.744,
+   "t1": 46.612,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "satisfaction",
+   "t0": 47.112,
+   "t1": 48.19,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "挥一挥魔杖，小兔子出现了：",
+   "t0": 49.29,
+   "t1": 51.614,
+   "cue": [
+    "show:appear",
+    "edge:satisfaction>appear",
+    "focus:appear"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "appear",
+   "t0": 51.864,
+   "t1": 52.401,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "再挥一下，它又消失了！前面加上 d i s：",
+   "t0": 53.501,
+   "t1": 57.716,
+   "cue": [
+    "show:disappear",
+    "edge:appear>disappear",
+    "focus:disappear"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "disappear",
+   "t0": 57.966,
+   "t1": 58.702,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "魔术师拿出一根绳子：",
+   "t0": 59.802,
+   "t1": 61.609,
+   "cue": [
+    "show:rope",
+    "focus:rope"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "rope",
+   "t0": 61.859,
+   "t1": 62.242,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "顺着绳子往上爬：",
+   "t0": 63.342,
+   "t1": 64.812,
+   "cue": [
+    "show:climb",
+    "edge:rope>climb",
+    "focus:climb"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "climb",
+   "t0": 65.062,
+   "t1": 65.569,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "最后的 b 不发音哦。",
+   "t0": 66.069,
+   "t1": 67.536,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "我不爬绳子，我走楼梯。代替，英语是",
+   "t0": 68.386,
+   "t1": 72.557,
+   "cue": [
+    "show:instead",
+    "edge:climb>instead",
+    "focus:instead"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "instead",
+   "t0": 72.807,
+   "t1": 73.507,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "I will use the stairs instead of climbing the rope.",
+   "t0": 74.007,
+   "t1": 76.611,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "两个让意思反过来的头：",
+   "t0": 77.711,
+   "t1": 79.537,
+   "cue": [
+    "focus:impossible,disappear"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "possible, impossible",
+   "t0": 79.787,
+   "t1": 81.473,
+   "cue": [
+    "focus:possible,impossible"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "appear, disappear",
+   "t0": 81.973,
+   "t1": 83.46,
+   "cue": [
+    "focus:appear,disappear"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 84.56,
+   "t1": 87.81,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "magic",
+   "t0": 88.66,
+   "t1": 89.284,
+   "cue": [
+    "focus:magic"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "instruction",
+   "t0": 90.384,
+   "t1": 91.296,
+   "cue": [
+    "focus:instruction"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "simple",
+   "t0": 92.396,
+   "t1": 92.948,
+   "cue": [
+    "focus:simple"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "possible",
+   "t0": 94.048,
+   "t1": 94.71,
+   "cue": [
+    "focus:possible"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "impossible",
+   "t0": 95.81,
+   "t1": 96.646,
+   "cue": [
+    "focus:impossible"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "satisfaction",
+   "t0": 97.746,
+   "t1": 98.824,
+   "cue": [
+    "focus:satisfaction"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "appear",
+   "t0": 99.924,
+   "t1": 100.461,
+   "cue": [
+    "focus:appear"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "disappear",
+   "t0": 101.561,
+   "t1": 102.297,
+   "cue": [
+    "focus:disappear"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "rope",
+   "t0": 103.397,
+   "t1": 103.78,
+   "cue": [
+    "focus:rope"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "climb",
+   "t0": 104.88,
+   "t1": 105.387,
+   "cue": [
+    "focus:climb"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "instead",
+   "t0": 106.487,
+   "t1": 107.187,
+   "cue": [
+    "focus:instead"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "zh",
+   "text": "太棒了！学一个小魔术，表演给家人看吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 108.287,
+   "t1": 116.35,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "magic": [
+   0.25,
+   0.874
+  ],
+  "instruction": [
+   1.124,
+   2.036
+  ],
+  "simple": [
+   2.286,
+   2.838
+  ],
+  "satisfaction": [
+   3.088,
+   4.166
+  ],
+  "satisfaction:alt": [
+   4.416,
+   5.283
+  ],
+  "possible": [
+   5.533,
+   6.196
+  ],
+  "impossible": [
+   6.446,
+   7.282
+  ],
+  "appear": [
+   7.532,
+   8.069
+  ],
+  "disappear": [
+   8.319,
+   9.055
+  ],
+  "rope": [
+   9.305,
+   9.688
+  ],
+  "climb": [
+   9.938,
+   10.444
+  ],
+  "instead": [
+   10.694,
+   11.394
+  ]
+ }
+}

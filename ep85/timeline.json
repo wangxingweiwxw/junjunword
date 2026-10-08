@@ -1,0 +1,620 @@
+{
+ "duration": 126.379,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！我们住的地方，叫社区。今天，我们去社区里逛一逛！",
+   "t0": 0.4,
+   "t1": 6.971,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "community",
+   "t0": 7.221,
+   "t1": 7.968,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "大家住在一起的地方，是社区：",
+   "t0": 9.068,
+   "t1": 11.626,
+   "cue": [
+    "map",
+    "show:community",
+    "focus:community"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "community",
+   "t0": 11.876,
+   "t1": 12.624,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "几条街围起来的一片，是街区：",
+   "t0": 13.724,
+   "t1": 16.271,
+   "cue": [
+    "show:block",
+    "edge:community>block",
+    "focus:block"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "block",
+   "t0": 16.521,
+   "t1": 16.989,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "邻居们住的这一片。邻居，加上 h o o d：",
+   "t0": 18.089,
+   "t1": 22.346,
+   "cue": [
+    "show:neighborhood",
+    "edge:block>neighborhood",
+    "focus:neighborhood"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "neighbor",
+   "t0": 22.596,
+   "t1": 23.076,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "neighborhood",
+   "t0": 23.576,
+   "t1": 24.234,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "g h 不发音哦。",
+   "t0": 24.734,
+   "t1": 26.086,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "小朋友玩耍的操场。玩，加上地面：",
+   "t0": 26.936,
+   "t1": 30.637,
+   "cue": [
+    "show:playground",
+    "edge:community>playground",
+    "focus:playground"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "play",
+   "t0": 30.887,
+   "t1": 31.369,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "ground",
+   "t0": 31.869,
+   "t1": 32.325,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "playground",
+   "t0": 32.825,
+   "t1": 33.489,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "锻炼身体的健身房：",
+   "t0": 34.589,
+   "t1": 36.248,
+   "cue": [
+    "show:gym",
+    "edge:community>gym",
+    "focus:gym"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "gym",
+   "t0": 36.498,
+   "t1": 36.925,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "帮大家捡垃圾、不要报酬的人，是志愿者：",
+   "t0": 38.025,
+   "t1": 41.546,
+   "cue": [
+    "show:volunteer",
+    "edge:community>volunteer",
+    "focus:volunteer"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "volunteer",
+   "t0": 41.796,
+   "t1": 42.579,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "很多很多社区合在一起，就是社会：",
+   "t0": 43.679,
+   "t1": 46.834,
+   "cue": [
+    "show:society",
+    "edge:community>society",
+    "focus:society"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "society",
+   "t0": 47.084,
+   "t1": 47.917,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "社会的，英语是",
+   "t0": 49.017,
+   "t1": 50.659,
+   "cue": [
+    "show:social",
+    "edge:society>social",
+    "focus:social"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "social",
+   "t0": 50.909,
+   "t1": 51.511,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "街区旁边有一个公园：",
+   "t0": 52.611,
+   "t1": 54.338,
+   "cue": [
+    "show:park",
+    "edge:block>park",
+    "focus:park"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "park",
+   "t0": 54.588,
+   "t1": 55.054,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "公园里有一个花园：",
+   "t0": 56.154,
+   "t1": 57.592,
+   "cue": [
+    "show:garden",
+    "edge:park>garden",
+    "focus:garden"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "garden",
+   "t0": 57.842,
+   "t1": 58.327,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "花园里有大石头：",
+   "t0": 59.427,
+   "t1": 60.802,
+   "cue": [
+    "show:rock",
+    "edge:garden>rock",
+    "focus:rock"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "rock",
+   "t0": 61.052,
+   "t1": 61.53,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "蝴蝶在花丛中飞舞。黄油，加上飞：",
+   "t0": 62.63,
+   "t1": 66.543,
+   "cue": [
+    "show:butterfly",
+    "edge:garden>butterfly",
+    "focus:butterfly"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "butter",
+   "t0": 66.793,
+   "t1": 67.189,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "fly",
+   "t0": 67.689,
+   "t1": 68.205,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "butterfly",
+   "t0": 68.705,
+   "t1": 69.463,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "草丛里还有很多昆虫：",
+   "t0": 70.563,
+   "t1": 72.508,
+   "cue": [
+    "show:insect",
+    "edge:garden>insect",
+    "focus:insect"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "insect",
+   "t0": 72.758,
+   "t1": 73.394,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "搬家的小蚂蚁：",
+   "t0": 74.494,
+   "t1": 75.639,
+   "cue": [
+    "show:ant",
+    "edge:insect>ant",
+    "focus:ant"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "ant",
+   "t0": 75.889,
+   "t1": 76.306,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "开头是元音，所以说",
+   "t0": 76.806,
+   "t1": 78.742,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "an ant",
+   "t0": 78.992,
+   "t1": 79.596,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "今天的拼词：",
+   "t0": 80.696,
+   "t1": 81.816,
+   "cue": [
+    "focus:playground,butterfly,neighborhood"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "play, ground, playground",
+   "t0": 82.066,
+   "t1": 84.065,
+   "cue": [
+    "focus:playground"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "butter, fly, butterfly",
+   "t0": 84.565,
+   "t1": 86.667,
+   "cue": [
+    "focus:butterfly"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 87.767,
+   "t1": 91.018,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "community",
+   "t0": 91.868,
+   "t1": 92.615,
+   "cue": [
+    "focus:community"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "block",
+   "t0": 93.715,
+   "t1": 94.184,
+   "cue": [
+    "focus:block"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "neighborhood",
+   "t0": 95.284,
+   "t1": 95.942,
+   "cue": [
+    "focus:neighborhood"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "playground",
+   "t0": 97.042,
+   "t1": 97.706,
+   "cue": [
+    "focus:playground"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "gym",
+   "t0": 98.806,
+   "t1": 99.233,
+   "cue": [
+    "focus:gym"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "volunteer",
+   "t0": 100.333,
+   "t1": 101.116,
+   "cue": [
+    "focus:volunteer"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "society",
+   "t0": 102.216,
+   "t1": 103.048,
+   "cue": [
+    "focus:society"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "social",
+   "t0": 104.148,
+   "t1": 104.751,
+   "cue": [
+    "focus:social"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "park",
+   "t0": 105.851,
+   "t1": 106.316,
+   "cue": [
+    "focus:park"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "garden",
+   "t0": 107.416,
+   "t1": 107.901,
+   "cue": [
+    "focus:garden"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "rock",
+   "t0": 109.001,
+   "t1": 109.479,
+   "cue": [
+    "focus:rock"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "butterfly",
+   "t0": 110.579,
+   "t1": 111.337,
+   "cue": [
+    "focus:butterfly"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "insect",
+   "t0": 112.437,
+   "t1": 113.073,
+   "cue": [
+    "focus:insect"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "ant",
+   "t0": 114.173,
+   "t1": 114.59,
+   "cue": [
+    "focus:ant"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "zh",
+   "text": "太棒了！做一个社区小志愿者，帮大家做点好事吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 115.69,
+   "t1": 124.529,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "community": [
+   0.25,
+   0.997
+  ],
+  "neighborhood": [
+   1.247,
+   1.906
+  ],
+  "neighborhood:alt": [
+   2.156,
+   2.636
+  ],
+  "block": [
+   2.886,
+   3.355
+  ],
+  "park": [
+   3.605,
+   4.07
+  ],
+  "gym": [
+   4.32,
+   4.747
+  ],
+  "playground": [
+   4.997,
+   5.662
+  ],
+  "volunteer": [
+   5.912,
+   6.694
+  ],
+  "society": [
+   6.944,
+   7.777
+  ],
+  "social": [
+   8.027,
+   8.629
+  ],
+  "garden": [
+   8.879,
+   9.364
+  ],
+  "rock": [
+   9.614,
+   10.091
+  ],
+  "insect": [
+   10.341,
+   10.977
+  ],
+  "butterfly": [
+   11.227,
+   11.985
+  ],
+  "ant": [
+   12.235,
+   12.652
+  ]
+ }
+}

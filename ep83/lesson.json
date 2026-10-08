@@ -1,0 +1,750 @@
+{
+ "id": "ep83",
+ "title": "education",
+ "titleZh": "教育",
+ "episode": "第 83 集",
+ "titleIcon": "university",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "education",
+   "word": "education",
+   "ipa": "/ˌedʒuˈkeɪʃn/",
+   "zh": "教育",
+   "icon": "education",
+   "alt": "educate",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "college",
+   "word": "college",
+   "ipa": "/ˈkɑːlɪdʒ/",
+   "zh": "学院",
+   "icon": "college",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "university",
+   "word": "university",
+   "ipa": "/ˌjuːnɪˈvɜːrsəti/",
+   "zh": "大学",
+   "icon": "university",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "graduate",
+   "word": "graduate",
+   "ipa": "/ˈɡrædʒueɪt/",
+   "zh": "毕业",
+   "icon": "graduate",
+   "kind": "verb",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "graduation",
+   "word": "graduation",
+   "ipa": "/ˌɡrædʒuˈeɪʃn/",
+   "zh": "毕业典礼",
+   "icon": "graduation",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "speaker",
+   "word": "speaker",
+   "ipa": "/ˈspiːkər/",
+   "zh": "演讲者",
+   "icon": "speaker",
+   "alt": "speak",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "congratulate",
+   "word": "congratulate",
+   "ipa": "/kənˈɡrætʃuleɪt/",
+   "zh": "祝贺",
+   "icon": "congratulate",
+   "kind": "verb",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "knowledge",
+   "word": "knowledge",
+   "ipa": "/ˈnɑːlɪdʒ/",
+   "zh": "知识",
+   "icon": "knowledge",
+   "alt": "know",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "offer",
+   "word": "offer",
+   "ipa": "/ˈɔːfər/",
+   "zh": "提供；给予",
+   "icon": "offer",
+   "kind": "verb",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "provide",
+   "word": "provide",
+   "ipa": "/prəˈvaɪd/",
+   "zh": "提供",
+   "icon": "provide",
+   "kind": "verb",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "private",
+   "word": "private",
+   "ipa": "/ˈpraɪvət/",
+   "zh": "私立的",
+   "icon": "private",
+   "kind": "adj",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "public",
+   "word": "public",
+   "ipa": "/ˈpʌblɪk/",
+   "zh": "公立的",
+   "icon": "public",
+   "kind": "adj",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "text",
+   "word": "text",
+   "ipa": "/tekst/",
+   "zh": "课文",
+   "icon": "text",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "passage",
+   "word": "passage",
+   "ipa": "/ˈpæsɪdʒ/",
+   "zh": "文章",
+   "icon": "passage",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "paragraph",
+   "word": "paragraph",
+   "ipa": "/ˈpærəɡræf/",
+   "zh": "段落",
+   "icon": "paragraph",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "education",
+   "to": "college"
+  },
+  {
+   "from": "education",
+   "to": "university"
+  },
+  {
+   "from": "college",
+   "to": "private",
+   "dashed": true
+  },
+  {
+   "from": "university",
+   "to": "public",
+   "dashed": true
+  },
+  {
+   "from": "graduate",
+   "to": "graduation",
+   "label": "+ion"
+  },
+  {
+   "from": "graduation",
+   "to": "speaker"
+  },
+  {
+   "from": "speaker",
+   "to": "congratulate",
+   "dashed": true
+  },
+  {
+   "from": "offer",
+   "to": "provide",
+   "label": "差不多"
+  },
+  {
+   "from": "text",
+   "to": "passage"
+  },
+  {
+   "from": "passage",
+   "to": "paragraph"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！小学、中学，然后是大学。今天，我们来学和教育有关的单词。"
+    },
+    {
+     "en": "education"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:education",
+    "focus:education"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第四十二集的教育 educate 吗？加上 i o n，就是教育这件事："
+    },
+    {
+     "en": "educate"
+    },
+    {
+     "en": "education"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:college",
+    "edge:education>college",
+    "focus:college"
+   ],
+   "parts": [
+    {
+     "zh": "学院，英语是"
+    },
+    {
+     "en": "college"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:university",
+    "edge:education>university",
+    "focus:university"
+   ],
+   "parts": [
+    {
+     "zh": "综合性的大学，是"
+    },
+    {
+     "en": "university"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:private",
+    "edge:college>private",
+    "focus:private"
+   ],
+   "parts": [
+    {
+     "zh": "私人办的，是私立的："
+    },
+    {
+     "en": "private"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:public",
+    "edge:university>public",
+    "focus:public"
+   ],
+   "parts": [
+    {
+     "zh": "国家办的、大家的，是公立的、公共的："
+    },
+    {
+     "en": "public"
+    },
+    {
+     "en": "a public university"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:knowledge",
+    "focus:knowledge"
+   ],
+   "parts": [
+    {
+     "zh": "在学校里，我们学到知识。还记得 know 吗？"
+    },
+    {
+     "en": "know"
+    },
+    {
+     "en": "knowledge"
+    },
+    {
+     "zh": "k 不发音，o w 读短短的。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:offer",
+    "focus:offer"
+   ],
+   "parts": [
+    {
+     "zh": "学校为我们提供好的老师："
+    },
+    {
+     "en": "offer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:provide",
+    "edge:offer>provide",
+    "focus:provide"
+   ],
+   "parts": [
+    {
+     "zh": "提供，还可以说"
+    },
+    {
+     "en": "provide"
+    },
+    {
+     "en": "The school provides lunch."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:text",
+    "focus:text"
+   ],
+   "parts": [
+    {
+     "zh": "课本里的课文："
+    },
+    {
+     "en": "text"
+    },
+    {
+     "zh": "还记得第六十三集的课本 textbook 吗？"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:passage",
+    "edge:text>passage",
+    "focus:passage"
+   ],
+   "parts": [
+    {
+     "zh": "一篇文章："
+    },
+    {
+     "en": "passage"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:paragraph",
+    "edge:passage>paragraph",
+    "focus:paragraph"
+   ],
+   "parts": [
+    {
+     "zh": "文章里的一个段落："
+    },
+    {
+     "en": "paragraph"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:graduate",
+    "focus:graduate"
+   ],
+   "parts": [
+    {
+     "zh": "读完大学，就毕业了："
+    },
+    {
+     "en": "graduate"
+    },
+    {
+     "en": "I will graduate from a public university.",
+     "cue": [
+      "focus:graduate,public,university"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:graduation",
+    "edge:graduate>graduation",
+    "focus:graduation"
+   ],
+   "parts": [
+    {
+     "zh": "毕业那天，有毕业典礼："
+    },
+    {
+     "en": "graduation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:speaker",
+    "edge:graduation>speaker",
+    "focus:speaker"
+   ],
+   "parts": [
+    {
+     "zh": "台上讲话的人，是演讲者："
+    },
+    {
+     "en": "speak"
+    },
+    {
+     "en": "speaker"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:congratulate",
+    "edge:speaker>congratulate",
+    "focus:congratulate"
+   ],
+   "parts": [
+    {
+     "zh": "大家互相祝贺："
+    },
+    {
+     "en": "congratulate"
+    },
+    {
+     "en": "Congratulations!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:education"
+   ],
+   "parts": [
+    {
+     "en": "education"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:college"
+   ],
+   "parts": [
+    {
+     "en": "college"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:university"
+   ],
+   "parts": [
+    {
+     "en": "university"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:private"
+   ],
+   "parts": [
+    {
+     "en": "private"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:public"
+   ],
+   "parts": [
+    {
+     "en": "public"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:knowledge"
+   ],
+   "parts": [
+    {
+     "en": "knowledge"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:offer"
+   ],
+   "parts": [
+    {
+     "en": "offer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:provide"
+   ],
+   "parts": [
+    {
+     "en": "provide"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:text"
+   ],
+   "parts": [
+    {
+     "en": "text"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:passage"
+   ],
+   "parts": [
+    {
+     "en": "passage"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:paragraph"
+   ],
+   "parts": [
+    {
+     "en": "paragraph"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:graduate"
+   ],
+   "parts": [
+    {
+     "en": "graduate"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:graduation"
+   ],
+   "parts": [
+    {
+     "en": "graduation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:speaker"
+   ],
+   "parts": [
+    {
+     "en": "speaker"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:congratulate"
+   ],
+   "parts": [
+    {
+     "en": "congratulate"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！你长大想上哪所大学？用英语说一说吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,580 @@
+{
+ "duration": 122.03,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！时间过得真快。今天，我们来学和时间有关的更多单词。",
+   "t0": 0.4,
+   "t1": 7.616,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "time",
+   "t0": 7.866,
+   "t1": 8.332,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "一年，英语是",
+   "t0": 9.432,
+   "t1": 10.856,
+   "cue": [
+    "map",
+    "show:year",
+    "focus:year"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "year",
+   "t0": 11.106,
+   "t1": 11.559,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "This year, I am eight.",
+   "t0": 12.059,
+   "t1": 13.526,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "最近的，英语是",
+   "t0": 14.626,
+   "t1": 16.238,
+   "cue": [
+    "show:recent",
+    "edge:year>recent",
+    "focus:recent"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "recent",
+   "t0": 16.488,
+   "t1": 17.097,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "……以前，放在时间的后面：",
+   "t0": 18.197,
+   "t1": 20.281,
+   "cue": [
+    "show:ago",
+    "edge:year>ago",
+    "focus:ago"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "ago",
+   "t0": 20.531,
+   "t1": 21.005,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "two years ago",
+   "t0": 21.505,
+   "t1": 22.482,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "一百年，是一个世纪：",
+   "t0": 23.582,
+   "t1": 25.403,
+   "cue": [
+    "show:century",
+    "edge:year>century",
+    "focus:century"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "century",
+   "t0": 25.653,
+   "t1": 26.376,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "开头的 cent，和一百有关，就像一百分 per cent。",
+   "t0": 26.876,
+   "t1": 30.841,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "很多很多个世纪以前，是古代的：",
+   "t0": 31.691,
+   "t1": 34.415,
+   "cue": [
+    "show:ancient",
+    "edge:century>ancient",
+    "focus:ancient"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "ancient",
+   "t0": 34.665,
+   "t1": 35.284,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "ancient China",
+   "t0": 35.784,
+   "t1": 36.694,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "讲古老的故事时，常常这样开头：",
+   "t0": 37.794,
+   "t1": 40.582,
+   "cue": [
+    "show:upon",
+    "edge:ancient>upon",
+    "focus:upon"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "Once upon a time…",
+   "t0": 40.832,
+   "t1": 42.037,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "upon 的意思和 on 差不多。",
+   "t0": 42.537,
+   "t1": 44.67,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "一段时间，是时期：",
+   "t0": 45.52,
+   "t1": 47.363,
+   "cue": [
+    "show:period",
+    "edge:ancient>period",
+    "focus:period"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "period",
+   "t0": 47.613,
+   "t1": 48.155,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "一个很长很长的时期，叫时代：",
+   "t0": 49.255,
+   "t1": 51.914,
+   "cue": [
+    "show:age",
+    "edge:period>age",
+    "focus:age"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "age",
+   "t0": 52.164,
+   "t1": 52.662,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "还记得第十二集的年龄吗？同一个词！",
+   "t0": 53.162,
+   "t1": 56.55,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "在……的时候，英语是",
+   "t0": 57.4,
+   "t1": 59.481,
+   "cue": [
+    "show:while",
+    "edge:period>while",
+    "focus:while"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "while",
+   "t0": 59.731,
+   "t1": 60.179,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "I listen to music while I read.",
+   "t0": 60.679,
+   "t1": 62.561,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "开始，是",
+   "t0": 63.661,
+   "t1": 64.807,
+   "cue": [
+    "show:begin",
+    "focus:begin"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "begin",
+   "t0": 65.057,
+   "t1": 65.606,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "故事的开头。要多写一个 n，再加 i n g：",
+   "t0": 66.706,
+   "t1": 70.86,
+   "cue": [
+    "show:beginning",
+    "edge:begin>beginning",
+    "focus:beginning"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "beginning",
+   "t0": 71.11,
+   "t1": 71.719,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "结束，是",
+   "t0": 72.819,
+   "t1": 73.924,
+   "cue": [
+    "show:end",
+    "focus:end"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "end",
+   "t0": 74.174,
+   "t1": 74.529,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "故事的结尾：",
+   "t0": 75.629,
+   "t1": 76.653,
+   "cue": [
+    "show:ending",
+    "edge:end>ending",
+    "focus:ending"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "ending",
+   "t0": 76.903,
+   "t1": 77.405,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "a happy ending",
+   "t0": 77.905,
+   "t1": 78.899,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "开始和结束：",
+   "t0": 79.999,
+   "t1": 81.058,
+   "cue": [
+    "focus:begin,end"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "begin, beginning",
+   "t0": 81.308,
+   "t1": 82.618,
+   "cue": [
+    "focus:begin,beginning"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "end, ending",
+   "t0": 83.118,
+   "t1": 84.157,
+   "cue": [
+    "focus:end,ending"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 85.257,
+   "t1": 88.507,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "year",
+   "t0": 89.357,
+   "t1": 89.81,
+   "cue": [
+    "focus:year"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "recent",
+   "t0": 90.91,
+   "t1": 91.519,
+   "cue": [
+    "focus:recent"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "ago",
+   "t0": 92.619,
+   "t1": 93.093,
+   "cue": [
+    "focus:ago"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "century",
+   "t0": 94.193,
+   "t1": 94.916,
+   "cue": [
+    "focus:century"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "ancient",
+   "t0": 96.016,
+   "t1": 96.635,
+   "cue": [
+    "focus:ancient"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "upon",
+   "t0": 97.735,
+   "t1": 98.313,
+   "cue": [
+    "focus:upon"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "period",
+   "t0": 99.413,
+   "t1": 99.956,
+   "cue": [
+    "focus:period"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "age",
+   "t0": 101.056,
+   "t1": 101.554,
+   "cue": [
+    "focus:age"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "while",
+   "t0": 102.654,
+   "t1": 103.102,
+   "cue": [
+    "focus:while"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "begin",
+   "t0": 104.202,
+   "t1": 104.751,
+   "cue": [
+    "focus:begin"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "beginning",
+   "t0": 105.851,
+   "t1": 106.461,
+   "cue": [
+    "focus:beginning"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "end",
+   "t0": 107.561,
+   "t1": 107.916,
+   "cue": [
+    "focus:end"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "ending",
+   "t0": 109.016,
+   "t1": 109.518,
+   "cue": [
+    "focus:ending"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "zh",
+   "text": "太棒了！用 Once upon a time 开头，给爸爸妈妈讲一个小故事吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 110.618,
+   "t1": 120.18,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "year": [
+   0.25,
+   0.703
+  ],
+  "recent": [
+   0.953,
+   1.562
+  ],
+  "ago": [
+   1.812,
+   2.286
+  ],
+  "century": [
+   2.536,
+   3.259
+  ],
+  "ancient": [
+   3.509,
+   4.128
+  ],
+  "upon": [
+   4.378,
+   4.957
+  ],
+  "while": [
+   5.207,
+   5.655
+  ],
+  "period": [
+   5.905,
+   6.447
+  ],
+  "age": [
+   6.697,
+   7.196
+  ],
+  "begin": [
+   7.446,
+   7.994
+  ],
+  "beginning": [
+   8.244,
+   8.854
+  ],
+  "end": [
+   9.104,
+   9.459
+  ],
+  "ending": [
+   9.709,
+   10.211
+  ]
+ }
+}

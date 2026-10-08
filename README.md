@@ -142,3 +142,12 @@ ep04+ 的 `lesson.json` 由同目录的 `lesson.py` 生成（`python3 ep04/lesso
 | ep78 skills | skill try mistake again practice often able easy difficulty difficult proud pride | 1:58 |
 | ep79 manners | kick knock break proper avoid hide leave stay apologize replace forgive | 1:52 |
 | ep80 adjectives | situation condition real fake exciting boring amazing fantastic excellent useful useless harmful harmless | 2:17 |
+| ep81 time (2) | year recent ago century ancient upon period age while begin beginning end ending | 2:02 |
+| ep82 furniture | apartment(flat) wall mirror shelf(shelves) reach furniture bookcase sofa bed quilt drawer table chair | 1:57 |
+| ep83 education | education college university private public knowledge offer provide text passage paragraph graduate graduation speaker congratulate | 2:15 |
+| ep84 magic | magic instruction simple possible impossible satisfaction appear disappear rope climb instead | 1:58 |
+| ep85 community | community block neighborhood playground gym volunteer society social park garden rock butterfly insect ant | 2:06 |
+| ep86 nature | nature discover wonder countryside peaceful river lake ocean coast desert mountain hill forest | 2:10 |
+| ep87 sweets | sweet sugar honey biscuit candy ice cream cake chocolate cream a little | 1:46 |
+| ep88 kitchen | cook prepare oven turn off pot boil lid cover bottle cap fill chopsticks bowl knife(knives) fork | 2:06 |
+| ep89 pain | hospital problem pale lie down bone broken pain hurt ache headache toothache stomachache backache | 2:06 |

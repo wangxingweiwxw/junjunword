@@ -1,0 +1,708 @@
+{
+ "id": "ep82",
+ "title": "furniture",
+ "titleZh": "家具",
+ "episode": "第 82 集",
+ "titleIcon": "furniture",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "apartment",
+   "word": "apartment",
+   "ipa": "/əˈpɑːrtmənt/",
+   "zh": "公寓",
+   "icon": "apartment",
+   "alt": "flat",
+   "altLabel": "英式",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "wall",
+   "word": "wall",
+   "ipa": "/wɔːl/",
+   "zh": "墙",
+   "icon": "wall",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "mirror",
+   "word": "mirror",
+   "ipa": "/ˈmɪrər/",
+   "zh": "镜子",
+   "icon": "mirror",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "shelf",
+   "word": "shelf",
+   "ipa": "/ʃelf/",
+   "zh": "架子",
+   "icon": "shelf",
+   "plural": "shelves",
+   "pluralIpa": "/ʃelvz/",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "bookcase",
+   "word": "bookcase",
+   "ipa": "/ˈbʊkkeɪs/",
+   "zh": "书柜",
+   "icon": "bookcase",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "reach",
+   "word": "reach",
+   "ipa": "/riːtʃ/",
+   "zh": "够到",
+   "icon": "reach",
+   "kind": "verb",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "furniture",
+   "word": "furniture",
+   "ipa": "/ˈfɜːrnɪtʃər/",
+   "zh": "家具",
+   "icon": "furniture",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "bed",
+   "word": "bed",
+   "ipa": "/bed/",
+   "zh": "床",
+   "icon": "bed",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "quilt",
+   "word": "quilt",
+   "ipa": "/kwɪlt/",
+   "zh": "被子",
+   "icon": "quilt",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "sofa",
+   "word": "sofa",
+   "ipa": "/ˈsoʊfə/",
+   "zh": "沙发",
+   "icon": "sofa",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "table",
+   "word": "table",
+   "ipa": "/ˈteɪbl/",
+   "zh": "桌子",
+   "icon": "table",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "chair",
+   "word": "chair",
+   "ipa": "/tʃer/",
+   "zh": "椅子",
+   "icon": "chair",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  },
+  {
+   "id": "drawer",
+   "word": "drawer",
+   "ipa": "/drɔːr/",
+   "zh": "抽屉",
+   "icon": "drawer",
+   "alt": "draw",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "apartment",
+   "to": "wall"
+  },
+  {
+   "from": "wall",
+   "to": "mirror"
+  },
+  {
+   "from": "wall",
+   "to": "shelf"
+  },
+  {
+   "from": "reach",
+   "to": "shelf"
+  },
+  {
+   "from": "apartment",
+   "to": "furniture"
+  },
+  {
+   "from": "furniture",
+   "to": "bookcase"
+  },
+  {
+   "from": "furniture",
+   "to": "sofa"
+  },
+  {
+   "from": "furniture",
+   "to": "bed"
+  },
+  {
+   "from": "bed",
+   "to": "quilt"
+  },
+  {
+   "from": "furniture",
+   "to": "drawer"
+  },
+  {
+   "from": "furniture",
+   "to": "table"
+  },
+  {
+   "from": "table",
+   "to": "chair"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！搬新家啦！今天，我们来认识家里的家具。"
+    },
+    {
+     "en": "furniture"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:apartment",
+    "focus:apartment"
+   ],
+   "parts": [
+    {
+     "zh": "高楼里的一套房子，是公寓："
+    },
+    {
+     "en": "apartment"
+    },
+    {
+     "zh": "在英国，常常叫",
+     "cue": [
+      "alt:apartment"
+     ]
+    },
+    {
+     "en": "flat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wall",
+    "edge:apartment>wall",
+    "focus:wall"
+   ],
+   "parts": [
+    {
+     "zh": "房间四周，是墙："
+    },
+    {
+     "en": "wall"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:mirror",
+    "edge:wall>mirror",
+    "focus:mirror"
+   ],
+   "parts": [
+    {
+     "zh": "墙上挂着一面镜子："
+    },
+    {
+     "en": "mirror"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:shelf",
+    "edge:wall>shelf",
+    "focus:shelf"
+   ],
+   "parts": [
+    {
+     "zh": "墙上还钉着架子："
+    },
+    {
+     "en": "shelf"
+    },
+    {
+     "zh": "很多个架子，f 变成 v e s：",
+     "cue": [
+      "plural:shelf"
+     ]
+    },
+    {
+     "en": "shelves"
+    },
+    {
+     "zh": "还记得 leaf 和 wolf 吗？"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:reach",
+    "edge:reach>shelf",
+    "focus:reach"
+   ],
+   "parts": [
+    {
+     "zh": "架子太高，踮起脚才够得到："
+    },
+    {
+     "en": "reach"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:furniture",
+    "edge:apartment>furniture",
+    "focus:furniture"
+   ],
+   "parts": [
+    {
+     "zh": "屋里摆的桌椅床柜，统称家具："
+    },
+    {
+     "en": "furniture"
+    },
+    {
+     "zh": "家具不能数，不加 s 哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bookcase",
+    "edge:furniture>bookcase",
+    "focus:bookcase"
+   ],
+   "parts": [
+    {
+     "zh": "放书的柜子。书，加上箱子："
+    },
+    {
+     "en": "book"
+    },
+    {
+     "en": "case"
+    },
+    {
+     "en": "bookcase"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sofa",
+    "edge:furniture>sofa",
+    "focus:sofa"
+   ],
+   "parts": [
+    {
+     "zh": "软软的沙发："
+    },
+    {
+     "en": "sofa"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bed",
+    "edge:furniture>bed",
+    "focus:bed"
+   ],
+   "parts": [
+    {
+     "zh": "睡觉的床："
+    },
+    {
+     "en": "bed"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:quilt",
+    "edge:bed>quilt",
+    "focus:quilt"
+   ],
+   "parts": [
+    {
+     "zh": "床上铺着被子："
+    },
+    {
+     "en": "quilt"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:drawer",
+    "edge:furniture>drawer",
+    "focus:drawer"
+   ],
+   "parts": [
+    {
+     "zh": "可以拉出来的抽屉。拉，加上 e r："
+    },
+    {
+     "en": "draw"
+    },
+    {
+     "en": "drawer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:table",
+    "edge:furniture>table",
+    "focus:table"
+   ],
+   "parts": [
+    {
+     "zh": "吃饭的桌子："
+    },
+    {
+     "en": "table"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:chair",
+    "edge:table>chair",
+    "focus:chair"
+   ],
+   "parts": [
+    {
+     "zh": "坐的椅子："
+    },
+    {
+     "en": "chair"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "布置一下我的房间吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "The bed is beside the wall.",
+     "cue": [
+      "focus:bed,wall"
+     ]
+    },
+    {
+     "en": "The books are on the shelves.",
+     "cue": [
+      "focus:shelf"
+     ]
+    },
+    {
+     "en": "The chair is under the table.",
+     "cue": [
+      "focus:chair,table"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:apartment"
+   ],
+   "parts": [
+    {
+     "en": "apartment, flat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wall"
+   ],
+   "parts": [
+    {
+     "en": "wall"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:mirror"
+   ],
+   "parts": [
+    {
+     "en": "mirror"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:shelf"
+   ],
+   "parts": [
+    {
+     "en": "shelf, shelves"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:reach"
+   ],
+   "parts": [
+    {
+     "en": "reach"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:furniture"
+   ],
+   "parts": [
+    {
+     "en": "furniture"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bookcase"
+   ],
+   "parts": [
+    {
+     "en": "bookcase"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sofa"
+   ],
+   "parts": [
+    {
+     "en": "sofa"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bed"
+   ],
+   "parts": [
+    {
+     "en": "bed"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:quilt"
+   ],
+   "parts": [
+    {
+     "en": "quilt"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:drawer"
+   ],
+   "parts": [
+    {
+     "en": "drawer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:table"
+   ],
+   "parts": [
+    {
+     "en": "table"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:chair"
+   ],
+   "parts": [
+    {
+     "en": "chair"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！回家看一看，用英语说一说你家有哪些家具吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

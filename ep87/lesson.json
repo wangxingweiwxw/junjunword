@@ -1,0 +1,567 @@
+{
+ "id": "ep87",
+ "title": "sweets",
+ "titleZh": "甜食",
+ "episode": "第 87 集",
+ "titleIcon": "icecream",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "sweet",
+   "word": "sweet",
+   "ipa": "/swiːt/",
+   "zh": "甜的；糖果",
+   "icon": "sweet",
+   "kind": "adj",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "sugar",
+   "word": "sugar",
+   "ipa": "/ˈʃʊɡər/",
+   "zh": "糖",
+   "icon": "sugar",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "honey",
+   "word": "honey",
+   "ipa": "/ˈhʌni/",
+   "zh": "蜂蜜",
+   "icon": "honey",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "biscuit",
+   "word": "biscuit",
+   "ipa": "/ˈbɪskɪt/",
+   "zh": "饼干",
+   "icon": "biscuit",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "candy",
+   "word": "candy",
+   "ipa": "/ˈkændi/",
+   "zh": "糖果",
+   "icon": "candy",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "icecream",
+   "word": "ice cream",
+   "ipa": "/ˌaɪs ˈkriːm/",
+   "zh": "冰淇淋",
+   "icon": "icecream",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "cake",
+   "word": "cake",
+   "ipa": "/keɪk/",
+   "zh": "蛋糕",
+   "icon": "cake",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "chocolate",
+   "word": "chocolate",
+   "ipa": "/ˈtʃɔːklət/",
+   "zh": "巧克力",
+   "icon": "chocolate",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "cream",
+   "word": "cream",
+   "ipa": "/kriːm/",
+   "zh": "奶油",
+   "icon": "cream",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "little",
+   "word": "little",
+   "ipa": "/ˈlɪtl/",
+   "zh": "一点；少量",
+   "icon": "little",
+   "alt": "a little",
+   "altLabel": "常说",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "sweet",
+   "to": "sugar"
+  },
+  {
+   "from": "sweet",
+   "to": "honey"
+  },
+  {
+   "from": "sweet",
+   "to": "biscuit"
+  },
+  {
+   "from": "sweet",
+   "to": "candy"
+  },
+  {
+   "from": "sweet",
+   "to": "icecream"
+  },
+  {
+   "from": "sweet",
+   "to": "cake"
+  },
+  {
+   "from": "sweet",
+   "to": "chocolate"
+  },
+  {
+   "from": "sweet",
+   "to": "cream"
+  },
+  {
+   "from": "chocolate",
+   "to": "little",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！谁不爱吃甜甜的东西呢？今天，我们来学甜食！"
+    },
+    {
+     "en": "sweets"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:sweet",
+    "focus:sweet"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第十七集的甜吗？"
+    },
+    {
+     "en": "sweet"
+    },
+    {
+     "zh": "在英国，糖果也叫 sweets。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sugar",
+    "edge:sweet>sugar",
+    "focus:sugar"
+   ],
+   "parts": [
+    {
+     "zh": "甜甜的糖："
+    },
+    {
+     "en": "sugar"
+    },
+    {
+     "zh": "开头的 s 读成 sh，很特别哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:honey",
+    "edge:sweet>honey",
+    "focus:honey"
+   ],
+   "parts": [
+    {
+     "zh": "小蜜蜂酿的蜂蜜："
+    },
+    {
+     "en": "honey"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:biscuit",
+    "edge:sweet>biscuit",
+    "focus:biscuit"
+   ],
+   "parts": [
+    {
+     "zh": "脆脆的饼干："
+    },
+    {
+     "en": "biscuit"
+    },
+    {
+     "zh": "中间的 u 不发音。在美国常叫 cookie。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:candy",
+    "edge:sweet>candy",
+    "focus:candy"
+   ],
+   "parts": [
+    {
+     "zh": "五颜六色的糖果："
+    },
+    {
+     "en": "candy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:icecream",
+    "edge:sweet>icecream",
+    "focus:icecream"
+   ],
+   "parts": [
+    {
+     "zh": "夏天最爱的冰淇淋。冰，加上奶油："
+    },
+    {
+     "en": "ice"
+    },
+    {
+     "en": "cream"
+    },
+    {
+     "en": "ice cream"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cake",
+    "edge:sweet>cake",
+    "focus:cake"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第四集生日的蛋糕吗？"
+    },
+    {
+     "en": "cake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:chocolate",
+    "edge:sweet>chocolate",
+    "focus:chocolate"
+   ],
+   "parts": [
+    {
+     "zh": "浓浓的巧克力："
+    },
+    {
+     "en": "chocolate"
+    },
+    {
+     "zh": "中间的 o 读得很轻，常常听不到。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cream",
+    "edge:sweet>cream",
+    "focus:cream"
+   ],
+   "parts": [
+    {
+     "zh": "蛋糕上白白的奶油："
+    },
+    {
+     "en": "cream"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:little",
+    "edge:chocolate>little",
+    "focus:little"
+   ],
+   "parts": [
+    {
+     "zh": "甜食好吃，但只能吃一点点哦。一点，英语是"
+    },
+    {
+     "en": "a little"
+    },
+    {
+     "en": "Just a little chocolate, please.",
+     "cue": [
+      "focus:little,chocolate"
+     ]
+    },
+    {
+     "zh": "吃太多糖，牙齿会疼的。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "你最喜欢哪一种甜食？"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "I like ice cream.",
+     "cue": [
+      "focus:icecream"
+     ]
+    },
+    {
+     "en": "I like chocolate cake.",
+     "cue": [
+      "focus:chocolate,cake"
+     ]
+    },
+    {
+     "en": "But just a little!",
+     "cue": [
+      "focus:little"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sweet"
+   ],
+   "parts": [
+    {
+     "en": "sweet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sugar"
+   ],
+   "parts": [
+    {
+     "en": "sugar"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:honey"
+   ],
+   "parts": [
+    {
+     "en": "honey"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:biscuit"
+   ],
+   "parts": [
+    {
+     "en": "biscuit"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:candy"
+   ],
+   "parts": [
+    {
+     "en": "candy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:icecream"
+   ],
+   "parts": [
+    {
+     "en": "ice cream"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cake"
+   ],
+   "parts": [
+    {
+     "en": "cake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:chocolate"
+   ],
+   "parts": [
+    {
+     "en": "chocolate"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cream"
+   ],
+   "parts": [
+    {
+     "en": "cream"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:little"
+   ],
+   "parts": [
+    {
+     "en": "a little"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！甜食虽好，可不要贪吃，吃完记得刷牙哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

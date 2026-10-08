@@ -1,0 +1,496 @@
+{
+ "duration": 106.614,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！谁不爱吃甜甜的东西呢？今天，我们来学甜食！",
+   "t0": 0.4,
+   "t1": 6.449,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "sweets",
+   "t0": 6.699,
+   "t1": 7.326,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "还记得第十七集的甜吗？",
+   "t0": 8.426,
+   "t1": 10.252,
+   "cue": [
+    "map",
+    "show:sweet",
+    "focus:sweet"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "sweet",
+   "t0": 10.502,
+   "t1": 11.027,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "在英国，糖果也叫 sweets。",
+   "t0": 11.527,
+   "t1": 13.883,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "甜甜的糖：",
+   "t0": 14.733,
+   "t1": 15.634,
+   "cue": [
+    "show:sugar",
+    "edge:sweet>sugar",
+    "focus:sugar"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "sugar",
+   "t0": 15.884,
+   "t1": 16.432,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "开头的 s 读成 sh，很特别哦。",
+   "t0": 16.932,
+   "t1": 19.934,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "小蜜蜂酿的蜂蜜：",
+   "t0": 20.784,
+   "t1": 22.258,
+   "cue": [
+    "show:honey",
+    "edge:sweet>honey",
+    "focus:honey"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "honey",
+   "t0": 22.508,
+   "t1": 22.926,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "脆脆的饼干：",
+   "t0": 24.026,
+   "t1": 25.072,
+   "cue": [
+    "show:biscuit",
+    "edge:sweet>biscuit",
+    "focus:biscuit"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "biscuit",
+   "t0": 25.322,
+   "t1": 25.925,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "中间的 u 不发音。在美国常叫 cookie。",
+   "t0": 26.425,
+   "t1": 30.019,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "五颜六色的糖果：",
+   "t0": 30.869,
+   "t1": 32.29,
+   "cue": [
+    "show:candy",
+    "edge:sweet>candy",
+    "focus:candy"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "candy",
+   "t0": 32.54,
+   "t1": 33.082,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "夏天最爱的冰淇淋。冰，加上奶油：",
+   "t0": 34.182,
+   "t1": 38.031,
+   "cue": [
+    "show:icecream",
+    "edge:sweet>icecream",
+    "focus:icecream"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "ice",
+   "t0": 38.281,
+   "t1": 38.72,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "cream",
+   "t0": 39.22,
+   "t1": 39.721,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "ice cream",
+   "t0": 40.221,
+   "t1": 40.98,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "还记得第四集生日的蛋糕吗？",
+   "t0": 42.08,
+   "t1": 44.256,
+   "cue": [
+    "show:cake",
+    "edge:sweet>cake",
+    "focus:cake"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "cake",
+   "t0": 44.506,
+   "t1": 44.941,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "浓浓的巧克力：",
+   "t0": 46.041,
+   "t1": 47.185,
+   "cue": [
+    "show:chocolate",
+    "edge:sweet>chocolate",
+    "focus:chocolate"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "chocolate",
+   "t0": 47.435,
+   "t1": 48.084,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "中间的 o 读得很轻，常常听不到。",
+   "t0": 48.584,
+   "t1": 51.281,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "蛋糕上白白的奶油：",
+   "t0": 52.131,
+   "t1": 53.77,
+   "cue": [
+    "show:cream",
+    "edge:sweet>cream",
+    "focus:cream"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "cream",
+   "t0": 54.02,
+   "t1": 54.521,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "甜食好吃，但只能吃一点点哦。一点，英语是",
+   "t0": 55.621,
+   "t1": 60.291,
+   "cue": [
+    "show:little",
+    "edge:chocolate>little",
+    "focus:little"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "a little",
+   "t0": 60.541,
+   "t1": 61.093,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Just a little chocolate, please.",
+   "t0": 61.593,
+   "t1": 63.614,
+   "cue": [
+    "focus:little,chocolate"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "吃太多糖，牙齿会疼的。",
+   "t0": 64.114,
+   "t1": 66.279,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "你最喜欢哪一种甜食？",
+   "t0": 67.129,
+   "t1": 68.906,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "I like ice cream.",
+   "t0": 69.756,
+   "t1": 70.917,
+   "cue": [
+    "focus:icecream"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "I like chocolate cake.",
+   "t0": 71.417,
+   "t1": 72.753,
+   "cue": [
+    "focus:chocolate,cake"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "But just a little!",
+   "t0": 73.253,
+   "t1": 74.26,
+   "cue": [
+    "focus:little"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 75.36,
+   "t1": 78.611,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "sweet",
+   "t0": 79.461,
+   "t1": 79.985,
+   "cue": [
+    "focus:sweet"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "sugar",
+   "t0": 81.085,
+   "t1": 81.633,
+   "cue": [
+    "focus:sugar"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "honey",
+   "t0": 82.733,
+   "t1": 83.151,
+   "cue": [
+    "focus:honey"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "biscuit",
+   "t0": 84.251,
+   "t1": 84.854,
+   "cue": [
+    "focus:biscuit"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "candy",
+   "t0": 85.954,
+   "t1": 86.496,
+   "cue": [
+    "focus:candy"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "ice cream",
+   "t0": 87.596,
+   "t1": 88.355,
+   "cue": [
+    "focus:icecream"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "cake",
+   "t0": 89.455,
+   "t1": 89.89,
+   "cue": [
+    "focus:cake"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "chocolate",
+   "t0": 90.99,
+   "t1": 91.639,
+   "cue": [
+    "focus:chocolate"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "cream",
+   "t0": 92.739,
+   "t1": 93.24,
+   "cue": [
+    "focus:cream"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "a little",
+   "t0": 94.34,
+   "t1": 94.892,
+   "cue": [
+    "focus:little"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "zh",
+   "text": "太棒了！甜食虽好，可不要贪吃，吃完记得刷牙哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 95.992,
+   "t1": 104.764,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "sweet": [
+   0.25,
+   0.774
+  ],
+  "sugar": [
+   1.024,
+   1.572
+  ],
+  "honey": [
+   1.822,
+   2.24
+  ],
+  "biscuit": [
+   2.49,
+   3.093
+  ],
+  "candy": [
+   3.343,
+   3.885
+  ],
+  "icecream": [
+   4.135,
+   4.894
+  ],
+  "cake": [
+   5.144,
+   5.58
+  ],
+  "chocolate": [
+   5.83,
+   6.479
+  ],
+  "cream": [
+   6.729,
+   7.23
+  ],
+  "little": [
+   7.48,
+   7.932
+  ],
+  "little:alt": [
+   8.182,
+   8.734
+  ]
+ }
+}

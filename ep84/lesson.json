@@ -1,0 +1,594 @@
+{
+ "id": "ep84",
+ "title": "magic",
+ "titleZh": "魔法",
+ "episode": "第 84 集",
+ "titleIcon": "magic",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "magic",
+   "word": "magic",
+   "ipa": "/ˈmædʒɪk/",
+   "zh": "魔法；魔术",
+   "icon": "magic",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "instruction",
+   "word": "instruction",
+   "ipa": "/ɪnˈstrʌkʃn/",
+   "zh": "指示；说明",
+   "icon": "instruction",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "simple",
+   "word": "simple",
+   "ipa": "/ˈsɪmpl/",
+   "zh": "简单的",
+   "icon": "simple",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "satisfaction",
+   "word": "satisfaction",
+   "ipa": "/ˌsætɪsˈfækʃn/",
+   "zh": "满意",
+   "icon": "satisfaction",
+   "alt": "satisfy",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "possible",
+   "word": "possible",
+   "ipa": "/ˈpɑːsəbl/",
+   "zh": "可能的",
+   "icon": "possible",
+   "kind": "adj",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "impossible",
+   "word": "impossible",
+   "ipa": "/ɪmˈpɑːsəbl/",
+   "zh": "不可能的",
+   "icon": "impossible",
+   "kind": "adj",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "appear",
+   "word": "appear",
+   "ipa": "/əˈpɪr/",
+   "zh": "出现",
+   "icon": "appear",
+   "kind": "verb",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "disappear",
+   "word": "disappear",
+   "ipa": "/ˌdɪsəˈpɪr/",
+   "zh": "消失",
+   "icon": "disappear",
+   "kind": "verb",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "rope",
+   "word": "rope",
+   "ipa": "/roʊp/",
+   "zh": "绳子",
+   "icon": "rope",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "climb",
+   "word": "climb",
+   "ipa": "/klaɪm/",
+   "zh": "爬",
+   "icon": "climb",
+   "kind": "verb",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "instead",
+   "word": "instead",
+   "ipa": "/ɪnˈsted/",
+   "zh": "代替；反而",
+   "icon": "instead",
+   "kind": "adv",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "magic",
+   "to": "instruction"
+  },
+  {
+   "from": "magic",
+   "to": "simple"
+  },
+  {
+   "from": "simple",
+   "to": "satisfaction",
+   "dashed": true
+  },
+  {
+   "from": "instruction",
+   "to": "possible",
+   "dashed": true
+  },
+  {
+   "from": "possible",
+   "to": "impossible",
+   "label": "im+"
+  },
+  {
+   "from": "appear",
+   "to": "disappear",
+   "label": "dis+"
+  },
+  {
+   "from": "satisfaction",
+   "to": "appear",
+   "dashed": true
+  },
+  {
+   "from": "rope",
+   "to": "climb"
+  },
+  {
+   "from": "climb",
+   "to": "instead",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！变——魔术表演开始啦！今天，我们来学和魔术有关的单词。"
+    },
+    {
+     "en": "magic"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:magic",
+    "focus:magic"
+   ],
+   "parts": [
+    {
+     "zh": "神奇的魔法、魔术，英语是"
+    },
+    {
+     "en": "magic"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:instruction",
+    "edge:magic>instruction",
+    "focus:instruction"
+   ],
+   "parts": [
+    {
+     "zh": "变魔术，先看说明书上的指示："
+    },
+    {
+     "en": "instruction"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:simple",
+    "edge:magic>simple",
+    "focus:simple"
+   ],
+   "parts": [
+    {
+     "zh": "这个魔术很简单："
+    },
+    {
+     "en": "simple"
+    },
+    {
+     "zh": "还记得第七十八集的 easy 吗？意思差不多。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:possible",
+    "edge:instruction>possible",
+    "focus:possible"
+   ],
+   "parts": [
+    {
+     "zh": "可能的，英语是"
+    },
+    {
+     "en": "possible"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:impossible",
+    "edge:possible>impossible",
+    "focus:impossible"
+   ],
+   "parts": [
+    {
+     "zh": "加上 i m，就是不可能的。还记得第七十四集的 impatient 吗？"
+    },
+    {
+     "en": "impossible"
+    },
+    {
+     "en": "Nothing is impossible!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:satisfaction",
+    "edge:simple>satisfaction",
+    "focus:satisfaction"
+   ],
+   "parts": [
+    {
+     "zh": "魔术成功了，观众很满意。还记得第四十集的 satisfy 吗？"
+    },
+    {
+     "en": "satisfy"
+    },
+    {
+     "en": "satisfaction"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:appear",
+    "edge:satisfaction>appear",
+    "focus:appear"
+   ],
+   "parts": [
+    {
+     "zh": "挥一挥魔杖，小兔子出现了："
+    },
+    {
+     "en": "appear"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:disappear",
+    "edge:appear>disappear",
+    "focus:disappear"
+   ],
+   "parts": [
+    {
+     "zh": "再挥一下，它又消失了！前面加上 d i s："
+    },
+    {
+     "en": "disappear"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:rope",
+    "focus:rope"
+   ],
+   "parts": [
+    {
+     "zh": "魔术师拿出一根绳子："
+    },
+    {
+     "en": "rope"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:climb",
+    "edge:rope>climb",
+    "focus:climb"
+   ],
+   "parts": [
+    {
+     "zh": "顺着绳子往上爬："
+    },
+    {
+     "en": "climb"
+    },
+    {
+     "zh": "最后的 b 不发音哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:instead",
+    "edge:climb>instead",
+    "focus:instead"
+   ],
+   "parts": [
+    {
+     "zh": "我不爬绳子，我走楼梯。代替，英语是"
+    },
+    {
+     "en": "instead"
+    },
+    {
+     "en": "I will use the stairs instead of climbing the rope."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:impossible,disappear"
+   ],
+   "parts": [
+    {
+     "zh": "两个让意思反过来的头："
+    },
+    {
+     "en": "possible, impossible",
+     "cue": [
+      "focus:possible,impossible"
+     ]
+    },
+    {
+     "en": "appear, disappear",
+     "cue": [
+      "focus:appear,disappear"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:magic"
+   ],
+   "parts": [
+    {
+     "en": "magic"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:instruction"
+   ],
+   "parts": [
+    {
+     "en": "instruction"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:simple"
+   ],
+   "parts": [
+    {
+     "en": "simple"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:possible"
+   ],
+   "parts": [
+    {
+     "en": "possible"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:impossible"
+   ],
+   "parts": [
+    {
+     "en": "impossible"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:satisfaction"
+   ],
+   "parts": [
+    {
+     "en": "satisfaction"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:appear"
+   ],
+   "parts": [
+    {
+     "en": "appear"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:disappear"
+   ],
+   "parts": [
+    {
+     "en": "disappear"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:rope"
+   ],
+   "parts": [
+    {
+     "en": "rope"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:climb"
+   ],
+   "parts": [
+    {
+     "en": "climb"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:instead"
+   ],
+   "parts": [
+    {
+     "en": "instead"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！学一个小魔术，表演给家人看吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

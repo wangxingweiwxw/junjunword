@@ -1,0 +1,611 @@
+{
+ "duration": 126.873,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！还记得第六十八集的生病吗？今天，我们来学身体哪里疼怎么说。",
+   "t0": 0.4,
+   "t1": 8.085,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "pain",
+   "t0": 8.335,
+   "t1": 8.82,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "医院：",
+   "t0": 9.92,
+   "t1": 10.39,
+   "cue": [
+    "map",
+    "show:hospital",
+    "focus:hospital"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "hospital",
+   "t0": 10.64,
+   "t1": 11.305,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "医生问：你有什么问题？",
+   "t0": 12.405,
+   "t1": 14.357,
+   "cue": [
+    "show:problem",
+    "edge:hospital>problem",
+    "focus:problem"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "problem",
+   "t0": 14.607,
+   "t1": 15.175,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "What's the problem?",
+   "t0": 15.675,
+   "t1": 16.625,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "脸色白白的，是苍白的：",
+   "t0": 17.725,
+   "t1": 19.888,
+   "cue": [
+    "show:pale",
+    "edge:hospital>pale",
+    "focus:pale"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "pale",
+   "t0": 20.138,
+   "t1": 20.576,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "You look pale.",
+   "t0": 21.076,
+   "t1": 21.973,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "医生说：先躺下吧。",
+   "t0": 23.073,
+   "t1": 24.901,
+   "cue": [
+    "show:liedown",
+    "edge:hospital>liedown",
+    "focus:liedown"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "lie down",
+   "t0": 25.151,
+   "t1": 25.885,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "身体里硬硬的，是骨头：",
+   "t0": 26.985,
+   "t1": 29.129,
+   "cue": [
+    "show:bone",
+    "edge:hospital>bone",
+    "focus:bone"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "bone",
+   "t0": 29.379,
+   "t1": 29.827,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "摔了一跤，骨头断了。还记得第七十九集的 break 吗？",
+   "t0": 30.927,
+   "t1": 35.702,
+   "cue": [
+    "show:broken",
+    "edge:bone>broken",
+    "focus:broken"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "break",
+   "t0": 35.952,
+   "t1": 36.398,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "broken",
+   "t0": 36.898,
+   "t1": 37.468,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "a broken arm",
+   "t0": 37.968,
+   "t1": 38.933,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "身上不舒服，有疼痛：",
+   "t0": 40.033,
+   "t1": 42.081,
+   "cue": [
+    "show:pain",
+    "focus:pain"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "pain",
+   "t0": 42.331,
+   "t1": 42.815,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "弄疼了、受伤了，是",
+   "t0": 43.915,
+   "t1": 46.106,
+   "cue": [
+    "show:hurt",
+    "edge:pain>hurt",
+    "focus:hurt"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "hurt",
+   "t0": 46.356,
+   "t1": 46.77,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "My finger hurts.",
+   "t0": 47.27,
+   "t1": 48.388,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "一直隐隐地疼，是",
+   "t0": 49.488,
+   "t1": 51.221,
+   "cue": [
+    "show:ache",
+    "edge:pain>ache",
+    "focus:ache"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "ache",
+   "t0": 51.471,
+   "t1": 51.879,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "a c h e，c h 读成 k。今天的秘密：身体部位，加上 ache，就是哪里疼！",
+   "t0": 52.379,
+   "t1": 60.198,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "头疼：头，加上 ache：",
+   "t0": 61.048,
+   "t1": 63.142,
+   "cue": [
+    "show:headache",
+    "edge:ache>headache",
+    "focus:headache"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "head",
+   "t0": 63.392,
+   "t1": 63.754,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "headache",
+   "t0": 64.254,
+   "t1": 64.746,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "牙疼。还记得第十六集的牙齿吗？",
+   "t0": 65.846,
+   "t1": 69.064,
+   "cue": [
+    "show:toothache",
+    "edge:ache>toothache",
+    "focus:toothache"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "tooth",
+   "t0": 69.314,
+   "t1": 69.615,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "toothache",
+   "t0": 70.115,
+   "t1": 70.726,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "肚子疼。肚子，是 stomach：",
+   "t0": 71.826,
+   "t1": 74.673,
+   "cue": [
+    "show:stomachache",
+    "edge:ache>stomachache",
+    "focus:stomachache"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "stomach",
+   "t0": 74.923,
+   "t1": 75.57,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "stomachache",
+   "t0": 76.07,
+   "t1": 76.907,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "背疼。背，是 back：",
+   "t0": 78.007,
+   "t1": 80.325,
+   "cue": [
+    "show:backache",
+    "edge:ache>backache",
+    "focus:backache"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "back",
+   "t0": 80.575,
+   "t1": 80.986,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "backache",
+   "t0": 81.486,
+   "t1": 82.091,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "说哪里疼，要说 I have a：",
+   "t0": 83.191,
+   "t1": 85.686,
+   "cue": [
+    "focus:headache,toothache,stomachache,backache"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "I have a headache.",
+   "t0": 85.936,
+   "t1": 86.818,
+   "cue": [
+    "focus:headache"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "I have a toothache.",
+   "t0": 87.318,
+   "t1": 88.333,
+   "cue": [
+    "focus:toothache"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "I have a stomachache.",
+   "t0": 88.833,
+   "t1": 90.03,
+   "cue": [
+    "focus:stomachache"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 91.13,
+   "t1": 94.381,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "hospital",
+   "t0": 95.231,
+   "t1": 95.895,
+   "cue": [
+    "focus:hospital"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "problem",
+   "t0": 96.995,
+   "t1": 97.563,
+   "cue": [
+    "focus:problem"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "pale",
+   "t0": 98.663,
+   "t1": 99.101,
+   "cue": [
+    "focus:pale"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "lie down",
+   "t0": 100.201,
+   "t1": 100.935,
+   "cue": [
+    "focus:liedown"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "bone",
+   "t0": 102.035,
+   "t1": 102.482,
+   "cue": [
+    "focus:bone"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "broken",
+   "t0": 103.582,
+   "t1": 104.153,
+   "cue": [
+    "focus:broken"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "pain",
+   "t0": 105.253,
+   "t1": 105.737,
+   "cue": [
+    "focus:pain"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "hurt",
+   "t0": 106.837,
+   "t1": 107.252,
+   "cue": [
+    "focus:hurt"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "ache",
+   "t0": 108.352,
+   "t1": 108.76,
+   "cue": [
+    "focus:ache"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "headache",
+   "t0": 109.86,
+   "t1": 110.352,
+   "cue": [
+    "focus:headache"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "toothache",
+   "t0": 111.452,
+   "t1": 112.063,
+   "cue": [
+    "focus:toothache"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "stomachache",
+   "t0": 113.163,
+   "t1": 114.0,
+   "cue": [
+    "focus:stomachache"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "backache",
+   "t0": 115.1,
+   "t1": 115.705,
+   "cue": [
+    "focus:backache"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "zh",
+   "text": "太棒了！哪里不舒服，要马上告诉爸爸妈妈哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 116.805,
+   "t1": 125.023,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "hospital": [
+   0.25,
+   0.915
+  ],
+  "problem": [
+   1.165,
+   1.732
+  ],
+  "pale": [
+   1.982,
+   2.42
+  ],
+  "liedown": [
+   2.67,
+   3.404
+  ],
+  "bone": [
+   3.654,
+   4.102
+  ],
+  "broken": [
+   4.352,
+   4.922
+  ],
+  "broken:alt": [
+   5.172,
+   5.618
+  ],
+  "pain": [
+   5.868,
+   6.352
+  ],
+  "hurt": [
+   6.602,
+   7.017
+  ],
+  "ache": [
+   7.267,
+   7.675
+  ],
+  "headache": [
+   7.925,
+   8.417
+  ],
+  "toothache": [
+   8.667,
+   9.278
+  ],
+  "stomachache": [
+   9.528,
+   10.365
+  ],
+  "backache": [
+   10.615,
+   11.22
+  ]
+ }
+}

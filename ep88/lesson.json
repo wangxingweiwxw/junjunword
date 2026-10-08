@@ -1,0 +1,756 @@
+{
+ "id": "ep88",
+ "title": "kitchen",
+ "titleZh": "厨房",
+ "episode": "第 88 集",
+ "titleIcon": "pot",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1850
+  ]
+ },
+ "nodes": [
+  {
+   "id": "cook",
+   "word": "cook",
+   "ipa": "/kʊk/",
+   "zh": "做饭",
+   "icon": "cook",
+   "kind": "verb",
+   "atP": [
+    450,
+    460
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "prepare",
+   "word": "prepare",
+   "ipa": "/prɪˈper/",
+   "zh": "准备",
+   "icon": "prepare",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "oven",
+   "word": "oven",
+   "ipa": "/ˈʌvn/",
+   "zh": "烤箱",
+   "icon": "oven",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "turnoff",
+   "word": "turn off",
+   "ipa": "/tɜːrn ɔːf/",
+   "zh": "关掉",
+   "icon": "turnoff",
+   "kind": "verb",
+   "alt": "turn on",
+   "altLabel": "反义",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "pot",
+   "word": "pot",
+   "ipa": "/pɑːt/",
+   "zh": "锅",
+   "icon": "pot",
+   "atP": [
+    750,
+    460
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "boil",
+   "word": "boil",
+   "ipa": "/bɔɪl/",
+   "zh": "煮沸",
+   "icon": "boil",
+   "kind": "verb",
+   "atP": [
+    150,
+    460
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "lid",
+   "word": "lid",
+   "ipa": "/lɪd/",
+   "zh": "盖子",
+   "icon": "lid",
+   "atP": [
+    150,
+    770
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "cover",
+   "word": "cover",
+   "ipa": "/ˈkʌvər/",
+   "zh": "盖上",
+   "icon": "cover",
+   "kind": "verb",
+   "atP": [
+    450,
+    770
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "bottle",
+   "word": "bottle",
+   "ipa": "/ˈbɑːtl/",
+   "zh": "瓶子",
+   "icon": "bottle",
+   "atP": [
+    750,
+    770
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "cap",
+   "word": "cap",
+   "ipa": "/kæp/",
+   "zh": "瓶盖",
+   "icon": "bottlecap",
+   "atP": [
+    450,
+    1080
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "fill",
+   "word": "fill",
+   "ipa": "/fɪl/",
+   "zh": "装满",
+   "icon": "fill",
+   "kind": "verb",
+   "atP": [
+    150,
+    1080
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "bowl",
+   "word": "bowl",
+   "ipa": "/boʊl/",
+   "zh": "碗",
+   "icon": "bowl",
+   "atP": [
+    150,
+    1390
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "chopsticks",
+   "word": "chopsticks",
+   "ipa": "/ˈtʃɑːpstɪks/",
+   "zh": "筷子",
+   "icon": "chopsticks",
+   "atP": [
+    450,
+    1390
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "knife",
+   "word": "knife",
+   "ipa": "/naɪf/",
+   "zh": "刀",
+   "icon": "knife",
+   "plural": "knives",
+   "pluralIpa": "/naɪvz/",
+   "atP": [
+    750,
+    1390
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  },
+  {
+   "id": "fork",
+   "word": "fork",
+   "ipa": "/fɔːrk/",
+   "zh": "叉子",
+   "icon": "fork",
+   "atP": [
+    450,
+    1700
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "prepare",
+   "to": "cook"
+  },
+  {
+   "from": "cook",
+   "to": "oven"
+  },
+  {
+   "from": "oven",
+   "to": "turnoff"
+  },
+  {
+   "from": "cook",
+   "to": "pot"
+  },
+  {
+   "from": "pot",
+   "to": "boil"
+  },
+  {
+   "from": "pot",
+   "to": "lid"
+  },
+  {
+   "from": "lid",
+   "to": "cover"
+  },
+  {
+   "from": "bottle",
+   "to": "cap"
+  },
+  {
+   "from": "bottle",
+   "to": "fill"
+  },
+  {
+   "from": "chopsticks",
+   "to": "bowl"
+  },
+  {
+   "from": "chopsticks",
+   "to": "knife"
+  },
+  {
+   "from": "chopsticks",
+   "to": "fork"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！今天，我们走进厨房，一起做饭吧！"
+    },
+    {
+     "en": "cook food"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:cook",
+    "focus:cook"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第三十五集的厨师吗？做饭，也是这个词："
+    },
+    {
+     "en": "cook"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:prepare",
+    "edge:prepare>cook",
+    "focus:prepare"
+   ],
+   "parts": [
+    {
+     "zh": "做饭前，先把菜洗好、切好，做准备："
+    },
+    {
+     "en": "prepare"
+    },
+    {
+     "zh": "还记得第五十五集的 preparation 吗？"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:oven",
+    "edge:cook>oven",
+    "focus:oven"
+   ],
+   "parts": [
+    {
+     "zh": "烤面包，要用烤箱："
+    },
+    {
+     "en": "oven"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:turnoff",
+    "edge:oven>turnoff",
+    "focus:turnoff"
+   ],
+   "parts": [
+    {
+     "zh": "烤好了，记得关掉："
+    },
+    {
+     "en": "turn off"
+    },
+    {
+     "zh": "打开，是",
+     "cue": [
+      "alt:turnoff"
+     ]
+    },
+    {
+     "en": "turn on"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pot",
+    "edge:cook>pot",
+    "focus:pot"
+   ],
+   "parts": [
+    {
+     "zh": "煮汤，要用锅："
+    },
+    {
+     "en": "pot"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:boil",
+    "edge:pot>boil",
+    "focus:boil"
+   ],
+   "parts": [
+    {
+     "zh": "水咕嘟咕嘟煮开了："
+    },
+    {
+     "en": "boil"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:lid",
+    "edge:pot>lid",
+    "focus:lid"
+   ],
+   "parts": [
+    {
+     "zh": "锅上有一个盖子："
+    },
+    {
+     "en": "lid"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cover",
+    "edge:lid>cover",
+    "focus:cover"
+   ],
+   "parts": [
+    {
+     "zh": "把盖子盖上，是"
+    },
+    {
+     "en": "cover"
+    },
+    {
+     "en": "Cover the pot with the lid.",
+     "cue": [
+      "focus:cover,lid,pot"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bottle",
+    "focus:bottle"
+   ],
+   "parts": [
+    {
+     "zh": "装油和醋的瓶子："
+    },
+    {
+     "en": "bottle"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cap",
+    "edge:bottle>cap",
+    "focus:cap"
+   ],
+   "parts": [
+    {
+     "zh": "瓶子上拧着瓶盖。还记得第十集的鸭舌帽吗？同一个词！"
+    },
+    {
+     "en": "cap"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fill",
+    "edge:bottle>fill",
+    "focus:fill"
+   ],
+   "parts": [
+    {
+     "zh": "把瓶子装满水："
+    },
+    {
+     "en": "fill"
+    },
+    {
+     "en": "Fill the bottle with water."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:chopsticks",
+    "focus:chopsticks"
+   ],
+   "parts": [
+    {
+     "zh": "饭做好了！中国人用筷子吃饭："
+    },
+    {
+     "en": "chopsticks"
+    },
+    {
+     "zh": "筷子是一双，所以总有 s。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bowl",
+    "edge:chopsticks>bowl",
+    "focus:bowl"
+   ],
+   "parts": [
+    {
+     "zh": "盛饭的碗："
+    },
+    {
+     "en": "bowl"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:knife",
+    "edge:chopsticks>knife",
+    "focus:knife"
+   ],
+   "parts": [
+    {
+     "zh": "西餐用刀："
+    },
+    {
+     "en": "knife"
+    },
+    {
+     "zh": "k 不发音。很多把刀，f 变成 v e s：",
+     "cue": [
+      "plural:knife"
+     ]
+    },
+    {
+     "en": "knives"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fork",
+    "edge:chopsticks>fork",
+    "focus:fork"
+   ],
+   "parts": [
+    {
+     "zh": "还有叉子："
+    },
+    {
+     "en": "fork"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cook"
+   ],
+   "parts": [
+    {
+     "en": "cook"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:prepare"
+   ],
+   "parts": [
+    {
+     "en": "prepare"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:oven"
+   ],
+   "parts": [
+    {
+     "en": "oven"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:turnoff"
+   ],
+   "parts": [
+    {
+     "en": "turn off"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pot"
+   ],
+   "parts": [
+    {
+     "en": "pot"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:boil"
+   ],
+   "parts": [
+    {
+     "en": "boil"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:lid"
+   ],
+   "parts": [
+    {
+     "en": "lid"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cover"
+   ],
+   "parts": [
+    {
+     "en": "cover"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bottle"
+   ],
+   "parts": [
+    {
+     "en": "bottle"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cap"
+   ],
+   "parts": [
+    {
+     "en": "cap"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fill"
+   ],
+   "parts": [
+    {
+     "en": "fill"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:chopsticks"
+   ],
+   "parts": [
+    {
+     "en": "chopsticks"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bowl"
+   ],
+   "parts": [
+    {
+     "en": "bowl"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:knife"
+   ],
+   "parts": [
+    {
+     "en": "knife, knives"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fork"
+   ],
+   "parts": [
+    {
+     "en": "fork"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！帮爸爸妈妈摆一摆碗筷吧。小提示：刀和火都很危险，一定要大人陪着哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

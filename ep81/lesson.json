@@ -1,0 +1,685 @@
+{
+ "id": "ep81",
+ "title": "time",
+ "titleZh": "时间（二）",
+ "episode": "第 81 集",
+ "titleIcon": "century",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "year",
+   "word": "year",
+   "ipa": "/jɪr/",
+   "zh": "年",
+   "icon": "year",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "recent",
+   "word": "recent",
+   "ipa": "/ˈriːsnt/",
+   "zh": "最近的",
+   "icon": "recent",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "ago",
+   "word": "ago",
+   "ipa": "/əˈɡoʊ/",
+   "zh": "……以前",
+   "icon": "ago",
+   "kind": "adv",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "century",
+   "word": "century",
+   "ipa": "/ˈsentʃəri/",
+   "zh": "世纪",
+   "icon": "century",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "ancient",
+   "word": "ancient",
+   "ipa": "/ˈeɪnʃənt/",
+   "zh": "古代的",
+   "icon": "ancient",
+   "kind": "adj",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "upon",
+   "word": "upon",
+   "ipa": "/əˈpɑːn/",
+   "zh": "在……之上",
+   "icon": "upon",
+   "kind": "prep",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "while",
+   "word": "while",
+   "ipa": "/waɪl/",
+   "zh": "在……的时候",
+   "icon": "while",
+   "kind": "adv",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "period",
+   "word": "period",
+   "ipa": "/ˈpɪriəd/",
+   "zh": "时期",
+   "icon": "period",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "age",
+   "word": "age",
+   "ipa": "/eɪdʒ/",
+   "zh": "时代",
+   "icon": "era",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "begin",
+   "word": "begin",
+   "ipa": "/bɪˈɡɪn/",
+   "zh": "开始",
+   "icon": "begin",
+   "kind": "verb",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "beginning",
+   "word": "beginning",
+   "ipa": "/bɪˈɡɪnɪŋ/",
+   "zh": "开头",
+   "icon": "beginning",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "end",
+   "word": "end",
+   "ipa": "/end/",
+   "zh": "结束",
+   "icon": "end",
+   "kind": "verb",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "ending",
+   "word": "ending",
+   "ipa": "/ˈendɪŋ/",
+   "zh": "结尾",
+   "icon": "ending",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "year",
+   "to": "recent"
+  },
+  {
+   "from": "year",
+   "to": "ago"
+  },
+  {
+   "from": "year",
+   "to": "century",
+   "label": "×100"
+  },
+  {
+   "from": "century",
+   "to": "ancient",
+   "dashed": true
+  },
+  {
+   "from": "ancient",
+   "to": "upon",
+   "dashed": true
+  },
+  {
+   "from": "ancient",
+   "to": "period",
+   "dashed": true
+  },
+  {
+   "from": "period",
+   "to": "age"
+  },
+  {
+   "from": "period",
+   "to": "while",
+   "dashed": true
+  },
+  {
+   "from": "begin",
+   "to": "beginning",
+   "label": "+ning"
+  },
+  {
+   "from": "end",
+   "to": "ending",
+   "label": "+ing"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！时间过得真快。今天，我们来学和时间有关的更多单词。"
+    },
+    {
+     "en": "time"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:year",
+    "focus:year"
+   ],
+   "parts": [
+    {
+     "zh": "一年，英语是"
+    },
+    {
+     "en": "year"
+    },
+    {
+     "en": "This year, I am eight."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:recent",
+    "edge:year>recent",
+    "focus:recent"
+   ],
+   "parts": [
+    {
+     "zh": "最近的，英语是"
+    },
+    {
+     "en": "recent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ago",
+    "edge:year>ago",
+    "focus:ago"
+   ],
+   "parts": [
+    {
+     "zh": "……以前，放在时间的后面："
+    },
+    {
+     "en": "ago"
+    },
+    {
+     "en": "two years ago"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:century",
+    "edge:year>century",
+    "focus:century"
+   ],
+   "parts": [
+    {
+     "zh": "一百年，是一个世纪："
+    },
+    {
+     "en": "century"
+    },
+    {
+     "zh": "开头的 cent，和一百有关，就像一百分 per cent。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ancient",
+    "edge:century>ancient",
+    "focus:ancient"
+   ],
+   "parts": [
+    {
+     "zh": "很多很多个世纪以前，是古代的："
+    },
+    {
+     "en": "ancient"
+    },
+    {
+     "en": "ancient China"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:upon",
+    "edge:ancient>upon",
+    "focus:upon"
+   ],
+   "parts": [
+    {
+     "zh": "讲古老的故事时，常常这样开头："
+    },
+    {
+     "en": "Once upon a time…"
+    },
+    {
+     "zh": "upon 的意思和 on 差不多。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:period",
+    "edge:ancient>period",
+    "focus:period"
+   ],
+   "parts": [
+    {
+     "zh": "一段时间，是时期："
+    },
+    {
+     "en": "period"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:age",
+    "edge:period>age",
+    "focus:age"
+   ],
+   "parts": [
+    {
+     "zh": "一个很长很长的时期，叫时代："
+    },
+    {
+     "en": "age"
+    },
+    {
+     "zh": "还记得第十二集的年龄吗？同一个词！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:while",
+    "edge:period>while",
+    "focus:while"
+   ],
+   "parts": [
+    {
+     "zh": "在……的时候，英语是"
+    },
+    {
+     "en": "while"
+    },
+    {
+     "en": "I listen to music while I read."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:begin",
+    "focus:begin"
+   ],
+   "parts": [
+    {
+     "zh": "开始，是"
+    },
+    {
+     "en": "begin"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:beginning",
+    "edge:begin>beginning",
+    "focus:beginning"
+   ],
+   "parts": [
+    {
+     "zh": "故事的开头。要多写一个 n，再加 i n g："
+    },
+    {
+     "en": "beginning"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:end",
+    "focus:end"
+   ],
+   "parts": [
+    {
+     "zh": "结束，是"
+    },
+    {
+     "en": "end"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ending",
+    "edge:end>ending",
+    "focus:ending"
+   ],
+   "parts": [
+    {
+     "zh": "故事的结尾："
+    },
+    {
+     "en": "ending"
+    },
+    {
+     "en": "a happy ending"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:begin,end"
+   ],
+   "parts": [
+    {
+     "zh": "开始和结束："
+    },
+    {
+     "en": "begin, beginning",
+     "cue": [
+      "focus:begin,beginning"
+     ]
+    },
+    {
+     "en": "end, ending",
+     "cue": [
+      "focus:end,ending"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:year"
+   ],
+   "parts": [
+    {
+     "en": "year"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:recent"
+   ],
+   "parts": [
+    {
+     "en": "recent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ago"
+   ],
+   "parts": [
+    {
+     "en": "ago"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:century"
+   ],
+   "parts": [
+    {
+     "en": "century"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ancient"
+   ],
+   "parts": [
+    {
+     "en": "ancient"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:upon"
+   ],
+   "parts": [
+    {
+     "en": "upon"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:period"
+   ],
+   "parts": [
+    {
+     "en": "period"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:age"
+   ],
+   "parts": [
+    {
+     "en": "age"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:while"
+   ],
+   "parts": [
+    {
+     "en": "while"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:begin"
+   ],
+   "parts": [
+    {
+     "en": "begin"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:beginning"
+   ],
+   "parts": [
+    {
+     "en": "beginning"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:end"
+   ],
+   "parts": [
+    {
+     "en": "end"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ending"
+   ],
+   "parts": [
+    {
+     "en": "ending"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！用 Once upon a time 开头，给爸爸妈妈讲一个小故事吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

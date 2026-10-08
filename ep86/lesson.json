@@ -1,0 +1,681 @@
+{
+ "id": "ep86",
+ "title": "nature",
+ "titleZh": "大自然",
+ "episode": "第 86 集",
+ "titleIcon": "nature",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "nature",
+   "word": "nature",
+   "ipa": "/ˈneɪtʃər/",
+   "zh": "大自然",
+   "icon": "nature",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "peaceful",
+   "word": "peaceful",
+   "ipa": "/ˈpiːsfl/",
+   "zh": "宁静的",
+   "icon": "peaceful",
+   "kind": "adj",
+   "alt": "peace",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "discover",
+   "word": "discover",
+   "ipa": "/dɪˈskʌvər/",
+   "zh": "发现",
+   "icon": "discover",
+   "kind": "verb",
+   "alt": "cover",
+   "altLabel": "dis+",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "wonder",
+   "word": "wonder",
+   "ipa": "/ˈwʌndər/",
+   "zh": "奇迹；想知道",
+   "icon": "wonder",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "countryside",
+   "word": "countryside",
+   "ipa": "/ˈkʌntrisaɪd/",
+   "zh": "乡村",
+   "icon": "countryside",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "river",
+   "word": "river",
+   "ipa": "/ˈrɪvər/",
+   "zh": "河",
+   "icon": "river",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "lake",
+   "word": "lake",
+   "ipa": "/leɪk/",
+   "zh": "湖",
+   "icon": "lake",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "ocean",
+   "word": "ocean",
+   "ipa": "/ˈoʊʃn/",
+   "zh": "海洋",
+   "icon": "ocean",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "coast",
+   "word": "coast",
+   "ipa": "/koʊst/",
+   "zh": "海岸",
+   "icon": "coast",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "desert",
+   "word": "desert",
+   "ipa": "/ˈdezərt/",
+   "zh": "沙漠",
+   "icon": "desert",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "mountain",
+   "word": "mountain",
+   "ipa": "/ˈmaʊntn/",
+   "zh": "高山",
+   "icon": "mountain",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "hill",
+   "word": "hill",
+   "ipa": "/hɪl/",
+   "zh": "小山",
+   "icon": "hill",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "forest",
+   "word": "forest",
+   "ipa": "/ˈfɔːrɪst/",
+   "zh": "森林",
+   "icon": "forest",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "nature",
+   "to": "discover"
+  },
+  {
+   "from": "nature",
+   "to": "wonder"
+  },
+  {
+   "from": "nature",
+   "to": "countryside"
+  },
+  {
+   "from": "countryside",
+   "to": "peaceful"
+  },
+  {
+   "from": "countryside",
+   "to": "river"
+  },
+  {
+   "from": "lake",
+   "to": "ocean",
+   "label": "更大"
+  },
+  {
+   "from": "ocean",
+   "to": "coast"
+  },
+  {
+   "from": "mountain",
+   "to": "hill",
+   "label": "更矮"
+  },
+  {
+   "from": "hill",
+   "to": "forest",
+   "dashed": true
+  },
+  {
+   "from": "coast",
+   "to": "desert",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！走出家门，去大自然里看一看吧！"
+    },
+    {
+     "en": "nature"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:nature",
+    "focus:nature"
+   ],
+   "parts": [
+    {
+     "zh": "山川河流、花草树木，都是大自然："
+    },
+    {
+     "en": "nature"
+    },
+    {
+     "en": "Nature is full of wonders."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:discover",
+    "edge:nature>discover",
+    "focus:discover"
+   ],
+   "parts": [
+    {
+     "zh": "在大自然里，我们能发现很多东西。盖子是 cover，加上 d i s，就是揭开盖子，发现："
+    },
+    {
+     "en": "discover"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wonder",
+    "edge:nature>wonder",
+    "focus:wonder"
+   ],
+   "parts": [
+    {
+     "zh": "大自然里到处都是奇迹，让人好想知道为什么："
+    },
+    {
+     "en": "wonder"
+    },
+    {
+     "en": "I wonder why the sky is blue."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:countryside",
+    "edge:nature>countryside",
+    "focus:countryside"
+   ],
+   "parts": [
+    {
+     "zh": "远离城市的乡村。国家，加上旁边："
+    },
+    {
+     "en": "country"
+    },
+    {
+     "en": "side"
+    },
+    {
+     "en": "countryside"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:peaceful",
+    "edge:countryside>peaceful",
+    "focus:peaceful"
+   ],
+   "parts": [
+    {
+     "zh": "乡村里安安静静的，很宁静。和平，加上 f u l："
+    },
+    {
+     "en": "peace"
+    },
+    {
+     "en": "peaceful"
+    },
+    {
+     "en": "The countryside is very peaceful."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:river",
+    "edge:countryside>river",
+    "focus:river"
+   ],
+   "parts": [
+    {
+     "zh": "弯弯的小河："
+    },
+    {
+     "en": "river"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:lake",
+    "focus:lake"
+   ],
+   "parts": [
+    {
+     "zh": "河水流进了湖里："
+    },
+    {
+     "en": "lake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ocean",
+    "edge:lake>ocean",
+    "focus:ocean"
+   ],
+   "parts": [
+    {
+     "zh": "比湖大得多得多的，是海洋："
+    },
+    {
+     "en": "ocean"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:coast",
+    "edge:ocean>coast",
+    "focus:coast"
+   ],
+   "parts": [
+    {
+     "zh": "海洋和陆地交界的地方，是海岸："
+    },
+    {
+     "en": "coast"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:desert",
+    "edge:coast>desert",
+    "focus:desert"
+   ],
+   "parts": [
+    {
+     "zh": "很少下雨、到处是沙子的，是沙漠："
+    },
+    {
+     "en": "desert"
+    },
+    {
+     "zh": "小心，别和甜点 dessert 搞混了，甜点有两个 s。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:mountain",
+    "focus:mountain"
+   ],
+   "parts": [
+    {
+     "zh": "高高的大山："
+    },
+    {
+     "en": "mountain"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hill",
+    "edge:mountain>hill",
+    "focus:hill"
+   ],
+   "parts": [
+    {
+     "zh": "矮一点的小山："
+    },
+    {
+     "en": "hill"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:forest",
+    "edge:hill>forest",
+    "focus:forest"
+   ],
+   "parts": [
+    {
+     "zh": "长满大树的森林："
+    },
+    {
+     "en": "forest"
+    },
+    {
+     "zh": "还记得第四十六集的树林 woods 吗？森林比树林更大。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:mountain,hill"
+   ],
+   "parts": [
+    {
+     "zh": "大山和小山："
+    },
+    {
+     "en": "mountain",
+     "cue": [
+      "focus:mountain"
+     ]
+    },
+    {
+     "en": "hill",
+     "cue": [
+      "focus:hill"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:nature"
+   ],
+   "parts": [
+    {
+     "en": "nature"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:discover"
+   ],
+   "parts": [
+    {
+     "en": "discover"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wonder"
+   ],
+   "parts": [
+    {
+     "en": "wonder"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:countryside"
+   ],
+   "parts": [
+    {
+     "en": "countryside"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:peaceful"
+   ],
+   "parts": [
+    {
+     "en": "peaceful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:river"
+   ],
+   "parts": [
+    {
+     "en": "river"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:lake"
+   ],
+   "parts": [
+    {
+     "en": "lake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ocean"
+   ],
+   "parts": [
+    {
+     "en": "ocean"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:coast"
+   ],
+   "parts": [
+    {
+     "en": "coast"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:desert"
+   ],
+   "parts": [
+    {
+     "en": "desert"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:mountain"
+   ],
+   "parts": [
+    {
+     "en": "mountain"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hill"
+   ],
+   "parts": [
+    {
+     "en": "hill"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:forest"
+   ],
+   "parts": [
+    {
+     "en": "forest"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！周末去爬爬山、看看湖，好好享受大自然吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

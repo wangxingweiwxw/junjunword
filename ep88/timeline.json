@@ -1,0 +1,634 @@
+{
+ "duration": 126.063,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！今天，我们走进厨房，一起做饭吧！",
+   "t0": 0.4,
+   "t1": 4.97,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "cook food",
+   "t0": 5.22,
+   "t1": 5.939,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "还记得第三十五集的厨师吗？做饭，也是这个词：",
+   "t0": 7.039,
+   "t1": 11.646,
+   "cue": [
+    "map",
+    "show:cook",
+    "focus:cook"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "cook",
+   "t0": 11.896,
+   "t1": 12.35,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "做饭前，先把菜洗好、切好，做准备：",
+   "t0": 13.45,
+   "t1": 17.105,
+   "cue": [
+    "show:prepare",
+    "edge:prepare>cook",
+    "focus:prepare"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "prepare",
+   "t0": 17.355,
+   "t1": 17.959,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "还记得第五十五集的 preparation 吗？",
+   "t0": 18.459,
+   "t1": 21.122,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "烤面包，要用烤箱：",
+   "t0": 21.972,
+   "t1": 23.68,
+   "cue": [
+    "show:oven",
+    "edge:cook>oven",
+    "focus:oven"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "oven",
+   "t0": 23.93,
+   "t1": 24.386,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "烤好了，记得关掉：",
+   "t0": 25.486,
+   "t1": 27.136,
+   "cue": [
+    "show:turnoff",
+    "edge:oven>turnoff",
+    "focus:turnoff"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "turn off",
+   "t0": 27.386,
+   "t1": 28.043,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "打开，是",
+   "t0": 28.543,
+   "t1": 29.645,
+   "cue": [
+    "alt:turnoff"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "turn on",
+   "t0": 29.895,
+   "t1": 30.527,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "煮汤，要用锅：",
+   "t0": 31.627,
+   "t1": 33.009,
+   "cue": [
+    "show:pot",
+    "edge:cook>pot",
+    "focus:pot"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "pot",
+   "t0": 33.259,
+   "t1": 33.714,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "水咕嘟咕嘟煮开了：",
+   "t0": 34.814,
+   "t1": 36.407,
+   "cue": [
+    "show:boil",
+    "edge:pot>boil",
+    "focus:boil"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "boil",
+   "t0": 36.657,
+   "t1": 37.116,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "锅上有一个盖子：",
+   "t0": 38.216,
+   "t1": 39.472,
+   "cue": [
+    "show:lid",
+    "edge:pot>lid",
+    "focus:lid"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "lid",
+   "t0": 39.722,
+   "t1": 40.138,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "把盖子盖上，是",
+   "t0": 41.238,
+   "t1": 42.825,
+   "cue": [
+    "show:cover",
+    "edge:lid>cover",
+    "focus:cover"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "cover",
+   "t0": 43.075,
+   "t1": 43.506,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Cover the pot with the lid.",
+   "t0": 44.006,
+   "t1": 45.413,
+   "cue": [
+    "focus:cover,lid,pot"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "装油和醋的瓶子：",
+   "t0": 46.513,
+   "t1": 47.907,
+   "cue": [
+    "show:bottle",
+    "edge:cook>bottle",
+    "focus:bottle"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "bottle",
+   "t0": 48.157,
+   "t1": 48.601,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "瓶子上拧着瓶盖。还记得第十集的鸭舌帽吗？同一个词！",
+   "t0": 49.701,
+   "t1": 55.381,
+   "cue": [
+    "show:cap",
+    "edge:bottle>cap",
+    "focus:cap"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "cap",
+   "t0": 55.631,
+   "t1": 56.013,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "把瓶子装满水：",
+   "t0": 57.113,
+   "t1": 58.421,
+   "cue": [
+    "show:fill",
+    "edge:bottle>fill",
+    "focus:fill"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "fill",
+   "t0": 58.671,
+   "t1": 59.055,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Fill the bottle with water.",
+   "t0": 59.555,
+   "t1": 60.917,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "饭做好了！中国人用筷子吃饭：",
+   "t0": 62.017,
+   "t1": 65.03,
+   "cue": [
+    "show:chopsticks",
+    "edge:cook>chopsticks",
+    "focus:chopsticks"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "chopsticks",
+   "t0": 65.28,
+   "t1": 66.129,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "筷子是一双，所以总有 s。",
+   "t0": 66.629,
+   "t1": 69.013,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "盛饭的碗：",
+   "t0": 69.863,
+   "t1": 70.741,
+   "cue": [
+    "show:bowl",
+    "edge:chopsticks>bowl",
+    "focus:bowl"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "bowl",
+   "t0": 70.991,
+   "t1": 71.374,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "西餐用刀：",
+   "t0": 72.474,
+   "t1": 73.392,
+   "cue": [
+    "show:knife",
+    "edge:chopsticks>knife",
+    "focus:knife"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "knife",
+   "t0": 73.642,
+   "t1": 74.157,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "k 不发音。很多把刀，f 变成 v e s：",
+   "t0": 74.657,
+   "t1": 78.858,
+   "cue": [
+    "plural:knife"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "knives",
+   "t0": 79.108,
+   "t1": 79.676,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "还有叉子：",
+   "t0": 80.776,
+   "t1": 81.634,
+   "cue": [
+    "show:fork",
+    "edge:chopsticks>fork",
+    "focus:fork"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "fork",
+   "t0": 81.884,
+   "t1": 82.318,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 83.418,
+   "t1": 86.669,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "cook",
+   "t0": 87.519,
+   "t1": 87.972,
+   "cue": [
+    "focus:cook"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "prepare",
+   "t0": 89.072,
+   "t1": 89.676,
+   "cue": [
+    "focus:prepare"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "oven",
+   "t0": 90.776,
+   "t1": 91.231,
+   "cue": [
+    "focus:oven"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "turn off",
+   "t0": 92.331,
+   "t1": 92.988,
+   "cue": [
+    "focus:turnoff"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "pot",
+   "t0": 94.088,
+   "t1": 94.543,
+   "cue": [
+    "focus:pot"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "boil",
+   "t0": 95.643,
+   "t1": 96.101,
+   "cue": [
+    "focus:boil"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "lid",
+   "t0": 97.201,
+   "t1": 97.617,
+   "cue": [
+    "focus:lid"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "cover",
+   "t0": 98.717,
+   "t1": 99.147,
+   "cue": [
+    "focus:cover"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "bottle",
+   "t0": 100.247,
+   "t1": 100.692,
+   "cue": [
+    "focus:bottle"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "cap",
+   "t0": 101.792,
+   "t1": 102.174,
+   "cue": [
+    "focus:cap"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "fill",
+   "t0": 103.274,
+   "t1": 103.658,
+   "cue": [
+    "focus:fill"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "chopsticks",
+   "t0": 104.758,
+   "t1": 105.606,
+   "cue": [
+    "focus:chopsticks"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "bowl",
+   "t0": 106.706,
+   "t1": 107.089,
+   "cue": [
+    "focus:bowl"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "knife, knives",
+   "t0": 108.189,
+   "t1": 109.426,
+   "cue": [
+    "focus:knife"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "fork",
+   "t0": 110.526,
+   "t1": 110.96,
+   "cue": [
+    "focus:fork"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "zh",
+   "text": "太棒了！帮爸爸妈妈摆一摆碗筷吧。小提示：刀和火都很危险，一定要大人陪着哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 112.06,
+   "t1": 124.213,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "cook": [
+   0.25,
+   0.704
+  ],
+  "prepare": [
+   0.954,
+   1.557
+  ],
+  "oven": [
+   1.807,
+   2.263
+  ],
+  "turnoff": [
+   2.513,
+   3.17
+  ],
+  "turnoff:alt": [
+   3.42,
+   4.052
+  ],
+  "pot": [
+   4.302,
+   4.756
+  ],
+  "boil": [
+   5.006,
+   5.465
+  ],
+  "lid": [
+   5.715,
+   6.131
+  ],
+  "cover": [
+   6.381,
+   6.811
+  ],
+  "bottle": [
+   7.061,
+   7.505
+  ],
+  "cap": [
+   7.755,
+   8.137
+  ],
+  "fill": [
+   8.387,
+   8.771
+  ],
+  "bowl": [
+   9.021,
+   9.403
+  ],
+  "chopsticks": [
+   9.653,
+   10.502
+  ],
+  "knife": [
+   10.752,
+   11.267
+  ],
+  "knife:pl": [
+   11.517,
+   12.085
+  ],
+  "fork": [
+   12.335,
+   12.769
+  ]
+ }
+}

@@ -1,0 +1,616 @@
+{
+ "duration": 117.809,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！搬新家啦！今天，我们来认识家里的家具。",
+   "t0": 0.4,
+   "t1": 6.195,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "furniture",
+   "t0": 6.445,
+   "t1": 7.128,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "高楼里的一套房子，是公寓：",
+   "t0": 8.228,
+   "t1": 10.514,
+   "cue": [
+    "map",
+    "show:apartment",
+    "focus:apartment"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "apartment",
+   "t0": 10.764,
+   "t1": 11.524,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "在英国，常常叫",
+   "t0": 12.024,
+   "t1": 13.665,
+   "cue": [
+    "alt:apartment"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "flat",
+   "t0": 13.915,
+   "t1": 14.455,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "房间四周，是墙：",
+   "t0": 15.555,
+   "t1": 17.241,
+   "cue": [
+    "show:wall",
+    "edge:apartment>wall",
+    "focus:wall"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "wall",
+   "t0": 17.491,
+   "t1": 17.925,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "墙上挂着一面镜子：",
+   "t0": 19.025,
+   "t1": 20.604,
+   "cue": [
+    "show:mirror",
+    "edge:wall>mirror",
+    "focus:mirror"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "mirror",
+   "t0": 20.854,
+   "t1": 21.337,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "墙上还钉着架子：",
+   "t0": 22.437,
+   "t1": 23.87,
+   "cue": [
+    "show:shelf",
+    "edge:wall>shelf",
+    "focus:shelf"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "shelf",
+   "t0": 24.12,
+   "t1": 24.548,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "很多个架子，f 变成 v e s：",
+   "t0": 25.048,
+   "t1": 27.894,
+   "cue": [
+    "plural:shelf"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "shelves",
+   "t0": 28.144,
+   "t1": 28.792,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "还记得 leaf 和 wolf 吗？",
+   "t0": 29.292,
+   "t1": 30.905,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "架子太高，踮起脚才够得到：",
+   "t0": 31.755,
+   "t1": 34.232,
+   "cue": [
+    "show:reach",
+    "edge:reach>shelf",
+    "focus:reach"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "reach",
+   "t0": 34.482,
+   "t1": 34.954,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "屋里摆的桌椅床柜，统称家具：",
+   "t0": 36.054,
+   "t1": 39.009,
+   "cue": [
+    "show:furniture",
+    "edge:apartment>furniture",
+    "focus:furniture"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "furniture",
+   "t0": 39.259,
+   "t1": 39.942,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "家具不能数，不加 s 哦。",
+   "t0": 40.442,
+   "t1": 42.505,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "放书的柜子。书，加上箱子：",
+   "t0": 43.355,
+   "t1": 46.543,
+   "cue": [
+    "show:bookcase",
+    "edge:furniture>bookcase",
+    "focus:bookcase"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "book",
+   "t0": 46.793,
+   "t1": 47.179,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "case",
+   "t0": 47.679,
+   "t1": 48.167,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "bookcase",
+   "t0": 48.667,
+   "t1": 49.396,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "软软的沙发：",
+   "t0": 50.496,
+   "t1": 51.569,
+   "cue": [
+    "show:sofa",
+    "edge:furniture>sofa",
+    "focus:sofa"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "sofa",
+   "t0": 51.819,
+   "t1": 52.407,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "睡觉的床：",
+   "t0": 53.507,
+   "t1": 54.465,
+   "cue": [
+    "show:bed",
+    "edge:furniture>bed",
+    "focus:bed"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "bed",
+   "t0": 54.715,
+   "t1": 55.088,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "床上铺着被子：",
+   "t0": 56.188,
+   "t1": 57.391,
+   "cue": [
+    "show:quilt",
+    "edge:bed>quilt",
+    "focus:quilt"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "quilt",
+   "t0": 57.641,
+   "t1": 58.089,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "可以拉出来的抽屉。拉，加上 e r：",
+   "t0": 59.189,
+   "t1": 62.678,
+   "cue": [
+    "show:drawer",
+    "edge:furniture>drawer",
+    "focus:drawer"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "draw",
+   "t0": 62.928,
+   "t1": 63.332,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "drawer",
+   "t0": 63.832,
+   "t1": 64.308,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "吃饭的桌子：",
+   "t0": 65.408,
+   "t1": 66.415,
+   "cue": [
+    "show:table",
+    "edge:furniture>table",
+    "focus:table"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "table",
+   "t0": 66.665,
+   "t1": 67.144,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "坐的椅子：",
+   "t0": 68.244,
+   "t1": 69.056,
+   "cue": [
+    "show:chair",
+    "edge:table>chair",
+    "focus:chair"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "chair",
+   "t0": 69.306,
+   "t1": 69.732,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "布置一下我的房间吧！",
+   "t0": 70.832,
+   "t1": 72.316,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "The bed is beside the wall.",
+   "t0": 73.166,
+   "t1": 74.719,
+   "cue": [
+    "focus:bed,wall"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "The books are on the shelves.",
+   "t0": 75.219,
+   "t1": 76.756,
+   "cue": [
+    "focus:shelf"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "The chair is under the table.",
+   "t0": 77.256,
+   "t1": 78.724,
+   "cue": [
+    "focus:chair,table"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 79.824,
+   "t1": 83.074,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "apartment, flat",
+   "t0": 83.924,
+   "t1": 85.425,
+   "cue": [
+    "focus:apartment"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "wall",
+   "t0": 86.525,
+   "t1": 86.959,
+   "cue": [
+    "focus:wall"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "mirror",
+   "t0": 88.059,
+   "t1": 88.542,
+   "cue": [
+    "focus:mirror"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "shelf, shelves",
+   "t0": 89.642,
+   "t1": 90.905,
+   "cue": [
+    "focus:shelf"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "reach",
+   "t0": 92.005,
+   "t1": 92.477,
+   "cue": [
+    "focus:reach"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "furniture",
+   "t0": 93.577,
+   "t1": 94.261,
+   "cue": [
+    "focus:furniture"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "bookcase",
+   "t0": 95.361,
+   "t1": 96.09,
+   "cue": [
+    "focus:bookcase"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "sofa",
+   "t0": 97.19,
+   "t1": 97.778,
+   "cue": [
+    "focus:sofa"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "bed",
+   "t0": 98.878,
+   "t1": 99.251,
+   "cue": [
+    "focus:bed"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "quilt",
+   "t0": 100.351,
+   "t1": 100.8,
+   "cue": [
+    "focus:quilt"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "drawer",
+   "t0": 101.9,
+   "t1": 102.375,
+   "cue": [
+    "focus:drawer"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "table",
+   "t0": 103.475,
+   "t1": 103.955,
+   "cue": [
+    "focus:table"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "chair",
+   "t0": 105.055,
+   "t1": 105.481,
+   "cue": [
+    "focus:chair"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！回家看一看，用英语说一说你家有哪些家具吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 106.581,
+   "t1": 115.959,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "apartment": [
+   0.25,
+   1.01
+  ],
+  "apartment:alt": [
+   1.26,
+   1.8
+  ],
+  "wall": [
+   2.05,
+   2.484
+  ],
+  "mirror": [
+   2.734,
+   3.218
+  ],
+  "shelf": [
+   3.468,
+   3.896
+  ],
+  "shelf:pl": [
+   4.146,
+   4.794
+  ],
+  "bookcase": [
+   5.044,
+   5.774
+  ],
+  "reach": [
+   6.024,
+   6.496
+  ],
+  "furniture": [
+   6.746,
+   7.429
+  ],
+  "bed": [
+   7.679,
+   8.053
+  ],
+  "quilt": [
+   8.303,
+   8.751
+  ],
+  "sofa": [
+   9.001,
+   9.589
+  ],
+  "table": [
+   9.839,
+   10.318
+  ],
+  "chair": [
+   10.568,
+   10.994
+  ],
+  "drawer": [
+   11.244,
+   11.72
+  ],
+  "drawer:alt": [
+   11.97,
+   12.374
+  ]
+ }
+}

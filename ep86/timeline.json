@@ -1,0 +1,589 @@
+{
+ "duration": 130.662,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！走出家门，去大自然里看一看吧！",
+   "t0": 0.4,
+   "t1": 4.575,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "nature",
+   "t0": 4.825,
+   "t1": 5.41,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "山川河流、花草树木，都是大自然：",
+   "t0": 6.51,
+   "t1": 9.872,
+   "cue": [
+    "map",
+    "show:nature",
+    "focus:nature"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "nature",
+   "t0": 10.122,
+   "t1": 10.707,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "Nature is full of wonders.",
+   "t0": 11.207,
+   "t1": 12.839,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "在大自然里，我们能发现很多东西。盖子是 cover，加上 d i s，就是揭开盖子，发现：",
+   "t0": 13.939,
+   "t1": 22.24,
+   "cue": [
+    "show:discover",
+    "edge:nature>discover",
+    "focus:discover"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "discover",
+   "t0": 22.49,
+   "t1": 23.151,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "大自然里到处都是奇迹，让人好想知道为什么：",
+   "t0": 24.251,
+   "t1": 28.114,
+   "cue": [
+    "show:wonder",
+    "edge:nature>wonder",
+    "focus:wonder"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "wonder",
+   "t0": 28.364,
+   "t1": 28.901,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "I wonder why the sky is blue.",
+   "t0": 29.401,
+   "t1": 31.15,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "远离城市的乡村。国家，加上旁边：",
+   "t0": 32.25,
+   "t1": 35.925,
+   "cue": [
+    "show:countryside",
+    "edge:nature>countryside",
+    "focus:countryside"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "country",
+   "t0": 36.175,
+   "t1": 36.767,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "side",
+   "t0": 37.267,
+   "t1": 37.8,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "countryside",
+   "t0": 38.3,
+   "t1": 39.142,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "乡村里安安静静的，很宁静。和平，加上 f u l：",
+   "t0": 40.242,
+   "t1": 45.536,
+   "cue": [
+    "show:peaceful",
+    "edge:countryside>peaceful",
+    "focus:peaceful"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "peace",
+   "t0": 45.786,
+   "t1": 46.222,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "peaceful",
+   "t0": 46.722,
+   "t1": 47.348,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "The countryside is very peaceful.",
+   "t0": 47.848,
+   "t1": 49.823,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "弯弯的小河：",
+   "t0": 50.923,
+   "t1": 51.972,
+   "cue": [
+    "show:river",
+    "edge:nature>river",
+    "focus:river"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "river",
+   "t0": 52.222,
+   "t1": 52.672,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "河水流进了湖里：",
+   "t0": 53.772,
+   "t1": 55.202,
+   "cue": [
+    "show:lake",
+    "edge:river>lake",
+    "focus:lake"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "lake",
+   "t0": 55.452,
+   "t1": 55.9,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "比湖大得多得多的，是海洋：",
+   "t0": 57.0,
+   "t1": 59.435,
+   "cue": [
+    "show:ocean",
+    "edge:lake>ocean",
+    "focus:ocean"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "ocean",
+   "t0": 59.685,
+   "t1": 60.232,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "海洋和陆地交界的地方，是海岸：",
+   "t0": 61.332,
+   "t1": 64.125,
+   "cue": [
+    "show:coast",
+    "edge:ocean>coast",
+    "focus:coast"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "coast",
+   "t0": 64.375,
+   "t1": 64.819,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "很少下雨、到处是沙子的，是沙漠：",
+   "t0": 65.919,
+   "t1": 69.103,
+   "cue": [
+    "show:desert",
+    "edge:coast>desert",
+    "focus:desert"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "desert",
+   "t0": 69.353,
+   "t1": 69.915,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "小心，别和甜点 dessert 搞混了，甜点有两个 s。",
+   "t0": 70.415,
+   "t1": 74.703,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "高高的大山：",
+   "t0": 75.553,
+   "t1": 76.566,
+   "cue": [
+    "show:mountain",
+    "focus:mountain"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "mountain",
+   "t0": 76.816,
+   "t1": 77.397,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "矮一点的小山：",
+   "t0": 78.497,
+   "t1": 79.635,
+   "cue": [
+    "show:hill",
+    "edge:mountain>hill",
+    "focus:hill"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "hill",
+   "t0": 79.885,
+   "t1": 80.256,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "长满大树的森林：",
+   "t0": 81.356,
+   "t1": 82.816,
+   "cue": [
+    "show:forest",
+    "edge:hill>forest",
+    "focus:forest"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "forest",
+   "t0": 83.066,
+   "t1": 83.626,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "还记得第四十六集的树林 woods 吗？森林比树林更大。",
+   "t0": 84.126,
+   "t1": 89.014,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "大山和小山：",
+   "t0": 89.864,
+   "t1": 91.016,
+   "cue": [
+    "focus:mountain,hill"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "mountain",
+   "t0": 91.266,
+   "t1": 91.847,
+   "cue": [
+    "focus:mountain"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "hill",
+   "t0": 92.347,
+   "t1": 92.718,
+   "cue": [
+    "focus:hill"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 93.817,
+   "t1": 97.068,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "nature",
+   "t0": 97.918,
+   "t1": 98.503,
+   "cue": [
+    "focus:nature"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "discover",
+   "t0": 99.603,
+   "t1": 100.264,
+   "cue": [
+    "focus:discover"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "wonder",
+   "t0": 101.364,
+   "t1": 101.902,
+   "cue": [
+    "focus:wonder"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "countryside",
+   "t0": 103.002,
+   "t1": 103.844,
+   "cue": [
+    "focus:countryside"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "peaceful",
+   "t0": 104.944,
+   "t1": 105.57,
+   "cue": [
+    "focus:peaceful"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "river",
+   "t0": 106.67,
+   "t1": 107.12,
+   "cue": [
+    "focus:river"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "lake",
+   "t0": 108.22,
+   "t1": 108.667,
+   "cue": [
+    "focus:lake"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "ocean",
+   "t0": 109.767,
+   "t1": 110.314,
+   "cue": [
+    "focus:ocean"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "coast",
+   "t0": 111.414,
+   "t1": 111.859,
+   "cue": [
+    "focus:coast"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "desert",
+   "t0": 112.959,
+   "t1": 113.521,
+   "cue": [
+    "focus:desert"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "mountain",
+   "t0": 114.621,
+   "t1": 115.202,
+   "cue": [
+    "focus:mountain"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "hill",
+   "t0": 116.302,
+   "t1": 116.672,
+   "cue": [
+    "focus:hill"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "forest",
+   "t0": 117.772,
+   "t1": 118.333,
+   "cue": [
+    "focus:forest"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "zh",
+   "text": "太棒了！周末去爬爬山、看看湖，好好享受大自然吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 119.433,
+   "t1": 128.812,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "nature": [
+   0.25,
+   0.835
+  ],
+  "peaceful": [
+   1.085,
+   1.711
+  ],
+  "peaceful:alt": [
+   1.961,
+   2.397
+  ],
+  "discover": [
+   2.647,
+   3.308
+  ],
+  "discover:alt": [
+   3.558,
+   3.988
+  ],
+  "wonder": [
+   4.238,
+   4.776
+  ],
+  "countryside": [
+   5.026,
+   5.868
+  ],
+  "river": [
+   6.118,
+   6.568
+  ],
+  "lake": [
+   6.818,
+   7.265
+  ],
+  "ocean": [
+   7.515,
+   8.063
+  ],
+  "coast": [
+   8.313,
+   8.757
+  ],
+  "desert": [
+   9.007,
+   9.569
+  ],
+  "mountain": [
+   9.819,
+   10.4
+  ],
+  "hill": [
+   10.65,
+   11.02
+  ],
+  "forest": [
+   11.27,
+   11.831
+  ]
+ }
+}
