@@ -1,0 +1,722 @@
+{
+ "duration": 140.194,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！还记得第五十四集的形容词吗？今天，我们再学一些形容动物的词。",
+   "t0": 0.4,
+   "t1": 7.853,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "动物们：",
+   "t0": 8.703,
+   "t1": 9.252,
+   "cue": [
+    "map",
+    "show:animals",
+    "focus:animals"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "animals",
+   "t0": 9.502,
+   "t1": 10.185,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "中国的熊猫：",
+   "t0": 11.285,
+   "t1": 12.23,
+   "cue": [
+    "show:panda",
+    "edge:animals>panda",
+    "focus:panda"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "panda",
+   "t0": 12.48,
+   "t1": 13.0,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "熊猫全世界都很有名。著名的，英语是",
+   "t0": 14.1,
+   "t1": 18.251,
+   "cue": [
+    "show:famous",
+    "edge:panda>famous",
+    "focus:famous"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "famous",
+   "t0": 18.501,
+   "t1": 19.088,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "它是很特别的动物：",
+   "t0": 20.188,
+   "t1": 21.634,
+   "cue": [
+    "show:special",
+    "edge:panda>special",
+    "focus:special"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "special",
+   "t0": 21.884,
+   "t1": 22.52,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "Pandas are famous because they are special.",
+   "t0": 23.02,
+   "t1": 25.39,
+   "cue": [
+    "focus:panda,famous,special"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "熊猫是我们国家的宝贝。宝藏、珍宝，英语是",
+   "t0": 26.49,
+   "t1": 31.112,
+   "cue": [
+    "show:treasure",
+    "edge:panda>treasure",
+    "focus:treasure"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "treasure",
+   "t0": 31.362,
+   "t1": 31.911,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "聪明的猴子：",
+   "t0": 33.011,
+   "t1": 34.003,
+   "cue": [
+    "show:monkey",
+    "edge:animals>monkey",
+    "focus:monkey"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "monkey",
+   "t0": 34.253,
+   "t1": 34.84,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "猴子会想出新办法，很有创造力：",
+   "t0": 35.94,
+   "t1": 38.709,
+   "cue": [
+    "show:creative",
+    "edge:monkey>creative",
+    "focus:creative"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "creative",
+   "t0": 38.959,
+   "t1": 39.531,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "狼：",
+   "t0": 40.631,
+   "t1": 40.896,
+   "cue": [
+    "show:wolf",
+    "focus:wolf"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "wolf",
+   "t0": 41.146,
+   "t1": 41.644,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "狼静静地等猎物，很有耐心：",
+   "t0": 42.744,
+   "t1": 45.201,
+   "cue": [
+    "show:patient",
+    "edge:wolf>patient",
+    "focus:patient"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "patient",
+   "t0": 45.451,
+   "t1": 46.054,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "前面加上 i m，就是没耐心：",
+   "t0": 47.154,
+   "t1": 49.486,
+   "cue": [
+    "show:impatient",
+    "edge:patient>impatient",
+    "focus:impatient"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "impatient",
+   "t0": 49.736,
+   "t1": 50.527,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "就像 un 一样，im 也让意思反过来。",
+   "t0": 51.027,
+   "t1": 53.854,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "胖乎乎的猪：",
+   "t0": 54.704,
+   "t1": 55.739,
+   "cue": [
+    "show:pig",
+    "focus:pig"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "pig",
+   "t0": 55.989,
+   "t1": 56.351,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "有人说猪很丑，英语是",
+   "t0": 57.451,
+   "t1": 59.811,
+   "cue": [
+    "show:ugly",
+    "edge:pig>ugly",
+    "focus:ugly"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "ugly",
+   "t0": 60.061,
+   "t1": 60.574,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "其实每种动物都有自己的美哦。",
+   "t0": 61.074,
+   "t1": 63.574,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "小鸟：",
+   "t0": 64.424,
+   "t1": 64.993,
+   "cue": [
+    "show:bird",
+    "focus:bird"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "bird",
+   "t0": 65.243,
+   "t1": 65.604,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "羽毛五颜六色，真漂亮：",
+   "t0": 66.704,
+   "t1": 68.83,
+   "cue": [
+    "show:pretty",
+    "edge:bird>pretty",
+    "focus:pretty"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "pretty",
+   "t0": 69.08,
+   "t1": 69.516,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "比漂亮更美，是美丽的。美，加上 f u l：",
+   "t0": 70.616,
+   "t1": 75.184,
+   "cue": [
+    "show:beautiful",
+    "edge:pretty>beautiful",
+    "focus:beautiful"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "beauty",
+   "t0": 75.434,
+   "t1": 75.883,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "beautiful",
+   "t0": 76.383,
+   "t1": 76.999,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "夜里的猫头鹰：",
+   "t0": 78.099,
+   "t1": 79.234,
+   "cue": [
+    "show:owl",
+    "focus:owl"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "owl",
+   "t0": 79.484,
+   "t1": 79.821,
+   "cue": []
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "它飞起来静悄悄的：",
+   "t0": 80.921,
+   "t1": 82.434,
+   "cue": [
+    "show:silent",
+    "edge:owl>silent",
+    "focus:silent"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "silent",
+   "t0": 82.684,
+   "t1": 83.349,
+   "cue": []
+  },
+  {
+   "seg": 18,
+   "lang": "zh",
+   "text": "人们常说猫头鹰很有智慧：",
+   "t0": 84.449,
+   "t1": 86.741,
+   "cue": [
+    "show:wise",
+    "edge:silent>wise",
+    "focus:wise"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "wise",
+   "t0": 86.991,
+   "t1": 87.579,
+   "cue": []
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Owls are wise and beautiful.",
+   "t0": 88.079,
+   "t1": 89.67,
+   "cue": []
+  },
+  {
+   "seg": 19,
+   "lang": "zh",
+   "text": "有耐心和没耐心：",
+   "t0": 90.77,
+   "t1": 92.246,
+   "cue": [
+    "focus:patient,impatient"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "patient",
+   "t0": 92.496,
+   "t1": 93.099,
+   "cue": [
+    "focus:patient"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "impatient",
+   "t0": 93.599,
+   "t1": 94.39,
+   "cue": [
+    "focus:impatient"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 95.49,
+   "t1": 98.74,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "animals",
+   "t0": 99.59,
+   "t1": 100.274,
+   "cue": [
+    "focus:animals"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "panda",
+   "t0": 101.374,
+   "t1": 101.894,
+   "cue": [
+    "focus:panda"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "famous",
+   "t0": 102.994,
+   "t1": 103.58,
+   "cue": [
+    "focus:famous"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "special",
+   "t0": 104.68,
+   "t1": 105.316,
+   "cue": [
+    "focus:special"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "treasure",
+   "t0": 106.416,
+   "t1": 106.965,
+   "cue": [
+    "focus:treasure"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "monkey",
+   "t0": 108.065,
+   "t1": 108.652,
+   "cue": [
+    "focus:monkey"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "creative",
+   "t0": 109.752,
+   "t1": 110.324,
+   "cue": [
+    "focus:creative"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "wolf",
+   "t0": 111.424,
+   "t1": 111.922,
+   "cue": [
+    "focus:wolf"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "patient",
+   "t0": 113.022,
+   "t1": 113.625,
+   "cue": [
+    "focus:patient"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "impatient",
+   "t0": 114.725,
+   "t1": 115.516,
+   "cue": [
+    "focus:impatient"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "pig",
+   "t0": 116.616,
+   "t1": 116.979,
+   "cue": [
+    "focus:pig"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "ugly",
+   "t0": 118.079,
+   "t1": 118.592,
+   "cue": [
+    "focus:ugly"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "en",
+   "text": "bird",
+   "t0": 119.692,
+   "t1": 120.053,
+   "cue": [
+    "focus:bird"
+   ]
+  },
+  {
+   "seg": 34,
+   "lang": "en",
+   "text": "pretty",
+   "t0": 121.153,
+   "t1": 121.589,
+   "cue": [
+    "focus:pretty"
+   ]
+  },
+  {
+   "seg": 35,
+   "lang": "en",
+   "text": "beautiful",
+   "t0": 122.689,
+   "t1": 123.305,
+   "cue": [
+    "focus:beautiful"
+   ]
+  },
+  {
+   "seg": 36,
+   "lang": "en",
+   "text": "owl",
+   "t0": 124.405,
+   "t1": 124.742,
+   "cue": [
+    "focus:owl"
+   ]
+  },
+  {
+   "seg": 37,
+   "lang": "en",
+   "text": "silent",
+   "t0": 125.842,
+   "t1": 126.506,
+   "cue": [
+    "focus:silent"
+   ]
+  },
+  {
+   "seg": 38,
+   "lang": "en",
+   "text": "wise",
+   "t0": 127.606,
+   "t1": 128.194,
+   "cue": [
+    "focus:wise"
+   ]
+  },
+  {
+   "seg": 39,
+   "lang": "zh",
+   "text": "太棒了！用英语说一说你最喜欢的动物有什么特点吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 129.294,
+   "t1": 138.344,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "animals": [
+   0.25,
+   0.934
+  ],
+  "panda": [
+   1.184,
+   1.704
+  ],
+  "famous": [
+   1.954,
+   2.54
+  ],
+  "special": [
+   2.79,
+   3.426
+  ],
+  "treasure": [
+   3.676,
+   4.225
+  ],
+  "monkey": [
+   4.475,
+   5.063
+  ],
+  "creative": [
+   5.313,
+   5.884
+  ],
+  "wolf": [
+   6.134,
+   6.632
+  ],
+  "patient": [
+   6.882,
+   7.485
+  ],
+  "impatient": [
+   7.735,
+   8.526
+  ],
+  "pig": [
+   8.776,
+   9.139
+  ],
+  "ugly": [
+   9.389,
+   9.902
+  ],
+  "bird": [
+   10.152,
+   10.514
+  ],
+  "pretty": [
+   10.764,
+   11.199
+  ],
+  "beautiful": [
+   11.449,
+   12.065
+  ],
+  "beautiful:alt": [
+   12.315,
+   12.764
+  ],
+  "owl": [
+   13.014,
+   13.351
+  ],
+  "silent": [
+   13.601,
+   14.265
+  ],
+  "wise": [
+   14.515,
+   15.103
+  ]
+ }
+}

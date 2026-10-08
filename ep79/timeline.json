@@ -1,0 +1,548 @@
+{
+ "duration": 112.304,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！做错了事，怎么办才对呢？今天，我们来讲一个小故事。",
+   "t0": 0.4,
+   "t1": 7.305,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "manners",
+   "t0": 7.555,
+   "t1": 8.199,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "小明在院子里踢球：",
+   "t0": 9.299,
+   "t1": 10.941,
+   "cue": [
+    "map",
+    "show:kick",
+    "focus:kick"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "kick",
+   "t0": 11.191,
+   "t1": 11.616,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "砰！球撞到了邻居家的窗户：",
+   "t0": 12.716,
+   "t1": 15.627,
+   "cue": [
+    "show:knock",
+    "edge:kick>knock",
+    "focus:knock"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "knock",
+   "t0": 15.877,
+   "t1": 16.346,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "开头的 k 不发音哦。它也是敲门的敲。",
+   "t0": 16.846,
+   "t1": 20.329,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "哗啦，窗户被打破了：",
+   "t0": 21.179,
+   "t1": 23.018,
+   "cue": [
+    "show:break",
+    "edge:knock>break",
+    "focus:break"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "break",
+   "t0": 23.268,
+   "t1": 23.714,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "已经打破了，要说",
+   "t0": 24.214,
+   "t1": 25.981,
+   "cue": [
+    "alt:break"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "broke",
+   "t0": 26.231,
+   "t1": 26.668,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "这时候，怎么做才是正确的呢？正确的、恰当的，英语是",
+   "t0": 27.768,
+   "t1": 33.357,
+   "cue": [
+    "show:proper",
+    "edge:break>proper",
+    "focus:proper"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "proper",
+   "t0": 33.607,
+   "t1": 34.122,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "不要避开邻居：",
+   "t0": 35.222,
+   "t1": 36.366,
+   "cue": [
+    "show:avoid",
+    "edge:proper>avoid",
+    "focus:avoid"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "avoid",
+   "t0": 36.616,
+   "t1": 37.164,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "也不要躲起来：",
+   "t0": 38.264,
+   "t1": 39.304,
+   "cue": [
+    "show:hide",
+    "edge:avoid>hide",
+    "focus:hide"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "hide",
+   "t0": 39.554,
+   "t1": 39.937,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "更不能偷偷离开：",
+   "t0": 41.037,
+   "t1": 42.347,
+   "cue": [
+    "show:leave",
+    "edge:hide>leave",
+    "focus:leave"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "leave",
+   "t0": 42.597,
+   "t1": 43.053,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "应该勇敢地留下来：",
+   "t0": 44.153,
+   "t1": 45.648,
+   "cue": [
+    "show:stay",
+    "edge:proper>stay",
+    "focus:stay"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "stay",
+   "t0": 45.898,
+   "t1": 46.446,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "向邻居道歉：",
+   "t0": 47.546,
+   "t1": 48.657,
+   "cue": [
+    "show:apologize",
+    "edge:stay>apologize",
+    "focus:apologize"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "apologize",
+   "t0": 48.907,
+   "t1": 49.92,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "I'm sorry.",
+   "t0": 50.42,
+   "t1": 51.147,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "I will stay and apologize.",
+   "t0": 51.647,
+   "t1": 53.41,
+   "cue": [
+    "focus:stay,apologize"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "还要帮邻居换一块新玻璃。替换、赔，英语是",
+   "t0": 54.51,
+   "t1": 59.27,
+   "cue": [
+    "show:replace",
+    "edge:apologize>replace",
+    "focus:replace"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "replace",
+   "t0": 59.52,
+   "t1": 60.24,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "邻居笑着说：没关系，我原谅你啦。原谅，英语是",
+   "t0": 61.34,
+   "t1": 66.509,
+   "cue": [
+    "show:forgive",
+    "edge:apologize>forgive",
+    "focus:forgive"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "forgive",
+   "t0": 66.759,
+   "t1": 67.34,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "这三件事不要做：",
+   "t0": 68.44,
+   "t1": 69.8,
+   "cue": [
+    "focus:avoid,hide,leave"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "avoid",
+   "t0": 70.05,
+   "t1": 70.598,
+   "cue": [
+    "focus:avoid"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "hide",
+   "t0": 71.098,
+   "t1": 71.481,
+   "cue": [
+    "focus:hide"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "leave",
+   "t0": 71.981,
+   "t1": 72.437,
+   "cue": [
+    "focus:leave"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "这三件事要做：",
+   "t0": 73.537,
+   "t1": 74.742,
+   "cue": [
+    "focus:stay,apologize,replace"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "stay",
+   "t0": 74.992,
+   "t1": 75.54,
+   "cue": [
+    "focus:stay"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "apologize",
+   "t0": 76.04,
+   "t1": 77.053,
+   "cue": [
+    "focus:apologize"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "replace",
+   "t0": 77.553,
+   "t1": 78.273,
+   "cue": [
+    "focus:replace"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 79.373,
+   "t1": 82.623,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "kick",
+   "t0": 83.473,
+   "t1": 83.898,
+   "cue": [
+    "focus:kick"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "knock",
+   "t0": 84.998,
+   "t1": 85.467,
+   "cue": [
+    "focus:knock"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "break, broke",
+   "t0": 86.567,
+   "t1": 87.662,
+   "cue": [
+    "focus:break"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "proper",
+   "t0": 88.762,
+   "t1": 89.277,
+   "cue": [
+    "focus:proper"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "avoid",
+   "t0": 90.377,
+   "t1": 90.925,
+   "cue": [
+    "focus:avoid"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "hide",
+   "t0": 92.025,
+   "t1": 92.407,
+   "cue": [
+    "focus:hide"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "leave",
+   "t0": 93.507,
+   "t1": 93.964,
+   "cue": [
+    "focus:leave"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "stay",
+   "t0": 95.064,
+   "t1": 95.612,
+   "cue": [
+    "focus:stay"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "apologize",
+   "t0": 96.712,
+   "t1": 97.725,
+   "cue": [
+    "focus:apologize"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "replace",
+   "t0": 98.825,
+   "t1": 99.545,
+   "cue": [
+    "focus:replace"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "forgive",
+   "t0": 100.645,
+   "t1": 101.226,
+   "cue": [
+    "focus:forgive"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "zh",
+   "text": "太棒了！做错了事，勇敢地说一声对不起吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 102.326,
+   "t1": 110.454,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "kick": [
+   0.25,
+   0.675
+  ],
+  "knock": [
+   0.925,
+   1.393
+  ],
+  "break": [
+   1.643,
+   2.089
+  ],
+  "break:alt": [
+   2.339,
+   2.776
+  ],
+  "proper": [
+   3.026,
+   3.541
+  ],
+  "avoid": [
+   3.791,
+   4.339
+  ],
+  "hide": [
+   4.589,
+   4.971
+  ],
+  "leave": [
+   5.221,
+   5.678
+  ],
+  "stay": [
+   5.928,
+   6.475
+  ],
+  "apologize": [
+   6.725,
+   7.739
+  ],
+  "forgive": [
+   7.989,
+   8.57
+  ],
+  "replace": [
+   8.82,
+   9.54
+  ]
+ }
+}

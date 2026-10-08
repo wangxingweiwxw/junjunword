@@ -1,0 +1,446 @@
+{
+ "duration": 104.596,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！拿出指南针，我们来学东南西北！",
+   "t0": 0.4,
+   "t1": 4.843,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "north, south, east, west",
+   "t0": 5.093,
+   "t1": 7.555,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "指南针的红针指向北方：",
+   "t0": 8.655,
+   "t1": 10.835,
+   "cue": [
+    "map",
+    "show:north",
+    "focus:north"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "north",
+   "t0": 11.085,
+   "t1": 11.426,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "北的对面，是南：",
+   "t0": 12.526,
+   "t1": 14.138,
+   "cue": [
+    "show:south",
+    "focus:south"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "south",
+   "t0": 14.388,
+   "t1": 14.774,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "最后的 t h，舌尖放在牙齿中间。",
+   "t0": 15.274,
+   "t1": 18.439,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "太阳升起的地方，是东：",
+   "t0": 19.289,
+   "t1": 21.29,
+   "cue": [
+    "show:east",
+    "focus:east"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "east",
+   "t0": 21.54,
+   "t1": 21.899,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "太阳落下的地方，是西：",
+   "t0": 22.999,
+   "t1": 25.063,
+   "cue": [
+    "show:west",
+    "focus:west"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "west",
+   "t0": 25.313,
+   "t1": 25.794,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "中文说东南西北，英语常常说：",
+   "t0": 26.894,
+   "t1": 29.698,
+   "cue": [
+    "focus:north,south,east,west"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "north, south, east, west",
+   "t0": 29.948,
+   "t1": 32.411,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "在后面加上 e r n，就变成了形容词。北方的：",
+   "t0": 33.511,
+   "t1": 38.076,
+   "cue": [
+    "show:northern",
+    "edge:north>northern",
+    "focus:northern"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "northern",
+   "t0": 38.326,
+   "t1": 38.934,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "南方的，要小心，读音变成了 suh：",
+   "t0": 40.034,
+   "t1": 43.039,
+   "cue": [
+    "show:southern",
+    "edge:south>southern",
+    "focus:southern"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "southern",
+   "t0": 43.289,
+   "t1": 43.879,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "东方的：",
+   "t0": 44.979,
+   "t1": 45.639,
+   "cue": [
+    "show:eastern",
+    "edge:east>eastern",
+    "focus:eastern"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "eastern",
+   "t0": 45.889,
+   "t1": 46.506,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "西方的：",
+   "t0": 47.606,
+   "t1": 48.3,
+   "cue": [
+    "show:western",
+    "edge:west>western",
+    "focus:western"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "western",
+   "t0": 48.55,
+   "t1": 49.212,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "指路的时候，先做一件事，然后做另一件事。然后，英语是",
+   "t0": 50.312,
+   "t1": 56.212,
+   "cue": [
+    "show:then",
+    "focus:then"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "then",
+   "t0": 56.462,
+   "t1": 56.876,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "常常说",
+   "t0": 57.376,
+   "t1": 58.117,
+   "cue": [
+    "alt:then"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "and then",
+   "t0": 58.367,
+   "t1": 58.95,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Go north and then go east.",
+   "t0": 59.45,
+   "t1": 61.086,
+   "cue": [
+    "focus:north,east,then"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "还记得第五十三集的转弯 turn 吗？我们来指路：",
+   "t0": 62.186,
+   "t1": 66.427,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "Go north.",
+   "t0": 67.277,
+   "t1": 67.814,
+   "cue": [
+    "focus:north"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "Then turn east at the supermarket.",
+   "t0": 68.314,
+   "t1": 70.321,
+   "cue": [
+    "focus:east,then"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "Go southwest for two kilometers.",
+   "t0": 70.821,
+   "t1": 73.012,
+   "cue": [
+    "focus:south,west"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 74.112,
+   "t1": 77.363,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "north",
+   "t0": 78.213,
+   "t1": 78.554,
+   "cue": [
+    "focus:north"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "south",
+   "t0": 79.654,
+   "t1": 80.04,
+   "cue": [
+    "focus:south"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "east",
+   "t0": 81.14,
+   "t1": 81.499,
+   "cue": [
+    "focus:east"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "west",
+   "t0": 82.599,
+   "t1": 83.08,
+   "cue": [
+    "focus:west"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "northern",
+   "t0": 84.18,
+   "t1": 84.787,
+   "cue": [
+    "focus:northern"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "southern",
+   "t0": 85.887,
+   "t1": 86.478,
+   "cue": [
+    "focus:southern"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "eastern",
+   "t0": 87.578,
+   "t1": 88.195,
+   "cue": [
+    "focus:eastern"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "western",
+   "t0": 89.295,
+   "t1": 89.957,
+   "cue": [
+    "focus:western"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "then, and then",
+   "t0": 91.057,
+   "t1": 92.292,
+   "cue": [
+    "focus:then"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "zh",
+   "text": "太棒了！看看你家的窗户朝哪个方向，用英语说一说吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 93.392,
+   "t1": 102.746,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "north": [
+   0.25,
+   0.591
+  ],
+  "south": [
+   0.841,
+   1.227
+  ],
+  "east": [
+   1.477,
+   1.837
+  ],
+  "west": [
+   2.087,
+   2.567
+  ],
+  "northern": [
+   2.817,
+   3.425
+  ],
+  "southern": [
+   3.675,
+   4.265
+  ],
+  "eastern": [
+   4.515,
+   5.132
+  ],
+  "western": [
+   5.382,
+   6.044
+  ],
+  "then": [
+   6.294,
+   6.708
+  ],
+  "then:alt": [
+   6.958,
+   7.541
+  ]
+ }
+}

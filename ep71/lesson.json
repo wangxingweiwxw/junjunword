@@ -1,0 +1,655 @@
+{
+ "id": "ep71",
+ "title": "maths",
+ "titleZh": "数学",
+ "episode": "第 71 集",
+ "titleIcon": "add",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "thousand",
+   "word": "thousand",
+   "ipa": "/ˈθaʊznd/",
+   "zh": "千",
+   "icon": "thousand",
+   "kind": "num",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "million",
+   "word": "million",
+   "ipa": "/ˈmɪljən/",
+   "zh": "百万",
+   "icon": "million",
+   "kind": "num",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "add",
+   "word": "add",
+   "ipa": "/æd/",
+   "zh": "加",
+   "icon": "add",
+   "kind": "verb",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "total",
+   "word": "total",
+   "ipa": "/ˈtoʊtl/",
+   "zh": "总数；总共",
+   "icon": "total",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "double",
+   "word": "double",
+   "ipa": "/ˈdʌbl/",
+   "zh": "加倍；两倍",
+   "icon": "double",
+   "kind": "verb",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "reduce",
+   "word": "reduce",
+   "ipa": "/rɪˈduːs/",
+   "zh": "减少",
+   "icon": "reduce",
+   "kind": "verb",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "divide",
+   "word": "divide",
+   "ipa": "/dɪˈvaɪd/",
+   "zh": "除；分开",
+   "icon": "divide",
+   "kind": "verb",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "percent",
+   "word": "percent",
+   "ipa": "/pərˈsent/",
+   "zh": "百分之……",
+   "icon": "percent",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "about",
+   "word": "about",
+   "ipa": "/əˈbaʊt/",
+   "zh": "大约",
+   "icon": "about",
+   "kind": "adv",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "once",
+   "word": "once",
+   "ipa": "/wʌns/",
+   "zh": "一次",
+   "icon": "once",
+   "kind": "adv",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "twice",
+   "word": "twice",
+   "ipa": "/twaɪs/",
+   "zh": "两次",
+   "icon": "twice",
+   "kind": "adv",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "dozen",
+   "word": "dozen",
+   "ipa": "/ˈdʌzn/",
+   "zh": "一打（十二个）",
+   "icon": "dozen",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "thousand",
+   "to": "million",
+   "label": "×1000"
+  },
+  {
+   "from": "million",
+   "to": "about",
+   "dashed": true
+  },
+  {
+   "from": "add",
+   "to": "total",
+   "label": "得到"
+  },
+  {
+   "from": "add",
+   "to": "double",
+   "dashed": true
+  },
+  {
+   "from": "reduce",
+   "to": "divide",
+   "dashed": true
+  },
+  {
+   "from": "divide",
+   "to": "percent",
+   "dashed": true
+  },
+  {
+   "from": "once",
+   "to": "twice"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！数学课开始啦！今天，我们用英语来算一算。"
+    },
+    {
+     "en": "maths"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:thousand",
+    "focus:thousand"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第二十三集的一百吗？十个一百，就是一千："
+    },
+    {
+     "en": "thousand"
+    },
+    {
+     "en": "one thousand"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:million",
+    "edge:thousand>million",
+    "focus:million"
+   ],
+   "parts": [
+    {
+     "zh": "一千个一千，就是一百万："
+    },
+    {
+     "en": "million"
+    },
+    {
+     "en": "one million"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:about",
+    "edge:million>about",
+    "focus:about"
+   ],
+   "parts": [
+    {
+     "zh": "九百九十九乘以九百九十九，大约是一百万。大约，英语是"
+    },
+    {
+     "en": "about"
+    },
+    {
+     "en": "about a million"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:add",
+    "focus:add"
+   ],
+   "parts": [
+    {
+     "zh": "加法的加，是"
+    },
+    {
+     "en": "add"
+    },
+    {
+     "en": "One thousand add one thousand is two thousand."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:total",
+    "edge:add>total",
+    "focus:total"
+   ],
+   "parts": [
+    {
+     "zh": "加起来的总数，是"
+    },
+    {
+     "en": "total"
+    },
+    {
+     "en": "The total is seven."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:double",
+    "edge:add>double",
+    "focus:double"
+   ],
+   "parts": [
+    {
+     "zh": "一个变成两个一样的，是加倍："
+    },
+    {
+     "en": "double"
+    },
+    {
+     "en": "Double one thousand is two thousand."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:reduce",
+    "focus:reduce"
+   ],
+   "parts": [
+    {
+     "zh": "减少，英语是"
+    },
+    {
+     "en": "reduce"
+    },
+    {
+     "en": "Reduce two thousand by one thousand."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:divide",
+    "edge:reduce>divide",
+    "focus:divide"
+   ],
+   "parts": [
+    {
+     "zh": "除法的除，也是分开的意思："
+    },
+    {
+     "en": "divide"
+    },
+    {
+     "en": "One divided by two is zero point five."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:percent",
+    "edge:divide>percent",
+    "focus:percent"
+   ],
+   "parts": [
+    {
+     "zh": "零点五，也就是百分之五十："
+    },
+    {
+     "en": "percent"
+    },
+    {
+     "en": "fifty percent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:once",
+    "focus:once"
+   ],
+   "parts": [
+    {
+     "zh": "一次，英语是"
+    },
+    {
+     "en": "once"
+    },
+    {
+     "zh": "它可不是 one times 哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:twice",
+    "edge:once>twice",
+    "focus:twice"
+   ],
+   "parts": [
+    {
+     "zh": "两次，是"
+    },
+    {
+     "en": "twice"
+    },
+    {
+     "en": "I brush my teeth twice a day."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:dozen",
+    "focus:dozen"
+   ],
+   "parts": [
+    {
+     "zh": "十二个一组，叫一打："
+    },
+    {
+     "en": "dozen"
+    },
+    {
+     "en": "a dozen eggs"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "来做几道口算题吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Five add five is ten.",
+     "cue": [
+      "focus:add"
+     ]
+    },
+    {
+     "en": "Double ten is twenty.",
+     "cue": [
+      "focus:double"
+     ]
+    },
+    {
+     "en": "A dozen is twelve.",
+     "cue": [
+      "focus:dozen"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:thousand"
+   ],
+   "parts": [
+    {
+     "en": "thousand"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:million"
+   ],
+   "parts": [
+    {
+     "en": "million"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:about"
+   ],
+   "parts": [
+    {
+     "en": "about"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:add"
+   ],
+   "parts": [
+    {
+     "en": "add"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:total"
+   ],
+   "parts": [
+    {
+     "en": "total"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:double"
+   ],
+   "parts": [
+    {
+     "en": "double"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:reduce"
+   ],
+   "parts": [
+    {
+     "en": "reduce"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:divide"
+   ],
+   "parts": [
+    {
+     "en": "divide"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:percent"
+   ],
+   "parts": [
+    {
+     "en": "percent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:once"
+   ],
+   "parts": [
+    {
+     "en": "once"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:twice"
+   ],
+   "parts": [
+    {
+     "en": "twice"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:dozen"
+   ],
+   "parts": [
+    {
+     "en": "dozen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！做数学作业的时候，试着用英语读一读算式吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

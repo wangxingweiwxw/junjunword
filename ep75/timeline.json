@@ -1,0 +1,620 @@
+{
+ "duration": 121.711,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！我们再来认识一些职业吧！还记得第六十四集吗？",
+   "t0": 0.4,
+   "t1": 6.193,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "jobs",
+   "t0": 6.443,
+   "t1": 6.966,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "工作：",
+   "t0": 8.066,
+   "t1": 8.527,
+   "cue": [
+    "map",
+    "show:jobs",
+    "focus:jobs"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "jobs",
+   "t0": 8.777,
+   "t1": 9.3,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "每份工作都有自己的责任：",
+   "t0": 10.4,
+   "t1": 12.646,
+   "cue": [
+    "show:duty",
+    "edge:duty>jobs",
+    "focus:duty"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "duty",
+   "t0": 12.896,
+   "t1": 13.329,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "保卫国家的士兵：",
+   "t0": 14.429,
+   "t1": 15.758,
+   "cue": [
+    "show:soldier",
+    "edge:jobs>soldier",
+    "focus:soldier"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "soldier",
+   "t0": 16.008,
+   "t1": 16.648,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "站岗放哨的守卫：",
+   "t0": 17.748,
+   "t1": 19.161,
+   "cue": [
+    "show:guard",
+    "edge:soldier>guard",
+    "focus:guard"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "guard",
+   "t0": 19.411,
+   "t1": 19.82,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "中间的 u 不发音。",
+   "t0": 20.32,
+   "t1": 21.665,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "带领大家的队长，也是船长：",
+   "t0": 22.515,
+   "t1": 24.952,
+   "cue": [
+    "show:captain",
+    "edge:soldier>captain",
+    "focus:captain"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "captain",
+   "t0": 25.202,
+   "t1": 25.799,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "当官的人，是",
+   "t0": 26.899,
+   "t1": 28.285,
+   "cue": [
+    "show:officer",
+    "edge:jobs>officer",
+    "focus:officer"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "officer",
+   "t0": 28.535,
+   "t1": 29.197,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "还记得 office 吗？加上 r。",
+   "t0": 29.697,
+   "t1": 32.341,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "保护大家安全的警察：",
+   "t0": 33.191,
+   "t1": 34.95,
+   "cue": [
+    "show:police",
+    "edge:officer>police",
+    "focus:police"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "police",
+   "t0": 35.2,
+   "t1": 35.739,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "很多人一起上班的地方，是公司：",
+   "t0": 36.839,
+   "t1": 39.58,
+   "cue": [
+    "show:company",
+    "edge:jobs>company",
+    "focus:company"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "company",
+   "t0": 39.83,
+   "t1": 40.423,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "公司里，大家在办公室工作：",
+   "t0": 41.523,
+   "t1": 43.967,
+   "cue": [
+    "show:office",
+    "edge:company>office",
+    "focus:office"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "office",
+   "t0": 44.217,
+   "t1": 44.794,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "坐在一起开会。见面，加上 i n g：",
+   "t0": 45.894,
+   "t1": 49.71,
+   "cue": [
+    "show:meeting",
+    "edge:office>meeting",
+    "focus:meeting"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "meet",
+   "t0": 49.96,
+   "t1": 50.404,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "meeting",
+   "t0": 50.904,
+   "t1": 51.439,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "要双写 e 哦。",
+   "t0": 51.939,
+   "t1": 52.893,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "管理大家的人，是经理。管理，加上 r：",
+   "t0": 53.743,
+   "t1": 57.81,
+   "cue": [
+    "show:manager",
+    "edge:company>manager",
+    "focus:manager"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "manage",
+   "t0": 58.06,
+   "t1": 58.665,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "manager",
+   "t0": 59.165,
+   "t1": 59.803,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "公司最大的头，是老板：",
+   "t0": 60.903,
+   "t1": 62.985,
+   "cue": [
+    "show:boss",
+    "edge:manager>boss",
+    "focus:boss"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "boss",
+   "t0": 63.235,
+   "t1": 63.727,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "做买卖，是生意：",
+   "t0": 64.827,
+   "t1": 66.375,
+   "cue": [
+    "show:business",
+    "focus:business"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "business",
+   "t0": 66.625,
+   "t1": 67.282,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "小提示：中间的 i 读得很轻，常常像没有一样。",
+   "t0": 67.782,
+   "t1": 71.863,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "做生意的人。生意，加上男人：",
+   "t0": 72.713,
+   "t1": 75.997,
+   "cue": [
+    "show:businessman",
+    "edge:business>businessman",
+    "edge:manager>businessman",
+    "focus:businessman"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "businessman",
+   "t0": 76.247,
+   "t1": 77.075,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "工作，就能挣钱：",
+   "t0": 78.175,
+   "t1": 79.76,
+   "cue": [
+    "show:earn",
+    "edge:businessman>earn",
+    "focus:earn"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "earn",
+   "t0": 80.01,
+   "t1": 80.342,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "He earns money.",
+   "t0": 80.842,
+   "t1": 81.773,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 82.873,
+   "t1": 86.123,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "jobs",
+   "t0": 86.973,
+   "t1": 87.497,
+   "cue": [
+    "focus:jobs"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "duty",
+   "t0": 88.597,
+   "t1": 89.03,
+   "cue": [
+    "focus:duty"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "soldier",
+   "t0": 90.13,
+   "t1": 90.77,
+   "cue": [
+    "focus:soldier"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "guard",
+   "t0": 91.87,
+   "t1": 92.279,
+   "cue": [
+    "focus:guard"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "captain",
+   "t0": 93.379,
+   "t1": 93.976,
+   "cue": [
+    "focus:captain"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "officer",
+   "t0": 95.076,
+   "t1": 95.738,
+   "cue": [
+    "focus:officer"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "police",
+   "t0": 96.838,
+   "t1": 97.377,
+   "cue": [
+    "focus:police"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "company",
+   "t0": 98.477,
+   "t1": 99.07,
+   "cue": [
+    "focus:company"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "office",
+   "t0": 100.17,
+   "t1": 100.747,
+   "cue": [
+    "focus:office"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "meeting",
+   "t0": 101.847,
+   "t1": 102.382,
+   "cue": [
+    "focus:meeting"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "manager",
+   "t0": 103.482,
+   "t1": 104.12,
+   "cue": [
+    "focus:manager"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "boss",
+   "t0": 105.22,
+   "t1": 105.713,
+   "cue": [
+    "focus:boss"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "business",
+   "t0": 106.813,
+   "t1": 107.47,
+   "cue": [
+    "focus:business"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "businessman",
+   "t0": 108.57,
+   "t1": 109.398,
+   "cue": [
+    "focus:businessman"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "earn",
+   "t0": 110.498,
+   "t1": 110.83,
+   "cue": [
+    "focus:earn"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "zh",
+   "text": "太棒了！问一问爸爸妈妈在哪里工作吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 111.93,
+   "t1": 119.861,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "jobs": [
+   0.25,
+   0.773
+  ],
+  "duty": [
+   1.023,
+   1.457
+  ],
+  "soldier": [
+   1.707,
+   2.346
+  ],
+  "guard": [
+   2.596,
+   3.006
+  ],
+  "captain": [
+   3.256,
+   3.853
+  ],
+  "officer": [
+   4.103,
+   4.765
+  ],
+  "police": [
+   5.015,
+   5.554
+  ],
+  "company": [
+   5.804,
+   6.396
+  ],
+  "office": [
+   6.646,
+   7.223
+  ],
+  "meeting": [
+   7.473,
+   8.009
+  ],
+  "meeting:alt": [
+   8.259,
+   8.702
+  ],
+  "boss": [
+   8.952,
+   9.444
+  ],
+  "manager": [
+   9.694,
+   10.333
+  ],
+  "manager:alt": [
+   10.583,
+   11.188
+  ],
+  "business": [
+   11.438,
+   12.095
+  ],
+  "businessman": [
+   12.345,
+   13.173
+  ],
+  "earn": [
+   13.423,
+   13.755
+  ]
+ }
+}

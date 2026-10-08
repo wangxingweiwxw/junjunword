@@ -1,0 +1,619 @@
+{
+ "duration": 133.219,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！一个人好不好，要看他的品格。今天，我们来学描述人的形容词。",
+   "t0": 0.4,
+   "t1": 8.108,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "character",
+   "t0": 8.358,
+   "t1": 9.039,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "还记得第一集的人们吗？",
+   "t0": 10.139,
+   "t1": 11.71,
+   "cue": [
+    "map",
+    "show:people",
+    "focus:people"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "people",
+   "t0": 11.96,
+   "t1": 12.447,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "让人拍手叫好的，是极好的：",
+   "t0": 13.547,
+   "t1": 15.974,
+   "cue": [
+    "show:wonderful",
+    "edge:people>wonderful",
+    "focus:wonderful"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "wonderful",
+   "t0": 16.224,
+   "t1": 16.94,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "You are wonderful!",
+   "t0": 17.44,
+   "t1": 18.468,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "看上去、似乎，英语是",
+   "t0": 19.568,
+   "t1": 21.954,
+   "cue": [
+    "show:seem",
+    "edge:people>seem",
+    "focus:seem"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "seem",
+   "t0": 22.204,
+   "t1": 22.709,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "He seems happy.",
+   "t0": 23.209,
+   "t1": 24.189,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "板着脸、不开玩笑，是严肃的、认真的：",
+   "t0": 25.289,
+   "t1": 29.019,
+   "cue": [
+    "show:serious",
+    "edge:people>serious",
+    "focus:serious"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "serious",
+   "t0": 29.269,
+   "t1": 30.049,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "加上 l y，就是认真地：",
+   "t0": 31.149,
+   "t1": 33.214,
+   "cue": [
+    "show:seriously",
+    "edge:serious>seriously",
+    "focus:seriously"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "seriously",
+   "t0": 33.464,
+   "t1": 34.391,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Take it seriously.",
+   "t0": 34.891,
+   "t1": 36.174,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "见人就打招呼，说请和谢谢，是有礼貌的：",
+   "t0": 37.274,
+   "t1": 40.994,
+   "cue": [
+    "show:polite",
+    "focus:polite"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "polite",
+   "t0": 41.244,
+   "t1": 41.848,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "用手指着别人，大声嚷嚷，是粗鲁的：",
+   "t0": 42.948,
+   "t1": 46.266,
+   "cue": [
+    "show:rude",
+    "edge:polite>rude",
+    "focus:rude"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "rude",
+   "t0": 46.516,
+   "t1": 46.956,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "我们要做有礼貌的孩子，不要粗鲁哦。",
+   "t0": 47.456,
+   "t1": 50.315,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "不说谎的，是诚实的：",
+   "t0": 51.165,
+   "t1": 53.066,
+   "cue": [
+    "show:honest",
+    "focus:honest"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "honest",
+   "t0": 53.316,
+   "t1": 53.839,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "开头的 h 不发音，所以要说",
+   "t0": 54.339,
+   "t1": 56.918,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "an honest boy",
+   "t0": 57.168,
+   "t1": 58.205,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "永远站在朋友身边的，是忠诚的。信任，加上 f u l：",
+   "t0": 59.305,
+   "t1": 64.857,
+   "cue": [
+    "show:faithful",
+    "edge:honest>faithful",
+    "focus:faithful"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "faith",
+   "t0": 65.107,
+   "t1": 65.368,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "faithful",
+   "t0": 65.868,
+   "t1": 66.455,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "总说真话的。真相，加上 f u l：",
+   "t0": 67.555,
+   "t1": 71.406,
+   "cue": [
+    "show:truthful",
+    "edge:faithful>truthful",
+    "focus:truthful"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "truth",
+   "t0": 71.656,
+   "t1": 72.013,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "truthful",
+   "t0": 72.513,
+   "t1": 73.134,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "工作：",
+   "t0": 74.234,
+   "t1": 74.695,
+   "cue": [
+    "show:job",
+    "focus:job"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "job",
+   "t0": 74.945,
+   "t1": 75.323,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "没有钱，是贫穷的：",
+   "t0": 76.423,
+   "t1": 78.23,
+   "cue": [
+    "show:poor",
+    "edge:job>poor",
+    "focus:poor"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "poor",
+   "t0": 78.48,
+   "t1": 78.898,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "努力工作，就会成功：",
+   "t0": 79.998,
+   "t1": 81.828,
+   "cue": [
+    "show:successful",
+    "edge:job>successful",
+    "focus:successful"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "success",
+   "t0": 82.078,
+   "t1": 82.945,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "successful",
+   "t0": 83.445,
+   "t1": 84.348,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "你发现了吗？好多形容词都是 f u l 结尾的，意思是充满了：",
+   "t0": 85.448,
+   "t1": 91.422,
+   "cue": [
+    "focus:wonderful,faithful,truthful,successful"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "wonderful",
+   "t0": 91.672,
+   "t1": 92.387,
+   "cue": [
+    "focus:wonderful"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "faithful",
+   "t0": 92.887,
+   "t1": 93.474,
+   "cue": [
+    "focus:faithful"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "truthful",
+   "t0": 93.974,
+   "t1": 94.594,
+   "cue": [
+    "focus:truthful"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "successful",
+   "t0": 95.094,
+   "t1": 95.997,
+   "cue": [
+    "focus:successful"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 97.097,
+   "t1": 100.348,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "people",
+   "t0": 101.198,
+   "t1": 101.684,
+   "cue": [
+    "focus:people"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "wonderful",
+   "t0": 102.784,
+   "t1": 103.5,
+   "cue": [
+    "focus:wonderful"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "seem",
+   "t0": 104.6,
+   "t1": 105.104,
+   "cue": [
+    "focus:seem"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "serious",
+   "t0": 106.204,
+   "t1": 106.985,
+   "cue": [
+    "focus:serious"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "seriously",
+   "t0": 108.085,
+   "t1": 109.012,
+   "cue": [
+    "focus:seriously"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "polite",
+   "t0": 110.112,
+   "t1": 110.717,
+   "cue": [
+    "focus:polite"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "rude",
+   "t0": 111.817,
+   "t1": 112.257,
+   "cue": [
+    "focus:rude"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "honest",
+   "t0": 113.357,
+   "t1": 113.88,
+   "cue": [
+    "focus:honest"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "faithful",
+   "t0": 114.98,
+   "t1": 115.566,
+   "cue": [
+    "focus:faithful"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "truthful",
+   "t0": 116.666,
+   "t1": 117.287,
+   "cue": [
+    "focus:truthful"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "job",
+   "t0": 118.387,
+   "t1": 118.765,
+   "cue": [
+    "focus:job"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "poor",
+   "t0": 119.865,
+   "t1": 120.283,
+   "cue": [
+    "focus:poor"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "successful",
+   "t0": 121.383,
+   "t1": 122.286,
+   "cue": [
+    "focus:successful"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "zh",
+   "text": "太棒了！做一个诚实、有礼貌的好孩子吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 123.386,
+   "t1": 131.369,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "people": [
+   0.25,
+   0.737
+  ],
+  "serious": [
+   0.987,
+   1.767
+  ],
+  "seriously": [
+   2.017,
+   2.944
+  ],
+  "seem": [
+   3.194,
+   3.699
+  ],
+  "wonderful": [
+   3.949,
+   4.665
+  ],
+  "polite": [
+   4.915,
+   5.519
+  ],
+  "rude": [
+   5.769,
+   6.209
+  ],
+  "honest": [
+   6.459,
+   6.982
+  ],
+  "truthful": [
+   7.232,
+   7.853
+  ],
+  "truthful:alt": [
+   8.102,
+   8.46
+  ],
+  "faithful": [
+   8.71,
+   9.296
+  ],
+  "faithful:alt": [
+   9.546,
+   9.808
+  ],
+  "job": [
+   10.058,
+   10.437
+  ],
+  "poor": [
+   10.687,
+   11.105
+  ],
+  "successful": [
+   11.355,
+   12.257
+  ],
+  "successful:alt": [
+   12.507,
+   13.374
+  ]
+ }
+}

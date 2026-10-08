@@ -1,0 +1,710 @@
+{
+ "id": "ep77",
+ "title": "character",
+ "titleZh": "品格",
+ "episode": "第 77 集",
+ "titleIcon": "honest",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "people",
+   "word": "people",
+   "ipa": "/ˈpiːpl/",
+   "zh": "人们",
+   "icon": "group",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "serious",
+   "word": "serious",
+   "ipa": "/ˈsɪriəs/",
+   "zh": "严肃的；认真的",
+   "icon": "serious",
+   "kind": "adj",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "seriously",
+   "word": "seriously",
+   "ipa": "/ˈsɪriəsli/",
+   "zh": "认真地",
+   "icon": "seriously",
+   "kind": "adv",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "seem",
+   "word": "seem",
+   "ipa": "/siːm/",
+   "zh": "似乎；看起来",
+   "icon": "seem",
+   "kind": "verb",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "wonderful",
+   "word": "wonderful",
+   "ipa": "/ˈwʌndərfl/",
+   "zh": "极好的",
+   "icon": "wonderful",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "polite",
+   "word": "polite",
+   "ipa": "/pəˈlaɪt/",
+   "zh": "有礼貌的",
+   "icon": "polite",
+   "kind": "adj",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "rude",
+   "word": "rude",
+   "ipa": "/ruːd/",
+   "zh": "粗鲁的",
+   "icon": "rude",
+   "kind": "adj",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "honest",
+   "word": "honest",
+   "ipa": "/ˈɑːnɪst/",
+   "zh": "诚实的",
+   "icon": "honest",
+   "kind": "adj",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "truthful",
+   "word": "truthful",
+   "ipa": "/ˈtruːθfl/",
+   "zh": "说真话的",
+   "icon": "truthful",
+   "kind": "adj",
+   "alt": "truth",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "faithful",
+   "word": "faithful",
+   "ipa": "/ˈfeɪθfl/",
+   "zh": "忠诚的",
+   "icon": "faithful",
+   "kind": "adj",
+   "alt": "faith",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "job",
+   "word": "job",
+   "ipa": "/dʒɑːb/",
+   "zh": "工作",
+   "icon": "job",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "poor",
+   "word": "poor",
+   "ipa": "/pʊr/",
+   "zh": "贫穷的",
+   "icon": "poor",
+   "kind": "adj",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "successful",
+   "word": "successful",
+   "ipa": "/səkˈsesfl/",
+   "zh": "成功的",
+   "icon": "successful",
+   "kind": "adj",
+   "alt": "success",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "people",
+   "to": "wonderful",
+   "dashed": true
+  },
+  {
+   "from": "people",
+   "to": "seem",
+   "dashed": true
+  },
+  {
+   "from": "people",
+   "to": "serious"
+  },
+  {
+   "from": "serious",
+   "to": "seriously",
+   "label": "+ly"
+  },
+  {
+   "from": "polite",
+   "to": "rude",
+   "label": "反义"
+  },
+  {
+   "from": "rude",
+   "to": "honest",
+   "dashed": true
+  },
+  {
+   "from": "honest",
+   "to": "faithful",
+   "dashed": true
+  },
+  {
+   "from": "faithful",
+   "to": "truthful",
+   "dashed": true
+  },
+  {
+   "from": "job",
+   "to": "poor",
+   "dashed": true
+  },
+  {
+   "from": "job",
+   "to": "successful"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！一个人好不好，要看他的品格。今天，我们来学描述人的形容词。"
+    },
+    {
+     "en": "character"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:people",
+    "focus:people"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第一集的人们吗？"
+    },
+    {
+     "en": "people"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wonderful",
+    "edge:people>wonderful",
+    "focus:wonderful"
+   ],
+   "parts": [
+    {
+     "zh": "让人拍手叫好的，是极好的："
+    },
+    {
+     "en": "wonderful"
+    },
+    {
+     "en": "You are wonderful!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:seem",
+    "edge:people>seem",
+    "focus:seem"
+   ],
+   "parts": [
+    {
+     "zh": "看上去、似乎，英语是"
+    },
+    {
+     "en": "seem"
+    },
+    {
+     "en": "He seems happy."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:serious",
+    "edge:people>serious",
+    "focus:serious"
+   ],
+   "parts": [
+    {
+     "zh": "板着脸、不开玩笑，是严肃的、认真的："
+    },
+    {
+     "en": "serious"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:seriously",
+    "edge:serious>seriously",
+    "focus:seriously"
+   ],
+   "parts": [
+    {
+     "zh": "加上 l y，就是认真地："
+    },
+    {
+     "en": "seriously"
+    },
+    {
+     "en": "Take it seriously."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:polite",
+    "focus:polite"
+   ],
+   "parts": [
+    {
+     "zh": "见人就打招呼，说请和谢谢，是有礼貌的："
+    },
+    {
+     "en": "polite"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:rude",
+    "edge:polite>rude",
+    "focus:rude"
+   ],
+   "parts": [
+    {
+     "zh": "用手指着别人，大声嚷嚷，是粗鲁的："
+    },
+    {
+     "en": "rude"
+    },
+    {
+     "zh": "我们要做有礼貌的孩子，不要粗鲁哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:honest",
+    "focus:honest"
+   ],
+   "parts": [
+    {
+     "zh": "不说谎的，是诚实的："
+    },
+    {
+     "en": "honest"
+    },
+    {
+     "zh": "开头的 h 不发音，所以要说"
+    },
+    {
+     "en": "an honest boy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:faithful",
+    "edge:honest>faithful",
+    "focus:faithful"
+   ],
+   "parts": [
+    {
+     "zh": "永远站在朋友身边的，是忠诚的。信任，加上 f u l："
+    },
+    {
+     "en": "faith"
+    },
+    {
+     "en": "faithful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:truthful",
+    "edge:faithful>truthful",
+    "focus:truthful"
+   ],
+   "parts": [
+    {
+     "zh": "总说真话的。真相，加上 f u l："
+    },
+    {
+     "en": "truth"
+    },
+    {
+     "en": "truthful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:job",
+    "focus:job"
+   ],
+   "parts": [
+    {
+     "zh": "工作："
+    },
+    {
+     "en": "job"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:poor",
+    "edge:job>poor",
+    "focus:poor"
+   ],
+   "parts": [
+    {
+     "zh": "没有钱，是贫穷的："
+    },
+    {
+     "en": "poor"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:successful",
+    "edge:job>successful",
+    "focus:successful"
+   ],
+   "parts": [
+    {
+     "zh": "努力工作，就会成功："
+    },
+    {
+     "en": "success"
+    },
+    {
+     "en": "successful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wonderful,faithful,truthful,successful"
+   ],
+   "parts": [
+    {
+     "zh": "你发现了吗？好多形容词都是 f u l 结尾的，意思是充满了："
+    },
+    {
+     "en": "wonderful",
+     "cue": [
+      "focus:wonderful"
+     ]
+    },
+    {
+     "en": "faithful",
+     "cue": [
+      "focus:faithful"
+     ]
+    },
+    {
+     "en": "truthful",
+     "cue": [
+      "focus:truthful"
+     ]
+    },
+    {
+     "en": "successful",
+     "cue": [
+      "focus:successful"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:people"
+   ],
+   "parts": [
+    {
+     "en": "people"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wonderful"
+   ],
+   "parts": [
+    {
+     "en": "wonderful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:seem"
+   ],
+   "parts": [
+    {
+     "en": "seem"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:serious"
+   ],
+   "parts": [
+    {
+     "en": "serious"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:seriously"
+   ],
+   "parts": [
+    {
+     "en": "seriously"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:polite"
+   ],
+   "parts": [
+    {
+     "en": "polite"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:rude"
+   ],
+   "parts": [
+    {
+     "en": "rude"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:honest"
+   ],
+   "parts": [
+    {
+     "en": "honest"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:faithful"
+   ],
+   "parts": [
+    {
+     "en": "faithful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:truthful"
+   ],
+   "parts": [
+    {
+     "en": "truthful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:job"
+   ],
+   "parts": [
+    {
+     "en": "job"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:poor"
+   ],
+   "parts": [
+    {
+     "en": "poor"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:successful"
+   ],
+   "parts": [
+    {
+     "en": "successful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！做一个诚实、有礼貌的好孩子吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

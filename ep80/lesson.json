@@ -1,0 +1,698 @@
+{
+ "id": "ep80",
+ "title": "adjectives",
+ "titleZh": "形容词",
+ "episode": "第 80 集",
+ "titleIcon": "fantastic",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "situation",
+   "word": "situation",
+   "ipa": "/ˌsɪtʃuˈeɪʃn/",
+   "zh": "情况",
+   "icon": "situation",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "condition",
+   "word": "condition",
+   "ipa": "/kənˈdɪʃn/",
+   "zh": "条件；状况",
+   "icon": "condition",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "real",
+   "word": "real",
+   "ipa": "/riːl/",
+   "zh": "真的",
+   "icon": "real",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "fake",
+   "word": "fake",
+   "ipa": "/feɪk/",
+   "zh": "假的",
+   "icon": "fake",
+   "kind": "adj",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "exciting",
+   "word": "exciting",
+   "ipa": "/ɪkˈsaɪtɪŋ/",
+   "zh": "令人兴奋的",
+   "icon": "exciting",
+   "kind": "adj",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "boring",
+   "word": "boring",
+   "ipa": "/ˈbɔːrɪŋ/",
+   "zh": "无聊的",
+   "icon": "boring",
+   "kind": "adj",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "amazing",
+   "word": "amazing",
+   "ipa": "/əˈmeɪzɪŋ/",
+   "zh": "令人惊奇的",
+   "icon": "amazing",
+   "kind": "adj",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "fantastic",
+   "word": "fantastic",
+   "ipa": "/fænˈtæstɪk/",
+   "zh": "极好的",
+   "icon": "fantastic",
+   "kind": "adj",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "excellent",
+   "word": "excellent",
+   "ipa": "/ˈeksələnt/",
+   "zh": "优秀的",
+   "icon": "excellent",
+   "kind": "adj",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "useful",
+   "word": "useful",
+   "ipa": "/ˈjuːsfl/",
+   "zh": "有用的",
+   "icon": "useful",
+   "kind": "adj",
+   "alt": "use",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "useless",
+   "word": "useless",
+   "ipa": "/ˈjuːsləs/",
+   "zh": "没用的",
+   "icon": "useless",
+   "kind": "adj",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "harmful",
+   "word": "harmful",
+   "ipa": "/ˈhɑːrmfl/",
+   "zh": "有害的",
+   "icon": "harmful",
+   "kind": "adj",
+   "alt": "harm",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "harmless",
+   "word": "harmless",
+   "ipa": "/ˈhɑːrmləs/",
+   "zh": "无害的",
+   "icon": "harmless",
+   "kind": "adj",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "situation",
+   "to": "real"
+  },
+  {
+   "from": "real",
+   "to": "fake",
+   "label": "反义"
+  },
+  {
+   "from": "situation",
+   "to": "exciting"
+  },
+  {
+   "from": "exciting",
+   "to": "boring",
+   "label": "反义",
+   "dashed": true
+  },
+  {
+   "from": "condition",
+   "to": "amazing"
+  },
+  {
+   "from": "amazing",
+   "to": "fantastic",
+   "dashed": true
+  },
+  {
+   "from": "fantastic",
+   "to": "excellent",
+   "dashed": true
+  },
+  {
+   "from": "useful",
+   "to": "useless",
+   "label": "ful→less"
+  },
+  {
+   "from": "harmful",
+   "to": "harmless",
+   "label": "ful→less"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！今天，我们来学一组很有用的形容词，还有两个神奇的小尾巴！"
+    },
+    {
+     "en": "adjectives"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:situation",
+    "focus:situation"
+   ],
+   "parts": [
+    {
+     "zh": "事情现在的样子，是情况："
+    },
+    {
+     "en": "situation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:condition",
+    "focus:condition"
+   ],
+   "parts": [
+    {
+     "zh": "东西的状况、条件，英语是"
+    },
+    {
+     "en": "condition"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:real",
+    "edge:situation>real",
+    "focus:real"
+   ],
+   "parts": [
+    {
+     "zh": "真的，是"
+    },
+    {
+     "en": "real"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fake",
+    "edge:real>fake",
+    "focus:fake"
+   ],
+   "parts": [
+    {
+     "zh": "假的，是"
+    },
+    {
+     "en": "fake"
+    },
+    {
+     "en": "Is it real or fake?",
+     "cue": [
+      "focus:real,fake"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:exciting",
+    "edge:situation>exciting",
+    "focus:exciting"
+   ],
+   "parts": [
+    {
+     "zh": "坐过山车，好刺激！令人兴奋的："
+    },
+    {
+     "en": "exciting"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:boring",
+    "edge:exciting>boring",
+    "focus:boring"
+   ],
+   "parts": [
+    {
+     "zh": "一直等啊等，好无聊："
+    },
+    {
+     "en": "boring"
+    },
+    {
+     "zh": "还记得第三十九集的 excited 吗？e d 说人的感受，i n g 说事情的样子。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:amazing",
+    "edge:condition>amazing",
+    "focus:amazing"
+   ],
+   "parts": [
+    {
+     "zh": "让人吃惊得张大嘴巴，是令人惊奇的："
+    },
+    {
+     "en": "amazing"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fantastic",
+    "edge:amazing>fantastic",
+    "focus:fantastic"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了，极好的："
+    },
+    {
+     "en": "fantastic"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:excellent",
+    "edge:fantastic>excellent",
+    "focus:excellent"
+   ],
+   "parts": [
+    {
+     "zh": "特别优秀的："
+    },
+    {
+     "en": "excellent"
+    },
+    {
+     "en": "Excellent work!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "下面是两个神奇的小尾巴。f u l 表示有、充满；l e s s 表示没有。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:useful",
+    "focus:useful"
+   ],
+   "parts": [
+    {
+     "zh": "用，加上 f u l，是有用的："
+    },
+    {
+     "en": "use"
+    },
+    {
+     "en": "useful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:useless",
+    "edge:useful>useless",
+    "focus:useless"
+   ],
+   "parts": [
+    {
+     "zh": "换成 l e s s，就是没用的："
+    },
+    {
+     "en": "useless"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:harmful",
+    "focus:harmful"
+   ],
+   "parts": [
+    {
+     "zh": "伤害，加上 f u l，是有害的："
+    },
+    {
+     "en": "harm"
+    },
+    {
+     "en": "harmful"
+    },
+    {
+     "en": "Smoking is harmful."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:harmless",
+    "edge:harmful>harmless",
+    "focus:harmless"
+   ],
+   "parts": [
+    {
+     "zh": "换成 l e s s，就是无害的："
+    },
+    {
+     "en": "harmless"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:useful,useless,harmful,harmless"
+   ],
+   "parts": [
+    {
+     "zh": "一起读："
+    },
+    {
+     "en": "useful, useless",
+     "cue": [
+      "focus:useful,useless"
+     ]
+    },
+    {
+     "en": "harmful, harmless",
+     "cue": [
+      "focus:harmful,harmless"
+     ]
+    },
+    {
+     "zh": "小提示：要说没用的、无害的，用 less，不说 unuseful、unharmful 哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:situation"
+   ],
+   "parts": [
+    {
+     "en": "situation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:condition"
+   ],
+   "parts": [
+    {
+     "en": "condition"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:real"
+   ],
+   "parts": [
+    {
+     "en": "real"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fake"
+   ],
+   "parts": [
+    {
+     "en": "fake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:exciting"
+   ],
+   "parts": [
+    {
+     "en": "exciting"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:boring"
+   ],
+   "parts": [
+    {
+     "en": "boring"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:amazing"
+   ],
+   "parts": [
+    {
+     "en": "amazing"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fantastic"
+   ],
+   "parts": [
+    {
+     "en": "fantastic"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:excellent"
+   ],
+   "parts": [
+    {
+     "en": "excellent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:useful"
+   ],
+   "parts": [
+    {
+     "en": "useful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:useless"
+   ],
+   "parts": [
+    {
+     "en": "useless"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:harmful"
+   ],
+   "parts": [
+    {
+     "en": "harmful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:harmless"
+   ],
+   "parts": [
+    {
+     "en": "harmless"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！你今天过得怎么样？用一个形容词说一说吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

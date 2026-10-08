@@ -1,0 +1,643 @@
+{
+ "id": "ep79",
+ "title": "manners",
+ "titleZh": "礼貌",
+ "episode": "第 79 集",
+ "titleIcon": "apologize",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "kick",
+   "word": "kick",
+   "ipa": "/kɪk/",
+   "zh": "踢",
+   "icon": "kick",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "knock",
+   "word": "knock",
+   "ipa": "/nɑːk/",
+   "zh": "敲；撞",
+   "icon": "knock",
+   "kind": "verb",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "break",
+   "word": "break",
+   "ipa": "/breɪk/",
+   "zh": "打破",
+   "icon": "break",
+   "kind": "verb",
+   "alt": "broke",
+   "altLabel": "过去式",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "proper",
+   "word": "proper",
+   "ipa": "/ˈprɑːpər/",
+   "zh": "正确的；恰当的",
+   "icon": "proper",
+   "kind": "adj",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "avoid",
+   "word": "avoid",
+   "ipa": "/əˈvɔɪd/",
+   "zh": "避开",
+   "icon": "avoid",
+   "kind": "verb",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "hide",
+   "word": "hide",
+   "ipa": "/haɪd/",
+   "zh": "躲藏",
+   "icon": "hide",
+   "kind": "verb",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "leave",
+   "word": "leave",
+   "ipa": "/liːv/",
+   "zh": "离开",
+   "icon": "leave",
+   "kind": "verb",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "stay",
+   "word": "stay",
+   "ipa": "/steɪ/",
+   "zh": "留下",
+   "icon": "stay",
+   "kind": "verb",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "apologize",
+   "word": "apologize",
+   "ipa": "/əˈpɑːlədʒaɪz/",
+   "zh": "道歉",
+   "icon": "apologize",
+   "kind": "verb",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "forgive",
+   "word": "forgive",
+   "ipa": "/fərˈɡɪv/",
+   "zh": "原谅",
+   "icon": "forgive",
+   "kind": "verb",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  },
+  {
+   "id": "replace",
+   "word": "replace",
+   "ipa": "/rɪˈpleɪs/",
+   "zh": "赔；替换",
+   "icon": "replace",
+   "kind": "verb",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "kick",
+   "to": "knock"
+  },
+  {
+   "from": "knock",
+   "to": "break"
+  },
+  {
+   "from": "break",
+   "to": "proper",
+   "dashed": true
+  },
+  {
+   "from": "proper",
+   "to": "avoid",
+   "label": "不要"
+  },
+  {
+   "from": "proper",
+   "to": "stay",
+   "label": "应该"
+  },
+  {
+   "from": "avoid",
+   "to": "hide",
+   "dashed": true
+  },
+  {
+   "from": "hide",
+   "to": "leave",
+   "dashed": true
+  },
+  {
+   "from": "stay",
+   "to": "apologize"
+  },
+  {
+   "from": "apologize",
+   "to": "forgive"
+  },
+  {
+   "from": "apologize",
+   "to": "replace",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！做错了事，怎么办才对呢？今天，我们来讲一个小故事。"
+    },
+    {
+     "en": "manners"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:kick",
+    "focus:kick"
+   ],
+   "parts": [
+    {
+     "zh": "小明在院子里踢球："
+    },
+    {
+     "en": "kick"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:knock",
+    "edge:kick>knock",
+    "focus:knock"
+   ],
+   "parts": [
+    {
+     "zh": "砰！球撞到了邻居家的窗户："
+    },
+    {
+     "en": "knock"
+    },
+    {
+     "zh": "开头的 k 不发音哦。它也是敲门的敲。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:break",
+    "edge:knock>break",
+    "focus:break"
+   ],
+   "parts": [
+    {
+     "zh": "哗啦，窗户被打破了："
+    },
+    {
+     "en": "break"
+    },
+    {
+     "zh": "已经打破了，要说",
+     "cue": [
+      "alt:break"
+     ]
+    },
+    {
+     "en": "broke"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:proper",
+    "edge:break>proper",
+    "focus:proper"
+   ],
+   "parts": [
+    {
+     "zh": "这时候，怎么做才是正确的呢？正确的、恰当的，英语是"
+    },
+    {
+     "en": "proper"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:avoid",
+    "edge:proper>avoid",
+    "focus:avoid"
+   ],
+   "parts": [
+    {
+     "zh": "不要避开邻居："
+    },
+    {
+     "en": "avoid"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hide",
+    "edge:avoid>hide",
+    "focus:hide"
+   ],
+   "parts": [
+    {
+     "zh": "也不要躲起来："
+    },
+    {
+     "en": "hide"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:leave",
+    "edge:hide>leave",
+    "focus:leave"
+   ],
+   "parts": [
+    {
+     "zh": "更不能偷偷离开："
+    },
+    {
+     "en": "leave"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:stay",
+    "edge:proper>stay",
+    "focus:stay"
+   ],
+   "parts": [
+    {
+     "zh": "应该勇敢地留下来："
+    },
+    {
+     "en": "stay"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:apologize",
+    "edge:stay>apologize",
+    "focus:apologize"
+   ],
+   "parts": [
+    {
+     "zh": "向邻居道歉："
+    },
+    {
+     "en": "apologize"
+    },
+    {
+     "en": "I'm sorry."
+    },
+    {
+     "en": "I will stay and apologize.",
+     "cue": [
+      "focus:stay,apologize"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:replace",
+    "edge:apologize>replace",
+    "focus:replace"
+   ],
+   "parts": [
+    {
+     "zh": "还要帮邻居换一块新玻璃。替换、赔，英语是"
+    },
+    {
+     "en": "replace"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:forgive",
+    "edge:apologize>forgive",
+    "focus:forgive"
+   ],
+   "parts": [
+    {
+     "zh": "邻居笑着说：没关系，我原谅你啦。原谅，英语是"
+    },
+    {
+     "en": "forgive"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:avoid,hide,leave"
+   ],
+   "parts": [
+    {
+     "zh": "这三件事不要做："
+    },
+    {
+     "en": "avoid",
+     "cue": [
+      "focus:avoid"
+     ]
+    },
+    {
+     "en": "hide",
+     "cue": [
+      "focus:hide"
+     ]
+    },
+    {
+     "en": "leave",
+     "cue": [
+      "focus:leave"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:stay,apologize,replace"
+   ],
+   "parts": [
+    {
+     "zh": "这三件事要做："
+    },
+    {
+     "en": "stay",
+     "cue": [
+      "focus:stay"
+     ]
+    },
+    {
+     "en": "apologize",
+     "cue": [
+      "focus:apologize"
+     ]
+    },
+    {
+     "en": "replace",
+     "cue": [
+      "focus:replace"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:kick"
+   ],
+   "parts": [
+    {
+     "en": "kick"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:knock"
+   ],
+   "parts": [
+    {
+     "en": "knock"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:break"
+   ],
+   "parts": [
+    {
+     "en": "break, broke"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:proper"
+   ],
+   "parts": [
+    {
+     "en": "proper"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:avoid"
+   ],
+   "parts": [
+    {
+     "en": "avoid"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hide"
+   ],
+   "parts": [
+    {
+     "en": "hide"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:leave"
+   ],
+   "parts": [
+    {
+     "en": "leave"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:stay"
+   ],
+   "parts": [
+    {
+     "en": "stay"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:apologize"
+   ],
+   "parts": [
+    {
+     "en": "apologize"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:replace"
+   ],
+   "parts": [
+    {
+     "en": "replace"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:forgive"
+   ],
+   "parts": [
+    {
+     "en": "forgive"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！做错了事，勇敢地说一声对不起吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,889 @@
+{
+ "id": "ep74",
+ "title": "describing animals",
+ "titleZh": "形容动物",
+ "episode": "第 74 集",
+ "titleIcon": "famous",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1850
+  ]
+ },
+ "nodes": [
+  {
+   "id": "animals",
+   "word": "animals",
+   "ipa": "/ˈænɪmlz/",
+   "zh": "动物",
+   "icon": "animal",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    150,
+    470
+   ]
+  },
+  {
+   "id": "panda",
+   "word": "panda",
+   "ipa": "/ˈpændə/",
+   "zh": "熊猫",
+   "icon": "panda",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    150,
+    150
+   ]
+  },
+  {
+   "id": "famous",
+   "word": "famous",
+   "ipa": "/ˈfeɪməs/",
+   "zh": "著名的",
+   "icon": "famous",
+   "kind": "adj",
+   "atP": [
+    150,
+    460
+   ],
+   "at": [
+    450,
+    150
+   ]
+  },
+  {
+   "id": "special",
+   "word": "special",
+   "ipa": "/ˈspeʃl/",
+   "zh": "特别的",
+   "icon": "special",
+   "kind": "adj",
+   "atP": [
+    450,
+    460
+   ],
+   "at": [
+    450,
+    470
+   ]
+  },
+  {
+   "id": "treasure",
+   "word": "treasure",
+   "ipa": "/ˈtreʒər/",
+   "zh": "宝藏；珍宝",
+   "icon": "treasure",
+   "atP": [
+    150,
+    770
+   ],
+   "at": [
+    750,
+    150
+   ]
+  },
+  {
+   "id": "monkey",
+   "word": "monkey",
+   "ipa": "/ˈmʌŋki/",
+   "zh": "猴子",
+   "icon": "monkey",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    150,
+    790
+   ]
+  },
+  {
+   "id": "creative",
+   "word": "creative",
+   "ipa": "/kriˈeɪtɪv/",
+   "zh": "有创造力的",
+   "icon": "creative",
+   "kind": "adj",
+   "atP": [
+    750,
+    460
+   ],
+   "at": [
+    450,
+    790
+   ]
+  },
+  {
+   "id": "wolf",
+   "word": "wolf",
+   "ipa": "/wʊlf/",
+   "zh": "狼",
+   "icon": "wolf",
+   "atP": [
+    450,
+    770
+   ],
+   "at": [
+    750,
+    470
+   ]
+  },
+  {
+   "id": "patient",
+   "word": "patient",
+   "ipa": "/ˈpeɪʃnt/",
+   "zh": "有耐心的",
+   "icon": "patient",
+   "kind": "adj",
+   "atP": [
+    750,
+    770
+   ],
+   "at": [
+    750,
+    790
+   ]
+  },
+  {
+   "id": "impatient",
+   "word": "impatient",
+   "ipa": "/ɪmˈpeɪʃnt/",
+   "zh": "没耐心的",
+   "icon": "impatient",
+   "kind": "adj",
+   "atP": [
+    750,
+    1080
+   ],
+   "at": [
+    1050,
+    790
+   ]
+  },
+  {
+   "id": "pig",
+   "word": "pig",
+   "ipa": "/pɪɡ/",
+   "zh": "猪",
+   "icon": "pig",
+   "atP": [
+    150,
+    1080
+   ],
+   "at": [
+    1050,
+    150
+   ]
+  },
+  {
+   "id": "ugly",
+   "word": "ugly",
+   "ipa": "/ˈʌɡli/",
+   "zh": "丑的",
+   "icon": "ugly",
+   "kind": "adj",
+   "atP": [
+    450,
+    1080
+   ],
+   "at": [
+    1050,
+    470
+   ]
+  },
+  {
+   "id": "bird",
+   "word": "bird",
+   "ipa": "/bɜːrd/",
+   "zh": "鸟",
+   "icon": "bird",
+   "atP": [
+    150,
+    1390
+   ],
+   "at": [
+    1350,
+    150
+   ]
+  },
+  {
+   "id": "pretty",
+   "word": "pretty",
+   "ipa": "/ˈprɪti/",
+   "zh": "漂亮的",
+   "icon": "pretty",
+   "kind": "adj",
+   "atP": [
+    450,
+    1390
+   ],
+   "at": [
+    1350,
+    470
+   ]
+  },
+  {
+   "id": "beautiful",
+   "word": "beautiful",
+   "ipa": "/ˈbjuːtɪfl/",
+   "zh": "美丽的",
+   "icon": "beautiful",
+   "kind": "adj",
+   "alt": "beauty",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    1390
+   ],
+   "at": [
+    1350,
+    790
+   ]
+  },
+  {
+   "id": "owl",
+   "word": "owl",
+   "ipa": "/aʊl/",
+   "zh": "猫头鹰",
+   "icon": "owl",
+   "atP": [
+    150,
+    1700
+   ],
+   "at": [
+    1650,
+    150
+   ]
+  },
+  {
+   "id": "silent",
+   "word": "silent",
+   "ipa": "/ˈsaɪlənt/",
+   "zh": "安静的",
+   "icon": "silent",
+   "kind": "adj",
+   "atP": [
+    450,
+    1700
+   ],
+   "at": [
+    1650,
+    470
+   ]
+  },
+  {
+   "id": "wise",
+   "word": "wise",
+   "ipa": "/waɪz/",
+   "zh": "聪明的；有智慧的",
+   "icon": "wise",
+   "kind": "adj",
+   "atP": [
+    750,
+    1700
+   ],
+   "at": [
+    1650,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "animals",
+   "to": "panda"
+  },
+  {
+   "from": "animals",
+   "to": "monkey"
+  },
+  {
+   "from": "panda",
+   "to": "famous"
+  },
+  {
+   "from": "panda",
+   "to": "special"
+  },
+  {
+   "from": "monkey",
+   "to": "creative"
+  },
+  {
+   "from": "panda",
+   "to": "treasure",
+   "dashed": true
+  },
+  {
+   "from": "wolf",
+   "to": "patient"
+  },
+  {
+   "from": "patient",
+   "to": "impatient",
+   "label": "im+"
+  },
+  {
+   "from": "pig",
+   "to": "ugly",
+   "dashed": true
+  },
+  {
+   "from": "bird",
+   "to": "pretty"
+  },
+  {
+   "from": "pretty",
+   "to": "beautiful",
+   "label": "更美"
+  },
+  {
+   "from": "owl",
+   "to": "silent"
+  },
+  {
+   "from": "silent",
+   "to": "wise",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！还记得第五十四集的形容词吗？今天，我们再学一些形容动物的词。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:animals",
+    "focus:animals"
+   ],
+   "parts": [
+    {
+     "zh": "动物们："
+    },
+    {
+     "en": "animals"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:panda",
+    "edge:animals>panda",
+    "focus:panda"
+   ],
+   "parts": [
+    {
+     "zh": "中国的熊猫："
+    },
+    {
+     "en": "panda"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:famous",
+    "edge:panda>famous",
+    "focus:famous"
+   ],
+   "parts": [
+    {
+     "zh": "熊猫全世界都很有名。著名的，英语是"
+    },
+    {
+     "en": "famous"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:special",
+    "edge:panda>special",
+    "focus:special"
+   ],
+   "parts": [
+    {
+     "zh": "它是很特别的动物："
+    },
+    {
+     "en": "special"
+    },
+    {
+     "en": "Pandas are famous because they are special.",
+     "cue": [
+      "focus:panda,famous,special"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:treasure",
+    "edge:panda>treasure",
+    "focus:treasure"
+   ],
+   "parts": [
+    {
+     "zh": "熊猫是我们国家的宝贝。宝藏、珍宝，英语是"
+    },
+    {
+     "en": "treasure"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:monkey",
+    "edge:animals>monkey",
+    "focus:monkey"
+   ],
+   "parts": [
+    {
+     "zh": "聪明的猴子："
+    },
+    {
+     "en": "monkey"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:creative",
+    "edge:monkey>creative",
+    "focus:creative"
+   ],
+   "parts": [
+    {
+     "zh": "猴子会想出新办法，很有创造力："
+    },
+    {
+     "en": "creative"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wolf",
+    "focus:wolf"
+   ],
+   "parts": [
+    {
+     "zh": "狼："
+    },
+    {
+     "en": "wolf"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:patient",
+    "edge:wolf>patient",
+    "focus:patient"
+   ],
+   "parts": [
+    {
+     "zh": "狼静静地等猎物，很有耐心："
+    },
+    {
+     "en": "patient"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:impatient",
+    "edge:patient>impatient",
+    "focus:impatient"
+   ],
+   "parts": [
+    {
+     "zh": "前面加上 i m，就是没耐心："
+    },
+    {
+     "en": "impatient"
+    },
+    {
+     "zh": "就像 un 一样，im 也让意思反过来。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pig",
+    "focus:pig"
+   ],
+   "parts": [
+    {
+     "zh": "胖乎乎的猪："
+    },
+    {
+     "en": "pig"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ugly",
+    "edge:pig>ugly",
+    "focus:ugly"
+   ],
+   "parts": [
+    {
+     "zh": "有人说猪很丑，英语是"
+    },
+    {
+     "en": "ugly"
+    },
+    {
+     "zh": "其实每种动物都有自己的美哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bird",
+    "focus:bird"
+   ],
+   "parts": [
+    {
+     "zh": "小鸟："
+    },
+    {
+     "en": "bird"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pretty",
+    "edge:bird>pretty",
+    "focus:pretty"
+   ],
+   "parts": [
+    {
+     "zh": "羽毛五颜六色，真漂亮："
+    },
+    {
+     "en": "pretty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:beautiful",
+    "edge:pretty>beautiful",
+    "focus:beautiful"
+   ],
+   "parts": [
+    {
+     "zh": "比漂亮更美，是美丽的。美，加上 f u l："
+    },
+    {
+     "en": "beauty"
+    },
+    {
+     "en": "beautiful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:owl",
+    "focus:owl"
+   ],
+   "parts": [
+    {
+     "zh": "夜里的猫头鹰："
+    },
+    {
+     "en": "owl"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:silent",
+    "edge:owl>silent",
+    "focus:silent"
+   ],
+   "parts": [
+    {
+     "zh": "它飞起来静悄悄的："
+    },
+    {
+     "en": "silent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wise",
+    "edge:silent>wise",
+    "focus:wise"
+   ],
+   "parts": [
+    {
+     "zh": "人们常说猫头鹰很有智慧："
+    },
+    {
+     "en": "wise"
+    },
+    {
+     "en": "Owls are wise and beautiful."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:patient,impatient"
+   ],
+   "parts": [
+    {
+     "zh": "有耐心和没耐心："
+    },
+    {
+     "en": "patient",
+     "cue": [
+      "focus:patient"
+     ]
+    },
+    {
+     "en": "impatient",
+     "cue": [
+      "focus:impatient"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:animals"
+   ],
+   "parts": [
+    {
+     "en": "animals"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:panda"
+   ],
+   "parts": [
+    {
+     "en": "panda"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:famous"
+   ],
+   "parts": [
+    {
+     "en": "famous"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:special"
+   ],
+   "parts": [
+    {
+     "en": "special"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:treasure"
+   ],
+   "parts": [
+    {
+     "en": "treasure"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:monkey"
+   ],
+   "parts": [
+    {
+     "en": "monkey"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:creative"
+   ],
+   "parts": [
+    {
+     "en": "creative"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wolf"
+   ],
+   "parts": [
+    {
+     "en": "wolf"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:patient"
+   ],
+   "parts": [
+    {
+     "en": "patient"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:impatient"
+   ],
+   "parts": [
+    {
+     "en": "impatient"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pig"
+   ],
+   "parts": [
+    {
+     "en": "pig"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ugly"
+   ],
+   "parts": [
+    {
+     "en": "ugly"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bird"
+   ],
+   "parts": [
+    {
+     "en": "bird"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pretty"
+   ],
+   "parts": [
+    {
+     "en": "pretty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:beautiful"
+   ],
+   "parts": [
+    {
+     "en": "beautiful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:owl"
+   ],
+   "parts": [
+    {
+     "en": "owl"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:silent"
+   ],
+   "parts": [
+    {
+     "en": "silent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wise"
+   ],
+   "parts": [
+    {
+     "en": "wise"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！用英语说一说你最喜欢的动物有什么特点吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

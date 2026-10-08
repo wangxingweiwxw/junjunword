@@ -1,0 +1,514 @@
+{
+ "id": "ep72",
+ "title": "compass",
+ "titleZh": "方位",
+ "episode": "第 72 集",
+ "titleIcon": "north",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1320
+  ]
+ },
+ "nodes": [
+  {
+   "id": "north",
+   "word": "north",
+   "ipa": "/nɔːrθ/",
+   "zh": "北",
+   "icon": "north",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    270,
+    150
+   ]
+  },
+  {
+   "id": "south",
+   "word": "south",
+   "ipa": "/saʊθ/",
+   "zh": "南",
+   "icon": "south",
+   "atP": [
+    150,
+    490
+   ],
+   "at": [
+    690,
+    150
+   ]
+  },
+  {
+   "id": "east",
+   "word": "east",
+   "ipa": "/iːst/",
+   "zh": "东",
+   "icon": "east",
+   "atP": [
+    150,
+    830
+   ],
+   "at": [
+    1110,
+    150
+   ]
+  },
+  {
+   "id": "west",
+   "word": "west",
+   "ipa": "/west/",
+   "zh": "西",
+   "icon": "west",
+   "atP": [
+    150,
+    1170
+   ],
+   "at": [
+    1530,
+    150
+   ]
+  },
+  {
+   "id": "northern",
+   "word": "northern",
+   "ipa": "/ˈnɔːrðərn/",
+   "zh": "北方的",
+   "icon": "northern",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    270,
+    470
+   ]
+  },
+  {
+   "id": "southern",
+   "word": "southern",
+   "ipa": "/ˈsʌðərn/",
+   "zh": "南方的",
+   "icon": "southern",
+   "kind": "adj",
+   "atP": [
+    750,
+    490
+   ],
+   "at": [
+    690,
+    470
+   ]
+  },
+  {
+   "id": "eastern",
+   "word": "eastern",
+   "ipa": "/ˈiːstərn/",
+   "zh": "东方的",
+   "icon": "eastern",
+   "kind": "adj",
+   "atP": [
+    750,
+    830
+   ],
+   "at": [
+    1110,
+    470
+   ]
+  },
+  {
+   "id": "western",
+   "word": "western",
+   "ipa": "/ˈwestərn/",
+   "zh": "西方的",
+   "icon": "western",
+   "kind": "adj",
+   "atP": [
+    750,
+    1170
+   ],
+   "at": [
+    1530,
+    470
+   ]
+  },
+  {
+   "id": "then",
+   "word": "then",
+   "ipa": "/ðen/",
+   "zh": "然后",
+   "icon": "then",
+   "kind": "adv",
+   "alt": "and then",
+   "altLabel": "常说",
+   "atP": [
+    450,
+    830
+   ],
+   "at": [
+    900,
+    740
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "north",
+   "to": "northern",
+   "label": "+ern"
+  },
+  {
+   "from": "south",
+   "to": "southern",
+   "label": "+ern"
+  },
+  {
+   "from": "east",
+   "to": "eastern",
+   "label": "+ern"
+  },
+  {
+   "from": "west",
+   "to": "western",
+   "label": "+ern"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！拿出指南针，我们来学东南西北！"
+    },
+    {
+     "en": "north, south, east, west"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:north",
+    "focus:north"
+   ],
+   "parts": [
+    {
+     "zh": "指南针的红针指向北方："
+    },
+    {
+     "en": "north"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:south",
+    "focus:south"
+   ],
+   "parts": [
+    {
+     "zh": "北的对面，是南："
+    },
+    {
+     "en": "south"
+    },
+    {
+     "zh": "最后的 t h，舌尖放在牙齿中间。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:east",
+    "focus:east"
+   ],
+   "parts": [
+    {
+     "zh": "太阳升起的地方，是东："
+    },
+    {
+     "en": "east"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:west",
+    "focus:west"
+   ],
+   "parts": [
+    {
+     "zh": "太阳落下的地方，是西："
+    },
+    {
+     "en": "west"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:north,south,east,west"
+   ],
+   "parts": [
+    {
+     "zh": "中文说东南西北，英语常常说："
+    },
+    {
+     "en": "north, south, east, west"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:northern",
+    "edge:north>northern",
+    "focus:northern"
+   ],
+   "parts": [
+    {
+     "zh": "在后面加上 e r n，就变成了形容词。北方的："
+    },
+    {
+     "en": "northern"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:southern",
+    "edge:south>southern",
+    "focus:southern"
+   ],
+   "parts": [
+    {
+     "zh": "南方的，要小心，读音变成了 suh："
+    },
+    {
+     "en": "southern"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:eastern",
+    "edge:east>eastern",
+    "focus:eastern"
+   ],
+   "parts": [
+    {
+     "zh": "东方的："
+    },
+    {
+     "en": "eastern"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:western",
+    "edge:west>western",
+    "focus:western"
+   ],
+   "parts": [
+    {
+     "zh": "西方的："
+    },
+    {
+     "en": "western"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:then",
+    "focus:then"
+   ],
+   "parts": [
+    {
+     "zh": "指路的时候，先做一件事，然后做另一件事。然后，英语是"
+    },
+    {
+     "en": "then"
+    },
+    {
+     "zh": "常常说",
+     "cue": [
+      "alt:then"
+     ]
+    },
+    {
+     "en": "and then"
+    },
+    {
+     "en": "Go north and then go east.",
+     "cue": [
+      "focus:north,east,then"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第五十三集的转弯 turn 吗？我们来指路："
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Go north.",
+     "cue": [
+      "focus:north"
+     ]
+    },
+    {
+     "en": "Then turn east at the supermarket.",
+     "cue": [
+      "focus:east,then"
+     ]
+    },
+    {
+     "en": "Go southwest for two kilometers.",
+     "cue": [
+      "focus:south,west"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:north"
+   ],
+   "parts": [
+    {
+     "en": "north"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:south"
+   ],
+   "parts": [
+    {
+     "en": "south"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:east"
+   ],
+   "parts": [
+    {
+     "en": "east"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:west"
+   ],
+   "parts": [
+    {
+     "en": "west"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:northern"
+   ],
+   "parts": [
+    {
+     "en": "northern"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:southern"
+   ],
+   "parts": [
+    {
+     "en": "southern"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:eastern"
+   ],
+   "parts": [
+    {
+     "en": "eastern"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:western"
+   ],
+   "parts": [
+    {
+     "en": "western"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:then"
+   ],
+   "parts": [
+    {
+     "en": "then, and then"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！看看你家的窗户朝哪个方向，用英语说一说吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,628 @@
+{
+ "id": "ep73",
+ "title": "location",
+ "titleZh": "位置（二）",
+ "episode": "第 73 集",
+ "titleIcon": "location",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "location",
+   "word": "location",
+   "ipa": "/loʊˈkeɪʃn/",
+   "zh": "位置；地点",
+   "icon": "location",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "front",
+   "word": "front",
+   "ipa": "/frʌnt/",
+   "zh": "前面",
+   "icon": "front",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "side",
+   "word": "side",
+   "ipa": "/saɪd/",
+   "zh": "侧面；旁边",
+   "icon": "side",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "top",
+   "word": "top",
+   "ipa": "/tɑːp/",
+   "zh": "顶部",
+   "icon": "top",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "surface",
+   "word": "surface",
+   "ipa": "/ˈsɜːrfɪs/",
+   "zh": "表面",
+   "icon": "surface",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "above",
+   "word": "above",
+   "ipa": "/əˈbʌv/",
+   "zh": "在……上方",
+   "icon": "above",
+   "kind": "prep",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "part",
+   "word": "part",
+   "ipa": "/pɑːrt/",
+   "zh": "部分",
+   "icon": "part",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "middle",
+   "word": "middle",
+   "ipa": "/ˈmɪdl/",
+   "zh": "中间",
+   "icon": "middle",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "center",
+   "word": "center",
+   "ipa": "/ˈsentər/",
+   "zh": "中心",
+   "icon": "center",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "central",
+   "word": "central",
+   "ipa": "/ˈsentrəl/",
+   "zh": "中心的",
+   "icon": "central",
+   "kind": "adj",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  },
+  {
+   "id": "high",
+   "word": "high",
+   "ipa": "/haɪ/",
+   "zh": "高的",
+   "icon": "high",
+   "kind": "adj",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "low",
+   "word": "low",
+   "ipa": "/loʊ/",
+   "zh": "低的",
+   "icon": "low",
+   "kind": "adj",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "location",
+   "to": "front"
+  },
+  {
+   "from": "location",
+   "to": "side"
+  },
+  {
+   "from": "location",
+   "to": "top"
+  },
+  {
+   "from": "top",
+   "to": "surface",
+   "dashed": true
+  },
+  {
+   "from": "top",
+   "to": "above",
+   "dashed": true
+  },
+  {
+   "from": "middle",
+   "to": "part",
+   "dashed": true
+  },
+  {
+   "from": "middle",
+   "to": "center",
+   "dashed": true
+  },
+  {
+   "from": "center",
+   "to": "central",
+   "label": "+al"
+  },
+  {
+   "from": "high",
+   "to": "low",
+   "label": "反义"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！还记得第七十集的位置吗？今天，我们学更多描述位置的词。"
+    },
+    {
+     "en": "location"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:location",
+    "focus:location"
+   ],
+   "parts": [
+    {
+     "zh": "东西所在的地方，是位置、地点："
+    },
+    {
+     "en": "location"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:front",
+    "edge:location>front",
+    "focus:front"
+   ],
+   "parts": [
+    {
+     "zh": "箱子的前面："
+    },
+    {
+     "en": "front"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:side",
+    "edge:location>side",
+    "focus:side"
+   ],
+   "parts": [
+    {
+     "zh": "箱子的侧面："
+    },
+    {
+     "en": "side"
+    },
+    {
+     "zh": "还记得 inside、outside 吗？都有它。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:top",
+    "edge:location>top",
+    "focus:top"
+   ],
+   "parts": [
+    {
+     "zh": "箱子的最上面，是顶部："
+    },
+    {
+     "en": "top"
+    },
+    {
+     "en": "The top of the bridge is very high."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:surface",
+    "edge:top>surface",
+    "focus:surface"
+   ],
+   "parts": [
+    {
+     "zh": "东西的最外面一层，是表面："
+    },
+    {
+     "en": "surface"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:above",
+    "edge:top>above",
+    "focus:above"
+   ],
+   "parts": [
+    {
+     "zh": "在上方，不挨着，是"
+    },
+    {
+     "en": "above"
+    },
+    {
+     "zh": "还记得 below 吗？正好相反。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:middle",
+    "focus:middle"
+   ],
+   "parts": [
+    {
+     "zh": "排在中间的，是"
+    },
+    {
+     "en": "middle"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:part",
+    "edge:middle>part",
+    "focus:part"
+   ],
+   "parts": [
+    {
+     "zh": "一样东西的一部分，是"
+    },
+    {
+     "en": "part"
+    },
+    {
+     "en": "I like the middle part of the song."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:center",
+    "edge:middle>center",
+    "focus:center"
+   ],
+   "parts": [
+    {
+     "zh": "圆的正中心，是"
+    },
+    {
+     "en": "center"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:central",
+    "edge:center>central",
+    "focus:central"
+   ],
+   "parts": [
+    {
+     "zh": "变成形容词，中心的："
+    },
+    {
+     "en": "central"
+    },
+    {
+     "en": "Central Park"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:high",
+    "focus:high"
+   ],
+   "parts": [
+    {
+     "zh": "高高的山，是"
+    },
+    {
+     "en": "high"
+    },
+    {
+     "zh": "还记得第二十八集的 tall 吗？人用 tall，山和楼常常用 high。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:low",
+    "edge:high>low",
+    "focus:low"
+   ],
+   "parts": [
+    {
+     "zh": "矮矮的、低低的，是"
+    },
+    {
+     "en": "low"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:above"
+   ],
+   "parts": [
+    {
+     "zh": "上方和下方："
+    },
+    {
+     "en": "above",
+     "cue": [
+      "focus:above"
+     ]
+    },
+    {
+     "en": "below"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:location"
+   ],
+   "parts": [
+    {
+     "en": "location"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:front"
+   ],
+   "parts": [
+    {
+     "en": "front"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:side"
+   ],
+   "parts": [
+    {
+     "en": "side"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:top"
+   ],
+   "parts": [
+    {
+     "en": "top"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:surface"
+   ],
+   "parts": [
+    {
+     "en": "surface"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:above"
+   ],
+   "parts": [
+    {
+     "en": "above"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:middle"
+   ],
+   "parts": [
+    {
+     "en": "middle"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:part"
+   ],
+   "parts": [
+    {
+     "en": "part"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:center"
+   ],
+   "parts": [
+    {
+     "en": "center"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:central"
+   ],
+   "parts": [
+    {
+     "en": "central"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:high"
+   ],
+   "parts": [
+    {
+     "en": "high"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:low"
+   ],
+   "parts": [
+    {
+     "en": "low"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！用英语说一说你的书包放在哪里吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

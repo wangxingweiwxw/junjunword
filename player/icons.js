@@ -2519,6 +2519,197 @@
     against: () => crate(24, 50, 56, 50, 20) + crateFront(24, 50, 56, 50) + `<rect x="80" y="44" width="10" height="60" rx="2" fill="#E63946" transform="rotate(-12 85 74)"/>`,
   });
 
+  const sumBox = (lines, op, c = '#3D8BFD') => `<rect x="14" y="12" width="92" height="96" rx="8" fill="#fff" stroke="${c}" stroke-width="3"/>
+      ${lines.map((t, i) => `<text x="94" y="${42 + i * 26}" text-anchor="end" font-size="${t.length > 4 ? 17 : 20}" ${FONT} fill="${i === lines.length - 1 ? c : INK}">${t}</text>`).join('')}
+      <text x="20" y="${42 + (lines.length - 2) * 26}" font-size="20" ${FONT} fill="${c}">${op}</text><path d="M24 ${48 + (lines.length - 2) * 26} H96" stroke="${INK}" stroke-width="2.5"/>`;
+  const compass = (hl) => `<circle cx="60" cy="60" r="46" fill="#fff" stroke="#C5CBE0" stroke-width="4"/>
+      ${[['N', 60, 26, 0], ['E', 94, 66, 90], ['S', 60, 102, 180], ['W', 26, 66, 270]].map(([t, x, y, a]) => `<path d="M60 60 L54 60 L60 ${60 - 30} L66 60Z" fill="${t === hl ? '#E63946' : '#E3E6F5'}" transform="rotate(${a} 60 60)"/>
+        <text x="${x}" y="${y}" text-anchor="middle" font-size="15" ${FONT} fill="${t === hl ? '#E63946' : '#8A8FA3'}">${t}</text>`).join('')}<circle cx="60" cy="60" r="5" fill="${INK}"/>`;
+  const mapArea = (zone) => `<rect x="12" y="12" width="96" height="96" rx="10" fill="#E3F4FF" stroke="#C5CBE0" stroke-width="3"/>
+      ${{N: '<rect x="12" y="12" width="96" height="32" rx="10" fill="#FFB703" opacity=".75"/>', S: '<rect x="12" y="76" width="96" height="32" rx="10" fill="#FFB703" opacity=".75"/>',
+         E: '<rect x="76" y="12" width="32" height="96" rx="10" fill="#FFB703" opacity=".75"/>', W: '<rect x="12" y="12" width="32" height="96" rx="10" fill="#FFB703" opacity=".75"/>'}[zone]}
+      <path d="M40 40 q14 -6 22 6 q-2 14 10 18 q12 6 0 20 q-16 6 -22 -8 q-14 -6 -10 -36z" fill="#6CCB5F"/>
+      <text x="60" y="${zone === 'S' ? 98 : zone === 'N' ? 34 : 64}" x2="0" text-anchor="middle" font-size="13" ${FONT} fill="#C77800" transform="translate(${zone === 'E' ? 32 : zone === 'W' ? -32 : 0} 0)">${zone}</text>`;
+  const cube = (hl) => { const F = '#F4C99B', T = '#FBE3C5', R = '#D99058', H = '#FF6FA5';
+    return `<path d="M30 46 l22 -14 h44 l-22 14z" fill="${hl === 'top' ? H : T}" stroke="#B5703F" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M74 46 l22 -14 v44 l-22 14z" fill="${hl === 'side' ? H : R}" stroke="#B5703F" stroke-width="2.5" stroke-linejoin="round"/>
+      <rect x="30" y="46" width="44" height="44" fill="${hl === 'front' ? H : F}" stroke="#B5703F" stroke-width="2.5"/>`; };
+  const uniformP = (c, hat, extra = '') => figure('man', {shirt: c, skin: SKIN[1]}) + hat + extra;
+  Object.assign(ART, {
+    // ---------- ep71 numbers & maths ----------
+    thousand: () => `<text x="60" y="70" text-anchor="middle" font-size="32" ${FONT} fill="#3D8BFD">1,000</text><text x="60" y="100" text-anchor="middle" font-size="14" ${FONT} fill="#8A8FA3">一千</text>`,
+    add: () => sumBox(['1,000', '1,000', '2,000'], '+', '#2FA36B'),
+    total: () => sumBox(['3', '4', '7'], '+', '#FF7A59') + `<rect x="68" y="76" width="34" height="26" rx="6" fill="none" stroke="#FF7A59" stroke-width="3"/>`,
+    double: () => `<rect x="10" y="40" width="40" height="40" rx="8" fill="#9B5DE5"/>` + arrowTo(54, 60, 70, 60, '#8A8FA3', 4)
+       + `<rect x="74" y="24" width="38" height="34" rx="7" fill="#9B5DE5"/><rect x="74" y="62" width="38" height="34" rx="7" fill="#9B5DE5"/><text x="30" y="106" text-anchor="middle" font-size="14" ${FONT} fill="#8A8FA3">×2</text>`,
+    reduce: () => sumBox(['2,000', '1,000', '1,000'], '−', '#E63946'),
+    divide: () => `<circle cx="60" cy="30" r="9" fill="#3D8BFD"/><rect x="18" y="54" width="84" height="12" rx="6" fill="#3D8BFD"/><circle cx="60" cy="90" r="9" fill="#3D8BFD"/>`,
+    percent: () => `<text x="60" y="80" text-anchor="middle" font-size="62" ${FONT} fill="#FF9F1C">%</text><text x="60" y="110" text-anchor="middle" font-size="14" ${FONT} fill="#8A8FA3">0.5 = 50%</text>`,
+    million: () => `<text x="60" y="66" text-anchor="middle" font-size="19" ${FONT} fill="#E63946">1,000,000</text><text x="60" y="96" text-anchor="middle" font-size="14" ${FONT} fill="#8A8FA3">一百万</text>`,
+    about: () => `<text x="60" y="72" text-anchor="middle" font-size="58" ${FONT} fill="#2BB3A3">≈</text><text x="60" y="106" text-anchor="middle" font-size="14" ${FONT} fill="#8A8FA3">大约</text>`,
+    once: () => `<circle cx="60" cy="54" r="26" fill="#FFD23F"/><text x="60" y="64" text-anchor="middle" font-size="28" ${FONT} fill="#C77800">1</text><text x="60" y="104" text-anchor="middle" font-size="14" ${FONT} fill="#8A8FA3">一次</text>`,
+    twice: () => [36, 84].map(x => `<circle cx="${x}" cy="54" r="22" fill="#FFB703"/>`).join('') + `<text x="36" y="63" text-anchor="middle" font-size="24" ${FONT} fill="#fff">1</text><text x="84" y="63" text-anchor="middle" font-size="24" ${FONT} fill="#fff">2</text>
+       <text x="60" y="104" text-anchor="middle" font-size="14" ${FONT} fill="#8A8FA3">两次</text>`,
+    dozen: () => `<rect x="10" y="30" width="100" height="70" rx="10" fill="#E9A66B"/>` + Array.from({length: 12}, (_, i) => `<ellipse cx="${24 + (i % 6) * 14.4}" cy="${50 + Math.floor(i / 6) * 26}" rx="6" ry="8" fill="#FFF3C4"/>`).join('')
+       + `<text x="60" y="22" text-anchor="middle" font-size="14" ${FONT} fill="#8A8FA3">12</text>`,
+
+    // ---------- ep72 compass ----------
+    north: () => compass('N'), south: () => compass('S'), east: () => compass('E'), west: () => compass('W'),
+    northern: () => mapArea('N'), southern: () => mapArea('S'), eastern: () => mapArea('E'), western: () => mapArea('W'),
+    then: () => [[24, '#FF7A59', '1'], [60, '#3D8BFD', '2'], [96, '#2FA36B', '3']].map(([x, c, t]) => `<circle cx="${x}" cy="60" r="16" fill="${c}"/><text x="${x}" y="66" text-anchor="middle" font-size="16" ${FONT} fill="#fff">${t}</text>`).join('')
+       + arrowTo(40, 60, 44, 60, '#8A8FA3', 3) + arrowTo(76, 60, 80, 60, '#8A8FA3', 3),
+
+    // ---------- ep73 location ----------
+    location: () => ART.map() + `<g transform="translate(76 16) scale(.3)">${ART.position()}</g>`,
+    side: () => cube('side'), top: () => cube('top'),
+    surface: () => cube('top') + arrowTo(30, 16, 46, 32, '#8A8FA3', 3) + arrowTo(100, 10, 86, 30, '#8A8FA3', 3) + arrowTo(110, 60, 98, 56, '#8A8FA3', 3),
+    above: () => cube('') + ballR(63, 20, 9) + `<path d="M63 30 V40" stroke="#E63946" stroke-width="2" stroke-dasharray="3 3"/>`,
+    part: () => cube('') + `<path d="M30 68 h44 l22 -14" stroke="#E63946" stroke-width="3" stroke-dasharray="5 4" fill="none"/>`,
+    middle: () => [16, 46, 76].map((x, i) => `<rect x="${x}" y="50" width="28" height="28" rx="4" fill="${i === 1 ? '#FF6FA5' : '#F4C99B'}" stroke="#B5703F" stroke-width="2.5"/>`).join('') + arrowTo(60, 20, 60, 44, '#2B2D42', 3),
+    center: () => `<circle cx="60" cy="60" r="44" fill="none" stroke="${INK}" stroke-width="4"/><circle cx="60" cy="60" r="7" fill="#E63946"/>
+       <path d="M60 16 V40 M60 80 V104 M16 60 H40 M80 60 H104" stroke="#C5CBE0" stroke-width="3" stroke-dasharray="4 4"/>`,
+    central: () => ART.town() + `<circle cx="60" cy="70" r="20" fill="none" stroke="#E63946" stroke-width="4"/>`,
+    high: () => `<path d="M14 110 L60 14 L106 110Z" fill="#8D7B68"/><path d="M46 42 L60 14 L74 42 L66 38 L60 46 L54 38Z" fill="#fff"/>` + arrowTo(104, 100, 104, 22, '#2FA36B', 4),
+    low: () => `<path d="M4 110 Q30 80 60 92 T116 96 V110Z" fill="#8EDB6E"/>` + arrowTo(104, 30, 104, 88, '#FF9F1C', 4),
+
+    // ---------- ep74 animal adjectives ----------
+    famous: () => star(60, 50, 34, 14, '#FFD23F') + `<path d="M30 92 h60" stroke="#E63946" stroke-width="7" stroke-linecap="round"/>`
+       + [[16, 20], [104, 22], [14, 70], [106, 72]].map(([x, y]) => `<path d="M60 50 L${x} ${y}" stroke="#FFF3C4" stroke-width="4" opacity=".7"/>`).join('').replace(/^/, '') + `<text x="60" y="112" text-anchor="middle" font-size="13" ${FONT} fill="#8A8FA3">著名的</text>`,
+    special: () => [0, 1, 2, 3, 5, 6, 7, 8].map(i => `<circle cx="${30 + (i % 3) * 30}" cy="${30 + Math.floor(i / 3) * 30}" r="10" fill="#C5CBE0"/>`).join('') + star(60, 60, 16, 7, '#FF6FA5'),
+    creative: () => `<g transform="translate(-6 10) scale(.66)">${ART.colour()}</g>` + mini('inspiration', 88, 34, .5) + star(96, 96, 8, 3.4, '#FF6FA5'),
+    treasure: () => `<path d="M14 58 h92 v48 a6 6 0 0 1 -6 6 h-80 a6 6 0 0 1 -6 -6z" fill="#B5703F"/><path d="M14 58 C14 32 106 32 106 58Z" fill="#8D5A3B"/>
+       <rect x="14" y="56" width="92" height="8" fill="#FFD23F"/><rect x="52" y="54" width="16" height="22" rx="3" fill="#FFD23F"/>
+       ${coin(36, 50, 9)}${coin(80, 46, 9)}<path d="M60 30 l4 -10 l4 10" fill="none"/>${star(60, 30, 9, 4, '#7FC8F8')}`,
+    patient: () => person('woman', {shirt: '#2BB3A3'}, 0, 4, 1) + clockF(98, 24, 14, 3, 0, {rim: '#2FA36B'}),
+    impatient: () => person('man', {shirt: '#E63946'}, 0, 4, 1) + clockF(98, 24, 14, 3, 40, {rim: '#E63946'}) + `<path d="M12 30 l8 8 M14 50 l8 4" stroke="#E63946" stroke-width="3" stroke-linecap="round"/>`,
+    ugly: () => emo('#B9E28C', `<circle cx="42" cy="50" r="6" fill="${INK}"/><circle cx="80" cy="56" r="4" fill="${INK}"/>`, `<path d="M40 82 q10 -10 20 0 t20 0" stroke="${INK}" stroke-width="4" fill="none"/>`,
+       `<circle cx="70" cy="74" r="4" fill="#8D5A3B"/>`),
+    pretty: () => figure('girl', {shirt: '#FF6FA5', bow: '#E63946'}) + star(20, 24, 7, 3, '#FFD23F') + star(100, 28, 6, 2.5, '#FFD23F'),
+    beautiful: () => ART.flower() + star(22, 22, 8, 3.4, '#FFD23F') + star(98, 30, 7, 3, '#FFD23F') + `<path d="M8 108 H112" stroke="#6CCB5F" stroke-width="5" stroke-linecap="round"/>`,
+    beauty: () => `<g transform="translate(-4 4) scale(.7)">${ART.beautiful()}</g>` + `<text x="94" y="108" text-anchor="middle" font-size="12" ${FONT} fill="#8A8FA3">美</text>` + heart(94, 40, .6, '#FF6FA5'),
+    silent: () => face2(60, 58, 40, SKIN[0], `<path d="M46 80 h28" stroke="${INK}" stroke-width="4" stroke-linecap="round"/>`) + `<path d="M60 98 V66" stroke="${SKIN[1]}" stroke-width="7" stroke-linecap="round"/>`
+       + `<text x="100" y="26" font-size="16" ${FONT} fill="#8A8FA3">shh</text>`,
+    wise: () => ART.owl() + `<g fill="none" stroke="${INK}" stroke-width="3"><circle cx="44" cy="52" r="15"/><circle cx="76" cy="52" r="15"/><path d="M59 52 h2"/></g>` + mini('inspiration', 100, 18, .22),
+
+    // ---------- ep75 jobs (3) ----------
+    duty: () => paper(`<text x="60" y="36" text-anchor="middle" font-size="13" ${FONT} fill="#5A67D8">DUTY</text>${[52, 68, 84].map(y => `${check(36, y, .6)}<path d="M48 ${y} h40" stroke="#C5CBE0" stroke-width="4" stroke-linecap="round"/>`).join('')}`),
+    soldier: () => uniformP('#5C7A3A', `<path d="M36 34 C36 12 84 12 84 34Z" fill="#4A6330"/><rect x="32" y="30" width="56" height="6" rx="3" fill="#3B4F26"/>`),
+    guard: () => uniformP('#2E5AAC', `<path d="M36 34 C36 12 84 12 84 34Z" fill="#1F3E7A"/><rect x="32" y="30" width="56" height="6" rx="3" fill="#15305E"/>`, `<rect x="92" y="34" width="20" height="78" rx="4" fill="#C5CBE0"/><path d="M92 34 l10 -10 l10 10" fill="#C5CBE0"/>`),
+    captain: () => uniformP('#1F3E7A', `<path d="M34 32 C34 14 86 14 86 32Z" fill="#fff"/><rect x="30" y="28" width="60" height="7" rx="3" fill="#2B2D42"/><circle cx="60" cy="22" r="4" fill="#FFD23F"/>`,
+       `<path d="M32 86 h14 M32 92 h14 M74 86 h14 M74 92 h14" stroke="#FFD23F" stroke-width="3"/>`),
+    officer: () => uniformP('#3D5A80', `<path d="M36 34 C36 14 84 14 84 34Z" fill="#2C4363"/><rect x="32" y="30" width="56" height="6" rx="3" fill="#FFD23F"/>`) + star(76, 88, 6, 2.6, '#FFD23F'),
+    police: () => uniformP('#2E5AAC', `<path d="M34 32 C34 14 86 14 86 32Z" fill="#1F3E7A"/><rect x="30" y="28" width="60" height="7" rx="3" fill="#15305E"/>`) + `<path d="M60 14 l5 6 h-10z" fill="#FFD23F"/>` + star(76, 88, 7, 3, '#FFD23F'),
+    company: () => `<rect x="30" y="14" width="60" height="96" fill="#5A67D8"/>${Array.from({length: 15}, (_, i) => `<rect x="${38 + (i % 3) * 16}" y="${22 + Math.floor(i / 3) * 16}" width="10" height="10" fill="${i % 4 ? '#BDE7FF' : '#FFD23F'}"/>`).join('')}
+       <rect x="50" y="96" width="20" height="14" fill="#2B2D42"/><rect x="10" y="60" width="20" height="50" fill="#8A8FA3"/><rect x="90" y="50" width="20" height="60" fill="#8A8FA3"/>`,
+    office: () => `<rect x="8" y="70" width="104" height="10" rx="3" fill="#C9934A"/><path d="M14 80 v30 M106 80 v30" stroke="#8D5A3B" stroke-width="5"/>`
+       + `<rect x="40" y="36" width="44" height="30" rx="3" fill="#2B2D42"/><rect x="44" y="40" width="36" height="22" fill="#7FC8F8"/><rect x="56" y="66" width="12" height="6" fill="#2B2D42"/>`
+       + `<rect x="14" y="20" width="18" height="50" rx="2" fill="#E9A66B"/>${[30, 44, 58].map(y => `<path d="M16 ${y} h14" stroke="#B5703F" stroke-width="2"/>`).join('')}`,
+    meeting: () => `<ellipse cx="60" cy="74" rx="46" ry="18" fill="#C9934A"/>` + [[22, 52, '#E63946'], [60, 42, '#3D8BFD'], [98, 52, '#2FA36B'], [36, 96, '#FFB703'], [84, 96, '#9B5DE5']].map(([x, y, c]) =>
+         `<circle cx="${x}" cy="${y - 10}" r="8" fill="${SKIN[0]}"/><path d="M${x - 11} ${y + 6} a11 10 0 0 1 22 0z" fill="${c}"/>`).join(''),
+    boss: () => figure('man', {shirt: '#2B2D42', skin: SKIN[0]}) + `<path d="M60 70 l-5 8 l5 24 l5 -24z" fill="#FFD23F"/><path d="M40 20 l8 -14 l12 10 l12 -10 l8 14z" fill="#FFD23F"/>`,
+    manager: () => figure('woman', {shirt: '#5A67D8'}) + `<rect x="80" y="76" width="30" height="36" rx="4" fill="#fff" stroke="#C5CBE0" stroke-width="2"/>${check(95, 88, .5)}${check(95, 100, .5)}`,
+    business: () => ART.deal() + `<rect x="44" y="96" width="32" height="20" rx="3" fill="#8D5A3B"/>`,
+    businessman: () => figure('man', {shirt: '#3D5A80', skin: SKIN[1]}) + `<rect x="84" y="86" width="30" height="24" rx="4" fill="#8D5A3B"/><path d="M92 86 v-6 h14 v6" stroke="#6B4A36" stroke-width="3" fill="none"/>`,
+    earn: () => hand(48, 96, 1, 0, SKIN[0]) + coin(46, 48, 13) + coin(70, 30, 11) + coin(88, 56, 10) + arrowTo(100, 100, 100, 70, '#2FA36B', 4),
+  });
+
+  const badgeTxt = (t, c) => `<rect x="14" y="40" width="92" height="40" rx="20" fill="${c}"/><text x="60" y="67" text-anchor="middle" font-size="${t.length > 7 ? 15 : 19}" ${FONT} fill="#fff">${t}</text>`;
+  Object.assign(ART, {
+    // ---------- ep76 letters & friendship ----------
+    friendship: () => ART.friend() + `<path d="M14 104 H106" stroke="#FF6FA5" stroke-width="4" stroke-dasharray="6 5"/>` + heart(102, 98, .45, '#FF4D6D'),
+    conversation: () => ART.talk(),
+    personal: () => envelope(60, 64, 2, '#5A67D8') + `<rect x="50" y="62" width="20" height="16" rx="3" fill="#FFD23F"/><path d="M54 62 v-6 a6 6 0 0 1 12 0 v6" stroke="#E0A100" stroke-width="3" fill="none"/>`,
+    secret: () => emo('#FFD23F', dotEyes(5), `<path d="M44 80 h32" stroke="${INK}" stroke-width="4" stroke-linecap="round"/><path d="M50 74 v12 M58 74 v12 M66 74 v12" stroke="${INK}" stroke-width="2.5"/>`)
+       + `<text x="100" y="26" font-size="16" ${FONT} fill="#8A8FA3">shh</text>`,
+    unlucky: () => emo('#B8BFCC', `<path d="M36 50 q8 4 16 -2 M68 48 q8 6 16 2" stroke="${INK}" stroke-width="4" fill="none"/>`, `<path d="M42 88 q18 -12 36 0" stroke="${INK}" stroke-width="4.5" fill="none"/>`)
+       + `<path d="M100 22 l10 6 M104 14 l2 12" stroke="#E63946" stroke-width="3"/>` + cloud(24, 18, .32, '#8A8FA3', '#6B7085'),
+    send: () => `<rect x="20" y="40" width="44" height="70" rx="6" fill="#E63946"/><path d="M20 58 a22 18 0 0 1 44 0" fill="#C1121F"/><rect x="30" y="52" width="24" height="5" rx="2" fill="#2B2D42"/>`
+       + envelope(86, 46, 1, '#3D8BFD') + arrowTo(76, 64, 58, 56, '#2FA36B', 3),
+    mail: () => envelope(60, 60, 2.2, '#3D8BFD'),
+    postcard: () => `<rect x="8" y="24" width="104" height="72" rx="4" fill="#fff" stroke="#C5CBE0" stroke-width="3"/><path d="M62 30 V90" stroke="#C5CBE0" stroke-width="2"/>
+       <rect x="14" y="30" width="42" height="34" fill="#7FC8F8"/><path d="M14 64 L28 46 L38 56 L46 44 L56 64Z" fill="#6CCB5F"/>${lines([72, 82], 14, 40)}
+       <rect x="88" y="32" width="18" height="22" fill="#FF7A59"/>${lines([66, 76, 86], 70, 36)}`,
+    stamp: () => `<rect x="22" y="18" width="76" height="84" fill="#fff"/>${Array.from({length: 9}, (_, i) => `<circle cx="${22 + i * 9.5}" cy="18" r="3.5" fill="#FFF8EE"/><circle cx="${22 + i * 9.5}" cy="102" r="3.5" fill="#FFF8EE"/>`).join('')}
+       <rect x="30" y="26" width="60" height="68" fill="#E63946"/>${star(60, 56, 16, 7, '#FFD23F')}<text x="60" y="88" text-anchor="middle" font-size="11" ${FONT} fill="#fff">¥1.20</text>`,
+    letter: () => paper(`${lines([30, 42, 54, 66, 78])}<text x="88" y="98" text-anchor="end" font-size="13" ${FONT} fill="#3D8BFD">Love,</text>`) + pencil(100, 72, .8, 30),
+    package: () => `<path d="M14 44 L60 26 L106 44 V96 L60 114 L14 96Z" fill="#E9A66B"/><path d="M14 44 L60 62 L106 44 M60 62 V114" stroke="#B5703F" stroke-width="3" fill="none"/>
+       <path d="M37 35 L83 53" stroke="#FFF3C4" stroke-width="8"/><rect x="70" y="72" width="22" height="14" fill="#fff" transform="skewY(-20)"/>`,
+    box: () => `<path d="M18 50 h84 v54 h-84z" fill="#E9A66B" stroke="#B5703F" stroke-width="3"/><path d="M18 50 L6 30 h42 l12 20z M102 50 L114 30 h-42 l-12 20z" fill="#F4C99B" stroke="#B5703F" stroke-width="3" stroke-linejoin="round"/>`,
+    mention: () => person('girl', {shirt: '#9B5DE5'}, -16, 20, .84) + bubble(56, 10, 58, 40, '#5A67D8', 'l', `<text x="29" y="27" text-anchor="middle" font-size="15" ${FONT} fill="#fff">Tom…</text>`),
+    express: () => ART.package() + `<path d="M4 40 h16 M0 58 h18 M6 76 h12" stroke="#8A8FA3" stroke-width="4" stroke-linecap="round"/>` + bolt(96, 20, .8),
+
+    // ---------- ep77 character ----------
+    serious: () => face2(60, 58, 42, SKIN[0], `<path d="M44 84 h32" stroke="${INK}" stroke-width="4" stroke-linecap="round"/>`, `<path d="M34 48 h18 M68 48 h18" stroke="${INK}" stroke-width="4"/><circle cx="43" cy="58" r="4" fill="${INK}"/><circle cx="77" cy="58" r="4" fill="${INK}"/>`),
+    seriously: () => ART.serious() + `<text x="104" y="26" text-anchor="middle" font-size="14" ${FONT} fill="#5A67D8">+ly</text>`,
+    seem: () => face2(46, 60, 32, SKIN[1], `<path d="M36 76 q10 4 20 0" stroke="${INK}" stroke-width="3" fill="none"/>`) + `<text x="96" y="48" text-anchor="middle" font-size="34" ${FONT} fill="#8A8FA3">?</text>`
+       + `<text x="96" y="86" text-anchor="middle" font-size="13" ${FONT} fill="#8A8FA3">好像</text>`,
+    wonderful: () => hand(40, 70, 1, -20, SKIN[0]) + `<g transform="translate(120 0) scale(-1 1)">${hand(40, 70, 1, -20, SKIN[0])}</g>` + star(60, 24, 14, 6, '#FFD23F')
+       + `<path d="M20 30 l8 6 M100 30 l-8 6 M60 4 v8" stroke="#FFB703" stroke-width="3" stroke-linecap="round"/>`,
+    polite: () => figure('boy', {shirt: '#2BB3A3'}) + bubble(70, 6, 46, 32, '#2FA36B', 'l', `<text x="23" y="21" text-anchor="middle" font-size="11" ${FONT} fill="#fff">Please</text>`),
+    rude: () => figure('man', {shirt: '#E63946'}) + `<path d="M84 64 L112 54" stroke="${SKIN[1]}" stroke-width="7" stroke-linecap="round"/><path d="M38 36 l12 4 M82 36 l-12 4" stroke="${INK}" stroke-width="3"/>`,
+    honest: () => figure('girl', {shirt: '#3D8BFD'}) + hand(96, 74, .5, 0, SKIN[0]) + check(26, 26, 1),
+    poor: () => figure('man', {shirt: '#8A8FA3'}) + `<path d="M28 78 C20 90 24 104 36 104 M92 78 C100 90 96 104 84 104" stroke="#fff" stroke-width="7" fill="none"/>` + `<path d="M84 26 l8 0" stroke="#8A8FA3" stroke-width="0"/>`,
+    successful: () => kid({la: [-150, -160], ra: [150, 160], shirt: '#2FA36B'}) + `<g transform="translate(78 0) scale(.3)">${ART.prize()}</g>` + star(18, 24, 7, 3, '#FFD23F'),
+    truthful: () => ART.honest().replace('#3D8BFD', '#FF9F1C') + `<path d="M8 104 h30" stroke="#2FA36B" stroke-width="4"/>`,
+    faithful: () => person('boy', {shirt: '#3D8BFD'}, -16, 18, .82) + `<g transform="translate(66 60) scale(.42)">${ART.dog()}</g>` + heart(60, 20, .6, '#FF4D6D'),
+
+    // ---------- ep78 skills ----------
+    skill: () => `<path d="M60 10 l14 28 l30 4 l-22 22 l6 30 l-28 -14 l-28 14 l6 -30 l-22 -22 l30 -4z" fill="#FFB703"/>` + `<g transform="translate(36 40) scale(.4)">${ART.brush()}</g>`,
+    try: () => kid({rot: 8, la: [-60, 30], ra: [100, 120], ll: [-30, -60], rl: [40, -4], shirt: '#FF7A59'}) + `<rect x="92" y="20" width="10" height="90" fill="#8A8FA3"/><path d="M84 30 h26" stroke="#FFD23F" stroke-width="5"/>`,
+    again: () => ART.repeat(),
+    mistake: () => paper(`<path d="M34 34 h50" stroke="#C5CBE0" stroke-width="4"/><text x="32" y="68" font-size="18" ${FONT} fill="${INK}">2+2=5</text>`) + `<path d="M74 80 l14 14 M88 80 l-14 14" stroke="#E63946" stroke-width="6" stroke-linecap="round"/>`,
+    practice: () => `<g transform="translate(14 40) scale(.6)">${ART.piano()}</g>` + calPage('', '', '#2BB3A3').replace(/<text[^>]*><\/text>/g, '').replace('x="16" y="14" width="88" height="94"', 'x="70" y="6" width="44" height="40"').replace(/<path d="M16 24[^>]*>/, '').replace(/<rect x="36" y="6"[^>]*>/, '').replace(/<rect x="78" y="6"[^>]*>/, '')
+       + check(92, 26, .8),
+    often: () => calPage('OFTEN', '', '#2FA36B') + [0, 1, 2, 4, 5, 6].map(i => check(32 + (i % 3) * 28, 62 + Math.floor(i / 3) * 24, .65)).join(''),
+    able: () => kid({la: [-90, -150], ra: [90, 150], shirt: '#3D8BFD'}) + check(100, 22, 1.1),
+    easy: () => `<path d="M10 90 H110" stroke="#C5CBE0" stroke-width="5"/><rect x="24" y="74" width="20" height="16" rx="3" fill="#2FA36B"/>` + kid({s: .6, dx: 10, dy: 2, la: [-24, -8], ra: [26, 48], ll: [20, 8], rl: [-20, -36], shirt: '#2FA36B'})
+       + emo('#FFD23F', '', '').replace(/<circle cx="60" cy="60" r="46"[^>]*>/, '') + `<text x="96" y="32" font-size="16" ${FONT} fill="#2FA36B">^_^</text>`,
+    difficulty: () => `<path d="M8 110 L40 50 L60 76 L84 20 L112 110Z" fill="#8D7B68"/><path d="M78 32 L84 20 L90 32Z" fill="#fff"/>` + kid({s: .4, dx: -20, dy: 40, rot: -20, la: [-160, -170], ra: [140, 160], shirt: '#E63946'}),
+    difficult: () => emo('#FFB703', `<path d="M36 48 l14 6 M84 48 l-14 6" stroke="${INK}" stroke-width="4"/><circle cx="44" cy="60" r="4" fill="${INK}"/><circle cx="76" cy="60" r="4" fill="${INK}"/>`,
+       `<path d="M44 84 q4 -6 8 0 t8 0 t8 0 t8 0" stroke="${INK}" stroke-width="3.5" fill="none"/>`, `<path d="M96 20 q6 10 0 14 q-6 -4 0 -14z" fill="#7FC8F8"/>`),
+    proud: () => figure('boy', {shirt: '#2FA36B'}) + `<path d="M36 58 l-12 -8 M84 58 l12 -8" stroke="${SKIN[0]}" stroke-width="0"/>` + star(60, 92, 10, 4, '#FFD23F') + `<path d="M20 30 l10 4 M100 30 l-10 4" stroke="#FFB703" stroke-width="3"/>`,
+    pride: () => `<path d="M30 14 h60 v40 l-30 20 l-30 -20z" fill="#E63946"/><path d="M40 14 v34 l20 14 l20 -14 v-34" fill="#FF6FA5"/>${star(60, 38, 12, 5, '#FFD23F')}
+       <path d="M42 70 L32 110 L50 98 L60 112 L70 98 L88 110 L78 70" fill="#3D8BFD"/>`,
+
+    // ---------- ep79 manners ----------
+    kick: () => kid({dx: -20, la: [-50, -20], ra: [40, 20], ll: [-4, -4], rl: [80, 60], shirt: '#E63946'}) + soccerBall(96, 70, .3) + `<path d="M76 70 h-6" stroke="#8A8FA3" stroke-width="3"/>`,
+    knock: () => `<rect x="60" y="8" width="54" height="104" rx="4" fill="#B5703F"/><circle cx="72" cy="62" r="4" fill="#FFD23F"/>` + hand(42, 60, 1, 90, SKIN[0])
+       + `<path d="M58 36 l-8 -6 M56 52 l-10 0 M58 70 l-8 6" stroke="#FFB703" stroke-width="3" stroke-linecap="round"/><text x="30" y="26" font-size="12" ${FONT} fill="#8A8FA3">knock</text>`,
+    break: () => `<rect x="14" y="14" width="92" height="92" rx="4" fill="#BDE7FF" stroke="#8D5A3B" stroke-width="5"/><path d="M60 60 L40 22 M60 60 L96 30 M60 60 L100 88 M60 60 L30 96 M60 60 L18 56" stroke="#fff" stroke-width="3"/>`
+       + soccerBall(60, 60, .2),
+    proper: () => `<rect x="14" y="30" width="92" height="60" rx="10" fill="#E8F7EE" stroke="#2FA36B" stroke-width="4"/>` + check(60, 60, 2.2),
+    stay: () => figure('girl', {shirt: '#FF9F1C'}) + `<path d="M10 112 H110" stroke="#C5CBE0" stroke-width="5"/><rect x="40" y="104" width="40" height="8" fill="#E63946"/>`,
+    apologize: () => figure('boy', {shirt: '#5A67D8'}) + `<ellipse cx="54" cy="96" rx="8" ry="11" fill="${SKIN[0]}"/><ellipse cx="66" cy="96" rx="8" ry="11" fill="${SKIN[0]}"/>`
+       + bubble(72, 6, 46, 30, '#5A67D8', 'l', `<text x="23" y="20" text-anchor="middle" font-size="11" ${FONT} fill="#fff">Sorry</text>`),
+    forgive: () => person('girl', {shirt: '#FF6FA5'}, -18, 18, .82) + person('boy', {shirt: '#5A67D8'}, 34, 18, .82) + heart(60, 22, .7, '#FF4D6D'),
+    replace: () => `<rect x="10" y="40" width="34" height="40" rx="6" fill="#C5CBE0"/><rect x="76" y="40" width="34" height="40" rx="6" fill="#2FA36B"/>`
+       + `<path d="M48 50 Q60 30 72 50" stroke="#8A8FA3" stroke-width="4" fill="none"/><path d="M72 70 Q60 90 48 70" stroke="#8A8FA3" stroke-width="4" fill="none"/>${arrowTo(68, 46, 72, 50, '#8A8FA3', 4)}${arrowTo(52, 74, 48, 70, '#8A8FA3', 4)}`,
+    avoid: () => kid({dx: -18, la: [-24, -8], ra: [26, 48], ll: [20, 8], rl: [-20, -36], shirt: '#2BB3A3'}) + `<circle cx="96" cy="60" r="16" fill="#E63946"/><path d="M60 30 Q96 20 104 40" stroke="#2FA36B" stroke-width="3" fill="none" stroke-dasharray="5 4"/>`,
+    hide: () => tree(60, 72, 1.3, `<circle cx="0" cy="-18" r="30" fill="#3FA34D"/>`) + `<circle cx="88" cy="70" r="10" fill="${SKIN[0]}"/><circle cx="91" cy="68" r="2" fill="${INK}"/>`,
+    leave: () => ART.away(),
+
+    // ---------- ep80 adjectives ----------
+    situation: () => person('child', {shirt: '#FF9F1C'}, 0, 22, .8) + thought(86, 30, 54, 42, `<text x="0" y="10" text-anchor="middle" font-size="22" ${FONT} fill="#8A8FA3">?!</text>`)
+       + `<path d="M8 110 H112" stroke="#C5CBE0" stroke-width="5"/>`,
+    condition: () => `<rect x="12" y="20" width="96" height="80" rx="10" fill="#fff" stroke="#C5CBE0" stroke-width="3"/>` + [0, 1, 2].map(i => `<rect x="22" y="${34 + i * 22}" width="60" height="12" rx="6" fill="#E3E6F5"/>
+         <rect x="22" y="${34 + i * 22}" width="${[50, 30, 44][i]}" height="12" rx="6" fill="${['#2FA36B', '#FFB703', '#3D8BFD'][i]}"/>`).join('') + check(94, 40, .6),
+    real: () => `<circle cx="60" cy="60" r="42" fill="#FFD23F" stroke="#E0A100" stroke-width="5"/>${star(60, 60, 20, 8, '#fff')}` + check(96, 22, 1),
+    fake: () => `<circle cx="60" cy="60" r="42" fill="#C5CBE0" stroke="#8A8FA3" stroke-width="5" stroke-dasharray="8 6"/>${star(60, 60, 20, 8, '#fff')}<path d="M86 12 l18 18 M104 12 l-18 18" stroke="#E63946" stroke-width="5" stroke-linecap="round"/>`,
+    exciting: () => `<path d="M8 110 C30 40 40 30 52 70 C64 110 76 10 112 30" stroke="#E63946" stroke-width="7" fill="none" stroke-linecap="round"/>` + `<rect x="40" y="56" width="22" height="14" rx="4" fill="#3D8BFD" transform="rotate(-40 51 63)"/>`
+       + star(98, 22, 8, 3.4, '#FFD23F'),
+    boring: () => emo('#E3E6F5', `<path d="M34 54 h18 M68 54 h18" stroke="${INK}" stroke-width="4"/>`, `<path d="M46 82 h28" stroke="${INK}" stroke-width="4"/>`, `<text x="84" y="24" font-size="15" ${FONT} fill="#8A8FA3">zzz</text>`),
+    amazing: () => ART.surprised() + star(16, 20, 7, 3, '#FF9F1C') + star(104, 24, 8, 3.4, '#FF9F1C'),
+    fantastic: () => [[30, 34, 14], [84, 40, 18], [56, 84, 20]].map(([x, y, r], i) => star(x, y, r, r * .42, ['#FF6FA5', '#FFD23F', '#3D8BFD'][i])).join(''),
+    excellent: () => `<circle cx="60" cy="54" r="34" fill="#FFD23F" stroke="#E0A100" stroke-width="5"/><text x="60" y="66" text-anchor="middle" font-size="30" ${FONT} fill="#C77800">A+</text>
+       <path d="M40 84 L30 112 L46 104 L52 116 L60 88 M80 84 L90 112 L74 104 L68 116 L60 88" fill="#E63946"/>`,
+    useful: () => `<g transform="rotate(-30 60 60)"><rect x="54" y="40" width="12" height="70" rx="4" fill="#8D5A3B"/><path d="M40 20 h40 l-6 22 h-28z" fill="#8A8FA3"/></g>` + check(96, 24, 1.1),
+    useless: () => `<g transform="rotate(-30 60 60)"><rect x="54" y="40" width="12" height="70" rx="4" fill="#C5CBE0"/><path d="M40 20 h18 l-4 12 h-10z M62 26 h18 l-6 16 h-10z" fill="#C5CBE0"/></g>`
+       + `<path d="M86 12 l18 18 M104 12 l-18 18" stroke="#E63946" stroke-width="5" stroke-linecap="round"/>`,
+    harmful: () => `<path d="M60 12 L110 100 H10Z" fill="#FFD23F" stroke="#E63946" stroke-width="6" stroke-linejoin="round"/><circle cx="60" cy="62" r="14" fill="${INK}"/>
+       <circle cx="54" cy="60" r="3.5" fill="#FFD23F"/><circle cx="66" cy="60" r="3.5" fill="#FFD23F"/><path d="M50 84 h20 M54 78 v12 M66 78 v12" stroke="${INK}" stroke-width="3"/>`,
+    harmless: () => `<path d="M60 12 C76 22 96 22 104 22 C104 70 86 96 60 110 C34 96 16 70 16 22 C24 22 44 22 60 12Z" fill="#2FA36B"/>` + check(60, 60, 2, '#fff'),
+  });
+
   function svg(name, plural) {
     const art = ART[name];
     if (!art) return `<div class="vp-emoji">${name}</div>`;

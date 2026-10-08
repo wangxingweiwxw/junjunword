@@ -1,0 +1,592 @@
+{
+ "duration": 118.158,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！学一项新本领，要怎么做呢？今天，我们来学和技能有关的单词。",
+   "t0": 0.4,
+   "t1": 8.19,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "skills",
+   "t0": 8.44,
+   "t1": 9.091,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "会做的本领，是技能：",
+   "t0": 10.191,
+   "t1": 12.103,
+   "cue": [
+    "map",
+    "show:skill",
+    "focus:skill"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "skill",
+   "t0": 12.353,
+   "t1": 12.864,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "学新本领，第一步是尝试：",
+   "t0": 13.964,
+   "t1": 16.275,
+   "cue": [
+    "show:try",
+    "edge:skill>try",
+    "focus:try"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "try",
+   "t0": 16.525,
+   "t1": 16.994,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Let's try!",
+   "t0": 17.494,
+   "t1": 18.302,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "刚开始，难免会出错：",
+   "t0": 19.402,
+   "t1": 21.423,
+   "cue": [
+    "show:mistake",
+    "edge:try>mistake",
+    "focus:mistake"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "mistake",
+   "t0": 21.673,
+   "t1": 22.341,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "出错不要紧，",
+   "t0": 22.841,
+   "t1": 23.901,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "再试一次！再一次，英语是",
+   "t0": 24.751,
+   "t1": 27.828,
+   "cue": [
+    "show:again",
+    "edge:try>again",
+    "focus:again"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "again",
+   "t0": 28.078,
+   "t1": 28.628,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "Try again!",
+   "t0": 29.128,
+   "t1": 29.94,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "要学会，就要多练习：",
+   "t0": 31.04,
+   "t1": 33.045,
+   "cue": [
+    "show:practice",
+    "edge:try>practice",
+    "focus:practice"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "practice",
+   "t0": 33.295,
+   "t1": 34.048,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "经常练习，英语是",
+   "t0": 35.148,
+   "t1": 37.02,
+   "cue": [
+    "show:often",
+    "edge:practice>often",
+    "focus:often"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "often",
+   "t0": 37.27,
+   "t1": 37.797,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "小提示：中间的 t 通常不发音。",
+   "t0": 38.297,
+   "t1": 41.379,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "I practice piano often.",
+   "t0": 41.629,
+   "t1": 43.226,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "练着练着，就能够做到了：",
+   "t0": 44.326,
+   "t1": 46.409,
+   "cue": [
+    "show:able",
+    "edge:skill>able",
+    "focus:able"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "able",
+   "t0": 46.659,
+   "t1": 47.089,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "常常说",
+   "t0": 47.589,
+   "t1": 48.328,
+   "cue": [
+    "alt:able"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "be able to",
+   "t0": 48.578,
+   "t1": 49.406,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "有的事很容易：",
+   "t0": 50.506,
+   "t1": 51.691,
+   "cue": [
+    "show:easy",
+    "edge:skill>easy",
+    "focus:easy"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "easy",
+   "t0": 51.941,
+   "t1": 52.443,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "有的事有困难：",
+   "t0": 53.543,
+   "t1": 54.647,
+   "cue": [
+    "show:difficulty",
+    "edge:skill>difficulty",
+    "focus:difficulty"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "difficulty",
+   "t0": 54.897,
+   "t1": 55.722,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "去掉最后的 y，就是困难的：",
+   "t0": 56.822,
+   "t1": 59.092,
+   "cue": [
+    "show:difficult",
+    "edge:difficulty>difficult",
+    "focus:difficult"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "difficult",
+   "t0": 59.342,
+   "t1": 60.007,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "容易和困难，正好相反：",
+   "t0": 60.507,
+   "t1": 62.6,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "easy",
+   "t0": 62.85,
+   "t1": 63.352,
+   "cue": [
+    "focus:easy"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "difficult",
+   "t0": 63.852,
+   "t1": 64.518,
+   "cue": [
+    "focus:difficult"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "克服了困难，心里很自豪：",
+   "t0": 65.618,
+   "t1": 67.861,
+   "cue": [
+    "show:proud",
+    "edge:difficult>proud",
+    "focus:proud"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "proud",
+   "t0": 68.111,
+   "t1": 68.579,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "I'm proud of you!",
+   "t0": 69.079,
+   "t1": 69.95,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "自豪这种感觉，叫",
+   "t0": 71.05,
+   "t1": 72.781,
+   "cue": [
+    "show:pride",
+    "edge:proud>pride",
+    "focus:pride"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "pride",
+   "t0": 73.031,
+   "t1": 73.498,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "跟我一起给自己加油吧！",
+   "t0": 74.598,
+   "t1": 76.603,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Don't be afraid of mistakes.",
+   "t0": 77.453,
+   "t1": 79.089,
+   "cue": [
+    "focus:mistake"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Try again!",
+   "t0": 79.589,
+   "t1": 80.401,
+   "cue": [
+    "focus:try,again"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Practice makes perfect!",
+   "t0": 80.901,
+   "t1": 82.403,
+   "cue": [
+    "focus:practice"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 83.503,
+   "t1": 86.753,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "skill",
+   "t0": 87.603,
+   "t1": 88.114,
+   "cue": [
+    "focus:skill"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "try",
+   "t0": 89.214,
+   "t1": 89.683,
+   "cue": [
+    "focus:try"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "mistake",
+   "t0": 90.783,
+   "t1": 91.452,
+   "cue": [
+    "focus:mistake"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "again",
+   "t0": 92.552,
+   "t1": 93.102,
+   "cue": [
+    "focus:again"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "practice",
+   "t0": 94.202,
+   "t1": 94.955,
+   "cue": [
+    "focus:practice"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "often",
+   "t0": 96.055,
+   "t1": 96.583,
+   "cue": [
+    "focus:often"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "able",
+   "t0": 97.683,
+   "t1": 98.112,
+   "cue": [
+    "focus:able"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "easy",
+   "t0": 99.212,
+   "t1": 99.715,
+   "cue": [
+    "focus:easy"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "difficulty",
+   "t0": 100.815,
+   "t1": 101.64,
+   "cue": [
+    "focus:difficulty"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "difficult",
+   "t0": 102.74,
+   "t1": 103.406,
+   "cue": [
+    "focus:difficult"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "proud",
+   "t0": 104.506,
+   "t1": 104.973,
+   "cue": [
+    "focus:proud"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "pride",
+   "t0": 106.073,
+   "t1": 106.541,
+   "cue": [
+    "focus:pride"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "zh",
+   "text": "太棒了！遇到困难不要怕，多练习，你一定能行！点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 107.641,
+   "t1": 116.308,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "skill": [
+   0.25,
+   0.761
+  ],
+  "try": [
+   1.011,
+   1.48
+  ],
+  "again": [
+   1.73,
+   2.28
+  ],
+  "mistake": [
+   2.53,
+   3.198
+  ],
+  "practice": [
+   3.448,
+   4.202
+  ],
+  "often": [
+   4.452,
+   4.979
+  ],
+  "able": [
+   5.229,
+   5.659
+  ],
+  "able:alt": [
+   5.909,
+   6.737
+  ],
+  "easy": [
+   6.987,
+   7.489
+  ],
+  "difficulty": [
+   7.739,
+   8.565
+  ],
+  "difficult": [
+   8.815,
+   9.481
+  ],
+  "proud": [
+   9.731,
+   10.198
+  ],
+  "pride": [
+   10.448,
+   10.915
+  ]
+ }
+}

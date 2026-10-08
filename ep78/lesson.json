@@ -1,0 +1,682 @@
+{
+ "id": "ep78",
+ "title": "skills",
+ "titleZh": "技能",
+ "episode": "第 78 集",
+ "titleIcon": "skill",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "skill",
+   "word": "skill",
+   "ipa": "/skɪl/",
+   "zh": "技能",
+   "icon": "skill",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "try",
+   "word": "try",
+   "ipa": "/traɪ/",
+   "zh": "尝试",
+   "icon": "try",
+   "kind": "verb",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "again",
+   "word": "again",
+   "ipa": "/əˈɡen/",
+   "zh": "再一次",
+   "icon": "again",
+   "kind": "adv",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "mistake",
+   "word": "mistake",
+   "ipa": "/mɪˈsteɪk/",
+   "zh": "错误",
+   "icon": "mistake",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "practice",
+   "word": "practice",
+   "ipa": "/ˈpræktɪs/",
+   "zh": "练习",
+   "icon": "practice",
+   "kind": "verb",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "often",
+   "word": "often",
+   "ipa": "/ˈɔːfn/",
+   "zh": "经常",
+   "icon": "often",
+   "kind": "adv",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "able",
+   "word": "able",
+   "ipa": "/ˈeɪbl/",
+   "zh": "能够",
+   "icon": "able",
+   "kind": "adj",
+   "alt": "be able to",
+   "altLabel": "常说",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "easy",
+   "word": "easy",
+   "ipa": "/ˈiːzi/",
+   "zh": "容易的",
+   "icon": "easy",
+   "kind": "adj",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "difficulty",
+   "word": "difficulty",
+   "ipa": "/ˈdɪfɪkəlti/",
+   "zh": "困难",
+   "icon": "difficulty",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "difficult",
+   "word": "difficult",
+   "ipa": "/ˈdɪfɪkəlt/",
+   "zh": "困难的",
+   "icon": "difficult",
+   "kind": "adj",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "proud",
+   "word": "proud",
+   "ipa": "/praʊd/",
+   "zh": "自豪的",
+   "icon": "proud",
+   "kind": "adj",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  },
+  {
+   "id": "pride",
+   "word": "pride",
+   "ipa": "/praɪd/",
+   "zh": "骄傲；自豪",
+   "icon": "pride",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "skill",
+   "to": "try"
+  },
+  {
+   "from": "try",
+   "to": "again",
+   "dashed": true
+  },
+  {
+   "from": "try",
+   "to": "mistake",
+   "dashed": true
+  },
+  {
+   "from": "skill",
+   "to": "able"
+  },
+  {
+   "from": "skill",
+   "to": "easy",
+   "dashed": true
+  },
+  {
+   "from": "try",
+   "to": "practice"
+  },
+  {
+   "from": "practice",
+   "to": "often",
+   "dashed": true
+  },
+  {
+   "from": "skill",
+   "to": "difficulty"
+  },
+  {
+   "from": "difficulty",
+   "to": "difficult",
+   "label": "−y"
+  },
+  {
+   "from": "difficult",
+   "to": "proud",
+   "label": "克服后"
+  },
+  {
+   "from": "proud",
+   "to": "pride"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！学一项新本领，要怎么做呢？今天，我们来学和技能有关的单词。"
+    },
+    {
+     "en": "skills"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:skill",
+    "focus:skill"
+   ],
+   "parts": [
+    {
+     "zh": "会做的本领，是技能："
+    },
+    {
+     "en": "skill"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:try",
+    "edge:skill>try",
+    "focus:try"
+   ],
+   "parts": [
+    {
+     "zh": "学新本领，第一步是尝试："
+    },
+    {
+     "en": "try"
+    },
+    {
+     "en": "Let's try!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:mistake",
+    "edge:try>mistake",
+    "focus:mistake"
+   ],
+   "parts": [
+    {
+     "zh": "刚开始，难免会出错："
+    },
+    {
+     "en": "mistake"
+    },
+    {
+     "zh": "出错不要紧，"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:again",
+    "edge:try>again",
+    "focus:again"
+   ],
+   "parts": [
+    {
+     "zh": "再试一次！再一次，英语是"
+    },
+    {
+     "en": "again"
+    },
+    {
+     "en": "Try again!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:practice",
+    "edge:try>practice",
+    "focus:practice"
+   ],
+   "parts": [
+    {
+     "zh": "要学会，就要多练习："
+    },
+    {
+     "en": "practice"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:often",
+    "edge:practice>often",
+    "focus:often"
+   ],
+   "parts": [
+    {
+     "zh": "经常练习，英语是"
+    },
+    {
+     "en": "often"
+    },
+    {
+     "zh": "小提示：中间的 t 通常不发音。"
+    },
+    {
+     "en": "I practice piano often."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:able",
+    "edge:skill>able",
+    "focus:able"
+   ],
+   "parts": [
+    {
+     "zh": "练着练着，就能够做到了："
+    },
+    {
+     "en": "able"
+    },
+    {
+     "zh": "常常说",
+     "cue": [
+      "alt:able"
+     ]
+    },
+    {
+     "en": "be able to"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:easy",
+    "edge:skill>easy",
+    "focus:easy"
+   ],
+   "parts": [
+    {
+     "zh": "有的事很容易："
+    },
+    {
+     "en": "easy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:difficulty",
+    "edge:skill>difficulty",
+    "focus:difficulty"
+   ],
+   "parts": [
+    {
+     "zh": "有的事有困难："
+    },
+    {
+     "en": "difficulty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:difficult",
+    "edge:difficulty>difficult",
+    "focus:difficult"
+   ],
+   "parts": [
+    {
+     "zh": "去掉最后的 y，就是困难的："
+    },
+    {
+     "en": "difficult"
+    },
+    {
+     "zh": "容易和困难，正好相反："
+    },
+    {
+     "en": "easy",
+     "cue": [
+      "focus:easy"
+     ]
+    },
+    {
+     "en": "difficult",
+     "cue": [
+      "focus:difficult"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:proud",
+    "edge:difficult>proud",
+    "focus:proud"
+   ],
+   "parts": [
+    {
+     "zh": "克服了困难，心里很自豪："
+    },
+    {
+     "en": "proud"
+    },
+    {
+     "en": "I'm proud of you!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pride",
+    "edge:proud>pride",
+    "focus:pride"
+   ],
+   "parts": [
+    {
+     "zh": "自豪这种感觉，叫"
+    },
+    {
+     "en": "pride"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "跟我一起给自己加油吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Don't be afraid of mistakes.",
+     "cue": [
+      "focus:mistake"
+     ]
+    },
+    {
+     "en": "Try again!",
+     "cue": [
+      "focus:try,again"
+     ]
+    },
+    {
+     "en": "Practice makes perfect!",
+     "cue": [
+      "focus:practice"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:skill"
+   ],
+   "parts": [
+    {
+     "en": "skill"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:try"
+   ],
+   "parts": [
+    {
+     "en": "try"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:mistake"
+   ],
+   "parts": [
+    {
+     "en": "mistake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:again"
+   ],
+   "parts": [
+    {
+     "en": "again"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:practice"
+   ],
+   "parts": [
+    {
+     "en": "practice"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:often"
+   ],
+   "parts": [
+    {
+     "en": "often"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:able"
+   ],
+   "parts": [
+    {
+     "en": "able"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:easy"
+   ],
+   "parts": [
+    {
+     "en": "easy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:difficulty"
+   ],
+   "parts": [
+    {
+     "en": "difficulty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:difficult"
+   ],
+   "parts": [
+    {
+     "en": "difficult"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:proud"
+   ],
+   "parts": [
+    {
+     "en": "proud"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pride"
+   ],
+   "parts": [
+    {
+     "en": "pride"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！遇到困难不要怕，多练习，你一定能行！点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

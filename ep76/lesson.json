@@ -1,0 +1,731 @@
+{
+ "id": "ep76",
+ "title": "letters",
+ "titleZh": "书信",
+ "episode": "第 76 集",
+ "titleIcon": "letter",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "friendship",
+   "word": "friendship",
+   "ipa": "/ˈfrendʃɪp/",
+   "zh": "友谊",
+   "icon": "friendship",
+   "alt": "friend",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "conversation",
+   "word": "conversation",
+   "ipa": "/ˌkɑːnvərˈseɪʃn/",
+   "zh": "对话",
+   "icon": "conversation",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "personal",
+   "word": "personal",
+   "ipa": "/ˈpɜːrsənl/",
+   "zh": "私人的",
+   "icon": "personal",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "secret",
+   "word": "secret",
+   "ipa": "/ˈsiːkrət/",
+   "zh": "秘密",
+   "icon": "secret",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "unlucky",
+   "word": "unlucky",
+   "ipa": "/ʌnˈlʌki/",
+   "zh": "不幸的",
+   "icon": "unlucky",
+   "kind": "adj",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "send",
+   "word": "send",
+   "ipa": "/send/",
+   "zh": "寄；发送",
+   "icon": "send",
+   "kind": "verb",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "mail",
+   "word": "mail",
+   "ipa": "/meɪl/",
+   "zh": "邮件",
+   "icon": "mail",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "postcard",
+   "word": "postcard",
+   "ipa": "/ˈpoʊstkɑːrd/",
+   "zh": "明信片",
+   "icon": "postcard",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "letter",
+   "word": "letter",
+   "ipa": "/ˈletər/",
+   "zh": "信",
+   "icon": "letter",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "stamp",
+   "word": "stamp",
+   "ipa": "/stæmp/",
+   "zh": "邮票",
+   "icon": "stamp",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "package",
+   "word": "package",
+   "ipa": "/ˈpækɪdʒ/",
+   "zh": "包裹",
+   "icon": "package",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "box",
+   "word": "box",
+   "ipa": "/bɑːks/",
+   "zh": "盒子",
+   "icon": "box",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  },
+  {
+   "id": "mention",
+   "word": "mention",
+   "ipa": "/ˈmenʃn/",
+   "zh": "提到",
+   "icon": "mention",
+   "kind": "verb",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "express",
+   "word": "express",
+   "ipa": "/ɪkˈspres/",
+   "zh": "快递；快的",
+   "icon": "express",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "friendship",
+   "to": "conversation"
+  },
+  {
+   "from": "conversation",
+   "to": "secret"
+  },
+  {
+   "from": "conversation",
+   "to": "personal"
+  },
+  {
+   "from": "unlucky",
+   "to": "friendship",
+   "dashed": true
+  },
+  {
+   "from": "friendship",
+   "to": "send"
+  },
+  {
+   "from": "send",
+   "to": "letter",
+   "dashed": true
+  },
+  {
+   "from": "letter",
+   "to": "mail"
+  },
+  {
+   "from": "letter",
+   "to": "postcard"
+  },
+  {
+   "from": "letter",
+   "to": "stamp",
+   "label": "贴上"
+  },
+  {
+   "from": "letter",
+   "to": "mention"
+  },
+  {
+   "from": "send",
+   "to": "package"
+  },
+  {
+   "from": "package",
+   "to": "box"
+  },
+  {
+   "from": "package",
+   "to": "express"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！给远方的好朋友写一封信吧！今天，我们来学和书信有关的单词。"
+    },
+    {
+     "en": "letters"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:friendship",
+    "focus:friendship"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第二十二集的朋友 friend 吗？加上 s h i p，就是友谊："
+    },
+    {
+     "en": "friend"
+    },
+    {
+     "en": "friendship"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:conversation",
+    "edge:friendship>conversation",
+    "focus:conversation"
+   ],
+   "parts": [
+    {
+     "zh": "好朋友之间，有说不完的对话："
+    },
+    {
+     "en": "conversation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:secret",
+    "edge:conversation>secret",
+    "focus:secret"
+   ],
+   "parts": [
+    {
+     "zh": "还会分享小秘密："
+    },
+    {
+     "en": "secret"
+    },
+    {
+     "en": "It's a secret!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:personal",
+    "edge:conversation>personal",
+    "focus:personal"
+   ],
+   "parts": [
+    {
+     "zh": "只属于自己的，是私人的："
+    },
+    {
+     "en": "personal"
+    },
+    {
+     "en": "a personal letter"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:unlucky",
+    "edge:unlucky>friendship",
+    "focus:unlucky"
+   ],
+   "parts": [
+    {
+     "zh": "好朋友搬走了，真不幸。还记得第六十七集的 lucky 吗？加上 u n："
+    },
+    {
+     "en": "unlucky"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:send",
+    "edge:friendship>send",
+    "focus:send"
+   ],
+   "parts": [
+    {
+     "zh": "没关系，我们可以寄东西给他："
+    },
+    {
+     "en": "send"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:letter",
+    "edge:send>letter",
+    "focus:letter"
+   ],
+   "parts": [
+    {
+     "zh": "写一封信："
+    },
+    {
+     "en": "letter"
+    },
+    {
+     "en": "I received a letter from my grandmother."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:mail",
+    "edge:letter>mail",
+    "focus:mail"
+   ],
+   "parts": [
+    {
+     "zh": "寄出去的信件，叫邮件："
+    },
+    {
+     "en": "mail"
+    },
+    {
+     "zh": "电子邮件，就是 e-mail。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:postcard",
+    "edge:letter>postcard",
+    "focus:postcard"
+   ],
+   "parts": [
+    {
+     "zh": "背面有风景画的，是明信片。邮寄，加上卡片："
+    },
+    {
+     "en": "post"
+    },
+    {
+     "en": "card"
+    },
+    {
+     "en": "postcard"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:stamp",
+    "edge:letter>stamp",
+    "focus:stamp"
+   ],
+   "parts": [
+    {
+     "zh": "信封上，要贴一张邮票："
+    },
+    {
+     "en": "stamp"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:mention",
+    "edge:letter>mention",
+    "focus:mention"
+   ],
+   "parts": [
+    {
+     "zh": "在信里提到了你的名字。提到，英语是"
+    },
+    {
+     "en": "mention"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:package",
+    "edge:send>package",
+    "focus:package"
+   ],
+   "parts": [
+    {
+     "zh": "大一点的东西，就寄包裹："
+    },
+    {
+     "en": "package"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:box",
+    "edge:package>box",
+    "focus:box"
+   ],
+   "parts": [
+    {
+     "zh": "包裹里面，是一个盒子："
+    },
+    {
+     "en": "box"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:express",
+    "edge:package>express",
+    "focus:express"
+   ],
+   "parts": [
+    {
+     "zh": "要快一点到，就寄快递："
+    },
+    {
+     "en": "express"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:friendship,unlucky"
+   ],
+   "parts": [
+    {
+     "zh": "今天的两个小尾巴："
+    },
+    {
+     "en": "friend, friendship",
+     "cue": [
+      "focus:friendship"
+     ]
+    },
+    {
+     "en": "lucky, unlucky",
+     "cue": [
+      "focus:unlucky"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:friendship"
+   ],
+   "parts": [
+    {
+     "en": "friendship"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:conversation"
+   ],
+   "parts": [
+    {
+     "en": "conversation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:secret"
+   ],
+   "parts": [
+    {
+     "en": "secret"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:personal"
+   ],
+   "parts": [
+    {
+     "en": "personal"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:unlucky"
+   ],
+   "parts": [
+    {
+     "en": "unlucky"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:send"
+   ],
+   "parts": [
+    {
+     "en": "send"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:letter"
+   ],
+   "parts": [
+    {
+     "en": "letter"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:mail"
+   ],
+   "parts": [
+    {
+     "en": "mail"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:postcard"
+   ],
+   "parts": [
+    {
+     "en": "postcard"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:stamp"
+   ],
+   "parts": [
+    {
+     "en": "stamp"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:mention"
+   ],
+   "parts": [
+    {
+     "en": "mention"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:package"
+   ],
+   "parts": [
+    {
+     "en": "package"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:box"
+   ],
+   "parts": [
+    {
+     "en": "box"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:express"
+   ],
+   "parts": [
+    {
+     "en": "express"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！给你的好朋友写一张明信片吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

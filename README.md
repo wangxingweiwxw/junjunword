@@ -132,3 +132,13 @@ ep04+ 的 `lesson.json` 由同目录的 `lesson.py` 生成（`python3 ep04/lesso
 | ep68 illness | hospital sick ill illness fever cough flu spread medicine heart beat | 2:07 |
 | ep69 measures (2) | weight kilo ton height meter length kilometer mile hole deep narrow wide at least almost | 2:17 |
 | ep70 positions | position on under below inside outside front back in front of behind beside between around against | 2:14 |
+| ep71 maths | thousand million about add total double reduce divide percent once twice dozen | 2:08 |
+| ep72 compass | north south east west northern southern eastern western then | 1:44 |
+| ep73 location (2) | location front side top surface above middle part center central high low | 1:51 |
+| ep74 describing animals | animals panda famous special treasure monkey creative wolf patient impatient pig ugly bird pretty beautiful owl silent wise | 2:20 |
+| ep75 jobs (3) | jobs duty soldier guard captain officer police company office meeting manager boss business businessman earn | 2:01 |
+| ep76 letters | friendship conversation secret personal unlucky send letter mail postcard stamp mention package box express | 2:13 |
+| ep77 character | people wonderful seem serious seriously polite rude honest faithful truthful job poor successful | 2:13 |
+| ep78 skills | skill try mistake again practice often able easy difficulty difficult proud pride | 1:58 |
+| ep79 manners | kick knock break proper avoid hide leave stay apologize replace forgive | 1:52 |
+| ep80 adjectives | situation condition real fake exciting boring amazing fantastic excellent useful useless harmful harmless | 2:17 |

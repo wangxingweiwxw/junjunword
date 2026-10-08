@@ -1,0 +1,591 @@
+{
+ "duration": 137.105,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！今天，我们来学一组很有用的形容词，还有两个神奇的小尾巴！",
+   "t0": 0.4,
+   "t1": 7.02,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "adjectives",
+   "t0": 7.27,
+   "t1": 8.125,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "事情现在的样子，是情况：",
+   "t0": 9.225,
+   "t1": 11.554,
+   "cue": [
+    "map",
+    "show:situation",
+    "focus:situation"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "situation",
+   "t0": 11.804,
+   "t1": 12.75,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "东西的状况、条件，英语是",
+   "t0": 13.85,
+   "t1": 16.528,
+   "cue": [
+    "show:condition",
+    "focus:condition"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "condition",
+   "t0": 16.778,
+   "t1": 17.477,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "真的，是",
+   "t0": 18.577,
+   "t1": 19.658,
+   "cue": [
+    "show:real",
+    "edge:situation>real",
+    "focus:real"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "real",
+   "t0": 19.908,
+   "t1": 20.331,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "假的，是",
+   "t0": 21.431,
+   "t1": 22.503,
+   "cue": [
+    "show:fake",
+    "edge:real>fake",
+    "focus:fake"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "fake",
+   "t0": 22.753,
+   "t1": 23.155,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "Is it real or fake?",
+   "t0": 23.655,
+   "t1": 24.92,
+   "cue": [
+    "focus:real,fake"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "坐过山车，好刺激！令人兴奋的：",
+   "t0": 26.02,
+   "t1": 29.488,
+   "cue": [
+    "show:exciting",
+    "edge:situation>exciting",
+    "focus:exciting"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "exciting",
+   "t0": 29.738,
+   "t1": 30.461,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "一直等啊等，好无聊：",
+   "t0": 31.561,
+   "t1": 33.396,
+   "cue": [
+    "show:boring",
+    "edge:exciting>boring",
+    "focus:boring"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "boring",
+   "t0": 33.646,
+   "t1": 34.142,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "还记得第三十九集的 excited 吗？e d 说人的感受，i n g 说事情的样子。",
+   "t0": 34.642,
+   "t1": 41.56,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "让人吃惊得张大嘴巴，是令人惊奇的：",
+   "t0": 42.41,
+   "t1": 45.532,
+   "cue": [
+    "show:amazing",
+    "edge:condition>amazing",
+    "focus:amazing"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "amazing",
+   "t0": 45.782,
+   "t1": 46.512,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "太棒了，极好的：",
+   "t0": 47.612,
+   "t1": 49.103,
+   "cue": [
+    "show:fantastic",
+    "edge:amazing>fantastic",
+    "focus:fantastic"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "fantastic",
+   "t0": 49.353,
+   "t1": 50.274,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "特别优秀的：",
+   "t0": 51.374,
+   "t1": 52.368,
+   "cue": [
+    "show:excellent",
+    "edge:fantastic>excellent",
+    "focus:excellent"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "excellent",
+   "t0": 52.618,
+   "t1": 53.326,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "Excellent work!",
+   "t0": 53.826,
+   "t1": 54.738,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "下面是两个神奇的小尾巴。f u l 表示有、充满；l e s s 表示没有。",
+   "t0": 55.838,
+   "t1": 62.959,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "用，加上 f u l，是有用的：",
+   "t0": 63.809,
+   "t1": 66.672,
+   "cue": [
+    "show:useful",
+    "focus:useful"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "use",
+   "t0": 66.922,
+   "t1": 67.456,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "useful",
+   "t0": 67.956,
+   "t1": 68.578,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "换成 l e s s，就是没用的：",
+   "t0": 69.678,
+   "t1": 72.42,
+   "cue": [
+    "show:useless",
+    "edge:useful>useless",
+    "focus:useless"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "useless",
+   "t0": 72.67,
+   "t1": 73.385,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "伤害，加上 f u l，是有害的：",
+   "t0": 74.485,
+   "t1": 77.661,
+   "cue": [
+    "show:harmful",
+    "focus:harmful"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "harm",
+   "t0": 77.911,
+   "t1": 78.351,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "harmful",
+   "t0": 78.851,
+   "t1": 79.432,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "Smoking is harmful.",
+   "t0": 79.932,
+   "t1": 81.193,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "换成 l e s s，就是无害的：",
+   "t0": 82.293,
+   "t1": 85.082,
+   "cue": [
+    "show:harmless",
+    "edge:harmful>harmless",
+    "focus:harmless"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "harmless",
+   "t0": 85.332,
+   "t1": 85.976,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "一起读：",
+   "t0": 87.076,
+   "t1": 87.807,
+   "cue": [
+    "focus:useful,useless,harmful,harmless"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "useful, useless",
+   "t0": 88.057,
+   "t1": 89.618,
+   "cue": [
+    "focus:useful,useless"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "harmful, harmless",
+   "t0": 90.118,
+   "t1": 91.599,
+   "cue": [
+    "focus:harmful,harmless"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "小提示：要说没用的、无害的，用 less，不说 unuseful、unharmful 哦。",
+   "t0": 92.099,
+   "t1": 98.33,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 99.18,
+   "t1": 102.43,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "situation",
+   "t0": 103.28,
+   "t1": 104.226,
+   "cue": [
+    "focus:situation"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "condition",
+   "t0": 105.326,
+   "t1": 106.025,
+   "cue": [
+    "focus:condition"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "real",
+   "t0": 107.125,
+   "t1": 107.548,
+   "cue": [
+    "focus:real"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "fake",
+   "t0": 108.648,
+   "t1": 109.05,
+   "cue": [
+    "focus:fake"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "exciting",
+   "t0": 110.15,
+   "t1": 110.872,
+   "cue": [
+    "focus:exciting"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "boring",
+   "t0": 111.972,
+   "t1": 112.469,
+   "cue": [
+    "focus:boring"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "amazing",
+   "t0": 113.569,
+   "t1": 114.299,
+   "cue": [
+    "focus:amazing"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "fantastic",
+   "t0": 115.399,
+   "t1": 116.32,
+   "cue": [
+    "focus:fantastic"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "excellent",
+   "t0": 117.42,
+   "t1": 118.128,
+   "cue": [
+    "focus:excellent"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "useful",
+   "t0": 119.228,
+   "t1": 119.851,
+   "cue": [
+    "focus:useful"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "useless",
+   "t0": 120.951,
+   "t1": 121.666,
+   "cue": [
+    "focus:useless"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "harmful",
+   "t0": 122.766,
+   "t1": 123.347,
+   "cue": [
+    "focus:harmful"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "harmless",
+   "t0": 124.447,
+   "t1": 125.091,
+   "cue": [
+    "focus:harmless"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！你今天过得怎么样？用一个形容词说一说吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 126.191,
+   "t1": 135.255,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "situation": [
+   0.25,
+   1.196
+  ],
+  "condition": [
+   1.446,
+   2.144
+  ],
+  "real": [
+   2.394,
+   2.818
+  ],
+  "fake": [
+   3.068,
+   3.47
+  ],
+  "exciting": [
+   3.72,
+   4.442
+  ],
+  "boring": [
+   4.692,
+   5.189
+  ],
+  "amazing": [
+   5.439,
+   6.169
+  ],
+  "fantastic": [
+   6.419,
+   7.339
+  ],
+  "excellent": [
+   7.589,
+   8.298
+  ],
+  "useful": [
+   8.548,
+   9.17
+  ],
+  "useful:alt": [
+   9.42,
+   9.954
+  ],
+  "useless": [
+   10.204,
+   10.919
+  ],
+  "harmful": [
+   11.169,
+   11.75
+  ],
+  "harmful:alt": [
+   12.0,
+   12.44
+  ],
+  "harmless": [
+   12.69,
+   13.334
+  ]
+ }
+}

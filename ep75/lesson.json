@@ -1,0 +1,749 @@
+{
+ "id": "ep75",
+ "title": "jobs",
+ "titleZh": "职业（三）",
+ "episode": "第 75 集",
+ "titleIcon": "company",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "jobs",
+   "word": "jobs",
+   "ipa": "/dʒɑːbz/",
+   "zh": "工作",
+   "icon": "job",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "duty",
+   "word": "duty",
+   "ipa": "/ˈduːti/",
+   "zh": "责任；职责",
+   "icon": "duty",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "soldier",
+   "word": "soldier",
+   "ipa": "/ˈsoʊldʒər/",
+   "zh": "士兵",
+   "icon": "soldier",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "guard",
+   "word": "guard",
+   "ipa": "/ɡɑːrd/",
+   "zh": "守卫",
+   "icon": "guard",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "captain",
+   "word": "captain",
+   "ipa": "/ˈkæptɪn/",
+   "zh": "队长；船长",
+   "icon": "captain",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "officer",
+   "word": "officer",
+   "ipa": "/ˈɔːfɪsər/",
+   "zh": "官员；警官",
+   "icon": "officer",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "police",
+   "word": "police",
+   "ipa": "/pəˈliːs/",
+   "zh": "警察",
+   "icon": "police",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "company",
+   "word": "company",
+   "ipa": "/ˈkʌmpəni/",
+   "zh": "公司",
+   "icon": "company",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "office",
+   "word": "office",
+   "ipa": "/ˈɔːfɪs/",
+   "zh": "办公室",
+   "icon": "office",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "meeting",
+   "word": "meeting",
+   "ipa": "/ˈmiːtɪŋ/",
+   "zh": "会议",
+   "icon": "meeting",
+   "alt": "meet",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "boss",
+   "word": "boss",
+   "ipa": "/bɔːs/",
+   "zh": "老板",
+   "icon": "boss",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "manager",
+   "word": "manager",
+   "ipa": "/ˈmænɪdʒər/",
+   "zh": "经理",
+   "icon": "manager",
+   "alt": "manage",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "business",
+   "word": "business",
+   "ipa": "/ˈbɪznəs/",
+   "zh": "生意",
+   "icon": "business",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "businessman",
+   "word": "businessman",
+   "ipa": "/ˈbɪznəsmæn/",
+   "zh": "商人",
+   "icon": "businessman",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "earn",
+   "word": "earn",
+   "ipa": "/ɜːrn/",
+   "zh": "挣钱",
+   "icon": "earn",
+   "kind": "verb",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "jobs",
+   "to": "soldier"
+  },
+  {
+   "from": "soldier",
+   "to": "guard"
+  },
+  {
+   "from": "soldier",
+   "to": "captain"
+  },
+  {
+   "from": "duty",
+   "to": "jobs",
+   "dashed": true
+  },
+  {
+   "from": "jobs",
+   "to": "officer"
+  },
+  {
+   "from": "jobs",
+   "to": "company"
+  },
+  {
+   "from": "company",
+   "to": "office"
+  },
+  {
+   "from": "office",
+   "to": "meeting"
+  },
+  {
+   "from": "company",
+   "to": "manager"
+  },
+  {
+   "from": "manager",
+   "to": "boss",
+   "dashed": true
+  },
+  {
+   "from": "manager",
+   "to": "businessman",
+   "dashed": true
+  },
+  {
+   "from": "business",
+   "to": "businessman",
+   "label": "+man"
+  },
+  {
+   "from": "businessman",
+   "to": "earn"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！我们再来认识一些职业吧！还记得第六十四集吗？"
+    },
+    {
+     "en": "jobs"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:jobs",
+    "focus:jobs"
+   ],
+   "parts": [
+    {
+     "zh": "工作："
+    },
+    {
+     "en": "jobs"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:duty",
+    "edge:duty>jobs",
+    "focus:duty"
+   ],
+   "parts": [
+    {
+     "zh": "每份工作都有自己的责任："
+    },
+    {
+     "en": "duty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:soldier",
+    "edge:jobs>soldier",
+    "focus:soldier"
+   ],
+   "parts": [
+    {
+     "zh": "保卫国家的士兵："
+    },
+    {
+     "en": "soldier"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:guard",
+    "edge:soldier>guard",
+    "focus:guard"
+   ],
+   "parts": [
+    {
+     "zh": "站岗放哨的守卫："
+    },
+    {
+     "en": "guard"
+    },
+    {
+     "zh": "中间的 u 不发音。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:captain",
+    "edge:soldier>captain",
+    "focus:captain"
+   ],
+   "parts": [
+    {
+     "zh": "带领大家的队长，也是船长："
+    },
+    {
+     "en": "captain"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:officer",
+    "edge:jobs>officer",
+    "focus:officer"
+   ],
+   "parts": [
+    {
+     "zh": "当官的人，是"
+    },
+    {
+     "en": "officer"
+    },
+    {
+     "zh": "还记得 office 吗？加上 r。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:police",
+    "edge:officer>police",
+    "focus:police"
+   ],
+   "parts": [
+    {
+     "zh": "保护大家安全的警察："
+    },
+    {
+     "en": "police"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:company",
+    "edge:jobs>company",
+    "focus:company"
+   ],
+   "parts": [
+    {
+     "zh": "很多人一起上班的地方，是公司："
+    },
+    {
+     "en": "company"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:office",
+    "edge:company>office",
+    "focus:office"
+   ],
+   "parts": [
+    {
+     "zh": "公司里，大家在办公室工作："
+    },
+    {
+     "en": "office"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:meeting",
+    "edge:office>meeting",
+    "focus:meeting"
+   ],
+   "parts": [
+    {
+     "zh": "坐在一起开会。见面，加上 i n g："
+    },
+    {
+     "en": "meet"
+    },
+    {
+     "en": "meeting"
+    },
+    {
+     "zh": "要双写 e 哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:manager",
+    "edge:company>manager",
+    "focus:manager"
+   ],
+   "parts": [
+    {
+     "zh": "管理大家的人，是经理。管理，加上 r："
+    },
+    {
+     "en": "manage"
+    },
+    {
+     "en": "manager"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:boss",
+    "edge:manager>boss",
+    "focus:boss"
+   ],
+   "parts": [
+    {
+     "zh": "公司最大的头，是老板："
+    },
+    {
+     "en": "boss"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:business",
+    "focus:business"
+   ],
+   "parts": [
+    {
+     "zh": "做买卖，是生意："
+    },
+    {
+     "en": "business"
+    },
+    {
+     "zh": "小提示：中间的 i 读得很轻，常常像没有一样。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:businessman",
+    "edge:business>businessman",
+    "edge:manager>businessman",
+    "focus:businessman"
+   ],
+   "parts": [
+    {
+     "zh": "做生意的人。生意，加上男人："
+    },
+    {
+     "en": "businessman"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:earn",
+    "edge:businessman>earn",
+    "focus:earn"
+   ],
+   "parts": [
+    {
+     "zh": "工作，就能挣钱："
+    },
+    {
+     "en": "earn"
+    },
+    {
+     "en": "He earns money."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:jobs"
+   ],
+   "parts": [
+    {
+     "en": "jobs"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:duty"
+   ],
+   "parts": [
+    {
+     "en": "duty"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:soldier"
+   ],
+   "parts": [
+    {
+     "en": "soldier"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:guard"
+   ],
+   "parts": [
+    {
+     "en": "guard"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:captain"
+   ],
+   "parts": [
+    {
+     "en": "captain"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:officer"
+   ],
+   "parts": [
+    {
+     "en": "officer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:police"
+   ],
+   "parts": [
+    {
+     "en": "police"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:company"
+   ],
+   "parts": [
+    {
+     "en": "company"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:office"
+   ],
+   "parts": [
+    {
+     "en": "office"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:meeting"
+   ],
+   "parts": [
+    {
+     "en": "meeting"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:manager"
+   ],
+   "parts": [
+    {
+     "en": "manager"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:boss"
+   ],
+   "parts": [
+    {
+     "en": "boss"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:business"
+   ],
+   "parts": [
+    {
+     "en": "business"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:businessman"
+   ],
+   "parts": [
+    {
+     "en": "businessman"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:earn"
+   ],
+   "parts": [
+    {
+     "en": "earn"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！问一问爸爸妈妈在哪里工作吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}
