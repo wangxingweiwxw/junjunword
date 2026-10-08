@@ -1,0 +1,711 @@
+{
+ "id": "ep67",
+ "title": "competition",
+ "titleZh": "比赛",
+ "episode": "第 67 集",
+ "titleIcon": "prize",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "activity",
+   "word": "activity",
+   "ipa": "/ækˈtɪvəti/",
+   "zh": "活动",
+   "icon": "activity",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "competition",
+   "word": "competition",
+   "ipa": "/ˌkɑːmpəˈtɪʃn/",
+   "zh": "比赛；竞赛",
+   "icon": "competition",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "score",
+   "word": "score",
+   "ipa": "/skɔːr/",
+   "zh": "得分",
+   "icon": "score",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "player",
+   "word": "player",
+   "ipa": "/ˈpleɪər/",
+   "zh": "运动员；选手",
+   "icon": "player",
+   "alt": "play",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "cheer",
+   "word": "cheer",
+   "ipa": "/tʃɪr/",
+   "zh": "欢呼；加油",
+   "icon": "cheer",
+   "kind": "verb",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "dream",
+   "word": "dream",
+   "ipa": "/driːm/",
+   "zh": "梦想",
+   "icon": "dream",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "win",
+   "word": "win",
+   "ipa": "/wɪn/",
+   "zh": "赢",
+   "icon": "win",
+   "kind": "verb",
+   "alt": "won",
+   "altLabel": "过去式",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "lose",
+   "word": "lose",
+   "ipa": "/luːz/",
+   "zh": "输",
+   "icon": "lose",
+   "kind": "verb",
+   "alt": "lost",
+   "altLabel": "过去式",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "winner",
+   "word": "winner",
+   "ipa": "/ˈwɪnər/",
+   "zh": "获胜者",
+   "icon": "winner",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "prize",
+   "word": "prize",
+   "ipa": "/praɪz/",
+   "zh": "奖品",
+   "icon": "prize",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  },
+  {
+   "id": "luck",
+   "word": "luck",
+   "ipa": "/lʌk/",
+   "zh": "运气",
+   "icon": "luck",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "lucky",
+   "word": "lucky",
+   "ipa": "/ˈlʌki/",
+   "zh": "幸运的",
+   "icon": "lucky",
+   "kind": "adj",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "activity",
+   "to": "competition",
+   "dashed": true
+  },
+  {
+   "from": "competition",
+   "to": "score"
+  },
+  {
+   "from": "competition",
+   "to": "player"
+  },
+  {
+   "from": "cheer",
+   "to": "player"
+  },
+  {
+   "from": "player",
+   "to": "dream",
+   "dashed": true
+  },
+  {
+   "from": "player",
+   "to": "win"
+  },
+  {
+   "from": "win",
+   "to": "lose"
+  },
+  {
+   "from": "win",
+   "to": "winner"
+  },
+  {
+   "from": "winner",
+   "to": "prize"
+  },
+  {
+   "from": "luck",
+   "to": "lucky",
+   "label": "+y"
+  },
+  {
+   "from": "lucky",
+   "to": "win",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！学校要举行运动会啦！今天，我们来学和比赛有关的单词。"
+    },
+    {
+     "en": "competition"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:activity",
+    "focus:activity"
+   ],
+   "parts": [
+    {
+     "zh": "学校组织的各种活动："
+    },
+    {
+     "en": "activity"
+    },
+    {
+     "en": "school activities"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:competition",
+    "edge:activity>competition",
+    "focus:competition"
+   ],
+   "parts": [
+    {
+     "zh": "大家比一比，谁最厉害，是比赛、竞赛："
+    },
+    {
+     "en": "competition"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:score",
+    "edge:competition>score",
+    "focus:score"
+   ],
+   "parts": [
+    {
+     "zh": "比赛中拿到的分数，是得分："
+    },
+    {
+     "en": "score"
+    },
+    {
+     "en": "The score is three to two."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:player",
+    "edge:competition>player",
+    "focus:player"
+   ],
+   "parts": [
+    {
+     "zh": "参加比赛的人，是选手。玩，加上 e r："
+    },
+    {
+     "en": "play"
+    },
+    {
+     "en": "player"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cheer",
+    "edge:cheer>player",
+    "focus:cheer"
+   ],
+   "parts": [
+    {
+     "zh": "台下的同学大声欢呼，为选手加油："
+    },
+    {
+     "en": "cheer"
+    },
+    {
+     "en": "Cheer for the players!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:dream",
+    "edge:player>dream",
+    "focus:dream"
+   ],
+   "parts": [
+    {
+     "zh": "每个选手心里都有一个梦想："
+    },
+    {
+     "en": "dream"
+    },
+    {
+     "zh": "它也是做梦的梦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:win",
+    "edge:player>win",
+    "focus:win"
+   ],
+   "parts": [
+    {
+     "zh": "比赛赢了！"
+    },
+    {
+     "en": "win"
+    },
+    {
+     "zh": "已经赢了，要说",
+     "cue": [
+      "alt:win"
+     ]
+    },
+    {
+     "en": "won"
+    },
+    {
+     "en": "We won the game!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:lose",
+    "edge:win>lose",
+    "focus:lose"
+   ],
+   "parts": [
+    {
+     "zh": "赢的反面，是输："
+    },
+    {
+     "en": "lose"
+    },
+    {
+     "zh": "已经输了，要说",
+     "cue": [
+      "alt:lose"
+     ]
+    },
+    {
+     "en": "lost"
+    },
+    {
+     "zh": "输了也没关系，下次加油！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:winner",
+    "edge:win>winner",
+    "focus:winner"
+   ],
+   "parts": [
+    {
+     "zh": "赢了的人，是获胜者。要多写一个 n，再加 e r："
+    },
+    {
+     "en": "win"
+    },
+    {
+     "en": "winner"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:prize",
+    "edge:winner>prize",
+    "focus:prize"
+   ],
+   "parts": [
+    {
+     "zh": "获胜者能得到奖品："
+    },
+    {
+     "en": "prize"
+    },
+    {
+     "en": "I won a prize!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:luck",
+    "focus:luck"
+   ],
+   "parts": [
+    {
+     "zh": "有时候，比赛也要靠一点运气："
+    },
+    {
+     "en": "luck"
+    },
+    {
+     "en": "Good luck!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:lucky",
+    "edge:luck>lucky",
+    "edge:lucky>win",
+    "focus:lucky"
+   ],
+   "parts": [
+    {
+     "zh": "加上 y，就是幸运的："
+    },
+    {
+     "en": "lucky"
+    },
+    {
+     "en": "The player was very lucky."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:win,lose"
+   ],
+   "parts": [
+    {
+     "zh": "现在和过去，一起读："
+    },
+    {
+     "en": "win, won",
+     "cue": [
+      "focus:win"
+     ]
+    },
+    {
+     "en": "lose, lost",
+     "cue": [
+      "focus:lose"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "给参赛的同学加加油吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Good luck!",
+     "cue": [
+      "focus:luck"
+     ]
+    },
+    {
+     "en": "Go, go, go!",
+     "cue": [
+      "focus:cheer"
+     ]
+    },
+    {
+     "en": "You are the winner!",
+     "cue": [
+      "focus:winner"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:activity"
+   ],
+   "parts": [
+    {
+     "en": "activity"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:competition"
+   ],
+   "parts": [
+    {
+     "en": "competition"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:score"
+   ],
+   "parts": [
+    {
+     "en": "score"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:player"
+   ],
+   "parts": [
+    {
+     "en": "player"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cheer"
+   ],
+   "parts": [
+    {
+     "en": "cheer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:dream"
+   ],
+   "parts": [
+    {
+     "en": "dream"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:win"
+   ],
+   "parts": [
+    {
+     "en": "win, won"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:lose"
+   ],
+   "parts": [
+    {
+     "en": "lose, lost"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:winner"
+   ],
+   "parts": [
+    {
+     "en": "winner"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:prize"
+   ],
+   "parts": [
+    {
+     "en": "prize"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:luck"
+   ],
+   "parts": [
+    {
+     "en": "luck"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:lucky"
+   ],
+   "parts": [
+    {
+     "en": "lucky"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！比赛的时候，不管输赢，都要尽力哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

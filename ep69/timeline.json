@@ -1,0 +1,677 @@
+{
+ "duration": 137.892,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！东西有多重、多高、多长？今天，我们来学测量！还记得第二十八集的大小和多少吗？",
+   "t0": 0.4,
+   "t1": 10.408,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "东西有多重，是重量：",
+   "t0": 11.258,
+   "t1": 13.139,
+   "cue": [
+    "map",
+    "show:weight",
+    "focus:weight"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "weight",
+   "t0": 13.389,
+   "t1": 13.857,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "它来自第二十八集的称重：",
+   "t0": 14.357,
+   "t1": 16.32,
+   "cue": [
+    "alt:weight"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "weigh",
+   "t0": 16.57,
+   "t1": 16.961,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "重量的单位，千克：",
+   "t0": 18.061,
+   "t1": 19.801,
+   "cue": [
+    "show:kilo",
+    "edge:weight>kilo",
+    "focus:kilo"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "kilo",
+   "t0": 20.051,
+   "t1": 20.606,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "常常写作 k g。",
+   "t0": 21.106,
+   "t1": 22.477,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "I weigh thirty kilos.",
+   "t0": 22.727,
+   "t1": 24.203,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "特别重的东西，用吨来称。一吨等于一千千克：",
+   "t0": 25.303,
+   "t1": 29.883,
+   "cue": [
+    "show:ton",
+    "edge:weight>ton",
+    "focus:ton"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "ton",
+   "t0": 30.133,
+   "t1": 30.571,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "有多高，是高度：",
+   "t0": 31.671,
+   "t1": 33.19,
+   "cue": [
+    "show:height",
+    "focus:height"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "height",
+   "t0": 33.44,
+   "t1": 33.872,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "小提示：g h 不发音，e i 读成 ai。",
+   "t0": 34.372,
+   "t1": 38.256,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "长度和高度的单位，米：",
+   "t0": 39.106,
+   "t1": 41.163,
+   "cue": [
+    "show:meter",
+    "edge:height>meter",
+    "focus:meter"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "meter",
+   "t0": 41.413,
+   "t1": 41.902,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "one meter",
+   "t0": 42.402,
+   "t1": 43.129,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "有多长，是长度：",
+   "t0": 44.229,
+   "t1": 45.845,
+   "cue": [
+    "show:length",
+    "focus:length"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "length",
+   "t0": 46.095,
+   "t1": 46.535,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "它来自",
+   "t0": 47.035,
+   "t1": 47.698,
+   "cue": [
+    "alt:length"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "long",
+   "t0": 47.948,
+   "t1": 48.486,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "一千米，是一公里。千，加上米：",
+   "t0": 49.586,
+   "t1": 53.207,
+   "cue": [
+    "show:kilometer",
+    "edge:length>kilometer",
+    "edge:meter>kilometer",
+    "focus:kilometer"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "kilo",
+   "t0": 53.457,
+   "t1": 54.012,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "meter",
+   "t0": 54.512,
+   "t1": 55.001,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "kilometer",
+   "t0": 55.501,
+   "t1": 56.237,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "英国和美国常用的长度单位，英里：",
+   "t0": 57.337,
+   "t1": 60.441,
+   "cue": [
+    "show:mile",
+    "edge:length>mile",
+    "focus:mile"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "mile",
+   "t0": 60.691,
+   "t1": 61.138,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "一英里，比一公里还长一些。",
+   "t0": 61.638,
+   "t1": 63.994,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "地上挖了一个洞：",
+   "t0": 64.844,
+   "t1": 66.045,
+   "cue": [
+    "show:hole",
+    "focus:hole"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "hole",
+   "t0": 66.295,
+   "t1": 66.662,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "洞很深：",
+   "t0": 67.762,
+   "t1": 68.464,
+   "cue": [
+    "show:deep",
+    "edge:hole>deep",
+    "focus:deep"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "deep",
+   "t0": 68.714,
+   "t1": 69.057,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "洞口很窄：",
+   "t0": 70.157,
+   "t1": 71.058,
+   "cue": [
+    "show:narrow",
+    "edge:hole>narrow",
+    "focus:narrow"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "narrow",
+   "t0": 71.308,
+   "t1": 71.839,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "还记得第五十二集的 narrowly 吗？加上 l y，就是勉强地。",
+   "t0": 72.339,
+   "t1": 77.575,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "窄的反面，是宽的。大河又宽又长：",
+   "t0": 78.424,
+   "t1": 82.15,
+   "cue": [
+    "show:wide",
+    "edge:deep>wide",
+    "focus:wide"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "wide",
+   "t0": 82.4,
+   "t1": 82.842,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "The river is wide.",
+   "t0": 83.342,
+   "t1": 84.429,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "最少也有，英语是",
+   "t0": 85.529,
+   "t1": 87.345,
+   "cue": [
+    "show:atleast",
+    "focus:atleast"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "at least",
+   "t0": 87.595,
+   "t1": 88.241,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "I am at least one meter tall.",
+   "t0": 88.741,
+   "t1": 90.523,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "差一点点就到了，是几乎：",
+   "t0": 91.623,
+   "t1": 93.859,
+   "cue": [
+    "show:almost",
+    "edge:atleast>almost",
+    "focus:almost"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "almost",
+   "t0": 94.109,
+   "t1": 94.71,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "It's almost nine o'clock.",
+   "t0": 95.21,
+   "t1": 96.673,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "一宽一窄：",
+   "t0": 97.773,
+   "t1": 98.592,
+   "cue": [
+    "focus:wide,narrow"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "wide",
+   "t0": 98.842,
+   "t1": 99.284,
+   "cue": [
+    "focus:wide"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "narrow",
+   "t0": 99.784,
+   "t1": 100.314,
+   "cue": [
+    "focus:narrow"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 101.414,
+   "t1": 104.665,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "weight",
+   "t0": 105.515,
+   "t1": 105.983,
+   "cue": [
+    "focus:weight"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "kilo",
+   "t0": 107.083,
+   "t1": 107.638,
+   "cue": [
+    "focus:kilo"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "ton",
+   "t0": 108.738,
+   "t1": 109.176,
+   "cue": [
+    "focus:ton"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "height",
+   "t0": 110.276,
+   "t1": 110.708,
+   "cue": [
+    "focus:height"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "meter",
+   "t0": 111.808,
+   "t1": 112.297,
+   "cue": [
+    "focus:meter"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "length",
+   "t0": 113.397,
+   "t1": 113.837,
+   "cue": [
+    "focus:length"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "kilometer",
+   "t0": 114.937,
+   "t1": 115.672,
+   "cue": [
+    "focus:kilometer"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "mile",
+   "t0": 116.772,
+   "t1": 117.219,
+   "cue": [
+    "focus:mile"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "hole",
+   "t0": 118.319,
+   "t1": 118.686,
+   "cue": [
+    "focus:hole"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "deep",
+   "t0": 119.786,
+   "t1": 120.129,
+   "cue": [
+    "focus:deep"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "narrow",
+   "t0": 121.229,
+   "t1": 121.759,
+   "cue": [
+    "focus:narrow"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "wide",
+   "t0": 122.859,
+   "t1": 123.301,
+   "cue": [
+    "focus:wide"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "at least",
+   "t0": 124.401,
+   "t1": 125.047,
+   "cue": [
+    "focus:atleast"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "almost",
+   "t0": 126.147,
+   "t1": 126.748,
+   "cue": [
+    "focus:almost"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "zh",
+   "text": "太棒了！回家量一量你有多高、有多重吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 127.848,
+   "t1": 136.042,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "weight": [
+   0.25,
+   0.718
+  ],
+  "weight:alt": [
+   0.968,
+   1.359
+  ],
+  "kilo": [
+   1.609,
+   2.164
+  ],
+  "kilo:alt": [
+   2.414,
+   3.037
+  ],
+  "ton": [
+   3.287,
+   3.725
+  ],
+  "height": [
+   3.975,
+   4.407
+  ],
+  "meter": [
+   4.657,
+   5.146
+  ],
+  "length": [
+   5.396,
+   5.836
+  ],
+  "length:alt": [
+   6.086,
+   6.624
+  ],
+  "kilometer": [
+   6.874,
+   7.609
+  ],
+  "mile": [
+   7.859,
+   8.306
+  ],
+  "hole": [
+   8.556,
+   8.923
+  ],
+  "deep": [
+   9.173,
+   9.516
+  ],
+  "wide": [
+   9.766,
+   10.207
+  ],
+  "narrow": [
+   10.457,
+   10.988
+  ],
+  "atleast": [
+   11.238,
+   11.884
+  ],
+  "almost": [
+   12.134,
+   12.735
+  ]
+ }
+}

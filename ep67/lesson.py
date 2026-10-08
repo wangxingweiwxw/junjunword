@@ -1,0 +1,45 @@
+import os, sys; sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "tools"))
+from lessonkit import Lesson, zh, en
+
+L = Lesson("ep67", "competition", "比赛", 67, "prize")
+V = dict(kind="verb")
+L.node("activity", "activity", "/ækˈtɪvəti/", "活动")
+L.node("competition", "competition", "/ˌkɑːmpəˈtɪʃn/", "比赛；竞赛")
+L.node("score", "score", "/skɔːr/", "得分")
+L.node("player", "player", "/ˈpleɪər/", "运动员；选手", alt="play", altLabel="来自")
+L.node("cheer", "cheer", "/tʃɪr/", "欢呼；加油", **V)
+L.node("dream", "dream", "/driːm/", "梦想")
+L.node("win", "win", "/wɪn/", "赢", **V, alt="won", altLabel="过去式")
+L.node("lose", "lose", "/luːz/", "输", **V, alt="lost", altLabel="过去式")
+L.node("winner", "winner", "/ˈwɪnər/", "获胜者")
+L.node("prize", "prize", "/praɪz/", "奖品")
+L.node("luck", "luck", "/lʌk/", "运气")
+L.node("lucky", "lucky", "/ˈlʌki/", "幸运的", kind="adj")
+L.grid(["activity competition score",
+        "cheer player dream",
+        "lose win winner",
+        "luck lucky prize"], dy=350)
+L.edge("activity", "competition", dashed=True); L.edge("competition", "score"); L.edge("competition", "player"); L.edge("cheer", "player")
+L.edge("player", "dream", dashed=True); L.edge("player", "win"); L.edge("win", "lose"); L.edge("win", "winner"); L.edge("winner", "prize")
+L.edge("luck", "lucky", "+y"); L.edge("lucky", "win", dashed=True)
+
+L.seg("title", zh("小朋友们好！学校要举行运动会啦！今天，我们来学和比赛有关的单词。"), en("competition"))
+L.seg("map show:activity focus:activity", zh("学校组织的各种活动："), en("activity"), en("school activities"))
+L.seg("show:competition edge:activity>competition focus:competition", zh("大家比一比，谁最厉害，是比赛、竞赛："), en("competition"))
+L.seg("show:score edge:competition>score focus:score", zh("比赛中拿到的分数，是得分："), en("score"), en("The score is three to two."))
+L.seg("show:player edge:competition>player focus:player", zh("参加比赛的人，是选手。玩，加上 e r："), en("play"), en("player"))
+L.seg("show:cheer edge:cheer>player focus:cheer", zh("台下的同学大声欢呼，为选手加油："), en("cheer"), en("Cheer for the players!"))
+L.seg("show:dream edge:player>dream focus:dream", zh("每个选手心里都有一个梦想："), en("dream"), zh("它也是做梦的梦。"))
+L.seg("show:win edge:player>win focus:win", zh("比赛赢了！"), en("win"), zh("已经赢了，要说", "alt:win"), en("won"), en("We won the game!"))
+L.seg("show:lose edge:win>lose focus:lose", zh("赢的反面，是输："), en("lose"), zh("已经输了，要说", "alt:lose"), en("lost"), zh("输了也没关系，下次加油！"))
+L.seg("show:winner edge:win>winner focus:winner", zh("赢了的人，是获胜者。要多写一个 n，再加 e r："), en("win"), en("winner"))
+L.seg("show:prize edge:winner>prize focus:prize", zh("获胜者能得到奖品："), en("prize"), en("I won a prize!"))
+L.seg("show:luck focus:luck", zh("有时候，比赛也要靠一点运气："), en("luck"), en("Good luck!"))
+L.seg("show:lucky edge:luck>lucky edge:lucky>win focus:lucky", zh("加上 y，就是幸运的："), en("lucky"), en("The player was very lucky."))
+L.seg("focus:win,lose", zh("现在和过去，一起读："), en("win, won", "focus:win"), en("lose, lost", "focus:lose"))
+L.seg("focus:none", zh("给参赛的同学加加油吧！"))
+L.seg("", en("Good luck!", "focus:luck"), en("Go, go, go!", "focus:cheer"), en("You are the winner!", "focus:winner"))
+L.review([("activity", "activity"), ("competition", "competition"), ("score", "score"), ("player", "player"), ("cheer", "cheer"), ("dream", "dream"),
+          ("win", "win, won"), ("lose", "lose, lost"), ("winner", "winner"), ("prize", "prize"), ("luck", "luck"), ("lucky", "lucky")],
+         "太棒了！比赛的时候，不管输赢，都要尽力哦。点一点图上的单词，还能再听一遍发音。")
+L.save()

@@ -1,0 +1,747 @@
+{
+ "id": "ep69",
+ "title": "measures",
+ "titleZh": "测量",
+ "episode": "第 69 集",
+ "titleIcon": "meter",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "weight",
+   "word": "weight",
+   "ipa": "/weɪt/",
+   "zh": "重量",
+   "icon": "weight",
+   "alt": "weigh",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "kilo",
+   "word": "kilo",
+   "ipa": "/ˈkiːloʊ/",
+   "zh": "千克",
+   "icon": "kilo",
+   "alt": "kg",
+   "altLabel": "写作",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "ton",
+   "word": "ton",
+   "ipa": "/tʌn/",
+   "zh": "吨",
+   "icon": "ton",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "height",
+   "word": "height",
+   "ipa": "/haɪt/",
+   "zh": "高度",
+   "icon": "height",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "meter",
+   "word": "meter",
+   "ipa": "/ˈmiːtər/",
+   "zh": "米",
+   "icon": "meter",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "length",
+   "word": "length",
+   "ipa": "/leŋθ/",
+   "zh": "长度",
+   "icon": "length",
+   "alt": "long",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "kilometer",
+   "word": "kilometer",
+   "ipa": "/kɪˈlɑːmɪtər/",
+   "zh": "千米；公里",
+   "icon": "kilometer",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "mile",
+   "word": "mile",
+   "ipa": "/maɪl/",
+   "zh": "英里",
+   "icon": "mile",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "hole",
+   "word": "hole",
+   "ipa": "/hoʊl/",
+   "zh": "洞",
+   "icon": "hole",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "deep",
+   "word": "deep",
+   "ipa": "/diːp/",
+   "zh": "深的",
+   "icon": "deep",
+   "kind": "adj",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "wide",
+   "word": "wide",
+   "ipa": "/waɪd/",
+   "zh": "宽的",
+   "icon": "wide",
+   "kind": "adj",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "narrow",
+   "word": "narrow",
+   "ipa": "/ˈnæroʊ/",
+   "zh": "窄的",
+   "icon": "narrow",
+   "kind": "adj",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  },
+  {
+   "id": "atleast",
+   "word": "at least",
+   "ipa": "/ət liːst/",
+   "zh": "至少",
+   "icon": "atleast",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "almost",
+   "word": "almost",
+   "ipa": "/ˈɔːlmoʊst/",
+   "zh": "几乎",
+   "icon": "almost",
+   "kind": "adv",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "weight",
+   "to": "kilo"
+  },
+  {
+   "from": "weight",
+   "to": "ton"
+  },
+  {
+   "from": "height",
+   "to": "meter"
+  },
+  {
+   "from": "length",
+   "to": "kilometer"
+  },
+  {
+   "from": "length",
+   "to": "mile"
+  },
+  {
+   "from": "meter",
+   "to": "kilometer",
+   "label": "×1000"
+  },
+  {
+   "from": "hole",
+   "to": "deep"
+  },
+  {
+   "from": "hole",
+   "to": "narrow"
+  },
+  {
+   "from": "deep",
+   "to": "wide",
+   "dashed": true
+  },
+  {
+   "from": "atleast",
+   "to": "almost",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！东西有多重、多高、多长？今天，我们来学测量！还记得第二十八集的大小和多少吗？"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:weight",
+    "focus:weight"
+   ],
+   "parts": [
+    {
+     "zh": "东西有多重，是重量："
+    },
+    {
+     "en": "weight"
+    },
+    {
+     "zh": "它来自第二十八集的称重：",
+     "cue": [
+      "alt:weight"
+     ]
+    },
+    {
+     "en": "weigh"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:kilo",
+    "edge:weight>kilo",
+    "focus:kilo"
+   ],
+   "parts": [
+    {
+     "zh": "重量的单位，千克："
+    },
+    {
+     "en": "kilo"
+    },
+    {
+     "zh": "常常写作 k g。"
+    },
+    {
+     "en": "I weigh thirty kilos."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ton",
+    "edge:weight>ton",
+    "focus:ton"
+   ],
+   "parts": [
+    {
+     "zh": "特别重的东西，用吨来称。一吨等于一千千克："
+    },
+    {
+     "en": "ton"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:height",
+    "focus:height"
+   ],
+   "parts": [
+    {
+     "zh": "有多高，是高度："
+    },
+    {
+     "en": "height"
+    },
+    {
+     "zh": "小提示：g h 不发音，e i 读成 ai。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:meter",
+    "edge:height>meter",
+    "focus:meter"
+   ],
+   "parts": [
+    {
+     "zh": "长度和高度的单位，米："
+    },
+    {
+     "en": "meter"
+    },
+    {
+     "en": "one meter"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:length",
+    "focus:length"
+   ],
+   "parts": [
+    {
+     "zh": "有多长，是长度："
+    },
+    {
+     "en": "length"
+    },
+    {
+     "zh": "它来自",
+     "cue": [
+      "alt:length"
+     ]
+    },
+    {
+     "en": "long"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:kilometer",
+    "edge:length>kilometer",
+    "edge:meter>kilometer",
+    "focus:kilometer"
+   ],
+   "parts": [
+    {
+     "zh": "一千米，是一公里。千，加上米："
+    },
+    {
+     "en": "kilo"
+    },
+    {
+     "en": "meter"
+    },
+    {
+     "en": "kilometer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:mile",
+    "edge:length>mile",
+    "focus:mile"
+   ],
+   "parts": [
+    {
+     "zh": "英国和美国常用的长度单位，英里："
+    },
+    {
+     "en": "mile"
+    },
+    {
+     "zh": "一英里，比一公里还长一些。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hole",
+    "focus:hole"
+   ],
+   "parts": [
+    {
+     "zh": "地上挖了一个洞："
+    },
+    {
+     "en": "hole"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:deep",
+    "edge:hole>deep",
+    "focus:deep"
+   ],
+   "parts": [
+    {
+     "zh": "洞很深："
+    },
+    {
+     "en": "deep"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:narrow",
+    "edge:hole>narrow",
+    "focus:narrow"
+   ],
+   "parts": [
+    {
+     "zh": "洞口很窄："
+    },
+    {
+     "en": "narrow"
+    },
+    {
+     "zh": "还记得第五十二集的 narrowly 吗？加上 l y，就是勉强地。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wide",
+    "edge:deep>wide",
+    "focus:wide"
+   ],
+   "parts": [
+    {
+     "zh": "窄的反面，是宽的。大河又宽又长："
+    },
+    {
+     "en": "wide"
+    },
+    {
+     "en": "The river is wide."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:atleast",
+    "focus:atleast"
+   ],
+   "parts": [
+    {
+     "zh": "最少也有，英语是"
+    },
+    {
+     "en": "at least"
+    },
+    {
+     "en": "I am at least one meter tall."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:almost",
+    "edge:atleast>almost",
+    "focus:almost"
+   ],
+   "parts": [
+    {
+     "zh": "差一点点就到了，是几乎："
+    },
+    {
+     "en": "almost"
+    },
+    {
+     "en": "It's almost nine o'clock."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wide,narrow"
+   ],
+   "parts": [
+    {
+     "zh": "一宽一窄："
+    },
+    {
+     "en": "wide",
+     "cue": [
+      "focus:wide"
+     ]
+    },
+    {
+     "en": "narrow",
+     "cue": [
+      "focus:narrow"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:weight"
+   ],
+   "parts": [
+    {
+     "en": "weight"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:kilo"
+   ],
+   "parts": [
+    {
+     "en": "kilo"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ton"
+   ],
+   "parts": [
+    {
+     "en": "ton"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:height"
+   ],
+   "parts": [
+    {
+     "en": "height"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:meter"
+   ],
+   "parts": [
+    {
+     "en": "meter"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:length"
+   ],
+   "parts": [
+    {
+     "en": "length"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:kilometer"
+   ],
+   "parts": [
+    {
+     "en": "kilometer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:mile"
+   ],
+   "parts": [
+    {
+     "en": "mile"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hole"
+   ],
+   "parts": [
+    {
+     "en": "hole"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:deep"
+   ],
+   "parts": [
+    {
+     "en": "deep"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:narrow"
+   ],
+   "parts": [
+    {
+     "en": "narrow"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wide"
+   ],
+   "parts": [
+    {
+     "en": "wide"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:atleast"
+   ],
+   "parts": [
+    {
+     "en": "at least"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:almost"
+   ],
+   "parts": [
+    {
+     "en": "almost"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！回家量一量你有多高、有多重吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

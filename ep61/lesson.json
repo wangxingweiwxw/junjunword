@@ -1,0 +1,878 @@
+{
+ "id": "ep61",
+ "title": "fruit",
+ "titleZh": "水果蔬菜",
+ "episode": "第 61 集",
+ "titleIcon": "fruit",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1900
+  ]
+ },
+ "nodes": [
+  {
+   "id": "fruit",
+   "word": "fruit",
+   "ipa": "/fruːt/",
+   "zh": "水果",
+   "icon": "fruit",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    150,
+    470
+   ]
+  },
+  {
+   "id": "apple",
+   "word": "apple",
+   "ipa": "/ˈæpl/",
+   "zh": "苹果",
+   "icon": "apple",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    150,
+    150
+   ]
+  },
+  {
+   "id": "banana",
+   "word": "banana",
+   "ipa": "/bəˈnænə/",
+   "zh": "香蕉",
+   "icon": "banana",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    150,
+    790
+   ]
+  },
+  {
+   "id": "strawberry",
+   "word": "strawberry",
+   "ipa": "/ˈstrɔːberi/",
+   "zh": "草莓",
+   "icon": "strawberry",
+   "plural": "strawberries",
+   "pluralIpa": "/ˈstrɔːberiz/",
+   "atP": [
+    750,
+    470
+   ],
+   "at": [
+    450,
+    790
+   ]
+  },
+  {
+   "id": "watermelon",
+   "word": "watermelon",
+   "ipa": "/ˈwɔːtərmelən/",
+   "zh": "西瓜",
+   "icon": "watermelon",
+   "atP": [
+    750,
+    790
+   ],
+   "at": [
+    750,
+    790
+   ]
+  },
+  {
+   "id": "pear",
+   "word": "pear",
+   "ipa": "/per/",
+   "zh": "梨",
+   "icon": "pear",
+   "atP": [
+    150,
+    470
+   ],
+   "at": [
+    450,
+    150
+   ]
+  },
+  {
+   "id": "grape",
+   "word": "grape",
+   "ipa": "/ɡreɪp/",
+   "zh": "葡萄",
+   "icon": "grape",
+   "plural": "grapes",
+   "pluralIpa": "/ɡreɪps/",
+   "atP": [
+    450,
+    470
+   ],
+   "at": [
+    450,
+    470
+   ]
+  },
+  {
+   "id": "lemon",
+   "word": "lemon",
+   "ipa": "/ˈlemən/",
+   "zh": "柠檬",
+   "icon": "lemon",
+   "atP": [
+    150,
+    790
+   ],
+   "at": [
+    750,
+    150
+   ]
+  },
+  {
+   "id": "vegetable",
+   "word": "vegetable",
+   "ipa": "/ˈvedʒtəbl/",
+   "zh": "蔬菜",
+   "icon": "vegetable",
+   "plural": "vegetables",
+   "pluralIpa": "/ˈvedʒtəblz/",
+   "atP": [
+    450,
+    1110
+   ],
+   "at": [
+    1050,
+    470
+   ]
+  },
+  {
+   "id": "potato",
+   "word": "potato",
+   "ipa": "/pəˈteɪtoʊ/",
+   "zh": "土豆",
+   "icon": "potato",
+   "plural": "potatoes",
+   "pluralIpa": "/pəˈteɪtoʊz/",
+   "atP": [
+    150,
+    1110
+   ],
+   "at": [
+    1050,
+    150
+   ]
+  },
+  {
+   "id": "carrot",
+   "word": "carrot",
+   "ipa": "/ˈkærət/",
+   "zh": "胡萝卜",
+   "icon": "carrot",
+   "atP": [
+    750,
+    1110
+   ],
+   "at": [
+    1050,
+    790
+   ]
+  },
+  {
+   "id": "onion",
+   "word": "onion",
+   "ipa": "/ˈʌnjən/",
+   "zh": "洋葱",
+   "icon": "onion",
+   "atP": [
+    150,
+    1430
+   ],
+   "at": [
+    1350,
+    150
+   ]
+  },
+  {
+   "id": "tomato",
+   "word": "tomato",
+   "ipa": "/təˈmeɪtoʊ/",
+   "zh": "西红柿",
+   "icon": "tomato",
+   "plural": "tomatoes",
+   "pluralIpa": "/təˈmeɪtoʊz/",
+   "atP": [
+    450,
+    1430
+   ],
+   "at": [
+    1350,
+    470
+   ]
+  },
+  {
+   "id": "bean",
+   "word": "bean",
+   "ipa": "/biːn/",
+   "zh": "豆子",
+   "icon": "bean",
+   "atP": [
+    750,
+    1430
+   ],
+   "at": [
+    1350,
+    790
+   ]
+  },
+  {
+   "id": "cabbage",
+   "word": "cabbage",
+   "ipa": "/ˈkæbɪdʒ/",
+   "zh": "卷心菜",
+   "icon": "cabbage",
+   "atP": [
+    450,
+    1750
+   ],
+   "at": [
+    1650,
+    470
+   ]
+  },
+  {
+   "id": "except",
+   "word": "except",
+   "ipa": "/ɪkˈsept/",
+   "zh": "除了……之外",
+   "icon": "except",
+   "kind": "prep",
+   "atP": [
+    750,
+    1750
+   ],
+   "at": [
+    1650,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "fruit",
+   "to": "apple"
+  },
+  {
+   "from": "fruit",
+   "to": "banana"
+  },
+  {
+   "from": "fruit",
+   "to": "grape"
+  },
+  {
+   "from": "fruit",
+   "to": "pear"
+  },
+  {
+   "from": "fruit",
+   "to": "strawberry"
+  },
+  {
+   "from": "pear",
+   "to": "lemon",
+   "dashed": true
+  },
+  {
+   "from": "strawberry",
+   "to": "watermelon",
+   "dashed": true
+  },
+  {
+   "from": "vegetable",
+   "to": "potato"
+  },
+  {
+   "from": "vegetable",
+   "to": "carrot"
+  },
+  {
+   "from": "vegetable",
+   "to": "tomato"
+  },
+  {
+   "from": "vegetable",
+   "to": "onion"
+  },
+  {
+   "from": "vegetable",
+   "to": "bean"
+  },
+  {
+   "from": "tomato",
+   "to": "cabbage",
+   "dashed": true
+  },
+  {
+   "from": "cabbage",
+   "to": "except",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！多吃水果和蔬菜，身体棒棒的！今天，我们来认识它们。"
+    },
+    {
+     "en": "fruit and vegetables"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:fruit",
+    "focus:fruit"
+   ],
+   "parts": [
+    {
+     "zh": "甜甜的水果，英语是"
+    },
+    {
+     "en": "fruit"
+    },
+    {
+     "zh": "中间的 u i，只读一个长长的 u。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:apple",
+    "edge:fruit>apple",
+    "focus:apple"
+   ],
+   "parts": [
+    {
+     "zh": "红红的苹果："
+    },
+    {
+     "en": "apple"
+    },
+    {
+     "zh": "开头是元音，所以要说"
+    },
+    {
+     "en": "an apple"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:banana",
+    "edge:fruit>banana",
+    "focus:banana"
+   ],
+   "parts": [
+    {
+     "zh": "弯弯的香蕉："
+    },
+    {
+     "en": "banana"
+    },
+    {
+     "zh": "三个 a，重音在中间。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:grape",
+    "edge:fruit>grape",
+    "focus:grape"
+   ],
+   "parts": [
+    {
+     "zh": "一串一串的葡萄："
+    },
+    {
+     "en": "grape"
+    },
+    {
+     "zh": "一串有很多颗：",
+     "cue": [
+      "plural:grape"
+     ]
+    },
+    {
+     "en": "grapes"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pear",
+    "edge:fruit>pear",
+    "focus:pear"
+   ],
+   "parts": [
+    {
+     "zh": "水水的梨："
+    },
+    {
+     "en": "pear"
+    },
+    {
+     "zh": "它和熊 bear 只差一个字母哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:lemon",
+    "edge:pear>lemon",
+    "focus:lemon"
+   ],
+   "parts": [
+    {
+     "zh": "酸酸的柠檬。还记得第十七集的酸吗？"
+    },
+    {
+     "en": "lemon"
+    },
+    {
+     "en": "Lemons are sour."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:strawberry",
+    "edge:fruit>strawberry",
+    "focus:strawberry"
+   ],
+   "parts": [
+    {
+     "zh": "红红的草莓。稻草，加上浆果："
+    },
+    {
+     "en": "straw"
+    },
+    {
+     "en": "berry"
+    },
+    {
+     "en": "strawberry"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:watermelon",
+    "edge:strawberry>watermelon",
+    "focus:watermelon"
+   ],
+   "parts": [
+    {
+     "zh": "夏天最爱的大西瓜。水，加上瓜："
+    },
+    {
+     "en": "water"
+    },
+    {
+     "en": "melon"
+    },
+    {
+     "en": "watermelon"
+    },
+    {
+     "en": "I eat watermelon in the summer."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:vegetable",
+    "focus:vegetable"
+   ],
+   "parts": [
+    {
+     "zh": "绿油油的蔬菜，英语是"
+    },
+    {
+     "en": "vegetable"
+    },
+    {
+     "zh": "中间的 e t a 读得很快："
+    },
+    {
+     "en": "veg, ta, ble"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:potato",
+    "edge:vegetable>potato",
+    "focus:potato"
+   ],
+   "parts": [
+    {
+     "zh": "圆滚滚的土豆："
+    },
+    {
+     "en": "potato"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:carrot",
+    "edge:vegetable>carrot",
+    "focus:carrot"
+   ],
+   "parts": [
+    {
+     "zh": "小兔子爱吃的胡萝卜："
+    },
+    {
+     "en": "carrot"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tomato",
+    "edge:vegetable>tomato",
+    "focus:tomato"
+   ],
+   "parts": [
+    {
+     "zh": "红红的西红柿："
+    },
+    {
+     "en": "tomato"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:onion",
+    "edge:vegetable>onion",
+    "focus:onion"
+   ],
+   "parts": [
+    {
+     "zh": "一切就让人流眼泪的洋葱："
+    },
+    {
+     "en": "onion"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bean",
+    "edge:vegetable>bean",
+    "focus:bean"
+   ],
+   "parts": [
+    {
+     "zh": "长长的豆荚里，有一颗颗豆子："
+    },
+    {
+     "en": "bean"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cabbage",
+    "edge:tomato>cabbage",
+    "focus:cabbage"
+   ],
+   "parts": [
+    {
+     "zh": "一层一层的卷心菜："
+    },
+    {
+     "en": "cabbage"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:potato,tomato"
+   ],
+   "parts": [
+    {
+     "zh": "小心！土豆和西红柿变成很多个的时候，要加 e s："
+    },
+    {
+     "en": "potato, potatoes",
+     "cue": [
+      "plural:potato",
+      "focus:potato"
+     ]
+    },
+    {
+     "en": "tomato, tomatoes",
+     "cue": [
+      "plural:tomato",
+      "focus:tomato"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:except",
+    "edge:cabbage>except",
+    "focus:except"
+   ],
+   "parts": [
+    {
+     "zh": "除了……之外，英语是"
+    },
+    {
+     "en": "except"
+    },
+    {
+     "en": "I like all vegetables except onions.",
+     "cue": [
+      "focus:except,onion"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:strawberry"
+   ],
+   "parts": [
+    {
+     "zh": "草莓很多个，要把 y 变成 i e s："
+    },
+    {
+     "en": "strawberries",
+     "cue": [
+      "plural:strawberry"
+     ]
+    },
+    {
+     "en": "vegetables",
+     "cue": [
+      "plural:vegetable",
+      "focus:vegetable"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fruit"
+   ],
+   "parts": [
+    {
+     "en": "fruit"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:apple"
+   ],
+   "parts": [
+    {
+     "en": "apple"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:banana"
+   ],
+   "parts": [
+    {
+     "en": "banana"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:grape"
+   ],
+   "parts": [
+    {
+     "en": "grape, grapes"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pear"
+   ],
+   "parts": [
+    {
+     "en": "pear"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:lemon"
+   ],
+   "parts": [
+    {
+     "en": "lemon"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:strawberry"
+   ],
+   "parts": [
+    {
+     "en": "strawberry"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:watermelon"
+   ],
+   "parts": [
+    {
+     "en": "watermelon"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:vegetable"
+   ],
+   "parts": [
+    {
+     "en": "vegetable"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:potato"
+   ],
+   "parts": [
+    {
+     "en": "potato, potatoes"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:carrot"
+   ],
+   "parts": [
+    {
+     "en": "carrot"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tomato"
+   ],
+   "parts": [
+    {
+     "en": "tomato, tomatoes"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:onion"
+   ],
+   "parts": [
+    {
+     "en": "onion"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bean"
+   ],
+   "parts": [
+    {
+     "en": "bean"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cabbage"
+   ],
+   "parts": [
+    {
+     "en": "cabbage"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:except"
+   ],
+   "parts": [
+    {
+     "en": "except"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！今天吃饭的时候，用英语说一说你吃了哪些水果和蔬菜吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

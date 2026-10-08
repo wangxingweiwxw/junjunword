@@ -1,0 +1,647 @@
+{
+ "duration": 130.633,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！好好睡觉，才能长高高。今天，我们来学和睡眠有关的单词。",
+   "t0": 0.4,
+   "t1": 8.049,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "sleep",
+   "t0": 8.299,
+   "t1": 8.781,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "睡觉，英语是",
+   "t0": 9.881,
+   "t1": 11.356,
+   "cue": [
+    "map",
+    "show:sleep",
+    "focus:sleep"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "sleep",
+   "t0": 11.606,
+   "t1": 12.089,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "I sleep at nine o'clock.",
+   "t0": 12.589,
+   "t1": 14.053,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "在前面加一个 a，就是睡着的：",
+   "t0": 15.153,
+   "t1": 17.67,
+   "cue": [
+    "show:asleep",
+    "edge:sleep>asleep",
+    "focus:asleep"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "asleep",
+   "t0": 17.92,
+   "t1": 18.471,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "The baby is asleep.",
+   "t0": 18.971,
+   "t1": 20.15,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "早上醒来，是",
+   "t0": 21.25,
+   "t1": 22.7,
+   "cue": [
+    "show:wake",
+    "focus:wake"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "wake",
+   "t0": 22.95,
+   "t1": 23.41,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "常常说",
+   "t0": 23.91,
+   "t1": 24.651,
+   "cue": [
+    "alt:wake"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "wake up",
+   "t0": 24.901,
+   "t1": 25.465,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "加上 a，就是醒着的：",
+   "t0": 26.565,
+   "t1": 28.326,
+   "cue": [
+    "show:awake",
+    "edge:wake>awake",
+    "edge:sleep>awake",
+    "focus:awake"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "awake",
+   "t0": 28.576,
+   "t1": 29.075,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "睡着和醒着，一对好朋友：",
+   "t0": 29.575,
+   "t1": 31.858,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "asleep",
+   "t0": 32.108,
+   "t1": 32.659,
+   "cue": [
+    "focus:asleep"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "awake",
+   "t0": 33.159,
+   "t1": 33.658,
+   "cue": [
+    "focus:awake"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "累了，就坐下休息一会儿：",
+   "t0": 34.758,
+   "t1": 36.699,
+   "cue": [
+    "show:rest",
+    "edge:sleep>rest",
+    "focus:rest"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "rest",
+   "t0": 36.949,
+   "t1": 37.458,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Let's take a rest.",
+   "t0": 37.958,
+   "t1": 39.183,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "睡觉前，写一篇日记：",
+   "t0": 40.283,
+   "t1": 42.292,
+   "cue": [
+    "show:diary",
+    "edge:sleep>diary",
+    "focus:diary"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "diary",
+   "t0": 42.542,
+   "t1": 43.139,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "医生建议我们早点睡：",
+   "t0": 44.239,
+   "t1": 45.931,
+   "cue": [
+    "show:suggest",
+    "focus:suggest"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "suggest",
+   "t0": 46.181,
+   "t1": 46.985,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "还记得第六十五集的 advise 吗？意思差不多。",
+   "t0": 47.485,
+   "t1": 51.583,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "加上 i o n，就是建议这件事：",
+   "t0": 52.433,
+   "t1": 55.101,
+   "cue": [
+    "show:suggestion",
+    "edge:suggest>suggestion",
+    "focus:suggestion"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "suggestion",
+   "t0": 55.351,
+   "t1": 56.266,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "最重要的、主要的，英语是",
+   "t0": 57.366,
+   "t1": 59.994,
+   "cue": [
+    "show:main",
+    "focus:main"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "main",
+   "t0": 60.244,
+   "t1": 60.674,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "Sleep is the main thing!",
+   "t0": 61.174,
+   "t1": 62.482,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "多睡一点，是",
+   "t0": 63.582,
+   "t1": 64.972,
+   "cue": [
+    "show:more",
+    "focus:more"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "more",
+   "t0": 65.222,
+   "t1": 65.688,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "more sleep",
+   "t0": 66.188,
+   "t1": 66.908,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "少玩一点手机，是",
+   "t0": 68.008,
+   "t1": 69.79,
+   "cue": [
+    "show:less",
+    "edge:more>less",
+    "focus:less"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "less",
+   "t0": 70.04,
+   "t1": 70.557,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "less TV",
+   "t0": 71.057,
+   "t1": 71.885,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "少到几乎没有，是",
+   "t0": 72.985,
+   "t1": 74.892,
+   "cue": [
+    "show:hardly",
+    "edge:less>hardly",
+    "focus:hardly"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "hardly",
+   "t0": 75.142,
+   "t1": 75.732,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "I hardly watch TV at night.",
+   "t0": 76.232,
+   "t1": 78.197,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "甚至，英语是",
+   "t0": 79.297,
+   "t1": 80.799,
+   "cue": [
+    "show:even",
+    "edge:less>even",
+    "focus:even"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "even",
+   "t0": 81.049,
+   "t1": 81.536,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "I even suggest you keep a sleep diary.",
+   "t0": 82.036,
+   "t1": 84.43,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "一起读一读睡前好习惯：",
+   "t0": 85.53,
+   "t1": 87.787,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Rest more.",
+   "t0": 88.637,
+   "t1": 89.423,
+   "cue": [
+    "focus:rest,more"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Watch less TV.",
+   "t0": 89.923,
+   "t1": 91.095,
+   "cue": [
+    "focus:less"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Go to sleep early!",
+   "t0": 91.595,
+   "t1": 92.701,
+   "cue": [
+    "focus:sleep"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 93.801,
+   "t1": 97.052,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "sleep",
+   "t0": 97.902,
+   "t1": 98.384,
+   "cue": [
+    "focus:sleep"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "asleep",
+   "t0": 99.484,
+   "t1": 100.036,
+   "cue": [
+    "focus:asleep"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "wake, wake up",
+   "t0": 101.136,
+   "t1": 102.348,
+   "cue": [
+    "focus:wake"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "awake",
+   "t0": 103.448,
+   "t1": 103.947,
+   "cue": [
+    "focus:awake"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "rest",
+   "t0": 105.047,
+   "t1": 105.556,
+   "cue": [
+    "focus:rest"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "diary",
+   "t0": 106.656,
+   "t1": 107.253,
+   "cue": [
+    "focus:diary"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "suggest",
+   "t0": 108.353,
+   "t1": 109.156,
+   "cue": [
+    "focus:suggest"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "suggestion",
+   "t0": 110.256,
+   "t1": 111.172,
+   "cue": [
+    "focus:suggestion"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "main",
+   "t0": 112.272,
+   "t1": 112.702,
+   "cue": [
+    "focus:main"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "more",
+   "t0": 113.802,
+   "t1": 114.267,
+   "cue": [
+    "focus:more"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "less",
+   "t0": 115.367,
+   "t1": 115.883,
+   "cue": [
+    "focus:less"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "hardly",
+   "t0": 116.983,
+   "t1": 117.573,
+   "cue": [
+    "focus:hardly"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "even",
+   "t0": 118.673,
+   "t1": 119.161,
+   "cue": [
+    "focus:even"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！今天晚上早点睡，明天早上精神好。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 120.261,
+   "t1": 128.783,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "sleep": [
+   0.25,
+   0.732
+  ],
+  "asleep": [
+   0.982,
+   1.534
+  ],
+  "wake": [
+   1.784,
+   2.243
+  ],
+  "wake:alt": [
+   2.493,
+   3.057
+  ],
+  "awake": [
+   3.307,
+   3.805
+  ],
+  "rest": [
+   4.055,
+   4.564
+  ],
+  "diary": [
+   4.814,
+   5.411
+  ],
+  "suggest": [
+   5.661,
+   6.465
+  ],
+  "suggestion": [
+   6.715,
+   7.63
+  ],
+  "main": [
+   7.88,
+   8.31
+  ],
+  "even": [
+   8.56,
+   9.047
+  ],
+  "more": [
+   9.297,
+   9.763
+  ],
+  "less": [
+   10.013,
+   10.529
+  ],
+  "hardly": [
+   10.779,
+   11.369
+  ]
+ }
+}

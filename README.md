@@ -122,3 +122,13 @@ ep04+ 的 `lesson.json` 由同目录的 `lesson.py` 生成（`python3 ep04/lesso
 | ep58 feelings (2) | feelings enjoy comfortable pleasant happiness unhappiness miss separate regret shame pity hate | 2:19 |
 | ep59 order | order first … tenth next last | 2:01 |
 | ep60 months | month date in January … December | 2:22 |
+| ep61 fruit & vegetables | fruit apple banana grape pear lemon strawberry watermelon vegetable potato carrot tomato onion bean cabbage except | 2:44 |
+| ep62 subjects | study many subject math science chemistry lab experiment history geography art | 2:06 |
+| ep63 reading | textbook topic language translate pronunciation diction fiction classic theme hero heroine courage | 2:02 |
+| ep64 jobs (2) | jobs farmer fisherman postman trader clerk performer actor actress director musician guitarist violinist pianist drummer | 2:31 |
+| ep65 health | health healthy advise advice exercise active fit fat keep habit | 1:50 |
+| ep66 sleep | sleep asleep wake awake rest diary suggest suggestion main more less hardly even | 2:10 |
+| ep67 competition | activity competition score player cheer dream win(won) lose(lost) winner prize luck lucky | 2:16 |
+| ep68 illness | hospital sick ill illness fever cough flu spread medicine heart beat | 2:07 |
+| ep69 measures (2) | weight kilo ton height meter length kilometer mile hole deep narrow wide at least almost | 2:17 |
+| ep70 positions | position on under below inside outside front back in front of behind beside between around against | 2:14 |

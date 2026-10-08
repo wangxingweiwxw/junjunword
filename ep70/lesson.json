@@ -1,0 +1,774 @@
+{
+ "id": "ep70",
+ "title": "positions",
+ "titleZh": "位置",
+ "episode": "第 70 集",
+ "titleIcon": "position",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1900
+  ]
+ },
+ "nodes": [
+  {
+   "id": "position",
+   "word": "position",
+   "ipa": "/pəˈzɪʃn/",
+   "zh": "位置",
+   "icon": "position",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    170,
+    470
+   ]
+  },
+  {
+   "id": "on",
+   "word": "on",
+   "ipa": "/ɑːn/",
+   "zh": "在……上面",
+   "icon": "onpos",
+   "kind": "prep",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    470,
+    150
+   ]
+  },
+  {
+   "id": "under",
+   "word": "under",
+   "ipa": "/ˈʌndər/",
+   "zh": "在……下面",
+   "icon": "under",
+   "kind": "prep",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    770,
+    150
+   ]
+  },
+  {
+   "id": "below",
+   "word": "below",
+   "ipa": "/bɪˈloʊ/",
+   "zh": "在……下方",
+   "icon": "below",
+   "kind": "prep",
+   "atP": [
+    750,
+    470
+   ],
+   "at": [
+    1070,
+    150
+   ]
+  },
+  {
+   "id": "inside",
+   "word": "inside",
+   "ipa": "/ˌɪnˈsaɪd/",
+   "zh": "在……里面",
+   "icon": "inside",
+   "kind": "prep",
+   "atP": [
+    150,
+    470
+   ],
+   "at": [
+    1370,
+    150
+   ]
+  },
+  {
+   "id": "outside",
+   "word": "outside",
+   "ipa": "/ˌaʊtˈsaɪd/",
+   "zh": "在……外面",
+   "icon": "outside",
+   "kind": "prep",
+   "atP": [
+    150,
+    790
+   ],
+   "at": [
+    1670,
+    150
+   ]
+  },
+  {
+   "id": "front",
+   "word": "front",
+   "ipa": "/frʌnt/",
+   "zh": "前面",
+   "icon": "front",
+   "atP": [
+    150,
+    1110
+   ],
+   "at": [
+    470,
+    470
+   ]
+  },
+  {
+   "id": "back",
+   "word": "back",
+   "ipa": "/bæk/",
+   "zh": "后面",
+   "icon": "back",
+   "atP": [
+    750,
+    1110
+   ],
+   "at": [
+    770,
+    470
+   ]
+  },
+  {
+   "id": "infront",
+   "word": "in front of",
+   "ipa": "/ɪn frʌnt əv/",
+   "zh": "在……前面",
+   "icon": "infront",
+   "kind": "prep",
+   "atP": [
+    450,
+    1110
+   ],
+   "at": [
+    1070,
+    470
+   ]
+  },
+  {
+   "id": "behind",
+   "word": "behind",
+   "ipa": "/bɪˈhaɪnd/",
+   "zh": "在……后面",
+   "icon": "behind",
+   "kind": "prep",
+   "atP": [
+    150,
+    1430
+   ],
+   "at": [
+    1370,
+    470
+   ]
+  },
+  {
+   "id": "beside",
+   "word": "beside",
+   "ipa": "/bɪˈsaɪd/",
+   "zh": "在……旁边",
+   "icon": "beside",
+   "kind": "prep",
+   "atP": [
+    450,
+    1430
+   ],
+   "at": [
+    1670,
+    470
+   ]
+  },
+  {
+   "id": "between",
+   "word": "between",
+   "ipa": "/bɪˈtwiːn/",
+   "zh": "在……中间",
+   "icon": "between",
+   "kind": "prep",
+   "atP": [
+    750,
+    1430
+   ],
+   "at": [
+    770,
+    790
+   ]
+  },
+  {
+   "id": "around",
+   "word": "around",
+   "ipa": "/əˈraʊnd/",
+   "zh": "在……周围",
+   "icon": "around",
+   "kind": "prep",
+   "atP": [
+    150,
+    1750
+   ],
+   "at": [
+    1070,
+    790
+   ]
+  },
+  {
+   "id": "against",
+   "word": "against",
+   "ipa": "/əˈɡenst/",
+   "zh": "靠着",
+   "icon": "against",
+   "kind": "prep",
+   "atP": [
+    750,
+    1750
+   ],
+   "at": [
+    1370,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "on",
+   "to": "under",
+   "label": "反义"
+  },
+  {
+   "from": "under",
+   "to": "below",
+   "dashed": true
+  },
+  {
+   "from": "inside",
+   "to": "outside",
+   "label": "反义"
+  },
+  {
+   "from": "front",
+   "to": "back",
+   "label": "反义"
+  },
+  {
+   "from": "infront",
+   "to": "behind",
+   "label": "反义"
+  },
+  {
+   "from": "position",
+   "to": "front",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！小红球藏在哪里？今天，我们来学表示位置的小词！"
+    },
+    {
+     "en": "position"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:position",
+    "focus:position"
+   ],
+   "parts": [
+    {
+     "zh": "东西所在的地方，是位置："
+    },
+    {
+     "en": "position"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:on",
+    "focus:on"
+   ],
+   "parts": [
+    {
+     "zh": "小球在箱子上面："
+    },
+    {
+     "en": "on"
+    },
+    {
+     "en": "The ball is on the box."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:under",
+    "edge:on>under",
+    "focus:under"
+   ],
+   "parts": [
+    {
+     "zh": "小球在桌子下面："
+    },
+    {
+     "en": "under"
+    },
+    {
+     "en": "The ball is under the table."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:below",
+    "edge:under>below",
+    "focus:below"
+   ],
+   "parts": [
+    {
+     "zh": "在……下方，还可以说"
+    },
+    {
+     "en": "below"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:inside",
+    "focus:inside"
+   ],
+   "parts": [
+    {
+     "zh": "小球在箱子里面："
+    },
+    {
+     "en": "inside"
+    },
+    {
+     "zh": "还记得 in 吗？in 加上旁边 side。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:outside",
+    "edge:inside>outside",
+    "focus:outside"
+   ],
+   "parts": [
+    {
+     "zh": "小球跑到外面去了："
+    },
+    {
+     "en": "outside"
+    },
+    {
+     "zh": "out 加上 side。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:front",
+    "focus:front"
+   ],
+   "parts": [
+    {
+     "zh": "箱子的前面，是"
+    },
+    {
+     "en": "front"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:back",
+    "edge:front>back",
+    "focus:back"
+   ],
+   "parts": [
+    {
+     "zh": "箱子的后面，是"
+    },
+    {
+     "en": "back"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:infront",
+    "focus:infront"
+   ],
+   "parts": [
+    {
+     "zh": "小球在箱子的前面，要说"
+    },
+    {
+     "en": "in front of"
+    },
+    {
+     "en": "My car is in front of the supermarket."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:behind",
+    "edge:infront>behind",
+    "focus:behind"
+   ],
+   "parts": [
+    {
+     "zh": "小球躲在箱子的后面："
+    },
+    {
+     "en": "behind"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:beside",
+    "focus:beside"
+   ],
+   "parts": [
+    {
+     "zh": "小球挨着箱子，在旁边："
+    },
+    {
+     "en": "beside"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:between",
+    "focus:between"
+   ],
+   "parts": [
+    {
+     "zh": "小球夹在两个箱子中间："
+    },
+    {
+     "en": "between"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:around",
+    "focus:around"
+   ],
+   "parts": [
+    {
+     "zh": "好多小球围着箱子，在周围："
+    },
+    {
+     "en": "around"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:against",
+    "focus:against"
+   ],
+   "parts": [
+    {
+     "zh": "一根小棍斜斜地靠着箱子："
+    },
+    {
+     "en": "against"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:on,under"
+   ],
+   "parts": [
+    {
+     "zh": "上和下："
+    },
+    {
+     "en": "on",
+     "cue": [
+      "focus:on"
+     ]
+    },
+    {
+     "en": "under",
+     "cue": [
+      "focus:under"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:inside,outside"
+   ],
+   "parts": [
+    {
+     "zh": "里和外："
+    },
+    {
+     "en": "inside",
+     "cue": [
+      "focus:inside"
+     ]
+    },
+    {
+     "en": "outside",
+     "cue": [
+      "focus:outside"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:infront,behind"
+   ],
+   "parts": [
+    {
+     "zh": "前和后："
+    },
+    {
+     "en": "in front of",
+     "cue": [
+      "focus:infront"
+     ]
+    },
+    {
+     "en": "behind",
+     "cue": [
+      "focus:behind"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "来玩藏球游戏！小球在哪里？"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "It's under the table!",
+     "cue": [
+      "focus:under"
+     ]
+    },
+    {
+     "en": "It's behind the box!",
+     "cue": [
+      "focus:behind"
+     ]
+    },
+    {
+     "en": "It's between the boxes!",
+     "cue": [
+      "focus:between"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:position"
+   ],
+   "parts": [
+    {
+     "en": "position"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:on"
+   ],
+   "parts": [
+    {
+     "en": "on"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:under"
+   ],
+   "parts": [
+    {
+     "en": "under"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:below"
+   ],
+   "parts": [
+    {
+     "en": "below"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:inside"
+   ],
+   "parts": [
+    {
+     "en": "inside"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:outside"
+   ],
+   "parts": [
+    {
+     "en": "outside"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:front"
+   ],
+   "parts": [
+    {
+     "en": "front"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:back"
+   ],
+   "parts": [
+    {
+     "en": "back"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:infront"
+   ],
+   "parts": [
+    {
+     "en": "in front of"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:behind"
+   ],
+   "parts": [
+    {
+     "en": "behind"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:beside"
+   ],
+   "parts": [
+    {
+     "en": "beside"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:between"
+   ],
+   "parts": [
+    {
+     "en": "between"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:around"
+   ],
+   "parts": [
+    {
+     "en": "around"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:against"
+   ],
+   "parts": [
+    {
+     "en": "against"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！和爸爸妈妈玩一玩藏东西的游戏，用英语说出它在哪里吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,684 @@
+{
+ "duration": 134.598,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！小红球藏在哪里？今天，我们来学表示位置的小词！",
+   "t0": 0.4,
+   "t1": 7.126,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "position",
+   "t0": 7.376,
+   "t1": 8.094,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "东西所在的地方，是位置：",
+   "t0": 9.194,
+   "t1": 11.389,
+   "cue": [
+    "map",
+    "show:position",
+    "focus:position"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "position",
+   "t0": 11.639,
+   "t1": 12.357,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "小球在箱子上面：",
+   "t0": 13.457,
+   "t1": 14.936,
+   "cue": [
+    "show:on",
+    "focus:on"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "on",
+   "t0": 15.186,
+   "t1": 15.591,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "The ball is on the box.",
+   "t0": 16.091,
+   "t1": 17.521,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "小球在桌子下面：",
+   "t0": 18.621,
+   "t1": 20.103,
+   "cue": [
+    "show:under",
+    "edge:on>under",
+    "focus:under"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "under",
+   "t0": 20.353,
+   "t1": 20.783,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "The ball is under the table.",
+   "t0": 21.283,
+   "t1": 22.732,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "在……下方，还可以说",
+   "t0": 23.832,
+   "t1": 25.879,
+   "cue": [
+    "show:below",
+    "edge:under>below",
+    "focus:below"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "below",
+   "t0": 26.129,
+   "t1": 26.69,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "小球在箱子里面：",
+   "t0": 27.79,
+   "t1": 29.207,
+   "cue": [
+    "show:inside",
+    "focus:inside"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "inside",
+   "t0": 29.457,
+   "t1": 30.102,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "还记得 in 吗？in 加上旁边 side。",
+   "t0": 30.602,
+   "t1": 33.808,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "小球跑到外面去了：",
+   "t0": 34.658,
+   "t1": 36.17,
+   "cue": [
+    "show:outside",
+    "edge:inside>outside",
+    "focus:outside"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "outside",
+   "t0": 36.42,
+   "t1": 37.057,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "out 加上 side。",
+   "t0": 37.557,
+   "t1": 38.877,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "箱子的前面，是",
+   "t0": 39.727,
+   "t1": 41.346,
+   "cue": [
+    "show:front",
+    "focus:front"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "front",
+   "t0": 41.596,
+   "t1": 42.078,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "箱子的后面，是",
+   "t0": 43.178,
+   "t1": 44.776,
+   "cue": [
+    "show:back",
+    "edge:front>back",
+    "focus:back"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "back",
+   "t0": 45.026,
+   "t1": 45.437,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "小球在箱子的前面，要说",
+   "t0": 46.537,
+   "t1": 48.866,
+   "cue": [
+    "show:infront",
+    "focus:infront"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "in front of",
+   "t0": 49.116,
+   "t1": 49.888,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "My car is in front of the supermarket.",
+   "t0": 50.388,
+   "t1": 52.607,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "小球躲在箱子的后面：",
+   "t0": 53.707,
+   "t1": 55.489,
+   "cue": [
+    "show:behind",
+    "edge:infront>behind",
+    "focus:behind"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "behind",
+   "t0": 55.739,
+   "t1": 56.31,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "小球挨着箱子，在旁边：",
+   "t0": 57.41,
+   "t1": 59.572,
+   "cue": [
+    "show:beside",
+    "focus:beside"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "beside",
+   "t0": 59.822,
+   "t1": 60.411,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "小球夹在两个箱子中间：",
+   "t0": 61.511,
+   "t1": 63.541,
+   "cue": [
+    "show:between",
+    "focus:between"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "between",
+   "t0": 63.791,
+   "t1": 64.39,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "好多小球围着箱子，在周围：",
+   "t0": 65.49,
+   "t1": 68.008,
+   "cue": [
+    "show:around",
+    "focus:around"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "around",
+   "t0": 68.258,
+   "t1": 68.773,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "一根小棍斜斜地靠着箱子：",
+   "t0": 69.873,
+   "t1": 72.212,
+   "cue": [
+    "show:against",
+    "focus:against"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "against",
+   "t0": 72.462,
+   "t1": 73.116,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "上和下：",
+   "t0": 74.216,
+   "t1": 74.978,
+   "cue": [
+    "focus:on,under"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "on",
+   "t0": 75.228,
+   "t1": 75.633,
+   "cue": [
+    "focus:on"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "under",
+   "t0": 76.133,
+   "t1": 76.563,
+   "cue": [
+    "focus:under"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "里和外：",
+   "t0": 77.663,
+   "t1": 78.307,
+   "cue": [
+    "focus:inside,outside"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "inside",
+   "t0": 78.557,
+   "t1": 79.202,
+   "cue": [
+    "focus:inside"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "outside",
+   "t0": 79.702,
+   "t1": 80.339,
+   "cue": [
+    "focus:outside"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "前和后：",
+   "t0": 81.439,
+   "t1": 82.155,
+   "cue": [
+    "focus:infront,behind"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "in front of",
+   "t0": 82.405,
+   "t1": 83.177,
+   "cue": [
+    "focus:infront"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "behind",
+   "t0": 83.677,
+   "t1": 84.248,
+   "cue": [
+    "focus:behind"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "zh",
+   "text": "来玩藏球游戏！小球在哪里？",
+   "t0": 85.348,
+   "t1": 88.406,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "It's under the table!",
+   "t0": 89.256,
+   "t1": 90.347,
+   "cue": [
+    "focus:under"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "It's behind the box!",
+   "t0": 90.847,
+   "t1": 92.142,
+   "cue": [
+    "focus:behind"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "It's between the boxes!",
+   "t0": 92.642,
+   "t1": 94.109,
+   "cue": [
+    "focus:between"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 95.209,
+   "t1": 98.459,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "position",
+   "t0": 99.309,
+   "t1": 100.027,
+   "cue": [
+    "focus:position"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "on",
+   "t0": 101.127,
+   "t1": 101.532,
+   "cue": [
+    "focus:on"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "under",
+   "t0": 102.632,
+   "t1": 103.062,
+   "cue": [
+    "focus:under"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "below",
+   "t0": 104.162,
+   "t1": 104.723,
+   "cue": [
+    "focus:below"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "inside",
+   "t0": 105.823,
+   "t1": 106.468,
+   "cue": [
+    "focus:inside"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "outside",
+   "t0": 107.568,
+   "t1": 108.206,
+   "cue": [
+    "focus:outside"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "front",
+   "t0": 109.306,
+   "t1": 109.788,
+   "cue": [
+    "focus:front"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "back",
+   "t0": 110.888,
+   "t1": 111.299,
+   "cue": [
+    "focus:back"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "in front of",
+   "t0": 112.399,
+   "t1": 113.17,
+   "cue": [
+    "focus:infront"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "behind",
+   "t0": 114.27,
+   "t1": 114.841,
+   "cue": [
+    "focus:behind"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "beside",
+   "t0": 115.941,
+   "t1": 116.53,
+   "cue": [
+    "focus:beside"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "between",
+   "t0": 117.63,
+   "t1": 118.229,
+   "cue": [
+    "focus:between"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "en",
+   "text": "around",
+   "t0": 119.329,
+   "t1": 119.844,
+   "cue": [
+    "focus:around"
+   ]
+  },
+  {
+   "seg": 34,
+   "lang": "en",
+   "text": "against",
+   "t0": 120.944,
+   "t1": 121.598,
+   "cue": [
+    "focus:against"
+   ]
+  },
+  {
+   "seg": 35,
+   "lang": "zh",
+   "text": "太棒了！和爸爸妈妈玩一玩藏东西的游戏，用英语说出它在哪里吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 122.698,
+   "t1": 132.748,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "position": [
+   0.25,
+   0.968
+  ],
+  "on": [
+   1.218,
+   1.623
+  ],
+  "under": [
+   1.873,
+   2.303
+  ],
+  "below": [
+   2.553,
+   3.114
+  ],
+  "inside": [
+   3.364,
+   4.009
+  ],
+  "outside": [
+   4.259,
+   4.896
+  ],
+  "front": [
+   5.146,
+   5.628
+  ],
+  "back": [
+   5.878,
+   6.29
+  ],
+  "infront": [
+   6.54,
+   7.311
+  ],
+  "behind": [
+   7.561,
+   8.132
+  ],
+  "beside": [
+   8.382,
+   8.971
+  ],
+  "between": [
+   9.221,
+   9.82
+  ],
+  "around": [
+   10.07,
+   10.585
+  ],
+  "against": [
+   10.835,
+   11.489
+  ]
+ }
+}

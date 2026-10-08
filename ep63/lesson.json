@@ -1,0 +1,641 @@
+{
+ "id": "ep63",
+ "title": "reading",
+ "titleZh": "阅读",
+ "episode": "第 63 集",
+ "titleIcon": "textbook",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "textbook",
+   "word": "textbook",
+   "ipa": "/ˈtekstbʊk/",
+   "zh": "课本",
+   "icon": "textbook",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "topic",
+   "word": "topic",
+   "ipa": "/ˈtɑːpɪk/",
+   "zh": "话题",
+   "icon": "topic",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "language",
+   "word": "language",
+   "ipa": "/ˈlæŋɡwɪdʒ/",
+   "zh": "语言",
+   "icon": "language",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "translate",
+   "word": "translate",
+   "ipa": "/trænsˈleɪt/",
+   "zh": "翻译",
+   "icon": "translate",
+   "kind": "verb",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "pronunciation",
+   "word": "pronunciation",
+   "ipa": "/prəˌnʌnsiˈeɪʃn/",
+   "zh": "发音",
+   "icon": "pronunciation",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "diction",
+   "word": "diction",
+   "ipa": "/ˈdɪkʃn/",
+   "zh": "用词",
+   "icon": "diction",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "classic",
+   "word": "classic",
+   "ipa": "/ˈklæsɪk/",
+   "zh": "经典作品",
+   "icon": "classic",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "fiction",
+   "word": "fiction",
+   "ipa": "/ˈfɪkʃn/",
+   "zh": "小说",
+   "icon": "fiction",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "theme",
+   "word": "theme",
+   "ipa": "/θiːm/",
+   "zh": "主题",
+   "icon": "theme",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "hero",
+   "word": "hero",
+   "ipa": "/ˈhɪroʊ/",
+   "zh": "英雄；男主角",
+   "icon": "hero",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "heroine",
+   "word": "heroine",
+   "ipa": "/ˈheroʊɪn/",
+   "zh": "女英雄；女主角",
+   "icon": "heroine",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  },
+  {
+   "id": "courage",
+   "word": "courage",
+   "ipa": "/ˈkɜːrɪdʒ/",
+   "zh": "勇气",
+   "icon": "courage",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "textbook",
+   "to": "topic"
+  },
+  {
+   "from": "textbook",
+   "to": "language"
+  },
+  {
+   "from": "language",
+   "to": "translate"
+  },
+  {
+   "from": "language",
+   "to": "pronunciation"
+  },
+  {
+   "from": "pronunciation",
+   "to": "diction",
+   "dashed": true
+  },
+  {
+   "from": "fiction",
+   "to": "classic"
+  },
+  {
+   "from": "fiction",
+   "to": "theme"
+  },
+  {
+   "from": "fiction",
+   "to": "hero",
+   "dashed": true
+  },
+  {
+   "from": "fiction",
+   "to": "heroine",
+   "dashed": true
+  },
+  {
+   "from": "hero",
+   "to": "courage"
+  },
+  {
+   "from": "heroine",
+   "to": "courage"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！翻开书，我们一起去阅读的世界吧！"
+    },
+    {
+     "en": "reading"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:textbook",
+    "focus:textbook"
+   ],
+   "parts": [
+    {
+     "zh": "上课用的书，是课本。文字，加上书："
+    },
+    {
+     "en": "text"
+    },
+    {
+     "en": "book"
+    },
+    {
+     "en": "textbook"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:topic",
+    "edge:textbook>topic",
+    "focus:topic"
+   ],
+   "parts": [
+    {
+     "zh": "每一课讲的内容，是话题："
+    },
+    {
+     "en": "topic"
+    },
+    {
+     "en": "Today's topic is animals."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:language",
+    "edge:textbook>language",
+    "focus:language"
+   ],
+   "parts": [
+    {
+     "zh": "中文、英语，都是语言："
+    },
+    {
+     "en": "language"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:translate",
+    "edge:language>translate",
+    "focus:translate"
+   ],
+   "parts": [
+    {
+     "zh": "把中文变成英文，是翻译："
+    },
+    {
+     "en": "translate"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pronunciation",
+    "edge:language>pronunciation",
+    "focus:pronunciation"
+   ],
+   "parts": [
+    {
+     "zh": "学语言，发音要准："
+    },
+    {
+     "en": "pronunciation"
+    },
+    {
+     "zh": "这个词很长，拆开读："
+    },
+    {
+     "en": "pro, nun, ci, a, tion"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:diction",
+    "edge:pronunciation>diction",
+    "focus:diction"
+   ],
+   "parts": [
+    {
+     "zh": "说话写文章时选用的词，叫用词："
+    },
+    {
+     "en": "diction"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fiction",
+    "focus:fiction"
+   ],
+   "parts": [
+    {
+     "zh": "作家编出来的故事书，是小说："
+    },
+    {
+     "en": "fiction"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:classic",
+    "edge:fiction>classic",
+    "focus:classic"
+   ],
+   "parts": [
+    {
+     "zh": "很多年来大家都爱读的好书，是经典："
+    },
+    {
+     "en": "classic"
+    },
+    {
+     "en": "I have read the four classics."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:theme",
+    "edge:fiction>theme",
+    "focus:theme"
+   ],
+   "parts": [
+    {
+     "zh": "一本书最想告诉我们的道理，是主题："
+    },
+    {
+     "en": "theme"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hero",
+    "edge:fiction>hero",
+    "focus:hero"
+   ],
+   "parts": [
+    {
+     "zh": "故事里勇敢的男主角，是英雄："
+    },
+    {
+     "en": "hero"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:heroine",
+    "edge:fiction>heroine",
+    "focus:heroine"
+   ],
+   "parts": [
+    {
+     "zh": "勇敢的女主角，是女英雄。英雄，加上 i n e："
+    },
+    {
+     "en": "heroine"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:courage",
+    "edge:hero>courage",
+    "edge:heroine>courage",
+    "focus:courage"
+   ],
+   "parts": [
+    {
+     "zh": "他们都有很大的勇气："
+    },
+    {
+     "en": "courage"
+    },
+    {
+     "zh": "还记得第五十四集的勇敢 brave 吗？"
+    },
+    {
+     "en": "The hero has a lot of courage."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fiction,diction"
+   ],
+   "parts": [
+    {
+     "zh": "小心这两个长得很像的词："
+    },
+    {
+     "en": "fiction",
+     "cue": [
+      "focus:fiction"
+     ]
+    },
+    {
+     "en": "diction",
+     "cue": [
+      "focus:diction"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:textbook"
+   ],
+   "parts": [
+    {
+     "en": "textbook"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:topic"
+   ],
+   "parts": [
+    {
+     "en": "topic"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:language"
+   ],
+   "parts": [
+    {
+     "en": "language"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:translate"
+   ],
+   "parts": [
+    {
+     "en": "translate"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pronunciation"
+   ],
+   "parts": [
+    {
+     "en": "pronunciation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:diction"
+   ],
+   "parts": [
+    {
+     "en": "diction"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fiction"
+   ],
+   "parts": [
+    {
+     "en": "fiction"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:classic"
+   ],
+   "parts": [
+    {
+     "en": "classic"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:theme"
+   ],
+   "parts": [
+    {
+     "en": "theme"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hero"
+   ],
+   "parts": [
+    {
+     "en": "hero"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:heroine"
+   ],
+   "parts": [
+    {
+     "en": "heroine"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:courage"
+   ],
+   "parts": [
+    {
+     "en": "courage"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！每天读一点书，你也会成为故事里的英雄。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,538 @@
+{
+ "duration": 126.818,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！在学校里，我们要学很多门课。今天，我们来认识各个学科！",
+   "t0": 0.4,
+   "t1": 7.644,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "subjects",
+   "t0": 7.894,
+   "t1": 8.745,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "认真学习，英语是",
+   "t0": 9.845,
+   "t1": 11.732,
+   "cue": [
+    "map",
+    "show:study",
+    "focus:study"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "study",
+   "t0": 11.982,
+   "t1": 12.537,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "I study hard.",
+   "t0": 13.037,
+   "t1": 14.002,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "要学的课有很多。许多，英语是",
+   "t0": 15.102,
+   "t1": 18.676,
+   "cue": [
+    "show:many",
+    "focus:many"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "many",
+   "t0": 18.926,
+   "t1": 19.385,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "还记得第二十八集的 much 吗？能数清的用 many。",
+   "t0": 19.885,
+   "t1": 24.09,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "每一门课，叫科目：",
+   "t0": 24.94,
+   "t1": 26.612,
+   "cue": [
+    "show:subject",
+    "edge:study>subject",
+    "edge:many>subject",
+    "focus:subject"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "subject",
+   "t0": 26.862,
+   "t1": 27.598,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "很多门：",
+   "t0": 28.098,
+   "t1": 28.798,
+   "cue": [
+    "plural:subject"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "many subjects",
+   "t0": 29.048,
+   "t1": 30.225,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "算加减乘除的数学：",
+   "t0": 31.325,
+   "t1": 33.122,
+   "cue": [
+    "show:math",
+    "edge:subject>math",
+    "focus:math"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "math",
+   "t0": 33.372,
+   "t1": 33.728,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "探索大自然的科学：",
+   "t0": 34.828,
+   "t1": 36.448,
+   "cue": [
+    "show:science",
+    "edge:subject>science",
+    "focus:science"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "science",
+   "t0": 36.698,
+   "t1": 37.38,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "还记得第三十五集的科学家 scientist 吗？",
+   "t0": 37.88,
+   "t1": 41.145,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "瓶瓶罐罐冒泡泡的化学：",
+   "t0": 41.995,
+   "t1": 44.106,
+   "cue": [
+    "show:chemistry",
+    "edge:subject>chemistry",
+    "focus:chemistry"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "chemistry",
+   "t0": 44.356,
+   "t1": 45.097,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "开头的 c h，读 k。",
+   "t0": 45.597,
+   "t1": 47.561,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "I have chemistry on Mondays.",
+   "t0": 47.811,
+   "t1": 49.637,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "做科学实验的房间，是实验室：",
+   "t0": 50.737,
+   "t1": 53.482,
+   "cue": [
+    "show:lab",
+    "edge:science>lab",
+    "focus:lab"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "lab",
+   "t0": 53.732,
+   "t1": 54.123,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "在实验室里做实验：",
+   "t0": 55.223,
+   "t1": 56.93,
+   "cue": [
+    "show:experiment",
+    "edge:lab>experiment",
+    "focus:experiment"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "experiment",
+   "t0": 57.18,
+   "t1": 58.031,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "We have a science experiment tomorrow.",
+   "t0": 58.531,
+   "t1": 60.67,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "讲很久很久以前的故事，是历史。你看，它的后半部分就是故事 story：",
+   "t0": 61.77,
+   "t1": 68.734,
+   "cue": [
+    "show:history",
+    "edge:subject>history",
+    "focus:history"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "history",
+   "t0": 68.984,
+   "t1": 69.556,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "看着地球仪，学山川河流，是地理：",
+   "t0": 70.656,
+   "t1": 73.925,
+   "cue": [
+    "show:geography",
+    "edge:subject>geography",
+    "focus:geography"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "geography",
+   "t0": 74.175,
+   "t1": 74.971,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "拿起画笔画画，是美术：",
+   "t0": 76.071,
+   "t1": 78.222,
+   "cue": [
+    "show:art",
+    "edge:history>art",
+    "focus:art"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "art",
+   "t0": 78.472,
+   "t1": 78.862,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "还记得画家 artist 吗？art 加上 i s t。",
+   "t0": 79.362,
+   "t1": 83.784,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "你最喜欢哪一科？",
+   "t0": 84.634,
+   "t1": 85.929,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "My favorite subject is art.",
+   "t0": 86.779,
+   "t1": 88.53,
+   "cue": [
+    "focus:art"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "I like math too.",
+   "t0": 89.03,
+   "t1": 90.26,
+   "cue": [
+    "focus:math"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "And science is fun!",
+   "t0": 90.76,
+   "t1": 92.046,
+   "cue": [
+    "focus:science"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 93.146,
+   "t1": 96.397,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "study",
+   "t0": 97.247,
+   "t1": 97.801,
+   "cue": [
+    "focus:study"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "many",
+   "t0": 98.901,
+   "t1": 99.359,
+   "cue": [
+    "focus:many"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "subject, subjects",
+   "t0": 100.459,
+   "t1": 102.175,
+   "cue": [
+    "focus:subject"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "math",
+   "t0": 103.275,
+   "t1": 103.63,
+   "cue": [
+    "focus:math"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "science",
+   "t0": 104.73,
+   "t1": 105.412,
+   "cue": [
+    "focus:science"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "chemistry",
+   "t0": 106.512,
+   "t1": 107.253,
+   "cue": [
+    "focus:chemistry"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "lab",
+   "t0": 108.353,
+   "t1": 108.744,
+   "cue": [
+    "focus:lab"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "experiment",
+   "t0": 109.844,
+   "t1": 110.695,
+   "cue": [
+    "focus:experiment"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "history",
+   "t0": 111.795,
+   "t1": 112.367,
+   "cue": [
+    "focus:history"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "geography",
+   "t0": 113.467,
+   "t1": 114.263,
+   "cue": [
+    "focus:geography"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "art",
+   "t0": 115.363,
+   "t1": 115.753,
+   "cue": [
+    "focus:art"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "zh",
+   "text": "太棒了！用英语说一说你今天上了哪些课吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 116.853,
+   "t1": 124.968,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "study": [
+   0.25,
+   0.804
+  ],
+  "many": [
+   1.054,
+   1.513
+  ],
+  "subject": [
+   1.763,
+   2.499
+  ],
+  "subject:pl": [
+   2.749,
+   3.6
+  ],
+  "math": [
+   3.85,
+   4.206
+  ],
+  "science": [
+   4.456,
+   5.138
+  ],
+  "chemistry": [
+   5.388,
+   6.128
+  ],
+  "lab": [
+   6.378,
+   6.769
+  ],
+  "experiment": [
+   7.019,
+   7.87
+  ],
+  "history": [
+   8.12,
+   8.692
+  ],
+  "geography": [
+   8.942,
+   9.738
+  ],
+  "art": [
+   9.988,
+   10.378
+  ]
+ }
+}

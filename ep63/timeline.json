@@ -1,0 +1,549 @@
+{
+ "duration": 122.945,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！翻开书，我们一起去阅读的世界吧！",
+   "t0": 0.4,
+   "t1": 4.912,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "reading",
+   "t0": 5.162,
+   "t1": 5.683,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "上课用的书，是课本。文字，加上书：",
+   "t0": 6.783,
+   "t1": 10.823,
+   "cue": [
+    "map",
+    "show:textbook",
+    "focus:textbook"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "text",
+   "t0": 11.073,
+   "t1": 11.631,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "book",
+   "t0": 12.131,
+   "t1": 12.516,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "textbook",
+   "t0": 13.016,
+   "t1": 13.736,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "每一课讲的内容，是话题：",
+   "t0": 14.836,
+   "t1": 17.061,
+   "cue": [
+    "show:topic",
+    "edge:textbook>topic",
+    "focus:topic"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "topic",
+   "t0": 17.311,
+   "t1": 17.877,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Today's topic is animals.",
+   "t0": 18.377,
+   "t1": 20.109,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "中文、英语，都是语言：",
+   "t0": 21.209,
+   "t1": 23.518,
+   "cue": [
+    "show:language",
+    "edge:textbook>language",
+    "focus:language"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "language",
+   "t0": 23.768,
+   "t1": 24.523,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "把中文变成英文，是翻译：",
+   "t0": 25.623,
+   "t1": 27.954,
+   "cue": [
+    "show:translate",
+    "edge:language>translate",
+    "focus:translate"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "translate",
+   "t0": 28.204,
+   "t1": 28.925,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "学语言，发音要准：",
+   "t0": 30.025,
+   "t1": 31.848,
+   "cue": [
+    "show:pronunciation",
+    "edge:language>pronunciation",
+    "focus:pronunciation"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "pronunciation",
+   "t0": 32.098,
+   "t1": 33.198,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "这个词很长，拆开读：",
+   "t0": 33.698,
+   "t1": 35.68,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "pro, nun, ci, a, tion",
+   "t0": 35.93,
+   "t1": 39.137,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "说话写文章时选用的词，叫用词：",
+   "t0": 40.237,
+   "t1": 43.31,
+   "cue": [
+    "show:diction",
+    "edge:pronunciation>diction",
+    "focus:diction"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "diction",
+   "t0": 43.56,
+   "t1": 44.161,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "作家编出来的故事书，是小说：",
+   "t0": 45.261,
+   "t1": 47.89,
+   "cue": [
+    "show:fiction",
+    "edge:textbook>fiction",
+    "focus:fiction"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "fiction",
+   "t0": 48.14,
+   "t1": 48.757,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "很多年来大家都爱读的好书，是经典：",
+   "t0": 49.857,
+   "t1": 53.249,
+   "cue": [
+    "show:classic",
+    "edge:fiction>classic",
+    "focus:classic"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "classic",
+   "t0": 53.499,
+   "t1": 54.145,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "I have read the four classics.",
+   "t0": 54.645,
+   "t1": 56.505,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "一本书最想告诉我们的道理，是主题：",
+   "t0": 57.605,
+   "t1": 60.713,
+   "cue": [
+    "show:theme",
+    "edge:fiction>theme",
+    "focus:theme"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "theme",
+   "t0": 60.963,
+   "t1": 61.317,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "故事里勇敢的男主角，是英雄：",
+   "t0": 62.417,
+   "t1": 65.04,
+   "cue": [
+    "show:hero",
+    "edge:fiction>hero",
+    "focus:hero"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "hero",
+   "t0": 65.29,
+   "t1": 65.786,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "勇敢的女主角，是女英雄。英雄，加上 i n e：",
+   "t0": 66.886,
+   "t1": 71.675,
+   "cue": [
+    "show:heroine",
+    "edge:fiction>heroine",
+    "focus:heroine"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "heroine",
+   "t0": 71.925,
+   "t1": 72.517,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "他们都有很大的勇气：",
+   "t0": 73.617,
+   "t1": 75.229,
+   "cue": [
+    "show:courage",
+    "edge:hero>courage",
+    "edge:heroine>courage",
+    "focus:courage"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "courage",
+   "t0": 75.479,
+   "t1": 76.069,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "还记得第五十四集的勇敢 brave 吗？",
+   "t0": 76.569,
+   "t1": 79.139,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "The hero has a lot of courage.",
+   "t0": 79.389,
+   "t1": 81.2,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "小心这两个长得很像的词：",
+   "t0": 82.3,
+   "t1": 84.379,
+   "cue": [
+    "focus:fiction,diction"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "fiction",
+   "t0": 84.629,
+   "t1": 85.246,
+   "cue": [
+    "focus:fiction"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "diction",
+   "t0": 85.746,
+   "t1": 86.347,
+   "cue": [
+    "focus:diction"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 87.447,
+   "t1": 90.698,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "textbook",
+   "t0": 91.548,
+   "t1": 92.267,
+   "cue": [
+    "focus:textbook"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "topic",
+   "t0": 93.367,
+   "t1": 93.932,
+   "cue": [
+    "focus:topic"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "language",
+   "t0": 95.032,
+   "t1": 95.787,
+   "cue": [
+    "focus:language"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "translate",
+   "t0": 96.887,
+   "t1": 97.608,
+   "cue": [
+    "focus:translate"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "pronunciation",
+   "t0": 98.708,
+   "t1": 99.808,
+   "cue": [
+    "focus:pronunciation"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "diction",
+   "t0": 100.908,
+   "t1": 101.509,
+   "cue": [
+    "focus:diction"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "fiction",
+   "t0": 102.609,
+   "t1": 103.226,
+   "cue": [
+    "focus:fiction"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "classic",
+   "t0": 104.326,
+   "t1": 104.972,
+   "cue": [
+    "focus:classic"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "theme",
+   "t0": 106.072,
+   "t1": 106.426,
+   "cue": [
+    "focus:theme"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "hero",
+   "t0": 107.526,
+   "t1": 108.023,
+   "cue": [
+    "focus:hero"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "heroine",
+   "t0": 109.123,
+   "t1": 109.715,
+   "cue": [
+    "focus:heroine"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "courage",
+   "t0": 110.815,
+   "t1": 111.404,
+   "cue": [
+    "focus:courage"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "zh",
+   "text": "太棒了！每天读一点书，你也会成为故事里的英雄。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 112.504,
+   "t1": 121.095,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "textbook": [
+   0.25,
+   0.97
+  ],
+  "topic": [
+   1.22,
+   1.785
+  ],
+  "language": [
+   2.035,
+   2.79
+  ],
+  "translate": [
+   3.04,
+   3.76
+  ],
+  "pronunciation": [
+   4.01,
+   5.11
+  ],
+  "diction": [
+   5.36,
+   5.962
+  ],
+  "classic": [
+   6.212,
+   6.858
+  ],
+  "fiction": [
+   7.108,
+   7.725
+  ],
+  "theme": [
+   7.975,
+   8.329
+  ],
+  "hero": [
+   8.579,
+   9.075
+  ],
+  "heroine": [
+   9.325,
+   9.917
+  ],
+  "courage": [
+   10.167,
+   10.757
+  ]
+ }
+}

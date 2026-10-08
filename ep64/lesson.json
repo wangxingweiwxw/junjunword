@@ -1,0 +1,859 @@
+{
+ "id": "ep64",
+ "title": "jobs",
+ "titleZh": "职业（二）",
+ "episode": "第 64 集",
+ "titleIcon": "musician",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "jobs",
+   "word": "jobs",
+   "ipa": "/dʒɑːbz/",
+   "zh": "工作",
+   "icon": "job",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "farmer",
+   "word": "farmer",
+   "ipa": "/ˈfɑːrmər/",
+   "zh": "农民",
+   "icon": "farmer",
+   "alt": "farm",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "fisherman",
+   "word": "fisherman",
+   "ipa": "/ˈfɪʃərmən/",
+   "zh": "渔民",
+   "icon": "fisherman",
+   "alt": "fish",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "postman",
+   "word": "postman",
+   "ipa": "/ˈpoʊstmən/",
+   "zh": "邮递员",
+   "icon": "postman",
+   "alt": "post",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "trader",
+   "word": "trader",
+   "ipa": "/ˈtreɪdər/",
+   "zh": "商人",
+   "icon": "trader",
+   "alt": "trade",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "clerk",
+   "word": "clerk",
+   "ipa": "/klɜːrk/",
+   "zh": "店员；职员",
+   "icon": "clerk",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "performer",
+   "word": "performer",
+   "ipa": "/pərˈfɔːrmər/",
+   "zh": "表演者",
+   "icon": "performer",
+   "alt": "perform",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "actor",
+   "word": "actor",
+   "ipa": "/ˈæktər/",
+   "zh": "男演员",
+   "icon": "actor",
+   "alt": "act",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "actress",
+   "word": "actress",
+   "ipa": "/ˈæktrəs/",
+   "zh": "女演员",
+   "icon": "actress",
+   "alt": "act",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "director",
+   "word": "director",
+   "ipa": "/dəˈrektər/",
+   "zh": "导演",
+   "icon": "director",
+   "alt": "direct",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "musician",
+   "word": "musician",
+   "ipa": "/mjuˈzɪʃn/",
+   "zh": "音乐家",
+   "icon": "musician",
+   "alt": "music",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "guitarist",
+   "word": "guitarist",
+   "ipa": "/ɡɪˈtɑːrɪst/",
+   "zh": "吉他手",
+   "icon": "guitarist",
+   "alt": "guitar",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1620,
+    150
+   ]
+  },
+  {
+   "id": "violinist",
+   "word": "violinist",
+   "ipa": "/ˌvaɪəˈlɪnɪst/",
+   "zh": "小提琴手",
+   "icon": "violinist",
+   "alt": "violin",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "pianist",
+   "word": "pianist",
+   "ipa": "/ˈpiːənɪst/",
+   "zh": "钢琴家",
+   "icon": "pianist",
+   "alt": "piano",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1620,
+    790
+   ]
+  },
+  {
+   "id": "drummer",
+   "word": "drummer",
+   "ipa": "/ˈdrʌmər/",
+   "zh": "鼓手",
+   "icon": "drummer",
+   "alt": "drum",
+   "altLabel": "来自",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "jobs",
+   "to": "farmer"
+  },
+  {
+   "from": "jobs",
+   "to": "fisherman"
+  },
+  {
+   "from": "jobs",
+   "to": "postman"
+  },
+  {
+   "from": "jobs",
+   "to": "trader"
+  },
+  {
+   "from": "jobs",
+   "to": "clerk"
+  },
+  {
+   "from": "clerk",
+   "to": "performer",
+   "dashed": true
+  },
+  {
+   "from": "performer",
+   "to": "actor"
+  },
+  {
+   "from": "performer",
+   "to": "actress"
+  },
+  {
+   "from": "actor",
+   "to": "director",
+   "dashed": true
+  },
+  {
+   "from": "performer",
+   "to": "musician"
+  },
+  {
+   "from": "musician",
+   "to": "guitarist"
+  },
+  {
+   "from": "musician",
+   "to": "violinist"
+  },
+  {
+   "from": "musician",
+   "to": "pianist"
+  },
+  {
+   "from": "musician",
+   "to": "drummer"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！还记得第三十五集的职业吗？今天，我们认识更多的职业！"
+    },
+    {
+     "en": "jobs"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:jobs",
+    "focus:jobs"
+   ],
+   "parts": [
+    {
+     "zh": "工作："
+    },
+    {
+     "en": "jobs"
+    },
+    {
+     "zh": "今天的秘密：很多职业，就是在一个词后面加上小尾巴。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:farmer",
+    "edge:jobs>farmer",
+    "focus:farmer",
+    "alt:farmer"
+   ],
+   "parts": [
+    {
+     "zh": "在农场种地的人："
+    },
+    {
+     "en": "farm"
+    },
+    {
+     "en": "farmer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fisherman",
+    "edge:jobs>fisherman",
+    "focus:fisherman",
+    "alt:fisherman"
+   ],
+   "parts": [
+    {
+     "zh": "出海打鱼的人。鱼，加上男人："
+    },
+    {
+     "en": "fish"
+    },
+    {
+     "en": "fisherman"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:postman",
+    "edge:jobs>postman",
+    "focus:postman",
+    "alt:postman"
+   ],
+   "parts": [
+    {
+     "zh": "送信的人。邮件，加上男人："
+    },
+    {
+     "en": "post"
+    },
+    {
+     "en": "postman"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:trader",
+    "edge:jobs>trader",
+    "focus:trader",
+    "alt:trader"
+   ],
+   "parts": [
+    {
+     "zh": "做买卖的人。还记得第四十八集的交易 trade 吗？"
+    },
+    {
+     "en": "trade"
+    },
+    {
+     "en": "trader"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:clerk",
+    "edge:jobs>clerk",
+    "focus:clerk"
+   ],
+   "parts": [
+    {
+     "zh": "在商店、办公室工作的人，是店员、职员："
+    },
+    {
+     "en": "clerk"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:performer",
+    "edge:clerk>performer",
+    "focus:performer",
+    "alt:performer"
+   ],
+   "parts": [
+    {
+     "zh": "在台上表演的人。表演，加上 e r："
+    },
+    {
+     "en": "perform"
+    },
+    {
+     "en": "performer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:actor",
+    "edge:performer>actor",
+    "focus:actor",
+    "alt:actor"
+   ],
+   "parts": [
+    {
+     "zh": "演电影的男演员。表演，加上 o r："
+    },
+    {
+     "en": "act"
+    },
+    {
+     "en": "actor"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:actress",
+    "edge:performer>actress",
+    "focus:actress",
+    "alt:actress"
+   ],
+   "parts": [
+    {
+     "zh": "女演员，加上 r e s s："
+    },
+    {
+     "en": "actress"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:director",
+    "edge:actor>director",
+    "focus:director",
+    "alt:director"
+   ],
+   "parts": [
+    {
+     "zh": "指挥大家拍电影的人，是导演："
+    },
+    {
+     "en": "direct"
+    },
+    {
+     "en": "director"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:musician",
+    "edge:performer>musician",
+    "focus:musician",
+    "alt:musician"
+   ],
+   "parts": [
+    {
+     "zh": "做音乐的人，是音乐家。音乐，加上 i a n："
+    },
+    {
+     "en": "music"
+    },
+    {
+     "en": "musician"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:guitarist",
+    "edge:musician>guitarist",
+    "focus:guitarist",
+    "alt:guitarist"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第三十集的乐器吗？弹吉他的人："
+    },
+    {
+     "en": "guitar"
+    },
+    {
+     "en": "guitarist"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:violinist",
+    "edge:musician>violinist",
+    "focus:violinist",
+    "alt:violinist"
+   ],
+   "parts": [
+    {
+     "zh": "拉小提琴的人："
+    },
+    {
+     "en": "violin"
+    },
+    {
+     "en": "violinist"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pianist",
+    "edge:musician>pianist",
+    "focus:pianist",
+    "alt:pianist"
+   ],
+   "parts": [
+    {
+     "zh": "弹钢琴的人："
+    },
+    {
+     "en": "piano"
+    },
+    {
+     "en": "pianist"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:drummer",
+    "edge:musician>drummer",
+    "focus:drummer",
+    "alt:drummer"
+   ],
+   "parts": [
+    {
+     "zh": "打鼓的人，要多写一个 m："
+    },
+    {
+     "en": "drum"
+    },
+    {
+     "en": "drummer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:guitarist,violinist,pianist"
+   ],
+   "parts": [
+    {
+     "zh": "i s t 结尾的三位："
+    },
+    {
+     "en": "guitarist",
+     "cue": [
+      "focus:guitarist"
+     ]
+    },
+    {
+     "en": "violinist",
+     "cue": [
+      "focus:violinist"
+     ]
+    },
+    {
+     "en": "pianist",
+     "cue": [
+      "focus:pianist"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:farmer,performer,drummer"
+   ],
+   "parts": [
+    {
+     "zh": "e r 结尾的三位："
+    },
+    {
+     "en": "farmer",
+     "cue": [
+      "focus:farmer"
+     ]
+    },
+    {
+     "en": "performer",
+     "cue": [
+      "focus:performer"
+     ]
+    },
+    {
+     "en": "drummer",
+     "cue": [
+      "focus:drummer"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:jobs"
+   ],
+   "parts": [
+    {
+     "en": "jobs"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:farmer"
+   ],
+   "parts": [
+    {
+     "en": "farmer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fisherman"
+   ],
+   "parts": [
+    {
+     "en": "fisherman"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:postman"
+   ],
+   "parts": [
+    {
+     "en": "postman"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:trader"
+   ],
+   "parts": [
+    {
+     "en": "trader"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:clerk"
+   ],
+   "parts": [
+    {
+     "en": "clerk"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:performer"
+   ],
+   "parts": [
+    {
+     "en": "performer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:actor"
+   ],
+   "parts": [
+    {
+     "en": "actor"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:actress"
+   ],
+   "parts": [
+    {
+     "en": "actress"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:director"
+   ],
+   "parts": [
+    {
+     "en": "director"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:musician"
+   ],
+   "parts": [
+    {
+     "en": "musician"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:guitarist"
+   ],
+   "parts": [
+    {
+     "en": "guitarist"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:violinist"
+   ],
+   "parts": [
+    {
+     "en": "violinist"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pianist"
+   ],
+   "parts": [
+    {
+     "en": "pianist"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:drummer"
+   ],
+   "parts": [
+    {
+     "en": "drummer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！你长大想做什么？用英语告诉爸爸妈妈吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

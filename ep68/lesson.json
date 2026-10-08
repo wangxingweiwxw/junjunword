@@ -1,0 +1,638 @@
+{
+ "id": "ep68",
+ "title": "illness",
+ "titleZh": "生病",
+ "episode": "第 68 集",
+ "titleIcon": "hospital",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "hospital",
+   "word": "hospital",
+   "ipa": "/ˈhɑːspɪtl/",
+   "zh": "医院",
+   "icon": "hospital",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "sick",
+   "word": "sick",
+   "ipa": "/sɪk/",
+   "zh": "生病的",
+   "icon": "sick",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "ill",
+   "word": "ill",
+   "ipa": "/ɪl/",
+   "zh": "生病的",
+   "icon": "ill",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "illness",
+   "word": "illness",
+   "ipa": "/ˈɪlnəs/",
+   "zh": "疾病",
+   "icon": "illness",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "fever",
+   "word": "fever",
+   "ipa": "/ˈfiːvər/",
+   "zh": "发烧",
+   "icon": "fever",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "cough",
+   "word": "cough",
+   "ipa": "/kɔːf/",
+   "zh": "咳嗽",
+   "icon": "cough",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "flu",
+   "word": "flu",
+   "ipa": "/fluː/",
+   "zh": "流感",
+   "icon": "flu",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "spread",
+   "word": "spread",
+   "ipa": "/spred/",
+   "zh": "传播",
+   "icon": "spread",
+   "kind": "verb",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "medicine",
+   "word": "medicine",
+   "ipa": "/ˈmedɪsn/",
+   "zh": "药",
+   "icon": "medicine",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "heart",
+   "word": "heart",
+   "ipa": "/hɑːrt/",
+   "zh": "心脏",
+   "icon": "heart",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "beat",
+   "word": "beat",
+   "ipa": "/biːt/",
+   "zh": "跳动",
+   "icon": "beat",
+   "kind": "verb",
+   "alt": "heartbeat",
+   "altLabel": "心跳",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "hospital",
+   "to": "sick"
+  },
+  {
+   "from": "hospital",
+   "to": "ill"
+  },
+  {
+   "from": "ill",
+   "to": "illness",
+   "label": "+ness"
+  },
+  {
+   "from": "sick",
+   "to": "fever"
+  },
+  {
+   "from": "fever",
+   "to": "cough",
+   "dashed": true
+  },
+  {
+   "from": "cough",
+   "to": "flu",
+   "dashed": true
+  },
+  {
+   "from": "flu",
+   "to": "spread",
+   "label": "会"
+  },
+  {
+   "from": "cough",
+   "to": "medicine",
+   "label": "吃"
+  },
+  {
+   "from": "heart",
+   "to": "beat"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！生病了可不好受。今天，我们来学和生病有关的单词，学会照顾好自己。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:hospital",
+    "focus:hospital"
+   ],
+   "parts": [
+    {
+     "zh": "看病的地方，是医院："
+    },
+    {
+     "en": "hospital"
+    },
+    {
+     "zh": "还记得第三十五集的医生和护士吗？他们就在这里工作。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sick",
+    "edge:hospital>sick",
+    "focus:sick"
+   ],
+   "parts": [
+    {
+     "zh": "生病了，可以说"
+    },
+    {
+     "en": "sick"
+    },
+    {
+     "en": "I feel sick."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:ill",
+    "edge:hospital>ill",
+    "focus:ill"
+   ],
+   "parts": [
+    {
+     "zh": "生病，还可以说"
+    },
+    {
+     "en": "ill"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:illness",
+    "edge:ill>illness",
+    "focus:illness"
+   ],
+   "parts": [
+    {
+     "zh": "加上 n e s s，就是疾病："
+    },
+    {
+     "en": "illness"
+    },
+    {
+     "zh": "还记得 happiness 吗？一样的小尾巴。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fever",
+    "edge:sick>fever",
+    "focus:fever"
+   ],
+   "parts": [
+    {
+     "zh": "身体烫烫的，是发烧："
+    },
+    {
+     "en": "fever"
+    },
+    {
+     "en": "I have a fever."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cough",
+    "edge:fever>cough",
+    "focus:cough"
+   ],
+   "parts": [
+    {
+     "zh": "咳咳咳，是咳嗽："
+    },
+    {
+     "en": "cough"
+    },
+    {
+     "zh": "最后的 g h，读成 f。还记得第四十集的 enough 吗？"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:flu",
+    "edge:cough>flu",
+    "focus:flu"
+   ],
+   "parts": [
+    {
+     "zh": "又发烧又咳嗽，可能是得了流感："
+    },
+    {
+     "en": "flu"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:spread",
+    "edge:flu>spread",
+    "focus:spread"
+   ],
+   "parts": [
+    {
+     "zh": "流感会传染给别人。传播，英语是"
+    },
+    {
+     "en": "spread"
+    },
+    {
+     "zh": "所以生病了要戴好口罩。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:medicine",
+    "edge:cough>medicine",
+    "focus:medicine"
+   ],
+   "parts": [
+    {
+     "zh": "医生开了药："
+    },
+    {
+     "en": "medicine"
+    },
+    {
+     "en": "The doctor gave me medicine for my cough."
+    },
+    {
+     "zh": "药虽然苦，但要按时吃哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:heart",
+    "focus:heart"
+   ],
+   "parts": [
+    {
+     "zh": "医生用听诊器，听一听我们的心脏："
+    },
+    {
+     "en": "heart"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:beat",
+    "edge:heart>beat",
+    "focus:beat"
+   ],
+   "parts": [
+    {
+     "zh": "心脏扑通扑通地跳动："
+    },
+    {
+     "en": "beat"
+    },
+    {
+     "zh": "心跳，就是",
+     "cue": [
+      "alt:beat"
+     ]
+    },
+    {
+     "en": "heartbeat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sick,ill"
+   ],
+   "parts": [
+    {
+     "zh": "两个都表示生病："
+    },
+    {
+     "en": "sick",
+     "cue": [
+      "focus:sick"
+     ]
+    },
+    {
+     "en": "ill",
+     "cue": [
+      "focus:ill"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "看病的时候，我们可以这样说："
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "I don't feel well.",
+     "cue": [
+      "focus:sick"
+     ]
+    },
+    {
+     "en": "I have a fever and a cough.",
+     "cue": [
+      "focus:fever,cough"
+     ]
+    },
+    {
+     "en": "I need some medicine.",
+     "cue": [
+      "focus:medicine"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hospital"
+   ],
+   "parts": [
+    {
+     "en": "hospital"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sick"
+   ],
+   "parts": [
+    {
+     "en": "sick"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:ill"
+   ],
+   "parts": [
+    {
+     "en": "ill"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:illness"
+   ],
+   "parts": [
+    {
+     "en": "illness"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fever"
+   ],
+   "parts": [
+    {
+     "en": "fever"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cough"
+   ],
+   "parts": [
+    {
+     "en": "cough"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:flu"
+   ],
+   "parts": [
+    {
+     "en": "flu"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:spread"
+   ],
+   "parts": [
+    {
+     "en": "spread"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:medicine"
+   ],
+   "parts": [
+    {
+     "en": "medicine"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:heart"
+   ],
+   "parts": [
+    {
+     "en": "heart"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:beat"
+   ],
+   "parts": [
+    {
+     "en": "beat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！多运动、多喝水、按时睡觉，就不容易生病啦。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

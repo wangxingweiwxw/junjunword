@@ -1,0 +1,615 @@
+{
+ "id": "ep62",
+ "title": "subjects",
+ "titleZh": "学科",
+ "episode": "第 62 集",
+ "titleIcon": "subject",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "study",
+   "word": "study",
+   "ipa": "/ˈstʌdi/",
+   "zh": "学习",
+   "icon": "study",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "many",
+   "word": "many",
+   "ipa": "/ˈmeni/",
+   "zh": "许多",
+   "icon": "many",
+   "kind": "adj",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "subject",
+   "word": "subject",
+   "ipa": "/ˈsʌbdʒɪkt/",
+   "zh": "科目",
+   "icon": "subject",
+   "plural": "subjects",
+   "pluralIpa": "/ˈsʌbdʒɪkts/",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "math",
+   "word": "math",
+   "ipa": "/mæθ/",
+   "zh": "数学",
+   "icon": "math",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "science",
+   "word": "science",
+   "ipa": "/ˈsaɪəns/",
+   "zh": "科学",
+   "icon": "science",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "chemistry",
+   "word": "chemistry",
+   "ipa": "/ˈkemɪstri/",
+   "zh": "化学",
+   "icon": "chemistry",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "lab",
+   "word": "lab",
+   "ipa": "/læb/",
+   "zh": "实验室",
+   "icon": "lab",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "experiment",
+   "word": "experiment",
+   "ipa": "/ɪkˈsperɪmənt/",
+   "zh": "实验",
+   "icon": "experiment",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  },
+  {
+   "id": "history",
+   "word": "history",
+   "ipa": "/ˈhɪstri/",
+   "zh": "历史",
+   "icon": "history",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "geography",
+   "word": "geography",
+   "ipa": "/dʒiˈɑːɡrəfi/",
+   "zh": "地理",
+   "icon": "geography",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "art",
+   "word": "art",
+   "ipa": "/ɑːrt/",
+   "zh": "美术；艺术",
+   "icon": "art",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "study",
+   "to": "subject"
+  },
+  {
+   "from": "many",
+   "to": "subject"
+  },
+  {
+   "from": "subject",
+   "to": "math"
+  },
+  {
+   "from": "subject",
+   "to": "science"
+  },
+  {
+   "from": "subject",
+   "to": "chemistry"
+  },
+  {
+   "from": "subject",
+   "to": "history"
+  },
+  {
+   "from": "subject",
+   "to": "geography"
+  },
+  {
+   "from": "science",
+   "to": "lab"
+  },
+  {
+   "from": "lab",
+   "to": "experiment"
+  },
+  {
+   "from": "history",
+   "to": "art",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！在学校里，我们要学很多门课。今天，我们来认识各个学科！"
+    },
+    {
+     "en": "subjects"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:study",
+    "focus:study"
+   ],
+   "parts": [
+    {
+     "zh": "认真学习，英语是"
+    },
+    {
+     "en": "study"
+    },
+    {
+     "en": "I study hard."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:many",
+    "focus:many"
+   ],
+   "parts": [
+    {
+     "zh": "要学的课有很多。许多，英语是"
+    },
+    {
+     "en": "many"
+    },
+    {
+     "zh": "还记得第二十八集的 much 吗？能数清的用 many。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:subject",
+    "edge:study>subject",
+    "edge:many>subject",
+    "focus:subject"
+   ],
+   "parts": [
+    {
+     "zh": "每一门课，叫科目："
+    },
+    {
+     "en": "subject"
+    },
+    {
+     "zh": "很多门：",
+     "cue": [
+      "plural:subject"
+     ]
+    },
+    {
+     "en": "many subjects"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:math",
+    "edge:subject>math",
+    "focus:math"
+   ],
+   "parts": [
+    {
+     "zh": "算加减乘除的数学："
+    },
+    {
+     "en": "math"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:science",
+    "edge:subject>science",
+    "focus:science"
+   ],
+   "parts": [
+    {
+     "zh": "探索大自然的科学："
+    },
+    {
+     "en": "science"
+    },
+    {
+     "zh": "还记得第三十五集的科学家 scientist 吗？"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:chemistry",
+    "edge:subject>chemistry",
+    "focus:chemistry"
+   ],
+   "parts": [
+    {
+     "zh": "瓶瓶罐罐冒泡泡的化学："
+    },
+    {
+     "en": "chemistry"
+    },
+    {
+     "zh": "开头的 c h，读 k。"
+    },
+    {
+     "en": "I have chemistry on Mondays."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:lab",
+    "edge:science>lab",
+    "focus:lab"
+   ],
+   "parts": [
+    {
+     "zh": "做科学实验的房间，是实验室："
+    },
+    {
+     "en": "lab"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:experiment",
+    "edge:lab>experiment",
+    "focus:experiment"
+   ],
+   "parts": [
+    {
+     "zh": "在实验室里做实验："
+    },
+    {
+     "en": "experiment"
+    },
+    {
+     "en": "We have a science experiment tomorrow."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:history",
+    "edge:subject>history",
+    "focus:history"
+   ],
+   "parts": [
+    {
+     "zh": "讲很久很久以前的故事，是历史。你看，它的后半部分就是故事 story："
+    },
+    {
+     "en": "history"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:geography",
+    "edge:subject>geography",
+    "focus:geography"
+   ],
+   "parts": [
+    {
+     "zh": "看着地球仪，学山川河流，是地理："
+    },
+    {
+     "en": "geography"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:art",
+    "edge:history>art",
+    "focus:art"
+   ],
+   "parts": [
+    {
+     "zh": "拿起画笔画画，是美术："
+    },
+    {
+     "en": "art"
+    },
+    {
+     "zh": "还记得画家 artist 吗？art 加上 i s t。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "你最喜欢哪一科？"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "My favorite subject is art.",
+     "cue": [
+      "focus:art"
+     ]
+    },
+    {
+     "en": "I like math too.",
+     "cue": [
+      "focus:math"
+     ]
+    },
+    {
+     "en": "And science is fun!",
+     "cue": [
+      "focus:science"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:study"
+   ],
+   "parts": [
+    {
+     "en": "study"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:many"
+   ],
+   "parts": [
+    {
+     "en": "many"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:subject"
+   ],
+   "parts": [
+    {
+     "en": "subject, subjects"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:math"
+   ],
+   "parts": [
+    {
+     "en": "math"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:science"
+   ],
+   "parts": [
+    {
+     "en": "science"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:chemistry"
+   ],
+   "parts": [
+    {
+     "en": "chemistry"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:lab"
+   ],
+   "parts": [
+    {
+     "en": "lab"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:experiment"
+   ],
+   "parts": [
+    {
+     "en": "experiment"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:history"
+   ],
+   "parts": [
+    {
+     "en": "history"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:geography"
+   ],
+   "parts": [
+    {
+     "en": "geography"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:art"
+   ],
+   "parts": [
+    {
+     "en": "art"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！用英语说一说你今天上了哪些课吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

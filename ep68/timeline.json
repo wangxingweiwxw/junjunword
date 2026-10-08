@@ -1,0 +1,567 @@
+{
+ "duration": 127.133,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！生病了可不好受。今天，我们来学和生病有关的单词，学会照顾好自己。",
+   "t0": 0.4,
+   "t1": 8.997,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "看病的地方，是医院：",
+   "t0": 9.847,
+   "t1": 11.673,
+   "cue": [
+    "map",
+    "show:hospital",
+    "focus:hospital"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "hospital",
+   "t0": 11.923,
+   "t1": 12.587,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "还记得第三十五集的医生和护士吗？他们就在这里工作。",
+   "t0": 13.087,
+   "t1": 17.767,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "生病了，可以说",
+   "t0": 18.617,
+   "t1": 20.167,
+   "cue": [
+    "show:sick",
+    "edge:hospital>sick",
+    "focus:sick"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "sick",
+   "t0": 20.417,
+   "t1": 20.917,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "I feel sick.",
+   "t0": 21.417,
+   "t1": 22.294,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "生病，还可以说",
+   "t0": 23.394,
+   "t1": 24.927,
+   "cue": [
+    "show:ill",
+    "edge:hospital>ill",
+    "focus:ill"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "ill",
+   "t0": 25.177,
+   "t1": 25.534,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "加上 n e s s，就是疾病：",
+   "t0": 26.634,
+   "t1": 29.261,
+   "cue": [
+    "show:illness",
+    "edge:ill>illness",
+    "focus:illness"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "illness",
+   "t0": 29.511,
+   "t1": 30.102,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "还记得 happiness 吗？一样的小尾巴。",
+   "t0": 30.602,
+   "t1": 33.98,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "身体烫烫的，是发烧：",
+   "t0": 34.83,
+   "t1": 36.892,
+   "cue": [
+    "show:fever",
+    "edge:sick>fever",
+    "focus:fever"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "fever",
+   "t0": 37.142,
+   "t1": 37.591,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "I have a fever.",
+   "t0": 38.091,
+   "t1": 39.052,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "咳咳咳，是咳嗽：",
+   "t0": 40.152,
+   "t1": 41.771,
+   "cue": [
+    "show:cough",
+    "edge:fever>cough",
+    "focus:cough"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "cough",
+   "t0": 42.021,
+   "t1": 42.432,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "最后的 g h，读成 f。还记得第四十集的 enough 吗？",
+   "t0": 42.932,
+   "t1": 48.15,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "又发烧又咳嗽，可能是得了流感：",
+   "t0": 49.0,
+   "t1": 51.76,
+   "cue": [
+    "show:flu",
+    "edge:cough>flu",
+    "focus:flu"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "flu",
+   "t0": 52.01,
+   "t1": 52.517,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "流感会传染给别人。传播，英语是",
+   "t0": 53.617,
+   "t1": 57.397,
+   "cue": [
+    "show:spread",
+    "edge:flu>spread",
+    "focus:spread"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "spread",
+   "t0": 57.647,
+   "t1": 58.208,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "所以生病了要戴好口罩。",
+   "t0": 58.708,
+   "t1": 60.857,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "医生开了药：",
+   "t0": 61.707,
+   "t1": 62.664,
+   "cue": [
+    "show:medicine",
+    "edge:cough>medicine",
+    "focus:medicine"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "medicine",
+   "t0": 62.914,
+   "t1": 63.589,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "The doctor gave me medicine for my cough.",
+   "t0": 64.089,
+   "t1": 66.551,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "药虽然苦，但要按时吃哦。",
+   "t0": 67.051,
+   "t1": 69.11,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "医生用听诊器，听一听我们的心脏：",
+   "t0": 69.96,
+   "t1": 72.776,
+   "cue": [
+    "show:heart",
+    "focus:heart"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "heart",
+   "t0": 73.026,
+   "t1": 73.458,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "心脏扑通扑通地跳动：",
+   "t0": 74.558,
+   "t1": 76.361,
+   "cue": [
+    "show:beat",
+    "edge:heart>beat",
+    "focus:beat"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "beat",
+   "t0": 76.611,
+   "t1": 77.041,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "心跳，就是",
+   "t0": 77.541,
+   "t1": 78.842,
+   "cue": [
+    "alt:beat"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "heartbeat",
+   "t0": 79.092,
+   "t1": 79.731,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "两个都表示生病：",
+   "t0": 80.831,
+   "t1": 82.235,
+   "cue": [
+    "focus:sick,ill"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "sick",
+   "t0": 82.485,
+   "t1": 82.984,
+   "cue": [
+    "focus:sick"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "ill",
+   "t0": 83.484,
+   "t1": 83.841,
+   "cue": [
+    "focus:ill"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "看病的时候，我们可以这样说：",
+   "t0": 84.941,
+   "t1": 87.264,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "I don't feel well.",
+   "t0": 88.114,
+   "t1": 89.082,
+   "cue": [
+    "focus:sick"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "I have a fever and a cough.",
+   "t0": 89.582,
+   "t1": 91.151,
+   "cue": [
+    "focus:fever,cough"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "I need some medicine.",
+   "t0": 91.651,
+   "t1": 92.936,
+   "cue": [
+    "focus:medicine"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 94.036,
+   "t1": 97.287,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "hospital",
+   "t0": 98.137,
+   "t1": 98.801,
+   "cue": [
+    "focus:hospital"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "sick",
+   "t0": 99.901,
+   "t1": 100.401,
+   "cue": [
+    "focus:sick"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "ill",
+   "t0": 101.501,
+   "t1": 101.857,
+   "cue": [
+    "focus:ill"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "illness",
+   "t0": 102.957,
+   "t1": 103.548,
+   "cue": [
+    "focus:illness"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "fever",
+   "t0": 104.648,
+   "t1": 105.097,
+   "cue": [
+    "focus:fever"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "cough",
+   "t0": 106.197,
+   "t1": 106.607,
+   "cue": [
+    "focus:cough"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "flu",
+   "t0": 107.707,
+   "t1": 108.214,
+   "cue": [
+    "focus:flu"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "spread",
+   "t0": 109.314,
+   "t1": 109.874,
+   "cue": [
+    "focus:spread"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "medicine",
+   "t0": 110.974,
+   "t1": 111.649,
+   "cue": [
+    "focus:medicine"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "heart",
+   "t0": 112.749,
+   "t1": 113.182,
+   "cue": [
+    "focus:heart"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "beat",
+   "t0": 114.282,
+   "t1": 114.712,
+   "cue": [
+    "focus:beat"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "zh",
+   "text": "太棒了！多运动、多喝水、按时睡觉，就不容易生病啦。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 115.812,
+   "t1": 125.283,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "hospital": [
+   0.25,
+   0.915
+  ],
+  "sick": [
+   1.165,
+   1.664
+  ],
+  "ill": [
+   1.914,
+   2.27
+  ],
+  "illness": [
+   2.52,
+   3.111
+  ],
+  "fever": [
+   3.361,
+   3.81
+  ],
+  "cough": [
+   4.06,
+   4.471
+  ],
+  "flu": [
+   4.721,
+   5.227
+  ],
+  "spread": [
+   5.477,
+   6.038
+  ],
+  "medicine": [
+   6.288,
+   6.963
+  ],
+  "heart": [
+   7.213,
+   7.645
+  ],
+  "beat": [
+   7.895,
+   8.325
+  ],
+  "beat:alt": [
+   8.575,
+   9.214
+  ]
+ }
+}

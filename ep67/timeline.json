@@ -1,0 +1,660 @@
+{
+ "duration": 136.568,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！学校要举行运动会啦！今天，我们来学和比赛有关的单词。",
+   "t0": 0.4,
+   "t1": 7.697,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "competition",
+   "t0": 7.947,
+   "t1": 8.869,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "学校组织的各种活动：",
+   "t0": 9.969,
+   "t1": 11.683,
+   "cue": [
+    "map",
+    "show:activity",
+    "focus:activity"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "activity",
+   "t0": 11.933,
+   "t1": 12.685,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "school activities",
+   "t0": 13.185,
+   "t1": 14.461,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "大家比一比，谁最厉害，是比赛、竞赛：",
+   "t0": 15.561,
+   "t1": 19.334,
+   "cue": [
+    "show:competition",
+    "edge:activity>competition",
+    "focus:competition"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "competition",
+   "t0": 19.584,
+   "t1": 20.507,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "比赛中拿到的分数，是得分：",
+   "t0": 21.607,
+   "t1": 24.125,
+   "cue": [
+    "show:score",
+    "edge:competition>score",
+    "focus:score"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "score",
+   "t0": 24.375,
+   "t1": 24.932,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "The score is three to two.",
+   "t0": 25.432,
+   "t1": 26.893,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "参加比赛的人，是选手。玩，加上 e r：",
+   "t0": 27.993,
+   "t1": 32.218,
+   "cue": [
+    "show:player",
+    "edge:competition>player",
+    "focus:player"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "play",
+   "t0": 32.468,
+   "t1": 32.951,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "player",
+   "t0": 33.451,
+   "t1": 33.942,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "台下的同学大声欢呼，为选手加油：",
+   "t0": 35.042,
+   "t1": 38.392,
+   "cue": [
+    "show:cheer",
+    "edge:cheer>player",
+    "focus:cheer"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "cheer",
+   "t0": 38.642,
+   "t1": 39.072,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Cheer for the players!",
+   "t0": 39.572,
+   "t1": 40.811,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "每个选手心里都有一个梦想：",
+   "t0": 41.911,
+   "t1": 44.039,
+   "cue": [
+    "show:dream",
+    "edge:player>dream",
+    "focus:dream"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "dream",
+   "t0": 44.289,
+   "t1": 44.778,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "它也是做梦的梦。",
+   "t0": 45.278,
+   "t1": 46.567,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "比赛赢了！",
+   "t0": 47.417,
+   "t1": 48.245,
+   "cue": [
+    "show:win",
+    "edge:player>win",
+    "focus:win"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "win",
+   "t0": 48.495,
+   "t1": 48.917,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "已经赢了，要说",
+   "t0": 49.417,
+   "t1": 50.925,
+   "cue": [
+    "alt:win"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "won",
+   "t0": 51.175,
+   "t1": 51.595,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "We won the game!",
+   "t0": 52.095,
+   "t1": 53.03,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "赢的反面，是输：",
+   "t0": 54.13,
+   "t1": 55.758,
+   "cue": [
+    "show:lose",
+    "edge:win>lose",
+    "focus:lose"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "lose",
+   "t0": 56.008,
+   "t1": 56.558,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "已经输了，要说",
+   "t0": 57.058,
+   "t1": 58.565,
+   "cue": [
+    "alt:lose"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "lost",
+   "t0": 58.815,
+   "t1": 59.336,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "输了也没关系，下次加油！",
+   "t0": 59.836,
+   "t1": 62.159,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "赢了的人，是获胜者。要多写一个 n，再加 e r：",
+   "t0": 63.009,
+   "t1": 67.754,
+   "cue": [
+    "show:winner",
+    "edge:win>winner",
+    "focus:winner"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "win",
+   "t0": 68.004,
+   "t1": 68.427,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "winner",
+   "t0": 68.927,
+   "t1": 69.349,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "获胜者能得到奖品：",
+   "t0": 70.449,
+   "t1": 72.178,
+   "cue": [
+    "show:prize",
+    "edge:winner>prize",
+    "focus:prize"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "prize",
+   "t0": 72.428,
+   "t1": 73.049,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "I won a prize!",
+   "t0": 73.549,
+   "t1": 74.584,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "有时候，比赛也要靠一点运气：",
+   "t0": 75.684,
+   "t1": 78.27,
+   "cue": [
+    "show:luck",
+    "focus:luck"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "luck",
+   "t0": 78.52,
+   "t1": 78.972,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Good luck!",
+   "t0": 79.472,
+   "t1": 80.079,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "加上 y，就是幸运的：",
+   "t0": 81.179,
+   "t1": 83.019,
+   "cue": [
+    "show:lucky",
+    "edge:luck>lucky",
+    "edge:lucky>win",
+    "focus:lucky"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "lucky",
+   "t0": 83.269,
+   "t1": 83.809,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "The player was very lucky.",
+   "t0": 84.309,
+   "t1": 85.926,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "现在和过去，一起读：",
+   "t0": 87.026,
+   "t1": 89.033,
+   "cue": [
+    "focus:win,lose"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "win, won",
+   "t0": 89.283,
+   "t1": 90.255,
+   "cue": [
+    "focus:win"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "lose, lost",
+   "t0": 90.755,
+   "t1": 92.041,
+   "cue": [
+    "focus:lose"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "给参赛的同学加加油吧！",
+   "t0": 93.141,
+   "t1": 95.162,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Good luck!",
+   "t0": 96.012,
+   "t1": 96.619,
+   "cue": [
+    "focus:luck"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Go, go, go!",
+   "t0": 97.119,
+   "t1": 98.708,
+   "cue": [
+    "focus:cheer"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "You are the winner!",
+   "t0": 99.208,
+   "t1": 100.111,
+   "cue": [
+    "focus:winner"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 101.211,
+   "t1": 104.462,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "activity",
+   "t0": 105.312,
+   "t1": 106.064,
+   "cue": [
+    "focus:activity"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "competition",
+   "t0": 107.164,
+   "t1": 108.086,
+   "cue": [
+    "focus:competition"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "score",
+   "t0": 109.186,
+   "t1": 109.743,
+   "cue": [
+    "focus:score"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "player",
+   "t0": 110.843,
+   "t1": 111.335,
+   "cue": [
+    "focus:player"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "cheer",
+   "t0": 112.435,
+   "t1": 112.864,
+   "cue": [
+    "focus:cheer"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "dream",
+   "t0": 113.964,
+   "t1": 114.453,
+   "cue": [
+    "focus:dream"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "win, won",
+   "t0": 115.553,
+   "t1": 116.525,
+   "cue": [
+    "focus:win"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "lose, lost",
+   "t0": 117.625,
+   "t1": 118.911,
+   "cue": [
+    "focus:lose"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "winner",
+   "t0": 120.011,
+   "t1": 120.432,
+   "cue": [
+    "focus:winner"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "prize",
+   "t0": 121.532,
+   "t1": 122.153,
+   "cue": [
+    "focus:prize"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "luck",
+   "t0": 123.253,
+   "t1": 123.706,
+   "cue": [
+    "focus:luck"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "lucky",
+   "t0": 124.806,
+   "t1": 125.347,
+   "cue": [
+    "focus:lucky"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "zh",
+   "text": "太棒了！比赛的时候，不管输赢，都要尽力哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 126.447,
+   "t1": 134.718,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "activity": [
+   0.25,
+   1.002
+  ],
+  "competition": [
+   1.252,
+   2.174
+  ],
+  "score": [
+   2.424,
+   2.981
+  ],
+  "player": [
+   3.231,
+   3.723
+  ],
+  "player:alt": [
+   3.973,
+   4.456
+  ],
+  "cheer": [
+   4.706,
+   5.135
+  ],
+  "dream": [
+   5.385,
+   5.874
+  ],
+  "win": [
+   6.124,
+   6.547
+  ],
+  "win:alt": [
+   6.797,
+   7.217
+  ],
+  "lose": [
+   7.467,
+   8.017
+  ],
+  "lose:alt": [
+   8.267,
+   8.789
+  ],
+  "winner": [
+   9.039,
+   9.46
+  ],
+  "prize": [
+   9.71,
+   10.331
+  ],
+  "luck": [
+   10.581,
+   11.034
+  ],
+  "lucky": [
+   11.284,
+   11.825
+  ]
+ }
+}

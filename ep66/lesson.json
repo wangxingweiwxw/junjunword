@@ -1,0 +1,724 @@
+{
+ "id": "ep66",
+ "title": "sleep",
+ "titleZh": "睡眠",
+ "episode": "第 66 集",
+ "titleIcon": "sleep",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "sleep",
+   "word": "sleep",
+   "ipa": "/sliːp/",
+   "zh": "睡觉",
+   "icon": "sleep",
+   "kind": "verb",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    180,
+    470
+   ]
+  },
+  {
+   "id": "asleep",
+   "word": "asleep",
+   "ipa": "/əˈsliːp/",
+   "zh": "睡着的",
+   "icon": "asleep",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    180,
+    150
+   ]
+  },
+  {
+   "id": "wake",
+   "word": "wake",
+   "ipa": "/weɪk/",
+   "zh": "醒来",
+   "icon": "wake",
+   "kind": "verb",
+   "alt": "wake up",
+   "altLabel": "常说",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    540,
+    790
+   ]
+  },
+  {
+   "id": "awake",
+   "word": "awake",
+   "ipa": "/əˈweɪk/",
+   "zh": "醒着的",
+   "icon": "awake",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    180,
+    790
+   ]
+  },
+  {
+   "id": "rest",
+   "word": "rest",
+   "ipa": "/rest/",
+   "zh": "休息",
+   "icon": "rest",
+   "kind": "verb",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    540,
+    150
+   ]
+  },
+  {
+   "id": "diary",
+   "word": "diary",
+   "ipa": "/ˈdaɪəri/",
+   "zh": "日记",
+   "icon": "diary",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    540,
+    470
+   ]
+  },
+  {
+   "id": "suggest",
+   "word": "suggest",
+   "ipa": "/səɡˈdʒest/",
+   "zh": "建议",
+   "icon": "suggest",
+   "kind": "verb",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    900,
+    150
+   ]
+  },
+  {
+   "id": "suggestion",
+   "word": "suggestion",
+   "ipa": "/səɡˈdʒestʃən/",
+   "zh": "建议（名词）",
+   "icon": "suggestion",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    900,
+    470
+   ]
+  },
+  {
+   "id": "main",
+   "word": "main",
+   "ipa": "/meɪn/",
+   "zh": "主要的",
+   "icon": "main",
+   "kind": "adj",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    900,
+    790
+   ]
+  },
+  {
+   "id": "even",
+   "word": "even",
+   "ipa": "/ˈiːvn/",
+   "zh": "甚至",
+   "icon": "even",
+   "kind": "adv",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1620,
+    470
+   ]
+  },
+  {
+   "id": "more",
+   "word": "more",
+   "ipa": "/mɔːr/",
+   "zh": "更多",
+   "icon": "more",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1260,
+    150
+   ]
+  },
+  {
+   "id": "less",
+   "word": "less",
+   "ipa": "/les/",
+   "zh": "更少",
+   "icon": "less",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1260,
+    470
+   ]
+  },
+  {
+   "id": "hardly",
+   "word": "hardly",
+   "ipa": "/ˈhɑːrdli/",
+   "zh": "几乎不",
+   "icon": "hardly",
+   "kind": "adv",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1260,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "sleep",
+   "to": "asleep",
+   "label": "a+"
+  },
+  {
+   "from": "sleep",
+   "to": "awake",
+   "dashed": true
+  },
+  {
+   "from": "wake",
+   "to": "awake",
+   "label": "a+"
+  },
+  {
+   "from": "sleep",
+   "to": "rest",
+   "dashed": true
+  },
+  {
+   "from": "sleep",
+   "to": "diary",
+   "dashed": true
+  },
+  {
+   "from": "suggest",
+   "to": "suggestion",
+   "label": "+ion"
+  },
+  {
+   "from": "more",
+   "to": "less",
+   "label": "反义"
+  },
+  {
+   "from": "less",
+   "to": "hardly",
+   "label": "更少"
+  },
+  {
+   "from": "less",
+   "to": "even",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！好好睡觉，才能长高高。今天，我们来学和睡眠有关的单词。"
+    },
+    {
+     "en": "sleep"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:sleep",
+    "focus:sleep"
+   ],
+   "parts": [
+    {
+     "zh": "睡觉，英语是"
+    },
+    {
+     "en": "sleep"
+    },
+    {
+     "en": "I sleep at nine o'clock."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:asleep",
+    "edge:sleep>asleep",
+    "focus:asleep"
+   ],
+   "parts": [
+    {
+     "zh": "在前面加一个 a，就是睡着的："
+    },
+    {
+     "en": "asleep"
+    },
+    {
+     "en": "The baby is asleep."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wake",
+    "focus:wake"
+   ],
+   "parts": [
+    {
+     "zh": "早上醒来，是"
+    },
+    {
+     "en": "wake"
+    },
+    {
+     "zh": "常常说",
+     "cue": [
+      "alt:wake"
+     ]
+    },
+    {
+     "en": "wake up"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:awake",
+    "edge:wake>awake",
+    "edge:sleep>awake",
+    "focus:awake"
+   ],
+   "parts": [
+    {
+     "zh": "加上 a，就是醒着的："
+    },
+    {
+     "en": "awake"
+    },
+    {
+     "zh": "睡着和醒着，一对好朋友："
+    },
+    {
+     "en": "asleep",
+     "cue": [
+      "focus:asleep"
+     ]
+    },
+    {
+     "en": "awake",
+     "cue": [
+      "focus:awake"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:rest",
+    "edge:sleep>rest",
+    "focus:rest"
+   ],
+   "parts": [
+    {
+     "zh": "累了，就坐下休息一会儿："
+    },
+    {
+     "en": "rest"
+    },
+    {
+     "en": "Let's take a rest."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:diary",
+    "edge:sleep>diary",
+    "focus:diary"
+   ],
+   "parts": [
+    {
+     "zh": "睡觉前，写一篇日记："
+    },
+    {
+     "en": "diary"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:suggest",
+    "focus:suggest"
+   ],
+   "parts": [
+    {
+     "zh": "医生建议我们早点睡："
+    },
+    {
+     "en": "suggest"
+    },
+    {
+     "zh": "还记得第六十五集的 advise 吗？意思差不多。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:suggestion",
+    "edge:suggest>suggestion",
+    "focus:suggestion"
+   ],
+   "parts": [
+    {
+     "zh": "加上 i o n，就是建议这件事："
+    },
+    {
+     "en": "suggestion"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:main",
+    "focus:main"
+   ],
+   "parts": [
+    {
+     "zh": "最重要的、主要的，英语是"
+    },
+    {
+     "en": "main"
+    },
+    {
+     "en": "Sleep is the main thing!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:more",
+    "focus:more"
+   ],
+   "parts": [
+    {
+     "zh": "多睡一点，是"
+    },
+    {
+     "en": "more"
+    },
+    {
+     "en": "more sleep"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:less",
+    "edge:more>less",
+    "focus:less"
+   ],
+   "parts": [
+    {
+     "zh": "少玩一点手机，是"
+    },
+    {
+     "en": "less"
+    },
+    {
+     "en": "less TV"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:hardly",
+    "edge:less>hardly",
+    "focus:hardly"
+   ],
+   "parts": [
+    {
+     "zh": "少到几乎没有，是"
+    },
+    {
+     "en": "hardly"
+    },
+    {
+     "en": "I hardly watch TV at night."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:even",
+    "edge:less>even",
+    "focus:even"
+   ],
+   "parts": [
+    {
+     "zh": "甚至，英语是"
+    },
+    {
+     "en": "even"
+    },
+    {
+     "en": "I even suggest you keep a sleep diary."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "一起读一读睡前好习惯："
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Rest more.",
+     "cue": [
+      "focus:rest,more"
+     ]
+    },
+    {
+     "en": "Watch less TV.",
+     "cue": [
+      "focus:less"
+     ]
+    },
+    {
+     "en": "Go to sleep early!",
+     "cue": [
+      "focus:sleep"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sleep"
+   ],
+   "parts": [
+    {
+     "en": "sleep"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:asleep"
+   ],
+   "parts": [
+    {
+     "en": "asleep"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wake"
+   ],
+   "parts": [
+    {
+     "en": "wake, wake up"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:awake"
+   ],
+   "parts": [
+    {
+     "en": "awake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:rest"
+   ],
+   "parts": [
+    {
+     "en": "rest"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:diary"
+   ],
+   "parts": [
+    {
+     "en": "diary"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:suggest"
+   ],
+   "parts": [
+    {
+     "en": "suggest"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:suggestion"
+   ],
+   "parts": [
+    {
+     "en": "suggestion"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:main"
+   ],
+   "parts": [
+    {
+     "en": "main"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:more"
+   ],
+   "parts": [
+    {
+     "en": "more"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:less"
+   ],
+   "parts": [
+    {
+     "en": "less"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hardly"
+   ],
+   "parts": [
+    {
+     "en": "hardly"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:even"
+   ],
+   "parts": [
+    {
+     "en": "even"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！今天晚上早点睡，明天早上精神好。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

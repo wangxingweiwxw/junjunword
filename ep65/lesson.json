@@ -1,0 +1,597 @@
+{
+ "id": "ep65",
+ "title": "health",
+ "titleZh": "健康",
+ "episode": "第 65 集",
+ "titleIcon": "health",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1380
+  ]
+ },
+ "nodes": [
+  {
+   "id": "health",
+   "word": "health",
+   "ipa": "/helθ/",
+   "zh": "健康",
+   "icon": "health",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "healthy",
+   "word": "healthy",
+   "ipa": "/ˈhelθi/",
+   "zh": "健康的",
+   "icon": "healthy",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "advise",
+   "word": "advise",
+   "ipa": "/ədˈvaɪz/",
+   "zh": "建议",
+   "icon": "advise",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "advice",
+   "word": "advice",
+   "ipa": "/ədˈvaɪs/",
+   "zh": "建议（名词）",
+   "icon": "advice",
+   "atP": [
+    150,
+    510
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "exercise",
+   "word": "exercise",
+   "ipa": "/ˈeksərsaɪz/",
+   "zh": "锻炼",
+   "icon": "exercise",
+   "kind": "verb",
+   "atP": [
+    150,
+    870
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "active",
+   "word": "active",
+   "ipa": "/ˈæktɪv/",
+   "zh": "活跃的",
+   "icon": "active",
+   "kind": "adj",
+   "atP": [
+    450,
+    870
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "keep",
+   "word": "keep",
+   "ipa": "/kiːp/",
+   "zh": "保持",
+   "icon": "keep",
+   "kind": "verb",
+   "atP": [
+    750,
+    510
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "habit",
+   "word": "habit",
+   "ipa": "/ˈhæbɪt/",
+   "zh": "习惯",
+   "icon": "habit",
+   "atP": [
+    750,
+    870
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "fat",
+   "word": "fat",
+   "ipa": "/fæt/",
+   "zh": "胖的",
+   "icon": "fat",
+   "kind": "adj",
+   "atP": [
+    150,
+    1230
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "fit",
+   "word": "fit",
+   "ipa": "/fɪt/",
+   "zh": "健壮的",
+   "icon": "fit",
+   "kind": "adj",
+   "atP": [
+    750,
+    1230
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "health",
+   "to": "healthy",
+   "label": "+y"
+  },
+  {
+   "from": "health",
+   "to": "advise"
+  },
+  {
+   "from": "advise",
+   "to": "advice",
+   "label": "s→c"
+  },
+  {
+   "from": "healthy",
+   "to": "keep"
+  },
+  {
+   "from": "advice",
+   "to": "exercise",
+   "dashed": true
+  },
+  {
+   "from": "exercise",
+   "to": "active"
+  },
+  {
+   "from": "keep",
+   "to": "habit",
+   "dashed": true
+  },
+  {
+   "from": "exercise",
+   "to": "fat",
+   "dashed": true
+  },
+  {
+   "from": "active",
+   "to": "fit",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！身体是最宝贵的。今天，我们来学和健康有关的单词。"
+    },
+    {
+     "en": "health"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:health",
+    "focus:health"
+   ],
+   "parts": [
+    {
+     "zh": "健康，英语是"
+    },
+    {
+     "en": "health"
+    },
+    {
+     "zh": "最后的 t h，舌尖放在牙齿中间。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:healthy",
+    "edge:health>healthy",
+    "focus:healthy"
+   ],
+   "parts": [
+    {
+     "zh": "加上 y，就是健康的："
+    },
+    {
+     "en": "healthy"
+    },
+    {
+     "en": "Eat healthy food."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:advise",
+    "edge:health>advise",
+    "focus:advise"
+   ],
+   "parts": [
+    {
+     "zh": "医生给我们提建议："
+    },
+    {
+     "en": "advise"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:advice",
+    "edge:advise>advice",
+    "focus:advice"
+   ],
+   "parts": [
+    {
+     "zh": "医生说的建议本身，把 s 换成 c："
+    },
+    {
+     "en": "advice"
+    },
+    {
+     "zh": "仔细听，一个读 z，一个读 s："
+    },
+    {
+     "en": "advise",
+     "cue": [
+      "focus:advise"
+     ]
+    },
+    {
+     "en": "advice",
+     "cue": [
+      "focus:advice"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:exercise",
+    "edge:advice>exercise",
+    "focus:exercise"
+   ],
+   "parts": [
+    {
+     "zh": "医生建议我们多锻炼："
+    },
+    {
+     "en": "exercise"
+    },
+    {
+     "en": "I exercise every evening."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:active",
+    "edge:exercise>active",
+    "focus:active"
+   ],
+   "parts": [
+    {
+     "zh": "爱运动、跑来跑去，是活跃的："
+    },
+    {
+     "en": "active"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fit",
+    "edge:active>fit",
+    "focus:fit"
+   ],
+   "parts": [
+    {
+     "zh": "经常锻炼，身体就很健壮："
+    },
+    {
+     "en": "fit"
+    },
+    {
+     "en": "The actor is very fit."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fat",
+    "edge:exercise>fat",
+    "focus:fat"
+   ],
+   "parts": [
+    {
+     "zh": "吃太多、又不运动，就会变胖："
+    },
+    {
+     "en": "fat"
+    },
+    {
+     "zh": "胖和健壮，只差一个字母："
+    },
+    {
+     "en": "fat",
+     "cue": [
+      "focus:fat"
+     ]
+    },
+    {
+     "en": "fit",
+     "cue": [
+      "focus:fit"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:keep",
+    "edge:healthy>keep",
+    "focus:keep"
+   ],
+   "parts": [
+    {
+     "zh": "要一直保持健康："
+    },
+    {
+     "en": "keep"
+    },
+    {
+     "en": "Keep healthy!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:habit",
+    "edge:keep>habit",
+    "focus:habit"
+   ],
+   "parts": [
+    {
+     "zh": "每天都坚持做的事，就成了习惯："
+    },
+    {
+     "en": "habit"
+    },
+    {
+     "en": "a good habit"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "说一说你的好习惯吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "I exercise every day.",
+     "cue": [
+      "focus:exercise"
+     ]
+    },
+    {
+     "en": "I eat fruit and vegetables.",
+     "cue": [
+      "focus:healthy"
+     ]
+    },
+    {
+     "en": "I keep healthy!",
+     "cue": [
+      "focus:keep,healthy"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:health"
+   ],
+   "parts": [
+    {
+     "en": "health"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:healthy"
+   ],
+   "parts": [
+    {
+     "en": "healthy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:advise"
+   ],
+   "parts": [
+    {
+     "en": "advise"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:advice"
+   ],
+   "parts": [
+    {
+     "en": "advice"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:exercise"
+   ],
+   "parts": [
+    {
+     "en": "exercise"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:active"
+   ],
+   "parts": [
+    {
+     "en": "active"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fit"
+   ],
+   "parts": [
+    {
+     "en": "fit"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fat"
+   ],
+   "parts": [
+    {
+     "en": "fat"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:keep"
+   ],
+   "parts": [
+    {
+     "en": "keep"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:habit"
+   ],
+   "parts": [
+    {
+     "en": "habit"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！每天锻炼一会儿，养成健康的好习惯吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}
