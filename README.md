@@ -161,3 +161,9 @@ ep04+ 的 `lesson.json` 由同目录的 `lesson.py` 生成（`python3 ep04/lesso
 | ep97 Europe | Europe European Britain British England English Englishman France French Germany German Russia Russian Italy Italian | 1:55 |
 | ep98 countries | country(countries) value valuable wealth war international America American Australia Australian Africa African | 1:58 |
 | ep99 nation | country public republic province state capital national president king queen abroad matter | 1:49 |
+| ep100 government | government agency leader chairman minister consider decide decision development progress role | 2:06 |
+| ep101 news | news information interesting happen event earthquake(quake) reporter report exposure recorder | 1:59 |
+| ep102 space | space planet equator world Earth moon moonlight astronaut beyond sky star require rocket | 2:00 |
+| ep103 Internet | Internet introduction search anything nothing agree agreement disagree disagreement advertisement(ad) advantage disadvantage error | 2:13 |
+| ep104 phone | phone(telephone) electronic screen request accept refuse message receive reply save delete video picture | 1:59 |
+| ep105 technology | technology advance retrogress unnatural pioneer invent invention failure radio communicate communication | 2:01 |

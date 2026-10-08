@@ -1,0 +1,590 @@
+{
+ "id": "ep105",
+ "title": "technology",
+ "titleZh": "科技",
+ "episode": "第 105 集",
+ "titleIcon": "technology",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "technology",
+   "word": "technology",
+   "ipa": "/tekˈnɑːlədʒi/",
+   "zh": "科技；技术",
+   "icon": "technology",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    520,
+    470
+   ]
+  },
+  {
+   "id": "advance",
+   "word": "advance",
+   "ipa": "/ədˈvæns/",
+   "zh": "进步；前进",
+   "icon": "advance",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    170,
+    150
+   ]
+  },
+  {
+   "id": "retrogress",
+   "word": "retrogress",
+   "ipa": "/ˌretrəˈɡres/",
+   "zh": "倒退",
+   "icon": "retrogress",
+   "kind": "verb",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    170,
+    470
+   ]
+  },
+  {
+   "id": "unnatural",
+   "word": "unnatural",
+   "ipa": "/ʌnˈnætʃrəl/",
+   "zh": "不自然的",
+   "icon": "unnatural",
+   "kind": "adj",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    520,
+    150
+   ]
+  },
+  {
+   "id": "failure",
+   "word": "failure",
+   "ipa": "/ˈfeɪljər/",
+   "zh": "失败",
+   "icon": "failure",
+   "alt": "fail",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    870,
+    150
+   ]
+  },
+  {
+   "id": "pioneer",
+   "word": "pioneer",
+   "ipa": "/ˌpaɪəˈnɪr/",
+   "zh": "先驱；开拓者",
+   "icon": "pioneer",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    170,
+    790
+   ]
+  },
+  {
+   "id": "invent",
+   "word": "invent",
+   "ipa": "/ɪnˈvent/",
+   "zh": "发明",
+   "icon": "invent",
+   "kind": "verb",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    870,
+    470
+   ]
+  },
+  {
+   "id": "invention",
+   "word": "invention",
+   "ipa": "/ɪnˈvenʃn/",
+   "zh": "发明（名词）",
+   "icon": "invention",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    870,
+    790
+   ]
+  },
+  {
+   "id": "radio",
+   "word": "radio",
+   "ipa": "/ˈreɪdioʊ/",
+   "zh": "收音机",
+   "icon": "radio",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1220,
+    470
+   ]
+  },
+  {
+   "id": "communicate",
+   "word": "communicate",
+   "ipa": "/kəˈmjuːnɪkeɪt/",
+   "zh": "交流",
+   "icon": "communicate",
+   "kind": "verb",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1570,
+    470
+   ]
+  },
+  {
+   "id": "communication",
+   "word": "communication",
+   "ipa": "/kəˌmjuːnɪˈkeɪʃn/",
+   "zh": "通讯；交流",
+   "icon": "communication",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1570,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "technology",
+   "to": "advance"
+  },
+  {
+   "from": "technology",
+   "to": "retrogress",
+   "dashed": true
+  },
+  {
+   "from": "technology",
+   "to": "unnatural",
+   "dashed": true
+  },
+  {
+   "from": "technology",
+   "to": "pioneer"
+  },
+  {
+   "from": "technology",
+   "to": "invent"
+  },
+  {
+   "from": "invent",
+   "to": "invention",
+   "label": "+ion"
+  },
+  {
+   "from": "invent",
+   "to": "failure",
+   "dashed": true
+  },
+  {
+   "from": "invent",
+   "to": "radio"
+  },
+  {
+   "from": "radio",
+   "to": "communicate"
+  },
+  {
+   "from": "communicate",
+   "to": "communication",
+   "label": "e→ion"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！从收音机到手机，科技让生活越来越方便。今天，我们来学和科技有关的单词。"
+    },
+    {
+     "en": "technology"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:technology",
+    "focus:technology"
+   ],
+   "parts": [
+    {
+     "zh": "科学技术，是科技："
+    },
+    {
+     "en": "technology"
+    },
+    {
+     "zh": "中间的 c h，读 k。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:advance",
+    "edge:technology>advance",
+    "focus:advance"
+   ],
+   "parts": [
+    {
+     "zh": "科技在不断进步、前进："
+    },
+    {
+     "en": "advance"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:retrogress",
+    "edge:technology>retrogress",
+    "focus:retrogress"
+   ],
+   "parts": [
+    {
+     "zh": "进步的反面，是倒退。这是一个比较正式的词："
+    },
+    {
+     "en": "retrogress"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:unnatural",
+    "edge:technology>unnatural",
+    "focus:unnatural"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第九十一集的 natural 吗？加上 u n，就是不自然的："
+    },
+    {
+     "en": "unnatural"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pioneer",
+    "edge:technology>pioneer",
+    "focus:pioneer"
+   ],
+   "parts": [
+    {
+     "zh": "第一个走出新路的人，是先驱、开拓者："
+    },
+    {
+     "en": "pioneer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:invent",
+    "edge:technology>invent",
+    "focus:invent"
+   ],
+   "parts": [
+    {
+     "zh": "创造出以前没有的东西，是发明："
+    },
+    {
+     "en": "invent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:invention",
+    "edge:invent>invention",
+    "focus:invention"
+   ],
+   "parts": [
+    {
+     "zh": "发明出来的东西，加上 i o n："
+    },
+    {
+     "en": "invention"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:failure",
+    "edge:invent>failure",
+    "focus:failure"
+   ],
+   "parts": [
+    {
+     "zh": "发明的路上，常常会失败。失败是 fail，加上 u r e："
+    },
+    {
+     "en": "fail"
+    },
+    {
+     "en": "failure"
+    },
+    {
+     "en": "Failure is the mother of success."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:radio",
+    "edge:invent>radio",
+    "focus:radio"
+   ],
+   "parts": [
+    {
+     "zh": "很久以前，人们发明了收音机："
+    },
+    {
+     "en": "radio"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:communicate",
+    "edge:radio>communicate",
+    "focus:communicate"
+   ],
+   "parts": [
+    {
+     "zh": "有了收音机，远方的人也能交流："
+    },
+    {
+     "en": "communicate"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:communication",
+    "edge:communicate>communication",
+    "focus:communication"
+   ],
+   "parts": [
+    {
+     "zh": "交流这件事，把 e 换成 i o n，就是通讯："
+    },
+    {
+     "en": "communication"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:invention,communication"
+   ],
+   "parts": [
+    {
+     "zh": "两个 i o n 结尾的："
+    },
+    {
+     "en": "invent, invention",
+     "cue": [
+      "focus:invent,invention"
+     ]
+    },
+    {
+     "en": "communicate, communication",
+     "cue": [
+      "focus:communicate,communication"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:technology"
+   ],
+   "parts": [
+    {
+     "en": "technology"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:advance"
+   ],
+   "parts": [
+    {
+     "en": "advance"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:retrogress"
+   ],
+   "parts": [
+    {
+     "en": "retrogress"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:unnatural"
+   ],
+   "parts": [
+    {
+     "en": "unnatural"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pioneer"
+   ],
+   "parts": [
+    {
+     "en": "pioneer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:invent"
+   ],
+   "parts": [
+    {
+     "en": "invent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:invention"
+   ],
+   "parts": [
+    {
+     "en": "invention"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:failure"
+   ],
+   "parts": [
+    {
+     "en": "failure"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:radio"
+   ],
+   "parts": [
+    {
+     "en": "radio"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:communicate"
+   ],
+   "parts": [
+    {
+     "en": "communicate"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:communication"
+   ],
+   "parts": [
+    {
+     "en": "communication"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！不怕失败，长大了你也可以做一个发明家哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

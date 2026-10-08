@@ -1,0 +1,689 @@
+{
+ "id": "ep102",
+ "title": "space",
+ "titleZh": "太空",
+ "episode": "第 102 集",
+ "titleIcon": "space",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "space",
+   "word": "space",
+   "ipa": "/speɪs/",
+   "zh": "太空",
+   "icon": "space",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    870,
+    470
+   ]
+  },
+  {
+   "id": "planet",
+   "word": "planet",
+   "ipa": "/ˈplænɪt/",
+   "zh": "行星",
+   "icon": "planet",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    870,
+    150
+   ]
+  },
+  {
+   "id": "world",
+   "word": "world",
+   "ipa": "/wɜːrld/",
+   "zh": "世界",
+   "icon": "world",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    520,
+    150
+   ]
+  },
+  {
+   "id": "earth",
+   "word": "Earth",
+   "ipa": "/ɜːrθ/",
+   "zh": "地球",
+   "icon": "earth",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    520,
+    470
+   ]
+  },
+  {
+   "id": "equator",
+   "word": "equator",
+   "ipa": "/ɪˈkweɪtər/",
+   "zh": "赤道",
+   "icon": "equator",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    1220,
+    150
+   ]
+  },
+  {
+   "id": "star",
+   "word": "star",
+   "ipa": "/stɑːr/",
+   "zh": "星星",
+   "icon": "star",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    1220,
+    790
+   ]
+  },
+  {
+   "id": "sky",
+   "word": "sky",
+   "ipa": "/skaɪ/",
+   "zh": "天空",
+   "icon": "sky",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1570,
+    790
+   ]
+  },
+  {
+   "id": "astronaut",
+   "word": "astronaut",
+   "ipa": "/ˈæstrənɔːt/",
+   "zh": "宇航员",
+   "icon": "astronaut",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    1220,
+    470
+   ]
+  },
+  {
+   "id": "beyond",
+   "word": "beyond",
+   "ipa": "/bɪˈjɑːnd/",
+   "zh": "在……之外",
+   "icon": "beyond",
+   "kind": "prep",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    1570,
+    470
+   ]
+  },
+  {
+   "id": "rocket",
+   "word": "rocket",
+   "ipa": "/ˈrɑːkɪt/",
+   "zh": "火箭",
+   "icon": "rocket",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    520,
+    790
+   ]
+  },
+  {
+   "id": "require",
+   "word": "require",
+   "ipa": "/rɪˈkwaɪər/",
+   "zh": "需要",
+   "icon": "require",
+   "kind": "verb",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    870,
+    790
+   ]
+  },
+  {
+   "id": "moon",
+   "word": "moon",
+   "ipa": "/muːn/",
+   "zh": "月亮",
+   "icon": "moon",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    170,
+    470
+   ]
+  },
+  {
+   "id": "moonlight",
+   "word": "moonlight",
+   "ipa": "/ˈmuːnlaɪt/",
+   "zh": "月光",
+   "icon": "moonlight",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    170,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "space",
+   "to": "planet"
+  },
+  {
+   "from": "planet",
+   "to": "equator",
+   "dashed": true
+  },
+  {
+   "from": "space",
+   "to": "world",
+   "dashed": true
+  },
+  {
+   "from": "space",
+   "to": "earth"
+  },
+  {
+   "from": "earth",
+   "to": "moon"
+  },
+  {
+   "from": "moon",
+   "to": "moonlight"
+  },
+  {
+   "from": "space",
+   "to": "astronaut"
+  },
+  {
+   "from": "astronaut",
+   "to": "beyond"
+  },
+  {
+   "from": "beyond",
+   "to": "sky",
+   "dashed": true
+  },
+  {
+   "from": "sky",
+   "to": "star"
+  },
+  {
+   "from": "space",
+   "to": "require",
+   "dashed": true
+  },
+  {
+   "from": "require",
+   "to": "rocket"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！坐上火箭，我们一起去太空探险吧！"
+    },
+    {
+     "en": "space"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:space",
+    "focus:space"
+   ],
+   "parts": [
+    {
+     "zh": "地球外面广阔的地方，是太空："
+    },
+    {
+     "en": "space"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:planet",
+    "edge:space>planet",
+    "focus:planet"
+   ],
+   "parts": [
+    {
+     "zh": "绕着太阳转的大星球，是行星："
+    },
+    {
+     "en": "planet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:equator",
+    "edge:planet>equator",
+    "focus:equator"
+   ],
+   "parts": [
+    {
+     "zh": "地球中间那条看不见的线，是赤道："
+    },
+    {
+     "en": "equator"
+    },
+    {
+     "zh": "赤道附近特别热。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:world",
+    "edge:space>world",
+    "focus:world"
+   ],
+   "parts": [
+    {
+     "zh": "我们生活的整个世界："
+    },
+    {
+     "en": "world"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:earth",
+    "edge:space>earth",
+    "focus:earth"
+   ],
+   "parts": [
+    {
+     "zh": "我们住的星球，是地球："
+    },
+    {
+     "en": "Earth"
+    },
+    {
+     "zh": "还记得上一集的地震 earthquake 吗？earth 就在里面。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:moon",
+    "edge:earth>moon",
+    "focus:moon"
+   ],
+   "parts": [
+    {
+     "zh": "离地球最近的，是月亮："
+    },
+    {
+     "en": "moon"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:moonlight",
+    "edge:moon>moonlight",
+    "focus:moonlight"
+   ],
+   "parts": [
+    {
+     "zh": "月亮，加上光，就是月光："
+    },
+    {
+     "en": "moon"
+    },
+    {
+     "en": "light"
+    },
+    {
+     "en": "moonlight"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:astronaut",
+    "edge:space>astronaut",
+    "focus:astronaut"
+   ],
+   "parts": [
+    {
+     "zh": "飞上太空的人，是宇航员："
+    },
+    {
+     "en": "astronaut"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:beyond",
+    "edge:astronaut>beyond",
+    "focus:beyond"
+   ],
+   "parts": [
+    {
+     "zh": "宇航员飞得很高，到了天空之外："
+    },
+    {
+     "en": "beyond"
+    },
+    {
+     "en": "beyond the sky"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:sky",
+    "edge:beyond>sky",
+    "focus:sky"
+   ],
+   "parts": [
+    {
+     "zh": "天空，英语是"
+    },
+    {
+     "en": "sky"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:star",
+    "edge:sky>star",
+    "focus:star"
+   ],
+   "parts": [
+    {
+     "zh": "天空里一闪一闪的星星："
+    },
+    {
+     "en": "star"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:require",
+    "edge:space>require",
+    "focus:require"
+   ],
+   "parts": [
+    {
+     "zh": "去太空，需要很多东西："
+    },
+    {
+     "en": "require"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:rocket",
+    "edge:require>rocket",
+    "focus:rocket"
+   ],
+   "parts": [
+    {
+     "zh": "最需要的，是一枚火箭："
+    },
+    {
+     "en": "rocket"
+    },
+    {
+     "en": "Going to space requires a rocket."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "我们一起倒数，发射火箭吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Ten, nine, eight…",
+     "cue": [
+      "focus:rocket"
+     ]
+    },
+    {
+     "en": "three, two, one…"
+    },
+    {
+     "en": "Blast off!",
+     "cue": [
+      "focus:space"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:space"
+   ],
+   "parts": [
+    {
+     "en": "space"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:planet"
+   ],
+   "parts": [
+    {
+     "en": "planet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:equator"
+   ],
+   "parts": [
+    {
+     "en": "equator"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:world"
+   ],
+   "parts": [
+    {
+     "en": "world"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:earth"
+   ],
+   "parts": [
+    {
+     "en": "Earth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:moon"
+   ],
+   "parts": [
+    {
+     "en": "moon"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:moonlight"
+   ],
+   "parts": [
+    {
+     "en": "moonlight"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:astronaut"
+   ],
+   "parts": [
+    {
+     "en": "astronaut"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:beyond"
+   ],
+   "parts": [
+    {
+     "en": "beyond"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:sky"
+   ],
+   "parts": [
+    {
+     "en": "sky"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:star"
+   ],
+   "parts": [
+    {
+     "en": "star"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:require"
+   ],
+   "parts": [
+    {
+     "en": "require"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:rocket"
+   ],
+   "parts": [
+    {
+     "en": "rocket"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！今天晚上，抬头看看天上的月亮和星星吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

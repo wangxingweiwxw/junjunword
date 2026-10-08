@@ -1,0 +1,702 @@
+{
+ "id": "ep103",
+ "title": "Internet",
+ "titleZh": "互联网",
+ "episode": "第 103 集",
+ "titleIcon": "internet",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "internet",
+   "word": "Internet",
+   "ipa": "/ˈɪntərnet/",
+   "zh": "互联网",
+   "icon": "internet",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    870,
+    470
+   ]
+  },
+  {
+   "id": "introduction",
+   "word": "introduction",
+   "ipa": "/ˌɪntrəˈdʌkʃn/",
+   "zh": "介绍",
+   "icon": "introduction",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    870,
+    150
+   ]
+  },
+  {
+   "id": "search",
+   "word": "search",
+   "ipa": "/sɜːrtʃ/",
+   "zh": "搜索",
+   "icon": "search",
+   "kind": "verb",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    1220,
+    150
+   ]
+  },
+  {
+   "id": "anything",
+   "word": "anything",
+   "ipa": "/ˈeniθɪŋ/",
+   "zh": "任何东西",
+   "icon": "anything",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    1570,
+    150
+   ]
+  },
+  {
+   "id": "nothing",
+   "word": "nothing",
+   "ipa": "/ˈnʌθɪŋ/",
+   "zh": "什么也没有",
+   "icon": "nothing",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    1570,
+    470
+   ]
+  },
+  {
+   "id": "agree",
+   "word": "agree",
+   "ipa": "/əˈɡriː/",
+   "zh": "同意",
+   "icon": "agree",
+   "kind": "verb",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    520,
+    150
+   ]
+  },
+  {
+   "id": "agreement",
+   "word": "agreement",
+   "ipa": "/əˈɡriːmənt/",
+   "zh": "一致；协议",
+   "icon": "agreement",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    170,
+    150
+   ]
+  },
+  {
+   "id": "disagree",
+   "word": "disagree",
+   "ipa": "/ˌdɪsəˈɡriː/",
+   "zh": "不同意",
+   "icon": "disagree",
+   "kind": "verb",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    520,
+    470
+   ]
+  },
+  {
+   "id": "disagreement",
+   "word": "disagreement",
+   "ipa": "/ˌdɪsəˈɡriːmənt/",
+   "zh": "分歧",
+   "icon": "disagreement",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    170,
+    470
+   ]
+  },
+  {
+   "id": "advertisement",
+   "word": "advertisement",
+   "ipa": "/ˌædvərˈtaɪzmənt/",
+   "zh": "广告",
+   "icon": "advertisement",
+   "alt": "ad",
+   "altLabel": "简称",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    520,
+    790
+   ]
+  },
+  {
+   "id": "advantage",
+   "word": "advantage",
+   "ipa": "/ədˈvæntɪdʒ/",
+   "zh": "优点",
+   "icon": "advantage",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    870,
+    790
+   ]
+  },
+  {
+   "id": "disadvantage",
+   "word": "disadvantage",
+   "ipa": "/ˌdɪsədˈvæntɪdʒ/",
+   "zh": "缺点",
+   "icon": "disadvantage",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1220,
+    790
+   ]
+  },
+  {
+   "id": "error",
+   "word": "error",
+   "ipa": "/ˈerər/",
+   "zh": "错误",
+   "icon": "error",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    1220,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "internet",
+   "to": "introduction"
+  },
+  {
+   "from": "internet",
+   "to": "agree"
+  },
+  {
+   "from": "internet",
+   "to": "disagree"
+  },
+  {
+   "from": "agree",
+   "to": "agreement",
+   "label": "+ment"
+  },
+  {
+   "from": "disagree",
+   "to": "disagreement",
+   "label": "+ment"
+  },
+  {
+   "from": "internet",
+   "to": "search"
+  },
+  {
+   "from": "search",
+   "to": "anything"
+  },
+  {
+   "from": "search",
+   "to": "nothing",
+   "dashed": true
+  },
+  {
+   "from": "internet",
+   "to": "advertisement"
+  },
+  {
+   "from": "internet",
+   "to": "advantage"
+  },
+  {
+   "from": "advantage",
+   "to": "disadvantage",
+   "label": "dis+"
+  },
+  {
+   "from": "internet",
+   "to": "error"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！上网可以查资料、看新闻。今天，我们来学和互联网有关的单词。"
+    },
+    {
+     "en": "Internet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:internet",
+    "focus:internet"
+   ],
+   "parts": [
+    {
+     "zh": "连接全世界电脑的网络，是互联网："
+    },
+    {
+     "en": "Internet"
+    },
+    {
+     "zh": "它的开头要大写哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:introduction",
+    "edge:internet>introduction",
+    "focus:introduction"
+   ],
+   "parts": [
+    {
+     "zh": "网站上的介绍："
+    },
+    {
+     "en": "introduction"
+    },
+    {
+     "zh": "自我介绍，就是 self-introduction。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:search",
+    "edge:internet>search",
+    "focus:search"
+   ],
+   "parts": [
+    {
+     "zh": "在网上搜索："
+    },
+    {
+     "en": "search"
+    },
+    {
+     "en": "Search on the Internet."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:anything",
+    "edge:search>anything",
+    "focus:anything"
+   ],
+   "parts": [
+    {
+     "zh": "在网上，几乎能搜到任何东西。任何，加上东西："
+    },
+    {
+     "en": "any"
+    },
+    {
+     "en": "thing"
+    },
+    {
+     "en": "anything"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:nothing",
+    "edge:search>nothing",
+    "focus:nothing"
+   ],
+   "parts": [
+    {
+     "zh": "有时候，什么也找不到。没有，加上东西："
+    },
+    {
+     "en": "no"
+    },
+    {
+     "en": "thing"
+    },
+    {
+     "en": "nothing"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:agree",
+    "edge:internet>agree",
+    "focus:agree"
+   ],
+   "parts": [
+    {
+     "zh": "网上大家会讨论。同意，英语是"
+    },
+    {
+     "en": "agree"
+    },
+    {
+     "en": "I agree with you."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:agreement",
+    "edge:agree>agreement",
+    "focus:agreement"
+   ],
+   "parts": [
+    {
+     "zh": "加上 m e n t，就是意见一致、协议："
+    },
+    {
+     "en": "agreement"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:disagree",
+    "edge:internet>disagree",
+    "focus:disagree"
+   ],
+   "parts": [
+    {
+     "zh": "不同意，前面加 d i s："
+    },
+    {
+     "en": "disagree"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:disagreement",
+    "edge:disagree>disagreement",
+    "focus:disagreement"
+   ],
+   "parts": [
+    {
+     "zh": "意见不一样，就是分歧："
+    },
+    {
+     "en": "disagreement"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:advertisement",
+    "edge:internet>advertisement",
+    "focus:advertisement"
+   ],
+   "parts": [
+    {
+     "zh": "网页上弹出来的广告："
+    },
+    {
+     "en": "advertisement"
+    },
+    {
+     "zh": "简称是",
+     "cue": [
+      "alt:advertisement"
+     ]
+    },
+    {
+     "en": "ad"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:advantage",
+    "edge:internet>advantage",
+    "focus:advantage"
+   ],
+   "parts": [
+    {
+     "zh": "互联网有很多优点："
+    },
+    {
+     "en": "advantage"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:disadvantage",
+    "edge:advantage>disadvantage",
+    "focus:disadvantage"
+   ],
+   "parts": [
+    {
+     "zh": "也有缺点，前面加 d i s："
+    },
+    {
+     "en": "disadvantage"
+    },
+    {
+     "zh": "比如，上网太久会伤眼睛。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:error",
+    "edge:internet>error",
+    "focus:error"
+   ],
+   "parts": [
+    {
+     "zh": "网页打不开，出错了："
+    },
+    {
+     "en": "error"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:disagree,disadvantage"
+   ],
+   "parts": [
+    {
+     "zh": "今天的 d i s 家族："
+    },
+    {
+     "en": "agree, disagree",
+     "cue": [
+      "focus:agree,disagree"
+     ]
+    },
+    {
+     "en": "advantage, disadvantage",
+     "cue": [
+      "focus:advantage,disadvantage"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:internet"
+   ],
+   "parts": [
+    {
+     "en": "Internet"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:introduction"
+   ],
+   "parts": [
+    {
+     "en": "introduction"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:search"
+   ],
+   "parts": [
+    {
+     "en": "search"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:anything"
+   ],
+   "parts": [
+    {
+     "en": "anything"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:nothing"
+   ],
+   "parts": [
+    {
+     "en": "nothing"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:agree"
+   ],
+   "parts": [
+    {
+     "en": "agree"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:agreement"
+   ],
+   "parts": [
+    {
+     "en": "agreement"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:disagree"
+   ],
+   "parts": [
+    {
+     "en": "disagree"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:disagreement"
+   ],
+   "parts": [
+    {
+     "en": "disagreement"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:advertisement"
+   ],
+   "parts": [
+    {
+     "en": "advertisement, ad"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:advantage"
+   ],
+   "parts": [
+    {
+     "en": "advantage"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:disadvantage"
+   ],
+   "parts": [
+    {
+     "en": "disadvantage"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:error"
+   ],
+   "parts": [
+    {
+     "en": "error"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！上网要有节制，每次不要太久哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,608 @@
+{
+ "id": "ep100",
+ "title": "government",
+ "titleZh": "政府",
+ "episode": "第 100 集",
+ "titleIcon": "government",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "government",
+   "word": "government",
+   "ipa": "/ˈɡʌvərnmənt/",
+   "zh": "政府",
+   "icon": "government",
+   "alt": "govern",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "agency",
+   "word": "agency",
+   "ipa": "/ˈeɪdʒənsi/",
+   "zh": "机构；中介",
+   "icon": "agency",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "leader",
+   "word": "leader",
+   "ipa": "/ˈliːdər/",
+   "zh": "领导者",
+   "icon": "leader",
+   "alt": "lead",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "chairman",
+   "word": "chairman",
+   "ipa": "/ˈtʃermən/",
+   "zh": "主席",
+   "icon": "chairman",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "minister",
+   "word": "minister",
+   "ipa": "/ˈmɪnɪstər/",
+   "zh": "部长",
+   "icon": "minister",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "consider",
+   "word": "consider",
+   "ipa": "/kənˈsɪdər/",
+   "zh": "仔细考虑",
+   "icon": "consider",
+   "kind": "verb",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "decide",
+   "word": "decide",
+   "ipa": "/dɪˈsaɪd/",
+   "zh": "决定",
+   "icon": "decide",
+   "kind": "verb",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "decision",
+   "word": "decision",
+   "ipa": "/dɪˈsɪʒn/",
+   "zh": "决定（名词）",
+   "icon": "decision",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "development",
+   "word": "development",
+   "ipa": "/dɪˈveləpmənt/",
+   "zh": "发展",
+   "icon": "development",
+   "alt": "develop",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "progress",
+   "word": "progress",
+   "ipa": "/ˈprɑːɡres/",
+   "zh": "进步",
+   "icon": "progress",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  },
+  {
+   "id": "role",
+   "word": "role",
+   "ipa": "/roʊl/",
+   "zh": "角色；作用",
+   "icon": "role",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "government",
+   "to": "agency"
+  },
+  {
+   "from": "government",
+   "to": "leader"
+  },
+  {
+   "from": "government",
+   "to": "chairman"
+  },
+  {
+   "from": "government",
+   "to": "minister"
+  },
+  {
+   "from": "government",
+   "to": "consider"
+  },
+  {
+   "from": "consider",
+   "to": "decide"
+  },
+  {
+   "from": "decide",
+   "to": "decision"
+  },
+  {
+   "from": "government",
+   "to": "development"
+  },
+  {
+   "from": "development",
+   "to": "progress",
+   "dashed": true
+  },
+  {
+   "from": "government",
+   "to": "role"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！一个国家，是谁在管理呢？今天，我们来学和政府有关的单词。"
+    },
+    {
+     "en": "government"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:government",
+    "focus:government"
+   ],
+   "parts": [
+    {
+     "zh": "管理国家的，是政府。管理是 govern，加上 m e n t："
+    },
+    {
+     "en": "govern"
+    },
+    {
+     "en": "government"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:agency",
+    "edge:government>agency",
+    "focus:agency"
+   ],
+   "parts": [
+    {
+     "zh": "政府下面有很多机构："
+    },
+    {
+     "en": "agency"
+    },
+    {
+     "zh": "它也有中介的意思，比如旅行社："
+    },
+    {
+     "en": "travel agency"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:leader",
+    "edge:government>leader",
+    "focus:leader"
+   ],
+   "parts": [
+    {
+     "zh": "带领大家的人，是领导者。带领是 lead，加上 e r："
+    },
+    {
+     "en": "lead"
+    },
+    {
+     "en": "leader"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:chairman",
+    "edge:government>chairman",
+    "focus:chairman"
+   ],
+   "parts": [
+    {
+     "zh": "开会时坐在主位的人，是主席。椅子，加上男人："
+    },
+    {
+     "en": "chair"
+    },
+    {
+     "en": "man"
+    },
+    {
+     "en": "chairman"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:minister",
+    "edge:government>minister",
+    "focus:minister"
+   ],
+   "parts": [
+    {
+     "zh": "管理一个部门的官员，是部长："
+    },
+    {
+     "en": "minister"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:consider",
+    "edge:government>consider",
+    "focus:consider"
+   ],
+   "parts": [
+    {
+     "zh": "做事之前，要仔细考虑："
+    },
+    {
+     "en": "consider"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:decide",
+    "edge:consider>decide",
+    "focus:decide"
+   ],
+   "parts": [
+    {
+     "zh": "考虑好了，就做出决定："
+    },
+    {
+     "en": "decide"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:decision",
+    "edge:decide>decision",
+    "focus:decision"
+   ],
+   "parts": [
+    {
+     "zh": "决定这件事，把 d e 换成 s i o n："
+    },
+    {
+     "en": "decision"
+    },
+    {
+     "en": "a good decision"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:development",
+    "edge:government>development",
+    "focus:development"
+   ],
+   "parts": [
+    {
+     "zh": "国家一天天发展。发展是 develop，加上 m e n t："
+    },
+    {
+     "en": "develop"
+    },
+    {
+     "en": "development"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:progress",
+    "edge:development>progress",
+    "focus:progress"
+   ],
+   "parts": [
+    {
+     "zh": "一步一步向前，是进步："
+    },
+    {
+     "en": "progress"
+    },
+    {
+     "en": "Our country makes great progress."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:role",
+    "edge:government>role",
+    "focus:role"
+   ],
+   "parts": [
+    {
+     "zh": "每个人都有自己的角色和作用："
+    },
+    {
+     "en": "role"
+    },
+    {
+     "en": "Everyone plays a role."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:government,development"
+   ],
+   "parts": [
+    {
+     "zh": "今天有两个 m e n t 结尾的词："
+    },
+    {
+     "en": "govern, government",
+     "cue": [
+      "focus:government"
+     ]
+    },
+    {
+     "en": "develop, development",
+     "cue": [
+      "focus:development"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:government"
+   ],
+   "parts": [
+    {
+     "en": "government"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:agency"
+   ],
+   "parts": [
+    {
+     "en": "agency"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:leader"
+   ],
+   "parts": [
+    {
+     "en": "leader"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:chairman"
+   ],
+   "parts": [
+    {
+     "en": "chairman"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:minister"
+   ],
+   "parts": [
+    {
+     "en": "minister"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:consider"
+   ],
+   "parts": [
+    {
+     "en": "consider"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:decide"
+   ],
+   "parts": [
+    {
+     "en": "decide"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:decision"
+   ],
+   "parts": [
+    {
+     "en": "decision"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:development"
+   ],
+   "parts": [
+    {
+     "en": "development"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:progress"
+   ],
+   "parts": [
+    {
+     "en": "progress"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:role"
+   ],
+   "parts": [
+    {
+     "en": "role"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！在班级里，你也可以当一个好的小领导者哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

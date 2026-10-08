@@ -1,0 +1,602 @@
+{
+ "duration": 119.038,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！手机能打电话、发消息、拍照片。今天，我们来学和手机有关的单词。",
+   "t0": 0.4,
+   "t1": 9.046,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "phone",
+   "t0": 9.296,
+   "t1": 9.725,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "电话、手机，英语是",
+   "t0": 10.825,
+   "t1": 12.997,
+   "cue": [
+    "map",
+    "show:phone",
+    "focus:phone"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "phone",
+   "t0": 13.247,
+   "t1": 13.676,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "它的全称是",
+   "t0": 14.176,
+   "t1": 15.182,
+   "cue": [
+    "alt:phone"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "telephone",
+   "t0": 15.432,
+   "t1": 16.203,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "手机是电子产品。电子的，英语是",
+   "t0": 17.303,
+   "t1": 21.179,
+   "cue": [
+    "show:electronic",
+    "edge:electronic>phone",
+    "focus:electronic"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "electronic",
+   "t0": 21.429,
+   "t1": 22.341,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "手机亮亮的屏幕：",
+   "t0": 23.441,
+   "t1": 24.866,
+   "cue": [
+    "show:screen",
+    "edge:phone>screen",
+    "focus:screen"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "screen",
+   "t0": 25.116,
+   "t1": 25.709,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "好友发来一个请求：",
+   "t0": 26.809,
+   "t1": 28.295,
+   "cue": [
+    "show:request",
+    "edge:phone>request",
+    "focus:request"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "request",
+   "t0": 28.545,
+   "t1": 29.289,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "同意了，就是接受：",
+   "t0": 30.389,
+   "t1": 32.112,
+   "cue": [
+    "show:accept",
+    "edge:request>accept",
+    "focus:accept"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "accept",
+   "t0": 32.362,
+   "t1": 32.986,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "不同意，就是拒绝：",
+   "t0": 34.086,
+   "t1": 35.824,
+   "cue": [
+    "show:refuse",
+    "edge:request>refuse",
+    "focus:refuse"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "refuse",
+   "t0": 36.074,
+   "t1": 36.811,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "陌生人的请求，要学会拒绝哦。",
+   "t0": 37.311,
+   "t1": 39.82,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "手机上的消息：",
+   "t0": 40.67,
+   "t1": 41.906,
+   "cue": [
+    "show:message",
+    "edge:phone>message",
+    "focus:message"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "message",
+   "t0": 42.156,
+   "t1": 42.87,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "收到一条消息：",
+   "t0": 43.97,
+   "t1": 45.185,
+   "cue": [
+    "show:receive",
+    "edge:message>receive",
+    "focus:receive"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "receive",
+   "t0": 45.435,
+   "t1": 46.055,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "小提示：e i 读长长的 ee。",
+   "t0": 46.555,
+   "t1": 49.133,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "收到了，要回复：",
+   "t0": 49.983,
+   "t1": 51.541,
+   "cue": [
+    "show:reply",
+    "edge:receive>reply",
+    "focus:reply"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "reply",
+   "t0": 51.791,
+   "t1": 52.465,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "Please reply soon.",
+   "t0": 52.965,
+   "t1": 54.143,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "重要的东西，保存好：",
+   "t0": 55.243,
+   "t1": 57.095,
+   "cue": [
+    "show:save",
+    "edge:phone>save",
+    "focus:save"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "save",
+   "t0": 57.345,
+   "t1": 57.766,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "不要的东西，删除掉：",
+   "t0": 58.866,
+   "t1": 60.731,
+   "cue": [
+    "show:delete",
+    "edge:save>delete",
+    "focus:delete"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "delete",
+   "t0": 60.981,
+   "t1": 61.501,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "用手机拍的视频，也能保存下来：",
+   "t0": 62.601,
+   "t1": 65.478,
+   "cue": [
+    "show:video",
+    "edge:save>video",
+    "focus:video"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "video",
+   "t0": 65.728,
+   "t1": 66.348,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "还有拍的照片：",
+   "t0": 67.448,
+   "t1": 68.598,
+   "cue": [
+    "show:picture",
+    "edge:video>picture",
+    "focus:picture"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "picture",
+   "t0": 68.848,
+   "t1": 69.42,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "还记得第二十九集的 photo 吗？",
+   "t0": 69.92,
+   "t1": 72.026,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "接受和拒绝：",
+   "t0": 72.876,
+   "t1": 74.034,
+   "cue": [
+    "focus:accept,refuse"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "accept",
+   "t0": 74.284,
+   "t1": 74.908,
+   "cue": [
+    "focus:accept"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "refuse",
+   "t0": 75.408,
+   "t1": 76.145,
+   "cue": [
+    "focus:refuse"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "保存和删除：",
+   "t0": 77.245,
+   "t1": 78.385,
+   "cue": [
+    "focus:delete,save"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "save",
+   "t0": 78.635,
+   "t1": 79.056,
+   "cue": [
+    "focus:save"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "delete",
+   "t0": 79.556,
+   "t1": 80.076,
+   "cue": [
+    "focus:delete"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 81.176,
+   "t1": 84.427,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "phone, telephone",
+   "t0": 85.277,
+   "t1": 86.63,
+   "cue": [
+    "focus:phone"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "electronic",
+   "t0": 87.73,
+   "t1": 88.641,
+   "cue": [
+    "focus:electronic"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "screen",
+   "t0": 89.741,
+   "t1": 90.334,
+   "cue": [
+    "focus:screen"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "request",
+   "t0": 91.434,
+   "t1": 92.178,
+   "cue": [
+    "focus:request"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "accept",
+   "t0": 93.278,
+   "t1": 93.902,
+   "cue": [
+    "focus:accept"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "refuse",
+   "t0": 95.002,
+   "t1": 95.739,
+   "cue": [
+    "focus:refuse"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "message",
+   "t0": 96.839,
+   "t1": 97.553,
+   "cue": [
+    "focus:message"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "receive",
+   "t0": 98.653,
+   "t1": 99.273,
+   "cue": [
+    "focus:receive"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "reply",
+   "t0": 100.373,
+   "t1": 101.048,
+   "cue": [
+    "focus:reply"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "save",
+   "t0": 102.148,
+   "t1": 102.569,
+   "cue": [
+    "focus:save"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "delete",
+   "t0": 103.669,
+   "t1": 104.189,
+   "cue": [
+    "focus:delete"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "video",
+   "t0": 105.289,
+   "t1": 105.909,
+   "cue": [
+    "focus:video"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "picture",
+   "t0": 107.009,
+   "t1": 107.581,
+   "cue": [
+    "focus:picture"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！玩手机要有时间限制，保护好眼睛哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 108.681,
+   "t1": 117.188,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "phone": [
+   0.25,
+   0.679
+  ],
+  "phone:alt": [
+   0.929,
+   1.7
+  ],
+  "electronic": [
+   1.95,
+   2.861
+  ],
+  "screen": [
+   3.111,
+   3.704
+  ],
+  "request": [
+   3.954,
+   4.697
+  ],
+  "accept": [
+   4.947,
+   5.571
+  ],
+  "refuse": [
+   5.821,
+   6.559
+  ],
+  "message": [
+   6.809,
+   7.523
+  ],
+  "receive": [
+   7.773,
+   8.393
+  ],
+  "reply": [
+   8.643,
+   9.317
+  ],
+  "delete": [
+   9.567,
+   10.088
+  ],
+  "save": [
+   10.338,
+   10.759
+  ],
+  "video": [
+   11.009,
+   11.628
+  ],
+  "picture": [
+   11.878,
+   12.451
+  ]
+ }
+}

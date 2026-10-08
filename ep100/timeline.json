@@ -1,0 +1,542 @@
+{
+ "duration": 126.454,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！一个国家，是谁在管理呢？今天，我们来学和政府有关的单词。",
+   "t0": 0.4,
+   "t1": 8.124,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "government",
+   "t0": 8.374,
+   "t1": 9.073,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "管理国家的，是政府。管理是 govern，加上 m e n t：",
+   "t0": 10.173,
+   "t1": 15.583,
+   "cue": [
+    "map",
+    "show:government",
+    "focus:government"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "govern",
+   "t0": 15.833,
+   "t1": 16.323,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "government",
+   "t0": 16.823,
+   "t1": 17.521,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "政府下面有很多机构：",
+   "t0": 18.621,
+   "t1": 20.398,
+   "cue": [
+    "show:agency",
+    "edge:government>agency",
+    "focus:agency"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "agency",
+   "t0": 20.648,
+   "t1": 21.372,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "它也有中介的意思，比如旅行社：",
+   "t0": 21.872,
+   "t1": 24.633,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "travel agency",
+   "t0": 24.883,
+   "t1": 26.005,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "带领大家的人，是领导者。带领是 lead，加上 e r：",
+   "t0": 27.105,
+   "t1": 32.109,
+   "cue": [
+    "show:leader",
+    "edge:government>leader",
+    "focus:leader"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "lead",
+   "t0": 32.359,
+   "t1": 32.823,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "leader",
+   "t0": 33.323,
+   "t1": 33.795,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "开会时坐在主位的人，是主席。椅子，加上男人：",
+   "t0": 34.895,
+   "t1": 40.244,
+   "cue": [
+    "show:chairman",
+    "edge:government>chairman",
+    "focus:chairman"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "chair",
+   "t0": 40.494,
+   "t1": 40.92,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "man",
+   "t0": 41.42,
+   "t1": 41.88,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "chairman",
+   "t0": 42.38,
+   "t1": 42.95,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "管理一个部门的官员，是部长：",
+   "t0": 44.05,
+   "t1": 46.472,
+   "cue": [
+    "show:minister",
+    "edge:government>minister",
+    "focus:minister"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "minister",
+   "t0": 46.722,
+   "t1": 47.425,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "做事之前，要仔细考虑：",
+   "t0": 48.525,
+   "t1": 50.67,
+   "cue": [
+    "show:consider",
+    "edge:government>consider",
+    "focus:consider"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "consider",
+   "t0": 50.92,
+   "t1": 51.571,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "考虑好了，就做出决定：",
+   "t0": 52.671,
+   "t1": 54.74,
+   "cue": [
+    "show:decide",
+    "edge:consider>decide",
+    "focus:decide"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "decide",
+   "t0": 54.99,
+   "t1": 55.593,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "决定这件事，把 d e 换成 s i o n：",
+   "t0": 56.693,
+   "t1": 60.262,
+   "cue": [
+    "show:decision",
+    "edge:decide>decision",
+    "focus:decision"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "decision",
+   "t0": 60.512,
+   "t1": 61.216,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "a good decision",
+   "t0": 61.716,
+   "t1": 62.724,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "国家一天天发展。发展是 develop，加上 m e n t：",
+   "t0": 63.824,
+   "t1": 69.165,
+   "cue": [
+    "show:development",
+    "edge:government>development",
+    "focus:development"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "develop",
+   "t0": 69.415,
+   "t1": 69.985,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "development",
+   "t0": 70.485,
+   "t1": 71.311,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "一步一步向前，是进步：",
+   "t0": 72.411,
+   "t1": 74.494,
+   "cue": [
+    "show:progress",
+    "edge:development>progress",
+    "focus:progress"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "progress",
+   "t0": 74.744,
+   "t1": 75.496,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Our country makes great progress.",
+   "t0": 75.996,
+   "t1": 78.059,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "每个人都有自己的角色和作用：",
+   "t0": 79.159,
+   "t1": 81.577,
+   "cue": [
+    "show:role",
+    "edge:government>role",
+    "focus:role"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "role",
+   "t0": 81.827,
+   "t1": 82.271,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Everyone plays a role.",
+   "t0": 82.771,
+   "t1": 84.173,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "今天有两个 m e n t 结尾的词：",
+   "t0": 85.273,
+   "t1": 87.92,
+   "cue": [
+    "focus:government,development"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "govern, government",
+   "t0": 88.17,
+   "t1": 89.537,
+   "cue": [
+    "focus:government"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "develop, development",
+   "t0": 90.037,
+   "t1": 91.647,
+   "cue": [
+    "focus:development"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 92.747,
+   "t1": 95.998,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "government",
+   "t0": 96.848,
+   "t1": 97.546,
+   "cue": [
+    "focus:government"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "agency",
+   "t0": 98.646,
+   "t1": 99.371,
+   "cue": [
+    "focus:agency"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "leader",
+   "t0": 100.471,
+   "t1": 100.943,
+   "cue": [
+    "focus:leader"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "chairman",
+   "t0": 102.043,
+   "t1": 102.614,
+   "cue": [
+    "focus:chairman"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "minister",
+   "t0": 103.714,
+   "t1": 104.417,
+   "cue": [
+    "focus:minister"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "consider",
+   "t0": 105.517,
+   "t1": 106.168,
+   "cue": [
+    "focus:consider"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "decide",
+   "t0": 107.268,
+   "t1": 107.871,
+   "cue": [
+    "focus:decide"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "decision",
+   "t0": 108.971,
+   "t1": 109.675,
+   "cue": [
+    "focus:decision"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "development",
+   "t0": 110.775,
+   "t1": 111.601,
+   "cue": [
+    "focus:development"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "progress",
+   "t0": 112.701,
+   "t1": 113.452,
+   "cue": [
+    "focus:progress"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "role",
+   "t0": 114.552,
+   "t1": 114.996,
+   "cue": [
+    "focus:role"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "zh",
+   "text": "太棒了！在班级里，你也可以当一个好的小领导者哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 116.096,
+   "t1": 124.604,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "government": [
+   0.25,
+   0.949
+  ],
+  "government:alt": [
+   1.199,
+   1.688
+  ],
+  "agency": [
+   1.938,
+   2.663
+  ],
+  "leader": [
+   2.913,
+   3.385
+  ],
+  "leader:alt": [
+   3.635,
+   4.099
+  ],
+  "chairman": [
+   4.349,
+   4.92
+  ],
+  "minister": [
+   5.17,
+   5.873
+  ],
+  "consider": [
+   6.123,
+   6.774
+  ],
+  "decide": [
+   7.024,
+   7.627
+  ],
+  "decision": [
+   7.877,
+   8.581
+  ],
+  "development": [
+   8.831,
+   9.657
+  ],
+  "development:alt": [
+   9.907,
+   10.478
+  ],
+  "progress": [
+   10.728,
+   11.479
+  ],
+  "role": [
+   11.729,
+   12.173
+  ]
+ }
+}

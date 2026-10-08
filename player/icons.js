@@ -3105,6 +3105,125 @@
        + star(98, 24, 10, 4, '#FFD23F'),
   });
 
+  const laptop = (inner = '', c = '#7FC8F8') => `<rect x="22" y="22" width="76" height="54" rx="5" fill="#2B2D42"/><rect x="27" y="27" width="66" height="44" rx="2" fill="${c}"/>
+      <path d="M10 82 h100 l-8 12 h-84z" fill="#8A8FA3"/><rect x="48" y="84" width="24" height="4" rx="2" fill="#6B7085"/>${inner}`;
+  const phoneA = (inner = '', c = '#BDE7FF') => `<rect x="34" y="8" width="52" height="104" rx="10" fill="#2B2D42"/><rect x="39" y="20" width="42" height="78" rx="3" fill="${c}"/>
+      <rect x="52" y="12" width="16" height="4" rx="2" fill="#6B7085"/><circle cx="60" cy="105" r="3.5" fill="#6B7085"/>${inner}`;
+  const planetA = (x, y, r, c, ring = '#FFB703') => `<ellipse cx="${x}" cy="${y}" rx="${r * 1.7}" ry="${r * .45}" fill="none" stroke="${ring}" stroke-width="${r * .18}" transform="rotate(-18 ${x} ${y})"/>
+      <circle cx="${x}" cy="${y}" r="${r}" fill="${c}"/><path d="M${x - r * 1.6} ${y + r * .3} A${r * 1.7} ${r * .45} 0 0 0 ${x + r * 1.6} ${y - r * .3}" stroke="${ring}" stroke-width="${r * .18}" fill="none" transform="rotate(-18 ${x} ${y})"/>`;
+  const earthA = (x, y, r) => `<circle cx="${x}" cy="${y}" r="${r}" fill="#3D8BFD"/><path d="M${x - r * .6} ${y - r * .5} q${r * .4} -${r * .2} ${r * .6} ${r * .2} q-${r * .1} ${r * .4} ${r * .3} ${r * .6} q${r * .2} ${r * .4} -${r * .3} ${r * .6} q-${r * .5} 0 -${r * .6} -${r * .6}z M${x + r * .3} ${y - r * .6} q${r * .4} 0 ${r * .5} ${r * .4} q-${r * .3} ${r * .2} -${r * .5} -${r * .4}z" fill="#6CCB5F"/>`;
+  const boombox = (label = '') => `<rect x="8" y="40" width="104" height="62" rx="10" fill="#6B7085"/><path d="M28 40 L36 18 H84 L92 40" stroke="#2B2D42" stroke-width="4" fill="none"/>
+      <circle cx="32" cy="74" r="16" fill="#2B2D42"/><circle cx="32" cy="74" r="7" fill="#8A8FA3"/><circle cx="88" cy="74" r="16" fill="#2B2D42"/><circle cx="88" cy="74" r="7" fill="#8A8FA3"/>
+      <rect x="50" y="52" width="20" height="12" rx="2" fill="#BDE7FF"/>${label}`;
+  Object.assign(ART, {
+    // ---------- ep100 government ----------
+    government: () => `<path d="M10 44 L60 14 L110 44Z" fill="#C5CBE0"/><rect x="14" y="44" width="92" height="8" fill="#8A8FA3"/>${[24, 42, 60, 78, 96].map(x => `<rect x="${x - 5}" y="54" width="10" height="44" fill="#E3E6F5"/>`).join('')}
+       <rect x="8" y="98" width="104" height="12" fill="#8A8FA3"/><path d="M60 14 V2" stroke="#8A8FA3" stroke-width="2"/><path d="M60 2 h14 l-4 4 l4 4 h-14z" fill="#E63946"/>`,
+    agency: () => building(18, 40, 84, 68, '#E3F4FF', '#5A67D8', 'AGENCY') + `<rect x="18" y="40" width="84" height="68" fill="none" stroke="#C5CBE0" stroke-width="2"/>`,
+    leader: () => [[24, '#C5CBE0'], [96, '#C5CBE0']].map(([x, c]) => `<circle cx="${x}" cy="74" r="9" fill="${SKIN[0]}"/><path d="M${x - 13} 104 a13 13 0 0 1 26 0z" fill="${c}"/>`).join('')
+       + person('man', {shirt: '#E63946'}, 14, 6, .76) + `<path d="M84 30 V8 l14 6 l-14 6" fill="#FFD23F" stroke="#E0A100" stroke-width="2"/>`,
+    chairman: () => `<rect x="8" y="80" width="104" height="10" rx="3" fill="#C9934A"/>` + person('man', {shirt: '#2B2D42'}, 14, -2, .76)
+       + `<rect x="46" y="70" width="28" height="12" rx="2" fill="#fff" stroke="#C5CBE0" stroke-width="1.5"/><text x="60" y="80" text-anchor="middle" font-size="7" ${FONT} fill="${INK}">CHAIR</text>`,
+    minister: () => figure('woman', {shirt: '#3D5A80'}) + `<rect x="78" y="80" width="30" height="20" rx="3" fill="#8D5A3B"/><path d="M86 80 v-5 h14 v5" stroke="#6B4A36" stroke-width="3" fill="none"/>`,
+    consider: () => `<g transform="translate(-16 22) scale(.84)">${figure('girl', {shirt: '#9B5DE5'})}</g>` + thought(84, 30, 56, 44, `<text x="-10" y="8" text-anchor="middle" font-size="16" ${FONT} fill="#2FA36B">A</text><text x="12" y="8" text-anchor="middle" font-size="16" ${FONT} fill="#3D8BFD">B</text>`),
+    decide: () => [[30, '#2FA36B'], [90, '#C5CBE0']].map(([x, c], i) => `<rect x="${x - 22}" y="30" width="44" height="44" rx="10" fill="${c}"/><text x="${x}" y="61" text-anchor="middle" font-size="24" ${FONT} fill="#fff">${'AB'[i]}</text>`).join('')
+       + check(30, 98, 1.3) + hand(76, 104, .55, -30, SKIN[0]),
+    decision: () => `<rect x="20" y="20" width="80" height="80" rx="12" fill="#fff" stroke="#5A67D8" stroke-width="4"/>` + check(60, 60, 2.2, '#5A67D8') + `<path d="M84 96 l14 14" stroke="#2B2D42" stroke-width="0"/>`,
+    development: () => [0, 1, 2, 3].map(i => `<g transform="translate(${8 + i * 26} ${70 - i * 16}) scale(${.3 + i * .08})">${ART.plant()}</g>`).join('') + arrowTo(10, 110, 108, 110, '#8A8FA3', 3),
+    progress: () => `<rect x="10" y="48" width="100" height="24" rx="12" fill="#E3E6F5"/><rect x="10" y="48" width="70" height="24" rx="12" fill="#2FA36B"/>` + arrowTo(30, 30, 90, 30, '#2FA36B', 4)
+       + `<text x="60" y="98" text-anchor="middle" font-size="14" ${FONT} fill="#2FA36B">70%</text>`,
+    role: () => ART.show().replace(/'#FFB703'/g, "'#FF6FA5'") + `<rect x="78" y="10" width="34" height="20" rx="3" fill="#fff" stroke="#C5CBE0" stroke-width="2"/><text x="95" y="24" text-anchor="middle" font-size="10" ${FONT} fill="${INK}">ROLE</text>`,
+
+    // ---------- ep101 news ----------
+    news: () => `<rect x="14" y="20" width="92" height="66" rx="8" fill="#2B2D42"/><rect x="20" y="26" width="80" height="54" rx="3" fill="#BDE7FF"/>
+       <circle cx="44" cy="46" r="9" fill="${SKIN[0]}"/><path d="M32 70 a12 10 0 0 1 24 0z" fill="#3D8BFD"/><rect x="62" y="38" width="32" height="20" rx="2" fill="#fff"/>
+       <rect x="20" y="66" width="80" height="10" fill="#E63946"/><text x="60" y="74" text-anchor="middle" font-size="7" ${FONT} fill="#fff">NEWS</text><path d="M44 86 l-6 20 M76 86 l6 20" stroke="#2B2D42" stroke-width="4"/>`,
+    information: () => laptop(`<circle cx="60" cy="48" r="13" fill="#3D8BFD"/><text x="60" y="54" text-anchor="middle" font-size="16" ${FONT} fill="#fff">i</text>`),
+    interesting: () => person('girl', {shirt: '#FFB703'}, -14, 22, .84) + `<g transform="translate(62 46) scale(.42)">${ART.book()}</g>` + star(98, 22, 10, 4, '#FFD23F') + `<text x="84" y="30" font-size="16" ${FONT} fill="#FF7A59">!</text>`,
+    happen: () => `<circle cx="60" cy="60" r="40" fill="#FFF3C4"/>` + bolt(60, 60, 1.6) + `<path d="M20 20 l10 10 M100 20 l-10 10 M20 100 l10 -10 M100 100 l-10 -10" stroke="#FFB703" stroke-width="4" stroke-linecap="round"/>`,
+    event: () => calPage('EVENT', '', '#FF6FA5') + star(60, 76, 18, 7.5, '#FFD23F'),
+    earthquake: () => `<path d="M8 100 H112" stroke="#8D5A3B" stroke-width="5"/><path d="M50 100 l6 -10 l-6 -6 l8 -10" stroke="#5A3825" stroke-width="3" fill="none"/>`
+       + `<g transform="rotate(-8 60 70)">${building(32, 44, 56, 52, '#E9A66B', '#C1440E')}</g>` + `<path d="M14 60 q-6 -8 0 -16 M106 60 q6 -8 0 -16 M20 80 q-6 -6 0 -12" stroke="#8A8FA3" stroke-width="3.5" fill="none" stroke-linecap="round"/>`,
+    reporter: () => figure('woman', {shirt: '#E63946'}) + `<rect x="74" y="66" width="10" height="34" rx="3" fill="#2B2D42" transform="rotate(-25 79 83)"/><circle cx="86" cy="62" r="10" fill="#6B7085"/>`,
+    report: () => `<rect x="24" y="14" width="72" height="96" rx="6" fill="#fff" stroke="#C5CBE0" stroke-width="3"/><rect x="44" y="8" width="32" height="14" rx="4" fill="#8A8FA3"/>
+       <text x="60" y="40" text-anchor="middle" font-size="12" ${FONT} fill="#E63946">REPORT</text>${lines([54, 66, 78, 90], 34, 52)}`,
+    exposure: () => `<rect x="4" y="4" width="112" height="112" rx="18" fill="#2B2D42"/><path d="M60 4 L14 116 H106Z" fill="#FFF3C4" opacity=".5"/>` + person('child', {shirt: '#FF9F1C'}, 22, 30, .64)
+       + `<g transform="translate(78 8) scale(.3)">${ART.camera()}</g>`,
+    recorder: () => boombox(`<circle cx="60" cy="88" r="5" fill="#E63946"/>`),
+
+    // ---------- ep102 space ----------
+    space: () => `<rect x="4" y="4" width="112" height="112" rx="18" fill="#1B1D4A"/>` + twinkles([[18, 20, 4], [100, 18, 5], [30, 96, 4], [96, 92, 5], [60, 14, 3]]) + planetA(60, 60, 18, '#FF9F1C'),
+    planet: () => planetA(60, 60, 26, '#E9A66B'),
+    equator: () => earthA(60, 60, 44) + `<ellipse cx="60" cy="60" rx="46" ry="10" fill="none" stroke="#E63946" stroke-width="4"/>`,
+    world: () => ART.international(),
+    earth: () => earthA(60, 60, 44) + `<circle cx="60" cy="60" r="44" fill="none" stroke="#2A6FD6" stroke-width="3"/>`,
+    star: () => star(60, 60, 42, 18, '#FFD23F') + star(100, 22, 8, 3.4, '#FFB703') + star(20, 100, 7, 3, '#FFB703'),
+    sky: () => `<rect x="4" y="4" width="112" height="112" rx="18" fill="#7FC8F8"/>` + cloud(40, 44, .9) + cloud(86, 76, .7) + sun(92, 26, 9),
+    astronaut: () => `<circle cx="60" cy="40" r="26" fill="#fff" stroke="#C5CBE0" stroke-width="3"/><rect x="42" y="30" width="36" height="22" rx="10" fill="#2B2D42"/><path d="M48 36 q6 -4 12 0" stroke="#7FC8F8" stroke-width="3" fill="none"/>
+       <path d="M30 112 V80 C30 68 42 62 60 62 C78 62 90 68 90 80 V112Z" fill="#fff" stroke="#C5CBE0" stroke-width="3"/><rect x="48" y="76" width="24" height="16" rx="3" fill="#E63946"/>
+       <rect x="16" y="70" width="14" height="30" rx="6" fill="#fff" stroke="#C5CBE0" stroke-width="3"/><rect x="90" y="70" width="14" height="30" rx="6" fill="#fff" stroke="#C5CBE0" stroke-width="3"/>`,
+    beyond: () => `<path d="M10 90 H80" stroke="#8A8FA3" stroke-width="5"/><path d="M80 70 V110" stroke="#E63946" stroke-width="4" stroke-dasharray="6 4"/>` + arrowTo(20, 60, 108, 30, '#2FA36B', 5) + star(104, 22, 8, 3.4, '#FFD23F'),
+    require: () => paper(`<text x="60" y="34" text-anchor="middle" font-size="12" ${FONT} fill="#5A67D8">NEED</text>${[50, 68, 86].map(y => `<rect x="30" y="${y - 6}" width="12" height="12" rx="2" fill="none" stroke="#5A67D8" stroke-width="2.5"/><path d="M48 ${y} h40" stroke="#C5CBE0" stroke-width="4" stroke-linecap="round"/>`).join('')}`),
+    rocket: () => `<path d="M60 8 C80 24 84 54 78 84 H42 C36 54 40 24 60 8Z" fill="#fff" stroke="#C5CBE0" stroke-width="3"/><circle cx="60" cy="44" r="10" fill="#7FC8F8" stroke="#3D8BFD" stroke-width="3"/>
+       <path d="M42 70 L26 92 L42 86Z M78 70 L94 92 L78 86Z" fill="#E63946"/><path d="M48 8 h0" /><path d="M60 8 C66 12 70 18 72 24 H48 C50 18 54 12 60 8Z" fill="#E63946"/>` + flame(60, 98, 1.4),
+    moon: () => `<rect x="4" y="4" width="112" height="112" rx="18" fill="#1B1D4A"/>` + moon(60, 60, 36, '#FFE08A', '#1B1D4A') + twinkles([[100, 24, 5], [24, 96, 4]]),
+    moonlight: () => `<rect x="4" y="4" width="112" height="112" rx="18" fill="#1B1D4A"/>` + moon(84, 30, 18, '#FFE08A', '#1B1D4A') + `<path d="M80 36 L20 116 H90Z" fill="#FFE08A" opacity=".25"/>`
+       + `<path d="M4 96 H116 V98 a18 18 0 0 1 -18 18 H22 a18 18 0 0 1 -18 -18Z" fill="#2F7D32"/>`,
+
+    // ---------- ep103 Internet ----------
+    internet: () => laptop(`<circle cx="60" cy="49" r="16" fill="none" stroke="#fff" stroke-width="2.5"/><path d="M44 49 H76 M60 33 C52 40 52 58 60 65 C68 58 68 40 60 33Z" stroke="#fff" stroke-width="2" fill="none"/>`),
+    introduction: () => figure('boy', {shirt: '#2FA36B'}) + bubble(70, 6, 46, 30, '#3D8BFD', 'l', `<text x="23" y="20" text-anchor="middle" font-size="12" ${FONT} fill="#fff">Hi, I'm…</text>`.replace("Hi, I'm…", 'Hi!')),
+    agree: () => `<rect x="30" y="16" width="60" height="36" rx="4" fill="#2FA36B"/><text x="60" y="41" text-anchor="middle" font-size="20" ${FONT} fill="#fff">YES</text><path d="M60 52 V80" stroke="#8D5A3B" stroke-width="5"/>` + hand(60, 96, .8, 0, SKIN[0]),
+    disagree: () => `<rect x="30" y="16" width="60" height="36" rx="4" fill="#E63946"/><text x="60" y="41" text-anchor="middle" font-size="20" ${FONT} fill="#fff">NO</text><path d="M60 52 V80" stroke="#8D5A3B" stroke-width="5"/>` + hand(60, 96, .8, 0, SKIN[1]),
+    agreement: () => ART.deal(),
+    disagreement: () => person('boy', {shirt: '#2FA36B'}, -24, 24, .72) + person('girl', {shirt: '#E63946'}, 46, 24, .72)
+       + bubble(6, 4, 34, 24, '#2FA36B', 'l', `<text x="17" y="17" text-anchor="middle" font-size="11" ${FONT} fill="#fff">YES</text>`) + bubble(80, 4, 34, 24, '#E63946', 'r', `<text x="17" y="17" text-anchor="middle" font-size="11" ${FONT} fill="#fff">NO</text>`),
+    search: () => `<rect x="8" y="40" width="104" height="30" rx="15" fill="#fff" stroke="#3D8BFD" stroke-width="3"/><path d="M22 55 h44" stroke="#C5CBE0" stroke-width="4" stroke-linecap="round"/>
+       <circle cx="90" cy="53" r="7" fill="none" stroke="#3D8BFD" stroke-width="3"/><path d="M95 58 l6 6" stroke="#3D8BFD" stroke-width="3" stroke-linecap="round"/>${lines([86, 98], 14, 70)}`,
+    anything: () => [[30, 36, '#E63946'], [60, 30, '#FFB703'], [90, 38, '#2FA36B'], [42, 76, '#3D8BFD'], [78, 78, '#9B5DE5']].map(([x, y, c], i) => `<rect x="${x - 12}" y="${y - 12}" width="24" height="24" rx="${i * 4}" fill="${c}"/>`).join('')
+       + `<text x="60" y="114" text-anchor="middle" font-size="12" ${FONT} fill="#8A8FA3">任何东西</text>`,
+    nothing: () => `<path d="M30 46 h60 l-6 64 h-48z" fill="none" stroke="#8A8FA3" stroke-width="4" stroke-dasharray="6 4"/><ellipse cx="60" cy="46" rx="30" ry="6" fill="none" stroke="#8A8FA3" stroke-width="4"/>`
+       + `<text x="60" y="88" text-anchor="middle" font-size="26" ${FONT} fill="#C5CBE0">0</text>`,
+    advertisement: () => laptop(`<rect x="32" y="32" width="56" height="34" rx="3" fill="#FFD23F"/><text x="60" y="54" text-anchor="middle" font-size="13" ${FONT} fill="#E63946">SALE!</text>`, '#fff'),
+    advantage: () => `<path d="M60 16 L104 104 H16Z" fill="#E8F7EE" stroke="#2FA36B" stroke-width="4"/><text x="60" y="88" text-anchor="middle" font-size="44" ${FONT} fill="#2FA36B">+</text>`,
+    disadvantage: () => `<path d="M60 104 L104 16 H16Z" fill="#FDECEC" stroke="#E63946" stroke-width="4"/><text x="60" y="64" text-anchor="middle" font-size="44" ${FONT} fill="#E63946">−</text>`,
+    error: () => laptop(`<circle cx="60" cy="49" r="14" fill="#E63946"/><path d="M53 42 l14 14 M67 42 l-14 14" stroke="#fff" stroke-width="4" stroke-linecap="round"/>`, '#FDECEC'),
+
+    // ---------- ep104 phone ----------
+    phone: () => phoneA(`${[[50, 34, '#E63946'], [70, 34, '#2FA36B'], [50, 54, '#3D8BFD'], [70, 54, '#FFB703']].map(([x, y, c]) => `<rect x="${x - 7}" y="${y - 7}" width="14" height="14" rx="4" fill="${c}"/>`).join('')}`),
+    electronic: () => `<rect x="20" y="30" width="80" height="60" rx="6" fill="#2BB3A3"/>${[34, 50, 66, 82].map(y => `<path d="M8 ${y} H20 M100 ${y} H112" stroke="#8A8FA3" stroke-width="3"/>`).join('')}
+       <rect x="40" y="46" width="40" height="28" rx="3" fill="#1E8C7F"/>${bolt(60, 60, .6)}`,
+    screen: () => `<rect x="10" y="16" width="100" height="68" rx="6" fill="#2B2D42"/><rect x="16" y="22" width="88" height="56" rx="3" fill="#7FC8F8"/><path d="M50 84 L46 102 H74 L70 84" fill="#6B7085"/><rect x="36" y="100" width="48" height="6" rx="3" fill="#6B7085"/>`,
+    request: () => `<g transform="translate(-14 20) scale(.84)">${figure('child', {shirt: '#FF9F1C'})}</g>` + bubble(56, 8, 58, 38, '#5A67D8', 'l', `<text x="29" y="25" text-anchor="middle" font-size="13" ${FONT} fill="#fff">Please?</text>`),
+    accept: () => `<circle cx="60" cy="56" r="40" fill="#2FA36B"/>` + check(60, 58, 2.2, '#fff') + `<text x="60" y="114" text-anchor="middle" font-size="13" ${FONT} fill="#2FA36B">YES</text>`,
+    refuse: () => `<circle cx="60" cy="56" r="40" fill="#E63946"/><path d="M42 38 L78 74 M78 38 L42 74" stroke="#fff" stroke-width="10" stroke-linecap="round"/><text x="60" y="114" text-anchor="middle" font-size="13" ${FONT} fill="#E63946">NO</text>`,
+    message: () => phoneA(bubble(43, 28, 30, 18, '#3D8BFD', 'l', '') + bubble(46, 56, 30, 18, '#2FA36B', 'r', '')),
+    receive: () => phoneA(`<g transform="translate(46 42) scale(.6)">${envelope(23, 23, 1, '#E63946')}</g>`) + arrowTo(108, 20, 92, 36, '#2FA36B', 4),
+    reply: () => phoneA(bubble(46, 50, 30, 18, '#2FA36B', 'r', '')) + `<path d="M100 40 a16 16 0 0 0 -16 -16 h-6 m6 -8 l-6 8 l6 8" stroke="#3D8BFD" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(4 -8)"/>`,
+    delete: () => phoneA(`<g transform="translate(46 34) scale(.24)">${ART.bin()}</g>`, '#FDECEC'),
+    save: () => phoneA(`<rect x="48" y="40" width="24" height="26" rx="3" fill="#3D8BFD"/><rect x="52" y="40" width="16" height="9" fill="#fff"/><rect x="51" y="56" width="18" height="10" fill="#BDE7FF"/>`),
+    video: () => `<rect x="12" y="30" width="68" height="60" rx="8" fill="#2B2D42"/><path d="M80 52 L108 36 V84 L80 68Z" fill="#2B2D42"/><circle cx="34" cy="20" r="12" fill="#6B7085"/><circle cx="62" cy="20" r="12" fill="#6B7085"/>
+       <path d="M38 50 L58 60 L38 70Z" fill="#E63946"/>`,
+    picture: () => ART.photo(),
+
+    // ---------- ep105 technology ----------
+    technology: () => `<circle cx="60" cy="60" r="40" fill="#5A67D8"/>${Array.from({length: 8}, (_, i) => `<rect x="54" y="10" width="12" height="16" rx="3" fill="#5A67D8" transform="rotate(${i * 45} 60 60)"/>`).join('')}
+       <circle cx="60" cy="60" r="18" fill="#fff"/><path d="M52 60 h16 M60 52 v16" stroke="#5A67D8" stroke-width="4"/>`,
+    advance: () => [0, 1, 2].map(i => `<path d="M${18 + i * 30} 30 L${46 + i * 30} 60 L${18 + i * 30} 90" stroke="#2FA36B" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="${.4 + i * .3}"/>`).join(''),
+    retrogress: () => [0, 1, 2].map(i => `<path d="M${102 - i * 30} 30 L${74 - i * 30} 60 L${102 - i * 30} 90" stroke="#E63946" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="${.4 + i * .3}"/>`).join(''),
+    unnatural: () => ART.leaf().replace(/#6CCB5F/g, '#C5CBE0') + `<path d="M84 12 l18 18 M102 12 l-18 18" stroke="#E63946" stroke-width="5" stroke-linecap="round"/>`,
+    failure: () => `<path d="M10 30 L40 50 L60 40 L84 80 L108 100" stroke="#E63946" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>` + emo('#B8BFCC', '', '').replace(/<circle cx="60" cy="60" r="46"[^>]*>/, '')
+       + `<g transform="translate(70 10) scale(.4)">${ART.sad()}</g>`,
+    pioneer: () => `<path d="M10 104 L60 30 L110 104Z" fill="#8D7B68"/>` + kid({s: .5, dx: 0, dy: -30, la: [-10, -4], ra: [160, 170], shirt: '#E63946'}) + `<path d="M74 4 V26" stroke="#2B2D42" stroke-width="3"/><path d="M74 4 h18 l-5 6 l5 6 h-18z" fill="#FFD23F"/>`,
+    invent: () => mini('inspiration', 40, 44, .56) + `<g transform="translate(60 54) scale(.46)">${ART.technology()}</g>` + arrowTo(52, 70, 66, 78, '#8A8FA3', 3),
+    invention: () => `<g transform="translate(10 4) scale(.8)">${'<path d="M60 8 L60 20" stroke="#8A8FA3" stroke-width="4"/>'}</g>` + mini('inspiration', 60, 50, .72) + star(98, 20, 8, 3.4, '#FF9F1C') + star(20, 96, 7, 3, '#FF9F1C'),
+    radio: () => `<rect x="12" y="40" width="96" height="62" rx="10" fill="#C1440E"/><path d="M30 40 L96 10" stroke="#8A8FA3" stroke-width="3"/><circle cx="40" cy="72" r="18" fill="#2B2D42"/>
+       ${[0, 1, 2].map(i => `<path d="M26 ${62 + i * 8} h28" stroke="#6B7085" stroke-width="2"/>`).join('')}<rect x="66" y="56" width="32" height="12" rx="2" fill="#FFF3C4"/><circle cx="74" cy="84" r="5" fill="#FFD23F"/><circle cx="90" cy="84" r="5" fill="#FFD23F"/>`,
+    communicate: () => ART.talk(),
+    communication: () => `<circle cx="22" cy="60" r="14" fill="#FF7A59"/><circle cx="98" cy="60" r="14" fill="#3D8BFD"/><path d="M38 60 H82" stroke="#8A8FA3" stroke-width="4" stroke-dasharray="6 5"/>`
+       + `<path d="M50 40 q10 -10 20 0 M44 30 q16 -18 32 0" stroke="#2FA36B" stroke-width="4" fill="none" stroke-linecap="round"/>` + envelope(60, 88, .8, '#9B5DE5'),
+  });
+
   function svg(name, plural) {
     const art = ART[name];
     if (!art) return `<div class="vp-emoji">${name}</div>`;

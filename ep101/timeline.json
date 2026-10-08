@@ -1,0 +1,504 @@
+{
+ "duration": 118.746,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！每天晚上，爸爸都要看新闻。今天，我们来学和新闻有关的单词。",
+   "t0": 0.4,
+   "t1": 8.343,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "news",
+   "t0": 8.593,
+   "t1": 9.147,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "新闻，英语是",
+   "t0": 10.247,
+   "t1": 11.737,
+   "cue": [
+    "map",
+    "show:news",
+    "focus:news"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "news",
+   "t0": 11.987,
+   "t1": 12.542,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "它虽然有 s，却只当一件事来说哦。",
+   "t0": 13.042,
+   "t1": 16.008,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "The news is on TV.",
+   "t0": 16.258,
+   "t1": 17.52,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "新闻告诉我们很多信息：",
+   "t0": 18.62,
+   "t1": 20.526,
+   "cue": [
+    "show:information",
+    "edge:news>information",
+    "focus:information"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "information",
+   "t0": 20.776,
+   "t1": 21.676,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "信息也不能数，不加 s。",
+   "t0": 22.176,
+   "t1": 24.456,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "有趣的，英语是",
+   "t0": 25.306,
+   "t1": 26.915,
+   "cue": [
+    "show:interesting",
+    "edge:information>interesting",
+    "focus:interesting"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "interesting",
+   "t0": 27.165,
+   "t1": 27.928,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "This is interesting news.",
+   "t0": 28.428,
+   "t1": 29.943,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "发生了什么事？发生，英语是",
+   "t0": 31.043,
+   "t1": 34.238,
+   "cue": [
+    "show:happen",
+    "edge:news>happen",
+    "focus:happen"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "happen",
+   "t0": 34.488,
+   "t1": 34.993,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "What happened?",
+   "t0": 35.493,
+   "t1": 36.271,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "发生的大事，是事件：",
+   "t0": 37.371,
+   "t1": 39.357,
+   "cue": [
+    "show:event",
+    "edge:happen>event",
+    "focus:event"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "event",
+   "t0": 39.607,
+   "t1": 40.158,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "地球，加上摇动，就是地震：",
+   "t0": 41.258,
+   "t1": 43.881,
+   "cue": [
+    "show:earthquake",
+    "edge:news>earthquake",
+    "focus:earthquake"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "earth",
+   "t0": 44.131,
+   "t1": 44.348,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "quake",
+   "t0": 44.848,
+   "t1": 45.302,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "earthquake",
+   "t0": 45.802,
+   "t1": 46.488,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "地震时，要躲到结实的桌子下面哦。",
+   "t0": 46.988,
+   "t1": 49.857,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "拿着话筒采访的人，是记者：",
+   "t0": 50.707,
+   "t1": 53.165,
+   "cue": [
+    "show:reporter",
+    "edge:news>reporter",
+    "focus:reporter"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "reporter",
+   "t0": 53.415,
+   "t1": 54.07,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "记者写的报道。报道，去掉 e r：",
+   "t0": 55.17,
+   "t1": 58.534,
+   "cue": [
+    "show:report",
+    "edge:reporter>report",
+    "focus:report"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "report",
+   "t0": 58.784,
+   "t1": 59.445,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "还记得 teach 加 er 是 teacher 吗？report 加 er，就是 reporter。",
+   "t0": 59.945,
+   "t1": 65.773,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "把坏事公开出来，是曝光：",
+   "t0": 66.623,
+   "t1": 68.81,
+   "cue": [
+    "show:exposure",
+    "edge:news>exposure",
+    "focus:exposure"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "exposure",
+   "t0": 69.06,
+   "t1": 69.848,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "记者用录音机录下声音。记录是 record，加上 e r：",
+   "t0": 70.948,
+   "t1": 76.03,
+   "cue": [
+    "show:recorder",
+    "edge:exposure>recorder",
+    "focus:recorder"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "record",
+   "t0": 76.28,
+   "t1": 76.768,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "recorder",
+   "t0": 77.268,
+   "t1": 77.935,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "两个 e r 结尾的：",
+   "t0": 79.035,
+   "t1": 80.432,
+   "cue": [
+    "focus:reporter,recorder"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "report, reporter",
+   "t0": 80.682,
+   "t1": 82.164,
+   "cue": [
+    "focus:reporter"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "record, recorder",
+   "t0": 82.664,
+   "t1": 83.98,
+   "cue": [
+    "focus:recorder"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 85.08,
+   "t1": 88.331,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "news",
+   "t0": 89.181,
+   "t1": 89.736,
+   "cue": [
+    "focus:news"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "information",
+   "t0": 90.836,
+   "t1": 91.736,
+   "cue": [
+    "focus:information"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "interesting",
+   "t0": 92.836,
+   "t1": 93.599,
+   "cue": [
+    "focus:interesting"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "happen",
+   "t0": 94.699,
+   "t1": 95.204,
+   "cue": [
+    "focus:happen"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "event",
+   "t0": 96.304,
+   "t1": 96.856,
+   "cue": [
+    "focus:event"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "earthquake",
+   "t0": 97.956,
+   "t1": 98.642,
+   "cue": [
+    "focus:earthquake"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "reporter",
+   "t0": 99.742,
+   "t1": 100.397,
+   "cue": [
+    "focus:reporter"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "report",
+   "t0": 101.497,
+   "t1": 102.158,
+   "cue": [
+    "focus:report"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "exposure",
+   "t0": 103.258,
+   "t1": 104.046,
+   "cue": [
+    "focus:exposure"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "recorder",
+   "t0": 105.146,
+   "t1": 105.813,
+   "cue": [
+    "focus:recorder"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "zh",
+   "text": "太棒了！和爸爸妈妈一起看看新闻，用英语说一说发生了什么吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 106.913,
+   "t1": 116.896,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "news": [
+   0.25,
+   0.805
+  ],
+  "information": [
+   1.055,
+   1.955
+  ],
+  "interesting": [
+   2.205,
+   2.968
+  ],
+  "happen": [
+   3.218,
+   3.723
+  ],
+  "event": [
+   3.973,
+   4.525
+  ],
+  "earthquake": [
+   4.775,
+   5.461
+  ],
+  "earthquake:alt": [
+   5.711,
+   6.165
+  ],
+  "reporter": [
+   6.415,
+   7.07
+  ],
+  "report": [
+   7.32,
+   7.981
+  ],
+  "exposure": [
+   8.231,
+   9.019
+  ],
+  "recorder": [
+   9.269,
+   9.936
+  ],
+  "recorder:alt": [
+   10.186,
+   10.674
+  ]
+ }
+}

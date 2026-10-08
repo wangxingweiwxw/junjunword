@@ -1,0 +1,711 @@
+{
+ "id": "ep104",
+ "title": "phone",
+ "titleZh": "手机",
+ "episode": "第 104 集",
+ "titleIcon": "phone",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "phone",
+   "word": "phone",
+   "ipa": "/foʊn/",
+   "zh": "电话；手机",
+   "icon": "phone",
+   "alt": "telephone",
+   "altLabel": "全称",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    870,
+    470
+   ]
+  },
+  {
+   "id": "electronic",
+   "word": "electronic",
+   "ipa": "/ɪˌlekˈtrɑːnɪk/",
+   "zh": "电子的",
+   "icon": "electronic",
+   "kind": "adj",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    870,
+    150
+   ]
+  },
+  {
+   "id": "screen",
+   "word": "screen",
+   "ipa": "/skriːn/",
+   "zh": "屏幕",
+   "icon": "screen",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    1220,
+    150
+   ]
+  },
+  {
+   "id": "request",
+   "word": "request",
+   "ipa": "/rɪˈkwest/",
+   "zh": "请求",
+   "icon": "request",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    520,
+    470
+   ]
+  },
+  {
+   "id": "accept",
+   "word": "accept",
+   "ipa": "/əkˈsept/",
+   "zh": "接受",
+   "icon": "accept",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    170,
+    150
+   ]
+  },
+  {
+   "id": "refuse",
+   "word": "refuse",
+   "ipa": "/rɪˈfjuːz/",
+   "zh": "拒绝",
+   "icon": "refuse",
+   "kind": "verb",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    170,
+    470
+   ]
+  },
+  {
+   "id": "message",
+   "word": "message",
+   "ipa": "/ˈmesɪdʒ/",
+   "zh": "信息；消息",
+   "icon": "message",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    1220,
+    470
+   ]
+  },
+  {
+   "id": "receive",
+   "word": "receive",
+   "ipa": "/rɪˈsiːv/",
+   "zh": "收到",
+   "icon": "receive",
+   "kind": "verb",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    1570,
+    150
+   ]
+  },
+  {
+   "id": "reply",
+   "word": "reply",
+   "ipa": "/rɪˈplaɪ/",
+   "zh": "回复",
+   "icon": "reply",
+   "kind": "verb",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1570,
+    470
+   ]
+  },
+  {
+   "id": "delete",
+   "word": "delete",
+   "ipa": "/dɪˈliːt/",
+   "zh": "删除",
+   "icon": "delete",
+   "kind": "verb",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    170,
+    790
+   ]
+  },
+  {
+   "id": "save",
+   "word": "save",
+   "ipa": "/seɪv/",
+   "zh": "保存",
+   "icon": "save",
+   "kind": "verb",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    520,
+    790
+   ]
+  },
+  {
+   "id": "video",
+   "word": "video",
+   "ipa": "/ˈvɪdioʊ/",
+   "zh": "视频",
+   "icon": "video",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    870,
+    790
+   ]
+  },
+  {
+   "id": "picture",
+   "word": "picture",
+   "ipa": "/ˈpɪktʃər/",
+   "zh": "图片；照片",
+   "icon": "picture",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1220,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "electronic",
+   "to": "phone"
+  },
+  {
+   "from": "phone",
+   "to": "screen"
+  },
+  {
+   "from": "phone",
+   "to": "request"
+  },
+  {
+   "from": "request",
+   "to": "accept"
+  },
+  {
+   "from": "request",
+   "to": "refuse"
+  },
+  {
+   "from": "phone",
+   "to": "message"
+  },
+  {
+   "from": "message",
+   "to": "receive"
+  },
+  {
+   "from": "receive",
+   "to": "reply"
+  },
+  {
+   "from": "phone",
+   "to": "save"
+  },
+  {
+   "from": "save",
+   "to": "delete",
+   "dashed": true
+  },
+  {
+   "from": "save",
+   "to": "video"
+  },
+  {
+   "from": "video",
+   "to": "picture",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！手机能打电话、发消息、拍照片。今天，我们来学和手机有关的单词。"
+    },
+    {
+     "en": "phone"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:phone",
+    "focus:phone"
+   ],
+   "parts": [
+    {
+     "zh": "电话、手机，英语是"
+    },
+    {
+     "en": "phone"
+    },
+    {
+     "zh": "它的全称是",
+     "cue": [
+      "alt:phone"
+     ]
+    },
+    {
+     "en": "telephone"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:electronic",
+    "edge:electronic>phone",
+    "focus:electronic"
+   ],
+   "parts": [
+    {
+     "zh": "手机是电子产品。电子的，英语是"
+    },
+    {
+     "en": "electronic"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:screen",
+    "edge:phone>screen",
+    "focus:screen"
+   ],
+   "parts": [
+    {
+     "zh": "手机亮亮的屏幕："
+    },
+    {
+     "en": "screen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:request",
+    "edge:phone>request",
+    "focus:request"
+   ],
+   "parts": [
+    {
+     "zh": "好友发来一个请求："
+    },
+    {
+     "en": "request"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:accept",
+    "edge:request>accept",
+    "focus:accept"
+   ],
+   "parts": [
+    {
+     "zh": "同意了，就是接受："
+    },
+    {
+     "en": "accept"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:refuse",
+    "edge:request>refuse",
+    "focus:refuse"
+   ],
+   "parts": [
+    {
+     "zh": "不同意，就是拒绝："
+    },
+    {
+     "en": "refuse"
+    },
+    {
+     "zh": "陌生人的请求，要学会拒绝哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:message",
+    "edge:phone>message",
+    "focus:message"
+   ],
+   "parts": [
+    {
+     "zh": "手机上的消息："
+    },
+    {
+     "en": "message"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:receive",
+    "edge:message>receive",
+    "focus:receive"
+   ],
+   "parts": [
+    {
+     "zh": "收到一条消息："
+    },
+    {
+     "en": "receive"
+    },
+    {
+     "zh": "小提示：e i 读长长的 ee。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:reply",
+    "edge:receive>reply",
+    "focus:reply"
+   ],
+   "parts": [
+    {
+     "zh": "收到了，要回复："
+    },
+    {
+     "en": "reply"
+    },
+    {
+     "en": "Please reply soon."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:save",
+    "edge:phone>save",
+    "focus:save"
+   ],
+   "parts": [
+    {
+     "zh": "重要的东西，保存好："
+    },
+    {
+     "en": "save"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:delete",
+    "edge:save>delete",
+    "focus:delete"
+   ],
+   "parts": [
+    {
+     "zh": "不要的东西，删除掉："
+    },
+    {
+     "en": "delete"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:video",
+    "edge:save>video",
+    "focus:video"
+   ],
+   "parts": [
+    {
+     "zh": "用手机拍的视频，也能保存下来："
+    },
+    {
+     "en": "video"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:picture",
+    "edge:video>picture",
+    "focus:picture"
+   ],
+   "parts": [
+    {
+     "zh": "还有拍的照片："
+    },
+    {
+     "en": "picture"
+    },
+    {
+     "zh": "还记得第二十九集的 photo 吗？"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:accept,refuse"
+   ],
+   "parts": [
+    {
+     "zh": "接受和拒绝："
+    },
+    {
+     "en": "accept",
+     "cue": [
+      "focus:accept"
+     ]
+    },
+    {
+     "en": "refuse",
+     "cue": [
+      "focus:refuse"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:delete,save"
+   ],
+   "parts": [
+    {
+     "zh": "保存和删除："
+    },
+    {
+     "en": "save",
+     "cue": [
+      "focus:save"
+     ]
+    },
+    {
+     "en": "delete",
+     "cue": [
+      "focus:delete"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:phone"
+   ],
+   "parts": [
+    {
+     "en": "phone, telephone"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:electronic"
+   ],
+   "parts": [
+    {
+     "en": "electronic"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:screen"
+   ],
+   "parts": [
+    {
+     "en": "screen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:request"
+   ],
+   "parts": [
+    {
+     "en": "request"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:accept"
+   ],
+   "parts": [
+    {
+     "en": "accept"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:refuse"
+   ],
+   "parts": [
+    {
+     "en": "refuse"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:message"
+   ],
+   "parts": [
+    {
+     "en": "message"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:receive"
+   ],
+   "parts": [
+    {
+     "en": "receive"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:reply"
+   ],
+   "parts": [
+    {
+     "en": "reply"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:save"
+   ],
+   "parts": [
+    {
+     "en": "save"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:delete"
+   ],
+   "parts": [
+    {
+     "en": "delete"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:video"
+   ],
+   "parts": [
+    {
+     "en": "video"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:picture"
+   ],
+   "parts": [
+    {
+     "en": "picture"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！玩手机要有时间限制，保护好眼睛哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,565 @@
+{
+ "id": "ep101",
+ "title": "news",
+ "titleZh": "新闻",
+ "episode": "第 101 集",
+ "titleIcon": "news",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "news",
+   "word": "news",
+   "ipa": "/nuːz/",
+   "zh": "新闻",
+   "icon": "news",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "information",
+   "word": "information",
+   "ipa": "/ˌɪnfərˈmeɪʃn/",
+   "zh": "信息",
+   "icon": "information",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "interesting",
+   "word": "interesting",
+   "ipa": "/ˈɪntrəstɪŋ/",
+   "zh": "有趣的",
+   "icon": "interesting",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "happen",
+   "word": "happen",
+   "ipa": "/ˈhæpən/",
+   "zh": "发生",
+   "icon": "happen",
+   "kind": "verb",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "event",
+   "word": "event",
+   "ipa": "/ɪˈvent/",
+   "zh": "事件；大事",
+   "icon": "event",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "earthquake",
+   "word": "earthquake",
+   "ipa": "/ˈɜːrθkweɪk/",
+   "zh": "地震",
+   "icon": "earthquake",
+   "alt": "quake",
+   "altLabel": "简称",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "reporter",
+   "word": "reporter",
+   "ipa": "/rɪˈpɔːrtər/",
+   "zh": "记者",
+   "icon": "reporter",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "report",
+   "word": "report",
+   "ipa": "/rɪˈpɔːrt/",
+   "zh": "报道",
+   "icon": "report",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "exposure",
+   "word": "exposure",
+   "ipa": "/ɪkˈspoʊʒər/",
+   "zh": "曝光；暴露",
+   "icon": "exposure",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "recorder",
+   "word": "recorder",
+   "ipa": "/rɪˈkɔːrdər/",
+   "zh": "录音机",
+   "icon": "recorder",
+   "alt": "record",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "news",
+   "to": "information"
+  },
+  {
+   "from": "information",
+   "to": "interesting",
+   "dashed": true
+  },
+  {
+   "from": "news",
+   "to": "happen"
+  },
+  {
+   "from": "happen",
+   "to": "event",
+   "dashed": true
+  },
+  {
+   "from": "news",
+   "to": "earthquake",
+   "dashed": true
+  },
+  {
+   "from": "news",
+   "to": "reporter"
+  },
+  {
+   "from": "reporter",
+   "to": "report"
+  },
+  {
+   "from": "news",
+   "to": "exposure"
+  },
+  {
+   "from": "exposure",
+   "to": "recorder",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！每天晚上，爸爸都要看新闻。今天，我们来学和新闻有关的单词。"
+    },
+    {
+     "en": "news"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:news",
+    "focus:news"
+   ],
+   "parts": [
+    {
+     "zh": "新闻，英语是"
+    },
+    {
+     "en": "news"
+    },
+    {
+     "zh": "它虽然有 s，却只当一件事来说哦。"
+    },
+    {
+     "en": "The news is on TV."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:information",
+    "edge:news>information",
+    "focus:information"
+   ],
+   "parts": [
+    {
+     "zh": "新闻告诉我们很多信息："
+    },
+    {
+     "en": "information"
+    },
+    {
+     "zh": "信息也不能数，不加 s。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:interesting",
+    "edge:information>interesting",
+    "focus:interesting"
+   ],
+   "parts": [
+    {
+     "zh": "有趣的，英语是"
+    },
+    {
+     "en": "interesting"
+    },
+    {
+     "en": "This is interesting news."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:happen",
+    "edge:news>happen",
+    "focus:happen"
+   ],
+   "parts": [
+    {
+     "zh": "发生了什么事？发生，英语是"
+    },
+    {
+     "en": "happen"
+    },
+    {
+     "en": "What happened?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:event",
+    "edge:happen>event",
+    "focus:event"
+   ],
+   "parts": [
+    {
+     "zh": "发生的大事，是事件："
+    },
+    {
+     "en": "event"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:earthquake",
+    "edge:news>earthquake",
+    "focus:earthquake"
+   ],
+   "parts": [
+    {
+     "zh": "地球，加上摇动，就是地震："
+    },
+    {
+     "en": "earth"
+    },
+    {
+     "en": "quake"
+    },
+    {
+     "en": "earthquake"
+    },
+    {
+     "zh": "地震时，要躲到结实的桌子下面哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:reporter",
+    "edge:news>reporter",
+    "focus:reporter"
+   ],
+   "parts": [
+    {
+     "zh": "拿着话筒采访的人，是记者："
+    },
+    {
+     "en": "reporter"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:report",
+    "edge:reporter>report",
+    "focus:report"
+   ],
+   "parts": [
+    {
+     "zh": "记者写的报道。报道，去掉 e r："
+    },
+    {
+     "en": "report"
+    },
+    {
+     "zh": "还记得 teach 加 er 是 teacher 吗？report 加 er，就是 reporter。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:exposure",
+    "edge:news>exposure",
+    "focus:exposure"
+   ],
+   "parts": [
+    {
+     "zh": "把坏事公开出来，是曝光："
+    },
+    {
+     "en": "exposure"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:recorder",
+    "edge:exposure>recorder",
+    "focus:recorder"
+   ],
+   "parts": [
+    {
+     "zh": "记者用录音机录下声音。记录是 record，加上 e r："
+    },
+    {
+     "en": "record"
+    },
+    {
+     "en": "recorder"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:reporter,recorder"
+   ],
+   "parts": [
+    {
+     "zh": "两个 e r 结尾的："
+    },
+    {
+     "en": "report, reporter",
+     "cue": [
+      "focus:reporter"
+     ]
+    },
+    {
+     "en": "record, recorder",
+     "cue": [
+      "focus:recorder"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:news"
+   ],
+   "parts": [
+    {
+     "en": "news"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:information"
+   ],
+   "parts": [
+    {
+     "en": "information"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:interesting"
+   ],
+   "parts": [
+    {
+     "en": "interesting"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:happen"
+   ],
+   "parts": [
+    {
+     "en": "happen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:event"
+   ],
+   "parts": [
+    {
+     "en": "event"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:earthquake"
+   ],
+   "parts": [
+    {
+     "en": "earthquake"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:reporter"
+   ],
+   "parts": [
+    {
+     "en": "reporter"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:report"
+   ],
+   "parts": [
+    {
+     "en": "report"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:exposure"
+   ],
+   "parts": [
+    {
+     "en": "exposure"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:recorder"
+   ],
+   "parts": [
+    {
+     "en": "recorder"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！和爸爸妈妈一起看看新闻，用英语说一说发生了什么吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,574 @@
+{
+ "duration": 119.81,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！坐上火箭，我们一起去太空探险吧！",
+   "t0": 0.4,
+   "t1": 5.255,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "space",
+   "t0": 5.505,
+   "t1": 6.143,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "地球外面广阔的地方，是太空：",
+   "t0": 7.243,
+   "t1": 9.829,
+   "cue": [
+    "map",
+    "show:space",
+    "focus:space"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "space",
+   "t0": 10.079,
+   "t1": 10.716,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "绕着太阳转的大星球，是行星：",
+   "t0": 11.816,
+   "t1": 14.562,
+   "cue": [
+    "show:planet",
+    "edge:space>planet",
+    "focus:planet"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "planet",
+   "t0": 14.812,
+   "t1": 15.368,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "地球中间那条看不见的线，是赤道：",
+   "t0": 16.468,
+   "t1": 19.448,
+   "cue": [
+    "show:equator",
+    "edge:planet>equator",
+    "focus:equator"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "equator",
+   "t0": 19.698,
+   "t1": 20.353,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "赤道附近特别热。",
+   "t0": 20.853,
+   "t1": 22.295,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "我们生活的整个世界：",
+   "t0": 23.145,
+   "t1": 24.742,
+   "cue": [
+    "show:world",
+    "edge:space>world",
+    "focus:world"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "world",
+   "t0": 24.992,
+   "t1": 25.395,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "我们住的星球，是地球：",
+   "t0": 26.495,
+   "t1": 28.54,
+   "cue": [
+    "show:earth",
+    "edge:space>earth",
+    "focus:earth"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Earth",
+   "t0": 28.79,
+   "t1": 29.007,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "还记得上一集的地震 earthquake 吗？earth 就在里面。",
+   "t0": 29.507,
+   "t1": 34.093,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "离地球最近的，是月亮：",
+   "t0": 34.943,
+   "t1": 37.03,
+   "cue": [
+    "show:moon",
+    "edge:earth>moon",
+    "focus:moon"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "moon",
+   "t0": 37.28,
+   "t1": 37.74,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "月亮，加上光，就是月光：",
+   "t0": 38.84,
+   "t1": 41.264,
+   "cue": [
+    "show:moonlight",
+    "edge:moon>moonlight",
+    "focus:moonlight"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "moon",
+   "t0": 41.514,
+   "t1": 41.974,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "light",
+   "t0": 42.474,
+   "t1": 42.989,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "moonlight",
+   "t0": 43.489,
+   "t1": 44.161,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "飞上太空的人，是宇航员：",
+   "t0": 45.261,
+   "t1": 47.549,
+   "cue": [
+    "show:astronaut",
+    "edge:space>astronaut",
+    "focus:astronaut"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "astronaut",
+   "t0": 47.799,
+   "t1": 48.544,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "宇航员飞得很高，到了天空之外：",
+   "t0": 49.644,
+   "t1": 52.356,
+   "cue": [
+    "show:beyond",
+    "edge:astronaut>beyond",
+    "focus:beyond"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "beyond",
+   "t0": 52.606,
+   "t1": 53.14,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "beyond the sky",
+   "t0": 53.64,
+   "t1": 54.681,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "天空，英语是",
+   "t0": 55.781,
+   "t1": 57.26,
+   "cue": [
+    "show:sky",
+    "edge:beyond>sky",
+    "focus:sky"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "sky",
+   "t0": 57.51,
+   "t1": 58.057,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "天空里一闪一闪的星星：",
+   "t0": 59.157,
+   "t1": 61.178,
+   "cue": [
+    "show:star",
+    "edge:sky>star",
+    "focus:star"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "star",
+   "t0": 61.428,
+   "t1": 61.984,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "去太空，需要很多东西：",
+   "t0": 63.084,
+   "t1": 65.159,
+   "cue": [
+    "show:require",
+    "edge:space>require",
+    "focus:require"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "require",
+   "t0": 65.409,
+   "t1": 66.104,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "最需要的，是一枚火箭：",
+   "t0": 67.204,
+   "t1": 69.246,
+   "cue": [
+    "show:rocket",
+    "edge:require>rocket",
+    "focus:rocket"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "rocket",
+   "t0": 69.496,
+   "t1": 70.101,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "Going to space requires a rocket.",
+   "t0": 70.601,
+   "t1": 72.68,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "我们一起倒数，发射火箭吧！",
+   "t0": 73.78,
+   "t1": 76.053,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Ten, nine, eight…",
+   "t0": 76.903,
+   "t1": 78.624,
+   "cue": [
+    "focus:rocket"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "three, two, one…",
+   "t0": 79.124,
+   "t1": 80.86,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Blast off!",
+   "t0": 81.36,
+   "t1": 82.14,
+   "cue": [
+    "focus:space"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 83.24,
+   "t1": 86.49,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "space",
+   "t0": 87.34,
+   "t1": 87.978,
+   "cue": [
+    "focus:space"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "planet",
+   "t0": 89.078,
+   "t1": 89.634,
+   "cue": [
+    "focus:planet"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "equator",
+   "t0": 90.734,
+   "t1": 91.388,
+   "cue": [
+    "focus:equator"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "world",
+   "t0": 92.488,
+   "t1": 92.891,
+   "cue": [
+    "focus:world"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "Earth",
+   "t0": 93.991,
+   "t1": 94.208,
+   "cue": [
+    "focus:earth"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "moon",
+   "t0": 95.308,
+   "t1": 95.769,
+   "cue": [
+    "focus:moon"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "moonlight",
+   "t0": 96.869,
+   "t1": 97.54,
+   "cue": [
+    "focus:moonlight"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "astronaut",
+   "t0": 98.64,
+   "t1": 99.386,
+   "cue": [
+    "focus:astronaut"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "beyond",
+   "t0": 100.486,
+   "t1": 101.019,
+   "cue": [
+    "focus:beyond"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "sky",
+   "t0": 102.119,
+   "t1": 102.667,
+   "cue": [
+    "focus:sky"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "star",
+   "t0": 103.767,
+   "t1": 104.323,
+   "cue": [
+    "focus:star"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "require",
+   "t0": 105.423,
+   "t1": 106.119,
+   "cue": [
+    "focus:require"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "rocket",
+   "t0": 107.219,
+   "t1": 107.823,
+   "cue": [
+    "focus:rocket"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！今天晚上，抬头看看天上的月亮和星星吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 108.923,
+   "t1": 117.96,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "space": [
+   0.25,
+   0.887
+  ],
+  "planet": [
+   1.137,
+   1.693
+  ],
+  "world": [
+   1.943,
+   2.346
+  ],
+  "earth": [
+   2.596,
+   2.814
+  ],
+  "equator": [
+   3.064,
+   3.718
+  ],
+  "star": [
+   3.968,
+   4.525
+  ],
+  "sky": [
+   4.775,
+   5.322
+  ],
+  "astronaut": [
+   5.572,
+   6.318
+  ],
+  "beyond": [
+   6.568,
+   7.101
+  ],
+  "rocket": [
+   7.351,
+   7.955
+  ],
+  "require": [
+   8.206,
+   8.901
+  ],
+  "moon": [
+   9.151,
+   9.611
+  ],
+  "moonlight": [
+   9.861,
+   10.533
+  ]
+ }
+}

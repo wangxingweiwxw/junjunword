@@ -1,0 +1,478 @@
+{
+ "duration": 120.535,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！从收音机到手机，科技让生活越来越方便。今天，我们来学和科技有关的单词。",
+   "t0": 0.4,
+   "t1": 9.698,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "technology",
+   "t0": 9.948,
+   "t1": 10.871,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "科学技术，是科技：",
+   "t0": 11.971,
+   "t1": 13.869,
+   "cue": [
+    "map",
+    "show:technology",
+    "focus:technology"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "technology",
+   "t0": 14.119,
+   "t1": 15.041,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "中间的 c h，读 k。",
+   "t0": 15.541,
+   "t1": 17.507,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "科技在不断进步、前进：",
+   "t0": 18.357,
+   "t1": 20.61,
+   "cue": [
+    "show:advance",
+    "edge:technology>advance",
+    "focus:advance"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "advance",
+   "t0": 20.86,
+   "t1": 21.55,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "进步的反面，是倒退。这是一个比较正式的词：",
+   "t0": 22.65,
+   "t1": 27.027,
+   "cue": [
+    "show:retrogress",
+    "edge:technology>retrogress",
+    "focus:retrogress"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "retrogress",
+   "t0": 27.277,
+   "t1": 28.128,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "还记得第九十一集的 natural 吗？加上 u n，就是不自然的：",
+   "t0": 29.228,
+   "t1": 34.537,
+   "cue": [
+    "show:unnatural",
+    "edge:technology>unnatural",
+    "focus:unnatural"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "unnatural",
+   "t0": 34.787,
+   "t1": 35.538,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "第一个走出新路的人，是先驱、开拓者：",
+   "t0": 36.638,
+   "t1": 40.03,
+   "cue": [
+    "show:pioneer",
+    "edge:technology>pioneer",
+    "focus:pioneer"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "pioneer",
+   "t0": 40.28,
+   "t1": 40.949,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "创造出以前没有的东西，是发明：",
+   "t0": 42.049,
+   "t1": 44.868,
+   "cue": [
+    "show:invent",
+    "edge:technology>invent",
+    "focus:invent"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "invent",
+   "t0": 45.118,
+   "t1": 45.724,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "发明出来的东西，加上 i o n：",
+   "t0": 46.824,
+   "t1": 49.464,
+   "cue": [
+    "show:invention",
+    "edge:invent>invention",
+    "focus:invention"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "invention",
+   "t0": 49.714,
+   "t1": 50.509,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "发明的路上，常常会失败。失败是 fail，加上 u r e：",
+   "t0": 51.609,
+   "t1": 56.865,
+   "cue": [
+    "show:failure",
+    "edge:invent>failure",
+    "focus:failure"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "fail",
+   "t0": 57.115,
+   "t1": 57.533,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "failure",
+   "t0": 58.033,
+   "t1": 58.571,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Failure is the mother of success.",
+   "t0": 59.071,
+   "t1": 61.132,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "很久以前，人们发明了收音机：",
+   "t0": 62.232,
+   "t1": 64.76,
+   "cue": [
+    "show:radio",
+    "edge:invent>radio",
+    "focus:radio"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "radio",
+   "t0": 65.01,
+   "t1": 65.663,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "有了收音机，远方的人也能交流：",
+   "t0": 66.763,
+   "t1": 69.471,
+   "cue": [
+    "show:communicate",
+    "edge:radio>communicate",
+    "focus:communicate"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "communicate",
+   "t0": 69.721,
+   "t1": 70.625,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "交流这件事，把 e 换成 i o n，就是通讯：",
+   "t0": 71.725,
+   "t1": 75.63,
+   "cue": [
+    "show:communication",
+    "edge:communicate>communication",
+    "focus:communication"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "communication",
+   "t0": 75.88,
+   "t1": 76.974,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "两个 i o n 结尾的：",
+   "t0": 78.074,
+   "t1": 79.63,
+   "cue": [
+    "focus:invention,communication"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "invent, invention",
+   "t0": 79.88,
+   "t1": 81.424,
+   "cue": [
+    "focus:invent,invention"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "communicate, communication",
+   "t0": 81.924,
+   "t1": 84.047,
+   "cue": [
+    "focus:communicate,communication"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 85.147,
+   "t1": 88.397,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "technology",
+   "t0": 89.247,
+   "t1": 90.17,
+   "cue": [
+    "focus:technology"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "advance",
+   "t0": 91.27,
+   "t1": 91.96,
+   "cue": [
+    "focus:advance"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "retrogress",
+   "t0": 93.06,
+   "t1": 93.911,
+   "cue": [
+    "focus:retrogress"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "unnatural",
+   "t0": 95.011,
+   "t1": 95.762,
+   "cue": [
+    "focus:unnatural"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "pioneer",
+   "t0": 96.862,
+   "t1": 97.531,
+   "cue": [
+    "focus:pioneer"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "invent",
+   "t0": 98.631,
+   "t1": 99.237,
+   "cue": [
+    "focus:invent"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "invention",
+   "t0": 100.337,
+   "t1": 101.132,
+   "cue": [
+    "focus:invention"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "failure",
+   "t0": 102.232,
+   "t1": 102.77,
+   "cue": [
+    "focus:failure"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "radio",
+   "t0": 103.87,
+   "t1": 104.523,
+   "cue": [
+    "focus:radio"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "communicate",
+   "t0": 105.623,
+   "t1": 106.528,
+   "cue": [
+    "focus:communicate"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "communication",
+   "t0": 107.628,
+   "t1": 108.721,
+   "cue": [
+    "focus:communication"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "zh",
+   "text": "太棒了！不怕失败，长大了你也可以做一个发明家哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 109.821,
+   "t1": 118.685,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "technology": [
+   0.25,
+   1.172
+  ],
+  "advance": [
+   1.422,
+   2.112
+  ],
+  "retrogress": [
+   2.362,
+   3.213
+  ],
+  "unnatural": [
+   3.463,
+   4.214
+  ],
+  "failure": [
+   4.464,
+   5.003
+  ],
+  "failure:alt": [
+   5.253,
+   5.67
+  ],
+  "pioneer": [
+   5.92,
+   6.589
+  ],
+  "invent": [
+   6.839,
+   7.446
+  ],
+  "invention": [
+   7.696,
+   8.49
+  ],
+  "radio": [
+   8.74,
+   9.393
+  ],
+  "communicate": [
+   9.643,
+   10.548
+  ],
+  "communication": [
+   10.798,
+   11.892
+  ]
+ }
+}

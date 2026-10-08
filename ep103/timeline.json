@@ -1,0 +1,612 @@
+{
+ "duration": 132.801,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！上网可以查资料、看新闻。今天，我们来学和互联网有关的单词。",
+   "t0": 0.4,
+   "t1": 8.464,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "Internet",
+   "t0": 8.714,
+   "t1": 9.401,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "连接全世界电脑的网络，是互联网：",
+   "t0": 10.501,
+   "t1": 13.56,
+   "cue": [
+    "map",
+    "show:internet",
+    "focus:internet"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "Internet",
+   "t0": 13.81,
+   "t1": 14.498,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "它的开头要大写哦。",
+   "t0": 14.998,
+   "t1": 16.468,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "网站上的介绍：",
+   "t0": 17.318,
+   "t1": 18.493,
+   "cue": [
+    "show:introduction",
+    "edge:internet>introduction",
+    "focus:introduction"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "introduction",
+   "t0": 18.743,
+   "t1": 19.723,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "自我介绍，就是 self-introduction。",
+   "t0": 20.223,
+   "t1": 22.874,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "在网上搜索：",
+   "t0": 23.724,
+   "t1": 24.793,
+   "cue": [
+    "show:search",
+    "edge:internet>search",
+    "focus:search"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "search",
+   "t0": 25.043,
+   "t1": 25.582,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Search on the Internet.",
+   "t0": 26.082,
+   "t1": 27.351,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "在网上，几乎能搜到任何东西。任何，加上东西：",
+   "t0": 28.451,
+   "t1": 33.422,
+   "cue": [
+    "show:anything",
+    "edge:search>anything",
+    "focus:anything"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "any",
+   "t0": 33.672,
+   "t1": 34.058,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "thing",
+   "t0": 34.558,
+   "t1": 34.893,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "anything",
+   "t0": 35.393,
+   "t1": 36.069,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "有时候，什么也找不到。没有，加上东西：",
+   "t0": 37.169,
+   "t1": 41.375,
+   "cue": [
+    "show:nothing",
+    "edge:search>nothing",
+    "focus:nothing"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "no",
+   "t0": 41.625,
+   "t1": 42.087,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "thing",
+   "t0": 42.587,
+   "t1": 42.922,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "nothing",
+   "t0": 43.422,
+   "t1": 44.015,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "网上大家会讨论。同意，英语是",
+   "t0": 45.115,
+   "t1": 48.648,
+   "cue": [
+    "show:agree",
+    "edge:internet>agree",
+    "focus:agree"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "agree",
+   "t0": 48.898,
+   "t1": 49.447,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "I agree with you.",
+   "t0": 49.947,
+   "t1": 50.989,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "加上 m e n t，就是意见一致、协议：",
+   "t0": 52.089,
+   "t1": 55.714,
+   "cue": [
+    "show:agreement",
+    "edge:agree>agreement",
+    "focus:agreement"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "agreement",
+   "t0": 55.964,
+   "t1": 56.695,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "不同意，前面加 d i s：",
+   "t0": 57.795,
+   "t1": 60.086,
+   "cue": [
+    "show:disagree",
+    "edge:internet>disagree",
+    "focus:disagree"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "disagree",
+   "t0": 60.336,
+   "t1": 61.035,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "意见不一样，就是分歧：",
+   "t0": 62.135,
+   "t1": 64.217,
+   "cue": [
+    "show:disagreement",
+    "edge:disagree>disagreement",
+    "focus:disagreement"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "disagreement",
+   "t0": 64.467,
+   "t1": 65.352,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "网页上弹出来的广告：",
+   "t0": 66.452,
+   "t1": 68.193,
+   "cue": [
+    "show:advertisement",
+    "edge:internet>advertisement",
+    "focus:advertisement"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "advertisement",
+   "t0": 68.443,
+   "t1": 69.445,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "简称是",
+   "t0": 69.945,
+   "t1": 70.709,
+   "cue": [
+    "alt:advertisement"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "ad",
+   "t0": 70.959,
+   "t1": 71.327,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "互联网有很多优点：",
+   "t0": 72.427,
+   "t1": 73.984,
+   "cue": [
+    "show:advantage",
+    "edge:internet>advantage",
+    "focus:advantage"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "advantage",
+   "t0": 74.234,
+   "t1": 75.099,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "也有缺点，前面加 d i s：",
+   "t0": 76.199,
+   "t1": 78.629,
+   "cue": [
+    "show:disadvantage",
+    "edge:advantage>disadvantage",
+    "focus:disadvantage"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "disadvantage",
+   "t0": 78.879,
+   "t1": 79.924,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "比如，上网太久会伤眼睛。",
+   "t0": 80.424,
+   "t1": 82.738,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "网页打不开，出错了：",
+   "t0": 83.588,
+   "t1": 85.415,
+   "cue": [
+    "show:error",
+    "edge:internet>error",
+    "focus:error"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "error",
+   "t0": 85.665,
+   "t1": 86.1,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "今天的 d i s 家族：",
+   "t0": 87.2,
+   "t1": 89.006,
+   "cue": [
+    "focus:disagree,disadvantage"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "agree, disagree",
+   "t0": 89.256,
+   "t1": 90.749,
+   "cue": [
+    "focus:agree,disagree"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "advantage, disadvantage",
+   "t0": 91.249,
+   "t1": 93.266,
+   "cue": [
+    "focus:advantage,disadvantage"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 94.366,
+   "t1": 97.617,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Internet",
+   "t0": 98.467,
+   "t1": 99.155,
+   "cue": [
+    "focus:internet"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "introduction",
+   "t0": 100.255,
+   "t1": 101.234,
+   "cue": [
+    "focus:introduction"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "search",
+   "t0": 102.334,
+   "t1": 102.873,
+   "cue": [
+    "focus:search"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "anything",
+   "t0": 103.973,
+   "t1": 104.649,
+   "cue": [
+    "focus:anything"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "nothing",
+   "t0": 105.749,
+   "t1": 106.342,
+   "cue": [
+    "focus:nothing"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "agree",
+   "t0": 107.442,
+   "t1": 107.991,
+   "cue": [
+    "focus:agree"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "agreement",
+   "t0": 109.091,
+   "t1": 109.821,
+   "cue": [
+    "focus:agreement"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "disagree",
+   "t0": 110.921,
+   "t1": 111.62,
+   "cue": [
+    "focus:disagree"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "disagreement",
+   "t0": 112.72,
+   "t1": 113.605,
+   "cue": [
+    "focus:disagreement"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "advertisement, ad",
+   "t0": 114.705,
+   "t1": 116.261,
+   "cue": [
+    "focus:advertisement"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "advantage",
+   "t0": 117.361,
+   "t1": 118.226,
+   "cue": [
+    "focus:advantage"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "disadvantage",
+   "t0": 119.326,
+   "t1": 120.371,
+   "cue": [
+    "focus:disadvantage"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "error",
+   "t0": 121.471,
+   "t1": 121.906,
+   "cue": [
+    "focus:error"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "zh",
+   "text": "太棒了！上网要有节制，每次不要太久哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 123.006,
+   "t1": 130.951,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "internet": [
+   0.25,
+   0.938
+  ],
+  "introduction": [
+   1.188,
+   2.167
+  ],
+  "search": [
+   2.417,
+   2.956
+  ],
+  "anything": [
+   3.206,
+   3.882
+  ],
+  "nothing": [
+   4.132,
+   4.725
+  ],
+  "agree": [
+   4.975,
+   5.524
+  ],
+  "agreement": [
+   5.774,
+   6.505
+  ],
+  "disagree": [
+   6.755,
+   7.454
+  ],
+  "disagreement": [
+   7.704,
+   8.588
+  ],
+  "advertisement": [
+   8.838,
+   9.841
+  ],
+  "advertisement:alt": [
+   10.091,
+   10.459
+  ],
+  "advantage": [
+   10.709,
+   11.574
+  ],
+  "disadvantage": [
+   11.824,
+   12.869
+  ],
+  "error": [
+   13.119,
+   13.554
+  ]
+ }
+}
