@@ -1,0 +1,629 @@
+{
+ "duration": 129.403,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！地球是我们共同的家。今天，我们来学和环境有关的单词。",
+   "t0": 0.4,
+   "t1": 7.574,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "environment",
+   "t0": 7.824,
+   "t1": 8.702,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "我们周围的空气、水、山林，是环境：",
+   "t0": 9.802,
+   "t1": 13.399,
+   "cue": [
+    "map",
+    "show:environment",
+    "focus:environment"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "environment",
+   "t0": 13.649,
+   "t1": 14.528,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "我们要保护环境。保护是 protect，加上 i o n：",
+   "t0": 15.628,
+   "t1": 20.182,
+   "cue": [
+    "show:protection",
+    "edge:protection>environment",
+    "focus:protection"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "protect",
+   "t0": 20.432,
+   "t1": 21.126,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "protection",
+   "t0": 21.626,
+   "t1": 22.441,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "下定决心保护地球：",
+   "t0": 23.541,
+   "t1": 25.273,
+   "cue": [
+    "show:resolution",
+    "edge:resolution>environment",
+    "focus:resolution"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "resolution",
+   "t0": 25.523,
+   "t1": 26.417,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "工厂排出的脏东西，造成了污染：",
+   "t0": 27.517,
+   "t1": 30.326,
+   "cue": [
+    "show:pollution",
+    "edge:pollution>environment",
+    "focus:pollution"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "pollution",
+   "t0": 30.576,
+   "t1": 31.299,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "烧煤会冒黑烟：",
+   "t0": 32.399,
+   "t1": 33.715,
+   "cue": [
+    "show:coal",
+    "edge:coal>pollution",
+    "focus:coal"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "coal",
+   "t0": 33.965,
+   "t1": 34.392,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "污染会破坏环境：",
+   "t0": 35.492,
+   "t1": 37.057,
+   "cue": [
+    "show:destroy",
+    "edge:pollution>destroy",
+    "focus:destroy"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "destroy",
+   "t0": 37.307,
+   "t1": 37.963,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "我们要控制污染：",
+   "t0": 39.063,
+   "t1": 40.289,
+   "cue": [
+    "show:control",
+    "edge:control>pollution",
+    "focus:control"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "control",
+   "t0": 40.539,
+   "t1": 41.156,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "不要乱扔垃圾：",
+   "t0": 42.256,
+   "t1": 43.42,
+   "cue": [
+    "show:litter",
+    "edge:litter>pollution",
+    "focus:litter"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "litter",
+   "t0": 43.67,
+   "t1": 44.105,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Don't litter!",
+   "t0": 44.605,
+   "t1": 45.251,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "污染会杀死很多动物和植物：",
+   "t0": 46.351,
+   "t1": 48.77,
+   "cue": [
+    "show:kill",
+    "edge:pollution>kill",
+    "focus:kill"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "kill",
+   "t0": 49.02,
+   "t1": 49.439,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "还记得 danger 吗？前面加 e n，后面加 e d，就是濒危的：",
+   "t0": 50.539,
+   "t1": 55.837,
+   "cue": [
+    "show:endangered",
+    "edge:kill>endangered",
+    "focus:endangered"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "endangered",
+   "t0": 56.087,
+   "t1": 56.819,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Pandas are endangered animals.",
+   "t0": 57.319,
+   "t1": 59.208,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "剩下的熊猫不多了。剩下，英语是",
+   "t0": 60.308,
+   "t1": 64.001,
+   "cue": [
+    "show:remain",
+    "edge:remain>endangered",
+    "focus:remain"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "remain",
+   "t0": 64.251,
+   "t1": 64.82,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "科学家做出预测：",
+   "t0": 65.92,
+   "t1": 67.452,
+   "cue": [
+    "show:prediction",
+    "edge:endangered>prediction",
+    "focus:prediction"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "prediction",
+   "t0": 67.702,
+   "t1": 68.47,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "地球的温度在上升：",
+   "t0": 69.57,
+   "t1": 71.182,
+   "cue": [
+    "show:rise",
+    "edge:pollution>rise",
+    "focus:rise"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "rise",
+   "t0": 71.432,
+   "t1": 72.039,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "增加，英语是",
+   "t0": 73.139,
+   "t1": 74.591,
+   "cue": [
+    "show:increase",
+    "edge:rise>increase",
+    "focus:increase"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "increase",
+   "t0": 74.841,
+   "t1": 75.539,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "把 i n 换成 d e，就是减少：",
+   "t0": 76.639,
+   "t1": 79.218,
+   "cue": [
+    "show:decrease",
+    "focus:decrease"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "decrease",
+   "t0": 79.468,
+   "t1": 80.147,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "We must decrease pollution.",
+   "t0": 80.647,
+   "t1": 82.248,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "增加和减少：",
+   "t0": 83.348,
+   "t1": 84.469,
+   "cue": [
+    "focus:increase,decrease"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "increase",
+   "t0": 84.719,
+   "t1": 85.417,
+   "cue": [
+    "focus:increase"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "decrease",
+   "t0": 85.917,
+   "t1": 86.595,
+   "cue": [
+    "focus:decrease"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 87.695,
+   "t1": 90.946,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "environment",
+   "t0": 91.796,
+   "t1": 92.674,
+   "cue": [
+    "focus:environment"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "protection",
+   "t0": 93.774,
+   "t1": 94.59,
+   "cue": [
+    "focus:protection"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "resolution",
+   "t0": 95.69,
+   "t1": 96.584,
+   "cue": [
+    "focus:resolution"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "pollution",
+   "t0": 97.684,
+   "t1": 98.407,
+   "cue": [
+    "focus:pollution"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "coal",
+   "t0": 99.507,
+   "t1": 99.935,
+   "cue": [
+    "focus:coal"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "destroy",
+   "t0": 101.035,
+   "t1": 101.691,
+   "cue": [
+    "focus:destroy"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "control",
+   "t0": 102.791,
+   "t1": 103.409,
+   "cue": [
+    "focus:control"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "litter",
+   "t0": 104.509,
+   "t1": 104.944,
+   "cue": [
+    "focus:litter"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "kill",
+   "t0": 106.044,
+   "t1": 106.463,
+   "cue": [
+    "focus:kill"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "endangered",
+   "t0": 107.563,
+   "t1": 108.295,
+   "cue": [
+    "focus:endangered"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "remain",
+   "t0": 109.395,
+   "t1": 109.964,
+   "cue": [
+    "focus:remain"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "prediction",
+   "t0": 111.064,
+   "t1": 111.831,
+   "cue": [
+    "focus:prediction"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "rise",
+   "t0": 112.931,
+   "t1": 113.538,
+   "cue": [
+    "focus:rise"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "increase",
+   "t0": 114.638,
+   "t1": 115.335,
+   "cue": [
+    "focus:increase"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "decrease",
+   "t0": 116.435,
+   "t1": 117.114,
+   "cue": [
+    "focus:decrease"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "zh",
+   "text": "太棒了！不乱扔垃圾，节约用水，我们一起保护地球吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 118.214,
+   "t1": 127.553,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "environment": [
+   0.25,
+   1.129
+  ],
+  "protection": [
+   1.379,
+   2.194
+  ],
+  "protection:alt": [
+   2.444,
+   3.138
+  ],
+  "resolution": [
+   3.388,
+   4.282
+  ],
+  "pollution": [
+   4.532,
+   5.256
+  ],
+  "pollution:alt": [
+   5.506,
+   6.058
+  ],
+  "coal": [
+   6.308,
+   6.736
+  ],
+  "destroy": [
+   6.986,
+   7.642
+  ],
+  "control": [
+   7.892,
+   8.51
+  ],
+  "litter": [
+   8.76,
+   9.195
+  ],
+  "kill": [
+   9.445,
+   9.864
+  ],
+  "endangered": [
+   10.114,
+   10.846
+  ],
+  "endangered:alt": [
+   11.096,
+   11.671
+  ],
+  "remain": [
+   11.921,
+   12.49
+  ],
+  "prediction": [
+   12.74,
+   13.508
+  ],
+  "rise": [
+   13.758,
+   14.364
+  ],
+  "increase": [
+   14.614,
+   15.312
+  ],
+  "decrease": [
+   15.562,
+   16.24
+  ]
+ }
+}

@@ -1,0 +1,540 @@
+{
+ "duration": 118.084,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！世界上有两百多个国家。今天，我们继续环游世界！",
+   "t0": 0.4,
+   "t1": 6.857,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "countries",
+   "t0": 7.107,
+   "t1": 7.834,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "国家，英语是",
+   "t0": 8.934,
+   "t1": 10.343,
+   "cue": [
+    "map",
+    "show:country",
+    "focus:country"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "country",
+   "t0": 10.593,
+   "t1": 11.185,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "很多国家，y 变成 i e s：",
+   "t0": 11.685,
+   "t1": 14.226,
+   "cue": [
+    "plural:country"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "countries",
+   "t0": 14.476,
+   "t1": 15.203,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "东西值多少，是价值：",
+   "t0": 16.303,
+   "t1": 18.402,
+   "cue": [
+    "show:value",
+    "edge:country>value",
+    "focus:value"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "value",
+   "t0": 18.652,
+   "t1": 19.229,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "很有价值的，是珍贵的。去掉 e，加上 a b l e：",
+   "t0": 20.329,
+   "t1": 25.444,
+   "cue": [
+    "show:valuable",
+    "edge:value>valuable",
+    "focus:valuable"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "valuable",
+   "t0": 25.694,
+   "t1": 26.353,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "一个国家拥有的金钱和资源，是财富：",
+   "t0": 27.453,
+   "t1": 30.657,
+   "cue": [
+    "show:wealth",
+    "edge:country>wealth",
+    "focus:wealth"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "wealth",
+   "t0": 30.907,
+   "t1": 31.295,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "国家之间打仗，是战争：",
+   "t0": 32.395,
+   "t1": 34.562,
+   "cue": [
+    "show:war",
+    "edge:war>country",
+    "focus:war"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "war",
+   "t0": 34.812,
+   "t1": 35.248,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "我们都希望世界和平，不要战争。",
+   "t0": 35.748,
+   "t1": 38.483,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "peace",
+   "t0": 38.733,
+   "t1": 39.169,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "国家和国家之间的，是国际的：",
+   "t0": 40.269,
+   "t1": 42.884,
+   "cue": [
+    "show:international",
+    "edge:country>international",
+    "focus:international"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "international",
+   "t0": 43.134,
+   "t1": 44.068,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "an international school",
+   "t0": 44.568,
+   "t1": 46.005,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "美国，英语是",
+   "t0": 47.105,
+   "t1": 48.532,
+   "cue": [
+    "show:america",
+    "edge:international>america",
+    "focus:america"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "America",
+   "t0": 48.782,
+   "t1": 49.528,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "美国人，加上 n：",
+   "t0": 50.628,
+   "t1": 52.163,
+   "cue": [
+    "show:american",
+    "edge:america>american",
+    "focus:american"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "American",
+   "t0": 52.413,
+   "t1": 53.176,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "有袋鼠的澳大利亚：",
+   "t0": 54.276,
+   "t1": 55.775,
+   "cue": [
+    "show:australia",
+    "edge:international>australia",
+    "focus:australia"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "Australia",
+   "t0": 56.025,
+   "t1": 56.795,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "澳大利亚人，加上 n：",
+   "t0": 57.895,
+   "t1": 59.757,
+   "cue": [
+    "show:australian",
+    "edge:australia>australian",
+    "focus:australian"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Australian",
+   "t0": 60.007,
+   "t1": 60.816,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "有大象和狮子的非洲：",
+   "t0": 61.916,
+   "t1": 63.685,
+   "cue": [
+    "show:africa",
+    "edge:international>africa",
+    "focus:africa"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Africa",
+   "t0": 63.935,
+   "t1": 64.582,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "非洲人，也加上 n：",
+   "t0": 65.682,
+   "t1": 67.343,
+   "cue": [
+    "show:african",
+    "edge:africa>african",
+    "focus:african"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "African",
+   "t0": 67.593,
+   "t1": 68.271,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "你发现了吗？以 a 结尾的，都是直接加 n：",
+   "t0": 69.371,
+   "t1": 73.388,
+   "cue": [
+    "focus:american,australian,african"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "America, American",
+   "t0": 73.638,
+   "t1": 75.342,
+   "cue": [
+    "focus:america,american"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "Australia, Australian",
+   "t0": 75.842,
+   "t1": 77.577,
+   "cue": [
+    "focus:australia,australian"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "Africa, African",
+   "t0": 78.077,
+   "t1": 79.608,
+   "cue": [
+    "focus:africa,african"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 80.708,
+   "t1": 83.958,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "country, countries",
+   "t0": 84.808,
+   "t1": 86.394,
+   "cue": [
+    "focus:country"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "value",
+   "t0": 87.494,
+   "t1": 88.071,
+   "cue": [
+    "focus:value"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "valuable",
+   "t0": 89.171,
+   "t1": 89.83,
+   "cue": [
+    "focus:valuable"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "wealth",
+   "t0": 90.93,
+   "t1": 91.318,
+   "cue": [
+    "focus:wealth"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "war",
+   "t0": 92.418,
+   "t1": 92.854,
+   "cue": [
+    "focus:war"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "international",
+   "t0": 93.954,
+   "t1": 94.888,
+   "cue": [
+    "focus:international"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "America",
+   "t0": 95.988,
+   "t1": 96.735,
+   "cue": [
+    "focus:america"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "American",
+   "t0": 97.835,
+   "t1": 98.597,
+   "cue": [
+    "focus:american"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "Australia",
+   "t0": 99.697,
+   "t1": 100.467,
+   "cue": [
+    "focus:australia"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "Australian",
+   "t0": 101.567,
+   "t1": 102.375,
+   "cue": [
+    "focus:australian"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "Africa",
+   "t0": 103.475,
+   "t1": 104.122,
+   "cue": [
+    "focus:africa"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "African",
+   "t0": 105.222,
+   "t1": 105.9,
+   "cue": [
+    "focus:african"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "zh",
+   "text": "太棒了！你最想去哪个国家旅行？用英语说一说吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 107.0,
+   "t1": 116.234,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "country": [
+   0.25,
+   0.842
+  ],
+  "country:pl": [
+   1.092,
+   1.819
+  ],
+  "value": [
+   2.069,
+   2.646
+  ],
+  "valuable": [
+   2.896,
+   3.554
+  ],
+  "wealth": [
+   3.804,
+   4.193
+  ],
+  "war": [
+   4.443,
+   4.879
+  ],
+  "international": [
+   5.129,
+   6.063
+  ],
+  "america": [
+   6.313,
+   7.06
+  ],
+  "american": [
+   7.31,
+   8.072
+  ],
+  "australia": [
+   8.322,
+   9.092
+  ],
+  "australian": [
+   9.342,
+   10.15
+  ],
+  "africa": [
+   10.4,
+   11.047
+  ],
+  "african": [
+   11.297,
+   11.975
+  ]
+ }
+}

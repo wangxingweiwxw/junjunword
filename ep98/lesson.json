@@ -1,0 +1,649 @@
+{
+ "id": "ep98",
+ "title": "countries",
+ "titleZh": "国家",
+ "episode": "第 98 集",
+ "titleIcon": "international",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "country",
+   "word": "country",
+   "ipa": "/ˈkʌntri/",
+   "zh": "国家",
+   "icon": "country",
+   "plural": "countries",
+   "pluralIpa": "/ˈkʌntriz/",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    520,
+    470
+   ]
+  },
+  {
+   "id": "value",
+   "word": "value",
+   "ipa": "/ˈvæljuː/",
+   "zh": "价值",
+   "icon": "value",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    520,
+    150
+   ]
+  },
+  {
+   "id": "valuable",
+   "word": "valuable",
+   "ipa": "/ˈvæljuəbl/",
+   "zh": "珍贵的",
+   "icon": "valuable",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    170,
+    150
+   ]
+  },
+  {
+   "id": "wealth",
+   "word": "wealth",
+   "ipa": "/welθ/",
+   "zh": "财富",
+   "icon": "wealth",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    870,
+    150
+   ]
+  },
+  {
+   "id": "war",
+   "word": "war",
+   "ipa": "/wɔːr/",
+   "zh": "战争",
+   "icon": "war",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    170,
+    470
+   ]
+  },
+  {
+   "id": "international",
+   "word": "international",
+   "ipa": "/ˌɪntərˈnæʃnəl/",
+   "zh": "国际的",
+   "icon": "international",
+   "kind": "adj",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    870,
+    470
+   ]
+  },
+  {
+   "id": "america",
+   "word": "America",
+   "ipa": "/əˈmerɪkə/",
+   "zh": "美国；美洲",
+   "icon": "america",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    1220,
+    150
+   ]
+  },
+  {
+   "id": "american",
+   "word": "American",
+   "ipa": "/əˈmerɪkən/",
+   "zh": "美国人",
+   "icon": "american",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    1570,
+    150
+   ]
+  },
+  {
+   "id": "australia",
+   "word": "Australia",
+   "ipa": "/ɔːˈstreɪliə/",
+   "zh": "澳大利亚",
+   "icon": "australia",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1220,
+    470
+   ]
+  },
+  {
+   "id": "australian",
+   "word": "Australian",
+   "ipa": "/ɔːˈstreɪliən/",
+   "zh": "澳大利亚人",
+   "icon": "australian",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1570,
+    470
+   ]
+  },
+  {
+   "id": "africa",
+   "word": "Africa",
+   "ipa": "/ˈæfrɪkə/",
+   "zh": "非洲",
+   "icon": "africa",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1220,
+    790
+   ]
+  },
+  {
+   "id": "african",
+   "word": "African",
+   "ipa": "/ˈæfrɪkən/",
+   "zh": "非洲人",
+   "icon": "african",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1570,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "country",
+   "to": "value"
+  },
+  {
+   "from": "value",
+   "to": "valuable",
+   "label": "+able"
+  },
+  {
+   "from": "country",
+   "to": "wealth"
+  },
+  {
+   "from": "war",
+   "to": "country",
+   "dashed": true
+  },
+  {
+   "from": "country",
+   "to": "international"
+  },
+  {
+   "from": "international",
+   "to": "america",
+   "dashed": true
+  },
+  {
+   "from": "international",
+   "to": "australia",
+   "dashed": true
+  },
+  {
+   "from": "international",
+   "to": "africa",
+   "dashed": true
+  },
+  {
+   "from": "america",
+   "to": "american",
+   "label": "+n"
+  },
+  {
+   "from": "australia",
+   "to": "australian",
+   "label": "+n"
+  },
+  {
+   "from": "africa",
+   "to": "african",
+   "label": "+n"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！世界上有两百多个国家。今天，我们继续环游世界！"
+    },
+    {
+     "en": "countries"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:country",
+    "focus:country"
+   ],
+   "parts": [
+    {
+     "zh": "国家，英语是"
+    },
+    {
+     "en": "country"
+    },
+    {
+     "zh": "很多国家，y 变成 i e s：",
+     "cue": [
+      "plural:country"
+     ]
+    },
+    {
+     "en": "countries"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:value",
+    "edge:country>value",
+    "focus:value"
+   ],
+   "parts": [
+    {
+     "zh": "东西值多少，是价值："
+    },
+    {
+     "en": "value"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:valuable",
+    "edge:value>valuable",
+    "focus:valuable"
+   ],
+   "parts": [
+    {
+     "zh": "很有价值的，是珍贵的。去掉 e，加上 a b l e："
+    },
+    {
+     "en": "valuable"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:wealth",
+    "edge:country>wealth",
+    "focus:wealth"
+   ],
+   "parts": [
+    {
+     "zh": "一个国家拥有的金钱和资源，是财富："
+    },
+    {
+     "en": "wealth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:war",
+    "edge:war>country",
+    "focus:war"
+   ],
+   "parts": [
+    {
+     "zh": "国家之间打仗，是战争："
+    },
+    {
+     "en": "war"
+    },
+    {
+     "zh": "我们都希望世界和平，不要战争。"
+    },
+    {
+     "en": "peace"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:international",
+    "edge:country>international",
+    "focus:international"
+   ],
+   "parts": [
+    {
+     "zh": "国家和国家之间的，是国际的："
+    },
+    {
+     "en": "international"
+    },
+    {
+     "en": "an international school"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:america",
+    "edge:international>america",
+    "focus:america"
+   ],
+   "parts": [
+    {
+     "zh": "美国，英语是"
+    },
+    {
+     "en": "America"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:american",
+    "edge:america>american",
+    "focus:american"
+   ],
+   "parts": [
+    {
+     "zh": "美国人，加上 n："
+    },
+    {
+     "en": "American"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:australia",
+    "edge:international>australia",
+    "focus:australia"
+   ],
+   "parts": [
+    {
+     "zh": "有袋鼠的澳大利亚："
+    },
+    {
+     "en": "Australia"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:australian",
+    "edge:australia>australian",
+    "focus:australian"
+   ],
+   "parts": [
+    {
+     "zh": "澳大利亚人，加上 n："
+    },
+    {
+     "en": "Australian"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:africa",
+    "edge:international>africa",
+    "focus:africa"
+   ],
+   "parts": [
+    {
+     "zh": "有大象和狮子的非洲："
+    },
+    {
+     "en": "Africa"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:african",
+    "edge:africa>african",
+    "focus:african"
+   ],
+   "parts": [
+    {
+     "zh": "非洲人，也加上 n："
+    },
+    {
+     "en": "African"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:american,australian,african"
+   ],
+   "parts": [
+    {
+     "zh": "你发现了吗？以 a 结尾的，都是直接加 n："
+    },
+    {
+     "en": "America, American",
+     "cue": [
+      "focus:america,american"
+     ]
+    },
+    {
+     "en": "Australia, Australian",
+     "cue": [
+      "focus:australia,australian"
+     ]
+    },
+    {
+     "en": "Africa, African",
+     "cue": [
+      "focus:africa,african"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:country"
+   ],
+   "parts": [
+    {
+     "en": "country, countries"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:value"
+   ],
+   "parts": [
+    {
+     "en": "value"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:valuable"
+   ],
+   "parts": [
+    {
+     "en": "valuable"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:wealth"
+   ],
+   "parts": [
+    {
+     "en": "wealth"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:war"
+   ],
+   "parts": [
+    {
+     "en": "war"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:international"
+   ],
+   "parts": [
+    {
+     "en": "international"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:america"
+   ],
+   "parts": [
+    {
+     "en": "America"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:american"
+   ],
+   "parts": [
+    {
+     "en": "American"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:australia"
+   ],
+   "parts": [
+    {
+     "en": "Australia"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:australian"
+   ],
+   "parts": [
+    {
+     "en": "Australian"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:africa"
+   ],
+   "parts": [
+    {
+     "en": "Africa"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:african"
+   ],
+   "parts": [
+    {
+     "en": "African"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！你最想去哪个国家旅行？用英语说一说吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

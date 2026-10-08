@@ -1,0 +1,772 @@
+{
+ "id": "ep95",
+ "title": "environment",
+ "titleZh": "环境",
+ "episode": "第 95 集",
+ "titleIcon": "environment",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "environment",
+   "word": "environment",
+   "ipa": "/ɪnˈvaɪrənmənt/",
+   "zh": "环境",
+   "icon": "environment",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    520,
+    150
+   ]
+  },
+  {
+   "id": "protection",
+   "word": "protection",
+   "ipa": "/prəˈtekʃn/",
+   "zh": "保护",
+   "icon": "protection",
+   "alt": "protect",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    170,
+    150
+   ]
+  },
+  {
+   "id": "resolution",
+   "word": "resolution",
+   "ipa": "/ˌrezəˈluːʃn/",
+   "zh": "决心",
+   "icon": "resolution",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    170,
+    470
+   ]
+  },
+  {
+   "id": "pollution",
+   "word": "pollution",
+   "ipa": "/pəˈluːʃn/",
+   "zh": "污染",
+   "icon": "pollution",
+   "alt": "pollute",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    870,
+    470
+   ]
+  },
+  {
+   "id": "coal",
+   "word": "coal",
+   "ipa": "/koʊl/",
+   "zh": "煤",
+   "icon": "coal",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    870,
+    150
+   ]
+  },
+  {
+   "id": "destroy",
+   "word": "destroy",
+   "ipa": "/dɪˈstrɔɪ/",
+   "zh": "破坏",
+   "icon": "destroy",
+   "kind": "verb",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    1220,
+    150
+   ]
+  },
+  {
+   "id": "control",
+   "word": "control",
+   "ipa": "/kənˈtroʊl/",
+   "zh": "控制",
+   "icon": "control",
+   "kind": "verb",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    520,
+    470
+   ]
+  },
+  {
+   "id": "litter",
+   "word": "litter",
+   "ipa": "/ˈlɪtər/",
+   "zh": "乱扔垃圾",
+   "icon": "litter",
+   "kind": "verb",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    520,
+    790
+   ]
+  },
+  {
+   "id": "kill",
+   "word": "kill",
+   "ipa": "/kɪl/",
+   "zh": "杀死",
+   "icon": "kill",
+   "kind": "verb",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    1220,
+    470
+   ]
+  },
+  {
+   "id": "endangered",
+   "word": "endangered",
+   "ipa": "/ɪnˈdeɪndʒərd/",
+   "zh": "濒危的",
+   "icon": "endangered",
+   "kind": "adj",
+   "alt": "danger",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    1570,
+    470
+   ]
+  },
+  {
+   "id": "remain",
+   "word": "remain",
+   "ipa": "/rɪˈmeɪn/",
+   "zh": "剩下；保持",
+   "icon": "remain",
+   "kind": "verb",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1570,
+    150
+   ]
+  },
+  {
+   "id": "prediction",
+   "word": "prediction",
+   "ipa": "/prɪˈdɪkʃn/",
+   "zh": "预测",
+   "icon": "prediction",
+   "atP": [
+    750,
+    1140
+   ],
+   "at": [
+    1570,
+    790
+   ]
+  },
+  {
+   "id": "rise",
+   "word": "rise",
+   "ipa": "/raɪz/",
+   "zh": "上升",
+   "icon": "rise",
+   "kind": "verb",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    870,
+    790
+   ]
+  },
+  {
+   "id": "increase",
+   "word": "increase",
+   "ipa": "/ɪnˈkriːs/",
+   "zh": "增加",
+   "icon": "increase",
+   "kind": "verb",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1220,
+    790
+   ]
+  },
+  {
+   "id": "decrease",
+   "word": "decrease",
+   "ipa": "/dɪˈkriːs/",
+   "zh": "减少",
+   "icon": "decrease",
+   "kind": "verb",
+   "atP": [
+    750,
+    1470
+   ],
+   "at": [
+    170,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "protection",
+   "to": "environment"
+  },
+  {
+   "from": "resolution",
+   "to": "environment",
+   "dashed": true
+  },
+  {
+   "from": "pollution",
+   "to": "environment"
+  },
+  {
+   "from": "coal",
+   "to": "pollution"
+  },
+  {
+   "from": "pollution",
+   "to": "destroy"
+  },
+  {
+   "from": "control",
+   "to": "pollution"
+  },
+  {
+   "from": "litter",
+   "to": "pollution"
+  },
+  {
+   "from": "pollution",
+   "to": "kill"
+  },
+  {
+   "from": "kill",
+   "to": "endangered"
+  },
+  {
+   "from": "remain",
+   "to": "endangered",
+   "dashed": true
+  },
+  {
+   "from": "endangered",
+   "to": "prediction",
+   "dashed": true
+  },
+  {
+   "from": "pollution",
+   "to": "rise",
+   "dashed": true
+  },
+  {
+   "from": "rise",
+   "to": "increase",
+   "label": "差不多"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！地球是我们共同的家。今天，我们来学和环境有关的单词。"
+    },
+    {
+     "en": "environment"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:environment",
+    "focus:environment"
+   ],
+   "parts": [
+    {
+     "zh": "我们周围的空气、水、山林，是环境："
+    },
+    {
+     "en": "environment"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:protection",
+    "edge:protection>environment",
+    "focus:protection"
+   ],
+   "parts": [
+    {
+     "zh": "我们要保护环境。保护是 protect，加上 i o n："
+    },
+    {
+     "en": "protect"
+    },
+    {
+     "en": "protection"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:resolution",
+    "edge:resolution>environment",
+    "focus:resolution"
+   ],
+   "parts": [
+    {
+     "zh": "下定决心保护地球："
+    },
+    {
+     "en": "resolution"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pollution",
+    "edge:pollution>environment",
+    "focus:pollution"
+   ],
+   "parts": [
+    {
+     "zh": "工厂排出的脏东西，造成了污染："
+    },
+    {
+     "en": "pollution"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:coal",
+    "edge:coal>pollution",
+    "focus:coal"
+   ],
+   "parts": [
+    {
+     "zh": "烧煤会冒黑烟："
+    },
+    {
+     "en": "coal"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:destroy",
+    "edge:pollution>destroy",
+    "focus:destroy"
+   ],
+   "parts": [
+    {
+     "zh": "污染会破坏环境："
+    },
+    {
+     "en": "destroy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:control",
+    "edge:control>pollution",
+    "focus:control"
+   ],
+   "parts": [
+    {
+     "zh": "我们要控制污染："
+    },
+    {
+     "en": "control"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:litter",
+    "edge:litter>pollution",
+    "focus:litter"
+   ],
+   "parts": [
+    {
+     "zh": "不要乱扔垃圾："
+    },
+    {
+     "en": "litter"
+    },
+    {
+     "en": "Don't litter!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:kill",
+    "edge:pollution>kill",
+    "focus:kill"
+   ],
+   "parts": [
+    {
+     "zh": "污染会杀死很多动物和植物："
+    },
+    {
+     "en": "kill"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:endangered",
+    "edge:kill>endangered",
+    "focus:endangered"
+   ],
+   "parts": [
+    {
+     "zh": "还记得 danger 吗？前面加 e n，后面加 e d，就是濒危的："
+    },
+    {
+     "en": "endangered"
+    },
+    {
+     "en": "Pandas are endangered animals."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:remain",
+    "edge:remain>endangered",
+    "focus:remain"
+   ],
+   "parts": [
+    {
+     "zh": "剩下的熊猫不多了。剩下，英语是"
+    },
+    {
+     "en": "remain"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:prediction",
+    "edge:endangered>prediction",
+    "focus:prediction"
+   ],
+   "parts": [
+    {
+     "zh": "科学家做出预测："
+    },
+    {
+     "en": "prediction"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:rise",
+    "edge:pollution>rise",
+    "focus:rise"
+   ],
+   "parts": [
+    {
+     "zh": "地球的温度在上升："
+    },
+    {
+     "en": "rise"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:increase",
+    "edge:rise>increase",
+    "focus:increase"
+   ],
+   "parts": [
+    {
+     "zh": "增加，英语是"
+    },
+    {
+     "en": "increase"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:decrease",
+    "focus:decrease"
+   ],
+   "parts": [
+    {
+     "zh": "把 i n 换成 d e，就是减少："
+    },
+    {
+     "en": "decrease"
+    },
+    {
+     "en": "We must decrease pollution."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:increase,decrease"
+   ],
+   "parts": [
+    {
+     "zh": "增加和减少："
+    },
+    {
+     "en": "increase",
+     "cue": [
+      "focus:increase"
+     ]
+    },
+    {
+     "en": "decrease",
+     "cue": [
+      "focus:decrease"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:environment"
+   ],
+   "parts": [
+    {
+     "en": "environment"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:protection"
+   ],
+   "parts": [
+    {
+     "en": "protection"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:resolution"
+   ],
+   "parts": [
+    {
+     "en": "resolution"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pollution"
+   ],
+   "parts": [
+    {
+     "en": "pollution"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:coal"
+   ],
+   "parts": [
+    {
+     "en": "coal"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:destroy"
+   ],
+   "parts": [
+    {
+     "en": "destroy"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:control"
+   ],
+   "parts": [
+    {
+     "en": "control"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:litter"
+   ],
+   "parts": [
+    {
+     "en": "litter"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:kill"
+   ],
+   "parts": [
+    {
+     "en": "kill"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:endangered"
+   ],
+   "parts": [
+    {
+     "en": "endangered"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:remain"
+   ],
+   "parts": [
+    {
+     "en": "remain"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:prediction"
+   ],
+   "parts": [
+    {
+     "en": "prediction"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:rise"
+   ],
+   "parts": [
+    {
+     "en": "rise"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:increase"
+   ],
+   "parts": [
+    {
+     "en": "increase"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:decrease"
+   ],
+   "parts": [
+    {
+     "en": "decrease"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！不乱扔垃圾，节约用水，我们一起保护地球吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

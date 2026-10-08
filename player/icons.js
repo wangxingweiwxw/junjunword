@@ -2908,6 +2908,203 @@
     hurt: () => hand(56, 76, 1.4, 0, SKIN[0]) + `<path d="M44 26 l-6 -10 M54 22 l0 -12 M64 26 l6 -10" stroke="#E63946" stroke-width="4" stroke-linecap="round"/><circle cx="58" cy="36" r="6" fill="#E63946"/>`,
   });
 
+  const flagBox = (inner) => `<path d="M14 18 V112" stroke="#8A8FA3" stroke-width="4" stroke-linecap="round"/><g transform="translate(16 22)"><rect width="92" height="62" rx="3" fill="#fff"/>${inner}
+      <rect width="92" height="62" rx="3" fill="none" stroke="#C5CBE0" stroke-width="2"/></g>`;
+  const tri3 = (c1, c2, c3, vertical = true) => vertical
+      ? `<rect width="31" height="62" fill="${c1}"/><rect x="31" width="30" height="62" fill="${c2}"/><rect x="61" width="31" height="62" fill="${c3}"/>`
+      : `<rect width="92" height="21" fill="${c1}"/><rect y="21" width="92" height="20" fill="${c2}"/><rect y="41" width="92" height="21" fill="${c3}"/>`;
+  const FLAG = {
+    china: `<rect width="92" height="62" fill="#DE2910"/>${star(16, 16, 9, 3.6, '#FFDE00')}${[[30, 7], [36, 14], [36, 23], [30, 30]].map(([x, y]) => star(x, y, 3, 1.2, '#FFDE00')).join('')}`,
+    japan: `<circle cx="46" cy="31" r="17" fill="#BC002D"/>`,
+    india: tri3('#FF9933', '#fff', '#138808', false) + `<circle cx="46" cy="31" r="7" fill="none" stroke="#000080" stroke-width="2"/>`,
+    korea: `<circle cx="46" cy="31" r="14" fill="#CD2E3A"/><path d="M32 31 a7 7 0 0 1 14 0 a7 7 0 0 0 14 0 a14 14 0 0 1 -28 0z" fill="#0047A0"/>
+      ${[[14, 12, 35], [78, 12, -35], [14, 50, -35], [78, 50, 35]].map(([x, y, r]) => `<g transform="rotate(${r} ${x} ${y})">${[-4, 0, 4].map(d => `<rect x="${x - 7}" y="${y + d - 1}" width="14" height="2.4" fill="#000"/>`).join('')}</g>`).join('')}`,
+    uk: `<rect width="92" height="62" fill="#012169"/><path d="M0 0 L92 62 M92 0 L0 62" stroke="#fff" stroke-width="12"/><path d="M0 0 L92 62 M92 0 L0 62" stroke="#C8102E" stroke-width="4"/>
+      <path d="M46 0 V62 M0 31 H92" stroke="#fff" stroke-width="18"/><path d="M46 0 V62 M0 31 H92" stroke="#C8102E" stroke-width="10"/>`,
+    england: `<path d="M46 0 V62 M0 31 H92" stroke="#C8102E" stroke-width="12"/>`,
+    france: tri3('#0055A4', '#fff', '#EF4135'),
+    germany: tri3('#000', '#DD0000', '#FFCE00', false),
+    russia: tri3('#fff', '#0039A6', '#D52B1E', false),
+    italy: tri3('#009246', '#fff', '#CE2B37'),
+    usa: Array.from({length: 7}, (_, i) => `<rect y="${i * 9}" width="92" height="4.5" fill="#B22234"/>`).join('') + `<rect width="40" height="31" fill="#3C3B6E"/>`
+      + Array.from({length: 12}, (_, i) => `<circle cx="${6 + (i % 4) * 9.5}" cy="${6 + Math.floor(i / 4) * 9.5}" r="1.8" fill="#fff"/>`).join(''),
+    australia: `<rect width="92" height="62" fill="#012169"/><g transform="scale(.5)"><path d="M0 0 L92 62 M92 0 L0 62" stroke="#fff" stroke-width="12"/><path d="M46 0 V62 M0 31 H92" stroke="#fff" stroke-width="18"/><path d="M46 0 V62 M0 31 H92" stroke="#C8102E" stroke-width="10"/></g>
+      ${star(23, 48, 7, 3, '#fff')}${[[70, 12], [62, 30], [80, 26], [70, 50]].map(([x, y]) => star(x, y, 4, 1.7, '#fff')).join('')}`,
+  };
+  const person2 = (shirt, skin, extra = '', kind = 'person') => figure(kind, {shirt, skin}) + extra;
+  const contMap = (path, c, label) => `<circle cx="60" cy="60" r="50" fill="#BDE7FF"/><path d="${path}" fill="${c}"/><text x="60" y="110" text-anchor="middle" font-size="12" ${FONT} fill="#5A67D8">${label}</text>`;
+  const ASIA = 'M28 34 C42 22 70 20 92 30 C104 38 98 52 88 54 C92 66 80 78 70 70 C62 84 50 74 46 64 C34 66 22 56 26 46 C20 42 22 38 28 34Z';
+  const EUROPE = 'M40 30 C52 22 74 24 82 34 C90 44 80 50 74 48 C78 60 66 70 58 62 C52 74 40 70 42 58 C32 58 28 46 36 42 C32 36 34 32 40 30Z';
+  const AFRICA = 'M40 24 C56 18 80 22 86 36 C92 50 82 60 76 72 C70 88 62 98 56 92 C50 80 46 68 38 60 C28 50 28 32 40 24Z';
+  const AUS = 'M24 52 C30 36 56 34 66 40 C72 30 80 32 84 44 C98 52 98 70 86 80 C74 90 50 86 40 80 C26 76 18 66 24 52Z';
+  const nationality = (flag, shirt, skin) => `<g transform="translate(46 -4) scale(.6)">${flagBox(FLAG[flag])}</g>` + `<g transform="translate(-18 22) scale(.86)">${figure('person', {shirt, skin})}</g>`;
+  Object.assign(ART, {
+    // ---------- ep90 disease ----------
+    disabled: () => `<circle cx="54" cy="96" r="18" fill="none" stroke="#3D8BFD" stroke-width="6"/><circle cx="54" cy="96" r="3" fill="#3D8BFD"/><circle cx="58" cy="22" r="10" fill="#3D8BFD"/>
+       <path d="M58 34 V64 H84 L96 92 M58 48 H82 M40 60 a26 26 0 0 0 14 36" stroke="#3D8BFD" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+    blind: () => `<path d="M12 60 Q60 20 108 60 Q60 100 12 60Z" fill="#fff" stroke="${INK}" stroke-width="5"/><circle cx="60" cy="60" r="16" fill="#8A8FA3"/>
+       <path d="M18 98 L102 22" stroke="#E63946" stroke-width="7" stroke-linecap="round"/>`,
+    deaf: () => ART.ear().replace(/<path d="M100 28[^>]*>/, '') + `<path d="M14 100 L100 14" stroke="#E63946" stroke-width="7" stroke-linecap="round"/>`,
+    cut: () => ART.finger().replace(/<circle cx="60" cy="24" r="14"[^>]*>/, '') + `<rect x="50" y="30" width="20" height="14" rx="4" fill="#F4D3A8" stroke="#C9934A" stroke-width="1.5"/><path d="M56 34 v6 M64 34 v6" stroke="#C9934A" stroke-width="1"/>
+       <path d="M74 22 l10 -6 M76 30 l12 -2" stroke="#E63946" stroke-width="3" stroke-linecap="round"/>`,
+    burn: () => hand(56, 78, 1.4, 0, SKIN[0]) + flame(42, 30, 1.1) + flame(68, 24, .9) + `<ellipse cx="52" cy="70" rx="12" ry="8" fill="#E63946" opacity=".5"/>`,
+    awful: () => emo('#B9E28C', `<path d="M34 46 l16 8 M86 46 l-16 8" stroke="${INK}" stroke-width="4"/><circle cx="44" cy="60" r="4" fill="${INK}"/><circle cx="76" cy="60" r="4" fill="${INK}"/>`,
+       `<path d="M38 92 q22 -24 44 0" stroke="${INK}" stroke-width="5" fill="none"/>`, `<path d="M94 22 q6 10 0 14 q-6 -4 0 -14z" fill="#7FC8F8"/>`),
+    prevent: () => `<path d="M60 12 C76 22 96 22 104 22 C104 70 86 96 60 110 C34 96 16 70 16 22 C24 22 44 22 60 12Z" fill="#3D8BFD"/>`
+       + `<path d="M44 44 L76 76 M76 44 L44 76" stroke="#fff" stroke-width="0"/>` + `<g transform="translate(40 40) scale(.33)">${ART.spread()}</g>` + `<circle cx="60" cy="60" r="22" fill="none" stroke="#fff" stroke-width="5"/><path d="M44 44 L76 76" stroke="#fff" stroke-width="5"/>`,
+    disease: () => ART.sick(),
+    cancer: () => `<circle cx="60" cy="60" r="40" fill="#FFB3C6"/>${[[44, 46, 10], [70, 52, 12], [54, 76, 9]].map(([x, y, r]) => `<circle cx="${x}" cy="${y}" r="${r}" fill="#9B5DE5" opacity=".8"/>`).join('')}
+       <path d="M60 104 C46 96 40 86 48 78 C54 72 60 80 60 80 C60 80 66 72 72 78 C80 86 74 96 60 104Z" fill="#FF6FA5" transform="translate(30 -76) scale(.6)"/>`,
+    drug: () => ART.medicine(),
+    operation: () => figure('man', {shirt: '#2BB3A3', skin: SKIN[0], cap: '#2BB3A3'}) + `<rect x="44" y="50" width="32" height="14" rx="6" fill="#BDE7FF"/>`
+       + `<path d="M88 70 L108 50" stroke="#C5CBE0" stroke-width="5" stroke-linecap="round"/><path d="M88 70 l-4 6" stroke="#8A8FA3" stroke-width="5"/>`,
+    treatment: () => `<rect x="20" y="20" width="80" height="80" rx="16" fill="#E8F7EE" stroke="#2FA36B" stroke-width="4"/>` + pill2(46, 50, 30, '#E63946', '#fff') + `<path d="M74 62 v28 M60 76 h28" stroke="#2FA36B" stroke-width="8" stroke-linecap="round"/>`,
+
+    // ---------- ep91 materials ----------
+    material: () => [[28, 36, '#8A8FA3'], [62, 30, '#E9A66B'], [94, 40, '#BDE7FF'], [42, 80, '#FF6FA5'], [80, 82, '#C9C1B5']].map(([x, y, c], i) => `<rect x="${x - 15}" y="${y - 15}" width="30" height="30" rx="${i * 3}" fill="${c}" stroke="#fff" stroke-width="2"/>`).join(''),
+    natural: () => ART.leaf().replace(/#6CCB5F/g, '#8EDB6E') + check(98, 24, 1),
+    quality: () => `<circle cx="60" cy="52" r="34" fill="#FFD23F" stroke="#E0A100" stroke-width="5"/>${star(60, 52, 18, 7.5, '#fff')}<path d="M42 80 L32 110 L48 102 L54 114 L60 86 M78 80 L88 110 L72 102 L66 114 L60 86" fill="#3D8BFD"/>`,
+    plastic: () => `<path d="M48 10 h24 v12 q16 10 16 30 v54 a6 6 0 0 1 -6 6 h-44 a6 6 0 0 1 -6 -6 v-54 q0 -20 16 -30z" fill="#BDE7FF" opacity=".8" stroke="#7FC8F8" stroke-width="3"/>
+       <rect x="46" y="4" width="28" height="10" rx="3" fill="#3D8BFD"/><path d="M40 60 h40 M40 80 h40" stroke="#7FC8F8" stroke-width="3"/>`,
+    glass: () => glass('#EAF6FF', 0) + `<path d="M44 34 L50 92" stroke="#fff" stroke-width="5" stroke-linecap="round"/>`,
+    silk: () => `<path d="M10 40 C30 20 50 60 70 40 S100 30 110 50 L110 80 C90 60 70 100 50 80 S20 90 10 70Z" fill="#FF6FA5"/>
+       <path d="M10 40 C30 20 50 60 70 40 S100 30 110 50" stroke="#fff" stroke-width="3" fill="none" opacity=".6"/>`,
+    wooden: () => ART.chair().replace(/#E9A66B/g, '#C9934A') + `<path d="M40 22 q10 4 20 0 M44 66 q10 -3 22 0" stroke="#8D5A3B" stroke-width="2" fill="none"/>`,
+    sand: () => `<path d="M8 104 C24 70 48 60 64 68 C80 58 104 72 112 104Z" fill="#F4D58D"/>${Array.from({length: 18}, (_, i) => `<circle cx="${20 + (i * 37) % 84}" cy="${76 + (i * 13) % 24}" r="1.8" fill="#C9A35A"/>`).join('')}`,
+    stone: () => ART.rock(),
+    steel: () => `<g transform="rotate(-20 60 60)"><rect x="12" y="44" width="96" height="32" rx="16" fill="#B8BFCC"/><rect x="12" y="44" width="96" height="10" rx="5" fill="#E3E6F5"/>
+       <ellipse cx="104" cy="60" rx="6" ry="16" fill="#8A8FA3"/></g>`,
+    iron: () => `<path d="M30 46 L60 30 L94 46 V82 L60 98 L30 82Z" fill="#6B7085"/><path d="M30 46 L60 62 L94 46 M60 62 V98" stroke="#8A8FA3" stroke-width="3" fill="none"/>
+       <text x="44" y="78" font-size="14" ${FONT} fill="#C5CBE0">Fe</text>`,
+
+    // ---------- ep92 tools ----------
+    tool: () => `<g transform="rotate(45 60 60)"><rect x="54" y="30" width="12" height="76" rx="4" fill="#E63946"/><path d="M50 8 h20 v24 h-20z" fill="#8A8FA3"/><path d="M60 8 v-6" stroke="#8A8FA3" stroke-width="4"/></g>
+       <g transform="rotate(-45 60 60)"><rect x="55" y="40" width="10" height="70" rx="3" fill="#8A8FA3"/><path d="M48 12 a14 14 0 1 0 24 0 l-6 10 h-12z" fill="#8A8FA3"/></g>`,
+    use: () => hand(60, 84, 1.2, -20, SKIN[0]) + `<g transform="translate(46 4) scale(.4)">${ART.hammer ? '' : ''}${'<rect x="54" y="30" width="12" height="76" rx="4" fill="#C9934A"/><rect x="28" y="10" width="64" height="24" rx="4" fill="#6B7085"/>'}</g>`,
+    spare: () => sneaker(40, 62, 1, '#3D8BFD') + `<g transform="translate(46 0) scale(.6)">${ART.wheel()}</g>` + `<text x="60" y="110" text-anchor="middle" font-size="13" ${FONT} fill="#8A8FA3">备用</text>`,
+    repair: () => ART.house() + `<g transform="translate(60 54) scale(.4)">${ART.tool()}</g>`,
+    fix: () => ART.bicycle() + `<g transform="translate(44 14) scale(.36)">${ART.tool()}</g>`,
+    mend: () => `<rect x="10" y="50" width="100" height="10" fill="#C9934A"/><rect x="10" y="80" width="100" height="10" fill="#C9934A"/>${[20, 44, 68, 92].map((x, i) => `<path d="M${x} 104 V40 l6 -8 l6 8 V104" fill="${i === 2 ? '#F4C99B' : '#E9A66B'}" stroke="#B5703F" stroke-width="2"/>`).join('')}
+       <g transform="translate(70 2) rotate(30)"><rect x="0" y="0" width="8" height="40" rx="3" fill="#8D5A3B"/><rect x="-10" y="-8" width="28" height="12" rx="3" fill="#6B7085"/></g>`,
+    tape: () => `<circle cx="60" cy="60" r="38" fill="#C9C1B5"/><circle cx="60" cy="60" r="18" fill="#FFF8EE"/><path d="M60 98 H104 V86 H66" fill="#E3D3B8"/><circle cx="60" cy="60" r="38" fill="none" stroke="#B5A898" stroke-width="3"/>`,
+    flashlight: () => `<g transform="rotate(-30 60 60)"><rect x="20" y="50" width="56" height="20" rx="6" fill="#2B2D42"/><path d="M76 46 h16 l10 -8 v44 l-10 -8 h-16z" fill="#6B7085"/><rect x="36" y="54" width="10" height="12" rx="3" fill="#FFD23F"/></g>
+       <path d="M96 30 L120 6 M100 46 L120 46 M96 60 L118 80" stroke="#FFD23F" stroke-width="4" stroke-linecap="round" opacity=".8"/>`,
+
+    // ---------- ep93 safety ----------
+    safety: () => `<path d="M60 12 C76 22 96 22 104 22 C104 70 86 96 60 110 C34 96 16 70 16 22 C24 22 44 22 60 12Z" fill="#2FA36B"/>` + `<path d="M60 36 v42 M40 56 h40" stroke="#fff" stroke-width="10" stroke-linecap="round"/>`,
+    careful: () => kid({la: [-10, -4], ra: [10, 4], ll: [10, 4], rl: [-6, -2], shirt: '#2FA36B'}) + `<g transform="translate(76 70) scale(.36)">${ART.glass()}</g>` + check(100, 22, .9),
+    careless: () => kid({rot: 20, dx: -6, la: [-120, -150], ra: [130, 160], ll: [-30, -10], rl: [40, 10], shirt: '#E63946'}) + `<g transform="translate(80 76) rotate(60 18 18) scale(.3)">${ART.glass()}</g>`,
+    drop: () => drops([[60, 30]], '#3D8BFD').replace('scale', 'scale') + `<path d="M60 18 q-26 40 0 58 q26 -18 0 -58z" fill="#3D8BFD"/><path d="M50 52 q2 10 10 14" stroke="#fff" stroke-width="4" fill="none" opacity=".6"/>`
+       + `<ellipse cx="60" cy="104" rx="30" ry="6" fill="#7FC8F8" opacity=".6"/>` + arrowTo(100, 30, 100, 86, '#8A8FA3', 3),
+    danger: () => `<path d="M60 12 L110 100 H10Z" fill="#E63946" stroke="#9D0208" stroke-width="5" stroke-linejoin="round"/><rect x="54" y="40" width="12" height="36" rx="5" fill="#fff"/><circle cx="60" cy="88" r="7" fill="#fff"/>`,
+    dangerous: () => `<path d="M10 104 H110" stroke="#C5CBE0" stroke-width="5"/>` + `<path d="M50 104 L60 20 L70 104" fill="#FFB703"/><path d="M52 90 h16 M55 66 h10 M57 44 h6" stroke="#2B2D42" stroke-width="5"/>` + ART.danger().replace(/<path d="M60 12/, '<path transform="translate(70 0) scale(.4)" d="M60 12').replace(/<rect x="54"[^>]*>/, '').replace(/<circle cx="60" cy="88"[^>]*>/, ''),
+    accident: () => ART.car().replace(/#E63946/g, '#E9A66B') + star(60, 30, 14, 6, '#FFD23F') + `<path d="M38 18 l-8 -8 M82 18 l8 -8" stroke="#E63946" stroke-width="4" stroke-linecap="round"/>`,
+    notice: () => `<rect x="14" y="14" width="92" height="70" rx="6" fill="#FFF3C4" stroke="#E0A100" stroke-width="4"/><text x="60" y="44" text-anchor="middle" font-size="16" ${FONT} fill="#E63946">NOTICE</text>
+       ${lines([58, 70], 26, 68)}<path d="M40 84 v26 M80 84 v26" stroke="#8D5A3B" stroke-width="6"/>`,
+    realise: () => person('boy', {shirt: '#3D8BFD'}, -14, 22, .84) + `<circle cx="94" cy="28" r="16" fill="#FFD23F"/><rect x="88" y="42" width="12" height="7" rx="2" fill="#8A8FA3"/>
+       <path d="M94 2 v8 M74 12 l5 5 M114 12 l-5 5" stroke="#FFB703" stroke-width="3" stroke-linecap="round"/>`,
+    fool: () => emo('#FFD23F', `<circle cx="44" cy="50" r="7" fill="#fff" stroke="${INK}" stroke-width="3"/><circle cx="76" cy="50" r="7" fill="#fff" stroke="${INK}" stroke-width="3"/><circle cx="46" cy="52" r="3" fill="${INK}"/><circle cx="74" cy="48" r="3" fill="${INK}"/>`,
+       `<path d="M44 76 q16 14 32 0" stroke="${INK}" stroke-width="4" fill="none"/><path d="M58 84 q4 14 10 0" fill="#FF6FA5"/>`)
+       + `<path d="M28 22 L60 6 L92 22 L84 30 L60 18 L36 30Z" fill="#9B5DE5"/>${[28, 60, 92].map(x => `<circle cx="${x}" cy="${x === 60 ? 4 : 22}" r="5" fill="#FFD23F"/>`).join('')}`,
+    foolish: () => ART.silly(),
+
+    // ---------- ep94 money ----------
+    money: () => `<g transform="rotate(-10 60 60)"><rect x="14" y="30" width="92" height="54" rx="6" fill="#2FA36B"/><rect x="20" y="36" width="80" height="42" rx="4" fill="none" stroke="#BCE9C9" stroke-width="2"/>
+       <circle cx="60" cy="57" r="13" fill="#BCE9C9"/><text x="60" y="63" text-anchor="middle" font-size="16" ${FONT} fill="#1E7A4E">¥</text></g>` + coin(96, 92, 12) + coin(24, 96, 10),
+    coin: () => coin(60, 60, 38),
+    cent: () => `<circle cx="60" cy="60" r="36" fill="#C1440E" stroke="#8D2E0A" stroke-width="4"/><text x="60" y="74" text-anchor="middle" font-size="40" ${FONT} fill="#FFC09F">¢</text>`,
+    note: () => `<rect x="10" y="32" width="100" height="56" rx="6" fill="#7FC8F8"/><rect x="16" y="38" width="88" height="44" rx="4" fill="none" stroke="#fff" stroke-width="2"/>
+       <circle cx="60" cy="60" r="14" fill="#fff" opacity=".7"/><text x="22" y="54" font-size="12" ${FONT} fill="#fff">100</text>`,
+    pound: () => `<circle cx="60" cy="60" r="44" fill="#9B5DE5"/><text x="60" y="80" text-anchor="middle" font-size="56" ${FONT} fill="#fff">£</text>`,
+    dollar: () => `<circle cx="60" cy="60" r="44" fill="#2FA36B"/><text x="60" y="80" text-anchor="middle" font-size="56" ${FONT} fill="#fff">$</text>`,
+    change: () => hand(60, 92, 1, 0, SKIN[0]) + coin(44, 40, 11) + coin(66, 30, 10) + coin(78, 50, 9) + arrowTo(20, 20, 34, 34, '#8A8FA3', 3),
+    bill: () => paper(`<text x="60" y="34" text-anchor="middle" font-size="13" ${FONT} fill="${INK}">BILL</text>${[48, 60, 72].map(y => `<path d="M32 ${y} h34" stroke="#C5CBE0" stroke-width="4"/><text x="88" y="${y + 4}" text-anchor="end" font-size="10" ${FONT} fill="#8A8FA3">¥9</text>`).join('')}
+       <path d="M30 82 h60" stroke="${INK}" stroke-width="2"/><text x="88" y="98" text-anchor="end" font-size="13" ${FONT} fill="#E63946">¥27</text>`),
+    check: () => `<rect x="6" y="34" width="108" height="54" rx="4" fill="#FFF3C4" stroke="#E0A100" stroke-width="3"/>${lines([50], 14, 50)}<path d="M14 74 q10 -10 20 0 t20 0" stroke="#3D8BFD" stroke-width="3" fill="none"/>
+       <rect x="72" y="44" width="34" height="14" rx="2" fill="#fff" stroke="#C5CBE0" stroke-width="2"/><text x="89" y="55" text-anchor="middle" font-size="10" ${FONT} fill="${INK}">$100</text>`,
+    price: () => ART.cheap().replace('¥1', '¥5').replace(/<path d="M100 84 v24[^>]*>/, ''),
+    cost: () => `<g transform="translate(4 10) scale(.56)">${ART.toy()}</g>` + `<text x="86" y="100" text-anchor="middle" font-size="20" ${FONT} fill="#E63946">¥20</text>`,
+    pay: () => hand(36, 88, 1, 30, SKIN[0]) + `<g transform="translate(30 10) scale(.5)">${ART.money()}</g>` + arrowTo(72, 76, 108, 76, '#2FA36B', 4),
+    spend: () => `<g transform="translate(-4 40) scale(.6)">${ART.wallet()}</g>` + [[80, 34], [96, 54], [76, 70]].map(([x, y]) => coin(x, y, 9)).join('') + arrowTo(60, 60, 70, 50, '#8A8FA3', 3),
+  });
+
+  Object.assign(ART, {
+    // ---------- ep95 environment ----------
+    environment: () => ART.nature(),
+    pollution: () => `<rect x="4" y="4" width="112" height="112" rx="18" fill="#C5CBE0"/>` + ART.factory().replace(/<circle cx="96" cy="12"[^>]*><circle[^>]*>/, '')
+       + `<path d="M90 18 C80 4 100 -4 108 8 C116 -2 120 14 112 20" fill="#6B7085"/><path d="M4 104 H116 V98 a18 18 0 0 1 -18 18 H22 a18 18 0 0 1 -18 -18Z" fill="#5A3825" opacity=".7"/>`,
+    protection: () => hand(36, 100, 1, 30, SKIN[0]) + `<g transform="translate(120 0) scale(-1 1)">${hand(36, 100, 1, 30, SKIN[0])}</g>` + `<g transform="translate(30 4) scale(.5)">${ART.plant()}</g>`,
+    resolution: () => `<path d="M30 112 V70 C30 56 40 50 50 50 H80 C90 50 96 60 92 72 L86 112Z" fill="${SKIN[0]}"/>${[46, 60, 74].map(x => `<rect x="${x - 7}" y="40" width="14" height="22" rx="7" fill="${SKIN[0]}" stroke="${SKIN[1]}" stroke-width="2"/>`).join('')}
+       <path d="M26 70 C18 70 18 90 30 90" fill="${SKIN[0]}"/>` + star(96, 22, 10, 4, '#FFD23F'),
+    coal: () => `<path d="M14 70 h92 l-8 30 h-76z" fill="#8D5A3B"/><circle cx="34" cy="104" r="8" fill="#2B2D42"/><circle cx="86" cy="104" r="8" fill="#2B2D42"/>
+       ${[[30, 60], [48, 52], [66, 56], [84, 60], [56, 40], [40, 44], [74, 44]].map(([x, y]) => `<path d="M${x - 10} ${y + 6} l4 -12 l10 -4 l8 8 l-2 10z" fill="#2B2D42"/>`).join('')}`,
+    destroy: () => `<path d="M14 104 L24 60 L40 76 L50 50 L64 70 L76 44 L90 72 L106 104Z" fill="#C9C1B5"/><path d="M30 104 l10 -14 M70 104 l6 -20" stroke="#8A8FA3" stroke-width="3"/>` + bolt(60, 24, 1.2),
+    control: () => `<rect x="20" y="20" width="80" height="80" rx="14" fill="#2B2D42"/><circle cx="60" cy="60" r="24" fill="#6B7085"/><path d="M60 60 L74 42" stroke="#FFD23F" stroke-width="5" stroke-linecap="round"/>
+       ${Array.from({length: 7}, (_, i) => `<path d="M60 30 v-6" stroke="#C5CBE0" stroke-width="2" transform="rotate(${-90 + i * 30} 60 60)"/>`).join('')}`,
+    kill: () => `<g transform="translate(16 20) scale(.7)">${ART.bug ? '' : bugA(60, 62, 1.6, '#8A8FA3')}</g>` + `<path d="M24 24 l70 70 M94 24 l-70 70" stroke="#E63946" stroke-width="6" stroke-linecap="round"/>`,
+    endangered: () => ART.panda() + `<path d="M70 92 L110 92 L90 58Z" fill="#FFD23F" stroke="#E63946" stroke-width="3" stroke-linejoin="round"/><text x="90" y="88" text-anchor="middle" font-size="18" ${FONT} fill="#E63946">!</text>`,
+    remain: () => `<rect x="20" y="30" width="80" height="70" rx="10" fill="#E3E6F5"/>${[0, 1, 2, 3, 4, 5].map(i => `<rect x="${28 + (i % 3) * 24}" y="${40 + Math.floor(i / 3) * 28}" width="18" height="20" rx="4" fill="${i < 2 ? '#2FA36B' : '#C5CBE0'}" opacity="${i < 2 ? 1 : .5}"/>`).join('')}`,
+    prediction: () => `<circle cx="60" cy="54" r="36" fill="#9B5DE5" opacity=".85"/><circle cx="48" cy="42" r="8" fill="#fff" opacity=".5"/><path d="M34 92 h52 l-6 18 h-40z" fill="#8D5A3B"/>${star(60, 56, 10, 4, '#FFD23F')}`,
+    litter: () => `<path d="M8 104 H112" stroke="#8EDB6E" stroke-width="8" stroke-linecap="round"/>` + `<g transform="translate(26 50) rotate(70) scale(.4)">${ART.plastic()}</g>`
+       + `<rect x="62" y="84" width="20" height="14" rx="2" fill="#E63946" transform="rotate(-20 72 91)"/><circle cx="96" cy="94" r="6" fill="#8A8FA3"/>` + hand(70, 40, .7, 150, SKIN[0]),
+    rise: () => `<path d="M4 90 H116" stroke="#8A8FA3" stroke-width="4"/><path d="M20 90 a40 40 0 0 1 80 0Z" fill="#FFD23F"/>` + arrowTo(60, 44, 60, 10, '#FF9F1C', 4),
+    increase: () => `<path d="M10 100 L34 72 L54 82 L80 44 L106 20" stroke="#2FA36B" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M92 18 h16 v16" stroke="#2FA36B" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+    decrease: () => `<path d="M10 20 L34 48 L54 38 L80 76 L106 100" stroke="#E63946" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M92 102 h16 v-16" stroke="#E63946" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
+
+    // ---------- ep96 Asia ----------
+    asia: () => contMap(ASIA, '#FFB703', 'ASIA'),
+    asian: () => person2('#FFB703', SKIN[0]) + `<g transform="translate(76 4) scale(.36)">${contMap(ASIA, '#FFB703', '')}</g>`,
+    continent: () => `<circle cx="60" cy="60" r="50" fill="#7FC8F8"/><g transform="translate(10 10) scale(.4)"><path d="${ASIA}" fill="#FFB703"/></g><g transform="translate(56 18) scale(.36)"><path d="${EUROPE}" fill="#9B5DE5"/></g>
+       <g transform="translate(40 56) scale(.4)"><path d="${AFRICA}" fill="#E07A4F"/></g><g transform="translate(70 62) scale(.36)"><path d="${AUS}" fill="#2FA36B"/></g>`,
+    china: () => flagBox(FLAG.china), chinese: () => nationality('china', '#E63946', SKIN[0]),
+    india: () => flagBox(FLAG.india), indian: () => nationality('india', '#FF9933', SKIN[2]),
+    japan: () => flagBox(FLAG.japan), japanese: () => nationality('japan', '#FF6FA5', SKIN[0]),
+    southkorea: () => flagBox(FLAG.korea), korean: () => nationality('korea', '#3D8BFD', SKIN[0]),
+    population: () => Array.from({length: 15}, (_, i) => `<circle cx="${18 + (i % 5) * 21}" cy="${26 + Math.floor(i / 5) * 32}" r="7" fill="${SKIN[i % 3]}"/><path d="M${8 + (i % 5) * 21} ${48 + Math.floor(i / 5) * 32} a10 9 0 0 1 20 0z" fill="${NUMC[i % 10]}"/>`).join(''),
+    infer: () => ART.find().replace('#FFB703', '#9B5DE5') + `<text x="94" y="106" font-size="22" ${FONT} fill="#9B5DE5">?</text>`,
+
+    // ---------- ep97 Europe ----------
+    europe: () => contMap(EUROPE, '#9B5DE5', 'EUROPE'),
+    european: () => person2('#9B5DE5', SKIN[0]) + `<g transform="translate(76 4) scale(.36)">${contMap(EUROPE, '#9B5DE5', '')}</g>`,
+    britain: () => flagBox(FLAG.uk), british: () => nationality('uk', '#012169', SKIN[0]),
+    england: () => flagBox(FLAG.england), english: () => `<g transform="translate(0 30) scale(.5)">${flagBox(FLAG.england)}</g>` + bubble(60, 10, 54, 36, '#C8102E', 'l', `<text x="27" y="24" text-anchor="middle" font-size="14" ${FONT} fill="#fff">ABC</text>`),
+    englishman: () => nationality('england', '#2B2D42', SKIN[0]),
+    france: () => flagBox(FLAG.france), french: () => nationality('france', '#0055A4', SKIN[0]),
+    germany: () => flagBox(FLAG.germany), german: () => nationality('germany', '#DD0000', SKIN[0]),
+    russia: () => flagBox(FLAG.russia), russian: () => nationality('russia', '#0039A6', SKIN[0]),
+    italy: () => flagBox(FLAG.italy), italian: () => nationality('italy', '#009246', SKIN[1]),
+
+    // ---------- ep98 countries ----------
+    country: () => `<path d="M24 30 C40 18 70 22 84 30 C100 40 96 60 88 70 C94 86 70 98 56 90 C40 98 22 86 26 70 C14 60 14 40 24 30Z" fill="#8EDB6E" stroke="#3FA34D" stroke-width="3"/>
+       <path d="M50 30 L46 60 L70 74 M46 60 L28 66" stroke="#3FA34D" stroke-width="2.5" fill="none" stroke-dasharray="5 4"/>${star(60, 50, 7, 3, '#E63946')}`,
+    value: () => `<path d="M60 14 L96 44 L60 106 L24 44Z" fill="#7FC8F8"/><path d="M24 44 H96 M60 14 L44 44 L60 106 L76 44Z" stroke="#fff" stroke-width="2.5" fill="none"/>`,
+    valuable: () => ART.value() + star(96, 18, 8, 3.4, '#FFD23F') + star(22, 90, 6, 2.5, '#FFD23F'),
+    wealth: () => ART.house() + coin(20, 96, 10) + coin(36, 104, 9) + coin(100, 98, 10),
+    war: () => `<rect x="4" y="4" width="112" height="112" rx="18" fill="#6B7085"/>` + flame(40, 84, 2) + flame(78, 90, 1.5) + `<path d="M30 40 C20 20 50 10 60 26 C70 10 100 20 90 40Z" fill="#8A8FA3"/>`
+       + `<path d="M20 110 L100 110" stroke="#2B2D42" stroke-width="6"/>`,
+    international: () => `<circle cx="60" cy="60" r="46" fill="#7FC8F8"/><path d="M14 60 H106 M60 14 C36 36 36 84 60 106 C84 84 84 36 60 14Z M22 36 H98 M22 84 H98" stroke="#fff" stroke-width="3" fill="none"/>
+       ${[[30, 28, '#E63946'], [92, 34, '#2FA36B'], [88, 90, '#FFB703'], [26, 86, '#9B5DE5']].map(([x, y, c]) => `<circle cx="${x}" cy="${y}" r="7" fill="${c}"/>`).join('')}`,
+    america: () => flagBox(FLAG.usa), american: () => nationality('usa', '#3C3B6E', SKIN[0]),
+    australia: () => flagBox(FLAG.australia), australian: () => contMap(AUS, '#2FA36B', 'AUSTRALIA').replace('#5A67D8', '#1E7A4E') + `<g transform="translate(66 50) scale(.4)">${figure('person', {shirt: '#FFB703'})}</g>`,
+    africa: () => contMap(AFRICA, '#E07A4F', 'AFRICA'),
+    african: () => person2('#E07A4F', SKIN[2]) + `<g transform="translate(76 4) scale(.36)">${contMap(AFRICA, '#E07A4F', '')}</g>`,
+
+    // ---------- ep99 nation ----------
+    republic: () => `<path d="M8 40 L60 14 L112 40Z" fill="#E63946"/><rect x="12" y="40" width="96" height="8" fill="#C1121F"/>${[24, 44, 64, 84, 100].map(x => `<rect x="${x - 5}" y="50" width="10" height="46" fill="#F4E4C1"/>`).join('')}
+       <rect x="8" y="96" width="104" height="12" fill="#C1121F"/>${star(60, 30, 7, 3, '#FFD23F')}`,
+    province: () => ART.country().replace('fill="#8EDB6E"', 'fill="#E3F4FF"') + `<path d="M46 60 L70 74 L88 70 C94 86 70 98 56 90 C46 94 40 84 46 60Z" fill="#FFB703" opacity=".8"/>`,
+    state: () => flagBox(FLAG.usa).replace('<path d="M14 18 V112" stroke="#8A8FA3" stroke-width="4" stroke-linecap="round"/>', '') + `<g transform="translate(26 84)"><rect width="66" height="24" rx="4" fill="#3C3B6E"/><text x="33" y="17" text-anchor="middle" font-size="12" ${FONT} fill="#fff">STATE</text></g>`,
+    capital: () => ART.country() + `${star(60, 50, 13, 5.5, '#E63946')}<circle cx="60" cy="50" r="18" fill="none" stroke="#E63946" stroke-width="3"/>`
+       + `<text x="96" y="112" text-anchor="middle" font-size="18" ${FONT} fill="#5A67D8">A</text>`,
+    national: () => flagBox(FLAG.china) + star(98, 104, 8, 3.4, '#FFD23F'),
+    matter: () => `<circle cx="60" cy="60" r="44" fill="#FF9F1C"/><text x="60" y="80" text-anchor="middle" font-size="60" ${FONT} fill="#fff">!</text>`,
+    abroad: () => ART.plane() + `<g transform="translate(70 70) scale(.36)">${ART.international()}</g>`,
+    king: () => figure('elder', {shirt: '#9B5DE5', mustache: true}) + `<path d="M36 22 L40 4 L50 14 L60 0 L70 14 L80 4 L84 22Z" fill="#FFD23F" stroke="#E0A100" stroke-width="2"/>`,
+    queen: () => figure('woman', {shirt: '#E63946'}) + `<path d="M40 24 L44 8 L52 16 L60 4 L68 16 L76 8 L80 24Z" fill="#FFD23F" stroke="#E0A100" stroke-width="2"/><circle cx="60" cy="12" r="3" fill="#E63946"/>`,
+    president: () => figure('man', {shirt: '#2B2D42'}) + `<path d="M14 84 h40 l-4 30 h-32z" fill="#8D5A3B"/><circle cx="34" cy="98" r="7" fill="#FFD23F"/><path d="M44 84 L54 66" stroke="#2B2D42" stroke-width="3"/><circle cx="55" cy="64" r="4" fill="#2B2D42"/>`
+       + star(98, 24, 10, 4, '#FFD23F'),
+  });
+
   function svg(name, plural) {
     const art = ART[name];
     if (!art) return `<div class="vp-emoji">${name}</div>`;

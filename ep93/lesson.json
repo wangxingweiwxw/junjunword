@@ -1,0 +1,618 @@
+{
+ "id": "ep93",
+ "title": "safety",
+ "titleZh": "安全",
+ "episode": "第 93 集",
+ "titleIcon": "safety",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "safety",
+   "word": "safety",
+   "ipa": "/ˈseɪfti/",
+   "zh": "安全",
+   "icon": "safety",
+   "alt": "safe",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "careful",
+   "word": "careful",
+   "ipa": "/ˈkerfl/",
+   "zh": "小心的",
+   "icon": "careful",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "careless",
+   "word": "careless",
+   "ipa": "/ˈkerləs/",
+   "zh": "粗心的",
+   "icon": "careless",
+   "kind": "adj",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "drop",
+   "word": "drop",
+   "ipa": "/drɑːp/",
+   "zh": "掉落",
+   "icon": "drop",
+   "kind": "verb",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "danger",
+   "word": "danger",
+   "ipa": "/ˈdeɪndʒər/",
+   "zh": "危险",
+   "icon": "danger",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "dangerous",
+   "word": "dangerous",
+   "ipa": "/ˈdeɪndʒərəs/",
+   "zh": "危险的",
+   "icon": "dangerous",
+   "kind": "adj",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "accident",
+   "word": "accident",
+   "ipa": "/ˈæksɪdənt/",
+   "zh": "事故；意外",
+   "icon": "accident",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "notice",
+   "word": "notice",
+   "ipa": "/ˈnoʊtɪs/",
+   "zh": "注意到；告示",
+   "icon": "notice",
+   "kind": "verb",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "realise",
+   "word": "realise",
+   "ipa": "/ˈriːəlaɪz/",
+   "zh": "意识到",
+   "icon": "realise",
+   "kind": "verb",
+   "alt": "realize",
+   "altLabel": "美式",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  },
+  {
+   "id": "fool",
+   "word": "fool",
+   "ipa": "/fuːl/",
+   "zh": "傻瓜",
+   "icon": "fool",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "foolish",
+   "word": "foolish",
+   "ipa": "/ˈfuːlɪʃ/",
+   "zh": "愚蠢的",
+   "icon": "foolish",
+   "kind": "adj",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "safety",
+   "to": "careful"
+  },
+  {
+   "from": "careful",
+   "to": "careless",
+   "label": "ful↔less"
+  },
+  {
+   "from": "careless",
+   "to": "drop"
+  },
+  {
+   "from": "safety",
+   "to": "fool",
+   "dashed": true
+  },
+  {
+   "from": "fool",
+   "to": "foolish",
+   "label": "+ish"
+  },
+  {
+   "from": "careless",
+   "to": "danger",
+   "dashed": true
+  },
+  {
+   "from": "danger",
+   "to": "dangerous",
+   "label": "+ous"
+  },
+  {
+   "from": "danger",
+   "to": "accident",
+   "dashed": true
+  },
+  {
+   "from": "accident",
+   "to": "notice",
+   "dashed": true
+  },
+  {
+   "from": "notice",
+   "to": "realise",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！安全第一！今天，我们来学和安全有关的单词。"
+    },
+    {
+     "en": "safety"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:safety",
+    "focus:safety"
+   ],
+   "parts": [
+    {
+     "zh": "安全的，是 safe，加上 t y，就是安全："
+    },
+    {
+     "en": "safe"
+    },
+    {
+     "en": "safety"
+    },
+    {
+     "en": "Safety first!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:careful",
+    "edge:safety>careful",
+    "focus:careful"
+   ],
+   "parts": [
+    {
+     "zh": "做事小心，英语是"
+    },
+    {
+     "en": "careful"
+    },
+    {
+     "en": "Be careful!"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:careless",
+    "edge:careful>careless",
+    "focus:careless"
+   ],
+   "parts": [
+    {
+     "zh": "把 f u l 换成 l e s s，就是粗心的。还记得第八十集的规律吗？"
+    },
+    {
+     "en": "careless"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:drop",
+    "edge:careless>drop",
+    "focus:drop"
+   ],
+   "parts": [
+    {
+     "zh": "一粗心，东西就掉了："
+    },
+    {
+     "en": "drop"
+    },
+    {
+     "en": "I dropped the flashlight."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:danger",
+    "edge:careless>danger",
+    "focus:danger"
+   ],
+   "parts": [
+    {
+     "zh": "危险，英语是"
+    },
+    {
+     "en": "danger"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:dangerous",
+    "edge:danger>dangerous",
+    "focus:dangerous"
+   ],
+   "parts": [
+    {
+     "zh": "加上 o u s，就是危险的："
+    },
+    {
+     "en": "dangerous"
+    },
+    {
+     "en": "Fire is dangerous."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:accident",
+    "edge:danger>accident",
+    "focus:accident"
+   ],
+   "parts": [
+    {
+     "zh": "意外发生的坏事，是事故："
+    },
+    {
+     "en": "accident"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:notice",
+    "edge:accident>notice",
+    "focus:notice"
+   ],
+   "parts": [
+    {
+     "zh": "过马路时，要注意到来往的车。注意到，英语是"
+    },
+    {
+     "en": "notice"
+    },
+    {
+     "zh": "它也是告示的意思。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:realise",
+    "edge:notice>realise",
+    "focus:realise"
+   ],
+   "parts": [
+    {
+     "zh": "突然明白过来，是意识到："
+    },
+    {
+     "en": "realise"
+    },
+    {
+     "zh": "在美国，写成",
+     "cue": [
+      "alt:realise"
+     ]
+    },
+    {
+     "en": "realize"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fool",
+    "edge:safety>fool",
+    "focus:fool"
+   ],
+   "parts": [
+    {
+     "zh": "做危险的事，就像个傻瓜："
+    },
+    {
+     "en": "fool"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:foolish",
+    "edge:fool>foolish",
+    "focus:foolish"
+   ],
+   "parts": [
+    {
+     "zh": "加上 i s h，就是愚蠢的："
+    },
+    {
+     "en": "foolish"
+    },
+    {
+     "en": "Don't be foolish."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:careful,careless"
+   ],
+   "parts": [
+    {
+     "zh": "小心和粗心："
+    },
+    {
+     "en": "careful",
+     "cue": [
+      "focus:careful"
+     ]
+    },
+    {
+     "en": "careless",
+     "cue": [
+      "focus:careless"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:safety"
+   ],
+   "parts": [
+    {
+     "en": "safety"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:careful"
+   ],
+   "parts": [
+    {
+     "en": "careful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:careless"
+   ],
+   "parts": [
+    {
+     "en": "careless"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:drop"
+   ],
+   "parts": [
+    {
+     "en": "drop"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:danger"
+   ],
+   "parts": [
+    {
+     "en": "danger"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:dangerous"
+   ],
+   "parts": [
+    {
+     "en": "dangerous"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:accident"
+   ],
+   "parts": [
+    {
+     "en": "accident"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:notice"
+   ],
+   "parts": [
+    {
+     "en": "notice"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:realise"
+   ],
+   "parts": [
+    {
+     "en": "realise, realize"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fool"
+   ],
+   "parts": [
+    {
+     "en": "fool"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:foolish"
+   ],
+   "parts": [
+    {
+     "en": "foolish"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！记住，安全第一，做事要小心哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

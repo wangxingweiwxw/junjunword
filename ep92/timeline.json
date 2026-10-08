@@ -1,0 +1,454 @@
+{
+ "duration": 98.196,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！东西坏了怎么办？拿出工具箱，我们来修一修！",
+   "t0": 0.4,
+   "t1": 6.229,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "tools",
+   "t0": 6.479,
+   "t1": 7.019,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "扳手、螺丝刀，都是工具：",
+   "t0": 8.119,
+   "t1": 10.539,
+   "cue": [
+    "map",
+    "show:tool",
+    "focus:tool"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "tool",
+   "t0": 10.789,
+   "t1": 11.239,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "使用工具，英语是",
+   "t0": 12.339,
+   "t1": 14.096,
+   "cue": [
+    "show:use",
+    "edge:use>tool",
+    "focus:use"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "use",
+   "t0": 14.346,
+   "t1": 14.88,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "工具很有用。还记得第八十集吗？use 加上 f u l：",
+   "t0": 15.98,
+   "t1": 21.708,
+   "cue": [
+    "show:useful",
+    "edge:tool>useful",
+    "focus:useful"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "useful",
+   "t0": 21.958,
+   "t1": 22.581,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "多准备一个，以备不时之需，是备用的：",
+   "t0": 23.681,
+   "t1": 27.107,
+   "cue": [
+    "show:spare",
+    "edge:tool>spare",
+    "focus:spare"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "spare",
+   "t0": 27.357,
+   "t1": 27.898,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "a spare tire",
+   "t0": 28.398,
+   "t1": 29.431,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "黑暗里照亮的手电筒。闪光，加上光：",
+   "t0": 30.531,
+   "t1": 34.452,
+   "cue": [
+    "show:flashlight",
+    "edge:tool>flashlight",
+    "focus:flashlight"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "flash",
+   "t0": 34.702,
+   "t1": 35.262,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "light",
+   "t0": 35.762,
+   "t1": 36.277,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "flashlight",
+   "t0": 36.777,
+   "t1": 37.578,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "在英国，它叫",
+   "t0": 38.078,
+   "t1": 39.462,
+   "cue": [
+    "alt:flashlight"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "torch",
+   "t0": 39.712,
+   "t1": 40.259,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "把坏了的东西修好：",
+   "t0": 41.359,
+   "t1": 42.81,
+   "cue": [
+    "show:fix",
+    "edge:tool>fix",
+    "focus:fix"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "fix",
+   "t0": 43.06,
+   "t1": 43.572,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "Dad can fix my bike.",
+   "t0": 44.072,
+   "t1": 45.513,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "修理，还可以说",
+   "t0": 46.613,
+   "t1": 48.126,
+   "cue": [
+    "show:repair",
+    "edge:repair>fix",
+    "focus:repair"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "repair",
+   "t0": 48.376,
+   "t1": 48.997,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "把破了的地方补好，是修补：",
+   "t0": 50.097,
+   "t1": 52.432,
+   "cue": [
+    "show:mend",
+    "edge:fix>mend",
+    "focus:mend"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "mend",
+   "t0": 52.682,
+   "t1": 53.117,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "mend the fence",
+   "t0": 53.617,
+   "t1": 54.65,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "书撕破了，用胶带粘一粘：",
+   "t0": 55.75,
+   "t1": 58.141,
+   "cue": [
+    "show:tape",
+    "edge:fix>tape",
+    "focus:tape"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "tape",
+   "t0": 58.391,
+   "t1": 58.74,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "三个都有修的意思：",
+   "t0": 59.84,
+   "t1": 61.607,
+   "cue": [
+    "focus:fix,repair,mend"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "fix",
+   "t0": 61.857,
+   "t1": 62.369,
+   "cue": [
+    "focus:fix"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "repair",
+   "t0": 62.869,
+   "t1": 63.49,
+   "cue": [
+    "focus:repair"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "mend",
+   "t0": 63.99,
+   "t1": 64.426,
+   "cue": [
+    "focus:mend"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 65.526,
+   "t1": 68.776,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "tool",
+   "t0": 69.626,
+   "t1": 70.077,
+   "cue": [
+    "focus:tool"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "use",
+   "t0": 71.177,
+   "t1": 71.71,
+   "cue": [
+    "focus:use"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "useful",
+   "t0": 72.81,
+   "t1": 73.433,
+   "cue": [
+    "focus:useful"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "spare",
+   "t0": 74.533,
+   "t1": 75.074,
+   "cue": [
+    "focus:spare"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "flashlight, torch",
+   "t0": 76.174,
+   "t1": 77.683,
+   "cue": [
+    "focus:flashlight"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "fix",
+   "t0": 78.783,
+   "t1": 79.295,
+   "cue": [
+    "focus:fix"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "repair",
+   "t0": 80.395,
+   "t1": 81.016,
+   "cue": [
+    "focus:repair"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "mend",
+   "t0": 82.116,
+   "t1": 82.552,
+   "cue": [
+    "focus:mend"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "tape",
+   "t0": 83.652,
+   "t1": 84.001,
+   "cue": [
+    "focus:tape"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "zh",
+   "text": "太棒了！东西坏了，和爸爸一起试着修一修吧。用工具时要注意安全哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 85.101,
+   "t1": 96.346,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "tool": [
+   0.25,
+   0.701
+  ],
+  "use": [
+   0.951,
+   1.484
+  ],
+  "useful": [
+   1.734,
+   2.357
+  ],
+  "spare": [
+   2.607,
+   3.148
+  ],
+  "flashlight": [
+   3.398,
+   4.199
+  ],
+  "flashlight:alt": [
+   4.449,
+   4.995
+  ],
+  "repair": [
+   5.245,
+   5.866
+  ],
+  "fix": [
+   6.116,
+   6.628
+  ],
+  "mend": [
+   6.878,
+   7.314
+  ],
+  "tape": [
+   7.564,
+   7.913
+  ]
+ }
+}

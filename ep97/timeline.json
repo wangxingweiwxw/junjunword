@@ -1,0 +1,620 @@
+{
+ "duration": 115.536,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！第二站，我们去欧洲看一看！",
+   "t0": 0.4,
+   "t1": 4.233,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "Europe",
+   "t0": 4.483,
+   "t1": 4.908,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "欧洲，英语是",
+   "t0": 6.008,
+   "t1": 7.402,
+   "cue": [
+    "map",
+    "show:europe",
+    "focus:europe"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "Europe",
+   "t0": 7.652,
+   "t1": 8.077,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "欧洲人，加上 a n：",
+   "t0": 9.177,
+   "t1": 10.95,
+   "cue": [
+    "show:european",
+    "edge:europe>european",
+    "focus:european"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "European",
+   "t0": 11.2,
+   "t1": 11.976,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "英国，英语是",
+   "t0": 13.076,
+   "t1": 14.509,
+   "cue": [
+    "show:britain",
+    "edge:britain>europe",
+    "focus:britain"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Britain",
+   "t0": 14.759,
+   "t1": 15.183,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "英国人、英国的：",
+   "t0": 16.283,
+   "t1": 17.795,
+   "cue": [
+    "show:british",
+    "edge:britain>british",
+    "focus:british"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "British",
+   "t0": 18.045,
+   "t1": 18.616,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "英国的一部分，叫英格兰：",
+   "t0": 19.716,
+   "t1": 22.022,
+   "cue": [
+    "show:england",
+    "edge:england>britain",
+    "focus:england"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "England",
+   "t0": 22.272,
+   "t1": 22.852,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "英格兰说的话，就是我们学的英语：",
+   "t0": 23.952,
+   "t1": 26.695,
+   "cue": [
+    "show:english",
+    "edge:england>english",
+    "focus:english"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "English",
+   "t0": 26.945,
+   "t1": 27.583,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "英格兰人，加上 m a n：",
+   "t0": 28.683,
+   "t1": 30.921,
+   "cue": [
+    "show:englishman",
+    "edge:english>englishman",
+    "focus:englishman"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "Englishman",
+   "t0": 31.171,
+   "t1": 31.969,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "法国：",
+   "t0": 33.069,
+   "t1": 33.546,
+   "cue": [
+    "show:france",
+    "edge:europe>france",
+    "focus:france"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "France",
+   "t0": 33.796,
+   "t1": 34.363,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "法语和法国人，长得很不一样：",
+   "t0": 35.463,
+   "t1": 37.957,
+   "cue": [
+    "show:french",
+    "edge:france>french",
+    "focus:french"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "French",
+   "t0": 38.207,
+   "t1": 38.74,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "French fries",
+   "t0": 39.24,
+   "t1": 40.219,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "德国：",
+   "t0": 41.319,
+   "t1": 41.83,
+   "cue": [
+    "show:germany",
+    "edge:europe>germany",
+    "focus:germany"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "Germany",
+   "t0": 42.08,
+   "t1": 42.675,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "德国人，去掉最后的 y：",
+   "t0": 43.775,
+   "t1": 45.789,
+   "cue": [
+    "show:german",
+    "edge:germany>german",
+    "focus:german"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "German",
+   "t0": 46.039,
+   "t1": 46.581,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "俄罗斯：",
+   "t0": 47.681,
+   "t1": 48.285,
+   "cue": [
+    "show:russia",
+    "focus:russia"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "Russia",
+   "t0": 48.535,
+   "t1": 49.066,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "俄罗斯人，加上 n：",
+   "t0": 50.166,
+   "t1": 51.825,
+   "cue": [
+    "show:russian",
+    "edge:russia>russian",
+    "focus:russian"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "Russian",
+   "t0": 52.075,
+   "t1": 52.669,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "意大利，那里有好吃的披萨：",
+   "t0": 53.769,
+   "t1": 56.037,
+   "cue": [
+    "show:italy",
+    "edge:italy>europe",
+    "focus:italy"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Italy",
+   "t0": 56.287,
+   "t1": 56.856,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "意大利人，把 y 换成 i a n：",
+   "t0": 57.956,
+   "t1": 60.597,
+   "cue": [
+    "show:italian",
+    "focus:italian"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Italian",
+   "t0": 60.847,
+   "t1": 61.58,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "还记得第二十一集的意大利面 spaghetti 吗？",
+   "t0": 62.08,
+   "t1": 65.264,
+   "cue": []
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "国家和那里的人：",
+   "t0": 66.114,
+   "t1": 67.383,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "France, French",
+   "t0": 68.233,
+   "t1": 69.431,
+   "cue": [
+    "focus:france,french"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Germany, German",
+   "t0": 69.931,
+   "t1": 71.232,
+   "cue": [
+    "focus:germany,german"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Russia, Russian",
+   "t0": 71.732,
+   "t1": 73.033,
+   "cue": [
+    "focus:russia,russian"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "Italy, Italian",
+   "t0": 73.533,
+   "t1": 74.952,
+   "cue": [
+    "focus:italy,italian"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 76.052,
+   "t1": 79.302,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "Europe",
+   "t0": 80.152,
+   "t1": 80.578,
+   "cue": [
+    "focus:europe"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "European",
+   "t0": 81.677,
+   "t1": 82.453,
+   "cue": [
+    "focus:european"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "Britain",
+   "t0": 83.553,
+   "t1": 83.978,
+   "cue": [
+    "focus:britain"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "British",
+   "t0": 85.078,
+   "t1": 85.649,
+   "cue": [
+    "focus:british"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "England",
+   "t0": 86.749,
+   "t1": 87.329,
+   "cue": [
+    "focus:england"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "English",
+   "t0": 88.429,
+   "t1": 89.067,
+   "cue": [
+    "focus:english"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "Englishman",
+   "t0": 90.167,
+   "t1": 90.965,
+   "cue": [
+    "focus:englishman"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "France",
+   "t0": 92.065,
+   "t1": 92.632,
+   "cue": [
+    "focus:france"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "French",
+   "t0": 93.732,
+   "t1": 94.266,
+   "cue": [
+    "focus:french"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "Germany",
+   "t0": 95.366,
+   "t1": 95.961,
+   "cue": [
+    "focus:germany"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "German",
+   "t0": 97.061,
+   "t1": 97.603,
+   "cue": [
+    "focus:german"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "Russia",
+   "t0": 98.703,
+   "t1": 99.235,
+   "cue": [
+    "focus:russia"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "Russian",
+   "t0": 100.335,
+   "t1": 100.929,
+   "cue": [
+    "focus:russian"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "en",
+   "text": "Italy",
+   "t0": 102.029,
+   "t1": 102.598,
+   "cue": [
+    "focus:italy"
+   ]
+  },
+  {
+   "seg": 33,
+   "lang": "en",
+   "text": "Italian",
+   "t0": 103.698,
+   "t1": 104.431,
+   "cue": [
+    "focus:italian"
+   ]
+  },
+  {
+   "seg": 34,
+   "lang": "zh",
+   "text": "太棒了！在地图上找一找欧洲的这些国家吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 105.531,
+   "t1": 113.686,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "europe": [
+   0.25,
+   0.675
+  ],
+  "european": [
+   0.925,
+   1.701
+  ],
+  "britain": [
+   1.951,
+   2.376
+  ],
+  "british": [
+   2.626,
+   3.197
+  ],
+  "england": [
+   3.447,
+   4.027
+  ],
+  "english": [
+   4.277,
+   4.915
+  ],
+  "englishman": [
+   5.165,
+   5.963
+  ],
+  "france": [
+   6.213,
+   6.779
+  ],
+  "french": [
+   7.029,
+   7.563
+  ],
+  "germany": [
+   7.813,
+   8.409
+  ],
+  "german": [
+   8.659,
+   9.201
+  ],
+  "russia": [
+   9.451,
+   9.982
+  ],
+  "russian": [
+   10.232,
+   10.827
+  ],
+  "italy": [
+   11.077,
+   11.646
+  ],
+  "italian": [
+   11.896,
+   12.629
+  ]
+ }
+}

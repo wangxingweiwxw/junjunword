@@ -1,0 +1,523 @@
+{
+ "id": "ep92",
+ "title": "tools",
+ "titleZh": "工具",
+ "episode": "第 92 集",
+ "titleIcon": "tool",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "tool",
+   "word": "tool",
+   "ipa": "/tuːl/",
+   "zh": "工具",
+   "icon": "tool",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "use",
+   "word": "use",
+   "ipa": "/juːz/",
+   "zh": "使用",
+   "icon": "use",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "useful",
+   "word": "useful",
+   "ipa": "/ˈjuːsfl/",
+   "zh": "有用的",
+   "icon": "useful",
+   "kind": "adj",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "spare",
+   "word": "spare",
+   "ipa": "/sper/",
+   "zh": "备用的；空闲的",
+   "icon": "spare",
+   "kind": "adj",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "flashlight",
+   "word": "flashlight",
+   "ipa": "/ˈflæʃlaɪt/",
+   "zh": "手电筒",
+   "icon": "flashlight",
+   "alt": "torch",
+   "altLabel": "英式",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  },
+  {
+   "id": "repair",
+   "word": "repair",
+   "ipa": "/rɪˈper/",
+   "zh": "修理",
+   "icon": "repair",
+   "kind": "verb",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "fix",
+   "word": "fix",
+   "ipa": "/fɪks/",
+   "zh": "修好",
+   "icon": "fix",
+   "kind": "verb",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "mend",
+   "word": "mend",
+   "ipa": "/mend/",
+   "zh": "修补",
+   "icon": "mend",
+   "kind": "verb",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "tape",
+   "word": "tape",
+   "ipa": "/teɪp/",
+   "zh": "胶带",
+   "icon": "tape",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "use",
+   "to": "tool"
+  },
+  {
+   "from": "tool",
+   "to": "useful"
+  },
+  {
+   "from": "tool",
+   "to": "spare",
+   "dashed": true
+  },
+  {
+   "from": "tool",
+   "to": "flashlight"
+  },
+  {
+   "from": "tool",
+   "to": "fix"
+  },
+  {
+   "from": "repair",
+   "to": "fix",
+   "label": "差不多"
+  },
+  {
+   "from": "fix",
+   "to": "mend",
+   "label": "差不多"
+  },
+  {
+   "from": "fix",
+   "to": "tape",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！东西坏了怎么办？拿出工具箱，我们来修一修！"
+    },
+    {
+     "en": "tools"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:tool",
+    "focus:tool"
+   ],
+   "parts": [
+    {
+     "zh": "扳手、螺丝刀，都是工具："
+    },
+    {
+     "en": "tool"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:use",
+    "edge:use>tool",
+    "focus:use"
+   ],
+   "parts": [
+    {
+     "zh": "使用工具，英语是"
+    },
+    {
+     "en": "use"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:useful",
+    "edge:tool>useful",
+    "focus:useful"
+   ],
+   "parts": [
+    {
+     "zh": "工具很有用。还记得第八十集吗？use 加上 f u l："
+    },
+    {
+     "en": "useful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:spare",
+    "edge:tool>spare",
+    "focus:spare"
+   ],
+   "parts": [
+    {
+     "zh": "多准备一个，以备不时之需，是备用的："
+    },
+    {
+     "en": "spare"
+    },
+    {
+     "en": "a spare tire"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:flashlight",
+    "edge:tool>flashlight",
+    "focus:flashlight"
+   ],
+   "parts": [
+    {
+     "zh": "黑暗里照亮的手电筒。闪光，加上光："
+    },
+    {
+     "en": "flash"
+    },
+    {
+     "en": "light"
+    },
+    {
+     "en": "flashlight"
+    },
+    {
+     "zh": "在英国，它叫",
+     "cue": [
+      "alt:flashlight"
+     ]
+    },
+    {
+     "en": "torch"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:fix",
+    "edge:tool>fix",
+    "focus:fix"
+   ],
+   "parts": [
+    {
+     "zh": "把坏了的东西修好："
+    },
+    {
+     "en": "fix"
+    },
+    {
+     "en": "Dad can fix my bike."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:repair",
+    "edge:repair>fix",
+    "focus:repair"
+   ],
+   "parts": [
+    {
+     "zh": "修理，还可以说"
+    },
+    {
+     "en": "repair"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:mend",
+    "edge:fix>mend",
+    "focus:mend"
+   ],
+   "parts": [
+    {
+     "zh": "把破了的地方补好，是修补："
+    },
+    {
+     "en": "mend"
+    },
+    {
+     "en": "mend the fence"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:tape",
+    "edge:fix>tape",
+    "focus:tape"
+   ],
+   "parts": [
+    {
+     "zh": "书撕破了，用胶带粘一粘："
+    },
+    {
+     "en": "tape"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fix,repair,mend"
+   ],
+   "parts": [
+    {
+     "zh": "三个都有修的意思："
+    },
+    {
+     "en": "fix",
+     "cue": [
+      "focus:fix"
+     ]
+    },
+    {
+     "en": "repair",
+     "cue": [
+      "focus:repair"
+     ]
+    },
+    {
+     "en": "mend",
+     "cue": [
+      "focus:mend"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tool"
+   ],
+   "parts": [
+    {
+     "en": "tool"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:use"
+   ],
+   "parts": [
+    {
+     "en": "use"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:useful"
+   ],
+   "parts": [
+    {
+     "en": "useful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:spare"
+   ],
+   "parts": [
+    {
+     "en": "spare"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:flashlight"
+   ],
+   "parts": [
+    {
+     "en": "flashlight, torch"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:fix"
+   ],
+   "parts": [
+    {
+     "en": "fix"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:repair"
+   ],
+   "parts": [
+    {
+     "en": "repair"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:mend"
+   ],
+   "parts": [
+    {
+     "en": "mend"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:tape"
+   ],
+   "parts": [
+    {
+     "en": "tape"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！东西坏了，和爸爸一起试着修一修吧。用工具时要注意安全哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

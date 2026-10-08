@@ -1,0 +1,633 @@
+{
+ "duration": 124.413,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！还记得第四十八集的购物吗？今天，我们来学和钱有关的单词。",
+   "t0": 0.4,
+   "t1": 7.787,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "money",
+   "t0": 8.037,
+   "t1": 8.483,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "钱，英语是",
+   "t0": 9.583,
+   "t1": 10.868,
+   "cue": [
+    "map",
+    "show:money",
+    "focus:money"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "money",
+   "t0": 11.118,
+   "t1": 11.564,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "钱不能数，不加 s 哦。",
+   "t0": 12.064,
+   "t1": 14.011,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "圆圆的硬币：",
+   "t0": 14.861,
+   "t1": 15.874,
+   "cue": [
+    "show:coin",
+    "edge:money>coin",
+    "focus:coin"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "coin",
+   "t0": 16.124,
+   "t1": 16.58,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "一美元有一百美分。美分，是",
+   "t0": 17.68,
+   "t1": 21.112,
+   "cue": [
+    "show:cent",
+    "edge:coin>cent",
+    "focus:cent"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "cent",
+   "t0": 21.362,
+   "t1": 21.848,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "还记得第八十一集的 century 吗？一百年。",
+   "t0": 22.348,
+   "t1": 26.178,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "纸做的钱，是纸币：",
+   "t0": 27.028,
+   "t1": 28.853,
+   "cue": [
+    "show:note",
+    "edge:money>note",
+    "focus:note"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "note",
+   "t0": 29.103,
+   "t1": 29.549,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "英国用的钱，是英镑：",
+   "t0": 30.649,
+   "t1": 32.546,
+   "cue": [
+    "show:pound",
+    "edge:note>pound",
+    "focus:pound"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "pound",
+   "t0": 32.796,
+   "t1": 33.243,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "美国用的钱，是美元：",
+   "t0": 34.343,
+   "t1": 36.315,
+   "cue": [
+    "show:dollar",
+    "edge:note>dollar",
+    "focus:dollar"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "dollar",
+   "t0": 36.565,
+   "t1": 37.048,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "买东西后找回的零钱：",
+   "t0": 38.148,
+   "t1": 39.987,
+   "cue": [
+    "show:change",
+    "edge:money>change",
+    "focus:change"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "change",
+   "t0": 40.237,
+   "t1": 40.836,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "Here is your change.",
+   "t0": 41.336,
+   "t1": 42.53,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "在餐厅吃完饭，服务员拿来账单：",
+   "t0": 43.63,
+   "t1": 46.5,
+   "cue": [
+    "show:bill",
+    "edge:money>bill",
+    "focus:bill"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "bill",
+   "t0": 46.75,
+   "t1": 47.119,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "Can I have the bill, please?",
+   "t0": 47.619,
+   "t1": 49.236,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "写上金额就能付钱的，是支票：",
+   "t0": 50.336,
+   "t1": 53.152,
+   "cue": [
+    "show:check",
+    "edge:money>check",
+    "focus:check"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "check",
+   "t0": 53.402,
+   "t1": 53.828,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "英国写成",
+   "t0": 54.328,
+   "t1": 55.311,
+   "cue": [
+    "alt:check"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "cheque",
+   "t0": 55.561,
+   "t1": 55.987,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "东西卖多少钱，是价格：",
+   "t0": 57.087,
+   "t1": 59.243,
+   "cue": [
+    "show:price",
+    "focus:price"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "price",
+   "t0": 59.493,
+   "t1": 60.078,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "东西要花多少钱，用",
+   "t0": 61.178,
+   "t1": 63.074,
+   "cue": [
+    "show:cost",
+    "edge:price>cost",
+    "focus:cost"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "cost",
+   "t0": 63.324,
+   "t1": 63.804,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "This toy costs twenty yuan.",
+   "t0": 64.304,
+   "t1": 66.174,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "付钱，是",
+   "t0": 67.274,
+   "t1": 68.381,
+   "cue": [
+    "show:pay",
+    "edge:money>pay",
+    "focus:pay"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "pay",
+   "t0": 68.631,
+   "t1": 69.033,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "已经付了，要说",
+   "t0": 69.533,
+   "t1": 71.013,
+   "cue": [
+    "alt:pay"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "paid",
+   "t0": 71.263,
+   "t1": 71.674,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "把钱花出去，是",
+   "t0": 72.774,
+   "t1": 74.35,
+   "cue": [
+    "show:spend",
+    "edge:pay>spend",
+    "focus:spend"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "spend",
+   "t0": 74.6,
+   "t1": 75.14,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "已经花了，要说",
+   "t0": 75.64,
+   "t1": 77.16,
+   "cue": [
+    "alt:spend"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "spent",
+   "t0": 77.41,
+   "t1": 77.983,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "来演一演买东西吧！",
+   "t0": 79.083,
+   "t1": 80.519,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "How much does it cost?",
+   "t0": 81.369,
+   "t1": 82.725,
+   "cue": [
+    "focus:cost"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "I will pay with coins.",
+   "t0": 83.225,
+   "t1": 84.63,
+   "cue": [
+    "focus:pay,coin"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Here is your change!",
+   "t0": 85.13,
+   "t1": 86.348,
+   "cue": [
+    "focus:change"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 87.448,
+   "t1": 90.698,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "money",
+   "t0": 91.548,
+   "t1": 91.995,
+   "cue": [
+    "focus:money"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "coin",
+   "t0": 93.095,
+   "t1": 93.551,
+   "cue": [
+    "focus:coin"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "cent",
+   "t0": 94.651,
+   "t1": 95.137,
+   "cue": [
+    "focus:cent"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "note",
+   "t0": 96.237,
+   "t1": 96.683,
+   "cue": [
+    "focus:note"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "pound",
+   "t0": 97.783,
+   "t1": 98.229,
+   "cue": [
+    "focus:pound"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "dollar",
+   "t0": 99.329,
+   "t1": 99.812,
+   "cue": [
+    "focus:dollar"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "change",
+   "t0": 100.912,
+   "t1": 101.511,
+   "cue": [
+    "focus:change"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "bill",
+   "t0": 102.611,
+   "t1": 102.981,
+   "cue": [
+    "focus:bill"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "check, cheque",
+   "t0": 104.081,
+   "t1": 105.147,
+   "cue": [
+    "focus:check"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "price",
+   "t0": 106.247,
+   "t1": 106.832,
+   "cue": [
+    "focus:price"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "cost",
+   "t0": 107.932,
+   "t1": 108.412,
+   "cue": [
+    "focus:cost"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "pay, paid",
+   "t0": 109.512,
+   "t1": 110.62,
+   "cue": [
+    "focus:pay"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "spend, spent",
+   "t0": 111.72,
+   "t1": 112.941,
+   "cue": [
+    "focus:spend"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！花钱要有计划，记得把零花钱存起来哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 114.041,
+   "t1": 122.563,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "money": [
+   0.25,
+   0.696
+  ],
+  "coin": [
+   0.946,
+   1.403
+  ],
+  "cent": [
+   1.653,
+   2.139
+  ],
+  "note": [
+   2.389,
+   2.834
+  ],
+  "pound": [
+   3.084,
+   3.531
+  ],
+  "dollar": [
+   3.781,
+   4.264
+  ],
+  "change": [
+   4.514,
+   5.113
+  ],
+  "bill": [
+   5.363,
+   5.733
+  ],
+  "check": [
+   5.983,
+   6.409
+  ],
+  "check:alt": [
+   6.659,
+   7.086
+  ],
+  "price": [
+   7.336,
+   7.921
+  ],
+  "cost": [
+   8.171,
+   8.651
+  ],
+  "pay": [
+   8.901,
+   9.304
+  ],
+  "pay:alt": [
+   9.554,
+   9.965
+  ],
+  "spend": [
+   10.215,
+   10.755
+  ],
+  "spend:alt": [
+   11.005,
+   11.577
+  ]
+ }
+}

@@ -1,0 +1,544 @@
+{
+ "duration": 109.325,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！今天，我们来认识国家的更多知识！",
+   "t0": 0.4,
+   "t1": 5.017,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "country",
+   "t0": 5.267,
+   "t1": 5.858,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "国家：",
+   "t0": 6.958,
+   "t1": 7.442,
+   "cue": [
+    "map",
+    "show:country",
+    "focus:country"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "country",
+   "t0": 7.692,
+   "t1": 8.284,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "还记得第八十三集的公共的吗？",
+   "t0": 9.384,
+   "t1": 11.632,
+   "cue": [
+    "show:public",
+    "focus:public"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "public",
+   "t0": 11.882,
+   "t1": 12.465,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "共和国，英语是",
+   "t0": 13.565,
+   "t1": 15.151,
+   "cue": [
+    "show:republic",
+    "edge:public>republic",
+    "edge:country>republic",
+    "focus:republic"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "republic",
+   "t0": 15.401,
+   "t1": 16.161,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "仔细看，republic 里面藏着 public 哦。",
+   "t0": 16.661,
+   "t1": 19.897,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "the People's Republic of China",
+   "t0": 20.147,
+   "t1": 21.901,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "中国分成很多个省：",
+   "t0": 23.001,
+   "t1": 24.6,
+   "cue": [
+    "show:province",
+    "edge:country>province",
+    "focus:province"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "province",
+   "t0": 24.85,
+   "t1": 25.509,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "美国分成五十个州：",
+   "t0": 26.609,
+   "t1": 28.243,
+   "cue": [
+    "show:state",
+    "edge:country>state",
+    "focus:state"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "state",
+   "t0": 28.493,
+   "t1": 29.096,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "一个国家的首都：",
+   "t0": 30.196,
+   "t1": 31.475,
+   "cue": [
+    "show:capital",
+    "edge:country>capital",
+    "focus:capital"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "capital",
+   "t0": 31.725,
+   "t1": 32.312,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "Beijing is the capital of China.",
+   "t0": 32.812,
+   "t1": 34.75,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "它还有一个意思，是大写字母。",
+   "t0": 35.25,
+   "t1": 37.778,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "国家是 nation，加上 a l，就是国家的：",
+   "t0": 38.628,
+   "t1": 42.047,
+   "cue": [
+    "show:national",
+    "edge:country>national",
+    "focus:national"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "national",
+   "t0": 42.297,
+   "t1": 42.98,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "the National Day",
+   "t0": 43.48,
+   "t1": 44.528,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "有的国家的领导人，叫总统或主席：",
+   "t0": 45.628,
+   "t1": 48.701,
+   "cue": [
+    "show:president",
+    "edge:country>president",
+    "focus:president"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "president",
+   "t0": 48.951,
+   "t1": 49.625,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "有的国家有国王：",
+   "t0": 50.725,
+   "t1": 52.049,
+   "cue": [
+    "show:king",
+    "edge:country>king",
+    "focus:king"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "king",
+   "t0": 52.299,
+   "t1": 52.72,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "还有女王或王后：",
+   "t0": 53.82,
+   "t1": 55.134,
+   "cue": [
+    "show:queen",
+    "edge:king>queen",
+    "focus:queen"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "queen",
+   "t0": 55.384,
+   "t1": 55.83,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "去别的国家，是到国外：",
+   "t0": 56.93,
+   "t1": 58.965,
+   "cue": [
+    "show:abroad",
+    "edge:country>abroad",
+    "focus:abroad"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "abroad",
+   "t0": 59.215,
+   "t1": 59.806,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "I want to study abroad.",
+   "t0": 60.306,
+   "t1": 61.648,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "最后学一句常用语，问别人怎么了：",
+   "t0": 62.748,
+   "t1": 65.558,
+   "cue": [
+    "show:matter",
+    "edge:national>matter",
+    "focus:matter"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "What's the matter?",
+   "t0": 65.808,
+   "t1": 66.656,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "matter 的意思是事情、要紧。",
+   "t0": 67.156,
+   "t1": 69.682,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "国王和女王：",
+   "t0": 70.532,
+   "t1": 71.543,
+   "cue": [
+    "focus:king,queen"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "king",
+   "t0": 71.793,
+   "t1": 72.214,
+   "cue": [
+    "focus:king"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "queen",
+   "t0": 72.714,
+   "t1": 73.16,
+   "cue": [
+    "focus:queen"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 74.26,
+   "t1": 77.511,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "country",
+   "t0": 78.361,
+   "t1": 78.953,
+   "cue": [
+    "focus:country"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "public",
+   "t0": 80.053,
+   "t1": 80.635,
+   "cue": [
+    "focus:public"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "republic",
+   "t0": 81.735,
+   "t1": 82.495,
+   "cue": [
+    "focus:republic"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "province",
+   "t0": 83.595,
+   "t1": 84.254,
+   "cue": [
+    "focus:province"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "state",
+   "t0": 85.354,
+   "t1": 85.956,
+   "cue": [
+    "focus:state"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "capital",
+   "t0": 87.056,
+   "t1": 87.643,
+   "cue": [
+    "focus:capital"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "national",
+   "t0": 88.743,
+   "t1": 89.427,
+   "cue": [
+    "focus:national"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "president",
+   "t0": 90.527,
+   "t1": 91.201,
+   "cue": [
+    "focus:president"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "king",
+   "t0": 92.301,
+   "t1": 92.722,
+   "cue": [
+    "focus:king"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "queen",
+   "t0": 93.822,
+   "t1": 94.268,
+   "cue": [
+    "focus:queen"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "abroad",
+   "t0": 95.368,
+   "t1": 95.96,
+   "cue": [
+    "focus:abroad"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "matter",
+   "t0": 97.06,
+   "t1": 97.537,
+   "cue": [
+    "focus:matter"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "zh",
+   "text": "太棒了！继续加油，用英语去认识更大的世界吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 98.637,
+   "t1": 107.475,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "country": [
+   0.25,
+   0.842
+  ],
+  "republic": [
+   1.092,
+   1.852
+  ],
+  "public": [
+   2.102,
+   2.685
+  ],
+  "province": [
+   2.935,
+   3.593
+  ],
+  "state": [
+   3.843,
+   4.446
+  ],
+  "capital": [
+   4.696,
+   5.283
+  ],
+  "national": [
+   5.533,
+   6.216
+  ],
+  "national:alt": [
+   6.466,
+   7.109
+  ],
+  "matter": [
+   7.359,
+   7.836
+  ],
+  "abroad": [
+   8.086,
+   8.677
+  ],
+  "president": [
+   8.927,
+   9.601
+  ],
+  "king": [
+   9.851,
+   10.273
+  ],
+  "queen": [
+   10.523,
+   10.969
+  ]
+ }
+}

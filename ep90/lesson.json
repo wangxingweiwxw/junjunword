@@ -1,0 +1,736 @@
+{
+ "id": "ep90",
+ "title": "disease",
+ "titleZh": "疾病",
+ "episode": "第 90 集",
+ "titleIcon": "treatment",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1850
+  ]
+ },
+ "nodes": [
+  {
+   "id": "hospital",
+   "word": "hospital",
+   "ipa": "/ˈhɑːspɪtl/",
+   "zh": "医院",
+   "icon": "hospital",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    520,
+    470
+   ]
+  },
+  {
+   "id": "cut",
+   "word": "cut",
+   "ipa": "/kʌt/",
+   "zh": "割伤；切",
+   "icon": "cut",
+   "kind": "verb",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    170,
+    150
+   ]
+  },
+  {
+   "id": "burn",
+   "word": "burn",
+   "ipa": "/bɜːrn/",
+   "zh": "烧伤；烫伤",
+   "icon": "burn",
+   "kind": "verb",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    170,
+    470
+   ]
+  },
+  {
+   "id": "awful",
+   "word": "awful",
+   "ipa": "/ˈɔːfl/",
+   "zh": "糟糕的；可怕的",
+   "icon": "awful",
+   "kind": "adj",
+   "atP": [
+    150,
+    460
+   ],
+   "at": [
+    170,
+    790
+   ]
+  },
+  {
+   "id": "blind",
+   "word": "blind",
+   "ipa": "/blaɪnd/",
+   "zh": "失明的",
+   "icon": "blind",
+   "kind": "adj",
+   "atP": [
+    450,
+    460
+   ],
+   "at": [
+    520,
+    150
+   ]
+  },
+  {
+   "id": "deaf",
+   "word": "deaf",
+   "ipa": "/def/",
+   "zh": "失聪的",
+   "icon": "deaf",
+   "kind": "adj",
+   "atP": [
+    750,
+    460
+   ],
+   "at": [
+    870,
+    150
+   ]
+  },
+  {
+   "id": "disabled",
+   "word": "disabled",
+   "ipa": "/dɪsˈeɪbld/",
+   "zh": "残疾的",
+   "icon": "disabled",
+   "kind": "adj",
+   "alt": "able",
+   "altLabel": "dis+",
+   "atP": [
+    450,
+    770
+   ],
+   "at": [
+    870,
+    470
+   ]
+  },
+  {
+   "id": "disease",
+   "word": "disease",
+   "ipa": "/dɪˈziːz/",
+   "zh": "疾病",
+   "icon": "disease",
+   "atP": [
+    450,
+    1080
+   ],
+   "at": [
+    1220,
+    470
+   ]
+  },
+  {
+   "id": "cancer",
+   "word": "cancer",
+   "ipa": "/ˈkænsər/",
+   "zh": "癌症",
+   "icon": "cancer",
+   "atP": [
+    750,
+    1080
+   ],
+   "at": [
+    1570,
+    470
+   ]
+  },
+  {
+   "id": "prevent",
+   "word": "prevent",
+   "ipa": "/prɪˈvent/",
+   "zh": "预防；阻止",
+   "icon": "prevent",
+   "kind": "verb",
+   "atP": [
+    150,
+    1080
+   ],
+   "at": [
+    1220,
+    150
+   ]
+  },
+  {
+   "id": "drug",
+   "word": "drug",
+   "ipa": "/drʌɡ/",
+   "zh": "药物",
+   "icon": "drug",
+   "atP": [
+    150,
+    1390
+   ],
+   "at": [
+    1570,
+    150
+   ]
+  },
+  {
+   "id": "weak",
+   "word": "weak",
+   "ipa": "/wiːk/",
+   "zh": "虚弱的",
+   "icon": "weak",
+   "kind": "adj",
+   "atP": [
+    450,
+    1390
+   ],
+   "at": [
+    1570,
+    790
+   ]
+  },
+  {
+   "id": "operation",
+   "word": "operation",
+   "ipa": "/ˌɑːpəˈreɪʃn/",
+   "zh": "手术",
+   "icon": "operation",
+   "atP": [
+    750,
+    1390
+   ],
+   "at": [
+    870,
+    790
+   ]
+  },
+  {
+   "id": "treatment",
+   "word": "treatment",
+   "ipa": "/ˈtriːtmənt/",
+   "zh": "治疗",
+   "icon": "treatment",
+   "alt": "treat",
+   "altLabel": "来自",
+   "atP": [
+    450,
+    1700
+   ],
+   "at": [
+    1220,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "hospital",
+   "to": "cut"
+  },
+  {
+   "from": "hospital",
+   "to": "burn"
+  },
+  {
+   "from": "burn",
+   "to": "awful"
+  },
+  {
+   "from": "hospital",
+   "to": "blind"
+  },
+  {
+   "from": "blind",
+   "to": "deaf"
+  },
+  {
+   "from": "deaf",
+   "to": "disabled"
+  },
+  {
+   "from": "hospital",
+   "to": "disabled"
+  },
+  {
+   "from": "disabled",
+   "to": "disease",
+   "dashed": true
+  },
+  {
+   "from": "prevent",
+   "to": "disease"
+  },
+  {
+   "from": "disease",
+   "to": "cancer"
+  },
+  {
+   "from": "drug",
+   "to": "cancer"
+  },
+  {
+   "from": "cancer",
+   "to": "weak"
+  },
+  {
+   "from": "operation",
+   "to": "treatment"
+  },
+  {
+   "from": "treatment",
+   "to": "disease"
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！还记得第六十八集和第八十九集的生病吗？今天，我们学一些更严重的疾病和治疗。"
+    },
+    {
+     "en": "disease"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:hospital",
+    "focus:hospital"
+   ],
+   "parts": [
+    {
+     "zh": "医院："
+    },
+    {
+     "en": "hospital"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cut",
+    "edge:hospital>cut",
+    "focus:cut"
+   ],
+   "parts": [
+    {
+     "zh": "不小心被刀割伤了："
+    },
+    {
+     "en": "cut"
+    },
+    {
+     "en": "I cut my finger."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:burn",
+    "edge:hospital>burn",
+    "focus:burn"
+   ],
+   "parts": [
+    {
+     "zh": "被热水烫伤、被火烧伤："
+    },
+    {
+     "en": "burn"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:awful",
+    "edge:burn>awful",
+    "focus:awful"
+   ],
+   "parts": [
+    {
+     "zh": "烫伤真是太糟糕了："
+    },
+    {
+     "en": "awful"
+    },
+    {
+     "zh": "还记得 terrible 吗？意思差不多。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:blind",
+    "edge:hospital>blind",
+    "focus:blind"
+   ],
+   "parts": [
+    {
+     "zh": "眼睛看不见，是失明的："
+    },
+    {
+     "en": "blind"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:deaf",
+    "edge:blind>deaf",
+    "focus:deaf"
+   ],
+   "parts": [
+    {
+     "zh": "耳朵听不见，是失聪的："
+    },
+    {
+     "en": "deaf"
+    },
+    {
+     "zh": "e a 读短短的 e。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:disabled",
+    "edge:deaf>disabled",
+    "edge:hospital>disabled",
+    "focus:disabled"
+   ],
+   "parts": [
+    {
+     "zh": "能够是 able，加上 d i s 和 e d，就是残疾的："
+    },
+    {
+     "en": "disabled"
+    },
+    {
+     "zh": "我们要尊重和帮助残疾人。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:disease",
+    "edge:disabled>disease",
+    "focus:disease"
+   ],
+   "parts": [
+    {
+     "zh": "身体得的病，是疾病："
+    },
+    {
+     "en": "disease"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:prevent",
+    "edge:prevent>disease",
+    "focus:prevent"
+   ],
+   "parts": [
+    {
+     "zh": "多运动、讲卫生，可以预防疾病："
+    },
+    {
+     "en": "prevent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cancer",
+    "edge:disease>cancer",
+    "focus:cancer"
+   ],
+   "parts": [
+    {
+     "zh": "一种很严重的病，叫癌症："
+    },
+    {
+     "en": "cancer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:drug",
+    "edge:drug>cancer",
+    "focus:drug"
+   ],
+   "parts": [
+    {
+     "zh": "医生用药物来治病："
+    },
+    {
+     "en": "drug"
+    },
+    {
+     "zh": "药物一定要听医生的话吃。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:weak",
+    "edge:cancer>weak",
+    "focus:weak"
+   ],
+   "parts": [
+    {
+     "zh": "生了重病，身体很虚弱。还记得第十五集的 weak 吗？"
+    },
+    {
+     "en": "weak"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:operation",
+    "focus:operation"
+   ],
+   "parts": [
+    {
+     "zh": "有时候，医生要给病人做手术："
+    },
+    {
+     "en": "operation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:treatment",
+    "edge:operation>treatment",
+    "edge:treatment>disease",
+    "focus:treatment"
+   ],
+   "parts": [
+    {
+     "zh": "治病的方法，是治疗。还记得 treat 吗？加上 m e n t："
+    },
+    {
+     "en": "treat"
+    },
+    {
+     "en": "treatment"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "祝大家都健健康康！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "Prevention is better than cure.",
+     "cue": [
+      "focus:prevent"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:hospital"
+   ],
+   "parts": [
+    {
+     "en": "hospital"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cut"
+   ],
+   "parts": [
+    {
+     "en": "cut"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:burn"
+   ],
+   "parts": [
+    {
+     "en": "burn"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:awful"
+   ],
+   "parts": [
+    {
+     "en": "awful"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:blind"
+   ],
+   "parts": [
+    {
+     "en": "blind"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:deaf"
+   ],
+   "parts": [
+    {
+     "en": "deaf"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:disabled"
+   ],
+   "parts": [
+    {
+     "en": "disabled"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:disease"
+   ],
+   "parts": [
+    {
+     "en": "disease"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:prevent"
+   ],
+   "parts": [
+    {
+     "en": "prevent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cancer"
+   ],
+   "parts": [
+    {
+     "en": "cancer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:drug"
+   ],
+   "parts": [
+    {
+     "en": "drug"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:weak"
+   ],
+   "parts": [
+    {
+     "en": "weak"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:operation"
+   ],
+   "parts": [
+    {
+     "en": "operation"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:treatment"
+   ],
+   "parts": [
+    {
+     "en": "treatment"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！多运动、讲卫生，就能远离疾病哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

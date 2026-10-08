@@ -1,0 +1,524 @@
+{
+ "duration": 111.379,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！东西都是用什么做的呢？今天，我们来学材料！",
+   "t0": 0.4,
+   "t1": 6.55,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "materials",
+   "t0": 6.8,
+   "t1": 7.778,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "做东西用的原料，是材料：",
+   "t0": 8.878,
+   "t1": 11.168,
+   "cue": [
+    "map",
+    "show:material",
+    "focus:material"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "material",
+   "t0": 11.418,
+   "t1": 12.216,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "大自然里本来就有的，是天然的。还记得第八十六集的 nature 吗？",
+   "t0": 13.316,
+   "t1": 19.181,
+   "cue": [
+    "show:natural",
+    "edge:natural>material",
+    "focus:natural"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "natural",
+   "t0": 19.431,
+   "t1": 20.068,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "材料好不好，看质量：",
+   "t0": 21.168,
+   "t1": 23.031,
+   "cue": [
+    "show:quality",
+    "edge:quality>material",
+    "focus:quality"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "quality",
+   "t0": 23.281,
+   "t1": 23.897,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "good quality",
+   "t0": 24.397,
+   "t1": 25.225,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "轻轻的塑料瓶：",
+   "t0": 26.325,
+   "t1": 27.584,
+   "cue": [
+    "show:plastic",
+    "edge:material>plastic",
+    "focus:plastic"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "plastic",
+   "t0": 27.834,
+   "t1": 28.505,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "This company makes plastic.",
+   "t0": 29.005,
+   "t1": 30.779,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "透明的玻璃：",
+   "t0": 31.879,
+   "t1": 32.857,
+   "cue": [
+    "show:glass",
+    "edge:material>glass",
+    "focus:glass"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "glass",
+   "t0": 33.107,
+   "t1": 33.677,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "它也是玻璃杯的意思。",
+   "t0": 34.177,
+   "t1": 35.772,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "中国有名的丝绸，滑滑的：",
+   "t0": 36.622,
+   "t1": 38.905,
+   "cue": [
+    "show:silk",
+    "edge:material>silk",
+    "focus:silk"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "silk",
+   "t0": 39.155,
+   "t1": 39.65,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "木头是 wood，加上 e n，就是木制的：",
+   "t0": 40.75,
+   "t1": 43.875,
+   "cue": [
+    "show:wooden",
+    "edge:plastic>wooden",
+    "focus:wooden"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "wood",
+   "t0": 44.125,
+   "t1": 44.503,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "wooden",
+   "t0": 45.003,
+   "t1": 45.443,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "a wooden chair",
+   "t0": 45.943,
+   "t1": 46.857,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "海边的沙子。玻璃就是用沙子做的哦：",
+   "t0": 47.957,
+   "t1": 51.547,
+   "cue": [
+    "show:sand",
+    "edge:glass>sand",
+    "edge:material>sand",
+    "focus:sand"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "sand",
+   "t0": 51.797,
+   "t1": 52.318,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "硬硬的石头：",
+   "t0": 53.418,
+   "t1": 54.409,
+   "cue": [
+    "show:stone",
+    "edge:sand>stone",
+    "focus:stone"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "stone",
+   "t0": 54.659,
+   "t1": 55.262,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "还记得第八十五集的 rock 吗？",
+   "t0": 55.762,
+   "t1": 57.825,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "铁：",
+   "t0": 58.675,
+   "t1": 59.011,
+   "cue": [
+    "show:iron",
+    "focus:iron"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "iron",
+   "t0": 59.261,
+   "t1": 59.739,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "r 几乎不发音，读 ai ern。",
+   "t0": 60.239,
+   "t1": 62.688,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "铁炼成的更结实的钢：",
+   "t0": 63.538,
+   "t1": 65.217,
+   "cue": [
+    "show:steel",
+    "edge:iron>steel",
+    "focus:steel"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "steel",
+   "t0": 65.467,
+   "t1": 66.016,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "猜一猜，它们是用什么做的？",
+   "t0": 67.116,
+   "t1": 69.282,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "A window is made of glass.",
+   "t0": 70.132,
+   "t1": 71.803,
+   "cue": [
+    "focus:glass"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "A bottle is made of plastic.",
+   "t0": 72.303,
+   "t1": 74.097,
+   "cue": [
+    "focus:plastic"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "A bridge is made of steel.",
+   "t0": 74.597,
+   "t1": 76.068,
+   "cue": [
+    "focus:steel"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 77.168,
+   "t1": 80.418,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "material",
+   "t0": 81.268,
+   "t1": 82.065,
+   "cue": [
+    "focus:material"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "natural",
+   "t0": 83.165,
+   "t1": 83.802,
+   "cue": [
+    "focus:natural"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "quality",
+   "t0": 84.902,
+   "t1": 85.518,
+   "cue": [
+    "focus:quality"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "plastic",
+   "t0": 86.618,
+   "t1": 87.288,
+   "cue": [
+    "focus:plastic"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "glass",
+   "t0": 88.388,
+   "t1": 88.958,
+   "cue": [
+    "focus:glass"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "silk",
+   "t0": 90.058,
+   "t1": 90.553,
+   "cue": [
+    "focus:silk"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "wooden",
+   "t0": 91.653,
+   "t1": 92.093,
+   "cue": [
+    "focus:wooden"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "sand",
+   "t0": 93.193,
+   "t1": 93.713,
+   "cue": [
+    "focus:sand"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "stone",
+   "t0": 94.813,
+   "t1": 95.416,
+   "cue": [
+    "focus:stone"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "iron",
+   "t0": 96.516,
+   "t1": 96.994,
+   "cue": [
+    "focus:iron"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "steel",
+   "t0": 98.094,
+   "t1": 98.642,
+   "cue": [
+    "focus:steel"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "zh",
+   "text": "太棒了！看看你身边的东西，用英语说一说它们是用什么做的吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 99.742,
+   "t1": 109.529,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "material": [
+   0.25,
+   1.047
+  ],
+  "natural": [
+   1.297,
+   1.934
+  ],
+  "natural:alt": [
+   2.184,
+   2.769
+  ],
+  "quality": [
+   3.019,
+   3.635
+  ],
+  "plastic": [
+   3.885,
+   4.555
+  ],
+  "glass": [
+   4.805,
+   5.375
+  ],
+  "silk": [
+   5.625,
+   6.12
+  ],
+  "sand": [
+   6.37,
+   6.891
+  ],
+  "stone": [
+   7.141,
+   7.743
+  ],
+  "steel": [
+   7.993,
+   8.542
+  ],
+  "iron": [
+   8.792,
+   9.269
+  ],
+  "wooden": [
+   9.519,
+   9.959
+  ],
+  "wooden:alt": [
+   10.209,
+   10.587
+  ]
+ }
+}

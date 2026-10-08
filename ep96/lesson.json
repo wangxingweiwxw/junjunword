@@ -1,0 +1,712 @@
+{
+ "id": "ep96",
+ "title": "Asia",
+ "titleZh": "亚洲",
+ "episode": "第 96 集",
+ "titleIcon": "asia",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1850
+  ]
+ },
+ "nodes": [
+  {
+   "id": "continent",
+   "word": "continent",
+   "ipa": "/ˈkɑːntɪnənt/",
+   "zh": "大洲；大陆",
+   "icon": "continent",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    170,
+    150
+   ]
+  },
+  {
+   "id": "asia",
+   "word": "Asia",
+   "ipa": "/ˈeɪʒə/",
+   "zh": "亚洲",
+   "icon": "asia",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    520,
+    150
+   ]
+  },
+  {
+   "id": "asian",
+   "word": "Asian",
+   "ipa": "/ˈeɪʒn/",
+   "zh": "亚洲人；亚洲的",
+   "icon": "asian",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    870,
+    150
+   ]
+  },
+  {
+   "id": "population",
+   "word": "population",
+   "ipa": "/ˌpɑːpjuˈleɪʃn/",
+   "zh": "人口",
+   "icon": "population",
+   "atP": [
+    450,
+    1390
+   ],
+   "at": [
+    1220,
+    150
+   ]
+  },
+  {
+   "id": "china",
+   "word": "China",
+   "ipa": "/ˈtʃaɪnə/",
+   "zh": "中国",
+   "icon": "china",
+   "atP": [
+    150,
+    460
+   ],
+   "at": [
+    170,
+    470
+   ]
+  },
+  {
+   "id": "chinese",
+   "word": "Chinese",
+   "ipa": "/ˌtʃaɪˈniːz/",
+   "zh": "中国人；中文",
+   "icon": "chinese",
+   "atP": [
+    750,
+    460
+   ],
+   "at": [
+    170,
+    790
+   ]
+  },
+  {
+   "id": "india",
+   "word": "India",
+   "ipa": "/ˈɪndiə/",
+   "zh": "印度",
+   "icon": "india",
+   "atP": [
+    150,
+    1390
+   ],
+   "at": [
+    1220,
+    470
+   ]
+  },
+  {
+   "id": "indian",
+   "word": "Indian",
+   "ipa": "/ˈɪndiən/",
+   "zh": "印度人",
+   "icon": "indian",
+   "atP": [
+    750,
+    1390
+   ],
+   "at": [
+    1220,
+    790
+   ]
+  },
+  {
+   "id": "japan",
+   "word": "Japan",
+   "ipa": "/dʒəˈpæn/",
+   "zh": "日本",
+   "icon": "japan",
+   "atP": [
+    150,
+    770
+   ],
+   "at": [
+    520,
+    470
+   ]
+  },
+  {
+   "id": "japanese",
+   "word": "Japanese",
+   "ipa": "/ˌdʒæpəˈniːz/",
+   "zh": "日本人；日语",
+   "icon": "japanese",
+   "atP": [
+    750,
+    770
+   ],
+   "at": [
+    520,
+    790
+   ]
+  },
+  {
+   "id": "southkorea",
+   "word": "South Korea",
+   "ipa": "/saʊθ kəˈriːə/",
+   "zh": "韩国",
+   "icon": "southkorea",
+   "atP": [
+    150,
+    1080
+   ],
+   "at": [
+    870,
+    470
+   ]
+  },
+  {
+   "id": "korean",
+   "word": "Korean",
+   "ipa": "/kəˈriːən/",
+   "zh": "韩国人；韩语",
+   "icon": "korean",
+   "atP": [
+    750,
+    1080
+   ],
+   "at": [
+    870,
+    790
+   ]
+  },
+  {
+   "id": "infer",
+   "word": "infer",
+   "ipa": "/ɪnˈfɜːr/",
+   "zh": "推断",
+   "icon": "infer",
+   "kind": "verb",
+   "atP": [
+    450,
+    1700
+   ],
+   "at": [
+    1570,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "continent",
+   "to": "asia"
+  },
+  {
+   "from": "asia",
+   "to": "asian",
+   "label": "+n"
+  },
+  {
+   "from": "asian",
+   "to": "population",
+   "dashed": true
+  },
+  {
+   "from": "population",
+   "to": "infer",
+   "dashed": true
+  },
+  {
+   "from": "china",
+   "to": "chinese",
+   "label": "+ese"
+  },
+  {
+   "from": "japan",
+   "to": "japanese",
+   "label": "+ese"
+  },
+  {
+   "from": "southkorea",
+   "to": "korean",
+   "label": "+n"
+  },
+  {
+   "from": "india",
+   "to": "indian",
+   "label": "+n"
+  },
+  {
+   "from": "asia",
+   "to": "china",
+   "dashed": true
+  },
+  {
+   "from": "asia",
+   "to": "japan",
+   "dashed": true
+  },
+  {
+   "from": "asia",
+   "to": "southkorea",
+   "dashed": true
+  },
+  {
+   "from": "asia",
+   "to": "india",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！我们一起去认识世界吧！第一站，就是我们所在的亚洲。"
+    },
+    {
+     "en": "Asia"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:continent",
+    "focus:continent"
+   ],
+   "parts": [
+    {
+     "zh": "地球上的大块陆地，叫大洲："
+    },
+    {
+     "en": "continent"
+    },
+    {
+     "zh": "地球上一共有七大洲。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:asia",
+    "edge:continent>asia",
+    "focus:asia"
+   ],
+   "parts": [
+    {
+     "zh": "最大的一个大洲，是亚洲："
+    },
+    {
+     "en": "Asia"
+    },
+    {
+     "zh": "国家和大洲的名字，开头都要大写。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:asian",
+    "edge:asia>asian",
+    "focus:asian"
+   ],
+   "parts": [
+    {
+     "zh": "亚洲人，在后面加上 n："
+    },
+    {
+     "en": "Asian"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:china",
+    "edge:asia>china",
+    "focus:china"
+   ],
+   "parts": [
+    {
+     "zh": "我们的祖国，中国："
+    },
+    {
+     "en": "China"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:chinese",
+    "edge:china>chinese",
+    "focus:chinese"
+   ],
+   "parts": [
+    {
+     "zh": "中国人和中文，加上 e s e："
+    },
+    {
+     "en": "Chinese"
+    },
+    {
+     "en": "I am Chinese. I speak Chinese."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:japan",
+    "edge:asia>japan",
+    "focus:japan"
+   ],
+   "parts": [
+    {
+     "zh": "日本："
+    },
+    {
+     "en": "Japan"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:japanese",
+    "edge:japan>japanese",
+    "focus:japanese"
+   ],
+   "parts": [
+    {
+     "zh": "日本人和日语，也加 e s e："
+    },
+    {
+     "en": "Japanese"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:southkorea",
+    "edge:asia>southkorea",
+    "focus:southkorea"
+   ],
+   "parts": [
+    {
+     "zh": "韩国："
+    },
+    {
+     "en": "South Korea"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:korean",
+    "edge:southkorea>korean",
+    "focus:korean"
+   ],
+   "parts": [
+    {
+     "zh": "韩国人和韩语，加上 n："
+    },
+    {
+     "en": "Korean"
+    },
+    {
+     "en": "I love Korean food."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:india",
+    "edge:asia>india",
+    "focus:india"
+   ],
+   "parts": [
+    {
+     "zh": "印度："
+    },
+    {
+     "en": "India"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:indian",
+    "edge:india>indian",
+    "focus:indian"
+   ],
+   "parts": [
+    {
+     "zh": "印度人，加上 n："
+    },
+    {
+     "en": "Indian"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:population",
+    "edge:asian>population",
+    "focus:population"
+   ],
+   "parts": [
+    {
+     "zh": "亚洲的人口特别多。人口，英语是"
+    },
+    {
+     "en": "population"
+    },
+    {
+     "zh": "中国和印度，都是人口很多的国家。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:infer",
+    "edge:population>infer",
+    "focus:infer"
+   ],
+   "parts": [
+    {
+     "zh": "根据线索得出结论，是推断："
+    },
+    {
+     "en": "infer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:chinese,japanese"
+   ],
+   "parts": [
+    {
+     "zh": "两个 e s e 结尾的："
+    },
+    {
+     "en": "China, Chinese",
+     "cue": [
+      "focus:china,chinese"
+     ]
+    },
+    {
+     "en": "Japan, Japanese",
+     "cue": [
+      "focus:japan,japanese"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:asian,korean,indian"
+   ],
+   "parts": [
+    {
+     "zh": "三个加 n 的："
+    },
+    {
+     "en": "Asia, Asian",
+     "cue": [
+      "focus:asia,asian"
+     ]
+    },
+    {
+     "en": "Korea, Korean",
+     "cue": [
+      "focus:southkorea,korean"
+     ]
+    },
+    {
+     "en": "India, Indian",
+     "cue": [
+      "focus:india,indian"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:continent"
+   ],
+   "parts": [
+    {
+     "en": "continent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:asia"
+   ],
+   "parts": [
+    {
+     "en": "Asia"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:asian"
+   ],
+   "parts": [
+    {
+     "en": "Asian"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:china"
+   ],
+   "parts": [
+    {
+     "en": "China"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:chinese"
+   ],
+   "parts": [
+    {
+     "en": "Chinese"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:japan"
+   ],
+   "parts": [
+    {
+     "en": "Japan"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:japanese"
+   ],
+   "parts": [
+    {
+     "en": "Japanese"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:southkorea"
+   ],
+   "parts": [
+    {
+     "en": "South Korea"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:korean"
+   ],
+   "parts": [
+    {
+     "en": "Korean"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:india"
+   ],
+   "parts": [
+    {
+     "en": "India"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:indian"
+   ],
+   "parts": [
+    {
+     "en": "Indian"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:population"
+   ],
+   "parts": [
+    {
+     "en": "population"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:infer"
+   ],
+   "parts": [
+    {
+     "en": "infer"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！在地图上找一找亚洲的这些国家吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

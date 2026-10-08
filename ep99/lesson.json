@@ -1,0 +1,644 @@
+{
+ "id": "ep99",
+ "title": "nation",
+ "titleZh": "国家政体",
+ "episode": "第 99 集",
+ "titleIcon": "republic",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1350
+  ]
+ },
+ "nodes": [
+  {
+   "id": "country",
+   "word": "country",
+   "ipa": "/ˈkʌntri/",
+   "zh": "国家",
+   "icon": "country",
+   "atP": [
+    450,
+    500
+   ],
+   "at": [
+    675,
+    470
+   ]
+  },
+  {
+   "id": "republic",
+   "word": "republic",
+   "ipa": "/rɪˈpʌblɪk/",
+   "zh": "共和国",
+   "icon": "republic",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    225,
+    470
+   ]
+  },
+  {
+   "id": "public",
+   "word": "public",
+   "ipa": "/ˈpʌblɪk/",
+   "zh": "公众的",
+   "icon": "public",
+   "kind": "adj",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    225,
+    150
+   ]
+  },
+  {
+   "id": "province",
+   "word": "province",
+   "ipa": "/ˈprɑːvɪns/",
+   "zh": "省",
+   "icon": "province",
+   "atP": [
+    150,
+    500
+   ],
+   "at": [
+    675,
+    150
+   ]
+  },
+  {
+   "id": "state",
+   "word": "state",
+   "ipa": "/steɪt/",
+   "zh": "州",
+   "icon": "state",
+   "atP": [
+    150,
+    850
+   ],
+   "at": [
+    1125,
+    150
+   ]
+  },
+  {
+   "id": "capital",
+   "word": "capital",
+   "ipa": "/ˈkæpɪtl/",
+   "zh": "首都；大写字母",
+   "icon": "capital",
+   "atP": [
+    450,
+    850
+   ],
+   "at": [
+    1125,
+    470
+   ]
+  },
+  {
+   "id": "national",
+   "word": "national",
+   "ipa": "/ˈnæʃnəl/",
+   "zh": "国家的；民族的",
+   "icon": "national",
+   "kind": "adj",
+   "alt": "nation",
+   "altLabel": "来自",
+   "atP": [
+    150,
+    1200
+   ],
+   "at": [
+    1575,
+    150
+   ]
+  },
+  {
+   "id": "matter",
+   "word": "matter",
+   "ipa": "/ˈmætər/",
+   "zh": "事情；要紧",
+   "icon": "matter",
+   "atP": [
+    450,
+    1200
+   ],
+   "at": [
+    1575,
+    470
+   ]
+  },
+  {
+   "id": "abroad",
+   "word": "abroad",
+   "ipa": "/əˈbrɔːd/",
+   "zh": "在国外",
+   "icon": "abroad",
+   "kind": "adv",
+   "atP": [
+    750,
+    1200
+   ],
+   "at": [
+    1575,
+    790
+   ]
+  },
+  {
+   "id": "president",
+   "word": "president",
+   "ipa": "/ˈprezɪdənt/",
+   "zh": "总统；主席",
+   "icon": "president",
+   "atP": [
+    750,
+    850
+   ],
+   "at": [
+    1125,
+    790
+   ]
+  },
+  {
+   "id": "king",
+   "word": "king",
+   "ipa": "/kɪŋ/",
+   "zh": "国王",
+   "icon": "king",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    225,
+    790
+   ]
+  },
+  {
+   "id": "queen",
+   "word": "queen",
+   "ipa": "/kwiːn/",
+   "zh": "女王；王后",
+   "icon": "queen",
+   "atP": [
+    750,
+    500
+   ],
+   "at": [
+    675,
+    790
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "public",
+   "to": "republic",
+   "dashed": true
+  },
+  {
+   "from": "country",
+   "to": "republic"
+  },
+  {
+   "from": "country",
+   "to": "province"
+  },
+  {
+   "from": "country",
+   "to": "state",
+   "dashed": true
+  },
+  {
+   "from": "country",
+   "to": "capital"
+  },
+  {
+   "from": "country",
+   "to": "national"
+  },
+  {
+   "from": "country",
+   "to": "president"
+  },
+  {
+   "from": "country",
+   "to": "king",
+   "dashed": true
+  },
+  {
+   "from": "king",
+   "to": "queen"
+  },
+  {
+   "from": "country",
+   "to": "abroad",
+   "dashed": true
+  },
+  {
+   "from": "national",
+   "to": "matter",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！今天，我们来认识国家的更多知识！"
+    },
+    {
+     "en": "country"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:country",
+    "focus:country"
+   ],
+   "parts": [
+    {
+     "zh": "国家："
+    },
+    {
+     "en": "country"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:public",
+    "focus:public"
+   ],
+   "parts": [
+    {
+     "zh": "还记得第八十三集的公共的吗？"
+    },
+    {
+     "en": "public"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:republic",
+    "edge:public>republic",
+    "edge:country>republic",
+    "focus:republic"
+   ],
+   "parts": [
+    {
+     "zh": "共和国，英语是"
+    },
+    {
+     "en": "republic"
+    },
+    {
+     "zh": "仔细看，republic 里面藏着 public 哦。"
+    },
+    {
+     "en": "the People's Republic of China"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:province",
+    "edge:country>province",
+    "focus:province"
+   ],
+   "parts": [
+    {
+     "zh": "中国分成很多个省："
+    },
+    {
+     "en": "province"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:state",
+    "edge:country>state",
+    "focus:state"
+   ],
+   "parts": [
+    {
+     "zh": "美国分成五十个州："
+    },
+    {
+     "en": "state"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:capital",
+    "edge:country>capital",
+    "focus:capital"
+   ],
+   "parts": [
+    {
+     "zh": "一个国家的首都："
+    },
+    {
+     "en": "capital"
+    },
+    {
+     "en": "Beijing is the capital of China."
+    },
+    {
+     "zh": "它还有一个意思，是大写字母。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:national",
+    "edge:country>national",
+    "focus:national"
+   ],
+   "parts": [
+    {
+     "zh": "国家是 nation，加上 a l，就是国家的："
+    },
+    {
+     "en": "national"
+    },
+    {
+     "en": "the National Day"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:president",
+    "edge:country>president",
+    "focus:president"
+   ],
+   "parts": [
+    {
+     "zh": "有的国家的领导人，叫总统或主席："
+    },
+    {
+     "en": "president"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:king",
+    "edge:country>king",
+    "focus:king"
+   ],
+   "parts": [
+    {
+     "zh": "有的国家有国王："
+    },
+    {
+     "en": "king"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:queen",
+    "edge:king>queen",
+    "focus:queen"
+   ],
+   "parts": [
+    {
+     "zh": "还有女王或王后："
+    },
+    {
+     "en": "queen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:abroad",
+    "edge:country>abroad",
+    "focus:abroad"
+   ],
+   "parts": [
+    {
+     "zh": "去别的国家，是到国外："
+    },
+    {
+     "en": "abroad"
+    },
+    {
+     "en": "I want to study abroad."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:matter",
+    "edge:national>matter",
+    "focus:matter"
+   ],
+   "parts": [
+    {
+     "zh": "最后学一句常用语，问别人怎么了："
+    },
+    {
+     "en": "What's the matter?"
+    },
+    {
+     "zh": "matter 的意思是事情、要紧。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:king,queen"
+   ],
+   "parts": [
+    {
+     "zh": "国王和女王："
+    },
+    {
+     "en": "king",
+     "cue": [
+      "focus:king"
+     ]
+    },
+    {
+     "en": "queen",
+     "cue": [
+      "focus:queen"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:country"
+   ],
+   "parts": [
+    {
+     "en": "country"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:public"
+   ],
+   "parts": [
+    {
+     "en": "public"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:republic"
+   ],
+   "parts": [
+    {
+     "en": "republic"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:province"
+   ],
+   "parts": [
+    {
+     "en": "province"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:state"
+   ],
+   "parts": [
+    {
+     "en": "state"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:capital"
+   ],
+   "parts": [
+    {
+     "en": "capital"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:national"
+   ],
+   "parts": [
+    {
+     "en": "national"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:president"
+   ],
+   "parts": [
+    {
+     "en": "president"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:king"
+   ],
+   "parts": [
+    {
+     "en": "king"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:queen"
+   ],
+   "parts": [
+    {
+     "en": "queen"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:abroad"
+   ],
+   "parts": [
+    {
+     "en": "abroad"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:matter"
+   ],
+   "parts": [
+    {
+     "en": "matter"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！继续加油，用英语去认识更大的世界吧。点一点图上的单词，还能再听一遍发音哦。"
+    }
+   ]
+  }
+ ]
+}

@@ -151,3 +151,13 @@ ep04+ 的 `lesson.json` 由同目录的 `lesson.py` 生成（`python3 ep04/lesso
 | ep87 sweets | sweet sugar honey biscuit candy ice cream cake chocolate cream a little | 1:46 |
 | ep88 kitchen | cook prepare oven turn off pot boil lid cover bottle cap fill chopsticks bowl knife(knives) fork | 2:06 |
 | ep89 pain | hospital problem pale lie down bone broken pain hurt ache headache toothache stomachache backache | 2:06 |
+| ep90 disease | hospital cut burn awful blind deaf disabled disease prevent cancer drug weak operation treatment | 2:10 |
+| ep91 materials | material natural quality plastic glass silk wooden sand stone iron steel | 1:51 |
+| ep92 tools | tool use useful spare flashlight(torch) fix repair mend tape | 1:38 |
+| ep93 safety | safety careful careless drop danger dangerous accident notice realise(realize) fool foolish | 1:54 |
+| ep94 money | money coin cent note pound dollar change bill check(cheque) price cost pay(paid) spend(spent) | 2:04 |
+| ep95 environment | environment protection resolution pollution coal destroy control litter kill endangered remain prediction rise increase decrease | 2:09 |
+| ep96 Asia | continent Asia Asian China Chinese Japan Japanese South Korea Korean India Indian population infer | 2:05 |
+| ep97 Europe | Europe European Britain British England English Englishman France French Germany German Russia Russian Italy Italian | 1:55 |
+| ep98 countries | country(countries) value valuable wealth war international America American Australia Australian Africa African | 1:58 |
+| ep99 nation | country public republic province state capital national president king queen abroad matter | 1:49 |

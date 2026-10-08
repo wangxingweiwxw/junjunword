@@ -1,0 +1,712 @@
+{
+ "id": "ep94",
+ "title": "money",
+ "titleZh": "钱",
+ "episode": "第 94 集",
+ "titleIcon": "money",
+ "voices": {
+  "zh": {
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "rate": "-5%"
+  },
+  "en": {
+   "voice": "en-US-JennyNeural",
+   "rate": "-15%"
+  }
+ },
+ "stage": {
+  "landscape": [
+   1800,
+   940
+  ],
+  "portrait": [
+   900,
+   1620
+  ]
+ },
+ "nodes": [
+  {
+   "id": "money",
+   "word": "money",
+   "ipa": "/ˈmʌni/",
+   "zh": "钱",
+   "icon": "money",
+   "atP": [
+    450,
+    480
+   ],
+   "at": [
+    870,
+    470
+   ]
+  },
+  {
+   "id": "coin",
+   "word": "coin",
+   "ipa": "/kɔɪn/",
+   "zh": "硬币",
+   "icon": "coin",
+   "atP": [
+    150,
+    480
+   ],
+   "at": [
+    520,
+    470
+   ]
+  },
+  {
+   "id": "cent",
+   "word": "cent",
+   "ipa": "/sent/",
+   "zh": "分",
+   "icon": "cent",
+   "atP": [
+    150,
+    810
+   ],
+   "at": [
+    170,
+    470
+   ]
+  },
+  {
+   "id": "note",
+   "word": "note",
+   "ipa": "/noʊt/",
+   "zh": "纸币",
+   "icon": "note",
+   "atP": [
+    750,
+    480
+   ],
+   "at": [
+    1220,
+    470
+   ]
+  },
+  {
+   "id": "pound",
+   "word": "pound",
+   "ipa": "/paʊnd/",
+   "zh": "英镑",
+   "icon": "pound",
+   "atP": [
+    150,
+    1470
+   ],
+   "at": [
+    1570,
+    300
+   ]
+  },
+  {
+   "id": "dollar",
+   "word": "dollar",
+   "ipa": "/ˈdɑːlər/",
+   "zh": "美元",
+   "icon": "dollar",
+   "atP": [
+    450,
+    1470
+   ],
+   "at": [
+    1570,
+    640
+   ]
+  },
+  {
+   "id": "change",
+   "word": "change",
+   "ipa": "/tʃeɪndʒ/",
+   "zh": "零钱；找零",
+   "icon": "change",
+   "atP": [
+    450,
+    810
+   ],
+   "at": [
+    520,
+    790
+   ]
+  },
+  {
+   "id": "bill",
+   "word": "bill",
+   "ipa": "/bɪl/",
+   "zh": "账单",
+   "icon": "bill",
+   "atP": [
+    150,
+    1140
+   ],
+   "at": [
+    870,
+    790
+   ]
+  },
+  {
+   "id": "check",
+   "word": "check",
+   "ipa": "/tʃek/",
+   "zh": "支票",
+   "icon": "check",
+   "alt": "cheque",
+   "altLabel": "英式",
+   "atP": [
+    450,
+    1140
+   ],
+   "at": [
+    1220,
+    790
+   ]
+  },
+  {
+   "id": "price",
+   "word": "price",
+   "ipa": "/praɪs/",
+   "zh": "价格",
+   "icon": "price",
+   "atP": [
+    150,
+    150
+   ],
+   "at": [
+    170,
+    150
+   ]
+  },
+  {
+   "id": "cost",
+   "word": "cost",
+   "ipa": "/kɔːst/",
+   "zh": "花费",
+   "icon": "cost",
+   "kind": "verb",
+   "atP": [
+    450,
+    150
+   ],
+   "at": [
+    520,
+    150
+   ]
+  },
+  {
+   "id": "pay",
+   "word": "pay",
+   "ipa": "/peɪ/",
+   "zh": "付钱",
+   "icon": "pay",
+   "kind": "verb",
+   "alt": "paid",
+   "altLabel": "过去式",
+   "atP": [
+    750,
+    150
+   ],
+   "at": [
+    870,
+    150
+   ]
+  },
+  {
+   "id": "spend",
+   "word": "spend",
+   "ipa": "/spend/",
+   "zh": "花（钱）",
+   "icon": "spend",
+   "kind": "verb",
+   "alt": "spent",
+   "altLabel": "过去式",
+   "atP": [
+    750,
+    810
+   ],
+   "at": [
+    1220,
+    150
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "money",
+   "to": "coin"
+  },
+  {
+   "from": "coin",
+   "to": "cent"
+  },
+  {
+   "from": "money",
+   "to": "note"
+  },
+  {
+   "from": "note",
+   "to": "pound"
+  },
+  {
+   "from": "note",
+   "to": "dollar"
+  },
+  {
+   "from": "money",
+   "to": "change"
+  },
+  {
+   "from": "money",
+   "to": "bill"
+  },
+  {
+   "from": "money",
+   "to": "check"
+  },
+  {
+   "from": "price",
+   "to": "cost",
+   "dashed": true
+  },
+  {
+   "from": "pay",
+   "to": "spend",
+   "dashed": true
+  }
+ ],
+ "script": [
+  {
+   "cue": [
+    "title"
+   ],
+   "parts": [
+    {
+     "zh": "小朋友们好！还记得第四十八集的购物吗？今天，我们来学和钱有关的单词。"
+    },
+    {
+     "en": "money"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "map",
+    "show:money",
+    "focus:money"
+   ],
+   "parts": [
+    {
+     "zh": "钱，英语是"
+    },
+    {
+     "en": "money"
+    },
+    {
+     "zh": "钱不能数，不加 s 哦。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:coin",
+    "edge:money>coin",
+    "focus:coin"
+   ],
+   "parts": [
+    {
+     "zh": "圆圆的硬币："
+    },
+    {
+     "en": "coin"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cent",
+    "edge:coin>cent",
+    "focus:cent"
+   ],
+   "parts": [
+    {
+     "zh": "一美元有一百美分。美分，是"
+    },
+    {
+     "en": "cent"
+    },
+    {
+     "zh": "还记得第八十一集的 century 吗？一百年。"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:note",
+    "edge:money>note",
+    "focus:note"
+   ],
+   "parts": [
+    {
+     "zh": "纸做的钱，是纸币："
+    },
+    {
+     "en": "note"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pound",
+    "edge:note>pound",
+    "focus:pound"
+   ],
+   "parts": [
+    {
+     "zh": "英国用的钱，是英镑："
+    },
+    {
+     "en": "pound"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:dollar",
+    "edge:note>dollar",
+    "focus:dollar"
+   ],
+   "parts": [
+    {
+     "zh": "美国用的钱，是美元："
+    },
+    {
+     "en": "dollar"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:change",
+    "edge:money>change",
+    "focus:change"
+   ],
+   "parts": [
+    {
+     "zh": "买东西后找回的零钱："
+    },
+    {
+     "en": "change"
+    },
+    {
+     "en": "Here is your change."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:bill",
+    "edge:money>bill",
+    "focus:bill"
+   ],
+   "parts": [
+    {
+     "zh": "在餐厅吃完饭，服务员拿来账单："
+    },
+    {
+     "en": "bill"
+    },
+    {
+     "en": "Can I have the bill, please?"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:check",
+    "edge:money>check",
+    "focus:check"
+   ],
+   "parts": [
+    {
+     "zh": "写上金额就能付钱的，是支票："
+    },
+    {
+     "en": "check"
+    },
+    {
+     "zh": "英国写成",
+     "cue": [
+      "alt:check"
+     ]
+    },
+    {
+     "en": "cheque"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:price",
+    "focus:price"
+   ],
+   "parts": [
+    {
+     "zh": "东西卖多少钱，是价格："
+    },
+    {
+     "en": "price"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:cost",
+    "edge:price>cost",
+    "focus:cost"
+   ],
+   "parts": [
+    {
+     "zh": "东西要花多少钱，用"
+    },
+    {
+     "en": "cost"
+    },
+    {
+     "en": "This toy costs twenty yuan."
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:pay",
+    "edge:money>pay",
+    "focus:pay"
+   ],
+   "parts": [
+    {
+     "zh": "付钱，是"
+    },
+    {
+     "en": "pay"
+    },
+    {
+     "zh": "已经付了，要说",
+     "cue": [
+      "alt:pay"
+     ]
+    },
+    {
+     "en": "paid"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "show:spend",
+    "edge:pay>spend",
+    "focus:spend"
+   ],
+   "parts": [
+    {
+     "zh": "把钱花出去，是"
+    },
+    {
+     "en": "spend"
+    },
+    {
+     "zh": "已经花了，要说",
+     "cue": [
+      "alt:spend"
+     ]
+    },
+    {
+     "en": "spent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "来演一演买东西吧！"
+    }
+   ]
+  },
+  {
+   "cue": [],
+   "parts": [
+    {
+     "en": "How much does it cost?",
+     "cue": [
+      "focus:cost"
+     ]
+    },
+    {
+     "en": "I will pay with coins.",
+     "cue": [
+      "focus:pay,coin"
+     ]
+    },
+    {
+     "en": "Here is your change!",
+     "cue": [
+      "focus:change"
+     ]
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none"
+   ],
+   "parts": [
+    {
+     "zh": "最后，跟着我把今天的单词再读一遍吧！"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:money"
+   ],
+   "parts": [
+    {
+     "en": "money"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:coin"
+   ],
+   "parts": [
+    {
+     "en": "coin"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cent"
+   ],
+   "parts": [
+    {
+     "en": "cent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:note"
+   ],
+   "parts": [
+    {
+     "en": "note"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pound"
+   ],
+   "parts": [
+    {
+     "en": "pound"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:dollar"
+   ],
+   "parts": [
+    {
+     "en": "dollar"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:change"
+   ],
+   "parts": [
+    {
+     "en": "change"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:bill"
+   ],
+   "parts": [
+    {
+     "en": "bill"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:check"
+   ],
+   "parts": [
+    {
+     "en": "check, cheque"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:price"
+   ],
+   "parts": [
+    {
+     "en": "price"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:cost"
+   ],
+   "parts": [
+    {
+     "en": "cost"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:pay"
+   ],
+   "parts": [
+    {
+     "en": "pay, paid"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:spend"
+   ],
+   "parts": [
+    {
+     "en": "spend, spent"
+    }
+   ]
+  },
+  {
+   "cue": [
+    "focus:none",
+    "end"
+   ],
+   "parts": [
+    {
+     "zh": "太棒了！花钱要有计划，记得把零花钱存起来哦。点一点图上的单词，还能再听一遍发音。"
+    }
+   ]
+  }
+ ]
+}

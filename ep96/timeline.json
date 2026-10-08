@@ -1,0 +1,598 @@
+{
+ "duration": 125.209,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！我们一起去认识世界吧！第一站，就是我们所在的亚洲。",
+   "t0": 0.4,
+   "t1": 6.936,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "Asia",
+   "t0": 7.186,
+   "t1": 7.68,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "地球上的大块陆地，叫大洲：",
+   "t0": 8.78,
+   "t1": 11.234,
+   "cue": [
+    "map",
+    "show:continent",
+    "focus:continent"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "continent",
+   "t0": 11.484,
+   "t1": 12.206,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "地球上一共有七大洲。",
+   "t0": 12.706,
+   "t1": 14.586,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "最大的一个大洲，是亚洲：",
+   "t0": 15.436,
+   "t1": 17.629,
+   "cue": [
+    "show:asia",
+    "edge:continent>asia",
+    "focus:asia"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Asia",
+   "t0": 17.879,
+   "t1": 18.374,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "国家和大洲的名字，开头都要大写。",
+   "t0": 18.874,
+   "t1": 21.942,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "亚洲人，在后面加上 n：",
+   "t0": 22.792,
+   "t1": 24.875,
+   "cue": [
+    "show:asian",
+    "edge:asia>asian",
+    "focus:asian"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "Asian",
+   "t0": 25.125,
+   "t1": 25.658,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "我们的祖国，中国：",
+   "t0": 26.758,
+   "t1": 28.447,
+   "cue": [
+    "show:china",
+    "edge:asia>china",
+    "focus:china"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "China",
+   "t0": 28.697,
+   "t1": 29.201,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "中国人和中文，加上 e s e：",
+   "t0": 30.301,
+   "t1": 32.922,
+   "cue": [
+    "show:chinese",
+    "edge:china>chinese",
+    "focus:chinese"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "Chinese",
+   "t0": 33.172,
+   "t1": 33.898,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "I am Chinese. I speak Chinese.",
+   "t0": 34.398,
+   "t1": 37.833,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "日本：",
+   "t0": 38.933,
+   "t1": 39.406,
+   "cue": [
+    "show:japan",
+    "edge:asia>japan",
+    "focus:japan"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "Japan",
+   "t0": 39.656,
+   "t1": 40.294,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "日本人和日语，也加 e s e：",
+   "t0": 41.394,
+   "t1": 43.921,
+   "cue": [
+    "show:japanese",
+    "edge:japan>japanese",
+    "focus:japanese"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "Japanese",
+   "t0": 44.171,
+   "t1": 44.972,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "韩国：",
+   "t0": 46.072,
+   "t1": 46.6,
+   "cue": [
+    "show:southkorea",
+    "edge:asia>southkorea",
+    "focus:southkorea"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "South Korea",
+   "t0": 46.85,
+   "t1": 47.8,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "韩国人和韩语，加上 n：",
+   "t0": 48.9,
+   "t1": 51.041,
+   "cue": [
+    "show:korean",
+    "edge:southkorea>korean",
+    "focus:korean"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "Korean",
+   "t0": 51.291,
+   "t1": 51.865,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "I love Korean food.",
+   "t0": 52.365,
+   "t1": 53.703,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "印度：",
+   "t0": 54.803,
+   "t1": 55.294,
+   "cue": [
+    "show:india",
+    "edge:asia>india",
+    "focus:india"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "India",
+   "t0": 55.544,
+   "t1": 56.111,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "印度人，加上 n：",
+   "t0": 57.211,
+   "t1": 58.703,
+   "cue": [
+    "show:indian",
+    "edge:india>indian",
+    "focus:indian"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Indian",
+   "t0": 58.953,
+   "t1": 59.54,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "亚洲的人口特别多。人口，英语是",
+   "t0": 60.64,
+   "t1": 64.377,
+   "cue": [
+    "show:population",
+    "edge:asian>population",
+    "focus:population"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "population",
+   "t0": 64.627,
+   "t1": 65.571,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "中国和印度，都是人口很多的国家。",
+   "t0": 66.071,
+   "t1": 69.067,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "根据线索得出结论，是推断：",
+   "t0": 69.917,
+   "t1": 72.463,
+   "cue": [
+    "show:infer",
+    "edge:population>infer",
+    "focus:infer"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "infer",
+   "t0": 72.713,
+   "t1": 73.328,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "两个 e s e 结尾的：",
+   "t0": 74.428,
+   "t1": 76.084,
+   "cue": [
+    "focus:chinese,japanese"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "China, Chinese",
+   "t0": 76.334,
+   "t1": 77.707,
+   "cue": [
+    "focus:china,chinese"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "Japan, Japanese",
+   "t0": 78.207,
+   "t1": 79.817,
+   "cue": [
+    "focus:japan,japanese"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "三个加 n 的：",
+   "t0": 80.917,
+   "t1": 81.884,
+   "cue": [
+    "focus:asian,korean,indian"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Asia, Asian",
+   "t0": 82.134,
+   "t1": 83.325,
+   "cue": [
+    "focus:asia,asian"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "Korea, Korean",
+   "t0": 83.825,
+   "t1": 85.201,
+   "cue": [
+    "focus:southkorea,korean"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "India, Indian",
+   "t0": 85.701,
+   "t1": 87.008,
+   "cue": [
+    "focus:india,indian"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 88.108,
+   "t1": 91.358,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "continent",
+   "t0": 92.208,
+   "t1": 92.93,
+   "cue": [
+    "focus:continent"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "Asia",
+   "t0": 94.03,
+   "t1": 94.524,
+   "cue": [
+    "focus:asia"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "Asian",
+   "t0": 95.624,
+   "t1": 96.157,
+   "cue": [
+    "focus:asian"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "China",
+   "t0": 97.257,
+   "t1": 97.76,
+   "cue": [
+    "focus:china"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "Chinese",
+   "t0": 98.86,
+   "t1": 99.587,
+   "cue": [
+    "focus:chinese"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "Japan",
+   "t0": 100.687,
+   "t1": 101.325,
+   "cue": [
+    "focus:japan"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "Japanese",
+   "t0": 102.425,
+   "t1": 103.226,
+   "cue": [
+    "focus:japanese"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "South Korea",
+   "t0": 104.326,
+   "t1": 105.276,
+   "cue": [
+    "focus:southkorea"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "Korean",
+   "t0": 106.376,
+   "t1": 106.951,
+   "cue": [
+    "focus:korean"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "India",
+   "t0": 108.051,
+   "t1": 108.618,
+   "cue": [
+    "focus:india"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "Indian",
+   "t0": 109.718,
+   "t1": 110.305,
+   "cue": [
+    "focus:indian"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "population",
+   "t0": 111.405,
+   "t1": 112.349,
+   "cue": [
+    "focus:population"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "infer",
+   "t0": 113.449,
+   "t1": 114.064,
+   "cue": [
+    "focus:infer"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "zh",
+   "text": "太棒了！在地图上找一找亚洲的这些国家吧。点一点图上的单词，还能再听一遍发音哦。",
+   "t0": 115.164,
+   "t1": 123.359,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "continent": [
+   0.25,
+   0.972
+  ],
+  "asia": [
+   1.222,
+   1.716
+  ],
+  "asian": [
+   1.966,
+   2.498
+  ],
+  "population": [
+   2.748,
+   3.692
+  ],
+  "china": [
+   3.942,
+   4.446
+  ],
+  "chinese": [
+   4.696,
+   5.422
+  ],
+  "india": [
+   5.672,
+   6.239
+  ],
+  "indian": [
+   6.489,
+   7.077
+  ],
+  "japan": [
+   7.327,
+   7.965
+  ],
+  "japanese": [
+   8.215,
+   9.016
+  ],
+  "southkorea": [
+   9.266,
+   10.216
+  ],
+  "korean": [
+   10.466,
+   11.041
+  ],
+  "infer": [
+   11.291,
+   11.906
+  ]
+ }
+}

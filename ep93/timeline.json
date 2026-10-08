@@ -1,0 +1,532 @@
+{
+ "duration": 114.307,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！安全第一！今天，我们来学和安全有关的单词。",
+   "t0": 0.4,
+   "t1": 6.729,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "safety",
+   "t0": 6.979,
+   "t1": 7.626,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "安全的，是 safe，加上 t y，就是安全：",
+   "t0": 8.726,
+   "t1": 12.491,
+   "cue": [
+    "map",
+    "show:safety",
+    "focus:safety"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "safe",
+   "t0": 12.741,
+   "t1": 13.225,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "safety",
+   "t0": 13.725,
+   "t1": 14.371,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "Safety first!",
+   "t0": 14.871,
+   "t1": 15.901,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "做事小心，英语是",
+   "t0": 17.001,
+   "t1": 18.811,
+   "cue": [
+    "show:careful",
+    "edge:safety>careful",
+    "focus:careful"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "careful",
+   "t0": 19.061,
+   "t1": 19.646,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "Be careful!",
+   "t0": 20.146,
+   "t1": 20.928,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "把 f u l 换成 l e s s，就是粗心的。还记得第八十集的规律吗？",
+   "t0": 22.028,
+   "t1": 28.822,
+   "cue": [
+    "show:careless",
+    "edge:careful>careless",
+    "focus:careless"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "careless",
+   "t0": 29.072,
+   "t1": 29.734,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "一粗心，东西就掉了：",
+   "t0": 30.834,
+   "t1": 32.601,
+   "cue": [
+    "show:drop",
+    "edge:careless>drop",
+    "focus:drop"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "drop",
+   "t0": 32.851,
+   "t1": 33.26,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "I dropped the flashlight.",
+   "t0": 33.76,
+   "t1": 35.249,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "危险，英语是",
+   "t0": 36.349,
+   "t1": 37.84,
+   "cue": [
+    "show:danger",
+    "edge:careless>danger",
+    "focus:danger"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "danger",
+   "t0": 38.09,
+   "t1": 38.665,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "加上 o u s，就是危险的：",
+   "t0": 39.765,
+   "t1": 42.202,
+   "cue": [
+    "show:dangerous",
+    "edge:danger>dangerous",
+    "focus:dangerous"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "dangerous",
+   "t0": 42.452,
+   "t1": 43.182,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "Fire is dangerous.",
+   "t0": 43.682,
+   "t1": 44.998,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "意外发生的坏事，是事故：",
+   "t0": 46.098,
+   "t1": 48.419,
+   "cue": [
+    "show:accident",
+    "edge:danger>accident",
+    "focus:accident"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "accident",
+   "t0": 48.669,
+   "t1": 49.398,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "过马路时，要注意到来往的车。注意到，英语是",
+   "t0": 50.498,
+   "t1": 55.231,
+   "cue": [
+    "show:notice",
+    "edge:accident>notice",
+    "focus:notice"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "notice",
+   "t0": 55.481,
+   "t1": 56.121,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "它也是告示的意思。",
+   "t0": 56.621,
+   "t1": 58.077,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "突然明白过来，是意识到：",
+   "t0": 58.927,
+   "t1": 60.996,
+   "cue": [
+    "show:realise",
+    "edge:notice>realise",
+    "focus:realise"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "realise",
+   "t0": 61.246,
+   "t1": 62.007,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "在美国，写成",
+   "t0": 62.507,
+   "t1": 64.025,
+   "cue": [
+    "alt:realise"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "realize",
+   "t0": 64.275,
+   "t1": 65.037,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "做危险的事，就像个傻瓜：",
+   "t0": 66.137,
+   "t1": 68.371,
+   "cue": [
+    "show:fool",
+    "edge:safety>fool",
+    "focus:fool"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "fool",
+   "t0": 68.621,
+   "t1": 69.049,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "加上 i s h，就是愚蠢的：",
+   "t0": 70.149,
+   "t1": 72.745,
+   "cue": [
+    "show:foolish",
+    "edge:fool>foolish",
+    "focus:foolish"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "foolish",
+   "t0": 72.995,
+   "t1": 73.573,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "Don't be foolish.",
+   "t0": 74.073,
+   "t1": 75.153,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "小心和粗心：",
+   "t0": 76.253,
+   "t1": 77.395,
+   "cue": [
+    "focus:careful,careless"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "careful",
+   "t0": 77.645,
+   "t1": 78.23,
+   "cue": [
+    "focus:careful"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "careless",
+   "t0": 78.73,
+   "t1": 79.392,
+   "cue": [
+    "focus:careless"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 80.492,
+   "t1": 83.742,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "safety",
+   "t0": 84.592,
+   "t1": 85.239,
+   "cue": [
+    "focus:safety"
+   ]
+  },
+  {
+   "seg": 15,
+   "lang": "en",
+   "text": "careful",
+   "t0": 86.339,
+   "t1": 86.924,
+   "cue": [
+    "focus:careful"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "careless",
+   "t0": 88.024,
+   "t1": 88.686,
+   "cue": [
+    "focus:careless"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "en",
+   "text": "drop",
+   "t0": 89.786,
+   "t1": 90.194,
+   "cue": [
+    "focus:drop"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "danger",
+   "t0": 91.294,
+   "t1": 91.87,
+   "cue": [
+    "focus:danger"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "dangerous",
+   "t0": 92.97,
+   "t1": 93.7,
+   "cue": [
+    "focus:dangerous"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "accident",
+   "t0": 94.8,
+   "t1": 95.528,
+   "cue": [
+    "focus:accident"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "notice",
+   "t0": 96.628,
+   "t1": 97.268,
+   "cue": [
+    "focus:notice"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "realise, realize",
+   "t0": 98.368,
+   "t1": 100.063,
+   "cue": [
+    "focus:realise"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "fool",
+   "t0": 101.163,
+   "t1": 101.592,
+   "cue": [
+    "focus:fool"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "foolish",
+   "t0": 102.692,
+   "t1": 103.27,
+   "cue": [
+    "focus:foolish"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "zh",
+   "text": "太棒了！记住，安全第一，做事要小心哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 104.37,
+   "t1": 112.457,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "safety": [
+   0.25,
+   0.897
+  ],
+  "safety:alt": [
+   1.147,
+   1.63
+  ],
+  "careful": [
+   1.88,
+   2.465
+  ],
+  "careless": [
+   2.715,
+   3.377
+  ],
+  "drop": [
+   3.627,
+   4.036
+  ],
+  "danger": [
+   4.286,
+   4.861
+  ],
+  "dangerous": [
+   5.111,
+   5.841
+  ],
+  "accident": [
+   6.091,
+   6.819
+  ],
+  "notice": [
+   7.069,
+   7.709
+  ],
+  "realise": [
+   7.959,
+   8.721
+  ],
+  "realise:alt": [
+   8.971,
+   9.733
+  ],
+  "fool": [
+   9.983,
+   10.412
+  ],
+  "foolish": [
+   10.662,
+   11.24
+  ]
+ }
+}

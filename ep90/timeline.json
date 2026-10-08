@@ -1,0 +1,599 @@
+{
+ "duration": 129.828,
+ "parts": [
+  {
+   "seg": 0,
+   "lang": "zh",
+   "text": "小朋友们好！还记得第六十八集和第八十九集的生病吗？今天，我们学一些更严重的疾病和治疗。",
+   "t0": 0.4,
+   "t1": 9.688,
+   "cue": [
+    "title"
+   ]
+  },
+  {
+   "seg": 0,
+   "lang": "en",
+   "text": "disease",
+   "t0": 9.938,
+   "t1": 10.594,
+   "cue": []
+  },
+  {
+   "seg": 1,
+   "lang": "zh",
+   "text": "医院：",
+   "t0": 11.694,
+   "t1": 12.165,
+   "cue": [
+    "map",
+    "show:hospital",
+    "focus:hospital"
+   ]
+  },
+  {
+   "seg": 1,
+   "lang": "en",
+   "text": "hospital",
+   "t0": 12.415,
+   "t1": 13.079,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "zh",
+   "text": "不小心被刀割伤了：",
+   "t0": 14.179,
+   "t1": 15.708,
+   "cue": [
+    "show:cut",
+    "edge:hospital>cut",
+    "focus:cut"
+   ]
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "cut",
+   "t0": 15.958,
+   "t1": 16.42,
+   "cue": []
+  },
+  {
+   "seg": 2,
+   "lang": "en",
+   "text": "I cut my finger.",
+   "t0": 16.92,
+   "t1": 18.033,
+   "cue": []
+  },
+  {
+   "seg": 3,
+   "lang": "zh",
+   "text": "被热水烫伤、被火烧伤：",
+   "t0": 19.133,
+   "t1": 21.428,
+   "cue": [
+    "show:burn",
+    "edge:hospital>burn",
+    "focus:burn"
+   ]
+  },
+  {
+   "seg": 3,
+   "lang": "en",
+   "text": "burn",
+   "t0": 21.678,
+   "t1": 22.082,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "烫伤真是太糟糕了：",
+   "t0": 23.182,
+   "t1": 24.821,
+   "cue": [
+    "show:awful",
+    "edge:burn>awful",
+    "focus:awful"
+   ]
+  },
+  {
+   "seg": 4,
+   "lang": "en",
+   "text": "awful",
+   "t0": 25.071,
+   "t1": 25.558,
+   "cue": []
+  },
+  {
+   "seg": 4,
+   "lang": "zh",
+   "text": "还记得 terrible 吗？意思差不多。",
+   "t0": 26.058,
+   "t1": 29.211,
+   "cue": []
+  },
+  {
+   "seg": 5,
+   "lang": "zh",
+   "text": "眼睛看不见，是失明的：",
+   "t0": 30.061,
+   "t1": 32.104,
+   "cue": [
+    "show:blind",
+    "edge:hospital>blind",
+    "focus:blind"
+   ]
+  },
+  {
+   "seg": 5,
+   "lang": "en",
+   "text": "blind",
+   "t0": 32.354,
+   "t1": 32.828,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "耳朵听不见，是失聪的：",
+   "t0": 33.928,
+   "t1": 35.955,
+   "cue": [
+    "show:deaf",
+    "edge:blind>deaf",
+    "focus:deaf"
+   ]
+  },
+  {
+   "seg": 6,
+   "lang": "en",
+   "text": "deaf",
+   "t0": 36.205,
+   "t1": 36.667,
+   "cue": []
+  },
+  {
+   "seg": 6,
+   "lang": "zh",
+   "text": "e a 读短短的 e。",
+   "t0": 37.167,
+   "t1": 38.574,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "能够是 able，加上 d i s 和 e d，就是残疾的：",
+   "t0": 39.424,
+   "t1": 43.63,
+   "cue": [
+    "show:disabled",
+    "edge:deaf>disabled",
+    "edge:hospital>disabled",
+    "focus:disabled"
+   ]
+  },
+  {
+   "seg": 7,
+   "lang": "en",
+   "text": "disabled",
+   "t0": 43.88,
+   "t1": 44.576,
+   "cue": []
+  },
+  {
+   "seg": 7,
+   "lang": "zh",
+   "text": "我们要尊重和帮助残疾人。",
+   "t0": 45.076,
+   "t1": 47.211,
+   "cue": []
+  },
+  {
+   "seg": 8,
+   "lang": "zh",
+   "text": "身体得的病，是疾病：",
+   "t0": 48.061,
+   "t1": 50.005,
+   "cue": [
+    "show:disease",
+    "edge:disabled>disease",
+    "focus:disease"
+   ]
+  },
+  {
+   "seg": 8,
+   "lang": "en",
+   "text": "disease",
+   "t0": 50.255,
+   "t1": 50.912,
+   "cue": []
+  },
+  {
+   "seg": 9,
+   "lang": "zh",
+   "text": "多运动、讲卫生，可以预防疾病：",
+   "t0": 52.012,
+   "t1": 54.915,
+   "cue": [
+    "show:prevent",
+    "edge:prevent>disease",
+    "focus:prevent"
+   ]
+  },
+  {
+   "seg": 9,
+   "lang": "en",
+   "text": "prevent",
+   "t0": 55.165,
+   "t1": 55.774,
+   "cue": []
+  },
+  {
+   "seg": 10,
+   "lang": "zh",
+   "text": "一种很严重的病，叫癌症：",
+   "t0": 56.874,
+   "t1": 59.112,
+   "cue": [
+    "show:cancer",
+    "edge:disease>cancer",
+    "focus:cancer"
+   ]
+  },
+  {
+   "seg": 10,
+   "lang": "en",
+   "text": "cancer",
+   "t0": 59.362,
+   "t1": 59.976,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "医生用药物来治病：",
+   "t0": 61.076,
+   "t1": 62.701,
+   "cue": [
+    "show:drug",
+    "edge:drug>cancer",
+    "focus:drug"
+   ]
+  },
+  {
+   "seg": 11,
+   "lang": "en",
+   "text": "drug",
+   "t0": 62.951,
+   "t1": 63.391,
+   "cue": []
+  },
+  {
+   "seg": 11,
+   "lang": "zh",
+   "text": "药物一定要听医生的话吃。",
+   "t0": 63.891,
+   "t1": 65.875,
+   "cue": []
+  },
+  {
+   "seg": 12,
+   "lang": "zh",
+   "text": "生了重病，身体很虚弱。还记得第十五集的 weak 吗？",
+   "t0": 66.725,
+   "t1": 71.544,
+   "cue": [
+    "show:weak",
+    "edge:cancer>weak",
+    "focus:weak"
+   ]
+  },
+  {
+   "seg": 12,
+   "lang": "en",
+   "text": "weak",
+   "t0": 71.794,
+   "t1": 72.215,
+   "cue": []
+  },
+  {
+   "seg": 13,
+   "lang": "zh",
+   "text": "有时候，医生要给病人做手术：",
+   "t0": 73.315,
+   "t1": 75.964,
+   "cue": [
+    "show:operation",
+    "focus:operation"
+   ]
+  },
+  {
+   "seg": 13,
+   "lang": "en",
+   "text": "operation",
+   "t0": 76.214,
+   "t1": 77.061,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "zh",
+   "text": "治病的方法，是治疗。还记得 treat 吗？加上 m e n t：",
+   "t0": 78.161,
+   "t1": 83.958,
+   "cue": [
+    "show:treatment",
+    "edge:operation>treatment",
+    "edge:treatment>disease",
+    "focus:treatment"
+   ]
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "treat",
+   "t0": 84.208,
+   "t1": 84.692,
+   "cue": []
+  },
+  {
+   "seg": 14,
+   "lang": "en",
+   "text": "treatment",
+   "t0": 85.192,
+   "t1": 85.869,
+   "cue": []
+  },
+  {
+   "seg": 15,
+   "lang": "zh",
+   "text": "祝大家都健健康康！",
+   "t0": 86.969,
+   "t1": 88.588,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 16,
+   "lang": "en",
+   "text": "Prevention is better than cure.",
+   "t0": 89.438,
+   "t1": 91.191,
+   "cue": [
+    "focus:prevent"
+   ]
+  },
+  {
+   "seg": 17,
+   "lang": "zh",
+   "text": "最后，跟着我把今天的单词再读一遍吧！",
+   "t0": 92.291,
+   "t1": 95.541,
+   "cue": [
+    "focus:none"
+   ]
+  },
+  {
+   "seg": 18,
+   "lang": "en",
+   "text": "hospital",
+   "t0": 96.391,
+   "t1": 97.056,
+   "cue": [
+    "focus:hospital"
+   ]
+  },
+  {
+   "seg": 19,
+   "lang": "en",
+   "text": "cut",
+   "t0": 98.156,
+   "t1": 98.617,
+   "cue": [
+    "focus:cut"
+   ]
+  },
+  {
+   "seg": 20,
+   "lang": "en",
+   "text": "burn",
+   "t0": 99.717,
+   "t1": 100.122,
+   "cue": [
+    "focus:burn"
+   ]
+  },
+  {
+   "seg": 21,
+   "lang": "en",
+   "text": "awful",
+   "t0": 101.222,
+   "t1": 101.71,
+   "cue": [
+    "focus:awful"
+   ]
+  },
+  {
+   "seg": 22,
+   "lang": "en",
+   "text": "blind",
+   "t0": 102.81,
+   "t1": 103.284,
+   "cue": [
+    "focus:blind"
+   ]
+  },
+  {
+   "seg": 23,
+   "lang": "en",
+   "text": "deaf",
+   "t0": 104.384,
+   "t1": 104.846,
+   "cue": [
+    "focus:deaf"
+   ]
+  },
+  {
+   "seg": 24,
+   "lang": "en",
+   "text": "disabled",
+   "t0": 105.946,
+   "t1": 106.642,
+   "cue": [
+    "focus:disabled"
+   ]
+  },
+  {
+   "seg": 25,
+   "lang": "en",
+   "text": "disease",
+   "t0": 107.742,
+   "t1": 108.398,
+   "cue": [
+    "focus:disease"
+   ]
+  },
+  {
+   "seg": 26,
+   "lang": "en",
+   "text": "prevent",
+   "t0": 109.498,
+   "t1": 110.107,
+   "cue": [
+    "focus:prevent"
+   ]
+  },
+  {
+   "seg": 27,
+   "lang": "en",
+   "text": "cancer",
+   "t0": 111.207,
+   "t1": 111.82,
+   "cue": [
+    "focus:cancer"
+   ]
+  },
+  {
+   "seg": 28,
+   "lang": "en",
+   "text": "drug",
+   "t0": 112.92,
+   "t1": 113.361,
+   "cue": [
+    "focus:drug"
+   ]
+  },
+  {
+   "seg": 29,
+   "lang": "en",
+   "text": "weak",
+   "t0": 114.461,
+   "t1": 114.882,
+   "cue": [
+    "focus:weak"
+   ]
+  },
+  {
+   "seg": 30,
+   "lang": "en",
+   "text": "operation",
+   "t0": 115.982,
+   "t1": 116.829,
+   "cue": [
+    "focus:operation"
+   ]
+  },
+  {
+   "seg": 31,
+   "lang": "en",
+   "text": "treatment",
+   "t0": 117.929,
+   "t1": 118.607,
+   "cue": [
+    "focus:treatment"
+   ]
+  },
+  {
+   "seg": 32,
+   "lang": "zh",
+   "text": "太棒了！多运动、讲卫生，就能远离疾病哦。点一点图上的单词，还能再听一遍发音。",
+   "t0": 119.707,
+   "t1": 127.978,
+   "cue": [
+    "focus:none",
+    "end"
+   ]
+  }
+ ],
+ "words": {
+  "hospital": [
+   0.25,
+   0.914
+  ],
+  "cut": [
+   1.164,
+   1.626
+  ],
+  "burn": [
+   1.876,
+   2.281
+  ],
+  "awful": [
+   2.531,
+   3.018
+  ],
+  "blind": [
+   3.268,
+   3.743
+  ],
+  "deaf": [
+   3.993,
+   4.455
+  ],
+  "disabled": [
+   4.705,
+   5.401
+  ],
+  "disabled:alt": [
+   5.651,
+   6.081
+  ],
+  "disease": [
+   6.331,
+   6.987
+  ],
+  "cancer": [
+   7.237,
+   7.85
+  ],
+  "prevent": [
+   8.1,
+   8.709
+  ],
+  "drug": [
+   8.959,
+   9.399
+  ],
+  "weak": [
+   9.649,
+   10.071
+  ],
+  "operation": [
+   10.321,
+   11.168
+  ],
+  "treatment": [
+   11.418,
+   12.095
+  ],
+  "treatment:alt": [
+   12.345,
+   12.829
+  ]
+ }
+}
